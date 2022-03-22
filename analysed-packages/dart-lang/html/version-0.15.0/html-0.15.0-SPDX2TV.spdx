@@ -1,0 +1,1314 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://356501fde679/repo/SPDX2TV_html-0.15.0.zip_1647966629.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: spdx2
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+The BSD-3-Clause licenses are "individualized" licenses.
+The LICENSE file in the test/selectors subdirectory contains an internet link to license information.
+The authors were extracted from the LICENSE file in the root directory.
+</text>
+Created: 2022-03-22T16:30:29Z
+LicenseListVersion: 2.6
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: html-0.15.0.zip
+PackageFileName: html-0.15.0.zip
+SPDXID: SPDXRef-upload8
+PackageDownloadLocation: https://github.com/dart-lang/html/archive/refs/tags/0.15.0.zip
+PackageVerificationCode: a390d20635b2022d6a2908fceaae1e6fe2a47725
+PackageChecksum: SHA1: 8d7d9d1b0910bf3cd5d212722cba2f975aa18af9
+PackageChecksum: SHA256: 9ae3f475c74abbf44670dbbb706f9feb6cf50b2032fee6a2a7b899c840c2c3ff
+PackageChecksum: MD5: 416a3685408306563a69f0883c84b06c
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("unknown".1cfbe7)
+ - monk ("unknown".1cfbe7)
+ - ojo ("unknown".1cfbe7) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload8
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/selectors/LICENSE
+SPDXID: SPDXRef-item7353
+FileChecksum: SHA1: 7fbbb6eb252aa0306c0c407086125154790ac743
+FileChecksum: SHA256: 184f52218c6188f0f634475678ecfa7767e200ba67101068a3b19db4a8849ece
+FileChecksum: MD5: d516b439b2fd4dfbf1a89c3430135160
+LicenseConcluded: LicenseRef-BSD-3-Clause-83ba61362038d4d2482678e8e0b8a6b1 OR LicenseRef-W3C-Test-Suite-Licence
+LicenseComments: <text>(The information in the file is:
+The original code is covered by the dual-licensing approach described in:
+
+    http://www.w3.org/Consortium/Legal/2008/04-testsuite-copyright.html
+
+Visiting the provided link displayed:
+
+"Licenses for distribution of W3C Test Suites should satisfy two goals:
+
+Enable developers to use test cases easily, and promote software development and bugtracking.
+Enable a W3C Working Group to create a branded, "Authoritative W3C Test Suite" to reflect the group consensus process, and to promote interoperability and stability of performance claims.
+To achieve these goals, W3C makes available Test Suites under two distinct licenses for two mutually exclusive uses:
+
+a 3-clause BSD License for software development, bugtracking, and other applications that do not require assertions of performance to the public or implied claims of conformance to a W3C Specification. See summary of 3-clause BSD License.
+a W3C Test Suite License for an Authoritative W3C Test Suite or when claims of performance with respect to a specification are required. See summary of W3C Test Suite License.
+The choice of license is up to the licensee for every single use of tests from a W3C Test Suite. It will typically depend on usage requirements: the first one allows changes, the second does not. See below for how to use the licenses."
+
+The links of the linses were vitisted and diplayed the following information: 
+
+https://www.w3.org/Consortium/Legal/2008/03-bsd-license.html
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of works must retain the original copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the original copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of the W3C nor the names of its contributors may be used to endorse or promote products derived from this work without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+https://www.w3.org/Consortium/Legal/2008/04-testsuite-license.html
+
+This document, Test Suites and other documents that link to this statement are provided by the copyright holders under the following license: By using and/or copying this document, or the W3C document from which this statement is linked, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions:
+
+Permission to copy, and distribute the contents of this document, or the W3C document from which this statement is linked, in any medium for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the document, or portions thereof, that you use:
+
+A link or URL to the original W3C document.
+The pre-existing copyright notice of the original author, or if it doesn't exist, a notice (hypertext is preferred, but a textual representation is permitted) of the form: "Copyright © [$date-of-document] World Wide Web Consortium, (MIT, ERCIM, Keio, Beihang) and others. All Rights Reserved. http://www.w3.org/Consortium/Legal/2008/04-testsuite-copyright.html"
+If it exists, the STATUS of the W3C document.
+When space permits, inclusion of the full text of this NOTICE should be provided. We request that authorship attribution be provided in any software, documents, or other items or products that you create pursuant to the implementation of the contents of this document, or any portion thereof.
+
+No right to create modifications or derivatives of W3C documents is granted pursuant to this license. However, if additional requirements (documented in the Copyright FAQ) are satisfied, the right to create modifications or derivatives is sometimes granted by the W3C to individuals complying with those requirements.
+
+If a Test Suite distinguishes the test harness (or, framework for navigation) and the actual tests, permission is given to remove or alter the harness or navigation if the Test Suite in question allows to do so. The tests themselves shall NOT be changed in any way.
+
+The name and trademarks of W3C and other copyright holders may NOT be used in advertising or publicity pertaining to this document or other documents that link to this statement without specific, written prior permission. Title to copyright in this document will at all times remain with copyright holders. Permission is given to use the trademarked string W3C within claims of performance concerning W3C Specifications or features described therein, and there only, if the test suite so authorizes.
+
+THIS WORK IS PROVIDED BY W3C, MIT, ERCIM, KEIO, BEIHANG, THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL W3C, MIT, ERCIM, KEIO, BEIHANG, THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Evaluated on 22nd of March 2022) OR NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-W3C-IP
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/LICENSE
+SPDXID: SPDXRef-item7379
+FileChecksum: SHA1: 73475f01b10209137cbcfe121febc948e2a18f62
+FileChecksum: SHA256: b352fb74bd29840ab02a676926bda3a2e65ff58f2a4aff25914679c78ddb8a99
+FileChecksum: MD5: 441d67fbbdb9bbad897e48a9f76cf814
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (c) 2006-2012 The Authors:  James Graham - jg307@cam.ac.uk Anne van Kesteren - annevankesteren@gmail.com Lachlan Hunt - lachlan.hunt@lachy.id.au Matt McDonald - kanashii@kanashii.ca Sam Ruby - rubys@intertwingly.net Ian Hickson (Google) - ian@hixie.ch Thomas Broyer - t.broyer@ltgt.net Jacques Distler - distler@golem.ph.utexas.edu Henri Sivonen - hsivonen@iki.fi Adam Barth - abarth@webkit.org Eric Seidel - eric@webkit.org The Mozilla Foundation (contributions from Henri Sivonen since 2008) David Flanagan (Mozilla) - dflanagan@mozilla.com Google Inc. (contributed the Dart port) - misc@dartlang.org </text>
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/css_class_set.dart
+SPDXID: SPDXRef-item7366
+FileChecksum: SHA1: 7d2dad7059ab6cfcc414ac0bab0d2183f1f4b9e9
+FileChecksum: SHA256: 4b65208b58bb0340f8e071c200d3948584cac3a211f10d7d61adeb6f028938d2
+FileChecksum: MD5: 513990ceb79a35a9873701dc69c7ab13
+LicenseConcluded: LicenseRef-BSD-3-Clause-352ddb79d4020c9e8abff983e4088f84
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2014, the Dart project authors.  </text>
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/README.md
+SPDXID: SPDXRef-item7277
+FileChecksum: SHA1: b36344bae96300b6e4273a0635a1179e6879132e
+FileChecksum: SHA256: 9e71bef43ff7bc5530ff5ae70cf1d752e26c202427772fe61de57ff6eeaa3d35
+FileChecksum: MD5: 3dec38d0931ea14bef0d29bfe1ed5718
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/tokenizer_test.dart
+SPDXID: SPDXRef-item7279
+FileChecksum: SHA1: 96d48e502a236d8e9e9ed9e5659a3a1950c3c137
+FileChecksum: SHA256: 2c3651b4ff465b54af8f90bb61f091b013d91fb0a3a0d6d5f02e9d7a28965b26
+FileChecksum: MD5: bbfe09fdb02be75a454f3f64597242ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests_innerHTML_1.dat
+SPDXID: SPDXRef-item7282
+FileChecksum: SHA1: b833dfdb96281a4278d086f2fd6ee8efcf6b816c
+FileChecksum: SHA256: 0a69ca30b5207607b37f56424184b0345faf5973bd86e24e2f5164e3e983edd8
+FileChecksum: MD5: 9aa18474af8e112006795bb1dcee73c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests9.dat
+SPDXID: SPDXRef-item7283
+FileChecksum: SHA1: aacc3803e59c2f8dcc596f7d78309e926b1abaae
+FileChecksum: SHA256: b4acdf2833107af127fcc47d396af47f147f0cc6c445c33a36ae4c2df0cf521c
+FileChecksum: MD5: a1b3e6fc5c16dd22d7be2d96b465feb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests19.dat
+SPDXID: SPDXRef-item7284
+FileChecksum: SHA1: f425496c96b2ad8c9e3448328e299cf2c03bdb6b
+FileChecksum: SHA256: 7feaca5bdca560b2799bd250da8c00348db689ed121d6792645d900001186818
+FileChecksum: MD5: d25528cf52db539cda1cfa63bdf91c71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests6.dat
+SPDXID: SPDXRef-item7285
+FileChecksum: SHA1: 5c1e3eca81a421e004868b2be067c59eb64ce0f8
+FileChecksum: SHA256: 5b6af9446d749358448b0523d5b9fe5aa3d53ca2910eaad7991588e9a707e4a4
+FileChecksum: MD5: 60ec4d0ab544f3b1bd4ffe698af1e5f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/isindex.dat
+SPDXID: SPDXRef-item7286
+FileChecksum: SHA1: 35150ba0e2a10ee3ec9e90226b1918cc925dc53a
+FileChecksum: SHA256: 1aef6f007462ab849fde00007d96a35e72bb63537fbf2c3cb6aeb1b36d5a9434
+FileChecksum: MD5: 6f0b929374695e754ac6d3b49e96a0f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/pending-spec-changes.dat
+SPDXID: SPDXRef-item7287
+FileChecksum: SHA1: d6d7e4a8fcabe248398f38a8851255032c563100
+FileChecksum: SHA256: 6087fefa83e8845522137287836a2c8a63b45d601fe1b4e142716d1fe0affafc
+FileChecksum: MD5: 08019dc4df428de1db8580f94990ddec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests3.dat
+SPDXID: SPDXRef-item7288
+FileChecksum: SHA1: ba0de70c79bb7d0e75445e84b03022a6dce7ecdc
+FileChecksum: SHA256: fc272622b260e880730b4300813979880b763e257f7ca36dfbe21c0ee52d5e1c
+FileChecksum: MD5: a7c3d847b65983ed23c1dc9e18b8bf55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/html5test-com.dat
+SPDXID: SPDXRef-item7289
+FileChecksum: SHA1: dc20b67f5dddb1c510bcd0ed897bb4360ef4a5eb
+FileChecksum: SHA256: 33c77b0ac689da0a5d54f636211e16e946af0843c4182bd4390feed8e4ca8bdc
+FileChecksum: MD5: 33106b86f5ea42c700b7741cd06c4d4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests10.dat
+SPDXID: SPDXRef-item7290
+FileChecksum: SHA1: 1eb200806dfea18342685ca1e7a2420ef7a8bbb3
+FileChecksum: SHA256: 1bfd6777a042730d7f3387a1d989d4c9b48cda61a32ae735aa42f3b43a144ac4
+FileChecksum: MD5: a3652deef50ac48c0628ed00e547ca2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/adoption01.dat
+SPDXID: SPDXRef-item7291
+FileChecksum: SHA1: 69898621c4b7805869227c5e0a582efa08bac9f1
+FileChecksum: SHA256: 877c1ddc166541e7e9197ed5c063aa5d2401d28b678d4b73673b0f42578c1e3d
+FileChecksum: MD5: c674ddf94fec9d706018ef05dc910f7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/comments01.dat
+SPDXID: SPDXRef-item7292
+FileChecksum: SHA1: 09bfabd914faef1da9447645502ffccc45ad0eed
+FileChecksum: SHA256: 5f065fd632e6796a497b196fea2952f4d17c3271619ee6eb3f3c0e626ec257be
+FileChecksum: MD5: 6209a34099c6807628f1e8e3c0132527
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests2.dat
+SPDXID: SPDXRef-item7293
+FileChecksum: SHA1: e41f1c5cb3732712f0866aeb5bcc8e04ccc2892c
+FileChecksum: SHA256: 5529aa4182185407ed74d729bf6b0439f4e9e5bb2fb8ea1aeeda7226e9aa9487
+FileChecksum: MD5: 7b7aa54cbc4bdcb56f4e216f567a59cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tables01.dat
+SPDXID: SPDXRef-item7294
+FileChecksum: SHA1: 9ddf73a229514e33af1d15ad8bd444d376f5d9b5
+FileChecksum: SHA256: ba8b2c014c2e9fb1eb34b6521b6c397582b4042f06a4de06e853eeebaafb56da
+FileChecksum: MD5: 38618c25daab1cca72baa79f8330754f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests17.dat
+SPDXID: SPDXRef-item7295
+FileChecksum: SHA1: 8ed6c24f5fef57a5235a6dd2063e92262d55d27f
+FileChecksum: SHA256: cc195bd6219d5eeab089a70680a25af9dd84dccc0fb7553faf1656a6345541fc
+FileChecksum: MD5: 5e12546a1ded2504e0761717131668cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests25.dat
+SPDXID: SPDXRef-item7296
+FileChecksum: SHA1: f2d17949f7332395f553db1556cbf1f9ffadac59
+FileChecksum: SHA256: a218bb0cc22ee4b9e04b28bf4e6657779d6c3a40e484879ad1628c07aba1e5f9
+FileChecksum: MD5: e97fe77d6d0da8e4432edc2d77a115c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/plain-text-unsafe.dat
+SPDXID: SPDXRef-item7297
+FileChecksum: SHA1: bfa9e8466f05c3f458ce98103f43b024806e318d
+FileChecksum: SHA256: 170431e1bb402259dfb6abd987b2cf34d6f5c3c26a1b882f046bd1d389ad6a8f
+FileChecksum: MD5: f020a327bda661a57dc4416cc87e36fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests4.dat
+SPDXID: SPDXRef-item7298
+FileChecksum: SHA1: a8c1f8ebf5886b0df5002a8f69ceb2405c60c66a
+FileChecksum: SHA256: b24985dc5cd48468221e365dbf18f1dc9b1743c58086aaf1c47191ccb2faff3f
+FileChecksum: MD5: ebaa4878bf619e24fe2d6107d34e5deb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests8.dat
+SPDXID: SPDXRef-item7299
+FileChecksum: SHA1: 532f635a6b431cbcac37cb9189c1a5a58790b2c0
+FileChecksum: SHA256: fbf40bddf189d97abea886cf525b99b64db1683bfe64b621c2cf9a570af66b67
+FileChecksum: MD5: e120c2db4594e470c96f8e2042ed16ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests7.dat
+SPDXID: SPDXRef-item7300
+FileChecksum: SHA1: 1a23bbac97d6bf0c34b5d67957183ab001a5a7b0
+FileChecksum: SHA256: 4de7c4ada88a5dd5f0c1d13b81bbe4213569c5911a6a4272347f306638e751ba
+FileChecksum: MD5: a0ef7f8dbe8ff22f0e93e1714a5ef1ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests22.dat
+SPDXID: SPDXRef-item7301
+FileChecksum: SHA1: 96374cc1c7376924dae67b457c15bb5c4c84fead
+FileChecksum: SHA256: 8a6fa8041caa6b93538424a89377763957b12132cac38bbfcb5d404ddbc91a5f
+FileChecksum: MD5: 8526d992d85d21771cf5f515acc3a3bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/regression_tests.dat
+SPDXID: SPDXRef-item7302
+FileChecksum: SHA1: 2aba7dad0805823e0dde48fa16a8c74bc8bc0da7
+FileChecksum: SHA256: b9c56887744dbdf99e2f54974d8143a42fa9d30d3d7368ca8ab93012abd760fd
+FileChecksum: MD5: d6b0b2b6f9c2c97af219e670667a4f78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/webkit02.dat
+SPDXID: SPDXRef-item7303
+FileChecksum: SHA1: 42bfb8fbb4aea358f6ab4691c8e143a7bff5357c
+FileChecksum: SHA256: eb4745d675b109bbd84abec99286b471d751a6cc7be708254149dda61322f0fa
+FileChecksum: MD5: 70611b1777ff890a12e419644c40b7aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests24.dat
+SPDXID: SPDXRef-item7304
+FileChecksum: SHA1: bc2d3e6e8a28acee60e4239db78c5c5516f91fd7
+FileChecksum: SHA256: fdd5c21f60f42235ded224a03e7182d289088328f460525adaf3c14e772a24ac
+FileChecksum: MD5: 9b9e34bfc30a0c621550c738958fa1b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests20.dat
+SPDXID: SPDXRef-item7305
+FileChecksum: SHA1: 06e13e6e717fcc691fa4b1b51d6cf6adb6a7ee6c
+FileChecksum: SHA256: c14228cae841cdd24e349fdf9a5195d1633fd4d4c81cf3f8c06f8a7bd21d79a9
+FileChecksum: MD5: 3932cd3693879fd62be16016f6a04b61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/entities02.dat
+SPDXID: SPDXRef-item7306
+FileChecksum: SHA1: 294f7e6b17472f76dd25f70baf3aeec77fcad92f
+FileChecksum: SHA256: 24f3084af8cb63d67fd6521ef2599a010a2ce03f7ba110ab5e762b31ad07693f
+FileChecksum: MD5: 2e5649adb77113a15483d53c9b40a90a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests12.dat
+SPDXID: SPDXRef-item7307
+FileChecksum: SHA1: a4d6e45d8672bbced4e0263c7d45e430411d3daa
+FileChecksum: SHA256: e6c506cea74979a0d6ca47f6b175c7b6177d6e57db708920a89694e31dfd8a42
+FileChecksum: MD5: b1c48d4244e69630d51dd2dcb2fbcf15
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/webkit01.dat
+SPDXID: SPDXRef-item7308
+FileChecksum: SHA1: 202c121b8890c4b1fc4310cb43ba85b17500b732
+FileChecksum: SHA256: e65ac7465c7d251d675acf749fe22a77cd7116a55e523064cbd3b9d1026a3b60
+FileChecksum: MD5: f2288e378a35aac988af26f4446a5028
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/domjs-unsafe.dat
+SPDXID: SPDXRef-item7309
+FileChecksum: SHA1: e6e5a36404f093cdf57d3cf360a96f34412bfd0d
+FileChecksum: SHA256: be42fa76a59f42791d37aef18a732ecd1aeebe44a82073939b699856f81048ad
+FileChecksum: MD5: 884f9d0dae1b10e794ba4cd1e53f81f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests14.dat
+SPDXID: SPDXRef-item7310
+FileChecksum: SHA1: b008f25560c67805dac61d4fabe34abfbeffd4b8
+FileChecksum: SHA256: 3d84604685cf32f1219630771f3dda94b75de036ada6a03737ed86c94b9de87e
+FileChecksum: MD5: 389eb02e94cde6c0a6d1f48f4c2f8f65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/scriptdata01.dat
+SPDXID: SPDXRef-item7311
+FileChecksum: SHA1: 3d98f51cd13989a52f0056b1345052a42bc6d322
+FileChecksum: SHA256: e15bfd60984254475748b219213e827a0dcf56f06b375156a00d3b3ac2361150
+FileChecksum: MD5: 8a60b5fbaccb4756df2d862d70162bd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests1.dat
+SPDXID: SPDXRef-item7312
+FileChecksum: SHA1: 1881f98a139798f8f7ba88d61bf3cc83c947c156
+FileChecksum: SHA256: b0bf176f1ef02d2e15ee96ea1fd5798d1c487004afd3955945c66743c526c73d
+FileChecksum: MD5: 7e16047b93dc2dd15aa371f871cd8b5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests5.dat
+SPDXID: SPDXRef-item7313
+FileChecksum: SHA1: c52a4e03cf207bfd21db35033319942a4cad8495
+FileChecksum: SHA256: 4b8c3f495bf06895b4ddb8ed87798ac2c69d9c60785c30534b3b14822407abaf
+FileChecksum: MD5: ee1588dc24e363af67a13b42ffc5aace
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests21.dat
+SPDXID: SPDXRef-item7314
+FileChecksum: SHA1: 8913ac300703dd2da9559847346ecb1f0e9a62d2
+FileChecksum: SHA256: 3ee6ea3e6db7bdcc3a37cf565d08f09c5d86102f2999fc4eb037bbcf12925451
+FileChecksum: MD5: bac362931ff08ef6a4f674723b983f2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests23.dat
+SPDXID: SPDXRef-item7315
+FileChecksum: SHA1: 73b86bc207596a884cfecda33bf76e338fd6baed
+FileChecksum: SHA256: 0a0d5356e6864a0fd5830ac4d47c476b73406de19eca53bea51d294789d14440
+FileChecksum: MD5: de867ada8c68f51a22b80448c29f2022
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests26.dat
+SPDXID: SPDXRef-item7316
+FileChecksum: SHA1: 4f94c0d875f7fb73fbccd9ec3d01f70b8b4ac246
+FileChecksum: SHA256: 198c495a95094218ddf66d43345d77cb74e31de17253e3276acd7a7fbaac9499
+FileChecksum: MD5: db55ea2f968dc4e28989a07ce901d1e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/scripted/adoption01.dat
+SPDXID: SPDXRef-item7318
+FileChecksum: SHA1: 2785ff3daee2434a396e33ba3a2e0b454a2cad29
+FileChecksum: SHA256: 384062f5eea31dfcea144ce4ba6b51e667ea7482b2b1807ea39a7c8af5952902
+FileChecksum: MD5: bfd8a34278a22a1495f8d7640c501452
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/scripted/webkit01.dat
+SPDXID: SPDXRef-item7319
+FileChecksum: SHA1: b67d186fd109193406c916bc3a07035db760ef2a
+FileChecksum: SHA256: a792b5eb910ccfd7e69271e96afc7482a6c0ab4f59ce26f60364c562184c9b68
+FileChecksum: MD5: 084aae3e2d570fb2638e9e4583eb39d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/scripted/ark.dat
+SPDXID: SPDXRef-item7320
+FileChecksum: SHA1: b09e7cc786c2c38b3c25c8f7e2b9a39ab44c7559
+FileChecksum: SHA256: 28f20ec06ed4cefad77f5122def5ab5d67a77dbe3488da2abe68bb64c6ce8c6b
+FileChecksum: MD5: ff085a126b4ce5e1e7d7e8418b3cdf92
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests16.dat
+SPDXID: SPDXRef-item7321
+FileChecksum: SHA1: 5debed1629d20da84213147dd60b47a9db1e7e89
+FileChecksum: SHA256: f2ea7bab84f06e39ced17738942f277fc82a5e232dddbcad3e0cd8e4f50f05a9
+FileChecksum: MD5: f69cac5e88b79df69e421f626957c30a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/pending-spec-changes-plain-text-unsafe.dat
+SPDXID: SPDXRef-item7322
+FileChecksum: SHA1: 2b88098aecd040ffa244db17501b63b1ff3116a8
+FileChecksum: SHA256: 335c624782b92662ef2e2a36cf32e08a063e66fab075f7a84c7d64d369556c75
+FileChecksum: MD5: 12c04a7036924c4fc4e8348a18820b1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/inbody01.dat
+SPDXID: SPDXRef-item7323
+FileChecksum: SHA1: e726c15952f1cf2b313754eaaaaddb5d89c1bc5a
+FileChecksum: SHA256: 450fef994be02adf3984869aa1b16c9a1374252ec725b2ffdeb5af935c56cc7f
+FileChecksum: MD5: 7eb54cb896176235247b42222d0c008a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/adoption02.dat
+SPDXID: SPDXRef-item7324
+FileChecksum: SHA1: 6327fc294e6f8cc5e3384eabd5631374e9eec9da
+FileChecksum: SHA256: edb6d2f6d34abc66af649b7b707b5843e4a27bad90525d3b9aa03225c510f346
+FileChecksum: MD5: 37108efa6236b8086ab61ecfa6f4c7d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests15.dat
+SPDXID: SPDXRef-item7325
+FileChecksum: SHA1: aacd3c1b89558aa14aeab622e592e39c400e3407
+FileChecksum: SHA256: afff31191e399d0ed34c6c937091b6a1656734f94c84a155279c1d5cc2c1de99
+FileChecksum: MD5: 22987f5228a8c5c6afb0954b3d3d57f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/doctype01.dat
+SPDXID: SPDXRef-item7326
+FileChecksum: SHA1: 25ae1ba311590a0b58d3c74eb5d329c25cf3c65a
+FileChecksum: SHA256: 887f47b1523e7f8cf2183ab1e79708b9f45b02bf6c8d3757c87d7c1adb966fa0
+FileChecksum: MD5: c039890fdb42422bafa168fbeab4c7e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/entities01.dat
+SPDXID: SPDXRef-item7327
+FileChecksum: SHA1: b7f94b81a062feccccc320ad0d359d3922ce2527
+FileChecksum: SHA256: 2091575802187aa5c5c2c38e7dd8923edfa227008b8dcc10feb2ef1104d3597a
+FileChecksum: MD5: af1be43a68c932e7743a819e21b0d5c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests18.dat
+SPDXID: SPDXRef-item7328
+FileChecksum: SHA1: 267c6ed51c40b0fcdfdc8b3a7fd4bcfb2e5e577b
+FileChecksum: SHA256: 6f0c8321aee5d6e39fef58cccf56824b48f1d1b29dc53233adac3508eb9fee02
+FileChecksum: MD5: 9dbeda2b205dc4f0db8271de4baa61f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tricky01.dat
+SPDXID: SPDXRef-item7329
+FileChecksum: SHA1: d5d5e56053a73a71f0e89030191efa86a139e9c8
+FileChecksum: SHA256: 8b8e99d4c3c56bd9b9cd9231aae3e5385ec3df326e149c330b3456ab6e067dcd
+FileChecksum: MD5: 49f45c9fd7b9a29080068b8ed1ab622d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tree-construction/tests11.dat
+SPDXID: SPDXRef-item7330
+FileChecksum: SHA1: e762377e3673e9156342db8a2c39e2dc26f4cf8e
+FileChecksum: SHA256: a808ff45b57e47f3f51c91f72e30c5765c04edd0b1581ec6d946a8b86136a92c
+FileChecksum: MD5: a60bb51037bcbc91e404484dc38f5a50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/entities.test
+SPDXID: SPDXRef-item7332
+FileChecksum: SHA1: 09213a9c06defaf43f3d905b89ab4e6d5a36bb57
+FileChecksum: SHA256: d3da87c85b5bf8971072bf012e38a273b3220b80daa19f779d2f53f4a1d44f74
+FileChecksum: MD5: 22a6fb82e187fc5031edb03ef249f92d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/namedEntities.test
+SPDXID: SPDXRef-item7333
+FileChecksum: SHA1: 27bf0e806383e94dd73622893f4d0c858905d7db
+FileChecksum: SHA256: f06cbac6a0f4d3c3a1e63bb0ff8d890c533205ce82abe9a6def8b3ed5f05193a
+FileChecksum: MD5: 1ac7248605383c237c6108cba45ed755
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/test4.test
+SPDXID: SPDXRef-item7334
+FileChecksum: SHA1: 5fbb8fe090a5eb1e1278a9546c19c2a40106e3f3
+FileChecksum: SHA256: 8865e9fb2d93c5e48b112fa8082c3231dfa594bae5d00243b02c1218593f5ed9
+FileChecksum: MD5: a564dd517650d273201664215f71dc1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/unicodeChars.test
+SPDXID: SPDXRef-item7335
+FileChecksum: SHA1: 906e697c87b2e73d75065574a0e367280760de1f
+FileChecksum: SHA256: b85a3717e3d2d39cfa32601a688f96e395b4c1e1d14b19f6405f3045792c963d
+FileChecksum: MD5: 6c67d8674da33e6dc8a78a5c74285a96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/xmlViolation.test
+SPDXID: SPDXRef-item7336
+FileChecksum: SHA1: a1802ad684ba9ac2fc75ee6849338d8d946f4303
+FileChecksum: SHA256: cb008fee36e3790a8f8d26a70c206b8ea63c270f7203c160c4c5fd94375ff21b
+FileChecksum: MD5: 89b6d02689bb9a51edd4881a15e4c64b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/contentModelFlags.test
+SPDXID: SPDXRef-item7337
+FileChecksum: SHA1: 8925423e56e105badbc6ca079169a85f5d68913b
+FileChecksum: SHA256: 63e7ec8d7b101f4575f56d3f245363a5439fc4a0cf087d6d46e658b284fc6bee
+FileChecksum: MD5: 0cea7f9e1f5e6bbd492bda38eb647fa6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/numericEntities.test
+SPDXID: SPDXRef-item7338
+FileChecksum: SHA1: cb816d895a522903f231476613e326e085e961c6
+FileChecksum: SHA256: 8ffada149123df0fa4aabb2b009073ce96aa855ecdff922380f48f0fbae97b54
+FileChecksum: MD5: 9fb3be0ebab4b74eac5802f25c987654
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/pendingSpecChanges.test
+SPDXID: SPDXRef-item7339
+FileChecksum: SHA1: 3b754b2de476c32348e74e1abac3c56221065703
+FileChecksum: SHA256: b39c4f7eadec9ced1a907e67f1e28abce3a87e6deeb775b1df38ca127d1d47da
+FileChecksum: MD5: 70d76a0c6e5ce27de11597d3109a8649
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/unicodeCharsSurrogates.test
+SPDXID: SPDXRef-item7340
+FileChecksum: SHA1: 8f9f497def60c412e326d4b211dff36edb6b1e39
+FileChecksum: SHA256: 91d547f72701b96f18285b9ac9923e1ecc13984db93d4daa9847a5985bd93cda
+FileChecksum: MD5: 4a82065f9b7e0b7f2f85c0225f88cab8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/test2.test
+SPDXID: SPDXRef-item7341
+FileChecksum: SHA1: 03dc2c5552521c5cb2adcf5d249b85f6fb38e897
+FileChecksum: SHA256: d9016086eb247cacfcadff4b063136da4272411b6cb8c36c8b944031942a0b6c
+FileChecksum: MD5: f084ab86f319893e6880600829ec56d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/domjs.test
+SPDXID: SPDXRef-item7342
+FileChecksum: SHA1: 684c5b7f0182643b56c060b80dc37e913e9e8c3a
+FileChecksum: SHA256: dc2b86136b9303136c7af0d25bb68ecf37097a38bcc4d23901cac7fbb3b925f2
+FileChecksum: MD5: 47577f419de31c41030e77a2c50ba2e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/test3.test
+SPDXID: SPDXRef-item7343
+FileChecksum: SHA1: 68f64a339a430563f8ea95acc2d5befa7c1ec97f
+FileChecksum: SHA256: 9008b31bdf3be2a560e0822048f627c38fa6fbde6698b7a6b0094c821035b3f2
+FileChecksum: MD5: c87592eb009569b17be638fe3bb82861
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/escapeFlag.test
+SPDXID: SPDXRef-item7344
+FileChecksum: SHA1: 2061e6c7a4fca78213858f6b4d8ba07e9a8d6663
+FileChecksum: SHA256: 6d98dce1650df73f6cbc9331aa0955376b77875a295073cadbf767db3510ec39
+FileChecksum: MD5: 167ac8077ff7576ec5971c59c18db45f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/test1.test
+SPDXID: SPDXRef-item7345
+FileChecksum: SHA1: f821ccbcb5f5201cf714b3978155a34a6857e6cd
+FileChecksum: SHA256: a277a72b138e09a70b7673b7830762c9ad224284cf09e30a458ba7944d35ccf9
+FileChecksum: MD5: 6fad9e8bb32c2376a730bec13698b3a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/data/tokenizer/unicodeCharsProblematic.test
+SPDXID: SPDXRef-item7346
+FileChecksum: SHA1: 4b8bfb3a19001c48673e82369b97f64b79a3a3cb
+FileChecksum: SHA256: 6314c4b9821d1355a3e4d974f862e4b7a8436d7372e0166394370d94b96b792f
+FileChecksum: MD5: 859d63afc12288aaa1c672e4aeb92a2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/selectors/level1_lib.dart
+SPDXID: SPDXRef-item7348
+FileChecksum: SHA1: bcbba3520338e8ad6e14193937a6e9cd7b876f3c
+FileChecksum: SHA256: e1f4f1cb1d3925ed1336c02a204d48addeaa9935590fd437306fea04ba618ca7
+FileChecksum: MD5: dc48df08cbd82998fa4f7f0d61047f26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/selectors/selectors.dart
+SPDXID: SPDXRef-item7349
+FileChecksum: SHA1: 282001e473b928117f5c139a6a6b07d70561e9f1
+FileChecksum: SHA256: 1351079f536bd4f66d60376e64c3beac82624811f48c95d9bc88a9e5752d63bb
+FileChecksum: MD5: 7e935a2778d9501b41fb2d40ea2a319f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/selectors/level1-content.html
+SPDXID: SPDXRef-item7350
+FileChecksum: SHA1: 828e8556d5c648fee9d9b2c63896ca5a9ce32f05
+FileChecksum: SHA256: ec2ef0c66724cb6dbf32987bcc883b806b12cc8906907c322b80a7e522f633e4
+FileChecksum: MD5: 8c9f4e96f84be290266c6f08532dc9f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/selectors/level1_baseline_test.dart
+SPDXID: SPDXRef-item7351
+FileChecksum: SHA1: 15e9b65c7e7378e09bd07640fc0f32d313c1fa72
+FileChecksum: SHA256: e0c04e26432a0eb6f97d92f508652a306c6f7dd80328d6c6bcef9913601f505d
+FileChecksum: MD5: 2030a965235d13c17be5c17837fc3157
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/selectors/README
+SPDXID: SPDXRef-item7352
+FileChecksum: SHA1: d30cf76f56b025cd6a75c58e8480d179dfbda99b
+FileChecksum: SHA256: 9a37cb87302e6620602d8728ab0d12f079c09307a20f51c7e95ee5ea71955da9
+FileChecksum: MD5: 058da66cce8023c0cfe2dbae4932ff94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/support.dart
+SPDXID: SPDXRef-item7354
+FileChecksum: SHA1: e963f071c4152e8e0759fc820369e2dfeba1164f
+FileChecksum: SHA256: 2e05d3c7494759653eee1120c98e7da7e9c24b6deba58db46a1c94bfc5f360df
+FileChecksum: MD5: 5c0538fb99a75fb65e803c9d8a3128e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/parser_feature_test.dart
+SPDXID: SPDXRef-item7355
+FileChecksum: SHA1: 3fb0d1f0e0c4e35aba1c01037cc952c34d0485b3
+FileChecksum: SHA256: 28f52e8cf417fdead5090e662870109f317f4415d60e19da0dcb37638dee7ecc
+FileChecksum: MD5: 9c36efda11cf6bbd8013f2f1af50af00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/dom_test.dart
+SPDXID: SPDXRef-item7356
+FileChecksum: SHA1: 71a9a561c12e92c7694b7ff5a0e7a202fc340f06
+FileChecksum: SHA256: c2ba8007c33549df1f220fa7b0a579f2b3a4b01ff9c1250e382cf28e1f107be1
+FileChecksum: MD5: 53eb6de0315f529f221c3026bbbda586
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/test/parser_test.dart
+SPDXID: SPDXRef-item7357
+FileChecksum: SHA1: e9181632df5f1666e8a01945c4c24ad1ce49759c
+FileChecksum: SHA256: a27fa4af66d4023140d533d20695a9e10f3876336229698822f2c2bdc63b4312
+FileChecksum: MD5: 9a3da5b33d1242c2366b059ee821a9fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/pubspec.yaml
+SPDXID: SPDXRef-item7358
+FileChecksum: SHA1: 8a7eaaa2259e321ded96bb93b5a4ef35316c607a
+FileChecksum: SHA256: b60136864d9e8078a733ecc1c9dbbeea31adc6d4166e50461ca22df032659823
+FileChecksum: MD5: a395c2dd58f6bc9ec49bd51be6b6e4fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/.github/workflows/test-package.yml
+SPDXID: SPDXRef-item7361
+FileChecksum: SHA1: c52a4ce51263a2f2cd2283c248b383bd0eb0ec91
+FileChecksum: SHA256: b5176b24ed13bfffc4d876c17d5121679f6d8e26800b56f654b35c9d647bb0cd
+FileChecksum: MD5: 89c745a45f3f02ea5a71630e1d4a470a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/analysis_options.yaml
+SPDXID: SPDXRef-item7362
+FileChecksum: SHA1: 2d38aa05d651671f0340822c84313e9d262d55e4
+FileChecksum: SHA256: cd87222eb571abc7c26f5276d0dccef436be69672103b5113345daee4b569214
+FileChecksum: MD5: 5c832d707a004c8c88972a6d0efd1428
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/html_input_stream.dart
+SPDXID: SPDXRef-item7365
+FileChecksum: SHA1: eab9f50ec5a65d6564f8c2425c17ec8f5349a0e2
+FileChecksum: SHA256: 7e242a1ae4952810a79e60cdd54bfff196ec5a666a7238741f5b2674251c345b
+FileChecksum: MD5: ccdee6f54a24eee8067da84bba120312
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/utils.dart
+SPDXID: SPDXRef-item7367
+FileChecksum: SHA1: 3f1bf933513acb805394501dc91df682fd90e9c8
+FileChecksum: SHA256: 5898181c97d19edf92a908b3b365a3045d3a76c8bc0184d3cd20b2ee07be5201
+FileChecksum: MD5: 073e3daeb8904867db4ad98d2ae475ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/constants.dart
+SPDXID: SPDXRef-item7368
+FileChecksum: SHA1: cd871b5e58603664c822a9a5e3c7e6232233f6e7
+FileChecksum: SHA256: bbcd56d77a9a945ec1648f809073ab4de0c7827c59a55e2b5af4ffccc0b6ac1d
+FileChecksum: MD5: 17bcb52db338e4e4a23291c547ef4a00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/list_proxy.dart
+SPDXID: SPDXRef-item7369
+FileChecksum: SHA1: b92aa9d018139be2c95462133e3b6722fb6282f8
+FileChecksum: SHA256: 901f50ba076114ca25df21e7eac01a6092c926dbb9d1848081539b497a4960da
+FileChecksum: MD5: 4236989fe84236dc0c66ef0137d47945
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/query_selector.dart
+SPDXID: SPDXRef-item7370
+FileChecksum: SHA1: 6d343d2f4ab72ae35a002f1709c8222768b94720
+FileChecksum: SHA256: d0cdbecb2274abfd8a05abe570b57e62ed6dc72ad6dec0bdeaa4492aa19c4f26
+FileChecksum: MD5: e43796276203afaa525b00e945ef8ee7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/treebuilder.dart
+SPDXID: SPDXRef-item7371
+FileChecksum: SHA1: 8708965c130ab156cd6b70288da5b9825b877222
+FileChecksum: SHA256: 6257f1d241b7ae36afaaff84403f7b181aa26e1b771544cdafbcefb39d0de650
+FileChecksum: MD5: 307f67ae45cd442cf10a956c9ca3c4b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/encoding_parser.dart
+SPDXID: SPDXRef-item7372
+FileChecksum: SHA1: 1e5d482546088748ef48b89791363a3c8f711a51
+FileChecksum: SHA256: 76d8fd03f38cbfc2efa2fba310b5f6834879d06ee610453cb763ce2b4bc5cf6a
+FileChecksum: MD5: f7686483f4574c4bb1833f3940146c99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/token.dart
+SPDXID: SPDXRef-item7373
+FileChecksum: SHA1: 98a8c8e360959f21d2db59a3cae199a8b3267fbd
+FileChecksum: SHA256: 0b28a674a6d8a9ad353597dfe5aeefb828e849ffd21ed4a5942ccf3843747e73
+FileChecksum: MD5: 73138a9a1d120c1f82e4631fc11d24ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/src/tokenizer.dart
+SPDXID: SPDXRef-item7374
+FileChecksum: SHA1: 56bdc309b39646f76e51a067d41589b16af67991
+FileChecksum: SHA256: cfe5ebe03c758acc57af00a9be20bc1627197a885d178d408dd62ec256ee44a5
+FileChecksum: MD5: 87f9c08dbe38f0e47d0af30ad3c19ab3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/dom.dart
+SPDXID: SPDXRef-item7375
+FileChecksum: SHA1: 30436ae1ace513e8b3308a07e0279b4a755a3dc2
+FileChecksum: SHA256: 3bfd21ef04211f3275d74ab17227b736eac37b9bd0283e9413bd99f54a584b6a
+FileChecksum: MD5: 78d09a3fa08226c799cf5f38329ba62c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/parser.dart
+SPDXID: SPDXRef-item7376
+FileChecksum: SHA1: c820166f48a7b59bba9c18024ef8e091cc797ba2
+FileChecksum: SHA256: 5b2206f47b3a3d754ba9b65084af85634a3ab2a13f15ccc225708ff5e88e0ac4
+FileChecksum: MD5: 48d84f09c3e0e037236d0222af165362
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/lib/dom_parsing.dart
+SPDXID: SPDXRef-item7377
+FileChecksum: SHA1: 0fbffd6642b9ce6344adc2fab1e64fe20fcb78e6
+FileChecksum: SHA256: 9df25170e46af57fcd37cc71366340c2b33ae44512c10f1a586f13b0d3693d2e
+FileChecksum: MD5: 64469e46eec05b4fa3fd45df15335b89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/CHANGELOG.md
+SPDXID: SPDXRef-item7378
+FileChecksum: SHA1: 13ebc874a1ae780b2fca57b5f210e9c3b29f31e6
+FileChecksum: SHA256: 7de6a7414867fe62ed95fb479c59d33393df1f001840ee123c8d864da65e1402
+FileChecksum: MD5: 9ce7ea72e95445c4c8d219cfd0ed3f26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: html-0.15.0.zip/html-0.15.0/.gitignore
+SPDXID: SPDXRef-item7380
+FileChecksum: SHA1: 103f19185764a3bd527c361f75e9899082728aaf
+FileChecksum: SHA256: 0316c11267570444f668dc9033d3dcbf1ecd980d7356dd6997266b81c26584cc
+FileChecksum: MD5: 2069413cf01d8e2202c5220a80924364
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+LicenseID: LicenseRef-W3C-Test-Suite-Licence
+LicenseName: W3C Test Suite Licence
+ExtractedText: <text> 
+This document, Test Suites and other documents that link to this statement are provided by the copyright holders under the following license: By using and/or copying this document, or the W3C document from which this statement is linked, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions:
+
+Permission to copy, and distribute the contents of this document, or the W3C document from which this statement is linked, in any medium for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the document, or portions thereof, that you use:
+
+A link or URL to the original W3C document.
+The pre-existing copyright notice of the original author, or if it doesn't exist, a notice (hypertext is preferred, but a textual representation is permitted) of the form: "Copyright © [$date-of-document] World Wide Web Consortium, (MIT, ERCIM, Keio, Beihang) and others. All Rights Reserved. http://www.w3.org/Consortium/Legal/2008/04-testsuite-copyright.html"
+If it exists, the STATUS of the W3C document.
+When space permits, inclusion of the full text of this NOTICE should be provided. We request that authorship attribution be provided in any software, documents, or other items or products that you create pursuant to the implementation of the contents of this document, or any portion thereof.
+
+No right to create modifications or derivatives of W3C documents is granted pursuant to this license. However, if additional requirements (documented in the Copyright FAQ) are satisfied, the right to create modifications or derivatives is sometimes granted by the W3C to individuals complying with those requirements.
+
+If a Test Suite distinguishes the test harness (or, framework for navigation) and the actual tests, permission is given to remove or alter the harness or navigation if the Test Suite in question allows to do so. The tests themselves shall NOT be changed in any way.
+
+The name and trademarks of W3C and other copyright holders may NOT be used in advertising or publicity pertaining to this document or other documents that link to this statement without specific, written prior permission. Title to copyright in this document will at all times remain with copyright holders. Permission is given to use the trademarked string W3C within claims of performance concerning W3C Specifications or features described therein, and there only, if the test suite so authorizes.
+
+THIS WORK IS PROVIDED BY W3C, MIT, ERCIM, KEIO, BEIHANG, THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL W3C, MIT, ERCIM, KEIO, BEIHANG, THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+       </text>
+
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+LicenseID: LicenseRef-W3C-IP
+LicenseName: W3C-IP
+ExtractedText: <text> License by Nomos. </text>
+
+
+LicenseID: LicenseRef-BSD
+LicenseName: BSD
+ExtractedText: <text> BSD is referenced without a version number. Please look up BSD in the License Admin to view the different versions. </text>
+
+LicenseID: LicenseRef-BSD-3-Clause-83ba61362038d4d2482678e8e0b8a6b1
+LicenseName: BSD-3-Clause-83ba61362038d4d2482678e8e0b8a6b1
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of works must retain the original copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the original copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of the W3C nor the names of its contributors may be used to endorse or promote products derived from this work without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ </text>
+
+LicenseID: LicenseRef-BSD-3-Clause-352ddb79d4020c9e8abff983e4088f84
+LicenseName: BSD-3-Clause-352ddb79d4020c9e8abff983e4088f84
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
