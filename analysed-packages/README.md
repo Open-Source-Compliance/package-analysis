@@ -6,7 +6,7 @@ Within the package directories there will be the following artifacts:
 * SPDX tag value files, these files contain the identified and concluded licenses (the concluded licenses reflect the done curations if curations were done). There will be also comments about the curations in order to provide transparency why the specific curation was performed.
 * Disclosure document, this documents aggregates all the concluded licenses, copyright notices and if necessary acknowledgments. These files are ready to use documents for being integrated in a so called "OSS disclosure document", which will be handed over to users of software incorporating the respective package. It is a simple text file.
 
-## Improving the Arifacts
+## Improving the Artifacts
 Since all files are text files, they can easily be reviewed. In case you detect an error or have doubts please file an issue against the specific file.
 
 ## Improving Trust in the Accuracy of the provided Data
