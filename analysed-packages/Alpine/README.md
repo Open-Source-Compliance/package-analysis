@@ -9,5 +9,6 @@ The analyzed source code can be determined as follows:
 * Download the content of the git space of the specific components
 * Check the APKBUILD files to determine the fetched other components
 * Download the source code of the fetched components. 
+
 To provide full transparency for non technical persons, the links to the alpine git space as well as the links to the fetched other components during the execution of the APKBUILD file are provided in the Readme files of the different component directories.
 
