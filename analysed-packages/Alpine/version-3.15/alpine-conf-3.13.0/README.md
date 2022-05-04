@@ -2,7 +2,7 @@
 
 ### Alpine
 
-https://git.alpinelinux.org/aports/tree/main/alpine-base?h=3.15-stable
+https://git.alpinelinux.org/aports/tree/main/alpine-conf?h=3.15-stable
 
 
 ## Reviewers
