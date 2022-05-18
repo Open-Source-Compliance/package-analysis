@@ -34,4 +34,5 @@ The following tasks are on the todo list:
 * creating a nice website
 * creating a project logo
 * providing a REST API to search for and download the analysis results to enable for automation and integration in CI/CD pipelines
+
 In case you want to contribute to the above mentioned topics - everything is highly welcome
