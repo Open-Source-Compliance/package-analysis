@@ -29,6 +29,8 @@ The OSS package analysis file are generated following the process described belo
 * A licensing expert person will review and analyze the FOSSology result. The expert person is not necessarily a lawyer, but has several years of experience in license compliance activities.
 * For the analysis of the OSS packages we currently use [FOSSology](https://www.fossology.org/)
 
+We do an analysis of the entire package. This means that all files are analyzed, no matter whether they end up in the produced binaries, if there will be some, or not. This includes potentially available "test" and/or "documentation" directories. We do this because we do not know what you or others will exactly build. For example the Linux kernel can be build for many different platforms, with many different file systems and so on, if we would analyze only the "ARM" tree the analysis would be of no value for users with other platforms.
+
 ## Further Work
 The following tasks are on the todo list:
 * creating a nice website
