@@ -31,6 +31,16 @@ The OSS package analysis file are generated following the process described belo
 
 We do an analysis of the entire package. This means that all files are analyzed, no matter whether they end up in the produced binaries, if there will be some, or not. This includes potentially available "test" and/or "documentation" directories. We do this because we do not know what you or others will exactly build. For example the Linux kernel can be build for many different platforms, with many different file systems and so on, if we would analyze only the "ARM" tree the analysis would be of no value for users with other platforms.
 
+## Audience
+Everybody who has to deal with license compliance - legal persons, license compliance experts, product responsibles as well as developers.
+
+For the legal persons and the license compliance experts the OSS-disclosure text files are probably more interesting. Although the SPDX2TV files contain on file granularity the license information (identified and concluded licenses), the copyright information and if necessary information about the license conclusion to provide transparency about why the specific conclusion was made.
+
+For the developers the SPDX2TV files will be most interesting, since they contain information about every file of the package. Developers can consume these files in the build processes, the files which are "used" to produce the to delivered software can be collected and the SPDX2TV files can be retrieved about the copyright and license information of those files. This procedure will ensure that only the relevant licenses and copyright notices are extracted from the SPDX2TV files. Nevertheless the OSS-disclosure files are also of value for the developers, because they provide a very fast overview about the license situation of the entire package.
+
+We plan to provide the artifacts via a REST API to make it possible that they can be downloaded and consumed via scripts to enable for automation. As long as the server implementing the REST API is not available developers can clone the repo to their environment and retrieve the information locally and implement automation scripts. So even with not having a REST API available yet, the CI/CD pipelines can be easily enhanced with license compliance procedures following the described procedure.
+
+
 ## Further Work
 The following tasks are on the todo list:
 * creating a nice website
