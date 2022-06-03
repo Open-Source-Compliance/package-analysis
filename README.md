@@ -29,6 +29,7 @@ For license identification FOSSology provides different "agents" the user is abl
 	* Monk
 	* Ojo
 	* Scancode
+  
   Each agent was build with a different main focus and we think that running them combined produces the best output. Which agents were run for a concrete package analysis is available in the SPDX2TV file.
 	FOSSology searches in files for the following information:
 	* License relevant text phrases
@@ -44,13 +45,16 @@ As already explained in the overall process description a licensing expert will 
 * confirm scanner findings either file by file or via bulk statement
 * correct scanner findings either file by file or via bulk statement
 
-There might be cases where the scanner matches some license information in a file but this information is not the license of the file. For example
+The following listing provides more information about the tasks carried out:
+
+* There might be cases where the scanner matches some license information in a file but this information is not the license of the file. For example
 > "DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)\n" . $herecurr) && $fix) {$fixed[$fixlinenr] =~ s/SPDX-License-Identifier: .*/SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)/;
 
-This is perl code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file. In this case and due to the fact that the file does not contain any license information the conclusion is "no license known", which is mapped to "NO ASSERTION" in SPDX terminology.
+This is some code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file. In this case and due to the fact that the file does not contain any license information the conclusion is "no license known", which is mapped to "NO ASSERTION" in SPDX terminology.
 
-In other cases there might be no license information in files of a certain subdirectory - but in the Readme file of the subdirectory or on root level of the package there might be a statement, like:
+* In other cases there might be no license information in files of a certain subdirectory - but in the Readme file of the subdirectory or on root level of the package there might be a statement, like:
 > Files in directory abc are all licensed under Apache-2.0 
+
 In this case the scanner findings (which are none (NO ASSERTION)) in the files are overruled by the licensing expert with license concluded (LicenseConcluded) Apache-2.0
 
 In those cases usually we provide an explanation, why the scanner findings where corrected via "LicenseConcluded". This explanation is available in the SPDX2TV files as value of the tag "LicenseComments". In the above mentioned example the explanation is:
@@ -60,11 +64,11 @@ In those cases usually we provide an explanation, why the scanner findings where
 >
 > This is perl code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file.
 
-There might be files, which carry no license information and there is no hint of the applicable license in any other file of the package. Here the conclusion then is "no license known" ("NO ASSERTION"). We do not "assign" the license which might be available in the root directory to those file, because we cannot be sure whether this is the correct license.
+* There might be files, which carry no license information and there is no hint of the applicable license in any other file of the package. Here the conclusion then is "no license known" ("NO ASSERTION"). We do not "assign" the license which might be available in the root directory to those file, because we cannot be sure whether this is the correct license.
 
-In cases where the scanner matches are correct, we confirm the matches. This is outlined in the SPDX2TV files in the tag "LicenseConcluded".
+* In cases where the scanner matches are correct, we confirm the matches. This is outlined in the SPDX2TV files in the tag "LicenseConcluded".
 
-We do not provide in the "LicenseComments" "standard" boilerplates, like:
+* We do not provide in the "LicenseComments" "standard" boilerplates, like:
 >  Licensed under the Apache License, Version 2.0 (the "License");
 > you may not use this file except in compliance with the License.
 > You may obtain a copy of the License at
@@ -79,7 +83,7 @@ We do not provide in the "LicenseComments" "standard" boilerplates, like:
 
 Because in these cases the confirmation of the scanner findings are straight forward and providing the "obvious" might cover the important things.
 
-There are cases where the scanners match BSD license (or other licenses), like BSD-3-Clause but the concrete license text is "individualized", like:
+* There are cases where the scanners match BSD license (or other licenses), like BSD-3-Clause but the concrete license text is "individualized", like:
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
