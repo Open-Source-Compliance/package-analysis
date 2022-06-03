@@ -45,30 +45,30 @@ As already explained in the overall process description a licensing expert will 
 * confirm scanner findings either file by file or via bulk statement
 * correct scanner findings either file by file or via bulk statement
 
-The following listing provides more information about the tasks carried out:
+The following subsections provide more information about the tasks carried out:
 
-* There might be cases where the scanner matches some license information in a file but this information is not the license of the file. For example
+#### Correcting scanner findings
+There might be cases where the scanner matches some license information in a file but this information is not the license of the file. For example
 > "DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)\n" . $herecurr) && $fix) {$fixed[$fixlinenr] =~ s/SPDX-License-Identifier: .*/SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)/;
 
 This is some code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file. In this case and due to the fact that the file does not contain any license information the conclusion is "no license known", which is mapped to "NO ASSERTION" in SPDX terminology.
 
-* In other cases there might be no license information in files of a certain subdirectory - but in the Readme file of the subdirectory or on root level of the package there might be a statement, like:
+In other cases there might be no license information in files of a certain subdirectory - but in the Readme file of the subdirectory or on root level of the package there might be a statement, like:
 > Files in directory abc are all licensed under Apache-2.0 
 
 In this case the scanner findings (which are none (NO ASSERTION)) in the files are overruled by the licensing expert with license concluded (LicenseConcluded) Apache-2.0
 
-In those cases usually we provide an explanation, why the scanner findings where corrected via "LicenseConcluded". This explanation is available in the SPDX2TV files as value of the tag "LicenseComments". In the above mentioned example the explanation is:
+In both and similare cases usually we provide an explanation, why the scanner findings where corrected via "LicenseConcluded". This explanation is available in the SPDX2TV files as value of the tag "LicenseComments". In the above mentioned example the explanation is:
 > The information in the file is:
 >
 > "DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)\n" . $herecurr) && $fix) {$fixed[$fixlinenr] =~ s/SPDX-License-Identifier: .*/SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)/;
 >
 > This is perl code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file.
 
-* There might be files, which carry no license information and there is no hint of the applicable license in any other file of the package. Here the conclusion then is "no license known" ("NO ASSERTION"). We do not "assign" the license which might be available in the root directory to those file, because we cannot be sure whether this is the correct license.
+#### Confirming scanner findings
+In cases where the scanner matches are correct, we confirm the matches. This is outlined in the SPDX2TV files in the tag "LicenseConcluded".
 
-* In cases where the scanner matches are correct, we confirm the matches. This is outlined in the SPDX2TV files in the tag "LicenseConcluded".
-
-* We do not provide in the "LicenseComments" "standard" boilerplates, like:
+We do not provide in the "LicenseComments" "standard" boilerplates, like:
 >  Licensed under the Apache License, Version 2.0 (the "License");
 > you may not use this file except in compliance with the License.
 > You may obtain a copy of the License at
@@ -83,7 +83,9 @@ In those cases usually we provide an explanation, why the scanner findings where
 
 Because in these cases the confirmation of the scanner findings are straight forward and providing the "obvious" might cover the important things.
 
-* There are cases where the scanners match BSD license (or other licenses), like BSD-3-Clause but the concrete license text is "individualized", like:
+#### Render scanner findings more precisly
+
+There are cases where the scanners match BSD license (or other licenses), like BSD-3-Clause but the concrete license text is "individualized", like:
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -108,13 +110,16 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 In these cases we conclude the correct class of the license (BSD-2-Clause in this case) where ever possible and provide the concrete individualized license text. 
 
+#### No scanner findings
+There might be files, which carry no license information and there is no hint of the applicable license in any other file of the package. Here the conclusion then is "no license known" ("NO ASSERTION"). We do not "assign" the license which might be available in the root directory to those file, because we cannot be sure whether this is the correct license.
 
 ### Copyright extraction
 
 The copyright information of all files within the package is extracted, no matter in which directory the file is located. For files containing no copyright information no copyright information can be extracted. Sometimes it is necessary to "post process" the found copyright statements, this is done always when the copyright statements:
 * contain some "clutter"
 * are incomplete
-* there is a statement like: "Copyright 1995-2022 The Project Authors, see AUTHORS for more detail" In these cases, we check whether there is a AUTHORS file in the package if yes, then we add the content of the AUTHORS file to the extracted copyright statements, although we cannot be 100% sure whether the listed persons and/or organizations hold copyright on the package.
+* there is a statement like: "Copyright 1995-2022 The Project Authors, see AUTHORS for more detail" 
+In these cases, we check whether there is a AUTHORS file in the package - if yes, then we add the content of the AUTHORS file to the extracted copyright statements, although we cannot be 100% sure whether the listed persons and/or organizations hold copyright on the package.
 
 We do not check and extract committer information from the source code repos like GitHub because this information is even less accurate than the "AUTHORS" file approach. On GitHub the commit is done by an individual, but the holder of the copyright of this commit might be the organization the individual is working for.
 
