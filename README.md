@@ -130,6 +130,41 @@ For the legal persons and the license compliance experts the OSS-disclosure text
 
 For the developers the SPDX2TV files will be most interesting, since they contain information about every file of the package. Developers can consume these files in the build processes. The files which are "used" to produce the to delivered software can be tracked and logged, with this information the SPDX2TV files can be parsed about the copyright and license information of those "used" files. This procedure will ensure that only the relevant licenses and copyright notices are extracted from the SPDX2TV files. Nevertheless the OSS-disclosure files are also of value for the developers, because they provide a very fast overview about the license situation of the entire package.
 
+The information provided in the SPDX2TV files is complete in a way that it can be consumed and license as well as the copyright information can be extracted for every file, like:
+> ##File
+> 
+> **FileName:** zephyr-2.7.2.tar.gz/zephyr-2.7.2.tar/zephyr-2.7.2/include/net/http_parser_state.h
+> 
+> SPDXID: SPDXRef-item155522901
+> 
+> FileChecksum: SHA1: f945f540e665d298c5e7eaa96f55964e128e95b0
+> 
+> FileChecksum: SHA256: 9ea05f8dd5e9cec4a76e105a96e2ef1c9a092b805ffaad5ce8cc64b521bef157
+> 
+> FileChecksum: MD5: b035f7f65e3fe28473adda750793afae
+> 
+> **LicenseConcluded:** LicenseRef-MIT
+> 
+> LicenseComments: <text>NOASSERTION </text>
+> 
+> LicenseInfoInFile: LicenseRef-MIT
+> 
+> **FileCopyrightText:** <text> Copyright Joyent, Inc. and other Node contributors. All rights reserved. </text>
+
+The value of "LicenseConcluded" is in this example "LicenseRef-MIT". The SPDX2TV file contains also the following tags and values:
+
+> **LicenseID:** LicenseRef-MIT
+> 
+> **LicenseName:** MIT License
+> 
+> **ExtractedText:** <text> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+> 
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+As one can see, having the path and the name of the files used in the build it is very easy to extract the necessary license and copyright information from the SPDX2TV files.
+
 We plan to provide the artifacts via a REST API to make it possible that they can be downloaded and consumed via scripts to enable for automation. As long as the server implementing the REST API is not available developers can clone the repo to their environment, retrieve the information locally and implement automation scripts. So even with not having a REST API available yet, the CI/CD pipelines can be easily enhanced with license compliance procedures following the described procedure.
 
 
