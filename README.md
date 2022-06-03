@@ -10,7 +10,7 @@ Another objective is a very close collaboration with the OSS community in order 
 One of the tasks in OSS compliance work is the analysis of OSS packages in order to identify the licenses and copyright holders. Although tools are available which support the analysis, it is still the task which causes effort.
 We believe that is does not make any sense that everyone doing checks of packages again and again. This is redundant effort in our opinion which could be much better invested in OSS development. In other words: we think increasing the code base is much better instead of spending effort for license compliance checks which are done thousand fold today in many different organizations.
 
-## Provided Artifacts
+## Provided artifacts
 
 The analysis results are provided in the "analysed-packages" directory. Usually two artifacts are provided a SPDX tag-value file and a ready to use OSS-disclosure file. The main difference between both is that the tag-value files can be used and integrated in the build process in a way that only the licenses of those files are considered which will end up in the build artifact. Furthermore the tag-value files contain notes on license conclusions to make decisions transparent if necessary. The OSS-disclosure files contain all applicable licenses and all copyright notices of the entire package. Additionally to this the OSS-disclosure files contain "acknowledgment texts" if such an acknowledgment is required be the license.
 
@@ -20,25 +20,108 @@ We create such OSS package analysis files and make them available for download u
 The OSS package analysis file are generated following the process described below:
 
 * Obtain the component in source code form
-	* download the component from the official web site / check the hashes
+	* download the component we provide the link were we downloaded the component in the corresponding README file.
 	* the component is provided by a third party
 	* the download URL is provided in the README files of the corresponding directories
-* Issue a license and copyright analysis with the GPL-2.0 licensed tool FOSSology. FOSSology searches in files for the following information:
+* Issue a license and copyright analysis with the GPL-2.0 licensed tool [FOSSology](https://www.fossology.org/). 
+For license identification FOSSology provides different "agents" the user is able to select, which "agents" shall run, currently the following "agents" are available:
+	* Nomos
+	* Monk
+	* Ojo
+	* Scancode
+  Each agent was build with a different main focus and we think that running them combined produces the best output. Which agents were run for a concrete package analysis is available in the SPDX2TV file.
+	FOSSology searches in files for the following information:
 	* License relevant text phrases
 	* Copyright strings
 * A licensing expert person will review and analyze the FOSSology result. The expert person is not necessarily a lawyer, but has several years of experience in license compliance activities.
-* For the analysis of the OSS packages we currently use [FOSSology](https://www.fossology.org/)
 
-We do an analysis of the entire package. This means that all files are analyzed, no matter whether they end up in the produced binaries, if there will be some, or not. This includes potentially available "test" and/or "documentation" directories. We do this because we do not know what you or others will exactly build. For example the Linux kernel can be build for many different platforms, with many different file systems and so on, if we would analyze only the "ARM" tree the analysis would be of no value for users with other platforms.
+
+We do an analysis of the entire package on file level. This means that all files are analyzed, no matter whether they end up in the produced binaries, if there will be some, or not. This includes potentially available "test" and/or "documentation" or other directories. We do this because we do not know what you or others will exactly build. For example the Linux kernel can be build for many different platforms, with many different file systems and so on, if we would analyze only the "ARM" tree the analysis would be of no value for users with other platforms.
+
+### License identification and conclusion
+
+As already explained in the overall process description a licensing expert will review the scanner findings. During the review depending on the scanner matches, the corresponding text sections and context in the files the following tasks are carried out:
+* confirm scanner findings either file by file or via bulk statement
+* correct scanner findings either file by file or via bulk statement
+
+There might be cases where the scanner matches some license information in a file but this information is not the license of the file. For example
+> "DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)\n" . $herecurr) && $fix) {$fixed[$fixlinenr] =~ s/SPDX-License-Identifier: .*/SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)/;
+
+This is perl code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file. In this case and due to the fact that the file does not contain any license information the conclusion is "no license known", which is mapped to "NO ASSERTION" in SPDX terminology.
+
+In other cases there might be no license information in files of a certain subdirectory - but in the Readme file of the subdirectory or on root level of the package there might be a statement, like:
+> Files in directory abc are all licensed under Apache-2.0 
+In this case the scanner findings (which are none (NO ASSERTION)) in the files are overruled by the licensing expert with license concluded (LicenseConcluded) Apache-2.0
+
+In those cases usually we provide an explanation, why the scanner findings where corrected via "LicenseConcluded". This explanation is available in the SPDX2TV files as value of the tag "LicenseComments". In the above mentioned example the explanation is:
+> The information in the file is:
+>
+> "DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)\n" . $herecurr) && $fix) {$fixed[$fixlinenr] =~ s/SPDX-License-Identifier: .*/SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)/;
+>
+> This is perl code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file.
+
+There might be files, which carry no license information and there is no hint of the applicable license in any other file of the package. Here the conclusion then is "no license known" ("NO ASSERTION"). We do not "assign" the license which might be available in the root directory to those file, because we cannot be sure whether this is the correct license.
+
+In cases where the scanner matches are correct, we confirm the matches. This is outlined in the SPDX2TV files in the tag "LicenseConcluded".
+
+We do not provide in the "LicenseComments" "standard" boilerplates, like:
+>  Licensed under the Apache License, Version 2.0 (the "License");
+> you may not use this file except in compliance with the License.
+> You may obtain a copy of the License at
+>
+>    http:www.apache.org/licenses/LICENSE-2.0
+>
+> Unless required by applicable law or agreed to in writing, software
+> distributed under the License is distributed on an "AS IS" BASIS,
+> WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+> See the License for the specific language governing permissions and
+> limitations under the License.
+
+Because in these cases the confirmation of the scanner findings are straight forward and providing the "obvious" might cover the important things.
+
+There are cases where the scanners match BSD license (or other licenses), like BSD-3-Clause but the concrete license text is "individualized", like:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer as
+   the first lines of this file unmodified.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY **Andy Polyakov** ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL **NTT** BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+In these cases we conclude the correct class of the license (BSD-2-Clause in this case) where ever possible and provide the concrete individualized license text. 
+
+
+### Copyright extraction
+
+The copyright information of all files within the package is extracted, no matter in which directory the file is located. For files containing no copyright information no copyright information can be extracted. Sometimes it is necessary to "post process" the found copyright statements, this is done always when the copyright statements:
+* contain some "clutter"
+* are incomplete
+* there is a statement like: "Copyright 1995-2022 The Project Authors, see AUTHORS for more detail" In these cases, we check whether there is a AUTHORS file in the package if yes, then we add the content of the AUTHORS file to the extracted copyright statements, although we cannot be 100% sure whether the listed persons and/or organizations hold copyright on the package.
+
+We do not check and extract committer information from the source code repos like GitHub because this information is even less accurate than the "AUTHORS" file approach. On GitHub the commit is done by an individual, but the holder of the copyright of this commit might be the organization the individual is working for.
 
 ## Audience
-Everybody who has to deal with license compliance - legal persons, license compliance experts, product responsibles as well as developers.
+Everybody who has to deal with license compliance - legal persons, license compliance experts, product responsibles as well as developers and not to forget persons, who are in charge of the quality processes.
 
 For the legal persons and the license compliance experts the OSS-disclosure text files are probably more interesting. Although the SPDX2TV files contain on file granularity the license information (identified and concluded licenses), the copyright information and if necessary information about the license conclusion to provide transparency about why the specific conclusion was made.
 
-For the developers the SPDX2TV files will be most interesting, since they contain information about every file of the package. Developers can consume these files in the build processes. The files which are "used" to produce the to delivered software can be tracked and logged with this information the SPDX2TV files can be retrieved about the copyright and license information of those "used" files. This procedure will ensure that only the relevant licenses and copyright notices are extracted from the SPDX2TV files. Nevertheless the OSS-disclosure files are also of value for the developers, because they provide a very fast overview about the license situation of the entire package.
+For the developers the SPDX2TV files will be most interesting, since they contain information about every file of the package. Developers can consume these files in the build processes. The files which are "used" to produce the to delivered software can be tracked and logged, with this information the SPDX2TV files can be parsed about the copyright and license information of those "used" files. This procedure will ensure that only the relevant licenses and copyright notices are extracted from the SPDX2TV files. Nevertheless the OSS-disclosure files are also of value for the developers, because they provide a very fast overview about the license situation of the entire package.
 
-We plan to provide the artifacts via a REST API to make it possible that they can be downloaded and consumed via scripts to enable for automation. As long as the server implementing the REST API is not available developers can clone the repo to their environment and retrieve the information locally and implement automation scripts. So even with not having a REST API available yet, the CI/CD pipelines can be easily enhanced with license compliance procedures following the described procedure.
+We plan to provide the artifacts via a REST API to make it possible that they can be downloaded and consumed via scripts to enable for automation. As long as the server implementing the REST API is not available developers can clone the repo to their environment, retrieve the information locally and implement automation scripts. So even with not having a REST API available yet, the CI/CD pipelines can be easily enhanced with license compliance procedures following the described procedure.
 
 
 ## Further Work
