@@ -105,7 +105,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-In these cases we conclude the correct class of the license (BSD-2-Clause in this case) where ever possible and provide the concrete individualized license text. 
+In these cases we conclude the correct class of the license (BSD-2-Clause in this case) where ever possible **and** provide the concrete individualized license text. 
 
 #### No scanner findings
 There might be files, which carry no license information and there is no hint of the applicable license in any other file of the package. Here the conclusion then is "no license known" ("NO ASSERTION"). We do not "assign" the license which might be available in the root directory to those file, because we cannot be sure whether this is the correct license.
@@ -125,7 +125,9 @@ Everybody who has to deal with license compliance - legal persons, license compl
 
 For the legal persons and the license compliance experts the OSS-disclosure text files are probably more interesting. Although the SPDX2TV files contain on file granularity the license information (identified and concluded licenses), the copyright information and if necessary information about the license conclusion to provide transparency about why the specific conclusion was made.
 
-For the developers the SPDX2TV files will be most interesting, since they contain information about every file of the package. Developers can consume these files in the build processes. The files which are "used" to produce the to delivered software can be tracked and logged, with this information the SPDX2TV files can be parsed about the copyright and license information of those "used" files. This procedure will ensure that only the relevant licenses and copyright notices are extracted from the SPDX2TV files. Nevertheless the OSS-disclosure files are also of value for the developers, because they provide a very fast overview about the license situation of the entire package.
+For the developers the SPDX2TV files will be most interesting, since they contain information about every file of the package. Developers can consume these files in the build pipelines. The files which are "used" to produce the to delivered software can be tracked and logged, with this information the SPDX2TV files can be parsed about the copyright and license information of those "used" files. This procedure will ensure that only the relevant licenses and copyright notices are extracted from the SPDX2TV files. 
+
+Nevertheless the OSS-disclosure files are also of value for the developers, because they provide a very fast overview about the license situation of the entire package.
 
 The information provided in the SPDX2TV files is complete in a way that it can be consumed and license as well as the copyright information can be extracted for every file, like:
 > ##File
