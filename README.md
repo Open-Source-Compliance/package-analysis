@@ -121,7 +121,7 @@ We then check the link, whether it is broken or not and still provides usefull i
 > 
 > visiting the internet link, displayed the following text. The link was visited on 20th of June 2022:
 > 
-> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the > > following conditions are met:
+> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 > 
 > 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 > 
