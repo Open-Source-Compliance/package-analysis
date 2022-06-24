@@ -58,7 +58,7 @@ In other cases there might be no license information in files of a certain subdi
 
 In this case the scanner findings (which are none (NO ASSERTION)) in the files are overruled by the licensing expert with license concluded (LicenseConcluded) Apache-2.0
 
-In both and similare cases usually we provide an explanation, why the scanner findings where corrected via "LicenseConcluded". This explanation is available in the SPDX2TV files as value of the tag "LicenseComments". In the above mentioned example the explanation is:
+In both and similar cases usually we provide an explanation, why the scanner findings where corrected via "LicenseConcluded". This explanation is available in the SPDX2TV files as value of the tag "LicenseComments". In the above mentioned example the explanation is:
 > The information in the file is:
 >
 > "DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)\n" . $herecurr) && $fix) {$fixed[$fixlinenr] =~ s/SPDX-License-Identifier: .*/SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)/;
@@ -83,7 +83,7 @@ We do not provide in the "LicenseComments" "standard" boilerplates, like:
 
 Because in these cases the confirmation of the scanner findings are straight forward and providing the "obvious" might cover the important things.
 
-#### Render scanner findings more precisly
+#### Render scanner findings more precisely
 
 There are cases where the scanners match BSD license (or other licenses), like BSD-3-Clause but the concrete license text is "individualized", like:
 
@@ -109,6 +109,30 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 In these cases we conclude the correct class of the license (BSD-2-Clause in this case) where ever possible and provide the concrete individualized license text. 
+
+#### External references
+
+Sometimes we find statements like this:
+
+> BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+We then check the link, whether it is broken or not and still provides usefull information, if possible we take year information into account. We provide the result of the investigation as the value of "LicenseComments" tag including the date when the information was retrieved, like this: 
+
+> The information in the file is:
+> 
+> BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+> 
+> visiting the internet link, displayed the following text. The link was visited on 20th of June 2022:
+> 
+> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the > > following conditions are met:
+> 
+> 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+> 
+> 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+> 
+> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+> 
+> The link was visited on 20th of June 2022
 
 #### No scanner findings
 There might be files, which carry no license information and there is no hint of the applicable license in any other file of the package. Here the conclusion then is "no license known" ("NO ASSERTION"). We do not "assign" the license which might be available in the root directory to those file, because we cannot be sure whether this is the correct license.
