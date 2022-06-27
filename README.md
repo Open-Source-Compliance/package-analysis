@@ -134,6 +134,14 @@ We then check the link, whether it is broken or not and still provides usefull i
 #### No scanner findings
 There might be files, which carry no license information and there is no hint of the applicable license in any other file of the package. Here the conclusion then is "no license known" ("NO ASSERTION"). We do not "assign" the license which might be available in the root directory to those file, because we cannot be sure whether this is the correct license.
 
+#### The license files itself
+In many cases there are files named LICENSE.txt or COPYING or similar in the root or subordinate directories of a package. These files usually contain the license text, e.g. the text of the GPL-2.0. Determining the license of these file is easy for the licenses of the GNU project, because they carry an explicit license statement:
+
+>  Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+For most of the other license texts no license exist, like for BSD-3-Clause, MIT etc. Usually all scanners fail when it comes to license files. They match the content of the file, like GPL-2.0 but this is **not** the license of the file. In these cases usually the scanner matches are concluded as irrelevant, which translates to **NOASSERTION** in SPDX terminology and in case of the GNU licenses the correct license is concluded.
+This might in some cases lead to strange analysis results, especially when the analysed package only contains a LICENSE.txt file with the license text and no reference to it in the other files. We are aware of this and try to make this transparent either in the LicenseComments or in the CreatorComment in the SDPX files.
+
 ### Copyright extraction
 
 The copyright information of all files within the package is extracted, no matter in which directory the file is located. For files containing no copyright information no copyright information can be extracted. Sometimes it is necessary to "post process" the found copyright statements, this is done always when the copyright statements:
