@@ -50,10 +50,11 @@ There might be cases where the scanner matches some license information in a fil
 
 This is some code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file. In this case and due to the fact that the file does not contain any license information the conclusion is "no license known", which is mapped to "NO ASSERTION" in SPDX terminology.
 
-In other cases there might be no license information in files of a certain subdirectory - but in the Readme file of the subdirectory or on root level of the package there might be a statement, like:
+There might be cases where in a Readme file of the subdirectory or on root level of the package there might be a statement, like:
 > Files in directory abc are all licensed under Apache-2.0 
 
-In this case the scanner findings (which are none (NO ASSERTION)) in the files are overruled by the licensing expert with license concluded (LicenseConcluded) Apache-2.0
+This is an, of course, unwanted situation, because this kind of information tends to get outdated, because it is disconnected from the files located in the directory. 
+The main problem is, if we would per default "assign" the license mentioned to all these files, we might do an unauthorized "licensing". Currenty we document this, but we do not conclude the license mentioned for the files. 
 
 In both and similar cases usually we provide an explanation, why the scanner findings where corrected via "LicenseConcluded". This explanation is available in the SPDX2TV files as value of the tag "LicenseComments". In the above mentioned example the explanation is:
 > The information in the file is:
