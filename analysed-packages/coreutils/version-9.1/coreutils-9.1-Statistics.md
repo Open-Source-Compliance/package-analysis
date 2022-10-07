@@ -1,6 +1,7 @@
 ## License Statistics
 The following licenses were concluded for the package coreutils-9.1. The file count indicates how many files are licensed under this license(s). No license stands for - there is no license concluded for this file. This happens when the file contains no information about its license. 
- There might be more than one entry of a specific license type, this is not a bug it is related to the fact that the license is still of this type (e.g. BSD-3-Clause) but the concrete wording differs a little bit (like for BSD-3-Clause the 3rd clause and/or the disclaimer)
+
+There might be more than one entry of a specific license type, this is not a bug it is related to the fact that the license is still of this type (e.g. BSD-3-Clause) but the concrete wording differs a little bit (like for BSD-3-Clause the 3rd clause and/or the disclaimer)
  
 | Concluded License(s) | Number of Files | 
 |----------------------|-----------------|
