@@ -5,7 +5,7 @@ There might be more than one entry of a specific license type, this is not a bug
  
 | Concluded License(s) | Number of Files | 
 |----------------------|-----------------|
-| GFDL-1.3+- | 6 |
+| GFDL-1.3+ | 6 |
 | No license | 339 |
 | License-of-GNU-Licenses | 2 |
 | CC0-1.0 AND GPL-3.0+ | 1 |
