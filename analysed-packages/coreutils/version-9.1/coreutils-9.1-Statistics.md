@@ -3,6 +3,7 @@ The following licenses were concluded for the package coreutils-9.1. The file co
  There might be more than one entry of a specific license type, this is not a bug it is related to the fact that the license is still of this type (e.g. BSD-3-Clause) but the concrete wording differs a little bit (like for BSD-3-Clause the 3rd clause and/or the disclaimer)
  
 | Concluded License(s) | Number of Files | 
+|----------------------|-----------------|
 | GFDL-1.3+- | 6 |
 | No license | 339 |
 | License-of-GNU-Licenses | 2 |
