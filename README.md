@@ -150,14 +150,21 @@ Recently we decided to act in those cases as follows:
 If there is on root level a LICENSE.txt or COPYING or similar file we conclude this as "main license" (i.e. clicking on the star in the "Action" column of the license table in the file view of FOSSology) **and** concluding the license information as irrelevant. This procedure ensures that in the SPDX tag-value files the Attributes "PackageLicenseConcluded" and "PackageLicenseDeclared" are set and the specific file (i.e. LICENSE.txt or other) has LicenseConcluded = "NOASSERTION".
 
 Example:
-The LICENSE.txt file on root level contains the text of the MIT license. With the above explained procedure this will result in 
+The LICENSE.txt file on root level contains the text of the MIT license. With the above explained procedure this will result in: 
 > PackageLicenseConcluded: MIT
+
 > PackageLicenseDeclared: MIT
+
 > ...
+
 > FileName: pacakge-abc/LICENSE
+
 > ...
+
 >LicenseConcluded: NOASSERTION
+
 > ...
+
 > LicenseInfoInFile: MIT
 
 ### Copyright extraction
