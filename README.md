@@ -1,5 +1,5 @@
 # package-analysis
-This repo contains license and copyright analysis results of open source packages. It further contains other license compliance relevant artifacts, which might be of value for others.
+This repo contains license and copyright analysis results of open source packages. 
 
 The objective of the project is to lower the required effort for all who want to make use of OSS in a license compliant way. 
 
@@ -27,7 +27,7 @@ For license and copyright statement identification FOSSology provides different 
 	* Nomos
 	* Monk
 	* Ojo
-	* Scancode
+	* Scancode (currently not on all packages)
   
   Each agent was build with a different main focus and we think that running them combined produces the best output. Which agents were run for a concrete package analysis is available in the SPDX2TV file.
 
@@ -38,7 +38,7 @@ We do an analysis of the entire package on file level. This means that all files
 
 ### License identification and conclusion
 
-As already explained in the overall process description a licensing expert will review the scanner findings. During the review depending on the scanner matches, the corresponding text sections and context in the files the following tasks are carried out:
+As already explained in the overall process description a licensing expert will review the scanner findings. During the review depending on the scanner matches, the corresponding text sections and the context in the files the following tasks are carried out:
 * confirm scanner findings either file by file or via bulk statement
 * correct scanner findings either file by file or via bulk statement
 
@@ -48,9 +48,9 @@ The following subsections provide more information about the tasks carried out:
 There might be cases where the scanner matches some license information in a file but this information is not the license of the file. For example
 > "DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)\n" . $herecurr) && $fix) {$fixed[$fixlinenr] =~ s/SPDX-License-Identifier: .*/SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)/;
 
-This is some code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file. In this case and due to the fact that the file does not contain any license information the conclusion is "no license known", which is mapped to "NO ASSERTION" in SPDX terminology.
+This is some code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file. In this case and due to the fact that the file does not contain any license information the conclusion is "no license known", which is mapped to "NOASSERTION" in SPDX terminology.
 
-There might be cases where in a Readme file of the subdirectory or on root level of the package there might be a statement, like:
+There might be cases where in a Readme file of the subdirectory or on root level of the package there is a statement, like:
 > Files in directory abc are all licensed under Apache-2.0 
 
 This is an, of course, unwanted situation, because this kind of information tends to get outdated, because it is disconnected from the files located in the directory. 
@@ -62,6 +62,8 @@ In both and similar cases usually we provide an explanation, why the scanner fin
 > "DT binding documents should be licensed (GPL-2.0-only OR BSD-2-Clause)\n" . $herecurr) && $fix) {$fixed[$fixlinenr] =~ s/SPDX-License-Identifier: .*/SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)/;
 >
 > This is perl code checking whether some files carry the expected SPDX expressions, thus it is not the licensing of this particular file.
+
+Please note that currently FOSSology maps the license conclusion "irrelevant" to "NOASSERTION". Furthermore there are currently no LicenseComments copied into the SPDX2TV files although they were provided during the review of the scanner matches.
 
 #### Confirming scanner findings
 In cases where the scanner matches are correct, we confirm the matches. This is outlined in the SPDX2TV files in the tag "LicenseConcluded".
@@ -140,8 +142,23 @@ In many cases there are files named LICENSE.txt or COPYING or similar in the roo
 
 >  Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
 
-For most of the other license texts no license exist, like for BSD-3-Clause, MIT etc. Usually all scanners fail when it comes to license files. They match the content of the file, like GPL-2.0 but this is **not** the license of the file. In these cases usually the scanner matches are concluded as irrelevant, which translates to **NOASSERTION** in SPDX terminology and in case of the GNU licenses the correct license is concluded.
+For most of the other license texts no license exist, like for BSD-3-Clause, MIT etc. Usually all scanners fail when it comes to license files. They match the content of the file, like GPL-2.0 but this is **not** the license of the file. In these cases usually the scanner matches are concluded as irrelevant, which translates to **NOASSERTION** in SPDX terminology, in case of the GNU licenses the correct license is concluded.
+
 This might in some cases lead to strange analysis results, especially when the analysed package only contains a LICENSE.txt file with the license text and no reference to it in the other files. We are aware of this and try to make this transparent either in the LicenseComments or in the CreatorComment in the SDPX files.
+
+Recently we decided to act in those cases as follows:
+If there is on root level a LICENSE.txt or COPYING or similar file we conclude this as "main license" (i.e. clicking on the star in the "Action" column of the license table in the file view of FOSSology) **and** concluding the license information as irrelevant. This procedure ensures that in the SPDX tag-value files the Attributes "PackageLicenseConcluded" and "PackageLicenseDeclared" are set and the specific file (i.e. LICENSE.txt or other) has LicenseConcluded = "NOASSERTION".
+
+Example:
+The LICENSE.txt file on root level contains the text of the MIT license. With the above explained procedure this will result in 
+> PackageLicenseConcluded: MIT
+> PackageLicenseDeclared: MIT
+> ...
+> FileName: pacakge-abc/LICENSE
+> ...
+>LicenseConcluded: NOASSERTION
+> ...
+> LicenseInfoInFile: MIT
 
 ### Copyright extraction
 
@@ -162,7 +179,7 @@ For the developers the SPDX2TV files will be most interesting, since they contai
 
 Nevertheless the OSS-disclosure files are also of value for the developers, because they provide a very fast overview about the license situation of the entire package.
 
-The information provided in the SPDX2TV files is complete in a way that it can be consumed and license as well as the copyright information can be extracted for every file, like:
+The information provided in the SPDX2TV files is complete in a way that it can be consumed. License as well as the copyright information can be extracted for every file, like:
 > ##File
 > 
 > **FileName:** zephyr-2.7.2.tar.gz/zephyr-2.7.2.tar/zephyr-2.7.2/include/net/http_parser_state.h
@@ -195,9 +212,7 @@ The value of "LicenseConcluded" is in this example "LicenseRef-MIT". The SPDX2TV
 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
 
-As one can see, having the path and the name of the files used in the build it is very easy to extract the necessary license and copyright information from the SPDX2TV files.
-
-We plan to provide the artifacts via a REST API to make it possible that they can be downloaded and consumed via scripts to enable for automation. As long as the server implementing the REST API is not available developers can clone the repo to their environment, retrieve the information locally and implement automation scripts. So even with not having a REST API available yet, the CI/CD pipelines can be easily enhanced with license compliance procedures following the described procedure.
+As one can see, having the path and the name of the files used in the build it is very easy to extract the necessary license and copyright information from the SPDX2TV files. If file and path is cannot be used the given file hashes can be used alternatively.
 
 
 ## Further Work
@@ -205,5 +220,6 @@ The following tasks are on the todo list:
 * creating a nice website
 * creating a project logo
 * providing a REST API to search for and download the analysis results to enable for automation and integration in CI/CD pipelines
+* additionally we plan to provide other license compliance relevant artifacts, which might be of value for others.
 
 In case you want to contribute to the above mentioned topics - everything is highly welcome
