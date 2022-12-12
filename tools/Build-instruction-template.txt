@@ -1,0 +1,51 @@
+Build instructions
+
+Some FOSS licenses, in particular the GNU (Lesser) General Public Licenses,
+require the distributor of binary software to also deliver ”scripts to control
+compilation and installation” (GPL-2.0 sect. 3), i.e. build and installation
+instructions as part of the complete corresponding source code. Such
+instructions could read as follows (based on
+https://github.com/armijnhemel/compliance-scripts/blob/master/doc/build-instructions-template.txt):
+
+-------------------------------------------------------------------------------
+
+SPDX-Identifier: CC0-1.0
+
+These are the build instructions to rebuild the FOSS components for [SOFTWARE
+NAME AND VERSION].
+
+Please note: Rebuilding the source code and reinstalling the resulting programs
+onto the device are not supported by our technical support department! Warranty
+claims on the modified software will expire, as long as the customer cannot
+prove that the defect would also occur without the modification.
+
+The instructions below have been tested on [DISTRIBUTION]. Other operating
+systems or distributions have not been tested.
+
+To rebuild the software, the following steps must be performed:
+
+1. Installing a (virtual) machine with [DISTRIBUTION], with at least [SPACE] GiB
+of free disk space available.
+
+2. Installing the following packages:
+* [PACKAGE 1]
+* [PACKAGE 2]
+* [PACKAGE N]
+
+3. Creating a directory [SOURCE DIRECTORY]:
+$ sudo mkdir -p [SOURCE DIRECTORY]
+
+4. Optional: changing the owner and environment of the directory
+$ sudo chown [USR:GROUP] [SOURCE DIRECTORY]
+$ export [VARIABLE]
+
+5. Unpacking the archive [SOURCE ARCHIVE] to this directory:
+$ cd [SOURCE DIRECTORY]
+$ tar xf [SOURCE ARCHIVE]
+
+6. Starting the build process:
+[BUILD INSTRUCTIONS]
+
+7. After the build process is complete, the built binaries are located in
+[BINARY DIRECTORY] and can be installed with [INSTALLATION INSTRUCTIONS].
+
