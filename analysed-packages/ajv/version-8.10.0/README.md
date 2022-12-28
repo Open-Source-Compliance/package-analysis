@@ -2,6 +2,10 @@
 
 https://github.com/ajv-validator/ajv/archive/refs/tags/v8.10.0.zip
 
+## Package URL (purl)
+
+pkg:none/github.com/ajv-validator/ajv@8.10.0
+
 ## Reviewers
 
 The information was reviewed by:
