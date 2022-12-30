@@ -1,12 +1,10 @@
 ## Download Location
 
-### Alpine
-
 https://git.alpinelinux.org/aports/tree/main/libretls?h=3.15-stable
 
-### libretls
+## Package URL (purl)
 
-https://git.causal.agency/libretls/snapshot/libretls-3.3.4.tar.gz
+pkg:generic/libretls@3.3.4?download_url=https://git.causal.agency/libretls/snapshot/libretls-3.3.4.tar.gz
 
 ## Reviewers
 

@@ -1,12 +1,10 @@
 ## Download Location
 
-### Alpine
-
 https://git.alpinelinux.org/aports/tree/main/ifupdown-ng?h=3.15-stable
 
-### Ifupdown-ng
+## Package URL (purl)
 
-https://distfiles.dereferenced.org/ifupdown-ng/ifupdown-ng-0.11.3.tar.xz
+pkg:generic/ifupdown-ng@0.11.3?download_url=https://distfiles.dereferenced.org/ifupdown-ng/ifupdown-ng-0.11.3.tar.xz
 
 ## Reviewers
 
