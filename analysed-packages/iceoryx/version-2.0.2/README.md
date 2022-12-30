@@ -4,7 +4,7 @@ https://github.com/eclipse-iceoryx/iceoryx/archive/refs/tags/v2.0.2.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/github.com/eclipse-iceoryx/iceoryx@2.0.2
+pkg:github/eclipse-iceoryx/iceoryx@2.0.2
 
 ## Reviewers
 

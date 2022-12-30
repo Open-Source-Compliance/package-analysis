@@ -4,7 +4,7 @@ https://github.com/twbs/bootstrap/archive/refs/tags/v5.1.3.zip
 
 ## Package URL (purl)
 
-pkg:none/github.com/twbs/bootstrap@5.1.3
+pkg:github/twbs/bootstrap@5.1.3
 
 ## Reviewers
 

@@ -4,7 +4,7 @@ https://www.nano-editor.org/dist/v7/nano-7.1.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/www.nano-editor.org/dist/nano@7.1
+pkg:generic/nano@7.1?download_url=https://www.nano-editor.org/dist/v7/nano-7.1.tar.gz
 
 ## Reviewers
 

@@ -4,7 +4,7 @@ https://download-mirror.savannah.gnu.org/releases/acl/acl-2.2.53.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/download-mirror.savannah.gnu.org/releases/acl@2.2.53
+pkg:generic/acl@2.2.53?download_url=https://download-mirror.savannah.gnu.org/releases/acl/acl-2.2.53.tar.gz
 
 ## Reviewers
 

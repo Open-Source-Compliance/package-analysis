@@ -4,7 +4,7 @@ https://ftp.gnu.org/gnu/findutils/findutils-4.8.0.tar.xz
 
 ## Package URL (purl)
 
-pkg:none/ftp.gnu.org/gnu/findutils@4.8.0
+pkg:generci/findutils@4.8.0?download_url=https://ftp.gnu.org/gnu/findutils/findutils-4.8.0.tar.xz
 
 ## Reviewers
 

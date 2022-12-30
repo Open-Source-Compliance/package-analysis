@@ -4,7 +4,7 @@ https://github.com/openssl/openssl/archive/refs/tags/openssl-3.0.5.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/github.com/openssl/OpenSSL@3.0.5
+pkg:github/openssl/openssl@3.0.5
 
 ## Reviewers
 

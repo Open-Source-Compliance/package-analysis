@@ -4,7 +4,7 @@ https://sourceforge.net/projects/libtirpc/files/libtirpc/1.3.2/libtirpc-1.3.2.ta
 
 ## Package URL (purl)
 
-pkg:none/sourceforge.net/projects/libtirpc@1.3.2
+pkg:generic/libtirpc@1.3.2?download_url=https://sourceforge.net/projects/libtirpc/files/libtirpc/1.3.2/libtirpc-1.3.2.tar.bz2/download
 
 ## Reviewers
 

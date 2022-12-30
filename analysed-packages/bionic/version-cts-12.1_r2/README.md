@@ -4,7 +4,7 @@ https://github.com/aosp-mirror/platform_bionic/archive/refs/tags/android-cts-12.
 
 ## Package URL (purl)
 
-pkg:none/github.com/aosp-mirror/bionic@cts-12.1_r2
+pkg:github/aosp-mirror/bionic@cts-12.1_r2
 
 ## Reviewers
 

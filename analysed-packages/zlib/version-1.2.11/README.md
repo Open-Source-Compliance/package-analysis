@@ -4,7 +4,7 @@ https://zlib.net/fossils/zlib-1.2.11.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/zlib.net/fossils/zlib@1.2.11
+pkg:generic/zlib@1.2.11?download_url=https://zlib.net/fossils/zlib-1.2.11.tar.gz
 
 ## Reviewers
 

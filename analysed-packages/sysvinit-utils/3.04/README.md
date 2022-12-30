@@ -4,7 +4,7 @@ https://github.com/slicer69/sysvinit/archive/refs/tags/3.04.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/github.com/slicer69/sysvinit-utils@3.04
+pkg:github/slicer69/sysvinit-utils@3.04
 
 ## Reviewers
 

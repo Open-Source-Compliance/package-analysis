@@ -4,7 +4,7 @@ https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/v3.0.0.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/github.com/Mbed-TLS/mbedtls@3.0.0
+pkg:github/Mbed-TLS/mbedtls@3.0.0
 
 ## Reviewers
 

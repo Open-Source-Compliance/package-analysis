@@ -4,7 +4,7 @@ https://busybox.net/downloads/busybox-1.35.0.tar.bz2
 
 ## Package URL (purl)
 
-pkg:none/busybox.net/downloads/busybox@1.35.0
+pkg:generic/busybox@1.35.0?download_url=https://busybox.net/downloads/busybox-1.35.0.tar.bz2
 
 ## Reviewers
 

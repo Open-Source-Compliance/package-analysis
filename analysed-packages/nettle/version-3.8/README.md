@@ -4,7 +4,7 @@ https://ftp.gnu.org/gnu/nettle/nettle-3.8.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/ftp.gnu.org/gnu/nettle@3.8
+pkg:generic/nettle@3.8?download_url=https://ftp.gnu.org/gnu/nettle/nettle-3.8.tar.gz
 
 ## Reviewers
 

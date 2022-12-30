@@ -1,6 +1,10 @@
 ## Download Location
 
-Not known
+https://github.com/dart-lang/characters/archive/refs/tags/1.2.0.zip
+
+## Package URL (purl)
+
+pkg:github/dart-lang/characters@1.2.0
 
 ## Remarks
 

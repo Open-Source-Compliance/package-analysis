@@ -4,7 +4,7 @@ https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.67.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/download.lighttpd.net/lighttpd/lighthttpd@1.4.67
+pkg:generic/lighthttpd@1.4.67?download_url=https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.67.tar.gz
 
 ## Reviewers
 

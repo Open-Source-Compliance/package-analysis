@@ -4,7 +4,7 @@ https://github.com/zephyrproject-rtos/zephyr/archive/refs/tags/zephyr-v3.2.0.tar
 
 ## Package URL (purl)
 
-pkg:none/github.com/zephyrproject-rtos/zephyr@3.2.0
+pkg:github/zephyrproject-rtos/zephyr@3.2.0
 
 ## Reviewers
 

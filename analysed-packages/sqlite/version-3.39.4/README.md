@@ -4,7 +4,7 @@ https://github.com/sqlite/sqlite/archive/refs/tags/version-3.39.4.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/github.com/sqlite/sqlite@3.39.4
+pkg:github/sqlite/sqlite@3.39.4
 
 ## Reviewers
 

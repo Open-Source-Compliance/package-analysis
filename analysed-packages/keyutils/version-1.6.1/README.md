@@ -4,7 +4,7 @@ https://people.redhat.com/~dhowells/keyutils/keyutils-1.6.1.tar.bz2
 
 ## Package URL (purl)
 
-pkg:none/people.redhat.com/~dhowells/keyutils@1.6.1
+pkg:generic/keyutils@1.6.1?download_url=https://people.redhat.com/~dhowells/keyutils/keyutils-1.6.1.tar.bz2
 
 ## Reviewers
 

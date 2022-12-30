@@ -4,7 +4,7 @@ https://www.ijg.org/files/jpegsrc.v9e.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/www.ijg.org/files/jpeg@v9e
+pkg:generic/jpeg@9e?download_url=https://www.ijg.org/files/jpegsrc.v9e.tar.gz
 
 ## Reviewers
 

@@ -4,7 +4,7 @@ https://ftp.gnu.org/gnu/libunistring/libunistring-1.0.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/ftp.gnu.org/gnu/libunistring@1.0
+pkg:genercic/libunistring@1.0?download_url=https://ftp.gnu.org/gnu/libunistring/libunistring-1.0.tar.gz
 
 ## Reviewers
 

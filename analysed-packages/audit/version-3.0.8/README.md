@@ -4,7 +4,7 @@ https://people.redhat.com/sgrubb/audit/audit-3.0.8.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/people.redhat.com/sgrubb/audit@3.0.8
+pkg:generic/audit@3.0.8?download_url=https://people.redhat.com/sgrubb/audit/audit-3.0.8.tar.gz
 
 ## Reviewers
 

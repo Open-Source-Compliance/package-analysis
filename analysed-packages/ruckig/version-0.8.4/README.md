@@ -4,7 +4,7 @@ https://github.com/pantor/ruckig/archive/refs/tags/v0.8.4.tar.gz
 
 ## Package URL (purl)
 
-pkg:none/github.com/pantor/ruckig@0.8.4
+pkg:github/pantor/ruckig@0.8.4
 
 ## Reviewers
 

@@ -4,7 +4,7 @@ https://github.com/SELinuxProject/selinux/archive/refs/tags/libselinux-3.4.tar.g
 
 ## Package URL (purl)
 
-pkg:none/github.com/SELinuxProject/libselinux@3.4
+pkg:github/SELinuxProject/selinux/libselinux@3.4
 
 ## Reviewers
 
