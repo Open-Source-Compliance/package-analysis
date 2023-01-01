@@ -2,6 +2,10 @@
 
 https://github.com/twbs/bootstrap/archive/refs/tags/v4.0.0.zip
 
+## Package URL (purl)
+
+pkg:github/twbs/bootstrap@4.0.0
+
 ## Reviewers
 
 The information was reviewed by:

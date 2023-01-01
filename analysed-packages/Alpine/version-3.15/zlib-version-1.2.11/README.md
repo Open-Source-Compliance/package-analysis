@@ -1,12 +1,10 @@
 ## Download Location
 
-### Alpine
-
 https://git.alpinelinux.org/aports/tree/main/zlib?h=3.15-stable
 
-### zlib
+## Package URL (purl)
 
-https://zlib.net/zlib-1.2.12.tar.gz
+pkg:generic/zlib@1.2.12?download_url=https://zlib.net/zlib-1.2.12.tar.gz
 
 ## Reviewers
 

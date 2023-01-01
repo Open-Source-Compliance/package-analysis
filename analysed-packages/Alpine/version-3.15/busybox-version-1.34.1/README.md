@@ -1,12 +1,10 @@
 ## Download Location
 
-### Alpine
-
 https://git.alpinelinux.org/aports/tree/main/busybox?h=3.15-stable
 
-### busybox
+## Package URL (purl)
 
-https://busybox.net/downloads/busybox-1.34.1.tar.bz2
+pkg:generic/busybox@1.34.1?download_url=https://busybox.net/downloads/busybox-1.34.1.tar.bz2
 
 ## Reviewers
 

@@ -1,12 +1,10 @@
 ## Download Location
 
-### Alpine
-
 https://git.alpinelinux.org/aports/tree/main/openssl?h=3.15-stable
 
-### OpenSSL
+## Package URL (purl)
 
-https://www.openssl.org/source/openssl-1.1.1l.tar.gz
+pkg:generic/openssl@1.1.1l?download_url=https://www.openssl.org/source/openssl-1.1.1l.tar.gz
 
 ## Reviewers
 
