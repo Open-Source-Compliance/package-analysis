@@ -24,6 +24,7 @@ The OSS package analysis file are generated following the process described belo
 * Obtain the component in source code form
 	* download the component - we provide the link were we downloaded the component in the corresponding README file.
 	* the download URL is provided in the README files of the corresponding directories
+	* additionally to the download url the corresponding package URL is provided in the README files
 * Issue a license and copyright analysis with the GPL-2.0 licensed tool [FOSSology](https://www.fossology.org/). 
 For license and copyright statement identification FOSSology provides different "agents" the user is able to select, which "agents" shall run, currently the following "agents" are available:
 	* Nomos
