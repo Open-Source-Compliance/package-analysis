@@ -1,0 +1,771 @@
+================================================================================
+
+shim-15.7
+
+--------------------------------------------------------------------------------
+
+================================================================================
+
+LICENSES 
+
+--------------------------------------------------------------------------------
+
+BSD-2-Clause
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+BSD-2-Clause
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Neither the name of author nor the names of its contributors may
+be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+SSLeay
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this software
+must display the following acknowledgement:
+"This product includes cryptographic software written by
+Eric Young (eay@cryptsoft.com)"
+The word 'cryptographic' can be left out if the rouines from the library
+being used are not cryptographic related :-).
+4. If you include any Windows specific code (or a derivative thereof) from
+the apps directory (application code) you must include an acknowledgement:
+"This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+
+THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+The licence and distribution terms for any publically available version or
+derivative of this code cannot be changed. i.e. this code cannot simply be
+copied and put under another distribution licence
+[including the GNU Public Licence.]
+
+--------------------------------------------------------------------------------
+
+Permission-Notice
+
+Written by Solar Designer <solar at openwall.com> in 1998-2011.
+No copyright is claimed, and the software is hereby placed in the public
+domain. In case this attempt to disclaim copyright and place the software
+in the public domain is deemed null and void, then the software is
+Copyright (c) 1998-2011 Solar Designer and it is hereby released to the
+general public under the following terms:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted.
+
+There's ABSOLUTELY NO WARRANTY, express or implied.
+
+It is my intent that you should be able to use this on your system,
+as part of a software package, or anywhere else to improve security,
+ensure compatibility, or for any other purpose. I would appreciate
+it if you give credit where it is due and keep your modifications in
+the public domain as well, but I don't require that in order to let
+you place this code and any modifications you make under a license
+of your choice.
+
+--------------------------------------------------------------------------------
+
+Permission-Notice
+
+This software is hereby released to the general public under the following
+terms:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted.
+
+There's ABSOLUTELY NO WARRANTY, express or implied.
+
+--------------------------------------------------------------------------------
+
+BSD-2-Clause-Patent
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+Subject to the terms and conditions of this license, each copyright holder and
+contributor hereby grants to those receiving rights under this license a
+perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+(except for failure to satisfy the conditions of this license) patent license to
+make, have made, use, offer to sell, sell, import, and otherwise transfer this
+software, where such license applies only to those patent claims, already
+acquired or hereafter acquired, licensable by such copyright holder or
+contributor that are necessarily infringed by:
+
+(a) their Contribution(s) (the licensed copyrights of copyright holders and non-
+copyrightable additions of contributors, in source or binary form) alone; or
+(b) combination of their Contribution(s) with the work of authorship to which
+such Contribution(s) was added by such copyright holder or contributor, if, at
+the time the Contribution is added, such addition causes such combination to be
+necessarily infringed. The patent license shall not apply to any other
+combinations which include the Contribution.
+Except as expressly stated above, no rights or licenses from any copyright
+holder or contributor is granted under this license, whether expressly, by
+implication, estoppel or otherwise.
+
+DISCLAIMER
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+Public-domain
+
+This code is hereby placed in the public domain.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHORS ''AS IS'' AND ANY EXPRESS
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+BSD-3-Clause
+
+Redistribution and use in source and binary forms, with or without  
+modification, are permitted provided that the following conditions are  
+met:  
+
+* Redistributions of source code must retain the above copyright  
+notice, this list of conditions and the following disclaimer.  
+
+* Redistributions in binary form must reproduce the above copyright  
+notice, this list of conditions and the following disclaimer in the  
+documentation and/or other materials provided with the  
+distribution.  
+
+* Neither the name of the Intel Corporation nor the names of its  
+contributors may be used to endorse or promote products derived from  
+this software without specific prior written permission.  
+
+
+THIS SOFTWARE IS PROVIDED BY INTEL CORPORATION ""AS IS"" AND ANY  
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE  
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR  
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL INTEL CORPORATION OR  
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,  
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,  
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR  
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF  
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING  
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS  
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  
+
+--------------------------------------------------------------------------------
+
+BSD-3-Clause
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the
+distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Significant portions of this code are derived from Tianocore
+(http://tianocore.sf.net) and are Copyright 2009-2012 Intel
+Corporation.
+
+--------------------------------------------------------------------------------
+
+BSD-3-Clause
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the Institute nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE INSTITUTE AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+OpenSSL
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the
+distribution.
+
+3. All advertising materials mentioning features or use of this
+software must display the following acknowledgment:
+"This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+
+4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+endorse or promote products derived from this software without
+prior written permission. For written permission, please contact
+openssl-core@openssl.org.
+
+5. Products derived from this software may not be called "OpenSSL"
+nor may "OpenSSL" appear in their names without prior written
+permission of the OpenSSL Project.
+
+6. Redistributions of any form whatsoever must retain the following
+acknowledgment:
+"This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+
+THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS
+
+--------------------------------------------------------------------------------
+
+OpenSSL
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the
+distribution.
+
+3. All advertising materials mentioning features or use of this
+software must display the following acknowledgment:
+"This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit. (http://www.OpenSSL.org/)"
+
+4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+endorse or promote products derived from this software without
+prior written permission. For written permission, please contact
+licensing@OpenSSL.org.
+
+5. Products derived from this software may not be called "OpenSSL"
+nor may "OpenSSL" appear in their names without prior written
+permission of the OpenSSL Project.
+
+6. Redistributions of any form whatsoever must retain the following
+acknowledgment:
+"This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.OpenSSL.org/)"
+
+THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+OpenSSL
+
+OpenSSL License
+
+Copyright (c) 1998-2008 The OpenSSL Project. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+3. All advertising materials mentioning features or use of this software must
+display the following acknowledgment: "This product includes software developed
+by the OpenSSL Project for use in the OpenSSL Toolkit.
+(http://www.openssl.org/)"
+
+4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to endorse
+or promote products derived from this software without prior written permission.
+For written permission, please contact openssl-core@openssl.org.
+
+5. Products derived from this software may not be called "OpenSSL" nor may
+"OpenSSL" appear in their names without prior written permission of the OpenSSL
+Project.
+
+6. Redistributions of any form whatsoever must retain the following
+acknowledgment: "This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+
+THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY EXPRESSED OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL THE OpenSSL PROJECT OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+This product includes cryptographic software written by Eric Young
+(eay@cryptsoft.com). This product includes software written by Tim Hudson
+(tjh@cryptsoft.com).
+
+
+Original SSLeay License
+
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com) All rights reserved.
+
+This package is an SSL implementation written by Eric Young (eay@cryptsoft.com).
+The implementation was written so as to conform with Netscapes SSL.
+
+This library is free for commercial and non-commercial use as long as the
+following conditions are aheared to. The following conditions apply to all code
+found in this distribution, be it the RC4, RSA, lhash, DES, etc., code; not just
+the SSL code. The SSL documentation included with this distribution is covered
+by the same copyright terms except that the holder is Tim Hudson
+(tjh@cryptsoft.com).
+
+Copyright remains Eric Young's, and as such any Copyright notices in the code
+are not to be removed. If this package is used in a product, Eric Young should
+be given attribution as the author of the parts of the library used. This can be
+in the form of a textual message at program startup or in documentation (online
+or textual) provided with the package.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the copyright notice, this list of
+conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+3. All advertising materials mentioning features or use of this software must
+display the following acknowledgement:
+"This product includes cryptographic software written by Eric Young
+(eay@cryptsoft.com)"
+The word 'cryptographic' can be left out if the rouines from the library being
+used are not cryptographic related :-).
+
+4. If you include any Windows specific code (or a derivative thereof) from the
+apps directory (application code) you must include an acknowledgement: "This
+product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+
+THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGE.
+
+The licence and distribution terms for any publically available version or
+derivative of this code cannot be changed. i.e. this code cannot simply be
+copied and put under another distribution licence [including the GNU Public
+Licence.]
+
+
+--------------------------------------------------------------------------------
+
+OpenSSL
+
+LICENSE ISSUES
+==============
+
+
+The OpenSSL toolkit stays under a double license, i.e. both the conditions of
+the OpenSSL License and the original SSLeay license apply to the toolkit.
+See below for the actual license texts.
+
+OpenSSL License
+---------------
+
+
+====================================================================
+
+Copyright (c) 1998-2019 The OpenSSL Project. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the
+distribution.
+
+3. All advertising materials mentioning features or use of this
+software must display the following acknowledgment:
+"This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+
+4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+endorse or promote products derived from this software without
+prior written permission. For written permission, please contact
+openssl-core@openssl.org.
+
+5. Products derived from this software may not be called "OpenSSL"
+nor may "OpenSSL" appear in their names without prior written
+permission of the OpenSSL Project.
+
+6. Redistributions of any form whatsoever must retain the following
+acknowledgment:
+"This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+
+THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================
+
+
+This product includes cryptographic software written by Eric Young
+(eay@cryptsoft.com). This product includes software written by Tim
+Hudson (tjh@cryptsoft.com).
+
+
+
+Original SSLeay License
+-----------------------
+
+
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+
+This package is an SSL implementation written
+by Eric Young (eay@cryptsoft.com).
+The implementation was written so as to conform with Netscapes SSL.
+
+This library is free for commercial and non-commercial use as long as
+the following conditions are aheared to. The following conditions
+apply to all code found in this distribution, be it the RC4, RSA,
+lhash, DES, etc., code; not just the SSL code. The SSL documentation
+included with this distribution is covered by the same copyright terms
+except that the holder is Tim Hudson (tjh@cryptsoft.com).
+
+Copyright remains Eric Young's, and as such any Copyright notices in
+the code are not to be removed.
+If this package is used in a product, Eric Young should be given attribution
+as the author of the parts of the library used.
+This can be in the form of a textual message at program startup or
+in documentation (online or textual) provided with the package.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this software
+must display the following acknowledgement:
+"This product includes cryptographic software written by
+Eric Young (eay@cryptsoft.com)"
+The word 'cryptographic' can be left out if the rouines from the library
+being used are not cryptographic related :-).
+4. If you include any Windows specific code (or a derivative thereof) from
+the apps directory (application code) you must include an acknowledgement:
+"This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+
+THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+The licence and distribution terms for any publically available version or
+derivative of this code cannot be changed. i.e. this code cannot simply be
+copied and put under another distribution licence
+[including the GNU Public Licence.]
+
+--------------------------------------------------------------------------------
+
+================================================================================
+
+ ACKNOWLEDGEMENTS 
+
+--------------------------------------------------------------------------------
+
+OpenSSL
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit. (http://www.OpenSSL.org/)
+
+This product includes cryptographic software written by Eric Young
+(eay@cryptsoft.com).
+
+This product includes software written by Tim Hudson (tjh@cryptsoft.com).
+
+--------------------------------------------------------------------------------
+
+OpenSSL
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit. (http://www.openssl.org/)
+
+This product includes cryptographic software written by Eric Young
+(eay@cryptsoft.com).
+
+This product includes software written by Tim Hudson (tjh@cryptsoft.com).
+
+
+
+--------------------------------------------------------------------------------
+
+OpenSSL
+
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit. (http://www.openssl.org/)
+
+This product includes cryptographic software written by Eric Young
+(eay@cryptsoft.com). 
+
+This product includes software written by Tim Hudson (tjh@cryptsoft.com).
+
+--------------------------------------------------------------------------------
+
+SSLeay
+
+This product includes software written by Tim Hudson (tjh@cryptsoft.com)
+
+This product includes cryptographic software written by
+Eric Young (eay@cryptsoft.com)
+
+--------------------------------------------------------------------------------
+
+Copyright notices
+
+copyright is claimed, and the software is hereby placed in the public
+copyright (c) 2008 - 2009, Apple Inc. All rights reserved.
+Copyright Red Hat, Inc.
+Copyright Red Hat, Inc Author: Matthew Garrett
+Copyright Red Hat, Inc
+Copyright Peter Jones <pjones@redhat.com>
+Copyright Patrick Powell 1995 <papowell@astart.com> 
+Copyright 2019 SUSE LLC <glin@suse.com>
+Copyright 2017 Peter Jones <pjones@redhat.com>
+Copyright 2015 SUSE LINUX GmbH <glin@suse.com>
+Copyright 2015 Hewlett Packard Enterprise Development LP
+Copyright 2013 Red Hat Inc. <pjones@redhat.com>
+Copyright 2013 <James.Bottomley@HansenPartnership.com>
+Copyright 2012 Red Hat, Inc <mjg@redhat.com>
+Copyright 2012 <James.Bottomley@HansenPartnership.com>
+Copyright 2009-2012 Intel Corporation.
+Copyright 2005 Nokia. All rights reserved.
+Copyright 2002 Sun Microsystems, Inc. ALL RIGHTS RESERVED.
+Copyright 2002 Sun Microsystems, Inc.
+Copyright (c) 2016, Intel Corporation. All rights reserved.
+Copyright (c) 2015, Intel Corporation. All rights reserved.
+Copyright (c) 2015 - 2016, Intel Corporation. All rights reserved.
+Copyright (c) 2014 The OpenSSL Project. All rights reserved.
+Copyright (c) 2014 - 2016, Intel Corporation. All rights reserved.
+Copyright (c) 2014 - 2015, Intel Corporation. All rights reserved.
+Copyright (c) 2013 The OpenSSL Project. All rights reserved.
+Copyright (c) 2012, Intel Corporation. All rights reserved.
+Copyright (c) 2012, Intel Corporation 
+Copyright (c) 2012 - 2016, Intel Corporation. All rights reserved.
+Copyright (c) 2011-2013 The OpenSSL Project. All rights reserved.
+Copyright (c) 2011 The OpenSSL Project. All rights reserved.
+Copyright (c) 2011 - 2019, Intel Corporation. All rights reserved.
+Copyright (c) 2011 - 2012, Intel Corporation. All rights reserved.
+Copyright (c) 2010, Intel Corporation. All rights reserved.
+Copyright (c) 2010 The OpenSSL Project. All rights reserved.
+Copyright (c) 2010 - 2016, Intel Corporation. All rights reserved.
+Copyright (c) 2010 - 2015, Intel Corporation. All rights reserved.
+Copyright (c) 2010 - 2013, Intel Corporation. All rights reserved.
+Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.
+Copyright (c) 2010 - 2011, Intel Corporation. All rights reserved.
+Copyright (c) 2009 - 2016, Intel Corporation. All rights reserved.
+Copyright (c) 2009 - 2015, Intel Corporation. All rights reserved.
+Copyright (c) 2009 - 2012, Intel Corporation. All rights reserved.
+Copyright (c) 2008 The OpenSSL Project. All rights reserved.
+Copyright (c) 2008 - 2011, Intel Corporation. All rights reserved.
+Copyright (c) 2007 The OpenSSL Project. All rights reserved.
+Copyright (c) 2007 KISA(Korea Information Security Agency). All rights reserved.
+Copyright (c) 2006,2007 The OpenSSL Project. All rights reserved.
+Copyright (c) 2006 The OpenSSL Project. All rights reserved.
+Copyright (c) 2006 - 2010, Intel Corporation. All rights reserved.
+Copyright (c) 2005 The OpenSSL Project. All rights reserved.
+Copyright (c) 2004, Richard Levitte <richard@levitte.org> All rights reserved.
+Copyright (c) 2004 The OpenSSL Project. All rights reserved.
+Copyright (c) 2004 The OpenSSL Project. All rights reserved
+Copyright (c) 2004 Kungliga Tekniska Högskolan Royal Institute of Technology,
+Stockholm, Sweden). All rights reserved.
+Copyright (c) 2003 The OpenSSL Project. All rights reserved.
+Copyright (c) 2002-2006 The OpenSSL Project. All rights reserved.
+Copyright (c) 2002 The OpenSSL Project. All rights reserved.
+Copyright (c) 2001-2011 The OpenSSL Project. All rights reserved.
+Copyright (c) 2001-2004 The OpenSSL Project. All rights reserved.
+Copyright (c) 2001 The OpenSSL Project. All rights reserved.
+Copyright (c) 2000-2011 Solar Designer
+Copyright (c) 2000-2005 The OpenSSL Project. All rights reserved.
+Copyright (c) 2000-2004 The OpenSSL Project. All rights reserved.
+Copyright (c) 2000-2002 The OpenSSL Project. All rights reserved.
+Copyright (c) 2000,2005 The OpenSSL Project. All rights reserved.
+Copyright (c) 2000 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2016 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2015 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2014 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2013 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2011 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2008 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2007 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2006 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2005 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2004 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2003 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999-2002 The OpenSSL Project. All rights reserved.
+Copyright (c) 1999 The OpenSSL Project. All rights reserved.
+Copyright (c) 1998-2011 Solar Designer
+Copyright (c) 1998-2007 The OpenSSL Project. All rights reserved.
+Copyright (c) 1998-2006 The OpenSSL Project. All rights reserved.
+Copyright (c) 1998-2005 The OpenSSL Project. All rights reserved.
+Copyright (c) 1998-2004 The OpenSSL Project. All rights reserved.
+Copyright (c) 1998-2003 The OpenSSL Project. All rights reserved.
+Copyright (c) 1998-2002 The OpenSSL Project. All rights reserved.
+Copyright (c) 1998-2001 The OpenSSL Project. All rights reserved.
+Copyright (c) 1998-2000 The OpenSSL Project. All rights reserved.
+Copyright (C) 2006, Network Resonance, Inc. Copyright (C) 2011, RTFM, Inc.
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com) All rights reserved.
+Copyright (C) 1995-1997 Eric Young (eay@cryptsoft.com) All rights reserved.
