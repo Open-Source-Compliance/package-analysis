@@ -10,4 +10,4 @@ pkg:generic/tar@1.34?download_url=https://ftp.gnu.org/gnu/tar/tar-1.34.tar.gz
 
 The information was reviewed by:
 
-* add reviewer here
+* Oliver Fendt
