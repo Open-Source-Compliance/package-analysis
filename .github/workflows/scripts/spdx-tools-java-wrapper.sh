@@ -30,12 +30,10 @@ bootstrap() {
 
 verify() {
     local tmpfile="$(mktemp)"
-    find analysed-packages/ -iname '*.spdx' -print0 |
-        while IFS= read -r -d '' spdx; do
-            "$javabin" -jar "$jar" Verify "$spdx" || {
-                echo "$spdx" >> "$tmpfile"
-            }
-        done
+
+    # TODO: Limit this to only the files modified in a PR.
+    find analysed-packages/ -iname '*.spdx' -print0 | \
+        xargs -0 -P8 -I {} bash -c "'$javabin' -jar '$jar' Verify {} || echo {} >> '$tmpfile'"
 
     echo
     if [[ -s "$tmpfile" ]]; then
