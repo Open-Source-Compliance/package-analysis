@@ -29,24 +29,28 @@ bootstrap() {
 }
 
 verify() {
-    local tmpfile="$(mktemp)"
+    # Set default values that work to link to local files below.
+    GITHUB_STEP_SUMMARY="${GITHUB_STEP_SUMMARY:-}"
+    GITHUB_SERVER_URL="${GITHUB_SERVER_URL:-.}"
+    GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-.}"
+    GITHUB_SHA="${GITHUB_SHA:-..}"
+
+    if [[ -z "$GITHUB_STEP_SUMMARY" ]]; then
+        GITHUB_STEP_SUMMARY="$(mktemp)"
+        echo "Writing local job summary to '$GITHUB_STEP_SUMMARY'."
+    fi
 
     # TODO: Limit this to only the files modified in a PR.
     find analysed-packages/ -iname '*.spdx' -print0 | \
-        xargs -0 -P8 -I {} bash -c "'$javabin' -jar '$jar' Verify {} || echo {} >> '$tmpfile'"
+        xargs -0 -P8 -I {} \
+        bash -c "'$javabin' -jar '$jar' Verify {} || echo '* [{}]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/{})' >> '$GITHUB_STEP_SUMMARY'"
 
-    echo
-    if [[ -s "$tmpfile" ]]; then
-        echo "################################################################################"
-        echo "The following .spdx files are not valid, see logs above:"
-        echo
-        cat "$tmpfile"
-        echo "################################################################################"
+    if [[ -s "$GITHUB_STEP_SUMMARY" ]]; then
+        local count=$(wc -l < "$GITHUB_STEP_SUMMARY")
+        echo -e "### The following $count \`.spdx\` files are invalid :x: (see the job logs for details)\n$(cat $GITHUB_STEP_SUMMARY)" > "$GITHUB_STEP_SUMMARY"
         exit 1
     else
-        echo "################################################################################"
-        echo "all .spdx files are valid"
-        echo "################################################################################"
+        echo "### All \`.spdx\` files are valid :heavy_check_mark:" > "$GITHUB_STEP_SUMMARY"
     fi
 }
 
