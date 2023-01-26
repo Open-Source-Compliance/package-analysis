@@ -12,6 +12,12 @@ zip="tools-java-${version}.zip"
 url="https://github.com/spdx/tools-java/releases/download/v${version}/${zip}"
 jar="$HOME/spdx-tools-java/tools-java-${version}-jar-with-dependencies.jar"
 
+if [[ -n "$JAVA_HOME" && -x "$JAVA_HOME/bin/java" ]]; then
+    javabin="$JAVA_HOME/bin/java"
+else
+    javabin=java
+fi
+
 bootstrap() {
     [[ -f "$jar" ]] && return
 
@@ -19,14 +25,14 @@ bootstrap() {
     unzip "$zip" -d "$(dirname "$jar")" "$(basename "$jar")"
     rm "$zip"
 
-    java -jar "$jar"
+    "$javabin" -jar "$jar"
 }
 
 verify() {
     local tmpfile="$(mktemp)"
     find analysed-packages/ -iname '*.spdx' -print0 |
         while IFS= read -r -d '' spdx; do
-            java -jar "$jar" Verify "$spdx" || {
+            "$javabin" -jar "$jar" Verify "$spdx" || {
                 echo "$spdx" >> "$tmpfile"
             }
         done
