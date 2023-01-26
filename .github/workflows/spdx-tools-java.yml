@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: Maximilian Huber <maximilian.huber@tngtech.com>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+name: spdx/tools-java workflow
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+jobs:
+  syntax-check-of-tag-value:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: "bootstrap spdx/tools-java"
+        run: .github/workflows/scripts/spdx-tools-java-wrapper.sh bootstrap
+      - name: "verify all tag-value documents"
+        run: .github/workflows/scripts/spdx-tools-java-wrapper.sh verify
