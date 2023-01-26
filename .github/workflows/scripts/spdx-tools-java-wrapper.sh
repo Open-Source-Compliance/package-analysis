@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # SPDX-FileCopyrightText: Maximilian Huber <maximilian.huber@tngtech.com>
+# SPDX-FileCopyrightText: Sebastian Schuberth <sschuberth@gmail.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 
@@ -12,13 +13,13 @@ url="https://github.com/spdx/tools-java/releases/download/v${version}/${zip}"
 jar="$HOME/spdx-tools-java/tools-java-${version}-jar-with-dependencies.jar"
 
 bootstrap() {
-    if [[ ! -f "$jar" ]]; then
-        wget -q "$url"
-        unzip "$zip" -d "$(dirname "$jar")" "$(basename "$jar")"
-        rm "$zip"
+    [[ -f "$jar" ]] && return
 
-        java -jar "$jar"
-    fi
+    wget -q "$url"
+    unzip "$zip" -d "$(dirname "$jar")" "$(basename "$jar")"
+    rm "$zip"
+
+    java -jar "$jar"
 }
 
 verify() {
