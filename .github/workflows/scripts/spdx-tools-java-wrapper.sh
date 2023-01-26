@@ -25,7 +25,7 @@ bootstrap() {
     unzip "$zip" -d "$(dirname "$jar")" "$(basename "$jar")"
     rm "$zip"
 
-    "$javabin" -jar "$jar"
+    "$javabin" -jar "$jar" Version
 }
 
 verify() {
