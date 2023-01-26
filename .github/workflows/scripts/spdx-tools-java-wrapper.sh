@@ -15,7 +15,7 @@ jar="$HOME/spdx-tools-java/tools-java-${version}-jar-with-dependencies.jar"
 bootstrap() {
     [[ -f "$jar" ]] && return
 
-    wget -q "$url"
+    curl -LOs "$url"
     unzip "$zip" -d "$(dirname "$jar")" "$(basename "$jar")"
     rm "$zip"
 
