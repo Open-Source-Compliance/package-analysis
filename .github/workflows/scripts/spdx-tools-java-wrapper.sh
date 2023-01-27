@@ -44,7 +44,11 @@ verify_one() {
     GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-.}"
     GITHUB_SHA="${GITHUB_SHA:-..}"
 
-    spdx_tools Verify "$spdx" 1>&2 || echo "* [$spdx]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/$spdx)"
+    if spdx_tools Verify "$spdx" 1>&2; then
+        convert "$spdx"
+    else
+        echo "* [$spdx]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/$spdx)"
+    fi
 }
 
 check_github_step_summary() {
@@ -87,6 +91,23 @@ verify() {
         bash -c "'$0' verify_one '{}'" >> "$GITHUB_STEP_SUMMARY"
 
     check_github_step_summary
+}
+
+convert() {
+    local spdx
+    spdx="$1"
+
+    local json
+    json="${spdx/-SPDX2TV/}.json"
+
+    local yaml
+    yaml="${spdx/-SPDX2TV/}.yaml"
+
+    for filetype in $json $yaml; do
+        [ -f "$filetype" ] && rm -f "$json"
+        spx_tools Convert "$spdx" "$filetype" 1>&2;
+        git add "$filetype"
+    done
 }
 
 "$@"
