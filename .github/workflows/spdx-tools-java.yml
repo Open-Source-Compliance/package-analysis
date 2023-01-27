@@ -8,8 +8,8 @@ on:
     branches:
       - main
   push:
-    branches:
-      - main
+    # branches:
+    #   - main
 jobs:
   syntax-check-of-tag-value:
     runs-on: ubuntu-latest
@@ -21,3 +21,5 @@ jobs:
         run: .github/workflows/scripts/spdx-tools-java-wrapper.sh bootstrap
       - name: "verify all tag-value documents"
         run: .github/workflows/scripts/spdx-tools-java-wrapper.sh verify
+      - name: "generate extra formats"
+        run: .github/workflows/scripts/spdx-tools-java-wrapper.sh convert

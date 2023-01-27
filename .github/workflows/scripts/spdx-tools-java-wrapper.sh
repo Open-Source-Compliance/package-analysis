@@ -2,6 +2,7 @@
 
 # SPDX-FileCopyrightText: Maximilian Huber <maximilian.huber@tngtech.com>
 # SPDX-FileCopyrightText: Sebastian Schuberth <sschuberth@gmail.com>
+# SPDX-FileCopyrightText: Helio Chissini de Castro <heliocastro@gmail.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 
@@ -52,6 +53,28 @@ verify() {
     else
         echo "### All \`.spdx\` files are valid :heavy_check_mark:" > "$GITHUB_STEP_SUMMARY"
     fi
+}
+
+convert() {
+    git config user.name github-actions
+    git config user.email github-actions@github.com
+    
+    find analysed-packages/ -iname '*.spdx' -print0 |
+        while IFS= read -r -d '' spdx; do
+            json="${spdx/spdx/json}"
+            yaml="${spdx/spdx/yaml}"
+            if [ ! -f "$json" ]; then
+                java -jar "$jar" Convert "$spdx" "$json"
+                git add "$json"
+            fi
+            if [ ! -f "$yaml" ]; then
+                java -jar "$jar" Convert "$spdx" "$yaml"
+                git add "$yaml"
+            fi
+        done
+    
+    git commit -m "- Generated json and yaml formats"
+    git push
 }
 
 "$@"
