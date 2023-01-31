@@ -14,10 +14,25 @@ jobs:
   syntax-check-of-tag-value:
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
       - name: "bootstrap spdx/tools-java"
         run: .github/workflows/scripts/spdx-tools-java-wrapper.sh bootstrap
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+        with:
+          files: |
+            **/*.spdx
+
+      - name: "verify changed tag-value documents"
+        run: .github/workflows/scripts/spdx-tools-java-wrapper.sh verify_many ${{ steps.changed-files.outputs.all_changed_files }}
+        if: github.event_name == 'pull_request'
+
       - name: "verify all tag-value documents"
         run: .github/workflows/scripts/spdx-tools-java-wrapper.sh verify
+        if: github.event_name != 'pull_request'

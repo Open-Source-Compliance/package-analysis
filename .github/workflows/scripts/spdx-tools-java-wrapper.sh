@@ -46,24 +46,46 @@ verify_one() {
     spdx_tools Verify "$spdx" 1>&2 || echo "* [$spdx]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/$spdx)"
 }
 
+check_github_step_summary() {
+    if [[ -s "$GITHUB_STEP_SUMMARY" ]]; then
+        local count
+        count=$(wc -l < "$GITHUB_STEP_SUMMARY")
+        echo -e "### The following $count \`.spdx\` files are invalid :x: (see the job logs for details)\n$(cat "$GITHUB_STEP_SUMMARY")" > "$GITHUB_STEP_SUMMARY"
+        exit 1
+    else
+        echo "### All \`.spdx\` files are valid :heavy_check_mark:" > "$GITHUB_STEP_SUMMARY"
+    fi
+}
+
+verify_many() {
+    if [[ $# -eq 0 ]]; then
+        >&2 echo "No .spdx files to verify"
+        return 0
+    fi
+
+    if [[ -z "${GITHUB_STEP_SUMMARY+x}" ]]; then
+        GITHUB_STEP_SUMMARY="$(mktemp)"
+        echo "Writing local job summary to '$GITHUB_STEP_SUMMARY'."
+    fi
+
+    for spdx in "$@"; do
+        verify_one "$spdx" >> "$GITHUB_STEP_SUMMARY"
+    done
+
+    check_github_step_summary
+}
+
 verify() {
     if [[ -z "${GITHUB_STEP_SUMMARY+x}" ]]; then
         GITHUB_STEP_SUMMARY="$(mktemp)"
         echo "Writing local job summary to '$GITHUB_STEP_SUMMARY'."
     fi
 
-    # TODO: Limit this to only the files modified in a PR.
     find analysed-packages/ -iname '*.spdx' -print0 | \
         xargs -0 -P"$(nproc)" -I {} \
         bash -c "'$0' verify_one '{}'" >> "$GITHUB_STEP_SUMMARY"
 
-    if [[ -s "$GITHUB_STEP_SUMMARY" ]]; then
-        local count=$(wc -l < "$GITHUB_STEP_SUMMARY")
-        echo -e "### The following $count \`.spdx\` files are invalid :x: (see the job logs for details)\n$(cat $GITHUB_STEP_SUMMARY)" > "$GITHUB_STEP_SUMMARY"
-        exit 1
-    else
-        echo "### All \`.spdx\` files are valid :heavy_check_mark:" > "$GITHUB_STEP_SUMMARY"
-    fi
+    check_github_step_summary
 }
 
 "$@"
