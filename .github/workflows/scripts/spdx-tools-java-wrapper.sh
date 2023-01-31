@@ -2,6 +2,7 @@
 
 # SPDX-FileCopyrightText: Maximilian Huber <maximilian.huber@tngtech.com>
 # SPDX-FileCopyrightText: Sebastian Schuberth <sschuberth@gmail.com>
+# SPDX-FileCopyrightText: Helio Chissini de Castro <heliocastro@gmail.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 
