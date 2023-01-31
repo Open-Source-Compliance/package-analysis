@@ -35,19 +35,29 @@ bootstrap() {
     spdx_tools Version
 }
 
-verify_one() {
-    local spdx="$1"
-    >&2 echo -e "\nVerify $spdx\n"
-
+logging() {
     # Set default values that work to link to local files below.
     GITHUB_SERVER_URL="${GITHUB_SERVER_URL:-.}"
     GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-.}"
     GITHUB_SHA="${GITHUB_SHA:-..}"
 
+    local spdx
+    spdx="$1"
+
+    echo "* [$spdx]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/$spdx)"
+}
+
+
+verify_one() {
+    local spdx
+    spdx="$1"
+
+    >&2 echo -e "\nVerify $spdx\n"
+
     if spdx_tools Verify "$spdx" 1>&2; then
         convert "$spdx"
     else
-        echo "* [$spdx]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/$spdx)"
+        logging "$spdx"
     fi
 }
 
@@ -104,9 +114,12 @@ convert() {
     yaml="${spdx/-SPDX2TV/}.yaml"
 
     for filetype in $json $yaml; do
-        [ -f "$filetype" ] && rm -f "$json"
-        spdx_tools Convert "$spdx" "$filetype" 1>&2;
-        git add "$filetype"
+        [ -f "$filetype" ] && rm -f "$filetype"
+        if spdx_tools Convert "$spdx" "$filetype" 1>&2; then
+            git add "$filetype"
+        else
+            logging "$spdx"
+        fi
     done
 }
 
