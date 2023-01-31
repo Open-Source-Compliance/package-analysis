@@ -30,10 +30,22 @@ jobs:
           files: |
             **/*.spdx
 
-      - name: "verify changed tag-value documents"
-        run: .github/workflows/scripts/spdx-tools-java-wrapper.sh verify_many ${{ steps.changed-files.outputs.all_changed_files }}
+      - name: "verify touched tag-value documents"
+        run: .github/workflows/scripts/verify.sh ${{ steps.changed-files.outputs.all_changed_files }}
+        if: github.event_name == 'pull_request'
+
+      # TODO: this should also (or maybe just) happen post merge
+      - name: "convert touched tag-value documents"
+        run: .github/workflows/scripts/convert.sh ${{ steps.changed-files.outputs.all_changed_files }}
+        if: github.event_name == 'pull_request'
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: "Generated counterpart file by Github Actions Bot"
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
         if: github.event_name == 'pull_request'
 
       - name: "verify all tag-value documents"
-        run: .github/workflows/scripts/spdx-tools-java-wrapper.sh verify
+        run: .github/workflows/scripts/verify.sh all
         if: github.event_name != 'pull_request'
