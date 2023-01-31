@@ -105,7 +105,7 @@ convert() {
 
     for filetype in $json $yaml; do
         [ -f "$filetype" ] && rm -f "$json"
-        spx_tools Convert "$spdx" "$filetype" 1>&2;
+        spdx_tools Convert "$spdx" "$filetype" 1>&2;
         git add "$filetype"
     done
 }
