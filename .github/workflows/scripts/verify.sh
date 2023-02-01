@@ -59,13 +59,16 @@ verify_all() {
 
     find analysed-packages/ -iname '*.spdx' -print0 | \
         xargs -0 -P"$(nproc)" -I {} \
-        bash -c "'$0' '{}'" >> "$GITHUB_STEP_SUMMARY"
+        bash -c "'$0' one '{}'" >> "$GITHUB_STEP_SUMMARY"
 
     check_github_step_summary
 }
 
 if [[ $# -eq 1 && "$1" == "all" ]]; then
     verify_all
+elif [[ $# -eq 2 && "$1" == "one" ]]; then
+    shift
+    verify_one "$1"
 else
     verify_many "$@"
 fi
