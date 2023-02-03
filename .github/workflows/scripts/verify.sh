@@ -39,7 +39,7 @@ verify_many() {
         return 0
     fi
 
-    if [[ -z "${GITHUB_STEP_SUMMARY+x}" ]]; then
+    if [[ -v "GITHUB_STEP_SUMMARY" ]]; then
         GITHUB_STEP_SUMMARY="$(mktemp)"
         echo "Writing local job summary to '$GITHUB_STEP_SUMMARY'."
     fi

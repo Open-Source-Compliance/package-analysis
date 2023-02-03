@@ -13,7 +13,7 @@ jar="$HOME/spdx-tools-java/tools-java-${version}-jar-with-dependencies.jar"
 
 spdx_tools() {
     local javabin
-    if [[ -n "${JAVA_HOME+x}" && -x "$JAVA_HOME/bin/java" ]]; then
+    if [[ -v "JAVA_HOME" && -x "$JAVA_HOME/bin/java" ]]; then
         javabin="$JAVA_HOME/bin/java"
     else
         javabin=java

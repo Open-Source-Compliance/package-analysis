@@ -14,13 +14,12 @@ convert_one() {
     local spdx="$1"
     local spdx_timestamp="$(git log -1 --pretty="format:%ci" "$spdx")"
 
-    local json
+    local json yaml rdf
     json="${spdx/-SPDX2TV/}.json"
-
-    local yaml
     yaml="${spdx/-SPDX2TV/}.yaml"
+    rdf="${spdx/-SPDX2TV/}.spdx.rdf.xml"
 
-    for out in $json $yaml; do
+    for out in $json $yaml $rdf; do
         if [[ -f "$out" ]]; then
             local out_timestamp="$(git log -1 --pretty="format:%ci" "$out")"
             if [[ "$spdx_timestamp" -ot "$out_timestamp" ]]; then
