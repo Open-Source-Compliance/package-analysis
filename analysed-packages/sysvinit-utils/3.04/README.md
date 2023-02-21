@@ -6,6 +6,10 @@ https://github.com/slicer69/sysvinit/archive/refs/tags/3.04.tar.gz
 
 pkg:github/slicer69/sysvinit-utils@3.04
 
+## Creator
+
+Astrid Spura
+
 ## Reviewers
 
 The information was reviewed by:

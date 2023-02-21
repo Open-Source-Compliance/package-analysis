@@ -6,6 +6,10 @@ https://github.com/jquery/jquery/archive/refs/tags/1.9.1.zip
 
 pkg:github/jquery/jquery@1.9.1
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

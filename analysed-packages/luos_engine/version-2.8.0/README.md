@@ -6,6 +6,10 @@ https://github.com/Luos-io/luos_engine/archive/refs/tags/2.8.0.tar.gz
 
 pkg:github/Lous-io/lous_engine/luos_engine@2.8.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

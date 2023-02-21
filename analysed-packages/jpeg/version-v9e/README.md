@@ -6,6 +6,10 @@ https://www.ijg.org/files/jpegsrc.v9e.tar.gz
 
 pkg:generic/jpeg@9e?download_url=https://www.ijg.org/files/jpegsrc.v9e.tar.gz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

@@ -6,6 +6,10 @@ https://github.com/SELinuxProject/selinux/archive/refs/tags/checkpolicy-3.4.tar.
 
 pkg:github/SELinuxProject/checkpolicy@3.4
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

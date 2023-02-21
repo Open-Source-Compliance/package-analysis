@@ -6,6 +6,10 @@ https://github.com/seccomp/libseccomp/archive/refs/tags/v2.5.1.tar.gz
 
 pkg:github/seccomp/libseccomp@2.5.1
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

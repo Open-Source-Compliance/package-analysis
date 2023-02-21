@@ -10,6 +10,10 @@ pkg:github/dart-lang/characters@1.2.0
 
 It was not possible to add the required acknowledgments, due to the Korean language.
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

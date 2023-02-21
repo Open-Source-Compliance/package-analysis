@@ -6,6 +6,10 @@ https://github.com/sqlite/sqlite/archive/refs/tags/version-3.39.4.tar.gz
 
 pkg:github/sqlite/sqlite@3.39.4
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

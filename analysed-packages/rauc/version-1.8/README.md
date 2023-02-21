@@ -6,6 +6,10 @@ https://github.com/rauc/rauc/archive/refs/tags/v1.8.tar.gz
 
 pkg:github/rauc/rauc@1.8
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

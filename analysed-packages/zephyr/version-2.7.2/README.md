@@ -6,6 +6,10 @@ https://github.com/zephyrproject-rtos/zephyr/archive/refs/tags/v2.7.2.tar.gz
 
 pkg:github/zephyrproject-rtos/zephyr@2.7.2
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

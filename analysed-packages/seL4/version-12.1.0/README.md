@@ -6,6 +6,10 @@ https://github.com/seL4/seL4/archive/refs/tags/12.1.0.tar.gz
 
 pkg:github/seL4/seL4@12.1.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

@@ -6,6 +6,10 @@ https://coreboot.org/releases/coreboot-4.16.tar.xz
 
 pkg:generic/coreboot@4.16?download_url=https://coreboot.org/releases/coreboot-4.16.tar.xz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

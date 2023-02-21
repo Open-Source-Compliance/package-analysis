@@ -6,6 +6,10 @@ https://github.com/BehaviorTree/BehaviorTree.CPP/archive/refs/tags/3.8.0.tar.gz
 
 pkg:github/BehaviorTree/behaviorTree.CPP@3.8.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

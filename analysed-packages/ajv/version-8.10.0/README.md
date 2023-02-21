@@ -6,6 +6,10 @@ https://github.com/ajv-validator/ajv/archive/refs/tags/v8.10.0.zip
 
 pkg:github/ajv-validator/ajv@8.10.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

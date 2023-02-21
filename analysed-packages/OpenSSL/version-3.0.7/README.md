@@ -6,6 +6,10 @@ https://github.com/openssl/openssl/archive/refs/tags/openssl-3.0.7.tar.gz
 
 pkg:github/openssl/openssl@3.0.7
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

@@ -6,6 +6,10 @@ https://github.com/SELinuxProject/selinux/archive/refs/tags/libsemanage-3.4.tar.
 
 pkg:github/SELinuxProject/selinux/libsemanage@3.4
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

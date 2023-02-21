@@ -6,6 +6,10 @@ https://ftp.gnu.org/gnu/gmp/gmp-6.2.1.tar.xz
 
 pkg:generic/gmp@6.2.1?download_url=https://ftp.gnu.org/gnu/gmp/gmp-6.2.1.tar.xz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

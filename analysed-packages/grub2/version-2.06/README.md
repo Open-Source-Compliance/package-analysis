@@ -6,6 +6,10 @@ https://ftp.gnu.org/gnu/grub/grub-2.06.tar.gz
 
 pkg:generic/grub2@2.06?download_url=https://ftp.gnu.org/gnu/grub/grub-2.06.tar.gz
 
+## Creator
+
+Caren Kresse
+
 ## Reviewers
 
 The information was reviewed by:

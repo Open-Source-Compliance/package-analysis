@@ -6,6 +6,10 @@ https://github.com/facebook/zstd/archive/refs/tags/v1.4.10.tar.gz
 
 pkg:github/facebook/zstd@1.4.10
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

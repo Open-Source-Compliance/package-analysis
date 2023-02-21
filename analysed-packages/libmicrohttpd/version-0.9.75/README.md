@@ -6,6 +6,10 @@ https://github.com/Karlson2k/libmicrohttpd/archive/refs/tags/v0.9.75.tar.gz
 
 pkg:github/Karlson2k/libmicrohttpd@0.9.75
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

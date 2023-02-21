@@ -6,6 +6,10 @@ https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.46.tar.gz
 
 pkg:generic/libgpg-error@1.46?download_url=https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.46.tar.gz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

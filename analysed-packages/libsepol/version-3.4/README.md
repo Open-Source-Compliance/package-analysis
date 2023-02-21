@@ -6,6 +6,10 @@ https://github.com/SELinuxProject/selinux/archive/refs/tags/libsepol-3.4.tar.gz
 
 pkg:github/SELinuxProject/selinux/libsepol@3.4
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:
