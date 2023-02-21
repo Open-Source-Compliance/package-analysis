@@ -6,6 +6,10 @@ https://github.com/curl/curl/archive/refs/tags/curl-7_86_0.tar.gz
 
 pkg:github/curl/curl@7.86.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

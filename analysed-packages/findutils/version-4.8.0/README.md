@@ -6,6 +6,10 @@ https://ftp.gnu.org/gnu/findutils/findutils-4.8.0.tar.xz
 
 pkg:generic/findutils@4.8.0?download_url=https://ftp.gnu.org/gnu/findutils/findutils-4.8.0.tar.xz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

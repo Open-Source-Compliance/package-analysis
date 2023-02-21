@@ -6,6 +6,10 @@ https://github.com/angular/angular/archive/refs/tags/15.1.0.tar.gz
 
 pkg:github/angular/angular/angular@15.1.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

@@ -6,6 +6,10 @@ https://download-mirror.savannah.gnu.org/releases/acl/acl-2.3.1.tar.gz
 
 pkg:generic/acl@2.3.1?download_url=https://download-mirror.savannah.gnu.org/releases/acl/acl-2.3.1.tar.gz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

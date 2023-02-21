@@ -6,6 +6,10 @@ https://github.com/rancher/rancher/archive/refs/tags/v2.7.0.tar.gz
 
 pkg:github/rancher/rancher@2.7.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

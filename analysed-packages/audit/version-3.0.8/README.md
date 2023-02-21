@@ -6,6 +6,10 @@ https://people.redhat.com/sgrubb/audit/audit-3.0.8.tar.gz
 
 pkg:generic/audit@3.0.8?download_url=https://people.redhat.com/sgrubb/audit/audit-3.0.8.tar.gz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

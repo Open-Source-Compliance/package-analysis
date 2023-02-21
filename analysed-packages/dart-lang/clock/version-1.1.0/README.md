@@ -6,6 +6,10 @@ https://github.com/dart-lang/clock/archive/refs/tags/1.1.0.zip
 
 pkg:github/dart-lang/clock@1.1.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

@@ -6,6 +6,10 @@ https://github.com/FFmpeg/FFmpeg/archive/refs/tags/n5.1.1.tar.gz
 
 pkg:github/ffmpeg/ffmpeg@n5.1.1
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

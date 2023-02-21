@@ -6,6 +6,10 @@ https://www.nano-editor.org/dist/v7/nano-7.1.tar.gz
 
 pkg:generic/nano@7.1?download_url=https://www.nano-editor.org/dist/v7/nano-7.1.tar.gz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

@@ -6,6 +6,10 @@ http://nginx.org/download/nginx-1.20.2.tar.gz
 
 pkg:generic/nginx@1.20.2?download_url=http://nginx.org/download/nginx-1.20.2.tar.gz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

@@ -6,6 +6,10 @@ https://github.com/libexpat/libexpat/archive/refs/tags/R_2_5_0.tar.gz
 
 pkg:github/libexpat/expat@2.5.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

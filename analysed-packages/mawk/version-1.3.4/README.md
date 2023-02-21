@@ -6,6 +6,10 @@ https://invisible-island.net/archives/mawk/mawk-1.3.4-20200120.tgz
 
 pkg:generic/mawk@1.3.4-20200120?download_url=https://invisible-island.net/archives/mawk/mawk-1.3.4-20200120.tgz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

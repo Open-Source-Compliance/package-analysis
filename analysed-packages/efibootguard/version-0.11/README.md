@@ -6,6 +6,10 @@ https://github.com/siemens/efibootguard/archive/refs/tags/v0.11.zip
 
 pkg:github/siemens/efibootguard@0.11
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

@@ -6,6 +6,10 @@ https://gitlab.com/gnutls/gnutls/-/archive/3.7.8/gnutls-3.7.8.tar.gz
 
 pkg:gitlab/gnutls/gnutls@3.7.8
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

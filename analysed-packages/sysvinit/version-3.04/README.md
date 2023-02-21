@@ -6,6 +6,10 @@ https://download-mirror.savannah.gnu.org/releases/sysvinit/sysvinit-3.04.tar.xz
 
 pkg:generic/sysvinit@3.04?download_url=https://download-mirror.savannah.gnu.org/releases/sysvinit/sysvinit-3.04.tar.xz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

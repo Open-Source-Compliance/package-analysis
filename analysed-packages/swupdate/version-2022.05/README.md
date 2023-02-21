@@ -6,6 +6,10 @@ https://github.com/sbabic/swupdate/archive/refs/tags/2022.05.tar.gz
 
 pkg:github/sbabic/swupdate@2022.05
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

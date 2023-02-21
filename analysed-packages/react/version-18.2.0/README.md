@@ -6,6 +6,10 @@ https://github.com/facebook/react/archive/refs/tags/v18.2.0.tar.gz
 
 pkg:github/facebook/react/react@18.2.0
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:

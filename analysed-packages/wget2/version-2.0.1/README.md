@@ -6,6 +6,10 @@ https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz
 
 pkg:generic/wget2@2.0.1?download_url=https://ftp.gnu.org/gnu/wget/wget2-2.0.1.tar.gz
 
+## Creator
+
+Oliver Fendt
+
 ## Reviewers
 
 The information was reviewed by:
