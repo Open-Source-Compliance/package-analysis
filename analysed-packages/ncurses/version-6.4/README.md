@@ -7,6 +7,7 @@ https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz
 pkg:generic/ncurses@6.4?download_url=https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz
 
 ## Creator
+
 Oliver Fendt
 
 ## Reviewers
