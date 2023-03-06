@@ -13,7 +13,14 @@ In order to allow for automation and to ease the integration in build pipelines 
 The naming of the disclosure documents is: package name "-" package version "-OSS-disclosure.txt". In case you have analyzed gnutls 3.7.8 the corresponding name of the disclosure document is: gnutls-3.7.8-OSS-disclosure.txt
 
 ### SPDX files 
-The naming of the spdx tag value files is: package name "-" package version "-SPDX2TV.spdx". In case you have analyzed gnutls 3.7.8 the corresponding name of the spdx file is: gnutls-3.7.8-SPDX2TV.spdx
+The naming of the SPDX tag value files is: package name "-" package version "-SPDX2TV.spdx". In case you have analyzed gnutls 3.7.8 the corresponding name of the SPDX file is: gnutls-3.7.8-SPDX2TV.spdx
+
+We also provide the following SPDX files in different formats:
+* The SPDX-json file. The naming convention for the json file is: package name "-" package version ".spdx.json"
+* The SPDX-YAML file. The naming convention for the YAML file is: package name "-" package version ".spdx.yaml"
+* The SPDX-rdf file. The naming convention for the rdf file is: package name "-" package version ".spdx.rdf"
+
+Please note that providing the json, YAML, rdf is a background task, thus they are currently not available for all analysed packages. But we are working on it to provide all of those files.
 
 ## Improving the Artifacts
 Since all files are text files, they can easily be reviewed. In case you detect an error or have doubts please file an issue against the specific file.
