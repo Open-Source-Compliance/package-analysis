@@ -37,14 +37,57 @@ PackageChecksum: SHA1: edc3465a8a43ce580268e726b6f7b827f4a6261e
 PackageChecksum: SHA256: b6363cf1bca88f0a46a768883a225e644135432d6a51ab1c4660ab58af541078
 PackageChecksum: MD5: 22733b9187548b735201fd9f7aa12e71
 PackageLicenseConcluded: NOASSERTION
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: LicenseRef-Apache-2.0
 PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
  - nomos ("4.1.0.28".bb8a6d)
  - monk ("4.1.0.28".bb8a6d)
  - ojo ("4.1.0.28".bb8a6d) 
  - scancode ("4.1.0.28".bb8a6d)</text>
 PackageLicenseInfoFromFiles: NOASSERTION
-PackageCopyrightText: NOASSERTION
+PackageCopyrightText: <text> Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved.
+The content of the AUTHORS file:
+Groups
+------
+
+ * OpenSSL Software Services, Inc.
+ * OpenSSL Software Foundation, Inc.
+
+Individuals
+-----------
+
+ * Andy Polyakov
+ * Ben Laurie
+ * Ben Kaduk
+ * Bernd Edlinger
+ * Bodo Möller
+ * David Benjamin
+ * David von Oheimb
+ * Dmitry Belyavskiy (Дмитрий Белявский)
+ * Emilia Käsper
+ * Eric Young
+ * Geoff Thorpe
+ * Holger Reif
+ * Kurt Roeckx
+ * Lutz Jänicke
+ * Mark J. Cox
+ * Matt Caswell
+ * Matthias St. Pierre
+ * Nicola Tuveri
+ * Nils Larsch
+ * Patrick Steuer
+ * Paul Dale
+ * Paul C. Sutton
+ * Paul Yang
+ * Ralf S. Engelschall
+ * Rich Salz
+ * Richard Levitte
+ * Shane Lontis
+ * Stephen Henson
+ * Steve Marquess
+ * Tim Hudson
+ * Tomáš Mráz
+ * Ulf Möller
+ * Viktor Dukhovni </text>
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload5
 
@@ -12494,11 +12537,12 @@ LicenseComments: <text>NOASSERTION AND NOASSERTION AND The information in the fi
  
 Specific modes and adaptation for Linux kernel by Ard Biesheuvel of Linaro. Permission to use under GPL terms is granted.
 
-The GPL statement is irrelevant in the context of OpenSSL, see below:
+The GPL statement is irrelevant in the context of OpenSSL. The contributions were made under the OpenSSL CLAs additionally the OpenSSL project clarified this with the contributor.
+Following http://www.openssl.org/~appro/cryptogams/ reveals:
+Nothing really, it's just a name I've chosen (though naturally not without simple covert meaning in mind ;-) to denote a collection of low-level cryptographic primitives written in assembler by yours truly for the OpenSSL project. Being the original author of these modules I've chosen to exercise the freedom to license my work under multiple licenses. The licensing terms is the key and the only difference between given OpenSSL modules and the corresponding ones provided as part of CRYPTOGAMS. If obtained as a part of the OpenSSL Toolkit the modules are covered by the OpenSSL license, while if obtained as a part of the CRYPTOGAMS distribution - by the CRYPTOGAMS License.
 
-Following the link, reveals:
-
-Nothing really, it </text>
+Due to this information - Apache-2.0 has to be used, since the modules are part of OpenSSL and the new OpenSSL license is Apache-2.0 
+The information was retrieved on 05th of March 2023 and updated on 2th of April 2023 </text>
 LicenseInfoInFile: LicenseRef-GPL-1.0+
 LicenseInfoInFile: LicenseRef-Apache-2.0
 LicenseInfoInFile: LicenseRef-OpenSSL
@@ -30515,50 +30559,7 @@ LicenseConcluded: LicenseRef-Apache-2.0
 LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Apache-2.0
 LicenseInfoInFile: LicenseRef-OpenSSL
-FileCopyrightText: <text> Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved.
-The content of the AUTHORS file:
-Groups
-------
-
- * OpenSSL Software Services, Inc.
- * OpenSSL Software Foundation, Inc.
-
-Individuals
------------
-
- * Andy Polyakov
- * Ben Laurie
- * Ben Kaduk
- * Bernd Edlinger
- * Bodo Möller
- * David Benjamin
- * David von Oheimb
- * Dmitry Belyavskiy (Дмитрий Белявский)
- * Emilia Käsper
- * Eric Young
- * Geoff Thorpe
- * Holger Reif
- * Kurt Roeckx
- * Lutz Jänicke
- * Mark J. Cox
- * Matt Caswell
- * Matthias St. Pierre
- * Nicola Tuveri
- * Nils Larsch
- * Patrick Steuer
- * Paul Dale
- * Paul C. Sutton
- * Paul Yang
- * Ralf S. Engelschall
- * Rich Salz
- * Richard Levitte
- * Shane Lontis
- * Stephen Henson
- * Steve Marquess
- * Tim Hudson
- * Tomáš Mráz
- * Ulf Möller
- * Viktor Dukhovni </text>
+FileCopyrightText: <text> Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved. </text>
  
 
 ##File
