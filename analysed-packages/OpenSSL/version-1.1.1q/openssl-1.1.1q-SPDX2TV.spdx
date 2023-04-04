@@ -14,7 +14,7 @@ SPDXID: SPDXRef-DOCUMENT
 ##-------------------------
 
 Creator: Tool: spdx2
-Creator: Person: Oliver Fendt (y)
+Creator: Person: Oliver Fendt
 CreatorComment: <text>
 This document was created using license information and a generator from Fossology.
 It contains the license and copyright analysis of OpenSSL 1.1.1q
@@ -37,13 +37,54 @@ PackageChecksum: SHA1: 73118336c58ece2e3b87f1f933f8ba446e2bdc26
 PackageChecksum: SHA256: 0686897afd3a08223760db73d8034550401b53ffc545798d7ca476564f80315e
 PackageChecksum: MD5: b6d0ad0079f1730645ec34a4c2f9ae3e
 PackageLicenseConcluded: NOASSERTION
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: LicenseRef-OpenSSL
 PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
  - nomos ("4.1.0.32".011573)
  - monk ("4.1.0.32".011573)
  - ojo ("4.1.0.32".011573) </text>
 PackageLicenseInfoFromFiles: NOASSERTION
-PackageCopyrightText: NOASSERTION
+PackageCopyrightText: <text> This is the list of OpenSSL authors for copyright purposes.
+
+This does not necessarily list everyone who has contributed code, since in
+some cases, their employer may be the copyright holder.  To see the full list
+of contributors, see the revision history in source control.
+OpenSSL Software Services, Inc.
+OpenSSL Software Foundation, Inc.
+
+Individuals
+Andy Polyakov
+Ben Laurie
+Ben Kaduk
+Bernd Edlinger
+Bodo Möller
+David Benjamin
+David von Oheimb
+Dmitry Belyavskiy (Дмитрий Белявский)
+Emilia Käsper
+Eric Young
+Geoff Thorpe
+Holger Reif
+Kurt Roeckx
+Lutz Jänicke
+Mark J. Cox
+Matt Caswell
+Matthias St. Pierre
+Nicola Tuveri
+Nils Larsch
+Patrick Steuer
+Paul Dale
+Paul C. Sutton
+Paul Yang
+Ralf S. Engelschall
+Rich Salz
+Richard Levitte
+Shane Lontis
+Stephen Henson
+Steve Marquess
+Tim Hudson
+Tomáš Mráz
+Ulf Möller
+Viktor Dukhovni </text>
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2
 
@@ -1840,13 +1881,20 @@ this file except in compliance with the License. You can obtain a copy
 in the file LICENSE in the source distribution or at
 https://www.openssl.org/source/license.html
 
+ Written by Andy Polyakov  for the OpenSSL
+ project. The module is, however, dual licensed under OpenSSL and
+ CRYPTOGAMS licenses depending on where you obtain it. For further
+ details see http://www.openssl.org/~appro/cryptogams/.
 
-====================================================================
-Written by Andy Polyakov <appro@openssl.org> for the OpenSSL
-project. The module is, however, dual licensed under OpenSSL and
-CRYPTOGAMS licenses depending on where you obtain it. For further
-details see http://www.openssl.org/~appro/cryptogams/.
-============================================================ </text>
+ Specific modes and adaptation for Linux kernel by Ard Biesheuvel
+ of Linaro. Permission to use under GPL terms is granted.
+
+The GPL statement is irrelevant in the context of OpenSSL. The contributions were made under the OpenSSL CLAs additionally the OpenSSL project clarified this with the contributor.
+Following http://www.openssl.org/~appro/cryptogams/ reveals:
+Nothing really, it's just a name I've chosen (though naturally not without simple covert meaning in mind ;-) to denote a collection of low-level cryptographic primitives written in assembler by yours truly for the OpenSSL project. Being the original author of these modules I've chosen to exercise the freedom to license my work under multiple licenses. The licensing terms is the key and the only difference between given OpenSSL modules and the corresponding ones provided as part of CRYPTOGAMS. If obtained as a part of the OpenSSL Toolkit the modules are covered by the OpenSSL license, while if obtained as a part of the CRYPTOGAMS distribution - by the CRYPTOGAMS License.
+
+Due to this information - OpenSSL has to be used. 
+The information was updated on 2th of April 2023 </text>
 LicenseInfoInFile: LicenseRef-OpenSSL
 LicenseInfoInFile: LicenseRef-Cryptogams
 LicenseInfoInFile: LicenseRef-Dual-license
@@ -6128,49 +6176,7 @@ FileChecksum: MD5: 4a8a0c499eb19e787837f6efaf19ea52
 LicenseConcluded: LicenseRef-OpenSSL
 LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-OpenSSL
-FileCopyrightText: <text> Copyright 2009-2021 The OpenSSL Project Authors. All Rights Reserved.
-This is the list of OpenSSL authors for copyright purposes.
-
-This does not necessarily list everyone who has contributed code, since in
-some cases, their employer may be the copyright holder.  To see the full list
-of contributors, see the revision history in source control.
-OpenSSL Software Services, Inc.
-OpenSSL Software Foundation, Inc.
-
-Individuals
-Andy Polyakov
-Ben Laurie
-Ben Kaduk
-Bernd Edlinger
-Bodo Möller
-David Benjamin
-David von Oheimb
-Dmitry Belyavskiy (Дмитрий Белявский)
-Emilia Käsper
-Eric Young
-Geoff Thorpe
-Holger Reif
-Kurt Roeckx
-Lutz Jänicke
-Mark J. Cox
-Matt Caswell
-Matthias St. Pierre
-Nicola Tuveri
-Nils Larsch
-Patrick Steuer
-Paul Dale
-Paul C. Sutton
-Paul Yang
-Ralf S. Engelschall
-Rich Salz
-Richard Levitte
-Shane Lontis
-Stephen Henson
-Steve Marquess
-Tim Hudson
-Tomáš Mráz
-Ulf Möller
-Viktor Dukhovni </text>
+FileCopyrightText: <text> Copyright 2009-2021 The OpenSSL Project Authors. All Rights Reserved. </text>
  
 
 ##File
