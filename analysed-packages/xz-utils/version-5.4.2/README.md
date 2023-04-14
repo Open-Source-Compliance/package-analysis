@@ -1,10 +1,10 @@
 ## Download Location
 
-https://sourceforge.net/projects/lzmautils/files/xz-5.2.5.tar.gz/download
+https://sourceforge.net/projects/lzmautils/files/xz-5.4.2.tar.gz/download
 
 ## Package URL (purl)
 
-pkg:generic/xz-utils@5.2.5?download_url=https://sourceforge.net/projects/lzmautils/files/xz-5.2.5.tar.gz/download
+pkg:generic/xz-utils@5.4.2?download_url=https://sourceforge.net/projects/lzmautils/files/xz-5.4.2.tar.gz/download
 
 ## Creator
 
