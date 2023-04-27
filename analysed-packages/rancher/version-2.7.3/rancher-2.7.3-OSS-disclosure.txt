@@ -1,0 +1,725 @@
+================================================================================
+
+rancher-2.7.3
+
+--------------------------------------------------------------------------------
+
+================================================================================
+
+LICENSES 
+
+--------------------------------------------------------------------------------
+
+SUSE-EULA
+End User License Agreement for SUSE Products
+PLEASE READ THIS AGREEMENT CAREFULLY. BY PURCHASING, INSTALLING,
+DOWNLOADING OR OTHERWISE USING THE SOFTWARE (INCLUDING ITS
+COMPONENTS), YOU AGREE TO THE TERMS OF THIS AGREEMENT. IF YOU DO
+NOT AGREE WITH THESE TERMS, YOU ARE NOT PERMITTED TO DOWNLOAD,
+INSTALL OR USE THE SOFTWARE AND YOU SHOULD NOTIFY THE PARTY FROM
+WHICH YOU PURCHASED THE SOFTWARE TO OBTAIN A REFUND. AN
+INDIVIDUAL ACTING ON BEHALF OF AN ENTITY REPRESENTS THAT HE OR SHE
+HAS THE AUTHORITY TO ENTER INTO THIS AGREEMENT ON BEHALF OF THAT
+ENTITY.
+This End User License Agreement (“Agreement”) is a legal agreement between You
+(an
+entity or a person) and SUSE LLC (“Licensor”). SUSE (including Rancher) software
+products
+for which You have acquired licenses, any media or reproductions (physical or
+virtual)
+and accompanying documentation (collectively the “Software”) are protected by
+the
+copyright laws and treaties of the United States (“U.S.”) and other countries
+and is subject
+to the terms of this Agreement. If the laws of Your principal place of business
+require
+contracts to be in the local language to be enforceable, such local language
+version may
+be obtained from Licensor upon written request and shall be deemed to govern
+Your
+purchase of licenses to the Software. Any add-on, extension, update, mobile
+application,
+module, adapter or support release to the Software that You may download or
+receive
+that is not accompanied by a license agreement is Software and is governed by
+this
+Agreement. If the Software is an update or support release, then You must have
+validly
+licensed the version and quantity of the Software being updated or supported in
+order to
+install or use the update or support release.
+Licensed Use
+Open Source
+Nothing in this Agreement shall restrict, limit or otherwise affect any rights
+or obligations
+You may have, or conditions to which You may be subject, under any applicable
+open
+source licenses to any open source code contained in the Software. The Software
+may
+include or be bundled with other software programs licensed under different
+terms and/or
+licensed by a third party other than Licensor. Use of any software programs
+accompanied
+by a separate license agreement is governed by that separate license agreement.
+Subscription Services and Support
+Licensor has no obligation to provide maintenance or support unless You purchase
+a
+subscription offering that expressly includes such services. Licensor sells
+subscription
+offerings for the Software that entitles You to fee based technical support
+and/or internal
+use of Software updates provided on a specified annual period (“Subscription
+Offering”)
+and are subject to the SUSE’s product Terms and Conditions available at
+https://www.suse.com/products/terms_and_conditions.pdf (“Terms and Conditions”).
+Marks
+No right or license, express or implied, is granted under this Agreement with
+respect to any
+trademark, trade name or service mark of Licensor or its Affiliates or licensors
+(“Mark”).
+This Agreement does not permit you to distribute the Software or its components
+using
+Licensor's trademarks, regardless of whether the copy has been modified. You may
+make
+a commercial redistribution of the Programs only if (a) permitted under a
+separate written
+agreement with Licensor authorizing such commercial redistribution, or (b) you
+remove
+and replace all occurrences of any Mark.
+Ownership
+No title to or ownership of the Software is transferred to You. Licensor and/or
+its third party
+licensors retain all right, title and interest in and to all intellectual
+property rights in the
+Software and Services, including any adaptations or copies thereof. The Software
+is not
+sold to You, You acquire only a conditional license to use the Software. Title,
+ownership
+rights and intellectual property rights in and to the content accessed through
+the
+Software are the property of the applicable content owner and may be protected
+by
+applicable copyright or other law. This Agreement gives You no rights to such
+content.
+GENERAL LICENSE GRANT APPLICABLE UNLESS SPECIFIC PRODUCT LICENSE
+GRANT APPLIES (SEE BELOW)
+The Software and each of its components are owned by Licensor or other licensors
+and
+are protected under copyright laws and other applicable laws. Subject to
+compliance with
+the terms and conditions of this Agreement, Licensor grants to You a perpetual,
+nonexclusive, non-transferable, worldwide license to reproduce and use copies of
+the
+Software within Your Organization "Organization" means a legal entity and its
+Affiliates.
+“Affiliates” means entities that control, are controlled by, or are under common
+control
+with You. The above license is conditioned upon You being responsible and liable
+for any
+breach of the provisions of this Agreement by Your Affiliates.
+LICENSE SPECIFIC TO SUSE Enterprise Storage Base Configuration
+Subject to compliance with the terms and conditions of this Agreement, Licensor
+grants to
+You a perpetual, non-exclusive, non-transferable, worldwide license to reproduce
+and use
+within Your Organization (as defined above) up to four (4) copies of SUSE
+Enterprise
+Storage deployed on one (1) to two (2) CPU socket server nodes and up to four
+(4) copies
+of SUSE Linux Enterprise Server deployed on the same one (1) to two (2) CPU
+socket server
+nodes for the sole purpose of running up to four (4) copies of the SES Object
+Storage
+Daemon (as defined in the Terms and Conditions) component on same server nodes
+within a specific storage cluster. With respect to the same storage cluster,
+Licensor grants
+to You a perpetual, non-exclusive, non-transferable, worldwide license to
+reproduce and
+use within Your Organization (as defined in the general license grant section
+above) up to
+six (6) copies of SUSE Enterprise Storage and up to six (6) copies of SUSE Linux
+Enterprise
+Server for the sole purpose of running up to six (6) SES Infrastructure Nodes
+(as defined in
+the Terms and Conditions) on the same storage cluster.
+LICENSE SPECIFIC TO SUSE Enterprise Storage Expansion Node
+Subject to compliance with the terms and conditions of this Agreement, Licensor
+grants to
+You a perpetual, non-exclusive, non-transferable, worldwide license to reproduce
+and use
+within Your Organization (as defined above) one (1) copy of SUSE Enterprise
+Storage
+deployed on a one (1) to two (2) CPU socket server node and one (1) copy of SUSE
+Linux
+Enterprise Server deployed on the same one (1) to two (2) CPU socket server node
+for the
+sole purpose of running one (1) copy of the SES Object Storage Daemon (as
+defined in the
+Terms and Conditions) component on one (1) particular storage cluster provided
+that
+such storage cluster already has one (1) SUSE Enterprise Storage Base
+Configuration
+actively deployed. With respect to the same storage cluster, Licensor grants to
+You a
+perpetual, non-exclusive, non-transferable, worldwide license to reproduce and
+use within
+Your Organization (as defined above) up to one (1) copy of SUSE Enterprise
+Storage and
+up to one (1) copy of SUSE Linux Enterprise Server for the sole purpose of
+running up to one
+(1) SES Infrastructure Node (as defined in the Terms and Conditions) on the same
+storage
+cluster.
+LICENSE SPECIFIC TO SUSE LINUX Enterprise Point of Service
+Subject to compliance with the terms and conditions of this Agreement, Licensor
+grants to
+You a perpetual, non-exclusive, non-transferable, worldwide license to reproduce
+and use
+copies of the Software within Your Organization (as defined above) solely in
+connection
+with, and for the duration of, your lawfully acquired licenses for SUSE Linux
+Enterprise
+Server, SUSE Linux Enterprise Desktop and associated products. You agree to use
+SUSE
+Linux Enterprise Point of Service solely for the purpose of running a point of
+service
+infrastructure within Your Organization (as defined above) and not as a general
+purpose
+operating system.
+LICENSE SPECIFIC TO SUSE LINUX Enterprise Micro
+Subject to compliance with the terms and conditions of this Agreement, Licensor
+grants to
+You a perpetual, non-exclusive, non-transferable, worldwide license to reproduce
+and use
+copies of the Software within Your Organization (as defined above) solely in
+connection
+with, and for the duration of, your lawfully acquired licenses for SUSE Linux
+Enterprise
+Server, SUSE Linux Enterprise Desktop and associated products. You agree to use
+SUSE
+Linux Enterprise Micro solely for the purpose of running within Edge and SUSE
+Embedded
+(appliance) deployments or as a hypervisor for SUSE Linux Enterprise Server
+within Your
+Organization (as defined above) and not as a general purpose operating system.
+License Restrictions
+The Software and each of its components are owned by Licensor and/or its
+licensors and
+are protected under copyright law and under other laws as applicable. Title to
+the
+Software and any component, or to any copy, modification, or merged portion
+shall
+remain with Licensor and other licensors, subject to the applicable license.
+Licensor
+reserves all rights not expressly granted to You. The Software is licensed for
+Your internal
+use only. Except as this Agreement expressly allows and without limiting any
+rights or
+obligations set forth in the “Open Source” section above, You may not (1) remove
+any
+patent, trademark, copyright, trade secret or other proprietary notices or
+labels on the
+Software or its documentation; (2) modify, alter, create derivative works,
+reverse engineer,
+decompile, or disassemble the Software except and only to the extent expressly
+permitted
+by applicable law; (3) transfer, assign, pledge, rent, timeshare, host or lease
+the Software,
+or sublicense any of Your license grants or rights under this Agreement; in
+whole or in part,
+without prior written permission of Licensor, (4) disclose the results of any
+performance,
+functional or other evaluation or benchmarking of the Software to any third
+party without
+the prior written permission of Licensor.
+Outsourcing
+Your license to use the Software may be used under the terms of this Agreement
+by a
+third party acting on Your behalf, such as a third party cloud provider or
+outsourcing
+vendor who manages or hosts (either remotely or virtually) the Software for You,
+subject
+to and conditioned upon Your adherence to the following: (1) You remain
+responsible for
+all of Your obligations under this Agreement and enter into an enforceable
+agreement
+with the third party that contains terms and conditions to protect Licensor's
+rights in the
+Software that are no less restrictive than those contained in this Agreement,
+including
+without limitation the Audits section below; (2) You prohibit use of the
+Software by the
+third party for any purpose other than Your sole benefit; (3) You are solely
+responsible to
+Licensor for any and all breaches of this Agreement by the third party; and (4)
+You are
+and will remain current on subscription purchases that cover all installations
+and
+deployments of the Software by the third party on Your behalf.
+Appliance License
+If, either directly from Licensor or from a third party, you have received a
+hardware,
+software or other appliance that uses the Software, You acknowledge and agree to
+use
+the Software solely for the purpose of running the appliance and not as a
+general purpose
+operating system.
+Warranty and Liability
+Limited Warranty
+Licensor warrants that the media that the Software is delivered on will be free
+from defects
+in materials and manufacture under normal use for a period of sixty (60) days
+from the
+date of delivery to you. THE FOREGOING WARRANTY IS YOUR SOLE AND EXCLUSIVE
+REMEDY
+AND IS IN LIEU OF ALL OTHER WARRANTIES, EXPRESS OR IMPLIED. SAVE FOR THE
+FOREGOING
+WARRANTY, THE SOFTWARE IS PROVIDED “AS IS” WITHOUT ANY WARRANTIES OF ANY KIND.
+Services
+Licensor warrants that any Services purchased will be supplied in a professional
+manner
+in accordance with generally accepted industry standards. This warranty will be
+effective
+for thirty (30) days following delivery of the Services. Upon any breach of this
+warranty,
+Licensor’s only obligation is to either correct the Services so that they comply
+with this
+warranty or at its option refund the amount You paid to Licensor for the portion
+of the
+Services that fail to comply with this warranty. You agree to take appropriate
+measures to
+isolate and back up Your systems.
+THE SOFTWARE IS NOT DESIGNED, MANUFACTURED OR INTENDED FOR USE OR DISTRIBUTION
+WITH ON-LINE CONTROL EQUIPMENT IN HAZARDOUS ENVIRONMENTS REQUIRING FAIL-SAFE
+PERFORMANCE, SUCH AS IN THE OPERATION OF NUCLEAR FACILITIES, AIRCRAFT
+NAVIGATION,
+COMMUNICATION, OR CONTROL SYSTEMS, DIRECT LIFE SUPPORT MACHINES, WEAPONS
+
+SYSTEMS, OR OTHER USES IN WHICH FAILURE OF THE SOFTWARE COULD LEAD DIRECTLY TO
+DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE.
+Non-Licensor Products
+The Software may include or be bundled with hardware or other software programs
+or
+services licensed or sold by an entity other than Licensor. LICENSOR DOES NOT
+WARRANT
+NON-LICENSOR PRODUCTS OR SERVICES. ANY SUCH PRODUCTS OR SERVICES ARE PROVIDED
+ON AN “AS IS” BASIS. WARRANTY SERVICE IF ANY FOR NON-LICENSOR PRODUCTS IS
+PROVIDED
+BY THE PRODUCT LICENSOR IN ACCORDANCE WITH THEIR APPLICABLE WARRANTY.
+EXCEPT AS OTHERWISE RESTRICTED BY LAW, LICENSOR DISCLAIMS AND EXCLUDES ANY AND
+ALL
+IMPLIED WARRANTIES INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, TITLE OR NON-INFRINGEMENT NOR ARE THERE ANY WARRANTIES
+CREATED BY COURSE OF DEALING, COURSE OF PERFORMANCE OR TRADE USAGE. LICENSOR
+MAKES NO WARRANTY, REPRESENTATION OR PROMISE NOT EXPRESSLY SET FORTH IN THIS
+LIMITED WARRANTY. LICENSOR DOES NOT WARRANT THAT THE SOFTWARE OR SERVICES WILL
+SATISFY YOUR REQUIREMENTS, BE COMPATIBLE WITH ALL OPERATING SYSTEMS, OR THAT THE
+OPERATION OF THE SOFTWARE OR SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE. THE
+FOREGOING EXCLUSIONS AND DISCLAIMERS ARE AN ESSENTIAL PART OF THIS AGREEMENT AND
+FORMED THE BASIS FOR DETERMINING THE PRICE CHARGED FOR THE PRODUCTS. Some
+jurisdictions do not allow certain disclaimers and limitations of warranties, so
+portions of
+the above limitations may not apply to You. This limited warranty gives You
+specific rights
+and You may also have other rights which vary by state or jurisdiction.
+Consequential Losses
+NEITHER LICENSOR NOR ANY OF ITS THIRD PARTY LICENSORS, SUBSIDIARIES, OR
+EMPLOYEES WILL
+IN ANY CASE BE LIABLE FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, INDIRECT,
+TORT,
+ECONOMIC OR PUNITIVE DAMAGES, WHETHER BASED ON CONTRACT, NEGLIGENCE, STRICT
+LIABILITY OR OTHER TORT, BREACH OF ANY STATUTORY DUTY, INDEMNITY OR
+CONTRIBUTION,
+INCLUDING WITHOUT LIMITATION LOSS OF PROFITS, BUSINESS OR DATA, EVEN IF ADVISED
+OF
+THE POSSIBILITY OF THOSE DAMAGES.
+Direct Damages
+IN NO EVENT WILL LICENSOR'S AGGREGATE LIABILITY FOR DIRECT DAMAGES TO PROPERTY
+OR
+PERSON (WHETHER IN ONE INSTANCE OR A SERIES OF INSTANCES) EXCEED 1.25 TIMES THE
+AMOUNT PAID BY YOU FOR THE SOFTWARE OR SERVICES OUT OF WHICH SUCH CLAIM AROSE
+(OR $50 (U.S.) IF YOU RECEIVED THE SOFTWARE FREE OF CHARGE).
+The above exclusions and limitations will not apply to claims relating to death
+or personal
+injury caused by the negligence of Licensor or its employees, agents or
+contractors. In
+those jurisdictions that do not allow the exclusion or limitation of damages,
+including,
+without limitation, damages for breach of any implied terms as to title or quiet
+enjoyment
+of any Software obtained pursuant to this Agreement or for fraudulent
+misrepresentation,
+Licensor's liability shall be limited or excluded to the maximum extent allowed
+within those
+jurisdictions.
+
+General Terms
+Term
+This Agreement becomes effective on the date You legally acquire the Software
+and will
+automatically terminate if You breach any of its terms.
+Audits
+Licensor or an Auditor (as defined below) has the right to verify Your
+compliance with this
+Agreement. You agree to:
+1. Recordkeeping. Keep, and upon Licensor's request, provide records, sufficient
+to
+certify Your compliance with this Agreement based on the applicable license
+metric, SUSE’s Compliance Charter located at
+https://www.suse.com/company/legal/compliance-charter and the Terms and
+Conditions for the Software. This may include without limitation serial numbers,
+license keys, logs, the location, model (including quantity and type of
+processor)
+and serial number of all machines on which the Software is installed or accessed
+or from which the Software can be accessed, the names (including corporate
+entity) and number of users accessing or authorized to access the Software,
+metrics, reports, copies of the Software (by product and version), and network
+architecture diagrams as they may relate to Your licensing and deployment of the
+Software and associated support and maintenance;
+2. Questionnaire. Within seven (7) days of Licensor's request, You shall furnish
+Licensor
+or its designated independent auditor ("Auditor") a completed questionnaire
+provided by Licensor or Auditor, accompanied with a written statement signed by
+a director of Your Organization certifying the accuracy of the information
+provided;
+and
+3. Access. Provide representatives of Licensor or Auditor any necessary
+assistance
+and access to records and computers to allow an inspection and audit of Your
+computers and records, during Your normal business hours, for compliance with
+the applicable Agreement and fully cooperate with such audit.
+4. Non-Compliance. In the event that You have, or at any time have had,
+unlicensed
+installation, use of, or access to the Software or have otherwise breached this
+Agreement (a "Non-Compliance"), without prejudice to any other rights or
+remedies Licensor may have, including, without limitation, injunctive relief,
+You
+shall, within thirty (30) days' notice of such Non-Compliance to You, purchase
+sufficient licenses and or subscriptions and associated support and maintenance
+to cure the Non-Compliance, by paying Licensor's current (as of the date of such
+additional purchase) list license fees and 12-month support and maintenance fees
+to Licensor for such additional licenses, plus Licensor's current (as of the
+date of
+such additional purchase) list term license and support and maintenance fees
+and interest (compounded at 1.5% monthly or the maximum rate permitted by
+applicable law if lower) for such additional licenses for the time period from
+the
+commencement of the Non-Compliance until payment of the aforementioned
+fees, with interest payable even if an invoice was not issued at the time the
+Non
+Compliance occurred. If Your Non-Compliance results in an underpayment of
+license fees of 5% or greater, You shall also reimburse Licensor for the
+reasonable
+cost of such audit in addition to other amounts due.
+Transfer
+This Agreement and the associated licenses purchased for use of the Software may
+not
+be transferred or assigned without the prior written approval of Licensor. Any
+such
+attempted transfer or assignment shall be void and of no effect.
+Law
+All matters arising out of or relating to this Agreement will be governed by the
+substantive
+laws of the United States and the State of Utah without regard to its choice of
+law
+provisions. Any suit, action or proceeding arising out of or relating to this
+Agreement may
+only be brought before a federal or state court of appropriate jurisdiction in
+Utah. If a
+party initiates Agreement-related legal proceedings, the prevailing party will
+be entitled to
+recover reasonable attorneys' fees. If, however, Your principal place of
+business is a
+member state of the European Union or the European Free Trade Association, (1)
+the
+courts of Ireland shall have exclusive jurisdiction over any action of law
+relating to this
+Agreement; and (2) where the laws of such country of Your principal place of
+business are
+required to be applied to any such action of law the laws of that country shall
+apply. The
+application of the United Nations Convention of Contracts for the International
+Sale of
+Goods is expressly excluded.
+Entire Agreement
+This Agreement, together with any other purchase documents or other agreement
+between You and Licensor, sets forth the entire understanding and agreement
+between
+You and Licensor and may be amended or modified only by a written agreement
+agreed
+to by You and an authorized representative of Licensor. NO THIRD PARTY LICENSOR,
+DISTRIBUTOR, DEALER, RETAILER, RESELLER, SALES PERSON, OR EMPLOYEE IS AUTHORIZED
+TO
+MODIFY THIS AGREEMENT OR TO MAKE ANY REPRESENTATION OR PROMISE THAT IS DIFFERENT
+FROM, OR IN ADDITION TO, THE TERMS OF THIS AGREEMENT.
+Waiver
+No waiver of any right under this Agreement will be effective unless in writing,
+signed by a
+duly authorized representative of the party to be bound. No waiver of any past
+or present
+right arising from any breach or failure to perform will be deemed to be a
+waiver of any
+future right arising under this Agreement.
+Severability
+If any provision in this Agreement is invalid or unenforceable, that provision
+will be
+construed, limited, modified or, if necessary, severed, to the extent necessary,
+to eliminate
+its invalidity or unenforceability, and the other provisions of this Agreement
+will remain
+unaffected.
+Export Compliance
+You acknowledge that Licensor’s products and/or technology are subject to the
+U.S. Export
+Administration Regulations (the “EAR”) and You agree to comply with the EAR. You
+will not
+export or re-export Licensor’s products, directly or indirectly, to: (1) any
+countries that are
+subject to US export restrictions; (2) any end user who You know or have reason
+to know
+will utilize Licensor’s products in the design, development or production of
+nuclear,
+chemical or biological weapons, or rocket systems, space launch vehicles, and
+sounding
+rockets, or unmanned air vehicle systems, except as authorized by the relevant
+government agency by regulation or specific license; or (3) any end user who has
+been
+prohibited from participating in the US export transactions by any federal
+agency of the
+US government. By downloading or using the Software, You are agreeing to the
+foregoing
+and You are representing and warranting that You are not located in, under the
+control of,
+or a national or resident of any such country or on any such list. In addition,
+You are
+responsible for complying with any local laws in Your jurisdiction which may
+impact Your
+right to import, export or use Licensor’s products. Please consult the Bureau of
+Industry
+and Security web page https://www.bis.doc.gov before exporting items subject to
+the EAR.
+For more information on exporting Software, including the applicable Export
+Control
+Classification Number (ECCN) and associated license exception (as applicable),
+see
+https://www.suse.com/company/legal/. Upon request, Licensor’s International
+Trade
+Services Department can provide information regarding applicable export
+restrictions for
+Licensor products. Licensor assumes no responsibility for Your failure to obtain
+any
+necessary export approvals.
+:version:2021-03-08:001
+--------------------------------------------------------------------------------
+
+Apache-2.0
+Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright {yyyy} {name of copyright owner}
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       https://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+--------------------------------------------------------------------------------
+
+Copyright notices
+
+Copyright Rancher Labs, Inc.
+Copyright 2023 Rancher Labs, Inc.
+Copyright 2020 Rancher Labs, Inc.
+Copyright 2017 Istio Authors
+Copyright (c) 2014-2023 Rancher Labs, Inc. http://rancher.com
