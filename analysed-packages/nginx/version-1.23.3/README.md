@@ -4,7 +4,7 @@ http://nginx.org/download/nginx-1.23.3.tar.gz
 
 ## Package URL (purl)
 
-pkg:generic/nginx@1.20.2?download_url=http://nginx.org/download/nginx-1.23.3.tar.gz
+pkg:generic/nginx@1.23.3?download_url=http://nginx.org/download/nginx-1.23.3.tar.gz
 
 ## Creator
 
