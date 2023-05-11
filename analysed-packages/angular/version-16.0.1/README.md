@@ -1,0 +1,17 @@
+## Download Location
+
+https://github.com/angular/angular/archive/refs/tags/16.0.1.tar.gz
+
+## Package URL (purl)
+
+pkg:github/angular/angular/angular@16.0.1
+
+## Creator
+
+Oliver Fendt
+
+## Reviewers
+
+The information was reviewed by:
+
+* add reviewer here
