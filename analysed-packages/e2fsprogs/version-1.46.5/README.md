@@ -15,3 +15,7 @@ Astrid Spura
 The information was reviewed by:
 
 * Caren Kresse
+
+## Comment
+
+The original SPDX tag:value file has 107 MB which is too large to be uploaded, a compressed file is provided.
