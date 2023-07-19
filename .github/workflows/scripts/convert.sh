@@ -17,7 +17,7 @@ convert_one() {
     local json yaml rdf
     json="${spdx/-SPDX2TV/}.json"
     yaml="${spdx/-SPDX2TV/}.yaml"
-    rdf="${spdx/-SPDX2TV/}.spdx.rdf.xml"
+    rdf="${spdx/-SPDX2TV/}.rdf.xml"
 
     for out in $json $yaml $rdf; do
         if [[ -f "$out" ]]; then
