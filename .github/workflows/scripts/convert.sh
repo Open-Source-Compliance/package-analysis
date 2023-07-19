@@ -22,6 +22,11 @@ convert_one() {
     for out in $json $yaml $rdf; do
         if [[ -f "$out" ]]; then
             local out_timestamp="$(git log -1 --pretty="format:%ci" "$out")"
+            if [[ -f "$out.gz" ]]; then
+                local out_timestamp="$(git log -1 --pretty="format:%ci" "$out.gz")"
+            else
+                local out_timestamp="$(git log -1 --pretty="format:%ci" "$out")"
+            fi
             if [[ "$spdx_timestamp" -ot "$out_timestamp" ]]; then
                 continue
             fi
