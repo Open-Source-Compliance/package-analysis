@@ -12,27 +12,10 @@ creationInfo:
 name: "/srv/fossology/repository/report"
 dataLicense: "CC0-1.0"
 hasExtractedLicensingInfos:
-- licenseId: "LicenseRef-WebM"
-  extractedText: "Software License\nCopyright (c) 2010, Google Inc. All rights reserved.\n\
-    \nRedistribution and use in source and binary forms, with or without modification,\
-    \ are permitted provided that the following conditions are met:\n\nRedistributions\
-    \ of source code must retain the above copyright notice, this list of conditions\
-    \ and the following disclaimer.\n\nRedistributions in binary form must reproduce\
-    \ the above copyright notice, this list of conditions and the following disclaimer\
-    \ in the documentation and/or other materials provided with the distribution.\n\
-    \nNeither the name of Google nor the names of its contributors may be used to\
-    \ endorse or promote products derived from this software without specific prior\
-    \ written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND\
-    \ CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT\
-    \ NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\
-    \ PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR\
-    \ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,\
-    \ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\
-    \ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\
-    \ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\
-    \ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\
-    \ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
-  name: "WebM Software License"
+- licenseId: "LicenseRef-BSD"
+  extractedText: "BSD is referenced without a version number. Please look up BSD in\
+    \ the License Admin to view the different versions."
+  name: "BSD"
 - licenseId: "LicenseRef-BSD-3-Clause-f35becd4d1ac0526db050389c06e7684"
   extractedText: "Redistribution and use in source and binary forms, with or without\n\
     modification, are permitted provided that the following conditions are\nmet:\n\
@@ -57,12 +40,27 @@ hasExtractedLicensingInfos:
 - licenseId: "LicenseRef-No_license_found"
   extractedText: "Not find any license in the scanned file"
   name: "No_license_found"
-- licenseId: "LicenseRef-BSD"
-  extractedText: "BSD is referenced without a version number. Please look up BSD in\
-    \ the License Admin to view the different versions."
-  name: "BSD"
-documentDescribes:
-- "SPDXRef-upload4"
+- licenseId: "LicenseRef-WebM"
+  extractedText: "Software License\nCopyright (c) 2010, Google Inc. All rights reserved.\n\
+    \nRedistribution and use in source and binary forms, with or without modification,\
+    \ are permitted provided that the following conditions are met:\n\nRedistributions\
+    \ of source code must retain the above copyright notice, this list of conditions\
+    \ and the following disclaimer.\n\nRedistributions in binary form must reproduce\
+    \ the above copyright notice, this list of conditions and the following disclaimer\
+    \ in the documentation and/or other materials provided with the distribution.\n\
+    \nNeither the name of Google nor the names of its contributors may be used to\
+    \ endorse or promote products derived from this software without specific prior\
+    \ written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND\
+    \ CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT\
+    \ NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\
+    \ PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR\
+    \ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,\
+    \ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\
+    \ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\
+    \ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\
+    \ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\
+    \ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+  name: "WebM Software License"
 documentNamespace: "http://df245da4e07b/repo/SPDX2TV_args-2.3.0.zip_1648031681.spdx"
 packages:
 - SPDXID: "SPDXRef-upload4"
@@ -85,39 +83,6 @@ packages:
   packageFileName: "args-2.3.0.zip"
   packageVerificationCode:
     packageVerificationCodeValue: "598817fb3c7254398b091e17c19c1f6988187ce6"
-  hasFiles:
-  - "SPDXRef-item1733"
-  - "SPDXRef-item1711"
-  - "SPDXRef-item1712"
-  - "SPDXRef-item1706"
-  - "SPDXRef-item1703"
-  - "SPDXRef-item1704"
-  - "SPDXRef-item1722"
-  - "SPDXRef-item1720"
-  - "SPDXRef-item1724"
-  - "SPDXRef-item1700"
-  - "SPDXRef-item1731"
-  - "SPDXRef-item1705"
-  - "SPDXRef-item1723"
-  - "SPDXRef-item1726"
-  - "SPDXRef-item1710"
-  - "SPDXRef-item1719"
-  - "SPDXRef-item1727"
-  - "SPDXRef-item1732"
-  - "SPDXRef-item1698"
-  - "SPDXRef-item1702"
-  - "SPDXRef-item1728"
-  - "SPDXRef-item1707"
-  - "SPDXRef-item1725"
-  - "SPDXRef-item1729"
-  - "SPDXRef-item1716"
-  - "SPDXRef-item1696"
-  - "SPDXRef-item1701"
-  - "SPDXRef-item1730"
-  - "SPDXRef-item1708"
-  - "SPDXRef-item1715"
-  - "SPDXRef-item1709"
-  - "SPDXRef-item1721"
 files:
 - SPDXID: "SPDXRef-item1702"
   checksums:
@@ -561,4 +526,103 @@ files:
   licenseConcluded: "LicenseRef-BSD-3-Clause-f35becd4d1ac0526db050389c06e7684"
   licenseInfoInFiles:
   - "LicenseRef-BSD"
-relationships: []
+relationships:
+- spdxElementId: "SPDXRef-DOCUMENT"
+  relationshipType: "DESCRIBES"
+  relatedSpdxElement: "SPDXRef-upload4"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1733"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1711"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1712"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1706"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1703"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1704"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1722"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1720"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1724"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1700"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1731"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1705"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1723"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1726"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1710"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1719"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1727"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1732"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1698"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1702"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1728"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1707"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1725"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1729"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1716"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1696"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1701"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1730"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1708"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1715"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1709"
+- spdxElementId: "SPDXRef-upload4"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item1721"

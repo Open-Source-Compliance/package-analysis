@@ -29,8 +29,6 @@ hasExtractedLicensingInfos:
     \ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\
     \ IN THE SOFTWARE."
   name: "MIT License"
-documentDescribes:
-- "SPDXRef-upload36"
 documentNamespace: "http://a4dfaa476d35/repo/SPDX2TV_alpine-base.zip_1649776983.spdx"
 packages:
 - SPDXID: "SPDXRef-upload36"
@@ -53,8 +51,6 @@ packages:
   packageFileName: "alpine-base.zip"
   packageVerificationCode:
     packageVerificationCodeValue: "8adfe69a57705fdfc7ac1df96ca622fcea8db96f"
-  hasFiles:
-  - "SPDXRef-item148719964"
 files:
 - SPDXID: "SPDXRef-item148719964"
   checksums:
@@ -69,4 +65,10 @@ files:
   licenseConcluded: "LicenseRef-MIT"
   licenseInfoInFiles:
   - "LicenseRef-MIT"
-relationships: []
+relationships:
+- spdxElementId: "SPDXRef-DOCUMENT"
+  relationshipType: "DESCRIBES"
+  relatedSpdxElement: "SPDXRef-upload36"
+- spdxElementId: "SPDXRef-upload36"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148719964"
