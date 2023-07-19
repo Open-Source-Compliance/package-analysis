@@ -8,9 +8,7 @@
 
 set -euo pipefail
 
-# version 1.1.4 currently has a bug in handling of multiple LicenseInfoInFile entries
-# see: https://github.com/spdx/tools-java/issues/105
-version="1.1.3"
+version="1.1.7"
 jar="$HOME/spdx-tools-java/tools-java-${version}-jar-with-dependencies.jar"
 
 spdx_tools() {
