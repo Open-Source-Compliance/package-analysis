@@ -9,17 +9,30 @@
 set -euo pipefail
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+GITHUB_STEP_SUMMARY="${GITHUB_STEP_SUMMARY:-/dev/stdout}"
 
 verify_one() {
     local spdx="$1"
-    >&2 echo -e "\nVerify $spdx\n"
 
-    # Set default values that work to link to local files below.
-    GITHUB_SERVER_URL="${GITHUB_SERVER_URL:-.}"
-    GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-.}"
-    GITHUB_SHA="${GITHUB_SHA:-..}"
+    local verificationCacheFile=".verifications/${spdx}.verified"
 
-    "${SCRIPT_DIR}/spdx-tools-java-wrapper.sh" Verify "$spdx" 1>&2 || echo "* [$spdx]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/$spdx)"
+    if sha1sum -c "$verificationCacheFile" &>/dev/null; then
+        return
+    fi
+
+    >&2 echo "Verify $spdx"
+
+    if "${SCRIPT_DIR}/spdx-tools-java-wrapper.sh" Verify "$spdx" 1>&2; then
+        mkdir -p "$(dirname "$verificationCacheFile")"
+        sha1sum "$spdx" > "$verificationCacheFile"
+    else
+        # Set default values that work to link to local files below.
+        GITHUB_SERVER_URL="${GITHUB_SERVER_URL:-.}"
+        GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-.}"
+        GITHUB_SHA="${GITHUB_SHA:-..}"
+
+        echo "* [$spdx]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/$spdx)"
+    fi
 }
 
 check_github_step_summary() {
