@@ -14,24 +14,7 @@ creationInfo:
 name: "/srv/fossology/repository/report"
 dataLicense: "CC0-1.0"
 hasExtractedLicensingInfos:
-- licenseId: "LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef"
-  extractedText: "Permission to use, copy, modify, and distribute this software for\
-    \ any purpose with or without fee is hereby granted, provided that the above copyright\
-    \ notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED\
-    \ \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT\
-    \ LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE\
-    \ AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS OR\
-    \ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\
-    \ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\
-    \ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as\
-    \ contained in this notice, the name of a copyright holder shall not be used in\
-    \ advertising or otherwise to promote the sale, use or other dealings in this\
-    \ Software without prior written authorization of the copyright holder."
-  name: "curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef"
-- licenseId: "LicenseRef-No_license_found"
-  extractedText: "Not find any license in the scanned file"
-  name: "No_license_found"
-- licenseId: "LicenseRef-GPL-2.0+"
+- licenseId: "LicenseRef-GPL-2.0-or-later"
   extractedText: "GNU GENERAL PUBLIC LICENSE\n\nVersion 2, June 1991\n\nCopyright\
     \ (C) 1989, 1991 Free Software Foundation, Inc.\n51 Franklin Street, Fifth Floor,\
     \ Boston, MA 02110-1301, USA\n\nEveryone is permitted to copy and distribute verbatim\
@@ -258,6 +241,25 @@ hasExtractedLicensingInfos:
     \ library. If this is what you want to do, use the GNU Lesser General Public License\
     \ instead of this License."
   name: "GNU General Public License v2.0 or later"
+- licenseId: "LicenseRef-MIT"
+  extractedText: "Permission is hereby granted, free of charge, to any person obtaining\
+    \ a copy of this software and associated documentation files (the \"Software\"\
+    ), to deal in the Software without restriction, including without limitation the\
+    \ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or\
+    \ sell copies of the Software, and to permit persons to whom the Software is furnished\
+    \ to do so, subject to the following conditions:\n\nThe above copyright notice\
+    \ and this permission notice shall be included in all copies or substantial portions\
+    \ of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF\
+    \ ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\
+    \ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO\
+    \ EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES\
+    \ OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\
+    \ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\
+    \ IN THE SOFTWARE."
+  name: "MIT License"
+- licenseId: "LicenseRef-MIT-style"
+  extractedText: "According to MIT license, add some modifications"
+  name: "MIT-style"
 - licenseId: "LicenseRef-MPL-2.0"
   extractedText: "Mozilla Public License Version 2.0\n\n1. Definitions\n\n1.1. \"\
     Contributor\" means each individual or legal entity that creates, contributes\
@@ -450,6 +452,9 @@ hasExtractedLicensingInfos:
     \ Licenses\" Notice\n\nThis Source Code Form is \"Incompatible With Secondary\
     \ Licenses\", as defined by the Mozilla Public License, v. 2.0."
   name: "Mozilla Public License 2.0"
+- licenseId: "LicenseRef-No_license_found"
+  extractedText: "Not find any license in the scanned file"
+  name: "No_license_found"
 - licenseId: "LicenseRef-curl"
   extractedText: "COPYRIGHT AND PERMISSION NOTICE\n\nCopyright (c) 1996 - 2015, Daniel\
     \ Stenberg, <daniel@haxx.se>.\nAll rights reserved.\n\nPermission to use, copy,\
@@ -466,37 +471,30 @@ hasExtractedLicensingInfos:
     \ to promote the sale, use or other dealings in this Software without prior written\
     \ authorization of the copyright holder."
   name: "curl License"
-- licenseId: "LicenseRef-MIT"
-  extractedText: "Permission is hereby granted, free of charge, to any person obtaining\
-    \ a copy of this software and associated documentation files (the \"Software\"\
-    ), to deal in the Software without restriction, including without limitation the\
-    \ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or\
-    \ sell copies of the Software, and to permit persons to whom the Software is furnished\
-    \ to do so, subject to the following conditions:\n\nThe above copyright notice\
-    \ and this permission notice shall be included in all copies or substantial portions\
-    \ of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF\
-    \ ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\
-    \ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO\
-    \ EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES\
-    \ OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\
-    \ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\
-    \ IN THE SOFTWARE."
-  name: "MIT License"
-- licenseId: "LicenseRef-MIT-style"
-  extractedText: "According to MIT license, add some modifications"
-  name: "MIT-style"
-documentDescribes:
-- "SPDXRef-upload29"
+- licenseId: "LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef"
+  extractedText: "Permission to use, copy, modify, and distribute this software for\
+    \ any purpose with or without fee is hereby granted, provided that the above copyright\
+    \ notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED\
+    \ \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT\
+    \ LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE\
+    \ AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS OR\
+    \ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\
+    \ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\
+    \ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as\
+    \ contained in this notice, the name of a copyright holder shall not be used in\
+    \ advertising or otherwise to promote the sale, use or other dealings in this\
+    \ Software without prior written authorization of the copyright holder."
+  name: "curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef"
 documentNamespace: "http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx"
 packages:
 - SPDXID: "SPDXRef-upload29"
   checksums:
+  - algorithm: "MD5"
+    checksumValue: "f7352c1f5ad2709a6dce19d39fc167d0"
   - algorithm: "SHA1"
     checksumValue: "fe2bf9f6a7c12c73d50e1e1dae8889c782ca3ba2"
   - algorithm: "SHA256"
     checksumValue: "a71902deb3c359f11f2a7c45f9d34e32935a695e9115239cc4697b704749ab03"
-  - algorithm: "MD5"
-    checksumValue: "f7352c1f5ad2709a6dce19d39fc167d0"
   copyrightText: "NOASSERTION"
   downloadLocation: "NOASSERTION"
   licenseComments: "licenseInfoInFile determined by Scanners:\n - nomos (\"unknown\"\
@@ -509,32 +507,15 @@ packages:
   packageFileName: "ca-certificates.zip"
   packageVerificationCode:
     packageVerificationCodeValue: "5e92fc7e15c94a4149812242245a2bff3f474177"
-  hasFiles:
-  - "SPDXRef-item148720160"
-  - "SPDXRef-item148720156"
-  - "SPDXRef-item148720165"
-  - "SPDXRef-item148720155"
-  - "SPDXRef-item148720161"
-  - "SPDXRef-item148720146"
-  - "SPDXRef-item148720163"
-  - "SPDXRef-item148720167"
-  - "SPDXRef-item148720164"
-  - "SPDXRef-item148720159"
-  - "SPDXRef-item148720157"
-  - "SPDXRef-item148720166"
-  - "SPDXRef-item148720147"
-  - "SPDXRef-item148720162"
-  - "SPDXRef-item148720148"
-  - "SPDXRef-item148720158"
 files:
 - SPDXID: "SPDXRef-item148720162"
   checksums:
+  - algorithm: "SHA1"
+    checksumValue: "05e5fe120557e73f87d1b5039e3c5147ebc45726"
   - algorithm: "SHA256"
     checksumValue: "68f70afada0cd8fc2289102145c11d5d8b6d2421ed4b7624094bcf5dfce7d2f5"
   - algorithm: "MD5"
     checksumValue: "2b64084b5d8e01f5b745c4e1f053a899"
-  - algorithm: "SHA1"
-    checksumValue: "05e5fe120557e73f87d1b5039e3c5147ebc45726"
   copyrightText: "Copyright (c) 2013-2014 Timo Teräs <timo.teras@iki.fi> All rights\
     \ reserved."
   fileName: "ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/c_rehash.c"
@@ -544,12 +525,12 @@ files:
   - "LicenseRef-MIT"
 - SPDXID: "SPDXRef-item148720161"
   checksums:
+  - algorithm: "SHA256"
+    checksumValue: "9d828d97053868907ce6229d132132f0f26772393405dadd037b6f85a5c5b219"
   - algorithm: "MD5"
     checksumValue: "907cf5cc15b9408fcea6d80d0b690cb6"
   - algorithm: "SHA1"
     checksumValue: "7d64840e35ee8db47bcd2813032f0d56ebf071c5"
-  - algorithm: "SHA256"
-    checksumValue: "9d828d97053868907ce6229d132132f0f26772393405dadd037b6f85a5c5b219"
   copyrightText: "Copyright (C) 1998 - 2020, Daniel Stenberg, <daniel@haxx.se>, et\
     \ al."
   fileName: "ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/mk-ca-bundle.pl"
@@ -562,12 +543,12 @@ files:
   - "LicenseRef-curl"
 - SPDXID: "SPDXRef-item148720160"
   checksums:
+  - algorithm: "SHA256"
+    checksumValue: "00da31e623fda2c3ab27d87d3adacdc613b0d96b7561530359292ef7219cde8d"
   - algorithm: "MD5"
     checksumValue: "75a6d07cab33a3511c551e77e4efc513"
   - algorithm: "SHA1"
     checksumValue: "a4bd942c295a666902e18a4a9314244520fc26ff"
-  - algorithm: "SHA256"
-    checksumValue: "00da31e623fda2c3ab27d87d3adacdc613b0d96b7561530359292ef7219cde8d"
   copyrightText: "NOASSERTION"
   fileName: "ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/Makefile"
   licenseConcluded: "NOASSERTION"
@@ -588,28 +569,28 @@ files:
   - "NOASSERTION"
 - SPDXID: "SPDXRef-item148720166"
   checksums:
-  - algorithm: "MD5"
-    checksumValue: "0cfdabdf804da64244d958489a903f94"
   - algorithm: "SHA1"
     checksumValue: "55c134b2cf620b11baa45857c1582378ba9a3c99"
   - algorithm: "SHA256"
     checksumValue: "36f08b1ce5af2d557bbdcd645a87d62cad2cee4decba4a643ab2cf2b6fe77bf6"
+  - algorithm: "MD5"
+    checksumValue: "0cfdabdf804da64244d958489a903f94"
   copyrightText: "NOASSERTION"
   fileName: "ca-certificates.zip/ca-certificates/APKBUILD"
   licenseComments: "NOASSERTION AND NOASSERTION"
   licenseConcluded: "(LicenseRef-MPL-2.0 AND LicenseRef-MIT)"
   licenseInfoInFiles:
-  - "LicenseRef-GPL-2.0+"
+  - "LicenseRef-GPL-2.0-or-later"
   - "LicenseRef-MPL-2.0"
   - "LicenseRef-MIT-style"
 - SPDXID: "SPDXRef-item148720165"
   checksums:
-  - algorithm: "SHA1"
-    checksumValue: "6f16ac8e44157d23e4639767ed360b12276360e6"
-  - algorithm: "SHA256"
-    checksumValue: "dd39cbb4b7e465537051fef3f01c12f74bd75956a55d804f45441b0223a1c133"
   - algorithm: "MD5"
     checksumValue: "236fbeddf713f82b2830340ddcee3746"
+  - algorithm: "SHA256"
+    checksumValue: "dd39cbb4b7e465537051fef3f01c12f74bd75956a55d804f45441b0223a1c133"
+  - algorithm: "SHA1"
+    checksumValue: "6f16ac8e44157d23e4639767ed360b12276360e6"
   copyrightText: "NOASSERTION"
   fileName: "ca-certificates.zip/ca-certificates/ca-certificates.trigger"
   licenseConcluded: "NOASSERTION"
@@ -630,12 +611,12 @@ files:
   - "NOASSERTION"
 - SPDXID: "SPDXRef-item148720163"
   checksums:
+  - algorithm: "MD5"
+    checksumValue: "bf5ffd8412645b7eaf6b1276a08c1b00"
   - algorithm: "SHA1"
     checksumValue: "545b44c4170d55a2354b21df7c893dc49efa026c"
   - algorithm: "SHA256"
     checksumValue: "973dbde5636a8c7900704b536a526156ead98acf358f6e7b9869067c4fa8b41c"
-  - algorithm: "MD5"
-    checksumValue: "bf5ffd8412645b7eaf6b1276a08c1b00"
   copyrightText: "NOASSERTION"
   fileName: "ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/split-ca-bundle.sh"
   licenseConcluded: "NOASSERTION"
@@ -643,12 +624,12 @@ files:
   - "NOASSERTION"
 - SPDXID: "SPDXRef-item148720159"
   checksums:
-  - algorithm: "MD5"
-    checksumValue: "d7f9069572976f9f2e76faa12e79d7ab"
   - algorithm: "SHA1"
     checksumValue: "f80b3405f5e29c0fc317741fe442ffa32b0e9e38"
   - algorithm: "SHA256"
     checksumValue: "fff6ee69a2f5705e0ae5a0214f0e1fff029b14adef49359160cf9a5c867d5df4"
+  - algorithm: "MD5"
+    checksumValue: "d7f9069572976f9f2e76faa12e79d7ab"
   copyrightText: "NOASSERTION"
   fileName: "ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/update-ca.c"
   licenseConcluded: "NOASSERTION"
@@ -682,12 +663,12 @@ files:
   - "NOASSERTION"
 - SPDXID: "SPDXRef-item148720156"
   checksums:
-  - algorithm: "MD5"
-    checksumValue: "2616fc3316a83945434df90ee3d22700"
   - algorithm: "SHA1"
     checksumValue: "69dd17f42c510fff5a1c74f527c1dedfdef86365"
   - algorithm: "SHA256"
     checksumValue: "4f4e8cc1aff1ca3f892d1833ab317d65fee3d03950945bed28ddde811604168b"
+  - algorithm: "MD5"
+    checksumValue: "2616fc3316a83945434df90ee3d22700"
   copyrightText: "NOASSERTION"
   fileName: "ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/.gitignore"
   licenseConcluded: "NOASSERTION"
@@ -695,12 +676,12 @@ files:
   - "NOASSERTION"
 - SPDXID: "SPDXRef-item148720155"
   checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9e9498ebe87ab3dc3dcc8e782c20cc34281a1df8"
   - algorithm: "SHA256"
     checksumValue: "187ef9dc231135324fe78830cf4462f1ecdeab3e6c9d5e38d623391e88dc5d3c"
   - algorithm: "MD5"
     checksumValue: "4413ec934541e821eac1303909571056"
-  - algorithm: "SHA1"
-    checksumValue: "9e9498ebe87ab3dc3dcc8e782c20cc34281a1df8"
   copyrightText: "(c) 1999 VeriSign, Inc.\n(c) 1999 VeriSign, Inc.\n(c) 1999 VeriSign,\
     \ Inc.\n(c) 1999 VeriSign, Inc.\n(c) 1999 VeriSign, Inc.\n(c) 1999 VeriSign, Inc.\n\
     (c) 1999 VeriSign, Inc.\n(c) 1999 VeriSign, Inc.\n(c) 1999 Entrust.net Limited\n\
@@ -719,10 +700,10 @@ files:
   checksums:
   - algorithm: "SHA1"
     checksumValue: "916269bd8398eed9826337253284402ac576e30e"
-  - algorithm: "MD5"
-    checksumValue: "8ee25a1a926f798b426e066bcd2eac19"
   - algorithm: "SHA256"
     checksumValue: "2829be6e14ffabec89a18a86233393c19e14204fbaa601169bd0a7cd95597a71"
+  - algorithm: "MD5"
+    checksumValue: "8ee25a1a926f798b426e066bcd2eac19"
   copyrightText: "Copyright (C) 2009 Philipp Kern <pkern@debian.org>\nCopyright (C)\
     \ 1998 - 2020, Daniel Stenberg, <daniel@haxx.se>, et al."
   fileName: "ca-certificates.zip/ca-certificates/0002-replace-python-script-with-perl-script.patch"
@@ -730,9 +711,9 @@ files:
     \ source code and removes GPL-2.0 licensed source code. Due to the mimic of patch\
     \ files the GPL-2.0 boilerplate is contained in this file but for the produced\
     \ executable the GPL-2.0 parts are not relevant"
-  licenseConcluded: "(LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef AND LicenseRef-GPL-2.0+)"
+  licenseConcluded: "(LicenseRef-GPL-2.0-or-later AND LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef)"
   licenseInfoInFiles:
-  - "LicenseRef-GPL-2.0+"
+  - "LicenseRef-GPL-2.0-or-later"
   - "LicenseRef-curl"
 - SPDXID: "SPDXRef-item148720147"
   checksums:
@@ -749,15 +730,66 @@ files:
   - "NOASSERTION"
 - SPDXID: "SPDXRef-item148720146"
   checksums:
-  - algorithm: "SHA256"
-    checksumValue: "53ff72d253cf5cc1323cc6e3953b6a27ef037d9a8e059530e00768bf28bdd674"
   - algorithm: "MD5"
     checksumValue: "022feea26f65284180b2e2b3e403ee75"
   - algorithm: "SHA1"
     checksumValue: "9644c92fb8173f497ab8dce1712d384b742b2953"
+  - algorithm: "SHA256"
+    checksumValue: "53ff72d253cf5cc1323cc6e3953b6a27ef037d9a8e059530e00768bf28bdd674"
   copyrightText: "NOASSERTION"
   fileName: "ca-certificates.zip/ca-certificates/0001-update-ca-fix-compiler-warning.patch"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-relationships: []
+relationships:
+- spdxElementId: "SPDXRef-DOCUMENT"
+  relationshipType: "DESCRIBES"
+  relatedSpdxElement: "SPDXRef-upload29"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720164"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720148"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720165"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720147"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720156"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720166"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720162"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720158"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720167"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720155"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720160"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720163"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720146"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720157"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720161"
+- spdxElementId: "SPDXRef-upload29"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item148720159"
