@@ -1,10 +1,10 @@
 ## Download Location
 
-https://github.com/FFmpeg/FFmpeg/archive/refs/tags/n5.1.1.tar.gz
+https://github.com/hammerjs/hammer.js/archive/refs/tags/v2.0.8.tar.gz
 
 ## Package URL (purl)
 
-pkg:github/ffmpeg/ffmpeg@n5.1.1
+pkg:github/hammerjs/hammer.js@v2.0.8
 
 ## Creator
 
