@@ -4,7 +4,7 @@ https://salsa.debian.org/debian/debianutils/-/archive/debian/5.7-0.3/debianutils
 
 ## Package URL (purl)
 
-pkg:generic/cdebconf@0.266?download_url=https://salsa.debian.org/debian/debianutils/-/archive/debian/5.7-0.3/debianutils-debian-5.7-0.3.tar.gz
+pkg:generic/debianutils@5.7-0.3?download_url=https://salsa.debian.org/debian/debianutils/-/archive/debian/5.7-0.3/debianutils-debian-5.7-0.3.tar.gz
 
 ## Creator
 
