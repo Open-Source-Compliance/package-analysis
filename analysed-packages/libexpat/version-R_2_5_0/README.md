@@ -4,7 +4,7 @@ https://github.com/libexpat/libexpat/archive/refs/tags/R_2_5_0.tar.gz
 
 ## Package URL (purl)
 
-pkg:github/libexpat/expat@2.5.0
+pkg:github/libexpat/libexpat@R_2_5_0
 
 ## Creator
 
