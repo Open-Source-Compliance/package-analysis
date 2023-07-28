@@ -1,10 +1,10 @@
 ## Download Location
 
-https://github.com/alsa-project/alsa-lib/archive/refs/tags/v1.2.8.tar.gz
+https://github.com/alsa-project/alsa-lib/archive/refs/tags/v1.2.9.tar.gz
 
 ## Package URL (purl)
 
-pkg:github/alsa-project/alsa-lib/alsa-lib@1.2.8
+pkg:github/alsa-project/alsa-lib@v1.2.9
 
 ## Creator
 
