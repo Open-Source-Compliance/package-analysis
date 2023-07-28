@@ -4,7 +4,7 @@ https://github.com/alsa-project/alsa-utils/archive/refs/tags/v1.2.8.tar.gz
 
 ## Package URL (purl)
 
-pkg:github/alsa-project/alsa-utils/alsa-utils@1.2.8
+pkg:github/alsa-project/alsa-utils/alsa-utils@v1.2.8
 
 ## Creator
 
