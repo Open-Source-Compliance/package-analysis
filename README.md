@@ -12,6 +12,8 @@ We believe that is does not make any sense that everyone doing checks of package
 
 You can also visit our [website](https://www.osselot.org/index.php)
 
+In case you want to use the artifacts in a more automated way we provide also a state of the art [REST API](https://wiki.osselot.org/index.php/REST)
+
 ## Provided artifacts
 
 The analysis results are provided in the "analysed-packages" directory. Usually two artifacts are provided - a SPDX tag-value file and a ready to use OSS-disclosure file. The main difference between both is that the tag-value files can be used and integrated in the build process in a way that only the licenses of those files are considered which will end up in the build artifact. Furthermore the tag-value files contain notes on license conclusions to make decisions transparent if necessary. The OSS-disclosure files contain all applicable licenses and all copyright notices of the entire package. Additionally to this the OSS-disclosure files contain "acknowledgment texts" if such an acknowledgment is required by the license.
