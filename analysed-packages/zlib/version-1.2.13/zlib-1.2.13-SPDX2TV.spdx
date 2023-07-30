@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_zlib-1.2.13.tar.gz_1690720556.spdx
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_zlib-1.2.13.tar.gz_1690730076.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of zlib 1.2.13
 Please check "LicenseComments" for explanations of concluded licenses
 </text>
-Created: 2023-07-30T14:35:57Z
+Created: 2023-07-30T17:14:37Z
 LicenseListVersion: 2.6
 
 ##-------------------------
@@ -61,6 +61,17 @@ FileChecksum: SHA1: 35f85759bc23add6a8507c76d05f73131823a9b3
 FileChecksum: SHA256: 80fb647be8450bd7a07d8495244e1f061dfbdbdb53172ca24e7ffff8ace9c72f
 FileChecksum: MD5: f4912cf5a1ade2e862e193983c02b3ee
 LicenseConcluded: LicenseRef-CC-BY-ND-4.0 AND LicenseRef-Public-domain
+LicenseComments: <text>Additionally to the public domain indication of the zpip code Mark Adler said that the other content of this file is licensed under CC-BY-ND-4.0. Please have a look at:
+https://github.com/Open-Source-Compliance/package-analysis/pull/18
+(Mark Adler: "I added a license to the web page, as well as to the corresponding file in examples with the commit madler/zlib@a9b4c1d .")
+You will also find the license reference in the footer of:
+https://zlib.net/zlib_how.html
+ AND The information in the file is:
+zpipe.c: example of proper use of zlib's inflate() and deflate()
+Not copyrighted -- provided to the public domain
+Version 1.4 11 December 2005 Mark Adler 
+Thus the "Code" is under "Public domain".
+ </text>
 LicenseInfoInFile: LicenseRef-Public-domain
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-public-domain
 FileCopyrightText: <text> Copyright (c) 2004, 2005 Mark Adler.
@@ -75,6 +86,7 @@ FileChecksum: SHA1: e4eef29d98cc16751f1dac42317b677955ceec94
 FileChecksum: SHA256: aefd0162070fcb0379dc18e27b039253cd98c148104c1097dd60e0d0b435e564
 FileChecksum: MD5: 5b573c3db92f9e2dfb377c81ec06ffdb
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler </text>
  
@@ -87,6 +99,9 @@ FileChecksum: SHA1: 809a3404b6e9e1bc120ff0313c31c4bd2b776823
 FileChecksum: SHA256: 1ab3e479d342bfc144167b808fb00142264bc50f24a110ca88cc774e351c218e
 FileChecksum: MD5: fc91693deab323a4810a4cbd3c923c4a
 LicenseConcluded: LicenseRef-Zlib-1d98ee677d610934d38eecc97bf9c1dc
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in blast.h
+The file blast.h contains the text of the Zlib license. Due to this we concluded Zlib as license for this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2003, 2012, 2013 Mark Adler </text>
@@ -100,6 +115,14 @@ FileChecksum: SHA1: 8e9f521730182de1c6b6f87f5d334d9f47a54bec
 FileChecksum: SHA256: fc9e8d752618a05c1f3a2ce61ebf76d0c8053dd5579458f836834a36e8690bbe
 FileChecksum: MD5: 026004dca5f07a8e36ff417c876a5d36
 LicenseConcluded: LicenseRef-Zlib-a5292144ed9e8249500149436f513bdc
+LicenseComments: <text>The information in the file is:
+  See the accompanying file LICENSE, version 2000-Apr-09 or later
+  (the contents of which are also included in zip.h) for terms of use.
+  If, for some reason, all these files are missing, the Info-ZIP license
+  also may be found at:  ftp://ftp.info-zip.org/pub/infozip/license.html
+  
+  
+The file zip.h contains the text of the zlib license. Due to this we concluded zlib as license for this file. We did not check the other options. </text>
 LicenseInfoInFile: LicenseRef-Info-ZIP
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-info-zip-2009-01
 FileCopyrightText: <text> Copyright (C) 1998-2010 Gilles Vollant
@@ -118,6 +141,7 @@ FileChecksum: SHA1: c47cc3ccdb450bd0d3d1d0e6f52746a2c0ca8541
 FileChecksum: SHA256: 02f997c37991ddae0cb986039f7b4f6fc816b3fd0ffd332cad371d04c12cf1b9
 FileChecksum: MD5: 6f8616a2ea8e227457c9f191b4c71018
 LicenseConcluded: LicenseRef-Zlib-f7f634a3a28e20a0e44881a5c6d19164
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 1995-2003 Jean-loup Gailly and Mark Adler.
 Copyright (C) 1998 by Bob Dellaca.
@@ -135,6 +159,10 @@ FileChecksum: SHA1: fcbfd8275fbec90d8c7f15712889992c056e99d7
 FileChecksum: SHA256: 720346d2f40429de31bb16a895f42e878f259b1aff7d46c63e6616e629b3f7d5
 FileChecksum: MD5: 92a08ba21a585a215ad8c6fe29ecdc9c
 LicenseConcluded: LicenseRef-Zlib-f7f634a3a28e20a0e44881a5c6d19164
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in readme.txt
+
+The file contrib/pascal/readme.txt contains the text of the zlib license. Due to this we concluded zlib license for this file </text>
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-unknown-license-reference
 LicenseInfoInFile: LicenseRef-See-doc.OTHER
 FileCopyrightText: <text> Copyright (C) 2003 Cosmin Truta. Bob Dellaca. </text>
@@ -148,6 +176,10 @@ FileChecksum: SHA1: 51c42c32667ef6fc0b4b51867afac971fe11c15c
 FileChecksum: SHA256: d842d456ecb6ff80e34cee2da31deb2072cc69ca837497bea8b8bee203403474
 FileChecksum: MD5: 6e41517081b62c5045e67146c2b5c3ec
 LicenseConcluded: LicenseRef-Zlib-f7f634a3a28e20a0e44881a5c6d19164
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in readme.txt
+
+The file contrib/pascal/readme.txt contains the text of the zlib license. Due to this we concluded zlib license for this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2003 Jean-loup Gailly.
@@ -163,6 +195,9 @@ FileChecksum: SHA1: 37d67e3a5edffcda681cd70c6ba56f76ede5352b
 FileChecksum: SHA256: 41d93aefdbfee5455809130af74fcc76cf7259b1aa8b34d0060d14e57463e8bb
 FileChecksum: MD5: 4942f8c7c85dca21c18812163e2f9530
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-warranty-disclaimer
 LicenseInfoInFile: LicenseRef-Zlib-possibility
@@ -177,6 +212,9 @@ FileChecksum: SHA1: a5a6682ef169a7429d9bf9f8acbda6ffb756fec4
 FileChecksum: SHA256: fa5b989aef0c5715a3fcb15de93985f7f10aeb0a7f5716745c95ed820eb9af9c
 FileChecksum: MD5: a223bf66e23cc79eba08eadd40ee269b
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>The information in the file is:
+Open source license information is in the zlib.ads file.
+The file zlib.ads contains the GPL-2.0-or-later boilerplate and the GNAT exception. Due to this we concluded GPL-2.0-or-later-WITH GNAT-exception as license for this file  </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-See-file.LICENSE
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -191,6 +229,9 @@ FileChecksum: SHA1: 1d8fba99362b0973535a759097f7893d4551c4e7
 FileChecksum: SHA256: 469cf566a6965767fee6b987a239ed8cedcc66614940d45a9b434331fbb435ce
 FileChecksum: MD5: cd14a97dd8a0613bb1244a68c0c764d6
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>The information in the file is:
+Open source license information is in the zlib.ads file.
+The file zlib.ads contains the GPL-2.0-or-later boilerplate and the GNAT exception. Due to this we concluded GPL-2.0-or-later-WITH GNAT-exception as license for this file  </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-See-file.LICENSE
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -205,6 +246,9 @@ FileChecksum: SHA1: 70f5981b0c3c5de023ea3485ea7e81231a42ce7f
 FileChecksum: SHA256: f45988e2bac76eb25a0dc981f46576e7432c35dde1790bbc2b650f0090b7fa72
 FileChecksum: MD5: 5d67ffc3a8cbe706d47d25f8124c72dd
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>The information in the file is:
+Open source license information is in the zlib.ads file.
+The file zlib.ads contains the GPL-2.0-or-later boilerplate and the GNAT exception. Due to this we concluded GPL-2.0-or-later-WITH GNAT-exception as license for this file  </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-See-file.LICENSE
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -219,6 +263,9 @@ FileChecksum: SHA1: faf47e35174e1e76edb85ea602779084e535df69
 FileChecksum: SHA256: 631ef170bde16c3ca8d412b54a0e519815b80197d208f8f393e6fe017bb0968e
 FileChecksum: MD5: 92b08ae0238ed5046f1a84959e6e8a54
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>The information in the file is:
+Open source license information is in the zlib.ads file.
+The file zlib.ads contains the GPL-2.0-or-later boilerplate and the GNAT exception. Due to this we concluded GPL-2.0-or-later-WITH GNAT-exception as license for this file  </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-See-file.LICENSE
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -233,6 +280,9 @@ FileChecksum: SHA1: 5eebe86bd398dade5340cc4af24685bf02df671f
 FileChecksum: SHA256: 5e3abe79b387e09a9a42bd0543105e228f39a335240cffc33d71f0ba66ff2511
 FileChecksum: MD5: 8197c8e51a900ed2a1e98d9c1455dba0
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>The information in the file is:
+Open source license information is in the zlib.ads file.
+The file zlib.ads contains the GPL-2.0-or-later boilerplate and the GNAT exception. Due to this we concluded GPL-2.0-or-later-WITH GNAT-exception as license for this file  </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-See-file.LICENSE
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -247,6 +297,9 @@ FileChecksum: SHA1: f1c968146ba1a8f07c7070a2af72ab8a84c82e3d
 FileChecksum: SHA256: 41b6f31684770334afdc4375871eb1408542f37a823a073556fdbfdb63753160
 FileChecksum: MD5: 20f2b8d64f3507ea0eb67bf4be048599
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>The information in the file is:
+Open source license information is in the zlib.ads file.
+The file zlib.ads contains the GPL-2.0-or-later boilerplate and the GNAT exception. Due to this we concluded GPL-2.0-or-later-WITH GNAT-exception as license for this file  </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-See-file.LICENSE
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -261,6 +314,9 @@ FileChecksum: SHA1: 43c7e58eb582ce078f6ff76aa4f4eb09892ff92b
 FileChecksum: SHA256: 03d89244ee5ec9771d9b5050e586c609f851af551b2e64eb151f1d5be0b63ae9
 FileChecksum: MD5: d520a330ed13ea54e7b20c8e5de64579
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>The information in the file is:
+Open source license information is in the zlib.ads file.
+The file zlib.ads contains the GPL-2.0-or-later boilerplate and the GNAT exception. Due to this we concluded GPL-2.0-or-later-WITH GNAT-exception as license for this file  </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-See-file.LICENSE
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -275,6 +331,9 @@ FileChecksum: SHA1: 3961008f51def7ffcd692453df7b0f1d8b680645
 FileChecksum: SHA256: c9ca5dc34fbcdf06e2dc777b7e9dcd0ba31085b772b440eb0e12421323ab672c
 FileChecksum: MD5: f46bd97cccf4719989ee553daa36f8c6
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>The information in the file is:
+Open source license information is in the zlib.ads file.
+The file zlib.ads contains the GPL-2.0-or-later boilerplate and the GNAT exception. Due to this we concluded GPL-2.0-or-later-WITH GNAT-exception as license for this file  </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-See-file.LICENSE
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -289,6 +348,9 @@ FileChecksum: SHA1: fadb4623dc2469cc4fd571a9fac302798735c40b
 FileChecksum: SHA256: 969e8edb0611810fb52159dcb7c40228f4e5da810a7a3576b778116a93038c6b
 FileChecksum: MD5: 9659f0be883fe948d584bc969cbd8564
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>The information in the file is:
+Open source license information is in the zlib.ads file.
+The file zlib.ads contains the GPL-2.0-or-later boilerplate and the GNAT exception. Due to this we concluded GPL-2.0-or-later-WITH GNAT-exception as license for this file  </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-See-file.LICENSE
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -303,6 +365,7 @@ FileChecksum: SHA1: 0245a91806d804bf9f0907a3a001a141e9adb61b
 FileChecksum: SHA256: 02634bec0d5e4c69d8d2859124380074a57de8d8bd928398379bfacc514236d2
 FileChecksum: MD5: 71de2670f2e588b51c62e7f6a9046399
 LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-GNAT-exception
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 LicenseInfoInFile: LicenseRef-gnu-javamail-exception
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-ada-linking-exception
@@ -317,6 +380,7 @@ FileChecksum: SHA1: fca4540d490fff36bb90fd801cf9cd8fc695bb17
 FileChecksum: SHA256: d0343e0c57ff58008b6f29643d289c72713aa2d653fe3dcd2e939fc77e7e20b6
 FileChecksum: MD5: a980b61c1e8be68d5cdb1236ba6b43e7
 LicenseConcluded: LicenseRef-Permission-Notice-95a5f9e473280500c6e0d06457061ab8
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-MIT-CMU-style
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-mit-old-style
 FileCopyrightText: <text> Copyright (c) 1997 Christian Michelsen Research AS Advanced Computing Fantoftvegen 38, 5036 BERGEN, Norway http://www.cmr.no </text>
@@ -330,6 +394,7 @@ FileChecksum: SHA1: e1f5511bbdf9715bb2f18e4d24924cca3275fb24
 FileChecksum: SHA256: 122719c32ef1763a5f6ba9c8cdefc1d78a76f7156b09e7b6f69b73f968e0dac3
 FileChecksum: MD5: ab61e7d58c5c7114a6c531ce36ccc3e5
 LicenseConcluded: LicenseRef-Zlib-a5292144ed9e8249500149436f513bdc
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (c) 1998-2010 - by Gilles Vollant - Mathias Svensson </text>
  
@@ -342,6 +407,11 @@ FileChecksum: SHA1: 907243f7cea46d38ad12f6a6d6e01adb4d74f1b3
 FileChecksum: SHA256: 6f82c52279e8f79165f4446be652e5741a49992ac58632470335aa34c564072a
 FileChecksum: MD5: 7caac7503f8f002d61e0f0e5b7f33bc6
 LicenseConcluded: LicenseRef-Zlib-a5292144ed9e8249500149436f513bdc
+LicenseComments: <text>The information in the file is:
+License: Same as ZLIB (www.gzip.org)
+The link leads to a site with information about gzip. There is alos a link to GNU gzip on the site. GNU gzip is licensed under GPL-3.0. But the statement in the file says explicitly that the same license as for Zlib applies. Due to this we concluded Zlib license for this file
+
+The information was retrieved on 25nd of July 2023 </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -355,6 +425,11 @@ FileChecksum: SHA1: 0f6dad6443b0f347ac6b17563014f50c7b4fd17f
 FileChecksum: SHA256: cd887c4af6d20823bd15f24008b10acf01969b4165d7848656bde843a92428d7
 FileChecksum: MD5: 174c6f2a32dad5023616fc45855d8c59
 LicenseConcluded: LicenseRef-Zlib-a5292144ed9e8249500149436f513bdc
+LicenseComments: <text>The information in the file is:
+License: Same as ZLIB (www.gzip.org)
+The link leads to a site with information about gzip. There is alos a link to GNU gzip on the site. GNU gzip is licensed under GPL-3.0. But the statement in the file says explicitly that the same license as for Zlib applies. Due to this we concluded Zlib license for this file
+
+The information was retrieved on 25nd of July 2023 </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
@@ -368,6 +443,7 @@ FileChecksum: SHA1: 616efa6c541a89bca6534a744666ac83011dda53
 FileChecksum: SHA256: 20cdc47658a3e41db897d31650e46cd2c8cca3c83ddaaeb6c7a48dd8b7f18e03
 FileChecksum: MD5: 77316c6a19e440823da0c303b4731de5
 LicenseConcluded: LicenseRef-Zlib-a5292144ed9e8249500149436f513bdc
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 1998-2010 Gilles Vollant
 Copyright (C) 2007-2008 Even Rouault
@@ -382,6 +458,7 @@ FileChecksum: SHA1: 224a1174823a6f733049a1cefdcddcfb0a9452d7
 FileChecksum: SHA256: 75b635dca8294790ab7ec1f72e9f1fd352d75b189c3c9b61c68f76bd7e612043
 FileChecksum: MD5: 62984e61632a7d1d861bf29eb344c905
 LicenseConcluded: LicenseRef-Zlib-a5292144ed9e8249500149436f513bdc
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 1998-2010 Gilles Vollant
 Copyright (C) 2009-2010 Mathias Svensson ( http://result42.com ) </text>
@@ -395,6 +472,10 @@ FileChecksum: SHA1: 5b8ebcd1024445cfa372a5a452531a1f50b493a3
 FileChecksum: SHA256: d24e31c1d277d07c268f34e9490050c6b53c68b128da3efbb1d05fc5b31004f7
 FileChecksum: MD5: d5014d8ae50ac45670326744ee04a807
 LicenseConcluded: LicenseRef-Zlib-1d98ee677d610934d38eecc97bf9c1dc
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in puff.h
+
+The file /contrib/puff/puff.h contains the text of the zlib license. Due to this we concluded zlib license for this file  </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-See-doc.OTHER
 FileCopyrightText: <text> Copyright (C) 2002-2013 Mark Adler </text>
@@ -408,6 +489,10 @@ FileChecksum: SHA1: fa6acf70cdf0a14be135eab843e90dbfb4803946
 FileChecksum: SHA256: 433f7f4495481dd95576dbb548b1bcfc5ca129d30421695fa609f5f6c14908b6
 FileChecksum: MD5: feaebe8f80ce62c4ebb29267bf4d7689
 LicenseConcluded: LicenseRef-Zlib-1d98ee677d610934d38eecc97bf9c1dc
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in puff.h
+
+The file /contrib/puff/puff.h contains the text of the zlib license. Due to this we concluded zlib license for this file  </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-See-doc.OTHER
 FileCopyrightText: <text> Copyright (C) 2002-2013 Mark Adler </text>
@@ -421,6 +506,7 @@ FileChecksum: SHA1: b13d37ad6b3855f3a2eaf6c325eddaa7815355b0
 FileChecksum: SHA256: 5ebf4b5b7fe1c3a0c0ab9aa3ac8c0f3853a7dc484905e76e03b0b0f301350009
 FileChecksum: MD5: fe89c9b2d3b621452c4f868590635c5f
 LicenseConcluded: LicenseRef-Permission-Notice-6b71ce06ed828f7f53b7bf6f4e918063
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: NOASSERTION
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-peter-deutsch-document
 FileCopyrightText: <text> Copyright (c) 1996 L. Peter Deutsch </text>
@@ -434,6 +520,7 @@ FileChecksum: SHA1: 58f11c3e7778ca30e9c9330ab248107371429dd8
 FileChecksum: SHA256: 8f0475a5c984657bf26277f73df9456c9b97f175084f0c1748f1eb1f0b9b10b9
 FileChecksum: MD5: c9680de1a6b8939e16fd5e2a4f4785b8
 LicenseConcluded: LicenseRef-Permission-Notice-6b71ce06ed828f7f53b7bf6f4e918063
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: NOASSERTION
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-peter-deutsch-document
 FileCopyrightText: <text> Copyright (c) 1996 L. Peter Deutsch and Jean-Loup Gailly </text>
@@ -447,6 +534,7 @@ FileChecksum: SHA1: b2346a9c1e9cd011370595a292154ca83eff4ddb
 FileChecksum: SHA256: 164ef0897b4cbec63abf1b57f069f3599bd0fb7c72c2a4dee21bd7e03ec9af67
 FileChecksum: MD5: 7c4ee539faa6c908c3860588df424be1
 LicenseConcluded: LicenseRef-Permission-Notice-6b71ce06ed828f7f53b7bf6f4e918063
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: NOASSERTION
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-peter-deutsch-document
 FileCopyrightText: <text> Copyright (c) 1996 L. Peter Deutsch </text>
@@ -460,6 +548,9 @@ FileChecksum: SHA1: d84b5daa59b873c0e5f69ce7b43d9457b3c38524
 FileChecksum: SHA256: 196872021c96099fd30c880ac2cccd1350fdbd81179731f3914153a26ebf72e9
 FileChecksum: MD5: 1ef8b289c7da6f534d85f6d48fce651e
 LicenseConcluded: LicenseRef-Zlib-1d98ee677d610934d38eecc97bf9c1dc
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in gzlog.h
+We checked the file in the same directory, it carries the text of the Zlib license. Thuse we concluded zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-See-doc.OTHER
 FileCopyrightText: <text> Copyright (C) 2004, 2008, 2012, 2016, 2019 Mark Adler, all rights reserved </text>
@@ -473,6 +564,7 @@ FileChecksum: SHA1: 48c3cc2bf6d164e0f68c13f07be67eac48422318
 FileChecksum: SHA256: 6de91c8305e37560117bff44136abff72b16b028c0bda0bbac7ea07e4988b0ce
 FileChecksum: MD5: 10b0a6f9537900ec773061d95042eaf6
 LicenseConcluded: LicenseRef-Zlib-1d98ee677d610934d38eecc97bf9c1dc
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 2003, 2012 Mark Adler, all rights reserved </text>
  
@@ -485,6 +577,7 @@ FileChecksum: SHA1: debb98e4c334b60d20400ff56e02a72c1ec7b5a0
 FileChecksum: SHA256: 681f280437f867820bf39880e2f4fc641d402879e399ba2e6a31d73feefe8edc
 FileChecksum: MD5: 340d8e0eb35d4f35d6f445f18cb06572
 LicenseConcluded: LicenseRef-Zlib-1d98ee677d610934d38eecc97bf9c1dc
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 2004, 2008, 2012 Mark Adler, all rights reserved </text>
  
@@ -497,6 +590,7 @@ FileChecksum: SHA1: e46a741ef6af35e0a614b67acd7dd28503a80d9b
 FileChecksum: SHA256: 9c1c422b76311d4cb06863ffc056668b6240f3dd998bc02e89ee590d482bfdc2
 FileChecksum: MD5: dca9f0033b73952ac96892934a231bed
 LicenseConcluded: LicenseRef-Zlib-1d98ee677d610934d38eecc97bf9c1dc
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 2003, 2012, 2013 Mark Adler </text>
  
@@ -509,6 +603,7 @@ FileChecksum: SHA1: ce8b988a404446fc8558b198d3cfeabcad6d16c5
 FileChecksum: SHA256: 969b7be2a930db0cdcb19b0e5b29ae6741f5a8f663b6dba6d647e12ec60cfa8e
 FileChecksum: MD5: 7ecbeeb67e09a843961187673974f86d
 LicenseConcluded: LicenseRef-Zlib-1d98ee677d610934d38eecc97bf9c1dc
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 2002-2013 Mark Adler, all rights reserved </text>
  
@@ -521,6 +616,7 @@ FileChecksum: SHA1: 9c34287cf18b05b761daf6457fc5efbf501358d2
 FileChecksum: SHA256: 90b9d6c39a5fc91cf1cc9b96b025a508a8015dc502cd9374c754b44078593f57
 FileChecksum: MD5: d6c05757d17814110c93151ab5c1c910
 LicenseConcluded: LicenseRef-Zlib-1d98ee677d610934d38eecc97bf9c1dc
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 2004, 2005, 2012 Mark Adler, all rights reserved </text>
  
@@ -533,6 +629,7 @@ FileChecksum: SHA1: 354e0e06d2aadf7cf1466a97c3a225090729958e
 FileChecksum: SHA256: fd8aaaefd5eb3d9fc388bdc5b715d1c6993ecc9367f5432d3b120a0278904edc
 FileChecksum: MD5: 954ab509c0c9937c39f4a82e59302bdc
 LicenseConcluded: LicenseRef-Public-domain
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Public-domain
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-public-domain
 FileCopyrightText: NOASSERTION
@@ -546,6 +643,7 @@ FileChecksum: SHA1: b59f2d5676cc135ac0af040d90c3e7b366fcce93
 FileChecksum: SHA256: 68140a82582ede938159630bca0fb13a93b4bf1cb2e85b08943c26242cf8f3a6
 FileChecksum: MD5: 2baa24dfcde30e5378ebc823b9546fc5
 LicenseConcluded: LicenseRef-Public-domain
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Public-domain
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-public-domain
 FileCopyrightText: NOASSERTION
@@ -559,6 +657,7 @@ FileChecksum: SHA1: 302b8335c190bf39ef4c09a929c7c40d4f431227
 FileChecksum: SHA256: 1ade5a5d6d2f3c1c16cd801735619cdd346b83469cfb51b8b91b490a9efc50bc
 FileChecksum: MD5: 83ca5d1a1dc4d89d1e9f4acc3df35630
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-UnclassifiedLicense
 FileCopyrightText: <text> Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler </text>
@@ -572,6 +671,7 @@ FileChecksum: SHA1: 742603cba1af98a1432cc02efb019b1a5760adf2
 FileChecksum: SHA256: 22ff411b8b1d1b04aeaa8418b68245400267dc43c6f44104f6ccd37f0daee89f
 FileChecksum: MD5: 5e772d7302475e5473d0c4c57b9861e8
 LicenseConcluded: LicenseRef-Zlib
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 1995-2010 Jean-loup Gailly, Brian Raiter and Gilles Vollant. </text>
  
@@ -584,6 +684,11 @@ FileChecksum: SHA1: b1229b826f0096808628474538cea8fec2922a9b
 FileChecksum: SHA256: d04972a91b1563fb4b7acab4b9ff2b84e57368953cc0596d5f5ea17d97315fd0
 FileChecksum: MD5: 1f20f3168ee63d90de033edac2ce383c
 LicenseConcluded: LicenseRef-BSL-1.0-9ae61873512d9ba8d0d9a969c6fd3c1b
+LicenseComments: <text>The information in the file is:
+Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+We checked the given link and found the text of the Boost Software License, which we used for concluding the license.
+The information was retrieved on 17th of July 2023 </text>
 LicenseInfoInFile: LicenseRef-BSL-1.0
 LicenseInfoInFile: LicenseRef-LicenseRef-scancode-unknown-license-reference
 FileCopyrightText: <text> Copyright (c) Henrik Ravn 2004 </text>
@@ -597,6 +702,11 @@ FileChecksum: SHA1: b76761dc36976d03f4f74504edbc25de165bebdf
 FileChecksum: SHA256: c95048d763c7e367ba0bb7c31981e0610131fa12356bbd9bfdb13376778e9a0c
 FileChecksum: MD5: a5dbe21d176e4d0d67e436c3620714c0
 LicenseConcluded: LicenseRef-BSL-1.0-9ae61873512d9ba8d0d9a969c6fd3c1b
+LicenseComments: <text>The information in the file is:
+Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+We checked the given link and found the text of the Boost Software License, which we used for concluding the license.
+The information was retrieved on 17th of July 2023 </text>
 LicenseInfoInFile: LicenseRef-BSL-1.0
 FileCopyrightText: <text> © Copyright Henrik Ravn 2004 </text>
  
@@ -609,6 +719,11 @@ FileChecksum: SHA1: 11f6bf695e4b8ddac0d8553640ef303d9b7cab72
 FileChecksum: SHA256: 06ba6696a3c15c53ba5fd5a1c2bf50b51f217010228fc1e4c8495ee578f480de
 FileChecksum: MD5: 1fdc6f77f6fcf582ab011646db1b8080
 LicenseConcluded: LicenseRef-BSL-1.0-9ae61873512d9ba8d0d9a969c6fd3c1b
+LicenseComments: <text>The information in the file is:
+Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+We checked the given link and found the text of the Boost Software License, which we used for concluding the license.
+The information was retrieved on 17th of July 2023 </text>
 LicenseInfoInFile: LicenseRef-BSL-1.0
 FileCopyrightText: <text> © Copyright Henrik Ravn 2004 </text>
  
@@ -621,6 +736,11 @@ FileChecksum: SHA1: 731206b5721b9a7be5a1cbc98e3cc969bd176b4b
 FileChecksum: SHA256: 8d1de9755c77046b4ac71340a0a54434ebf4fd11b085c44454d7663a9b4df1c5
 FileChecksum: MD5: 0c83e2409077960456b040ce13fa1fd4
 LicenseConcluded: LicenseRef-BSL-1.0-9ae61873512d9ba8d0d9a969c6fd3c1b
+LicenseComments: <text>The information in the file is:
+Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+We checked the given link and found the text of the Boost Software License, which we used for concluding the license.
+The information was retrieved on 17th of July 2023 </text>
 LicenseInfoInFile: LicenseRef-BSL-1.0
 FileCopyrightText: <text> © Copyright Henrik Ravn 2004 </text>
  
@@ -633,6 +753,11 @@ FileChecksum: SHA1: 1e646570737b175729a916da13b23fe88fcbd0e8
 FileChecksum: SHA256: be84c9736fe7bdc2bfae70466d8fff582504e928d5b5e110fd758090090c8cb7
 FileChecksum: MD5: 0f21c8a8e81b9409c3cc82200210b977
 LicenseConcluded: LicenseRef-BSL-1.0-9ae61873512d9ba8d0d9a969c6fd3c1b
+LicenseComments: <text>The information in the file is:
+Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+We checked the given link and found the text of the Boost Software License, which we used for concluding the license.
+The information was retrieved on 17th of July 2023 </text>
 LicenseInfoInFile: LicenseRef-BSL-1.0
 FileCopyrightText: <text> © Copyright Henrik Ravn 2004 </text>
  
@@ -645,6 +770,11 @@ FileChecksum: SHA1: 25f788ff0015c08fcd74d6e4552e01792c559350
 FileChecksum: SHA256: 9016ca73818f5b6a28791abc3af6da7c4d2773b6a3804f593f6d5737a62b99ad
 FileChecksum: MD5: 6071d8412268ff9765540c491a26de1a
 LicenseConcluded: LicenseRef-BSL-1.0-9ae61873512d9ba8d0d9a969c6fd3c1b
+LicenseComments: <text>The information in the file is:
+Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+We checked the given link and found the text of the Boost Software License, which we used for concluding the license.
+The information was retrieved on 17th of July 2023 </text>
 LicenseInfoInFile: LicenseRef-BSL-1.0
 FileCopyrightText: <text> © Copyright Henrik Ravn 2004 </text>
  
@@ -657,6 +787,11 @@ FileChecksum: SHA1: 3807a0e24a57b92ea301559cab7307b8eab52c51
 FileChecksum: SHA256: e7c047a2c3bcf88d3d002ee3d2d05af414acf53cb4451efacc0f2e95a474ea0f
 FileChecksum: MD5: d01b3cb2e75da9b15f05b92b42f6bd33
 LicenseConcluded: LicenseRef-BSL-1.0-9ae61873512d9ba8d0d9a969c6fd3c1b
+LicenseComments: <text>The information in the file is:
+Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+We checked the given link and found the text of the Boost Software License, which we used for concluding the license.
+The information was retrieved on 17th of July 2023 </text>
 LicenseInfoInFile: LicenseRef-BSL-1.0
 FileCopyrightText: <text> © Copyright Henrik Ravn 2004 </text>
  
@@ -669,6 +804,11 @@ FileChecksum: SHA1: e9c7c49791d38b49a39aab76f593b2ea229fa940
 FileChecksum: SHA256: 9837fe993fd631233cc5e53ff084d86754b97f05ec77c54b0764c2706f186134
 FileChecksum: MD5: 250192c134de2a3c9c1d11eaa490bce1
 LicenseConcluded: LicenseRef-BSL-1.0-9ae61873512d9ba8d0d9a969c6fd3c1b
+LicenseComments: <text>The information in the file is:
+Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+We checked the given link and found the text of the Boost Software License, which we used for concluding the license.
+The information was retrieved on 17th of July 2023 </text>
 LicenseInfoInFile: LicenseRef-BSL-1.0
 FileCopyrightText: <text> © Copyright Henrik Ravn 2004 </text>
  
@@ -681,6 +821,11 @@ FileChecksum: SHA1: 2106c80ed4607f10400ceed9aa8f635efdea9345
 FileChecksum: SHA256: 259bdda1b7d6052134e631fa24bfd9dca6e2362563496c8b85257b56c848908c
 FileChecksum: MD5: 24dc08da7a2f4ae283334414effe4342
 LicenseConcluded: LicenseRef-BSL-1.0-9ae61873512d9ba8d0d9a969c6fd3c1b
+LicenseComments: <text>The information in the file is:
+Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+We checked the given link and found the text of the Boost Software License, which we used for concluding the license.
+The information was retrieved on 17th of July 2023 </text>
 LicenseInfoInFile: LicenseRef-BSL-1.0
 FileCopyrightText: <text> © Copyright Henrik Ravn 2004 </text>
  
@@ -693,6 +838,7 @@ FileChecksum: SHA1: 915a3be354066f5d3af420ceec193b411076c68b
 FileChecksum: SHA256: a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed
 FileChecksum: MD5: 4ec29824b6f28d25b2b9eb17cda0cf56
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler </text>
  
@@ -705,6 +851,7 @@ FileChecksum: SHA1: 1b53b1132d092615fd4d8b844df7c75f0136a09b
 FileChecksum: SHA256: f414b3702f8d3bf1de42e0f41604bd78c44e537aae16b6107e3cdaa5759caa16
 FileChecksum: MD5: 83c033fb4bc3710ec3bd9a3ed32517b2
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> (C) 1995-2017 Jean-loup Gailly and Mark Adler </text>
  
@@ -717,6 +864,7 @@ FileChecksum: SHA1: 73f8fe3505b7523d2103e1270c15910942905669
 FileChecksum: SHA256: 4bb4d5664fb9d06ef0d47e8ef73104bd545a5a57eb7241be4f2e0be904966322
 FileChecksum: MD5: d94b54713a28c31b7f90e784184eeb8d
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> (C) 1995-2022 Jean-loup Gailly and Mark Adler </text>
  
@@ -729,6 +877,7 @@ FileChecksum: SHA1: 233f44af3fb55dcc7fddfef8e77ac627b0008756
 FileChecksum: SHA256: 845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243
 FileChecksum: MD5: b51a40671bc46e961c0498897742c0b8
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>NOASSERTION </text>
 LicenseInfoInFile: LicenseRef-Zlib
 FileCopyrightText: <text> (C) 1995-2022 Jean-loup Gailly and Mark Adler </text>
  
@@ -741,6 +890,9 @@ FileChecksum: SHA1: ffa0c46122f6ceab17a66fb12ea7f92f696ec57d
 FileChecksum: SHA256: 10f9568b1f54cdb7474a38c5bc479aa0edb07a0eed2e999bdad4c521f6b25330
 FileChecksum: MD5: 19794659c6efdae3cd235cc2fb4b341c
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2005, 2012, 2018 Mark Adler </text>
@@ -754,6 +906,9 @@ FileChecksum: SHA1: 271930a2d09d1bc5b1f7504c1f122c54f72a61e0
 FileChecksum: SHA256: fa85c9dabe24e42ba95c702870416ff67ecc58906321f8e74b72a50dfd7df400
 FileChecksum: MD5: db97f959e6b95017fd036d805c9a23c3
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2004-2019 Mark Adler </text>
@@ -767,6 +922,9 @@ FileChecksum: SHA1: 1e440c986aac16a6047fd30f6e5f8bf564e42791
 FileChecksum: SHA256: 7b3d8ca0f10ef7c74044c3172ca8f9f50389cd0f270ee4517f438e7e06be5623
 FileChecksum: MD5: 44400a09d8e31155547e2ec7d75d0c97
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2003, 2010, 2014, 2016 Jean-loup Gailly, Mark Adler </text>
@@ -780,6 +938,9 @@ FileChecksum: SHA1: 4698124c166f59728db9ae229f8467459b458ef3
 FileChecksum: SHA256: 94446cf8cde67c30e64d0a335b0c941fd3fbad2e77f30180d12e61f9c2a5a6b8
 FileChecksum: MD5: 29d02cff161bde3e4e717b25a2ab7050
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2004, 2010 Mark Adler </text>
@@ -793,6 +954,9 @@ FileChecksum: SHA1: 6c1114794db137af50f9b060aaade1a1a35ed784
 FileChecksum: SHA256: d7f1b6e44fee20ab41cef1d650776a039a2348935eb96bcbd294a4096139be3a
 FileChecksum: MD5: 4dc406b7d1b6e49c22eee2e01177c195
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2011, 2016 Mark Adler </text>
@@ -806,6 +970,9 @@ FileChecksum: SHA1: 1c1467906f8d4ff84cc17a4dc057cf4913dbbeeb
 FileChecksum: SHA256: 8108af451ad14271065844736ac7c436275b92826c319318070508d769371428
 FileChecksum: MD5: 101cbbf3cf0acc1191b3e7bb759a23e9
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2017 Jean-loup Gailly </text>
@@ -819,6 +986,9 @@ FileChecksum: SHA1: 3e8028511556061ac5bee8a0c42be161a441c6c5
 FileChecksum: SHA256: 635b7b6df79a5ce6e0f951669e4c82704d7972d8afb87278b9155c2cb4c5066f
 FileChecksum: MD5: 2bec2ce71919c99e8c07731dd8a2db77
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2004-2019 Mark Adler </text>
@@ -832,6 +1002,9 @@ FileChecksum: SHA1: f5d71470e37d9b6a4e22ff3cf83db854217f3672
 FileChecksum: SHA256: ec3ff0f97858b228513027a490e4330cbb23c6fbdd24d839902ffa89854f209c
 FileChecksum: MD5: 0371c34aeac7f1353e34716d29fd0ebd
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2022 Mark Adler </text>
@@ -845,6 +1018,9 @@ FileChecksum: SHA1: 370f01d26f5b8fa7030cd5fb054c5f8117d3efc6
 FileChecksum: SHA256: 44084a93673386db6282dcb61d739c84518e10dff66d1c6850715137c827464c
 FileChecksum: MD5: 69de7aacbab88f78a4252ac9a03cdd87
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2005, 2010 Mark Adler </text>
@@ -858,6 +1034,9 @@ FileChecksum: SHA1: 378c0f458d7f05ec0ce52d84b9ac452f2eacf169
 FileChecksum: SHA256: 6d0f0d0784744acca2678ce325c8d7c4c030e86f057adb78adcee111d2248c0d
 FileChecksum: MD5: 74d4c97de1c9e27e0442b8d5fe086703
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2005, 2014, 2016 Jean-loup Gailly, Mark Adler </text>
@@ -871,6 +1050,9 @@ FileChecksum: SHA1: bf0f6c5cdd2fb8236e620a579da158e98e4c9b28
 FileChecksum: SHA256: 64ae90d60b40a8aec4700e5c4e7a71898ebb92948b7a07f939b3e763cb3e8b35
 FileChecksum: MD5: 746f50c3f6ef385aa54934e71e731e82
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2006, 2011, 2016 Jean-loup Gailly </text>
@@ -884,6 +1066,9 @@ FileChecksum: SHA1: eb8c88d227a412c200d661cc9e39442301983021
 FileChecksum: SHA256: f9777d1e8b337573e12daa8091dcf22e88a9b155fc0acad15b8224c377bfe027
 FileChecksum: MD5: bf9af00f6b137c6974febd2df868ac01
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2006, 2010, 2011, 2016 Jean-loup Gailly </text>
@@ -897,6 +1082,9 @@ FileChecksum: SHA1: 4773986e404a69c386fff04ceab13f4b76d20882
 FileChecksum: SHA256: 145072793141cb313c91cdf9dee9d4b8e8a38d77099f87e9cd05c7b5ead8f099
 FileChecksum: MD5: 691fda9fec7bf9ef8b672e5326333f2a
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2008 Mark Adler </text>
@@ -910,6 +1098,9 @@ FileChecksum: SHA1: 9db7d6f9dad9ef879e940d2f1106edbc8c6420a9
 FileChecksum: SHA256: 0db1b5ef79ca6ba0f508b7b8bdaa11af45c5ebe2c89ab4f1086dc22b963a52fa
 FileChecksum: MD5: 47a192663067746a2b978044cfa4d10b
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2018 Jean-loup Gailly </text>
@@ -923,6 +1114,9 @@ FileChecksum: SHA1: 8c5ed3942cbc3648121d771b00cb6f0e8efff0f9
 FileChecksum: SHA256: 97140c30506a8f6b2edb6b3d8a1b6b539d7929d4b957deba9950301090f579bf
 FileChecksum: MD5: 14edf6fc0eb45b3e0ae5b73cef7300f5
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2003 Jean-loup Gailly. </text>
@@ -936,6 +1130,9 @@ FileChecksum: SHA1: 81da2329641ab78d42007190adce303e658ca10f
 FileChecksum: SHA256: 6a6cfe3d7e239d590692bc2664ac58d3ef92be30ff4cb3c6dbf5deed28f79eb5
 FileChecksum: MD5: 1e22c994a8cf4f3628332100c2e98adc
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2022 Mark Adler </text>
@@ -949,6 +1146,9 @@ FileChecksum: SHA1: 8eb0fdfd56501da917f638294aa1fa9bd9b538d0
 FileChecksum: SHA256: 41c69d43fb3974bae58d9169aea3514221f70dc77bb7a35c79626dd3be01adf2
 FileChecksum: MD5: 61e4448995576de8d73e96b7d8b7d9bf
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2004-2017 Mark Adler </text>
@@ -962,6 +1162,9 @@ FileChecksum: SHA1: 3bfca690be39098f601a16fa4d7772a23d2d5828
 FileChecksum: SHA256: b338f1ec9038bd77efc09c8fdb99ef27b5db5b3da9baa301e544adc8e3b6a662
 FileChecksum: MD5: 110af2303937de1b4c66f69b4d33634c
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2021 Jean-loup Gailly Cosmin Truta, 2006 </text>
@@ -975,6 +1178,9 @@ FileChecksum: SHA1: e3329c0bcd4fb66dbba89f8181a971f61cab6ea0
 FileChecksum: SHA256: 80e0a31a4c0e6f20d1bad0df99271b9d535aa9f7c4e62f1a54f643adb4c6dfa2
 FileChecksum: MD5: 7555747bc33ffbc33d27d6f56d53481d
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2016 Jean-loup Gailly, Mark Adler </text>
@@ -988,6 +1194,9 @@ FileChecksum: SHA1: e3329c0bcd4fb66dbba89f8181a971f61cab6ea0
 FileChecksum: SHA256: 80e0a31a4c0e6f20d1bad0df99271b9d535aa9f7c4e62f1a54f643adb4c6dfa2
 FileChecksum: MD5: 7555747bc33ffbc33d27d6f56d53481d
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2016 Jean-loup Gailly, Mark Adler </text>
@@ -1001,6 +1210,9 @@ FileChecksum: SHA1: a54af492d1659111245626654e5f38c47ba571a8
 FileChecksum: SHA256: bb12900d39488e6a9ed67ebd7cf5599f3ced8937b7077d4d5001e470c7a1392e
 FileChecksum: MD5: 130dac6f9518332bf1d8c83352bf2c38
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2016 Jean-loup Gailly, Mark Adler </text>
@@ -1014,6 +1226,9 @@ FileChecksum: SHA1: e9ced1a5ecc8badd5bc14cd96ef859cc346ec3dd
 FileChecksum: SHA256: f654f3fcc74b33bd95cda63d13fe0ce589bcfe965544e0c17ee597d75efbd090
 FileChecksum: MD5: 629a048f0edd2a18c6c18a11679628d8
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2011, 2016 Mark Adler </text>
@@ -1027,6 +1242,9 @@ FileChecksum: SHA1: 4127401d329a7e421112ae14ec4e7dd995ea6e30
 FileChecksum: SHA256: 6ad247c00f00ff42fd2d62555e86251cef06e4079378241b5f320c227507d51d
 FileChecksum: MD5: 52748c82e9464e36daec6caa3f50b7d9
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: NOASSERTION
@@ -1040,6 +1258,9 @@ FileChecksum: SHA1: 821cd8913362531cfd915b4c2bcb0777aa7d2f11
 FileChecksum: SHA256: d811f032272aae50123a889297af3a02fbd60d1e42bbef11466462f627ff7b5b
 FileChecksum: MD5: 1aeeebbf2e64523db78f02c744dd425d
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-1998 Jean-loup Gailly. </text>
@@ -1053,6 +1274,9 @@ FileChecksum: SHA1: a0ab7edbe1e92bac1f40952623790b3d5d385a04
 FileChecksum: SHA256: 4470e36709ce7d6067fa3e8f60bb7f693b055bee42a0d6655ed71faa2db87fde
 FileChecksum: MD5: 306c44b1caeb2dce8603419cd16c31b4
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler </text>
@@ -1066,6 +1290,9 @@ FileChecksum: SHA1: 7e5be478693b1a35e1e4cd1ce317b4500829c6c9
 FileChecksum: SHA256: f1679575fef1717d908dd09d7bfe8fff89c21941cadd7c255a2ccccfba3a287e
 FileChecksum: MD5: f0becc78f763983ff7aef614785f2d48
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2022 Mark Adler </text>
@@ -1079,6 +1306,9 @@ FileChecksum: SHA1: 8d63482001d9c0ef4d1a1e921ea54e4ab7cbb1ba
 FileChecksum: SHA256: 77a662b885182111d7731eef75176b4c5061002f278b58bf9bf217e2fa16cadb
 FileChecksum: MD5: bdb5ed13da08ce35d355dd0d267a7d78
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2017 Jean-loup Gailly, Mark Adler </text>
@@ -1092,6 +1322,9 @@ FileChecksum: SHA1: 99589f0b83a4de4524f95868fd72b13b80324f45
 FileChecksum: SHA256: c7454689751c8f41ec63a1381a0053fb149095abe1c3b89c8a996b2d7ac8adce
 FileChecksum: MD5: f0daa09a12692b5bc31544a3ad7b1795
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2004-2019 Mark Adler </text>
@@ -1105,6 +1338,9 @@ FileChecksum: SHA1: c7541490d97f70268010ae1baeb98a10302f3df8
 FileChecksum: SHA256: 32a907676cc36e27d0fdc0d99adb83a0b23f20ab61896269216d40fecf08d349
 FileChecksum: MD5: 8a4de1bca6c4182d025ea55062d125d9
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2003 Mark Adler </text>
@@ -1118,6 +1354,9 @@ FileChecksum: SHA1: ecad9d64083544651701e1496a8b7869ea60b52e
 FileChecksum: SHA256: 3bfd36b06284ba97d6105b8a6a5d18b2b34b75b3a1285f16d018680fb174915f
 FileChecksum: MD5: c0a551bb5996016a7b9a2421982e9c4d
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2003, 2005, 2008, 2010, 2012 Mark Adler </text>
@@ -1131,6 +1370,9 @@ FileChecksum: SHA1: 2cf0c4a2b98fc59c63bc5daee5d26e26dc15c81e
 FileChecksum: SHA256: c749d6ec7f88e8e639d4f03bdbdcbbe9d1c304210be4c4be621ceb22961d3d64
 FileChecksum: MD5: bcd5df6ee3272ea5a3a17feb90ad148d
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-1998 Jean-loup Gailly. </text>
@@ -1144,6 +1386,9 @@ FileChecksum: SHA1: 21962b86d8349d2a35c2b1e46a0e55979613d5fa
 FileChecksum: SHA256: 1f262e5ae8094c9d8b172241e567c86be560327b840ca8fb771e98461bcb158a
 FileChecksum: MD5: a8f39f71ecdcea0c91c87fa61e893e80
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2022 Mark Adler
@@ -1158,6 +1403,9 @@ FileChecksum: SHA1: 815d082068e07e22195e446ea8a880a1b03e425a
 FileChecksum: SHA256: 9208450c2ae6dcbfcc25560b5b9ca763f461e7246e37b0552474edf8fa898906
 FileChecksum: MD5: ddcc308923bda1742d6c6638367da0dd
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-1998 Jean-loup Gailly. </text>
@@ -1171,6 +1419,9 @@ FileChecksum: SHA1: 81a3e31c1cf436b7b37d0fd2173f5d2cb41842a2
 FileChecksum: SHA256: b9db40bbb68b63dccbcdfa78d687751e33178af8669f1c1236309cfd5d2edc0e
 FileChecksum: MD5: d0387e5b350daca5dbae2505b4110f16
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2022 Mark Adler
@@ -1185,6 +1436,9 @@ FileChecksum: SHA1: 5b4b8798bdd0c34e076d2e3cf365ea5451837b57
 FileChecksum: SHA256: e8d4a51b07694bf48cb91979c19974cf6a5ab0b8a09d26ec0d14df349230673e
 FileChecksum: MD5: 819fb5556d0c65ba2577ee379b4641c0
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2019 Mark Adler </text>
@@ -1198,6 +1452,9 @@ FileChecksum: SHA1: d0486a32b558dcaceded5f0746fad62e680a4734
 FileChecksum: SHA256: dda2302f28157fe43a6143f84802af1740393572c2766559593996fd7a5a3245
 FileChecksum: MD5: 52b1ed99960d3ed7ed60cd20295e64a8
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2003 Mark Adler </text>
@@ -1211,6 +1468,9 @@ FileChecksum: SHA1: b2c8fc5152f81998c0d33c37bfe4b2288e522874
 FileChecksum: SHA256: e5a8f5c3b107f27212f7d5fbfcf072a337a1b4ea32929ae31c168997438a5cc0
 FileChecksum: MD5: ee00ade2ae9dec44c9d088b93fa54a0e
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2018 Mark Adler </text>
@@ -1224,6 +1484,9 @@ FileChecksum: SHA1: 6d2bfc8a482a82c7ed40698a76c236891234c2e8
 FileChecksum: SHA256: 9a0d4c15f898c43deae2c5e98a5c66c637a1b25573d662fe91a789c386eaf971
 FileChecksum: MD5: a0168f86b6f7e572d37615bed93ba743
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 2005, 2012, 2018 Mark Adler </text>
@@ -1237,6 +1500,9 @@ FileChecksum: SHA1: 5e3458a3e458b1bea750c6007fc259e233d37887
 FileChecksum: SHA256: cf94d865e3a9162c0571cba7f74c8f01efbdca26b981d6cc9c545d4c3991e3c2
 FileChecksum: MD5: 20c40580d08b0cfb0c4173179fbabcd0
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2022 Jean-loup Gailly, Mark Adler </text>
@@ -1250,6 +1516,9 @@ FileChecksum: SHA1: 17fb362c03755b12f2dda5b12a68cf38162674bd
 FileChecksum: SHA256: 0a715c85a1ce3bb8b5a18d60941ffabc0186a886bcc66ba2ee0c4115a8e274e9
 FileChecksum: MD5: 23ff5edec0817da303cb1294c1e4205c
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2008 Mark Adler </text>
@@ -1263,6 +1532,9 @@ FileChecksum: SHA1: 4fc803c43a562b2b92a97e22300754ddfe44c603
 FileChecksum: SHA256: 7d8c1c873ce9bc346ad6005bb9d75cce5c6352aaf7395385be216a9452a34908
 FileChecksum: MD5: f3669099d3f571dbc0426401ed5f50e3
 LicenseConcluded: LicenseRef-Zlib-8d7a9af357ccf474eceb0fba284448f4
+LicenseComments: <text>The information in the file is:
+For conditions of distribution and use, see copyright notice in zlib.h
+We checked zlib.h it contains the Zlib license, thus we concluded Zlib as license of this file </text>
 LicenseInfoInFile: LicenseRef-Zlib
 LicenseInfoInFile: LicenseRef-Zlib-possibility
 FileCopyrightText: <text> Copyright (C) 1995-2003, 2010 Mark Adler </text>
