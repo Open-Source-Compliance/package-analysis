@@ -1,10 +1,10 @@
 ## Download Location
 
-https://github.com/grpc/grpc/archive/refs/tags/v1.52.1.tar.gz
+https://github.com/grpc/grpc/archive/refs/tags/v1.57.0.tar.gz
 
 ## Package URL (purl)
 
-pkg:github/grpc/grpc@1.52.1
+pkg:github/grpc/grpc@1.57.0
 
 ## Creator
 
