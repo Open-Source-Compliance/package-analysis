@@ -1,0 +1,3889 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_pybind11-2.11.1.tar.gz_1698344007.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: spdx2
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of pybind11 v2.11.1
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2023-10-26T20:13:27Z
+LicenseListVersion: 2.6
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: pybind11-2.11.1.tar.gz
+PackageFileName: pybind11-2.11.1.tar.gz
+SPDXID: SPDXRef-upload955
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 1e60a920488b469e7585f7d42c4f972cfd95d33d
+PackageChecksum: SHA1: 2d27e340522284e3f8a212b52d649f48102ae18d
+PackageChecksum: SHA256: d475978da0cdc2d43b73f30910786759d593a9d8ee05b1b6846d1eb16c6d2e0c
+PackageChecksum: MD5: 49e92f92244021912a56935918c927d0
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.1.0.95".82b3b2)
+ - monk ("4.1.0.95".82b3b2)
+ - ojo ("4.1.0.95".82b3b2)
+ - scancode ("4.1.0.95".82b3b2) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload955
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/JoinPaths.cmake
+SPDXID: SPDXRef-item3281073
+FileChecksum: SHA1: 1c2706c7fe0b3194b5fa6731f5993597887d0370
+FileChecksum: SHA256: 794b0d8fa62a3b798c7df12d50114580d1a47a234bfb6b4d83092eb646a6ecc4
+FileChecksum: MD5: 2182fdd60d7407fac6c93fcc4f503cc6
+LicenseConcluded: LicenseRef-CC0-1.0 OR LicenseRef-MIT-cc4734e8a01f740811ac41130a40cf90
+LicenseComments: <text>(The information in the file is:
+SPDX-License-Identifier: (MIT OR CC0-1.0)
+and
+https://github.com/jtojnar/cmake-snips
+We checked the given repo. It contains the same file. The license file in the root directory contains the text of the MIT license. Which we took for the MIT license.
+We concluded MIT OR CC0-1.0 as license of this file) AND NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Dual-license
+LicenseInfoInFile: LicenseRef-CC0-1.0
+FileCopyrightText: <text> Copyright 2020 Jan Tojnar https://github.com/jtojnar/cmake-snips </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/detail/common.h
+SPDXID: SPDXRef-item3281063
+FileChecksum: SHA1: 45d48bf00accdfdfe334896d429c0944b74723a4
+FileChecksum: SHA256: ac008a58f9aa524762cd240c7edb8290b09905719b5528ae46ffe1d2e698fa4e
+FileChecksum: MD5: 1f24c557ead4dc67e6ceb1e8976d4bd1
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-warranty-disclaimer
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/LICENSE
+SPDXID: SPDXRef-item3280993
+FileChecksum: SHA1: 3dbd61e2b2c71dcc658c3da90bacf2e15958075a
+FileChecksum: SHA256: 83965b843b98f670d3a85bd041ed4b372c8ec50d7b4a5995a83ac697ba675dcb
+FileChecksum: MD5: 774f65abd8a7fe3124be2cdf766cd06f
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch>, All rights reserved. </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/pybind11/setup_helpers.py
+SPDXID: SPDXRef-item3281004
+FileChecksum: SHA1: 5d785a325aea61e2f5f8b0a7dba683afe2f57196
+FileChecksum: SHA256: 0920e3ba1d93e7395c647a8823cb4eec765ccfcfaa98c9547c2a36dff58449ac
+FileChecksum: MD5: d6d0581f4d0a27355ec4caf08c8d55a4
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch>, All rights reserved. </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/FindEigen3.cmake
+SPDXID: SPDXRef-item3281078
+FileChecksum: SHA1: 1a691470ae00ba90f290d58a1bf1d2c47570115b
+FileChecksum: SHA256: 9624a761c330d6003123e0191954b408926c390d9b19c0dc1b72db091e6cb5af
+FileChecksum: MD5: 7881fb94388ce30ace0372dc1ede81dc
+LicenseConcluded: LicenseRef-BSD-2-Clause-2c6f31beafbcf8c8f9095b83d8c5688d
+LicenseComments: <text>The information in the file is:
+Redistribution and use is allowed according to the terms of the 2-clause BSD license.
+WE were not able to pin the original BSD-2-Clause license text, thus we took the BSD-2-Clause license text from: https://opensource.org/license/bsd-2-clause/
+There is a small risk that this is not the correct license text.
+The information was retrieved on 24th of Oct 2024 </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright (c) 2006, 2007 Montel Laurent, <montel@kde.org>
+Copyright (c) 2008, 2009 Gael Guennebaud, <g.gael@free.fr>
+Copyright (c) 2009 Benoit Jacob <jacob.benoit.1@gmail.com> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/FindPythonLibsNew.cmake
+SPDXID: SPDXRef-item3281069
+FileChecksum: SHA1: 4d382442d025a1a8c5e597fc43ad3b928d0a4408
+FileChecksum: SHA256: d5d10c3944318fec534339502c1057313e034d270d245aae3901805a225ac020
+FileChecksum: MD5: 6b8f9b614b681d8ed4f4ac40edce5ccd
+LicenseConcluded: LicenseRef-BSD-3-Clause-f983b9ce57976ad467faca7b99cc7415
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright 2001-2009 Kitware, Inc.
+Copyright 2012 Continuum Analytics, Inc. </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_modules.cpp
+SPDXID: SPDXRef-item3281227
+FileChecksum: SHA1: e2fdd9207a02e23476e35003e82f453ff971d187
+FileChecksum: SHA256: 3348df6548d1f11c18ae59521ebe215123dbfe71e62a1dfaab1e1830f72db9fb
+FileChecksum: MD5: c5ced791b942baeda2b8177f10d2f456
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_pytypes.cpp
+SPDXID: SPDXRef-item3281207
+FileChecksum: SHA1: 30d96d2ece5647c3f71fc3af05421b78d21e4975
+FileChecksum: SHA256: 134733f1aa807e8a3e1ef1a7b4b2ffc2ed980873a60ca9614906a6bd14d06299
+FileChecksum: MD5: 8a57bc05e58cf32e26ff68e60da1f6ec
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2017 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_eigen_tensor.cpp
+SPDXID: SPDXRef-item3281209
+FileChecksum: SHA1: c082ecdb2aeee6273ca21e9459bc542d483bed29
+FileChecksum: SHA256: 8600113fe0de4d9c13c3e8db583d942a6b9e8bca13a313a2d07bc5ad01c7658a
+FileChecksum: MD5: 1f299ac8512ded7651515b20ea28c56d
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_stl_binders.cpp
+SPDXID: SPDXRef-item3281204
+FileChecksum: SHA1: 11d3cfd3fca05f99509c83b262128350b7365b6b
+FileChecksum: SHA256: 7bfa8dfb0e8334dc02f5263b9d3951ed6b3f64aaac3b1c9fc6b9e41347ee6e5c
+FileChecksum: MD5: 3f114ee5f4a826b69408af71e47467b9
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Sergey Lyskov </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_stl.cpp
+SPDXID: SPDXRef-item3281206
+FileChecksum: SHA1: ae88e5abfa9cd560427c1d4c91254486e472eeaa
+FileChecksum: SHA256: febb050484b5a7bb745e3c672a2c5e41154de53bf7f5f383ce996bf4b8efaaab
+FileChecksum: MD5: 926fb7824a8a51249ff1f8c516050b77
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2017 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/pybind11_cross_module_tests.cpp
+SPDXID: SPDXRef-item3281181
+FileChecksum: SHA1: 8ad9f070e6523d3166110b8e7df6e45bc9a81438
+FileChecksum: SHA256: 4119ab131537f14109e9b0d8d6faf4d4213a6c32ee92535e416e21608877d26d
+FileChecksum: MD5: 6c3da04308f2a9c96a4bb364e5e3490e
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2017 Jason Rhinelander <jason@imaginary.ca> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_eigen_matrix.cpp
+SPDXID: SPDXRef-item3281203
+FileChecksum: SHA1: dff494b5db869c1fe7fca0dde356d4ffc6acd5b2
+FileChecksum: SHA256: 89f47709096c96f75c46194f26cc88cd53d4d88bf77d84fc15585b6712683002
+FileChecksum: MD5: 03ed39c03b220bec7e39300ea1ed0f6a
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_local_bindings.cpp
+SPDXID: SPDXRef-item3281175
+FileChecksum: SHA1: 3ea16272d40b0cd978880ebcdb4c4584912d16ed
+FileChecksum: SHA256: b4c1da514e64d9c57af7540c01a57ef849110d5dc77b72533f8e261c2fa658d5
+FileChecksum: MD5: f99f32202c94f9f21cbb3c556fa605cd
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2017 Jason Rhinelander <jason@imaginary.ca> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_numpy_vectorize.cpp
+SPDXID: SPDXRef-item3281202
+FileChecksum: SHA1: 249c03c488a29b06fac834a03524f3f32cbd5906
+FileChecksum: SHA256: 37270d69227341ee99588ab7e9b5521aebdd1a589ef99b12a6881fb3a0828e39
+FileChecksum: MD5: 37a0526c3f72d1cf669693882271bc09
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/CMakeLists.txt
+SPDXID: SPDXRef-item3281172
+FileChecksum: SHA1: 15de4640e11836980e00d435bff0f756eda0ff08
+FileChecksum: SHA256: 3327c7554745d3e48925f0a5c341245029864988d9750d356493a4f22a578d31
+FileChecksum: MD5: 75345c3dfacd9fbc17f233d47c4185ad
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2015 Wenzel Jakob <wenzel@inf.ethz.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/constructor_stats.h
+SPDXID: SPDXRef-item3281196
+FileChecksum: SHA1: b81d735c2fcc4a9862fed60dac422f7d9b644425
+FileChecksum: SHA256: c74f271f35fcf5a55ef5aeea15832bc24bb00dc20fdd796ed6d5b004c31a875b
+FileChecksum: MD5: 0248e5a53fcee837929c0122ae6772e5
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Jason Rhinelander <jason@imaginary.ca> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_numpy_dtypes.cpp
+SPDXID: SPDXRef-item3281166
+FileChecksum: SHA1: 268319efec488f96275009c792504c7e7f190b92
+FileChecksum: SHA256: b2b9751d92b6c25933473ee676d9b2e59019f4a2d79ef901ada758c82293d5aa
+FileChecksum: MD5: c7393cb6d06b404af2b54c29ae789587
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Ivan Smirnov </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/eigen_tensor_avoid_stl_array.cpp
+SPDXID: SPDXRef-item3281195
+FileChecksum: SHA1: 0899e68a6520fdf9600bf1d0367872eaee9c612d
+FileChecksum: SHA256: 3ecba52d0cbcaa0718b7c9616cad1b172be2c6461f1dc2c4cf76ce1a5a692325
+FileChecksum: MD5: 2e4ee18924a22a17ebcfa6eb0580d5a2
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_multiple_inheritance.cpp
+SPDXID: SPDXRef-item3281161
+FileChecksum: SHA1: e847947499b91153d44f61bcc426fa441bb83dac
+FileChecksum: SHA256: 3ae206a6779aff43b24ab209a741b2787a0fdecedecb40475f5cefb8353307f5
+FileChecksum: MD5: 8650fd653a7e00b240e9c08332411d2e
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_custom_type_setup.cpp
+SPDXID: SPDXRef-item3281165
+FileChecksum: SHA1: c5875b3b4c90a2202cfbdee346dcf4ef04d2138c
+FileChecksum: SHA256: 101a4c25379ed4f1244e21a2b21028fe6f8a29794cec4eda2b0696e93bc93e16
+FileChecksum: MD5: 29be5381982187dd31e617da01161bc2
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) Google LLC </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/pybind11_tests.cpp
+SPDXID: SPDXRef-item3281192
+FileChecksum: SHA1: 5d37679f7fe2a1b5e5e421ef1e50c8aefe45f40c
+FileChecksum: SHA256: 26801c8350b2f97be8745a219096e86a74e0268e1893de78956e9875a56ebda3
+FileChecksum: MD5: 22a4e7e6a1b5190c00087653e0167fb4
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_smart_ptr.cpp
+SPDXID: SPDXRef-item3281152
+FileChecksum: SHA1: 331b15cbcb7d21003723c2ad31d6110cb6e9356f
+FileChecksum: SHA256: c874409ce5082e30a911a3e75b3bbba95c28cf9ae80de7f239344470652f7841
+FileChecksum: MD5: ce01853d49e8d269cbb36b2a1db43b68
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_async.cpp
+SPDXID: SPDXRef-item3281191
+FileChecksum: SHA1: 4ce72027eaf49dc2cfeddbfdeda7cdee0ae6519a
+FileChecksum: SHA256: 10a392a7ea512da34049d98c7d3a584848abec8b6a28bfbdb37126dc1f24b50d
+FileChecksum: MD5: 4c006e51d6914891f80b1105db5e5355
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2019 Google Inc. </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_copy_move.cpp
+SPDXID: SPDXRef-item3281156
+FileChecksum: SHA1: 2fdd170337063bbf610a2313dd5b2176df986cde
+FileChecksum: SHA256: d7bfa525afa540adabd7822d50f913eb19c6b64521703c0228d0af7e46ad9c10
+FileChecksum: MD5: b4f7a70cb91703f862884432e81c2e93
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Ben North <ben@redfrontdoor.org> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_builtin_casters.cpp
+SPDXID: SPDXRef-item3281157
+FileChecksum: SHA1: 8e93bcc73deea6697e54288ce6975af16ea0026e
+FileChecksum: SHA256: 8fe930aadf2dc9972a9c11c9f08dd66a59663f59750898f92bf3bbe2fd8d4c79
+FileChecksum: MD5: d3e1ed737ed6bd835642952d53599e58
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2017 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_docstring_options.cpp
+SPDXID: SPDXRef-item3281177
+FileChecksum: SHA1: 7f28282916983a8a1795742d7dd6f8b14c14ebc8
+FileChecksum: SHA256: 49d7f373a4d6c72fb8228eefd3e583f18e7a0e4af69725148ebcc7c86e8e47ba
+FileChecksum: MD5: ee7dc40bb1a75cf7c9220a8c021256e8
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_callbacks.cpp
+SPDXID: SPDXRef-item3281158
+FileChecksum: SHA1: c9f6db59278f5d0f350ff169c6973e37d3243ace
+FileChecksum: SHA256: f074342bb29af1202f604bed1316b180cbacb48e03a8557e01f20a0abf78551a
+FileChecksum: MD5: e4da0e0f869815bd7c7e75198682d88d
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/cross_module_gil_utils.cpp
+SPDXID: SPDXRef-item3281149
+FileChecksum: SHA1: fab1e59385e0d563a3a503b80905b32d40c015b6
+FileChecksum: SHA256: f7005004ed569632914e14c2bbc5fc61cfb75de64abaf917a5a9e6692f1c465d
+FileChecksum: MD5: 235888404ece3e4556962052458bdbc6
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2019 Google LLC </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_eigen_tensor.inl
+SPDXID: SPDXRef-item3281138
+FileChecksum: SHA1: 7c806fc42df5f450542552026dd5c057ef3a8869
+FileChecksum: SHA256: e89f8c56c83cee2c5366be1a3bec6c16517541f8233893e0a7720751565a418a
+FileChecksum: MD5: 98023815304043fda577b7cf1c00b47a
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_tagbased_polymorphic.cpp
+SPDXID: SPDXRef-item3281173
+FileChecksum: SHA1: 2c37658ec640a4ab853cc5ab4a4dad45601d7ca7
+FileChecksum: SHA256: de72a493c8ddadf5cd7d2cb49f87bc5d077d659fcef155a69fe54331257132e9
+FileChecksum: MD5: c6364c30a93cc8db18e2d86f879dd14a
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2018 Hudson River Trading LLC <opensource@hudson-trading.com> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_opaque_types.cpp
+SPDXID: SPDXRef-item3281135
+FileChecksum: SHA1: 6dc8ff53ea4857ffd9c6f4b695fc994c583e2170
+FileChecksum: SHA256: af034d3a00d482013162de8c6f1c1f44e298aaf1ca78a11b02effbf1ab58b54b
+FileChecksum: MD5: dc2e3879b506fcaadd2644bfccfe276a
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_custom_type_casters.cpp
+SPDXID: SPDXRef-item3281150
+FileChecksum: SHA1: 13379d30e1e5fcff8e2f9db3cbd6bd94d8f84779
+FileChecksum: SHA256: 867218390234d1941486279c84ddffc4660661b56955a14c3355c628b6b643f9
+FileChecksum: MD5: 87e9d343cb7f613233e40c700a3f401a
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_pickling.cpp
+SPDXID: SPDXRef-item3281143
+FileChecksum: SHA1: 6a8ed089f26950efd9e3d90ae19f60ce9feb6ee7
+FileChecksum: SHA256: c4aba513276b24749338528c0742ea344c388f145fc6de6b2e25c017494da659
+FileChecksum: MD5: 2e64df843140cccdd0fcf97f70c36a46
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch>
+Copyright (c) 2021 The Pybind Development Team. </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_eval.cpp
+SPDXID: SPDXRef-item3281169
+FileChecksum: SHA1: 7763af3f2ffb4af694bdfee935b66e21219ebb5e
+FileChecksum: SHA256: 1ffcef687ec679f95fb93cd513780df3924bc4a2d15bdab563ccd67e7caeaeb4
+FileChecksum: MD5: 1cc2e19b5dcd7b9e5c436811fcc1aaf6
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Klemens D. Morgenstern </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_call_policies.cpp
+SPDXID: SPDXRef-item3281129
+FileChecksum: SHA1: 6163b9287521f301f01dd2224f863810f1ee05de
+FileChecksum: SHA256: 3f037b7783bd188248795aa529381fad2894d092ba5e44f940d3ec78dd630026
+FileChecksum: MD5: 42e45e1317414ede70c3757ea2edd652
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_class.cpp
+SPDXID: SPDXRef-item3281147
+FileChecksum: SHA1: 44ea5f0c7deba31f920819506b42e8c242c0b7b8
+FileChecksum: SHA256: 5338056d809006dbd13af1f6b34f2f2a6c6f9837509f88446cb9e5f9e236c74f
+FileChecksum: MD5: 339909bac32ca61053c278c20e842538
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_iostream.cpp
+SPDXID: SPDXRef-item3281126
+FileChecksum: SHA1: 6421f68bd9e6db326cbef59e91de7ad15a963da1
+FileChecksum: SHA256: a3920d2ba61240ec066cffed49930d967887c944e82cc37c8f3e3f5bd53a22ec
+FileChecksum: MD5: dc659ae396867a3452de592dce83e06c
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2017 Henry F. Schreiner </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/eigen.h
+SPDXID: SPDXRef-item3281054
+FileChecksum: SHA1: e73b3420cf6a8876d38a4b06e48a9ab021222853
+FileChecksum: SHA256: f87992035920c0243e18752decf1ed4c473ebf1ab0f71011a45f0f1d6262a76f
+FileChecksum: MD5: 4a2543f1f9fec487549e43b474eadf9d
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_operator_overloading.cpp
+SPDXID: SPDXRef-item3281123
+FileChecksum: SHA1: 7f699a6094421cfa3a7b728594a6ce99711d6e67
+FileChecksum: SHA256: 0fc5af6b84976fc23a535e1df43d9a61f1576f7a5cd8f6f577900939a6bb76d4
+FileChecksum: MD5: 1d8652f56239a5590e307a4ffc7c3cc9
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_gil_scoped.cpp
+SPDXID: SPDXRef-item3281097
+FileChecksum: SHA1: bc4707636c6fc73ea6a409319e957c48ceef9eb4
+FileChecksum: SHA256: 1111256cce4221dfb8c10a399c477f94833b9350cac0bafa0b05410f75d2f47b
+FileChecksum: MD5: 21257358dae8208c5837551adb86957b
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2017 Borja Zarco (Google LLC) <bzarco@google.com> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/detail/init.h
+SPDXID: SPDXRef-item3281061
+FileChecksum: SHA1: c46c46b822b63a35eda44c63cbfc1347a1a4f24b
+FileChecksum: SHA256: bd83b69d272cb676220a7e0a879ec82ab3b0a4d910f60a8c1387e8174dc953a0
+FileChecksum: MD5: a7e67c51f62cfcffd1052289aa80c609
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2017 Jason Rhinelander <jason@imaginary.ca> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_methods_and_attributes.cpp
+SPDXID: SPDXRef-item3281141
+FileChecksum: SHA1: 1221405c33c9831e4de5676063550c93259522e1
+FileChecksum: SHA256: ca4b93dab781fa4ce806e10a0eebdba9204b0b6d9a130a6209ad8aa7ac277c5e
+FileChecksum: MD5: 15e33377a44af6f618f4322e4288ff3d
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_exceptions.cpp
+SPDXID: SPDXRef-item3281119
+FileChecksum: SHA1: 7a52ccf47b85f5a4d4ed3e4ab65de664249df275
+FileChecksum: SHA256: 14f77cf6fc15b2bdfaf229a6bb0f42f8d51a731bbc38584cd6c98e572c9d0bc0
+FileChecksum: MD5: 0f4ab2b8efba9401b6265dbfe47f2673
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Pim Schellart <P.Schellart@princeton.edu> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/iostream.h
+SPDXID: SPDXRef-item3281041
+FileChecksum: SHA1: 31f631b7176240ecca875d42078cd41d16fa7d6f
+FileChecksum: SHA256: 2b9acf5e8098377db9af53e9b5c2422213e182d46d4c942332bedbbd420ec319
+FileChecksum: MD5: 62d04217991caf506306f987abd728ee
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2017 Henry F. Schreiner </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_const_name.cpp
+SPDXID: SPDXRef-item3281110
+FileChecksum: SHA1: 16bb85b8d9fecca1759ec11339c27143efb07879
+FileChecksum: SHA256: cd20f248cf6c9acd6cce640f9c3c318eed9249539ec11dd4d67602b9546c1f7f
+FileChecksum: MD5: fd981bd669b7c30b85aa49553116de68
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2021 The Pybind Development Team. All rights reserved. </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/eigen/matrix.h
+SPDXID: SPDXRef-item3281048
+FileChecksum: SHA1: fffd89e71fc67c6ae23c67ab4de920826858e854
+FileChecksum: SHA256: 092f0da64648f18f2dcb4345402ec665c525339a3cff501bbf519b1a5b6c6e40
+FileChecksum: MD5: 15b1400932f410234b28008b18ae70a9
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_constants_and_functions.cpp
+SPDXID: SPDXRef-item3281109
+FileChecksum: SHA1: 00805efa4e1b515873078fa1b8eb5983ce25c11c
+FileChecksum: SHA256: 13532660eead87ebb6596af01052db748d3e0e3f9fb77ffce9df5fae6db29cab
+FileChecksum: MD5: 7a7594904403083231648e78b33d29c8
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/cast.h
+SPDXID: SPDXRef-item3281044
+FileChecksum: SHA1: f5d083c765b83663ffbdee4fe85a7a12766bef3f
+FileChecksum: SHA256: 45cabe9751c27cc2320716c948cd38d70a6edc4a590550a17e055d129767a82d
+FileChecksum: MD5: 7f376fcbddb08a59652f44864239c0c1
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/cross_module_interleaved_error_already_set.cpp
+SPDXID: SPDXRef-item3281112
+FileChecksum: SHA1: 9d0300cd0649c0c1a1fa91d8dd7bc3a16bb95989
+FileChecksum: SHA256: f8aed2763e82db461bd6fd4582fd9c7c7a36462ba95e03eabb827f0742d5d624
+FileChecksum: MD5: 69a13194bc7e0ca19b938ea37104ac88
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2022 Google LLC </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_buffers.cpp
+SPDXID: SPDXRef-item3281099
+FileChecksum: SHA1: f9600e88dcafcd2cd609e4221c8be24ce7411dfa
+FileChecksum: SHA256: b53ad7972b5e4d4a7dda0fbe89cf5061bf400417cd83242e2b3fc650d0e99957
+FileChecksum: MD5: 421328e82486369d1071ff8bd0c11d1b
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/CMakeLists.txt
+SPDXID: SPDXRef-item3281031
+FileChecksum: SHA1: aba1287031b008cbae6d6294a997ed0bbda8aa04
+FileChecksum: SHA256: 5f8fc1ed73ba13392a0bde1354510b096cff092d24c4c248a37d7fa218d2fe06
+FileChecksum: MD5: c0333b863964ba2a1e51ed7ebbf7fc1c
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2015 Wenzel Jakob <wenzel@inf.ethz.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_sequences_and_iterators.cpp
+SPDXID: SPDXRef-item3281136
+FileChecksum: SHA1: 81f3cf5a6daeaca1a7fec75d69fd9ef1eabe36bd
+FileChecksum: SHA256: 407cb3e4d8aed19c18dcb18eb4aa0c2166e1362d9c8d9df6eeeb5ccde78c62a0
+FileChecksum: MD5: 3d890f647ec1748881f69649c7d2f19b
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_virtual_functions.cpp
+SPDXID: SPDXRef-item3281100
+FileChecksum: SHA1: 2a22b185ebe3c84a636fc09cc2c022fc0075f681
+FileChecksum: SHA256: b626522f98a23db6176fc0de67faacabb2f0e4524b603dfde77b2469bcbf5dfe
+FileChecksum: MD5: bea3d5d1622c986ee92c58dc7603c61a
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/operators.h
+SPDXID: SPDXRef-item3281055
+FileChecksum: SHA1: 7bb06de3c5e4cbac8d32e26d613da7f967234288
+FileChecksum: SHA256: db6e11a005dcbf595ae0d358f6b437683fc0782f12f592b1dc754ad4ef01e0c5
+FileChecksum: MD5: 7ece8a7f3d1ecf209c7c1029251aea75
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_chrono.cpp
+SPDXID: SPDXRef-item3281125
+FileChecksum: SHA1: 1459bb10b615a555cfa13bd65596f934a60c18ca
+FileChecksum: SHA256: 67dc2ca42a136021cc64248f73179b3c4082ab2a7c71679dc412837569ef16e5
+FileChecksum: MD5: 3a3007bc58352e521aff0ea0b42b7c93
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Trent Houliston <trent@houliston.me> and Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/functional.h
+SPDXID: SPDXRef-item3281045
+FileChecksum: SHA1: 8a050c02e3be085ec15bfec0178a2a0130ce5432
+FileChecksum: SHA256: 7170c9512d18ff51816ce2b8367d777b186466c0105b1e34f0767e3c50666c9a
+FileChecksum: MD5: 166abf6f2e91b94bc1d5334680d2f373
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_enum.cpp
+SPDXID: SPDXRef-item3281121
+FileChecksum: SHA1: 8ce3e6a0102838d20ef2b2f096c60cfbf22bc133
+FileChecksum: SHA256: 1878e326266d0ec56fc9ee3ee5b49136dbabd6c95b058dc67323e1952623f4ce
+FileChecksum: MD5: cffd17111881a6f53ef1b941e7758980
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_kwargs_and_defaults.cpp
+SPDXID: SPDXRef-item3281094
+FileChecksum: SHA1: 9925289dc5f48362ec1915b444b57a038e614b92
+FileChecksum: SHA256: be68164105b497854722bcb4d8ec12a255de313440aba27558e8d26874136334
+FileChecksum: MD5: 19f7d28081c004efcac75d95305ba60d
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/gil.h
+SPDXID: SPDXRef-item3281037
+FileChecksum: SHA1: 8d05b8afe5d6ed60d9ef77c2036670ddba185b6e
+FileChecksum: SHA256: 459924326d04f4f4251d75bac6404884ced505e0af9b22653d540d69224c5104
+FileChecksum: MD5: 6959e8e7c6956795c022e43d1c9485a3
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_thread.cpp
+SPDXID: SPDXRef-item3281118
+FileChecksum: SHA1: 6d3aff0ce1be4455709c2bc858e4e33bc7fdf492
+FileChecksum: SHA256: 5f45af49ddcac9b08d563cb37742f13e561f429476eda8ffe76685fe45b8ab55
+FileChecksum: MD5: 65c168305e78f143cab087cf706204e0
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2021 Laramie Leavitt (Google LLC) <lar@google.com> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_numpy_array.cpp
+SPDXID: SPDXRef-item3281101
+FileChecksum: SHA1: 7318f37834121d5d6144e47e144c9dcb9f74f145
+FileChecksum: SHA256: 53e50006ccdc36cfae190a529b1bf81b2045380127a6bd6825ebb0190dfd6e67
+FileChecksum: MD5: 3f1475eaff62976f6b9e075ee293e4c0
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Ivan Smirnov <i.s.smirnov@gmail.com> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/buffer_info.h
+SPDXID: SPDXRef-item3281035
+FileChecksum: SHA1: 45de307dd5f4813fcffffa8925f97812e2e557d5
+FileChecksum: SHA256: 9bf544fe17d63ca97e2a0519cbd69541d3e0d71b68683681824bab217eda1a28
+FileChecksum: MD5: 547c9393ab09f31e15de70710ec62118
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/pybind11NewTools.cmake
+SPDXID: SPDXRef-item3281081
+FileChecksum: SHA1: 8f92fc6503b70f41bf82d3cba97dcfc8dc09306c
+FileChecksum: SHA256: da667665490532c0e4d89414e614702236a60ac9636ab4d0bbc08cf2663b3fc0
+FileChecksum: MD5: a15d4eb6acc21f46610647d7c7c0350c
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2020 Wenzel Jakob <wenzel@inf.ethz.ch> and Henry Schreiner </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/embed.h
+SPDXID: SPDXRef-item3281042
+FileChecksum: SHA1: e7633951aabee3bd97a10d68eb7aeb4152a68aef
+FileChecksum: SHA256: c43fa8120e7a3da7538a0f5af0539c3206ec2fae236a27bb8701b7cba0d63c42
+FileChecksum: MD5: 7efc19a2d99f288460dced830b797bb3
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2017 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/attr.h
+SPDXID: SPDXRef-item3281040
+FileChecksum: SHA1: e551f3e19c064350897f01240faa2f04fd507a40
+FileChecksum: SHA256: 40f8c7ec17e12fc405c071e4ac36a4f2034e2cc95bd62b403b97e86e37682e9f
+FileChecksum: MD5: fceffe6f0f882494f5624b4dea33d6d6
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_factory_constructors.cpp
+SPDXID: SPDXRef-item3281108
+FileChecksum: SHA1: 4df7a06198933b1ffb4e3d79a86abc001ec61e1c
+FileChecksum: SHA256: e10a2b3cb4968599e57aa492f22c8df30292fc27ffe238681862ba2f75af937d
+FileChecksum: MD5: d608be07e482b541d6297386af52734c
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2017 Jason Rhinelander <jason@imaginary.ca> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/complex.h
+SPDXID: SPDXRef-item3281050
+FileChecksum: SHA1: e389b034cc42524e9eb91d67410e7655f5ab6088
+FileChecksum: SHA256: 01a0d9fab1262b8b456ae7be2bd3f9cb74f1c6769017a27067fe8b03391d2d02
+FileChecksum: MD5: 40634b0bd3247f7310cae591bc8929fd
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/pybind11.h
+SPDXID: SPDXRef-item3281066
+FileChecksum: SHA1: 42d05b36395271ff655bd5b92721fbffd3b6adbb
+FileChecksum: SHA256: 575cca3d5a4e37eb76c865508a0c9260c00b69d331faec7b799ff10b420b83d7
+FileChecksum: MD5: e377e6d7233fb58c24b270f1f28c0f67
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/eigen/tensor.h
+SPDXID: SPDXRef-item3281047
+FileChecksum: SHA1: 656d2a3705c3cce66c0319616da116d26600087e
+FileChecksum: SHA256: 8cbb4d64a5ebecc585a65b7dc77aa71dd3bbde3359940a93e341dbe053da6e79
+FileChecksum: MD5: 70854e016f6c4423a0796ad3a8d96583
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/pybind11Tools.cmake
+SPDXID: SPDXRef-item3281074
+FileChecksum: SHA1: 3d9ce0c587fef98cada767d1c95d73a55268b471
+FileChecksum: SHA256: 911a1cd52bd097a3516441c7b8cf8d0eb7f23091751db80bf93893bbffc3930f
+FileChecksum: MD5: dfaa06de9c525fcf014293ad4aab1743
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2020 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/numpy.h
+SPDXID: SPDXRef-item3281064
+FileChecksum: SHA1: bbd3419d392aba971737ab56ed77a069facf06f8
+FileChecksum: SHA256: 1be871249a26e6ba09eecfe14e21b532af4dc6967a04eccad377cb5d442e1f7d
+FileChecksum: MD5: dc8e1e45ef0c789cb62c54dd6168bcc0
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch>
+(C) William Swanson, Paul Fultz </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/stl/filesystem.h
+SPDXID: SPDXRef-item3281039
+FileChecksum: SHA1: c828753e51578b01c31eba6c6d8c82b8f692934b
+FileChecksum: SHA256: ade7cb7b199d72a38ce908e8f50301ea1780e5b43b199acfe830af541bf44753
+FileChecksum: MD5: dd143ff365b7a37452beff8142e3ec02
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2021 The Pybind Development Team. All rights reserved. </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/options.h
+SPDXID: SPDXRef-item3281065
+FileChecksum: SHA1: 1c0cbd2bca48325f9c098c41599ab0f76eb1c2ab
+FileChecksum: SHA256: a97be69e3fbef5f652a79e8d61e7e70775b9575ee9a47958d52ae0a370cd069c
+FileChecksum: MD5: 49cbbea81c09fb3f7c6144aa0daa6ddc
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/detail/class.h
+SPDXID: SPDXRef-item3281062
+FileChecksum: SHA1: 6813bfa46265604ab0ae46f7c071c74b554422db
+FileChecksum: SHA256: 6362334e99611392a2322065cd6480a2f090688ff5334765b280d8093a41e478
+FileChecksum: MD5: b2a830a4326c4dec2414eb0b9e25b8bc
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2017 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/pytypes.h
+SPDXID: SPDXRef-item3281036
+FileChecksum: SHA1: 637956d2813b461f1b82911fad540149cd7ee55f
+FileChecksum: SHA256: 9ac847a300a0abdd43b74e9ab5fe42e8316145259b530601808976d7edaeb1ca
+FileChecksum: MD5: 299901c6c42edf4cee22bdbd0da1236e
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/detail/type_caster_base.h
+SPDXID: SPDXRef-item3281057
+FileChecksum: SHA1: 0d8c568782013cc16bae5a9f8f47dd6e566fbbff
+FileChecksum: SHA256: 2c2f757a3b6f5e3190d0369416b60ddc2844d5a81ff58da11c3b3b6f24db65af
+FileChecksum: MD5: bb1b3a5bfd74ba496fc3d1da8deee46b
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/eval.h
+SPDXID: SPDXRef-item3281053
+FileChecksum: SHA1: 59ccd4f7cc808abb46fdc8e65fe0914260229b7f
+FileChecksum: SHA256: eeb7be3b6128af5c83d10fca805907223283d7b7a3cc823af3b62cce5f7f29f1
+FileChecksum: MD5: 80a0a37c09c548c681d723627ada1c93
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Klemens Morgenstern <klemens.morgenstern@ed-chemnitz.de> and Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/detail/descr.h
+SPDXID: SPDXRef-item3281060
+FileChecksum: SHA1: 30fd06591c7c18805f76d7868b9ba15d6d9e2646
+FileChecksum: SHA256: 9359efcadc75ce1321f0444bdb14bc5276f1722a397daede648aa74ec674a2b1
+FileChecksum: MD5: a327c151e70e12a357bed73fb1e986d7
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/detail/internals.h
+SPDXID: SPDXRef-item3281059
+FileChecksum: SHA1: a6eb99a25abc5196d4d16528a054261f50b47acd
+FileChecksum: SHA256: 033f070ca977414f8a10e6a97701d889f8d6a706de8f826ce702af4aca408d09
+FileChecksum: MD5: cc3dd8a19fabbc809aaa18d30b3175fe
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2017 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/stl_bind.h
+SPDXID: SPDXRef-item3281052
+FileChecksum: SHA1: 868da4ddefbd94bfb72c5d022c4d866f8b805d35
+FileChecksum: SHA256: f37e583ffe0e91c29390d39a63e1945172037fce864a937ae65562bcfd0ce136
+FileChecksum: MD5: 208f80d0f5b14b8452f91c39e82150a6
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Sergey Lyskov and Wenzel Jakob </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/detail/typeid.h
+SPDXID: SPDXRef-item3281058
+FileChecksum: SHA1: a7bfddeb8ae38e137b92efe53089ca9a2502c5fd
+FileChecksum: SHA256: 8f0e69afd9bbdaf903b25a13f2fc65f708f5ed52467047570f2ce2065b7cf49b
+FileChecksum: MD5: 83585b446f7155c5f2a57a9176cc3aea
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/stl.h
+SPDXID: SPDXRef-item3281043
+FileChecksum: SHA1: 17b06412a2f6cdebb1db871a0586079e48a9b157
+FileChecksum: SHA256: 75a8c81183674e2997e6e6182e6d13cd87acc6af3b25a9166792960b36c44f62
+FileChecksum: MD5: 83a3d45ce36aab7584b26ff3a91618b5
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/chrono.h
+SPDXID: SPDXRef-item3281034
+FileChecksum: SHA1: afddeb22a7f3b9eca9fa98f6820a811fd425a39a
+FileChecksum: SHA256: 036de769e968aa7fb534a5400013ac26d1d4f55cfc95fbeb0080ae2e4fbba813
+FileChecksum: MD5: 2b1d9c6939103b8505e38758177f0c6d
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2016 Trent Houliston <trent@houliston.me> and Wenzel Jakob <wenzel.jakob@epfl.ch> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_union.cpp
+SPDXID: SPDXRef-item3281189
+FileChecksum: SHA1: cdfa82a50af1e5e4e220ed67306146b692e58af6
+FileChecksum: SHA256: 38e90294f06a6e17677bb352ba097029d97311d9c3df644c1a0006e44d40aced
+FileChecksum: MD5: 69ba1955673505587a48a5aa8680258a
+LicenseConcluded: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseComments: <text>The information in the file is:
+Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+We checked the LICENSE file in the root directory. It contains the text of a BSD-3-Clause license. We took this text and concluded BSD-3-Clause as license of this file. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2019 Roland Dreier <roland.dreier@gmail.com> </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_iostream.py
+SPDXID: SPDXRef-item3281090
+FileChecksum: SHA1: b9fa96bce828676266a5c73613c9913f0ba021de
+FileChecksum: SHA256: c46790c318c6cf518a496041c62d57652ea51361813fc56d3d1ffb4aa0d3c892
+FileChecksum: MD5: 44279bce872720a3eab3bf94c6e99ef4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/faq.rst
+SPDXID: SPDXRef-item3281274
+FileChecksum: SHA1: 8c5af0157d22bef034b5b59d1251a0ff866cf645
+FileChecksum: SHA256: 3238d37614ff7166b8ed1dde5995ead5c40244e6293b508dd08ca18c8e38c4a4
+FileChecksum: MD5: a85e3d0b1562aa1ca4d23da27993f550
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/CONTRIBUTING.md
+SPDXID: SPDXRef-item3281025
+FileChecksum: SHA1: c0178c5640ea671cdb8cf0b398ff184963b0da91
+FileChecksum: SHA256: 302586bcd288c5438176fa8943c432bd0d4057bdeebf864a9ba6aadee0e2fa0b
+FileChecksum: MD5: 2763ca3f167301db38e982510bc3921f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-generic-cla
+LicenseInfoInFile: LicenseRef-BSD-style
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_callbacks.py
+SPDXID: SPDXRef-item3281140
+FileChecksum: SHA1: de6853da3e27bb037e95e374a2fa97d95a6e93a9
+FileChecksum: SHA256: 136c7fafa328fdf5acb97b2a5806eb4629657ef0dcc01e297d559b5cf330bccf
+FileChecksum: MD5: ce817a27179ec3902eb3fc9f0a72d633
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/eigen/common.h
+SPDXID: SPDXRef-item3281049
+FileChecksum: SHA1: d3f4fa69f83148dc02587dc338d4101c73e2447a
+FileChecksum: SHA256: 7487aa98aec8cd6e4ae24da56ab3e703503ceb7ac3a77f14f586cd230888c989
+FileChecksum: MD5: 04cdcb48c308764baf188ee07c51e7e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2023 The pybind Community. </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/README.rst
+SPDXID: SPDXRef-item3281030
+FileChecksum: SHA1: 37fdd034faa119346b136dc701097d7a843859e7
+FileChecksum: SHA256: e759d5d08d1068df323598bded246ce0fbfe170fb7861def7383c2ba92be9616
+FileChecksum: MD5: 423f210b655524ce430d697899c1d9f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-generic-cla
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD-style
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/misc.rst
+SPDXID: SPDXRef-item3281247
+FileChecksum: SHA1: c506a435c51bf3a91e04eff5d9f3f39f48e6ce63
+FileChecksum: SHA256: 1156d7c5986b2d6dc9c7d100a31ef36dc3e99bfcf2e9e9384d60c25053e13169
+FileChecksum: MD5: 9523c1f04c92dfa38906d719b45e59ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+LicenseInfoInFile: LicenseRef-UnclassifiedLicense
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.appveyor.yml
+SPDXID: SPDXRef-item3280997
+FileChecksum: SHA1: cd6dcb1491847107c146c549d4d73cebb0efcd87
+FileChecksum: SHA256: 6b81071517d06e1486c66ead4135af605b0aa3aeb95dce88bcbe11bf76eaad50
+FileChecksum: MD5: 168fd41c52241378905902994df03a50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/installed_embed/CMakeLists.txt
+SPDXID: SPDXRef-item3281212
+FileChecksum: SHA1: a7e635b4ff0e28eb1a36b212f3e8b0f48ca61a6c
+FileChecksum: SHA256: 2386a67ec2db728a2c152d28a0c260e52a0f578fcd7af244ba647d694e3b85ed
+FileChecksum: MD5: 8303dd01a1511d2e3cf856758494f930
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/cast/functional.rst
+SPDXID: SPDXRef-item3281254
+FileChecksum: SHA1: 8beab3ab287a6a599bcdfd74c36bd73b7540e088
+FileChecksum: SHA256: f812a36990cf68ad86fbbaa9e98d4a0b2cab0c319c7b0b32a00de97c80160ddb
+FileChecksum: MD5: ac62ce750ea7ac9b3815a047f076b509
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/cast/stl.rst
+SPDXID: SPDXRef-item3281259
+FileChecksum: SHA1: 1d6f4493bf236ce8235189508474aa8ce4f80566
+FileChecksum: SHA256: 88316e64b2ca6fa4480269239c87567f7a0d818bb6c58efbb4cf71e24cc6a0ca
+FileChecksum: MD5: 8b36f5519dd2bf1db6941d02fade8b52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/pybind11/py.typed
+SPDXID: SPDXRef-item3281002
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/setup_main.py.in
+SPDXID: SPDXRef-item3281070
+FileChecksum: SHA1: e9df6e80b2658a16d969910d18ad2abfec23c0f0
+FileChecksum: SHA256: 5cd07ed2e873bcfe8c3f499e3e4334a167083e98c177081509eb1e1214ef5f7e
+FileChecksum: MD5: 79c7edcd94912a86a04a063405fdcdad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_unnamed_namespace_b.py
+SPDXID: SPDXRef-item3281133
+FileChecksum: SHA1: 0f3c97dd488c50e3c58bd48347d9ead676c750bd
+FileChecksum: SHA256: ecd4a959e099f200e3ea047f34213213756052b37f3e3ccea2a75d0a8ed9c6f4
+FileChecksum: MD5: 9d3875b51698da70e3c6c6c6c27210d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/setup.py
+SPDXID: SPDXRef-item3280996
+FileChecksum: SHA1: 34dd59b9e992d42e03aa98735dc5950ea576e565
+FileChecksum: SHA256: 4846b1d3c96ff561dfb11611e8d05dfa419ce191375cf01a138f8bd02a135d78
+FileChecksum: MD5: 9390552efbb7f6e9b7af7d278eef806e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/setup.cfg
+SPDXID: SPDXRef-item3281008
+FileChecksum: SHA1: 67b72cbca2bda1d89c5e6615e2df7e46b737a572
+FileChecksum: SHA256: a096744ac5708e11dd1ce36f0223c63315db5ed9d4a34cf452bf6593a5cda3e0
+FileChecksum: MD5: da26dcac1c7e334bf5db7a7de3e3f2c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/cast/strings.rst
+SPDXID: SPDXRef-item3281258
+FileChecksum: SHA1: 31282e15f6ab807f26d3038ef09e460f3b6c7d7b
+FileChecksum: SHA256: a59e3ddc68e0483d2ebe6e38e573c4a20bfeb2cc7e126713804874f7e79d871c
+FileChecksum: MD5: 23685c13341a11c1b8453772253e0165
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/valgrind-numpy-scipy.supp
+SPDXID: SPDXRef-item3281162
+FileChecksum: SHA1: c6b4606d7549cb97eb96a5a35cdd4d90c82c7b25
+FileChecksum: SHA256: 7433be9dee01d00d9c342ff64b9c40b22bc3a1ca77c64ef07d7aba1a8bbd8e54
+FileChecksum: MD5: 75bf98cdfaec08010f9d6a99e38d1262
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/workflows/ci.yml
+SPDXID: SPDXRef-item3281014
+FileChecksum: SHA1: d4c6338baf4325bd9f1a15ff85810e7b0145aafb
+FileChecksum: SHA256: d4fedfb5f261416e51a088608372e15172643ae097bbd7d5af39d45d632cca2e
+FileChecksum: MD5: 0b1883bb1ff6a69080299528a150703c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_unnamed_namespace_b.cpp
+SPDXID: SPDXRef-item3281151
+FileChecksum: SHA1: 69ed28b6293687760da375125e9f9bf5aaf9b0c6
+FileChecksum: SHA256: a1f557ed74ca008a40ad4ef2d9325e436b0c2eb6d6b5f33471b1d8e48bd7e92e
+FileChecksum: MD5: 3c2be64ff11528391c51eebc94b8e7be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/functions.rst
+SPDXID: SPDXRef-item3281248
+FileChecksum: SHA1: 385c6aa85cc83f536bb18668f4a401965c61c403
+FileChecksum: SHA256: fbf31ea72319cb62a30d747f0cd592cf573edcd3c4b0bf679613ab9ee6e5e0b8
+FileChecksum: MD5: b4d61f458da4ab75711bb5dea57a346c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/common.h
+SPDXID: SPDXRef-item3281067
+FileChecksum: SHA1: d8fdcc8c8a6902b8cf5e7bc14f2681eb6ec611c3
+FileChecksum: SHA256: 01383d06dd69c05f2a9cdb88d3ce9fa6b3380944ddad9764fe0d875c4d527fa0
+FileChecksum: MD5: e2c92b30be8e19df1d3184c545472bac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_eigen_matrix.py
+SPDXID: SPDXRef-item3281205
+FileChecksum: SHA1: 771c54a3faaf252d6e0b8f0e31a519acfcb16d67
+FileChecksum: SHA256: efe62bc7c7b67a2ae4eeb7d1a3e1b4f54c88a20ff9f50efecfeb125ea834c195
+FileChecksum: MD5: dd132be2e0e46875602977dc5fef0a3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.readthedocs.yml
+SPDXID: SPDXRef-item3280998
+FileChecksum: SHA1: 4b562f71525976c8d0c43d9d96ca9c533e112fec
+FileChecksum: SHA256: 13a711449f1e8514e376c107e72b7d5b7dd0660fbdc8a065e674587322f472d2
+FileChecksum: MD5: 9b95d5aaac7a70394af89c792f4c20bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/requirements.txt
+SPDXID: SPDXRef-item3281270
+FileChecksum: SHA1: 34be44ade5a5b8b7ce497068f004afa4e706ea82
+FileChecksum: SHA256: 5c8ba449892ce492b3ecc53ebf3a3ca2def762c0e99482dab2e91fd14a01469c
+FileChecksum: MD5: 7a88b2a90aa5211dd4a0051b082e36db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/pybind11/commands.py
+SPDXID: SPDXRef-item3281005
+FileChecksum: SHA1: f5bf4f1a34ae7be200c7228418c9e16a97dbdbb2
+FileChecksum: SHA256: 8890455a15c7aa50bf24c0203233089fa1ff862cefa2b4b9ef6ba9194d6ba060
+FileChecksum: MD5: 3b2f5ab3246baeb5a5698c45acf5fbc2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/pybind11/__init__.py
+SPDXID: SPDXRef-item3281003
+FileChecksum: SHA1: f0e752adf32a0c9f86d5a5f33275b4be2533971c
+FileChecksum: SHA256: e3e5a11fd01ce8ff03fc5aa77e5a4e721f1795a66b9176def7916ca5b32fc2ed
+FileChecksum: MD5: 42d21ca4c3fcfd6ac41cb76e840fdafe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_enum.py
+SPDXID: SPDXRef-item3281198
+FileChecksum: SHA1: c02bb6001c3533509ef3a5a55bdbed8b80580c9a
+FileChecksum: SHA256: 5156f70448f74192fed8d7935897f46257464b089ab6b566f264f3c391a52d5e
+FileChecksum: MD5: 5eee607a2b3f7e6b82268199b28e6ac9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_sequences_and_iterators.py
+SPDXID: SPDXRef-item3281132
+FileChecksum: SHA1: dc39c5f4e4bb2eb5e4e19289e68bb09f00078b2c
+FileChecksum: SHA256: 9bed260566be49a5b4fc65d58162bff7e1ff4c2406f951a2e7b88d060bac07ff
+FileChecksum: MD5: bbd46ef849f354b6432d83ef8d03e0cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_kwargs_and_defaults.py
+SPDXID: SPDXRef-item3281190
+FileChecksum: SHA1: f977749451cff59b7cd0f0b815fdfc76cfc88871
+FileChecksum: SHA256: 176a4aea91950d0f4a9a6ae93f3962ae14931e09f27be1a17a2817cc80eb1e1b
+FileChecksum: MD5: b8cac3735719c009b78ac23561f3bb60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_stl.py
+SPDXID: SPDXRef-item3281131
+FileChecksum: SHA1: f82bd6b9041b813e7ea8aeb0f477b6c8a5378661
+FileChecksum: SHA256: 7128345747b735c073d33d4298b8a7355edf5686cf849f5fa5ada33914748318
+FileChecksum: MD5: f9d2bc0a5224a2150ba4f2019076171c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/changelog.rst
+SPDXID: SPDXRef-item3281233
+FileChecksum: SHA1: 1460b0a6f8b11b45ae7ada5f54df2c96b4918819
+FileChecksum: SHA256: 4583310242a6e3e6bb709e95f3c93df5297de9769bcfdbf596e23f3def8f912b
+FileChecksum: MD5: 763253772ae36afa87ce1cee44cadc8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_docstring_options.py
+SPDXID: SPDXRef-item3281171
+FileChecksum: SHA1: 84805f8714868b01d10653c9d187d21f51be41d4
+FileChecksum: SHA256: f522320abd60ee644a0a92f9635a29fd6be8d969f27ecd5e5437508efa3657ae
+FileChecksum: MD5: e86453ea2015b118e0878b13071f751f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_numpy_array.py
+SPDXID: SPDXRef-item3281159
+FileChecksum: SHA1: abc93232fb03fd876da4d8527cec8c7104af9812
+FileChecksum: SHA256: bcd21eb039f989b2ae4c90ccc17f561a08d62c00c96668eb063a3c65e91ea621
+FileChecksum: MD5: b14162dfc6175e7f37a268729342074c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/extra_python_package/pytest.ini
+SPDXID: SPDXRef-item3281145
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/pybind11-logo.png
+SPDXID: SPDXRef-item3281269
+FileChecksum: SHA1: 1717e3a8b704f90f97aaedf7d8fc3ffa4cb1552d
+FileChecksum: SHA256: 3e62c3690f6ffdd7889d2859787435e337889f6a907dd10aef9a59aa658a9e4d
+FileChecksum: MD5: 54dcef7ecf9d5b5e213c3fdac23f9d5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/CMakeLists.txt
+SPDXID: SPDXRef-item3281223
+FileChecksum: SHA1: 334abde5c9bdebb270c956da6b95a3d8a6b6f400
+FileChecksum: SHA256: 7d9a334473522c55917fea6db47a45628bdea7a3b05de555068280ab1bcab6be
+FileChecksum: MD5: 26b1ebb0d75c05a8fb2ce3a68916918f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/_static/css/custom.css
+SPDXID: SPDXRef-item3281236
+FileChecksum: SHA1: ef2bac5720333d96e0e15e5b4f81fb2610b99faf
+FileChecksum: SHA256: 3f8aaac2aed63a1463de3c77ed326e496249bf282a2db2a78998c1ec2fe1a237
+FileChecksum: MD5: bd28e1372b8b84ab8dd997795524b61b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/include/pybind11/type_caster_pyobject_ptr.h
+SPDXID: SPDXRef-item3281051
+FileChecksum: SHA1: d52f25681e5c594fc202741da40972c92f619e23
+FileChecksum: SHA256: 1fba4a0584ef52589b88940470a99e024ca0490c280a4b88cae90d483995abe5
+FileChecksum: MD5: ef87c5104d7a4bb24d3f1121ebcface4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2023 The pybind Community. </text>
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.codespell-ignore-lines
+SPDXID: SPDXRef-item3280999
+FileChecksum: SHA1: b9780caba169fe331787073975083d16dfb080bb
+FileChecksum: SHA256: 46ba3d50deb7bda13486983f50d6e507b940bfa1427718974370a70a36296294
+FileChecksum: MD5: 5858b5af0cea7cffba00455fb3f75bda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.clang-tidy
+SPDXID: SPDXRef-item3281228
+FileChecksum: SHA1: efaf74895dc6040f2bedbb7d0d9189fca7f6058f
+FileChecksum: SHA256: d5dfe727085ee40f3ee9b4b4965469b17a63cae2858c29c46026f229f78e7cdb
+FileChecksum: MD5: 89547cba585c9b4a08c51914cd451a01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_unnamed_namespace_a.py
+SPDXID: SPDXRef-item3281128
+FileChecksum: SHA1: de7047c5cb7ab09a00e1d726d78d3b084ff38269
+FileChecksum: SHA256: c966a8aab398a161cc926a076337d672b18c84d7286690551717b3259d236e62
+FileChecksum: MD5: 79038edf111e8cf194bdb6bd0df82acb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/cast/eigen.rst
+SPDXID: SPDXRef-item3281256
+FileChecksum: SHA1: d283d5019f140fcfe874a2a1beddf9464e46b0a8
+FileChecksum: SHA256: c834bf5e87cc189c04c5641d13f6c3845297b24c12fdcec05cdba22ed54fb254
+FileChecksum: MD5: d5a1f580032df7f895ff351b4fd92ed0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/conftest.py
+SPDXID: SPDXRef-item3281168
+FileChecksum: SHA1: 0c70fc76d51d38ff68b98bb3b938c452b028acae
+FileChecksum: SHA256: 6a934ad88593249aceda2459fa02907cc55acd129a96cb1f342e96fd3d473aaa
+FileChecksum: MD5: 725999b3678f466318018058081b28a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_eval.py
+SPDXID: SPDXRef-item3281122
+FileChecksum: SHA1: f9d4126c19ebc00613e7f87de3b0a49c7a2cc5af
+FileChecksum: SHA256: 3960129660e6229fd854159d7c95aa42c5675cd35701ff5b6d3adb61f5e792db
+FileChecksum: MD5: 49f3134a675974318eb4941885938342
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/extra_setuptools/test_setuphelper.py
+SPDXID: SPDXRef-item3281201
+FileChecksum: SHA1: 60ba213ebd2637f4c7a6c50a17c4f0db70f96cf9
+FileChecksum: SHA256: 9ac814c7b652eb9d6f199f4983f7f82c1750da8b6474e6fad5d2c10699af0ba9
+FileChecksum: MD5: 2f4afaac752c700b2b5e040460a49afe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/MANIFEST.in
+SPDXID: SPDXRef-item3280995
+FileChecksum: SHA1: 2626145866edaa4109a29d2103cf3d1d6600bf3b
+FileChecksum: SHA256: 0c59958b857440033cf7e4c22d07da28ccca40f596e4dfe319c6151636e9243e
+FileChecksum: MD5: 024b9e40e65fc53cf8c1946bc4b1c6fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_vector_unique_ptr_member.cpp
+SPDXID: SPDXRef-item3281154
+FileChecksum: SHA1: eb901db59cc2c710b8544171cfeca3bfa0d75a73
+FileChecksum: SHA256: 37ef7a4d7e2aafa66b28a1881af3f03315f752b51849a7f8ea3833e3aef65d8f
+FileChecksum: MD5: a5f4d54c3a5b1a12d1ea933a94b8ad2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/cast/index.rst
+SPDXID: SPDXRef-item3281260
+FileChecksum: SHA1: 7f09dee7626994d6372ea694430ec37f87e250d4
+FileChecksum: SHA256: 840c7d6659832ca63a2799b58094c198fab866221a21b9425a15f9fc6604f121
+FileChecksum: MD5: 9712afbbcf280a20f4bdf8b90ccf2764
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/valgrind-python.supp
+SPDXID: SPDXRef-item3281142
+FileChecksum: SHA1: 25b78b301531e5be342523cda08059a4b45cc354
+FileChecksum: SHA256: 5e5993deb2fc23dfac7332ce4cd1135b32edaac3c9aa0fb7e6758efedf51019b
+FileChecksum: MD5: 4f41c6ce4a763f9ea5eb220ba6248265
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_operator_overloading.py
+SPDXID: SPDXRef-item3281105
+FileChecksum: SHA1: 2a28c2e459b68e31dcceac63fef6a98a48d28ba6
+FileChecksum: SHA256: 1176153bec55719ec91aab5b7fd92bfe34abe33f6f58fa7d5a5ce459d5cc2f14
+FileChecksum: MD5: 9582ffa5e430b33519f56b041adf8133
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_union.py
+SPDXID: SPDXRef-item3281180
+FileChecksum: SHA1: 5c6cdba293acd2dc9c88440e450a17fd4dd27553
+FileChecksum: SHA256: 93cd2ff2b453ca0bc3289d60940f0fa6d975fc95b19f68474886549f327f33ee
+FileChecksum: MD5: b027bd26f85570b1c181067b4338217e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/check-style.sh
+SPDXID: SPDXRef-item3281085
+FileChecksum: SHA1: 206896a9673f8ffeaccdd3baa7e51cc12d7c109f
+FileChecksum: SHA256: 4e282e95a44295a59c47e7e364bb743ed1fda2771476fb039cec45ca9f428d7f
+FileChecksum: MD5: 32b3a169e0f2e33e40fdbb1b47dcbee1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/cast/custom.rst
+SPDXID: SPDXRef-item3281253
+FileChecksum: SHA1: c674291665001e6353580738b7c3cd66fe982e94
+FileChecksum: SHA256: 88a2ab3a1449b2269488da23b3d95f916eb429cf5e780a037c90e75ac5fe906c
+FileChecksum: MD5: bcc0dd8a88ce9f934f0d3b0bb1f197b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/limitations.rst
+SPDXID: SPDXRef-item3281245
+FileChecksum: SHA1: 40fda7ba46bd5d92d07a812e4decb2da16ffe6e9
+FileChecksum: SHA256: 4903893b82e1a407b8a6a01da82541faad7d9773e6694be160ea73a8ff333544
+FileChecksum: MD5: 0062f2de901bccd415a8b3fc08094983
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/ISSUE_TEMPLATE/config.yml
+SPDXID: SPDXRef-item3281024
+FileChecksum: SHA1: ffe99131e8eed76dacbae39b6158c9cb5cbc48e4
+FileChecksum: SHA256: f1e889e6c0b92b524573b8c7e69c9e43c2ff5a1d7a0bdce29fb4478d89b8694b
+FileChecksum: MD5: 5b3d39a50e15a185e80533b472588793
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/conf.py
+SPDXID: SPDXRef-item3281267
+FileChecksum: SHA1: bd46bcf78d34c97a939e47e285e4dae1e258f078
+FileChecksum: SHA256: 002e0d53aa5d23de9e293211bdb57fd382c888a2d8b42632f384426d8d81ece5
+FileChecksum: MD5: ee9c46628641ad6f098d54d8053d6b91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_pickling.py
+SPDXID: SPDXRef-item3281174
+FileChecksum: SHA1: 454766e2979c77c13bc25f615835ce5549890a50
+FileChecksum: SHA256: 61d401e796de4368ccddc85d96d0c374380315381a7c1da9fc2fa46117dec8d1
+FileChecksum: MD5: 616275f7900be8229b51ce5623f88723
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/pybind11Config.cmake.in
+SPDXID: SPDXRef-item3281077
+FileChecksum: SHA1: e06b58bf0769d4a734d0435725286daa9471c5b7
+FileChecksum: SHA256: 0242c4cccda0bfb4f8f66e70df60a70757b3eaec57f4fdbf7d4772a4d73f30fa
+FileChecksum: MD5: ff7fe810898a4d449a7e2265515f4902
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/pybind11.pc.in
+SPDXID: SPDXRef-item3281080
+FileChecksum: SHA1: 4d711d1895b26d36a461f7b4878891e904fc1f07
+FileChecksum: SHA256: 3bfaab59e8306730b859a489e690a7a1e4c246debecf5291adbd201255a8058a
+FileChecksum: MD5: dc5c05f7670df1a4e71674ed74b84209
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/object.h
+SPDXID: SPDXRef-item3281098
+FileChecksum: SHA1: 5816bf9540b9ad835fc00b8a986cf4a0670cd240
+FileChecksum: SHA256: 29872aad3041fee0b468f8709f890a9bc0b5b77af9cec18cc0ffacc225353d1d
+FileChecksum: MD5: b42b9031d7111829eb2da34b0e814594
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_embed/CMakeLists.txt
+SPDXID: SPDXRef-item3281185
+FileChecksum: SHA1: 43aea111702a34097c748074775e3231be9443d1
+FileChecksum: SHA256: f7ed2d212adadce0f3ece632803c95a5162bcf7c72b8854b7717a8b4242774e7
+FileChecksum: MD5: 0554ba0d8e2537285bceb810172f94cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/release.rst
+SPDXID: SPDXRef-item3281241
+FileChecksum: SHA1: 082cae7b6b9117ee5b63e391b939783904b86dcf
+FileChecksum: SHA256: ff7ad30a56ac4e4ab903fb7325c997eb7a1d5f4cf8407d75eb4d7107a3b12718
+FileChecksum: MD5: e1b8bc57397fac4bf1f4df6509e3363c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/labeler_merged.yml
+SPDXID: SPDXRef-item3281026
+FileChecksum: SHA1: ea5aaf6fce3840afde1705651c16daf66e5dc031
+FileChecksum: SHA256: 3060acf191b3126ebf96567d57e9acc690e3b8cf95bf5daf5d66c8160ff799f0
+FileChecksum: MD5: 8f82e9b86cfc08f40611e619aaca5e15
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/cmake_uninstall.cmake.in
+SPDXID: SPDXRef-item3281075
+FileChecksum: SHA1: 784b78540143dfd835a340a0186198ed083f067b
+FileChecksum: SHA256: dfdc294572479be844cc61a48a5d476c114f213bbd24ecd5e7156de3a24b7011
+FileChecksum: MD5: 3aa079ab3bdb4c71c0a00518f50e6de1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/pycpp/utilities.rst
+SPDXID: SPDXRef-item3281263
+FileChecksum: SHA1: b406951fce40bde28d3cf714cb02bd6af4ac9cd8
+FileChecksum: SHA256: 9a7874c62addc423c035ce45444506ccffad6af3a676b4ae3dc06a1512c7730b
+FileChecksum: MD5: aea0abd94e4ff697581c697e14ebb5e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/basics.rst
+SPDXID: SPDXRef-item3281268
+FileChecksum: SHA1: 814561b35641178eb61a41dd60c646969bc5100f
+FileChecksum: SHA256: feafbfe4bd7d7b1658c44a7e4d6f946b9537f9807f750e1eb269aaacea1770e0
+FileChecksum: MD5: fca887831f55a065dc1121dc9485cbe3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.gitignore
+SPDXID: SPDXRef-item3281278
+FileChecksum: SHA1: 0f7f0947343dd117ed35133a6b8a7c9d07b45e8c
+FileChecksum: SHA256: e1ada8b8d4ae70c34b49d8df0a8d71a98a858f6ee45892c91cea801632264d88
+FileChecksum: MD5: 420ed5d9712d9c2d87d269f6b68827e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/installed_function/CMakeLists.txt
+SPDXID: SPDXRef-item3281219
+FileChecksum: SHA1: 6c6345def856cada25551298be926c51f4be6263
+FileChecksum: SHA256: 9b54941c2b431cb82c204d46a8c60f78c61e7cbdc82b5bab1a569fe8fd59a02c
+FileChecksum: MD5: 5e2d5e203eb4c3c7bd3dbddc35c7bd8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/main.cpp
+SPDXID: SPDXRef-item3281226
+FileChecksum: SHA1: 73af9124d85a5457ff8eab68769f16295e4e2d9c
+FileChecksum: SHA256: 29efbc3b9c1d5c82e73665b9209c8ebe9d29cac74547224342e54cf0ab0e92a2
+FileChecksum: MD5: fc5a57844bc9f60ea0edbc11900b66b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/pycpp/object.rst
+SPDXID: SPDXRef-item3281264
+FileChecksum: SHA1: 3dde68da19eed8d798c8b13f113c497e827de19e
+FileChecksum: SHA256: 52408728404d7964b6b62c83a130de9686efbec28c30a659c7639789246e157d
+FileChecksum: MD5: 72033821f5b8cfa2d4d74df1b387249a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/test.py
+SPDXID: SPDXRef-item3281222
+FileChecksum: SHA1: be4b10433dbde6012db3be8d38aef2e0e91836df
+FileChecksum: SHA256: 53f197ffaa78253ceafb33f39a8a4d0280ff32e3df13430b8a225fe3ebb6e0ef
+FileChecksum: MD5: db65dcb2ef0987abc3bd2d04ca7ad22e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_buffers.py
+SPDXID: SPDXRef-item3281193
+FileChecksum: SHA1: 6ebb578272839bce28e910b46eb443386a9facee
+FileChecksum: SHA256: 3ec1de4b6dab0f24ce145e180b0c85d657d1b85d298c5301b752b2d96c4ed1c2
+FileChecksum: MD5: 33ba6367395e46fff6f921efbcad3d2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/pybind11_tests.h
+SPDXID: SPDXRef-item3281178
+FileChecksum: SHA1: f01a0f2404ea7295a8988c991114b30ab3c214ea
+FileChecksum: SHA256: 8f3e450a0f474038f7bfe65621124d6cfe56fe032722ace8e0cd8d0c70dd7ba5
+FileChecksum: MD5: 47e5d5de755ef8f952f0a3b7bb37596f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/cast/chrono.rst
+SPDXID: SPDXRef-item3281257
+FileChecksum: SHA1: ed9c97657c3e74b8eef81f006769604193954bba
+FileChecksum: SHA256: 0f0839136dcc71ff4104a41c5cadef367ce2fd16ac8d11bfbf2598608f0cd675
+FileChecksum: MD5: 9822aed3735a0a097c98706fe5143f37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/workflows/configure.yml
+SPDXID: SPDXRef-item3281013
+FileChecksum: SHA1: ab5f005a1a994135ef9bc92c7a1e57b11a231af4
+FileChecksum: SHA256: 9337ca677db4015bb909f07f0d75bdf0b6696fb994eb74ee7876ac86960d4b44
+FileChecksum: MD5: 98f0d7c1e55ae52d067c023407242062
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/classes.rst
+SPDXID: SPDXRef-item3281266
+FileChecksum: SHA1: 130ab3b7a067b28e4198103d07f24cae17964698
+FileChecksum: SHA256: 02bdaaf3994421ca0aa42baf6d2901a93d2c9fd0be995dcf7bbccd55a6d27288
+FileChecksum: MD5: 9705497747e8ca5f37f312dc04cee173
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/extra_python_package/test_files.py
+SPDXID: SPDXRef-item3281146
+FileChecksum: SHA1: ae36fc956d13c6c96ad4153736dec4a9772fcf3c
+FileChecksum: SHA256: 13e873d202c629f90e930bcb1a894054143df9a4b74795d5c064e515654190dd
+FileChecksum: MD5: ec9c523a6ad05ec734cf8484a8777d90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.clang-format
+SPDXID: SPDXRef-item3281087
+FileChecksum: SHA1: 0e474314b0cefe8f49523d04ba78330596fcf598
+FileChecksum: SHA256: 0286e86e7a56fd7799872715bfcea2e711d3716ca593d2b824a9944d01717e2d
+FileChecksum: MD5: 541a25030b6dc342fd8798e672bab5ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/subdirectory_embed/CMakeLists.txt
+SPDXID: SPDXRef-item3281225
+FileChecksum: SHA1: 2288e428e7b93032e622136bc409f1b8827ef268
+FileChecksum: SHA256: d0ac1c234261a896f5989112ece1d0c4dc4fbeaa81607a7065a3e1f5a73bb924
+FileChecksum: MD5: 1639a8dc4a0a1cf7e88cc37029411c74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_unnamed_namespace_a.cpp
+SPDXID: SPDXRef-item3281111
+FileChecksum: SHA1: 0ecd9e5fad889218758b00bc9190752b6a2377ad
+FileChecksum: SHA256: 823b732ff9bfb193c9c6c9ac6c546c3379a91664b2e6fc10e978fe33e18ea94e
+FileChecksum: MD5: 30f991d25bcc51c222dbb8aa442cb518
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_numpy_dtypes.py
+SPDXID: SPDXRef-item3281163
+FileChecksum: SHA1: cedd96cf0ed77a8fedc0e3c6d895a5694db47703
+FileChecksum: SHA256: 37fa17d8f6e0bce7b472389748e4b7f57e134756d8dd0973b03ae34d00992ad5
+FileChecksum: MD5: 96d9a53d2f19539d5bffb69118407df8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/labeler.yml
+SPDXID: SPDXRef-item3281021
+FileChecksum: SHA1: 67f393620c0996f4ad4d22c3bbf002a51ea51766
+FileChecksum: SHA256: 5c53c1a985101c9d1c1e1b2d86ac096c0b4ab718491254f671ecb3e7e9ef9a10
+FileChecksum: MD5: 2c1d54a3d8be7a0ea93c549f1d534054
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_type_caster_pyobject_ptr.py
+SPDXID: SPDXRef-item3281103
+FileChecksum: SHA1: 132b7d765dc52bad53a4c7cfd242b51838f4c7f6
+FileChecksum: SHA256: 399f160f761f6bfaf25d3ed61eaa7d4da634df88ad883c65b38dc8fc04fa89b4
+FileChecksum: MD5: 341c7c3e1c4b1a7cfd9d8b8c3a373482
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_constants_and_functions.py
+SPDXID: SPDXRef-item3281117
+FileChecksum: SHA1: 427ad76a07d1b15fa6e3ede13ad29c4be9191638
+FileChecksum: SHA256: db03aad0a35959e11539cb1916fdb89bf653d904261e3034a5cd8226efe736e0
+FileChecksum: MD5: 8fa2faa5e4ea249a95bbafe143191390
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/env.py
+SPDXID: SPDXRef-item3281153
+FileChecksum: SHA1: 9d1c66542eadef92642382a0b08a3af28ae6bcc5
+FileChecksum: SHA256: 981bf2e2706e600446ab87b45858aa4478b69457e6f8cba297684f226a7bed05
+FileChecksum: MD5: 5f8aa8dfbaaead5cda3e6337944d62dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/FindCatch.cmake
+SPDXID: SPDXRef-item3281076
+FileChecksum: SHA1: 4e3283f59b12017c68a650d531ab454dd01799df
+FileChecksum: SHA256: ec3e06c04de5830ff4cbe34c1aa9064bd69311716d7866e3dd9817957af78360
+FileChecksum: MD5: db397a06651d8975f90fb5c45796e6f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_exceptions.h
+SPDXID: SPDXRef-item3281115
+FileChecksum: SHA1: 1532bffa23891a4909bc88b6e5eac48c219e9a77
+FileChecksum: SHA256: b58cacadd2185e822b39215faa4993118e401b233e762e233facbd40b3f594f6
+FileChecksum: MD5: f9d20e66f40952d2e067a34412a991bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_call_policies.py
+SPDXID: SPDXRef-item3281160
+FileChecksum: SHA1: 1ac2435c04fd637b71866a2e766963b26a9c70dc
+FileChecksum: SHA256: 4a1e96f26665ffa5844b7c25d17837ef00d12adc2f7d360de0a56b6cc8e01828
+FileChecksum: MD5: 4785b66ea9cebd13e549a449c2e41907
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/embed.cpp
+SPDXID: SPDXRef-item3281215
+FileChecksum: SHA1: ab85a76b84a1c5165d73b1fabccb7accbcbfcd59
+FileChecksum: SHA256: de11a2b64b4a4bd6aa611e773e0f521940bd873536df54b2e97048ccf226d877
+FileChecksum: MD5: c9a229ac201e106a5d652949f05ddfb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/classes.rst
+SPDXID: SPDXRef-item3281277
+FileChecksum: SHA1: 766a0265c2ac02311600f648d66c598fbc996969
+FileChecksum: SHA256: 01e14c8b512c6e7307e58acb3cc2e695074b8b2412a7ad9a1abc2f3eb86615bc
+FileChecksum: MD5: 214e9c72977fbb898c757aa7302a86e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/SECURITY.md
+SPDXID: SPDXRef-item3281086
+FileChecksum: SHA1: c09bd217193767741a71011b1a76f3bef1cc08ee
+FileChecksum: SHA256: c215a0badf3e980239d2cdbfc152f9455b7bb224b1e5e8bf18d6059c04756ea2
+FileChecksum: MD5: 65efc7b9e8737f6ba8390934f5d4518d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/compiling.rst
+SPDXID: SPDXRef-item3281244
+FileChecksum: SHA1: e7fed77a9c8d6b094294f4fdc756b8c24825543d
+FileChecksum: SHA256: 9716655eac8922cbaf8cd8cee3f9e64fb40dd9e6c4b3df8db3b49c7a13368b00
+FileChecksum: MD5: b3e82fbad6aec652470fe4b479cfc72a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-file
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/benchmark.rst
+SPDXID: SPDXRef-item3281237
+FileChecksum: SHA1: fc348ecddd66816a5063ad4fab2e771ed6f75f19
+FileChecksum: SHA256: bb833ddcce151979efc11d6737cbbba9da2df25dcdceb927bbb199590e0292d0
+FileChecksum: MD5: f1661adb00d5dc3805ebe5a657bf1412
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/extra_setuptools/pytest.ini
+SPDXID: SPDXRef-item3281200
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/pybind11Common.cmake
+SPDXID: SPDXRef-item3281072
+FileChecksum: SHA1: 04c52df8cea73b5b770f9c892e1c542bdbc73816
+FileChecksum: SHA256: 257cb668072dca0144456c9acd44714e4d235b5313718b6f68e2fff0a163356c
+FileChecksum: MD5: cb5dd2a752c3f8966bcd12129a541b8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_virtual_functions.py
+SPDXID: SPDXRef-item3281124
+FileChecksum: SHA1: 92a8b44de22e1d231205b5aeeea5fa6772951898
+FileChecksum: SHA256: 93f96a4c0ba5286eb84b61f82544aeac2b3a4747820f96968019cb8aa41d948e
+FileChecksum: MD5: 06d3f23f4eed26cf8256f558b952ba43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_thread.py
+SPDXID: SPDXRef-item3281139
+FileChecksum: SHA1: 2d6be4f5b87bfad1c05109c0741e52594deb1952
+FileChecksum: SHA256: d14398453814e029f637232a2974c244fbcb3d5d95669d6dbf983f1828895512
+FileChecksum: MD5: 7dca900c3e31d00ff35edd330799a72a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/pycpp/index.rst
+SPDXID: SPDXRef-item3281265
+FileChecksum: SHA1: 3135de5ca83a850667b97570d6ca9b4025f0ced3
+FileChecksum: SHA256: 67846224822a7aa9f925ec8af0c2d432b105e38f4413f7f8718d228ea8aea3ca
+FileChecksum: MD5: f42e9ef00f660ca8cf7419b6c4d27340
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_opaque_types.py
+SPDXID: SPDXRef-item3281091
+FileChecksum: SHA1: 2791d6256214b7c09d1bb85ef477f27a40575278
+FileChecksum: SHA256: f4d0bd0956d32027201d138f0c42f0a7c700383984862009668ae15c954eb05c
+FileChecksum: MD5: 2666b906f575847dd437cab64e2668f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/cast/overview.rst
+SPDXID: SPDXRef-item3281255
+FileChecksum: SHA1: cc0ededfab8b8d9363350fa17a32175c5865a109
+FileChecksum: SHA256: f3ca91aa9cf69443d1e2a3ecb59f021890a51a7ba4995b5d064b544f73799a27
+FileChecksum: MD5: 5f1bb02aab3e30ceefd4f3757ef47ad9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/pybind11_vs_boost_python2.svg
+SPDXID: SPDXRef-item3281230
+FileChecksum: SHA1: 8c10e3cbcdd6c6692e4cd1142e001a3928b7e716
+FileChecksum: SHA256: 246ebe37d637704005174d87fc28caad4e6eb2b136d860e04f4ed7fbe23f32d3
+FileChecksum: MD5: 97d5b573bcf2d6641edd93e30338863c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/libsize.py
+SPDXID: SPDXRef-item3281084
+FileChecksum: SHA1: 8051a9bed1361c28023a18e6d301634e22bcdfd4
+FileChecksum: SHA256: dcc0590c28b4fa474a7a2ffa45c4db995260b664f8b9d07e58817e98e3cb043e
+FileChecksum: MD5: 67b76ed064f6b236af7829258ee3fe94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.cmake-format.yaml
+SPDXID: SPDXRef-item3281279
+FileChecksum: SHA1: a0c2c45e84c6626017c787f714ddc6c2eca983f1
+FileChecksum: SHA256: f033e56752d8b4427e4b4b38ba3c85b455afdd8868f092ff1fb1fdeb25c9398d
+FileChecksum: MD5: aac07ba78a7bbf46f1551c206b360d2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/pytest.ini
+SPDXID: SPDXRef-item3281102
+FileChecksum: SHA1: a0679450842f1fa2a6489c01ab94aee08643a962
+FileChecksum: SHA256: 72ece25d5cec020280e7bd551bbfb477610ba2bfe695f07547dd2fc26285d610
+FileChecksum: MD5: 35a96eab3f9790cb535edea619816552
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/workflows/upstream.yml
+SPDXID: SPDXRef-item3281015
+FileChecksum: SHA1: 5b12e20abe0bef0605f8a59a31e0546f1805a810
+FileChecksum: SHA256: 9b8de92bd5c092b491b6e5d091c15d8b468d691135a82743f0f5377c2d6068d5
+FileChecksum: MD5: cfc67f4619b21b2ba1ded6583a660e25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/CODEOWNERS
+SPDXID: SPDXRef-item3281019
+FileChecksum: SHA1: f1e66402e93058624cda78ce457dc7571fe59883
+FileChecksum: SHA256: 9ebdaab465f1c0f6beee7cb4b4212e4b6c8f8e9d3441302fd4ac2a08ec811ffd
+FileChecksum: MD5: 6ab0d08a3daa58367df286ee6bfbbbe3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/pyproject.toml
+SPDXID: SPDXRef-item3281028
+FileChecksum: SHA1: b7f3925021b2d7fd1f776c8c8703a066abf00bfa
+FileChecksum: SHA256: bdb4af0b28e783c4d787ba221a2268c14b3a5c682f91c4a4bfb2c473f429c1ab
+FileChecksum: MD5: baabf937917f90d5939aadf58be83d00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_numpy_vectorize.py
+SPDXID: SPDXRef-item3281095
+FileChecksum: SHA1: b8a8d6195c8af522476743f5c799ee891fc518c1
+FileChecksum: SHA256: 4e268bfce7f7215e7810bd367714901f14226913df5c4d88a3fadc34c45b4a49
+FileChecksum: MD5: 35c9a15fe2ea9eb56046249bc93c23ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_pytypes.py
+SPDXID: SPDXRef-item3281148
+FileChecksum: SHA1: e144523802818de8f127043fdde85c578352f5f4
+FileChecksum: SHA256: 86047293c95d7792adce8fb31ce3501a35f404d1b1a86257a472fc022ec8363a
+FileChecksum: MD5: 306241eb377a0b5c9cbcfaba03966aaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_embed/external_module.cpp
+SPDXID: SPDXRef-item3281187
+FileChecksum: SHA1: 3b27bbd725c7daa847699ca977d0fd6d40fc1ae9
+FileChecksum: SHA256: 67ddd8e606056099bafcf97ed4cc6bb6a4d44953663cf0f33d95fc59966bb2a2
+FileChecksum: MD5: 8d45d38788265ad3607216a436a53a21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_gil_scoped.py
+SPDXID: SPDXRef-item3281107
+FileChecksum: SHA1: 5d6dc4af07ee132fef485f8c64121253dc679044
+FileChecksum: SHA256: 8b3506c31a019ce9a03db4cb57735cafb9f3747394ec6b13e64ac9c0cca4773c
+FileChecksum: MD5: 5c823e4f2692fd2dd25aeddd5eae6534
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_class.py
+SPDXID: SPDXRef-item3281116
+FileChecksum: SHA1: bca1f8e3e6d72c44e1a1ef6eb8cd82856ae7f4f3
+FileChecksum: SHA256: 4a253923e90434279efb829a00f5587a6edc9980a7d91995cc3827b9c4cc0f4c
+FileChecksum: MD5: 41e03299ffa801706c44bc8c3f0d2a47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/upgrade.rst
+SPDXID: SPDXRef-item3281232
+FileChecksum: SHA1: cba6dbf7709a8325ce9e13301abc6c2c5d793b40
+FileChecksum: SHA256: 22b429f125c97683379b095c0007aec5c1ac8218f74c34eb1448a830cdc7a6b2
+FileChecksum: MD5: 0c175c7ad1d8a3559b9f5712d9873e2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/pybind11_vs_boost_python1.svg
+SPDXID: SPDXRef-item3281238
+FileChecksum: SHA1: 56a4ad99d5155ec9b2bf047a4a8ed43eb2f65293
+FileChecksum: SHA256: 103daed215a55dcd7f96e4f5566131f5c823e1a9ebc9df83c97d09ff8cd9de37
+FileChecksum: MD5: 2dac031d6c2ea0ddec740887da5f6939
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/workflows/labeler.yml
+SPDXID: SPDXRef-item3281012
+FileChecksum: SHA1: 918a5d0b83b946878db7cdb543bcc703280de79e
+FileChecksum: SHA256: 8ca606ffef1f1bb7d710a2c2361e155a687bbdf2720cb502bf73f191693a9a8c
+FileChecksum: MD5: 568c6f357f7927c0405d93f62af497cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/subdirectory_function/CMakeLists.txt
+SPDXID: SPDXRef-item3281221
+FileChecksum: SHA1: dfd5697425906990ab3ac5525707b5c322c468ef
+FileChecksum: SHA256: 1e33a48d52406014af46264ba74f4274c0ceee86cf32a19c6d87dbe5f3906293
+FileChecksum: MD5: 0f5c96f94baf4284a3e2309a524bbd96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_eigen_tensor.py
+SPDXID: SPDXRef-item3281114
+FileChecksum: SHA1: d0a6b2236a6b867089c547cf9d22b97e4a401022
+FileChecksum: SHA256: d43a470feb4323f75246242ee7278dde61d9e495f93a5ba69c475b5712181ee1
+FileChecksum: MD5: 014afcab833b6f16fafd01619b3b2b31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/pyproject.toml
+SPDXID: SPDXRef-item3281079
+FileChecksum: SHA1: 8800e9b03098389bed6af8c002cbf13f7f26a777
+FileChecksum: SHA256: 24f00b18b227124ec18a89ab889f7108a416eafccef36ac0bc54a7d75db918c0
+FileChecksum: MD5: c3c01fbb02e731adb3e82d3ac409deed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/installing.rst
+SPDXID: SPDXRef-item3281231
+FileChecksum: SHA1: 78d2008e88370323e8d242bc57ea93e8912ff390
+FileChecksum: SHA256: 83194ddc358867d0e7f948cae27a592eabb43ed989603907f81fd7fa1464b0a3
+FileChecksum: MD5: 663472600c2062902a91296800f99746
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_async.py
+SPDXID: SPDXRef-item3281096
+FileChecksum: SHA1: b8a93a78e89afb7b0a5a5e303505b2f0f6aca179
+FileChecksum: SHA256: b9830ebd34545da3f9c4d03268157a750f8cd419a234bb1a51e9393afe937ba8
+FileChecksum: MD5: a3ac5e62de30744b24f692281cc884cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_embed/test_interpreter.cpp
+SPDXID: SPDXRef-item3281188
+FileChecksum: SHA1: a756ea1a9a217a7d46342b7449837becef0a57f3
+FileChecksum: SHA256: 8b8461d0c4cab57d12cdc58998e18060e3d7d04d02c9a7780c83eabc6c725b0c
+FileChecksum: MD5: d681192aa65430b0ca710fa7241f2857
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.pre-commit-config.yaml
+SPDXID: SPDXRef-item3281000
+FileChecksum: SHA1: 8db4e7d27fd392684eb32cc398d835374f3575a9
+FileChecksum: SHA256: d3fa8c2082921c04c8322929e127e25cad34fa61c224e7e9420c95fbd4502c13
+FileChecksum: MD5: d0650f0408c3a0c6c00f5fb0957816a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/pybind11_vs_boost_python2.png
+SPDXID: SPDXRef-item3281275
+FileChecksum: SHA1: 56e6634e122fec544a74d09c5898b63e2008e87b
+FileChecksum: SHA256: 724a5b94fe8b104996de044c7ea72a4c781e244a45976fc508162bf2e2b7b3f2
+FileChecksum: MD5: 309567a435e335c81d8e3a40163488ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/pybind11_vs_boost_python1.png
+SPDXID: SPDXRef-item3281271
+FileChecksum: SHA1: c544737047d5fe270bcec41580409ee40c2284e8
+FileChecksum: SHA256: 2845c0aa832cbb21ce38397fb850730610b786c988ea2ee8cb5db7130795f91a
+FileChecksum: MD5: b725b66304001dea8b6f569bf35187ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/exceptions.rst
+SPDXID: SPDXRef-item3281250
+FileChecksum: SHA1: 1e386c0b11fddeedaf29a20ed6621d02ef3f833c
+FileChecksum: SHA256: cc2aa79edb373131238b006b48abf9054ca6315dbc19211b45ef00997b58ee1e
+FileChecksum: MD5: 7fa4d984999aa3bf187ded0fe0c063a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/smart_ptrs.rst
+SPDXID: SPDXRef-item3281251
+FileChecksum: SHA1: 77e8ed83d1280ee5355ccdb62f2936cc10b9b32d
+FileChecksum: SHA256: 1f790da4a73845f43ca6d00cc3aa1d24e0b3e821ee4c541726a83e275e045f0f
+FileChecksum: MD5: 05f81d057832756c1bc1ec1df350ae11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/local_bindings.h
+SPDXID: SPDXRef-item3281106
+FileChecksum: SHA1: 05fe83132031c506a4283efee47d1758e2a8ae88
+FileChecksum: SHA256: 01d7510bd7b816eaea18db308ab4aef431345c37b40d206739ecfc31624a1ce3
+FileChecksum: MD5: 7f13bfe914b9d28db333ed56fc72b43a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.gitattributes
+SPDXID: SPDXRef-item3281029
+FileChecksum: SHA1: e65ec04ff16a4809fa13cdce7110afc58e5c7f71
+FileChecksum: SHA256: d38ae490e2ccdf82e14e3dd109fdb5778a8402b248d84f853d10cf67275c2508
+FileChecksum: MD5: ae465df39fabd23e383fa70ac0ac425f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_methods_and_attributes.py
+SPDXID: SPDXRef-item3281167
+FileChecksum: SHA1: 86f15998008bca29bea1be6bd30a78b86f8b1c06
+FileChecksum: SHA256: 318426fbb455c90a50b7e1aff23c5284c7d3661cfc8e5d6b2d8b4ade5ae686ad
+FileChecksum: MD5: 0d52504b3a94eabbf489849c94703bab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_builtin_casters.py
+SPDXID: SPDXRef-item3281104
+FileChecksum: SHA1: d73e60129056a910abb49af31af9cfdbb0bc83e2
+FileChecksum: SHA256: 0a5ed7bd1d405abee8c49144702b5eb88ee8b2018739c8d2ad598d72991c6ae3
+FileChecksum: MD5: 1ee41cd58f461163dd7fcc97012454c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/pycpp/numpy.rst
+SPDXID: SPDXRef-item3281262
+FileChecksum: SHA1: 3f5bb21455b9e68b2cbcba3b9d2e7fb4f4352b97
+FileChecksum: SHA256: 07ef512d2ce31d061eff66e1077bf5b2357621497737b20ab23b9646ac52b91b
+FileChecksum: MD5: b5b869e3e002b78a4c0b0775afde796e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_const_name.py
+SPDXID: SPDXRef-item3281155
+FileChecksum: SHA1: a32c196f63af2004cf90c21a372ea51e8c3835f1
+FileChecksum: SHA256: e26d811f344f8a8df525d22f2cd372239b28a0bf528cf2f1da63c4097b03db2e
+FileChecksum: MD5: 13257dd1cd63d9915d474ba113781e8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/codespell_ignore_lines_from_errors.py
+SPDXID: SPDXRef-item3281082
+FileChecksum: SHA1: b47231c1683c6f74b8f005056e31a22b8afd74c7
+FileChecksum: SHA256: 6d3b3b412d7eade58bd38712e82f8587817e4d35c180b2217a63b881f45a220a
+FileChecksum: MD5: 5b5ba9b78b0fc294b248f86022db25a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/advanced/embedding.rst
+SPDXID: SPDXRef-item3281249
+FileChecksum: SHA1: 68d7f5d8e0e944972a04f60c4ff79803f339ee17
+FileChecksum: SHA256: a1633def266d96e49423e02b0fe83f8617d8c515e2b5cd7456d93ad7672ca5e8
+FileChecksum: MD5: 443e6f6635ef6dc84986c7981e16770f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/matchers/pylint.json
+SPDXID: SPDXRef-item3281018
+FileChecksum: SHA1: c2fde25770d1a161009ebbdbc0d7be6f1b9c5802
+FileChecksum: SHA256: 3d2fac15cc40237cfc4014902a5062787f35213994faf1cdacedcb282c96da6e
+FileChecksum: MD5: 16fdad772b7fe393c03a5fdf2c9eecf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_modules.py
+SPDXID: SPDXRef-item3281197
+FileChecksum: SHA1: 8bfc5382f9bb0b25983e95d64ed16c6ee4d742d3
+FileChecksum: SHA256: fdb44d5e500c68fd002758353c2e395c695a1598b3696276b7b1fdf9036dbf8e
+FileChecksum: MD5: b7f8646c0e297811790d65f89abc6e23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_type_caster_pyobject_ptr.cpp
+SPDXID: SPDXRef-item3281208
+FileChecksum: SHA1: ba77d3f7b484a9a6ae4c8525d3be32c3012c5844
+FileChecksum: SHA256: cf472658200050ca8bdbd253059ed451b0689a1ee91f5b839e50ddd3bac23941
+FileChecksum: MD5: d4293a5a0532b50059653643a3f2f016
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/installed_target/CMakeLists.txt
+SPDXID: SPDXRef-item3281214
+FileChecksum: SHA1: cfcf5e76bfb2627fc6b9a3a354ec8f1864b55655
+FileChecksum: SHA256: 03b7272a18e2244bf25003587f1f73d569fa46a20c78d0edcff9775a11dc5554
+FileChecksum: MD5: f1b6262f092ecdd574482502562e4687
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/workflows/format.yml
+SPDXID: SPDXRef-item3281016
+FileChecksum: SHA1: 7ef44ce9fc5912ced690251bad100ad21bbfbb8f
+FileChecksum: SHA256: 9d93755fdd5fb0414550923951b61aad0c05b31b2436df2b98bd2b76d7418271
+FileChecksum: MD5: 75d26d52a8dfe7c84b17cc0ced7f6736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/Makefile
+SPDXID: SPDXRef-item3281239
+FileChecksum: SHA1: 3b9f333a47d9c6b845775c3fdd3838b8d1532453
+FileChecksum: SHA256: 36e33deeebeda7d752af352ea2e87e427cf5c72eba1a3d54e11d2f8f8ccc2737
+FileChecksum: MD5: d87e62c4a51c2a44a1e11b4980358da6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/cmake/index.rst
+SPDXID: SPDXRef-item3281243
+FileChecksum: SHA1: 1f9029b01c54f1b5c0541db354dfa3bba90515f8
+FileChecksum: SHA256: cac48e25b4e00a25c768c5adf8af5415725d610605bc0119ca160d352ab815f3
+FileChecksum: MD5: efde874120bd380188ec6ab700ab41ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/benchmark.py
+SPDXID: SPDXRef-item3281240
+FileChecksum: SHA1: a3cb04e4e7d65898e337759bf810deb3952f5c93
+FileChecksum: SHA256: e98525d6f2412ef924f51e60b75cda3f05692547a5c3f3ecdd1d1ed4225f3f45
+FileChecksum: MD5: 90a96649b75ce1767d1f748471024b00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_vector_unique_ptr_member.py
+SPDXID: SPDXRef-item3281164
+FileChecksum: SHA1: 3874600bafdfd1205d8922fcda2132eba3e5979f
+FileChecksum: SHA256: 187dd6f570a3b3ee191956cf4b02fab5632ec07de5a368d64c8cbfe44ae89483
+FileChecksum: MD5: 3f71c445a6c6c2050e39252d3f4d94b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/pull_request_template.md
+SPDXID: SPDXRef-item3281020
+FileChecksum: SHA1: cb96e66a1ea7c6902cf12cc5407ee979ad5f7739
+FileChecksum: SHA256: 308325197a3c2b54cebd739c7aca8cbcd37c5eeaa6fc1668738ab786c82f2d46
+FileChecksum: MD5: 13fee24b44b54aa7f1e019f36f617bed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_embed/catch.cpp
+SPDXID: SPDXRef-item3281183
+FileChecksum: SHA1: 0c64059be8acb8f02111692d69c0554a11911adb
+FileChecksum: SHA256: 03cafe446b4c6c3481a202b9a590fcca9811f130a38c1810e0f591e9c7f6fbe8
+FileChecksum: MD5: 629e3eb23aaadd98d0ecb1107cb7fc6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_copy_move.py
+SPDXID: SPDXRef-item3281092
+FileChecksum: SHA1: a7319298fa481a81e9a8adb51a1f84859b0e63cc
+FileChecksum: SHA256: 8372a8fe588f5c7d47a06311175f2b2b9b823e667756644ce0d678345973af9d
+FileChecksum: MD5: 1d89ddf1a810256a634f0622aa5f75ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_embed/test_interpreter.py
+SPDXID: SPDXRef-item3281186
+FileChecksum: SHA1: fd2a4cf4d9842a487be739ed50c3c01ca387cb7b
+FileChecksum: SHA256: f483a4abdcc012f1f049f6298627d7e3886273423150b8abb12c69398ca578f9
+FileChecksum: MD5: c0aadf2027e710e0f9f225a02e25b6f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_multiple_inheritance.py
+SPDXID: SPDXRef-item3281134
+FileChecksum: SHA1: 261ee3a92e53edde4750e6d9076f797e8917cd42
+FileChecksum: SHA256: 4cc7c572204a0964ff1cc12225de2bb0ce5401a874bf00ced9c7bcd2099a8c25
+FileChecksum: MD5: 26ed5ec8f88a88b4e3d6680f9799d3c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/pybind11/_version.py
+SPDXID: SPDXRef-item3281007
+FileChecksum: SHA1: 7edfddd26902c32cdcb25157f1d80290b53a4652
+FileChecksum: SHA256: c14263fb329b7ac71832c340d7b8991d4320cf2f7d6a10ae7160d5e0a3213c28
+FileChecksum: MD5: 999a4021665fe6643655db3d5f1a8639
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_cmake_build/subdirectory_target/CMakeLists.txt
+SPDXID: SPDXRef-item3281217
+FileChecksum: SHA1: c5c064c931f6acb1d9842464fa7a2ef99d06b8bf
+FileChecksum: SHA256: 7558a2213e615613698a735c4cfed268a9dbf66a8b87e5e05d0acd9878c4e8b7
+FileChecksum: MD5: cd28ba1eb254f02dbdbe46dbb1d970dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_chrono.py
+SPDXID: SPDXRef-item3281120
+FileChecksum: SHA1: ad364b52dd421883f7c5debac1bd5cb28e7bcf8f
+FileChecksum: SHA256: c16463e2db9bf7deb3b6f338ec8df6537578661e05cabb2db35d8d5950ba29f1
+FileChecksum: MD5: 57505911075538c6098d771e1dd75a75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/requirements.txt
+SPDXID: SPDXRef-item3281170
+FileChecksum: SHA1: e3bd03760f5e7c363b7d941c8e6609b726eed702
+FileChecksum: SHA256: 2e4dfdcb2ae1cc61e5884f6fc69a30a349a42a144942982c24a9753b8819e9fa
+FileChecksum: MD5: 993413edc3b42ff138940b5bdcab3ba0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_local_bindings.py
+SPDXID: SPDXRef-item3281179
+FileChecksum: SHA1: 5efe9518232035ae80922a8b3feb4a3388e89f94
+FileChecksum: SHA256: 6786aea5d77c56ac042ff62da9ab8f8ac3060d0f7a5aadaed165fb4e582cdcfa
+FileChecksum: MD5: 8acb07992c9d87ea7f4adad480f5904a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_custom_type_casters.py
+SPDXID: SPDXRef-item3281194
+FileChecksum: SHA1: dc6508dc338f6d9d894dac3f72fa11b2ac960976
+FileChecksum: SHA256: bbf2de8f7d5fc7ad663f3a25ed4e17af75864b20f86982802a99be9e361b479b
+FileChecksum: MD5: fa3a18b73344b2b41d54f75b5b0b07a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/make_changelog.py
+SPDXID: SPDXRef-item3281071
+FileChecksum: SHA1: 9895619000fcbe127066a8c3da9e78574b92c73b
+FileChecksum: SHA256: 5b55809ed9f1c48f2f5a9e893e291a898e854e8378be961c5c50522613fb65d3
+FileChecksum: MD5: aa93275fe0d478d99ddf5fe4ee8c1bb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_exceptions.py
+SPDXID: SPDXRef-item3281127
+FileChecksum: SHA1: 8a1bf625f7f4c14efb2b3379021ab264dfb6d921
+FileChecksum: SHA256: 754cabafefa5756099732ceff2f47bc598cca83da392cb738bdf06b771904bea
+FileChecksum: MD5: c4f386477783e8f2dd720ccde345663c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/dependabot.yml
+SPDXID: SPDXRef-item3281027
+FileChecksum: SHA1: f3ff3493f637e7ab60a552914809eb4202045d23
+FileChecksum: SHA256: 523c3135f43d071f6ce04e339465cd8d2fdba50ba2116c96cbd944084766a1de
+FileChecksum: MD5: fd74e5feecee5ed4e0753317189470d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_tagbased_polymorphic.py
+SPDXID: SPDXRef-item3281113
+FileChecksum: SHA1: 552e1bc3e419f7b3d841b9f937bd4777dc3dff9a
+FileChecksum: SHA256: 48e651bc3edd3be77cc8dd2b77074dc2e89ead9fd048607119d1f2afc8c08392
+FileChecksum: MD5: 901c9ad5605efd253a99ee0d967f9f6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/Doxyfile
+SPDXID: SPDXRef-item3281272
+FileChecksum: SHA1: 49c657c7687f720f359f86c062e8d919591ca7d6
+FileChecksum: SHA256: f30a44a02ba041cf5918377d148363d062808891105d8f6a298f8ab624f2e027
+FileChecksum: MD5: d630f8f2c3ecf53ed73ba069b3f1857a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/workflows/pip.yml
+SPDXID: SPDXRef-item3281011
+FileChecksum: SHA1: 7eeaa993204efe96f5f4a555272247d9ce8a14fe
+FileChecksum: SHA256: 8c11287c88d4817ced108aa328e16394b68d07d5a61e2d1f572bb26793da5e44
+FileChecksum: MD5: 6777b49c1b6f12ad1b29a6aec0e5fa40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tools/setup_global.py.in
+SPDXID: SPDXRef-item3281083
+FileChecksum: SHA1: 7ee9876024afb9a2bf069355db2059c8ac993133
+FileChecksum: SHA256: d35b7a8d38692a53f20f74891963e3d5a89e8c60331adce59bf5e3458e1fb073
+FileChecksum: MD5: d3e52d1e2fc0822b628c3c1aadfdb9ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_eval_call.py
+SPDXID: SPDXRef-item3281176
+FileChecksum: SHA1: 1728e31f1a3e52d33fbcc369fbea329e87ce5774
+FileChecksum: SHA256: 4afeb1460f0ee8f173f5bbb813e4a780a98a0090d1fb3a2b681e03271888c2c4
+FileChecksum: MD5: a429ba385434272b54c9c8ec365b405a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_smart_ptr.py
+SPDXID: SPDXRef-item3281089
+FileChecksum: SHA1: c7373d589efed77c7d98549993daa16e6c6b7244
+FileChecksum: SHA256: 3e0e2caae91d5972d06f390fa56fee270083f2ddc2fbeb5746192b41a395e8ba
+FileChecksum: MD5: 300150ca4bf3ed74471e0021faf36a94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_embed/test_trampoline.py
+SPDXID: SPDXRef-item3281184
+FileChecksum: SHA1: c6ff971c5eb037d1d555e147789d39fb37b9069a
+FileChecksum: SHA256: 226c1eab9fd204c5401eadd9d9993604185db14d39d6f9500834cf08dfd51c53
+FileChecksum: MD5: e2f507b61f4763fbff71453db73e005b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/noxfile.py
+SPDXID: SPDXRef-item3280994
+FileChecksum: SHA1: 000d4a70f80ffa838a3e0c2724d76753b75cb2e6
+FileChecksum: SHA256: 6714f88a32db4aba127af33e05f522e89b5910f5e900c25747b1765e86db814a
+FileChecksum: MD5: d164712b1c83a97a0602336764176f20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/reference.rst
+SPDXID: SPDXRef-item3281276
+FileChecksum: SHA1: 3423b7e8ac61ecb3c5b82969917b4fa5b6b85afa
+FileChecksum: SHA256: c6d62a97b2d21a1f37dac07859a4512e20be76ee31bbfb430a9f20b91c75a65b
+FileChecksum: MD5: 03f5a0eb6b63a0c4c4bfb7c6a6b29cf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/.github/ISSUE_TEMPLATE/bug-report.yml
+SPDXID: SPDXRef-item3281023
+FileChecksum: SHA1: da11163dfd37ad4c20e9429f1b47462bb47e01c4
+FileChecksum: SHA256: ff158c5cc2d856dbfc2daf3f04e6a0105717eebdedb08d41ac932543ac55814c
+FileChecksum: MD5: 3c110da0915a4a01c7d528803ff784f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_stl_binders.py
+SPDXID: SPDXRef-item3281137
+FileChecksum: SHA1: 52641ff33d66a51140f63f8f50b15e563582c462
+FileChecksum: SHA256: 41fde27990040bf45d1e3849452a84248bdf64d0c8f55df953bec8313daf0756
+FileChecksum: MD5: 4f282d95865b895918a36198198fb20c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/docs/index.rst
+SPDXID: SPDXRef-item3281273
+FileChecksum: SHA1: 5caed52fb683e1bda2594360b21fd8b842b828e6
+FileChecksum: SHA256: 5a9fd0e21182db0dcdff70592e92572a8d977d4d3542b0e60f339e83f7204fb3
+FileChecksum: MD5: 4544bfb3665cc06b0905ecf0316e91ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_factory_constructors.py
+SPDXID: SPDXRef-item3281130
+FileChecksum: SHA1: 41b420bf5a2ed5f0c6cbc15490600f2d8bc36ae5
+FileChecksum: SHA256: 8c3fa777e4ae2334a67b975a8361e60f15f3d77e9928f3b5119aa0b31fe5436d
+FileChecksum: MD5: 673bc9de2026312196a420022cd405d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/tests/test_custom_type_setup.py
+SPDXID: SPDXRef-item3281093
+FileChecksum: SHA1: 788b882acbd9bc654def9c4b69b7be8170856f61
+FileChecksum: SHA256: 66fc491612f5549f8a30249aa22742b3eee02493d3effad3f1db0abb2ba2ade5
+FileChecksum: MD5: 2be7e9958a67f6e08ef7202dc4a8dbf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: pybind11-2.11.1.tar.gz/pybind11-2.11.1.tar/pybind11-2.11.1/pybind11/__main__.py
+SPDXID: SPDXRef-item3281006
+FileChecksum: SHA1: bcedc210807592cbc014715187f35336de4eb43f
+FileChecksum: SHA256: 0132e58459610710d7c715c47e77f617545c461b96375ce23306e6ac6ba189fd
+FileChecksum: MD5: 0f3fe348430e22f66f2850132ae5a5c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+LicenseID: LicenseRef-UnclassifiedLicense
+LicenseName: UnclassifiedLicense
+ExtractedText: <text> An unclassified license reference looks like a license (it contains common license terminology) but we don't recognize a specific license. </text>
+
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+LicenseID: LicenseRef-See-file
+LicenseName: See-file
+ExtractedText: <text> This license means that you can get copyright or license information through a reference file.
+
+one example below:
+/* 
+ * Copyright (C) 2007  Olli Salonen &lt;oasalonen@gmail.com&gt;
+ * see btnx.c for detailed license information
+ * 
+ * revoco.c is under a different copyright. See that file for details.
+ * 
+ */ </text>
+
+LicenseID: LicenseRef-Dual-license
+LicenseName: Dual-license
+ExtractedText: <text> Multi-licensing is the practice of distributing software under two or more different sets of terms and conditions. This may mean multiple different software licenses or sets of licenses. Prefixes may be used to indicate the number of licenses used, e.g. dual-licensed for software licensed under two different licenses.
+When software is multi-licensed, recipients can choose which terms under which they want to use or distribute the software. The distributor may or may not apply a fee to either option. The two usual motivations for multi-licensing are license compatibility and market segregation based business models. </text>
+
+LicenseID: LicenseRef-BSD-2-Clause
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Copyright (c) <year> <owner> 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+LicenseID: LicenseRef-See-doc.OTHER
+LicenseName: See-doc.OTHER
+ExtractedText: <text> License by Nomos. </text>
+
+LicenseID: LicenseRef-BSD-style
+LicenseName: BSD-style
+ExtractedText: <text> According to BSD license, add some modifications </text>
+
+LicenseID: LicenseRef-LicenseRef-scancode-generic-cla
+LicenseName: Prior Generic Contributor License Agreement
+ExtractedText: <text> License by Scancode. </text>
+
+LicenseID: LicenseRef-WebM
+LicenseName: WebM Software License
+ExtractedText: <text> Software License
+Copyright (c) 2010, Google Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of Google nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+LicenseID: LicenseRef-LicenseRef-scancode-warranty-disclaimer
+LicenseName: Generic Bare Warranty Disclaimer
+ExtractedText: <text> License by Scancode. </text>
+
+LicenseID: LicenseRef-BSD
+LicenseName: BSD
+ExtractedText: <text> BSD is referenced without a version number. Please look up BSD in the License Admin to view the different versions. </text>
+
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+LicenseID: LicenseRef-MIT-cc4734e8a01f740811ac41130a40cf90
+LicenseName: MIT-cc4734e8a01f740811ac41130a40cf90
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+LicenseID: LicenseRef-BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+LicenseName: BSD-3-Clause-9678177ac548c0b40f7fed89420db7f3
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+LicenseID: LicenseRef-BSD-2-Clause-2c6f31beafbcf8c8f9095b83d8c5688d
+LicenseName: BSD-2-Clause-2c6f31beafbcf8c8f9095b83d8c5688d
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+LicenseID: LicenseRef-BSD-3-Clause-f983b9ce57976ad467faca7b99cc7415
+LicenseName: BSD-3-Clause-f983b9ce57976ad467faca7b99cc7415
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+* Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the names of Kitware, Inc., the Insight Software Consortium,
+nor the names of their contributors may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
