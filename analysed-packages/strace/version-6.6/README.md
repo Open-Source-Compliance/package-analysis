@@ -1,10 +1,10 @@
 ## Download Location
 
-https://github.com/strace/strace/releases/download/v6.5/strace-6.5.tar.xz
+https://github.com/strace/strace/releases/download/v6.6/strace-6.6.tar.xz
 
 ## Package URL (purl)
 
-pkg:github/strace/strace@6.5
+pkg:github/strace/strace@6.6
 
 ## Creator
 
