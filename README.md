@@ -174,6 +174,30 @@ The LICENSE.txt file on root level contains the text of the MIT license. With th
 
 > LicenseInfoInFile: MIT
 
+#### Packages with "THIRD-PARTY-NOTICE" files
+Some packages provide files in which they list the license of included software or software which is needed to run the built package. In most of the cases the files are called "THIRD-PARTY-NOTICE" or similar. According to our experience such files get in most of the cases outdated. We discussed how to treat the content of such files. Currenty we follow the below listed approach:
+We provide the entire content of such files in the element "PackageLicenseComments:" in the SPDX file: 
+>PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+> - nomos (abcd)
+> - monk (abcd)
+> - ojo (abcd)
+> - scancode (abcd) 
+>------------------------------------------------------
+>Python-3.10.8 Additional Licenses:
+>
+Licenses and Acknowledgments for Incorporated Software
+>=======================================================
+
+and in the discloure files right after the "LICENSES" section and before the "ACKNOWLEDGEMENT" section (if present):
+>********************************************************************************
+>
+>Python-3.10.8 Additional Licenses:
+>
+Licenses and Acknowledgements for Incorporated Software
+>=======================================================
+
+Please be aware that this strategy was not present in the beginning of the project.
+
 ### Copyright extraction
 
 The copyright information of all files within the package is extracted, no matter in which directory the file is located. For files containing no copyright information no copyright information can be extracted. Sometimes it is necessary to "post process" the found copyright statements, this is done always when the copyright statements:
