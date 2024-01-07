@@ -61,6 +61,8 @@ There might be cases where in a Readme file of the subdirectory or on root level
 This is an, of course, unwanted situation, because this kind of information tends to get outdated, because it is disconnected from the files located in the directory. 
 The main problem is, if we would per default "assign" the license mentioned to all these files, we might do an unauthorized "licensing". Currenty we document this, but we do not conclude the license mentioned for the files. 
 
+A different case is a file containing information of licenses of files, which do not include any license information like font files or pictures. In case we find such a reference in the package, be it in the README in the root directory or in a README in the specific directory or a file with similar content but another name, we check whether the named files (if the files are listed by name) are still present. Furthermore we check the internet whether the presented information is correct, in case this is possible. Finally we conclude the mentioned and if possible the in the internet verified licenses for the identified files. 
+
 In both and similar cases usually we provide an explanation, why the scanner findings where corrected via "LicenseConcluded". This explanation is available in the SPDX2TV files as value of the tag "LicenseComments". In the above mentioned example the explanation is:
 > The information in the file is:
 >
