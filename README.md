@@ -61,6 +61,8 @@ There might be cases where in a Readme file of the subdirectory or on root level
 This is an, of course, unwanted situation, because this kind of information tends to get outdated, because it is disconnected from the files located in the directory. 
 The main problem is, if we would per default "assign" the license mentioned to all these files, we might do an unauthorized "licensing". Currenty we document this, but we do not conclude the license mentioned for the files. 
 
+A different case is a file containing information of licenses of files, which do not include any license information like font files or pictures. In case we find such a reference in the package, be it in the README in the root directory or in a README in the specific directory or a file with similar content but another name, we check whether the named files (if the files are listed by name) are still present. Furthermore we check the internet whether the presented information is correct, in case this is possible. Finally we conclude the mentioned and if possible the in the internet verified licenses for the identified files. 
+
 In both and similar cases usually we provide an explanation, why the scanner findings where corrected via "LicenseConcluded". This explanation is available in the SPDX2TV files as value of the tag "LicenseComments". In the above mentioned example the explanation is:
 > The information in the file is:
 >
@@ -171,6 +173,30 @@ The LICENSE.txt file on root level contains the text of the MIT license. With th
 > ...
 
 > LicenseInfoInFile: MIT
+
+#### Packages with "THIRD-PARTY-NOTICE" files
+Some packages provide files in which they list the license of included software or software which is needed to run the built package. In most of the cases the files are called "THIRD-PARTY-NOTICE" or similar. According to our experience such files get in most of the cases outdated. We discussed how to treat the content of such files. Currenty we follow the below listed approach:
+We provide the entire content of such files in the element "PackageLicenseComments:" in the SPDX file: 
+>PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+> - nomos (abcd)
+> - monk (abcd)
+> - ojo (abcd)
+> - scancode (abcd) 
+>------------------------------------------------------
+>Python-3.10.8 Additional Licenses:
+>
+Licenses and Acknowledgments for Incorporated Software
+>=======================================================
+
+and in the discloure files right after the "LICENSES" section and before the "ACKNOWLEDGEMENT" section (if present):
+>********************************************************************************
+>
+>Python-3.10.8 Additional Licenses:
+>
+Licenses and Acknowledgements for Incorporated Software
+>=======================================================
+
+Please be aware that this strategy was not present in the beginning of the project.
 
 ### Copyright extraction
 
