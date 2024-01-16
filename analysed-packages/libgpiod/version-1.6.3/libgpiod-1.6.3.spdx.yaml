@@ -1,0 +1,2466 @@
+---
+SPDXID: "SPDXRef-DOCUMENT"
+spdxVersion: "SPDX-2.2"
+creationInfo:
+  comment: "This document was created using license information and a generator from\
+    \ Fossology.\nIt contains the license and copyright analysis of libgpiod 1.6.3\n\
+    Please check \"LicenseComments\" for explanations of concluded licenses"
+  created: "2024-01-15T17:04:45Z"
+  creators:
+  - "Tool: spdx2"
+  - "Person: Oliver Fendt"
+  licenseListVersion: "2.6"
+name: "/srv/fossology/repository/report"
+dataLicense: "CC0-1.0"
+hasExtractedLicensingInfos:
+- licenseId: "LicenseRef-LGPL-2.0-or-later"
+  extractedText: "GNU LIBRARY GENERAL PUBLIC LICENSE\n\nVersion 2, June 1991\n\nCopyright\
+    \ (C) 1991 Free Software Foundation, Inc.\n\n51 Franklin St, Fifth Floor, Boston,\
+    \ MA 02110-1301, USA\n\nEveryone is permitted to copy and distribute verbatim\
+    \ copies of this license document, but changing it is not allowed.\n\n[This is\
+    \ the first released version of the library GPL. It is numbered 2 because it goes\
+    \ with version 2 of the ordinary GPL.]\n\nPreamble\n\nThe licenses for most software\
+    \ are designed to take away your freedom to share and change it. By contrast,\
+    \ the GNU General Public Licenses are intended to guarantee your freedom to share\
+    \ and change free software--to make sure the software is free for all its users.\n\
+    \nThis license, the Library General Public License, applies to some specially\
+    \ designated Free Software Foundation software, and to any other libraries whose\
+    \ authors decide to use it. You can use it for your libraries, too.\n\nWhen we\
+    \ speak of free software, we are referring to freedom, not price. Our General\
+    \ Public Licenses are designed to make sure that you have the freedom to distribute\
+    \ copies of free software (and charge for this service if you wish), that you\
+    \ receive source code or can get it if you want it, that you can change the software\
+    \ or use pieces of it in new free programs; and that you know you can do these\
+    \ things.\n\nTo protect your rights, we need to make restrictions that forbid\
+    \ anyone to deny you these rights or to ask you to surrender the rights. These\
+    \ restrictions translate to certain responsibilities for you if you distribute\
+    \ copies of the library, or if you modify it.\n\nFor example, if you distribute\
+    \ copies of the library, whether gratis or for a fee, you must give the recipients\
+    \ all the rights that we gave you. You must make sure that they, too, receive\
+    \ or can get the source code. If you link a program with the library, you must\
+    \ provide complete object files to the recipients so that they can relink them\
+    \ with the library, after making changes to the library and recompiling it. And\
+    \ you must show them these terms so they know their rights.\n\nOur method of protecting\
+    \ your rights has two steps: (1) copyright the library, and (2) offer you this\
+    \ license which gives you legal permission to copy, distribute and/or modify the\
+    \ library.\n\nAlso, for each distributor's protection, we want to make certain\
+    \ that everyone understands that there is no warranty for this free library. If\
+    \ the library is modified by someone else and passed on, we want its recipients\
+    \ to know that what they have is not the original version, so that any problems\
+    \ introduced by others will not reflect on the original authors' reputations.\n\
+    \nFinally, any free program is threatened constantly by software patents. We wish\
+    \ to avoid the danger that companies distributing free software will individually\
+    \ obtain patent licenses, thus in effect transforming the program into proprietary\
+    \ software. To prevent this, we have made it clear that any patent must be licensed\
+    \ for everyone's free use or not licensed at all.\n\nMost GNU software, including\
+    \ some libraries, is covered by the ordinary GNU General Public License, which\
+    \ was designed for utility programs. This license, the GNU Library General Public\
+    \ License, applies to certain designated libraries. This license is quite different\
+    \ from the ordinary one; be sure to read it in full, and don't assume that anything\
+    \ in it is the same as in the ordinary license.\n\nThe reason we have a separate\
+    \ public license for some libraries is that they blur the distinction we usually\
+    \ make between modifying or adding to a program and simply using it. Linking a\
+    \ program with a library, without changing the library, is in some sense simply\
+    \ using the library, and is analogous to running a utility program or application\
+    \ program. However, in a textual and legal sense, the linked executable is a combined\
+    \ work, a derivative of the original library, and the ordinary General Public\
+    \ License treats it as such.\n\nBecause of this blurred distinction, using the\
+    \ ordinary General Public License for libraries did not effectively promote software\
+    \ sharing, because most developers did not use the libraries. We concluded that\
+    \ weaker conditions might promote sharing better.\n\nHowever, unrestricted linking\
+    \ of non-free programs would deprive the users of those programs of all benefit\
+    \ from the free status of the libraries themselves. This Library General Public\
+    \ License is intended to permit developers of non-free programs to use free libraries,\
+    \ while preserving your freedom as a user of such programs to change the free\
+    \ libraries that are incorporated in them. (We have not seen how to achieve this\
+    \ as regards changes in header files, but we have achieved it as regards changes\
+    \ in the actual functions of the Library.) The hope is that this will lead to\
+    \ faster development of free libraries.\n\nThe precise terms and conditions for\
+    \ copying, distribution and modification follow. Pay close attention to the difference\
+    \ between a \"work based on the library\" and a \"work that uses the library\"\
+    . The former contains code derived from the library, while the latter only works\
+    \ together with the library.\n\nNote that it is possible for a library to be covered\
+    \ by the ordinary General Public License rather than by this special one.\n\n\
+    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n   0. This\
+    \ License Agreement applies to any software library which contains a notice placed\
+    \ by the copyright holder or other authorized party saying it may be distributed\
+    \ under the terms of this Library General Public License (also called \"this License\"\
+    ). Each licensee is addressed as \"you\".\n\n   A \"library\" means a collection\
+    \ of software functions and/or data prepared so as to be conveniently linked with\
+    \ application programs (which use some of those functions and data) to form executables.\n\
+    \n   The \"Library\", below, refers to any such software library or work which\
+    \ has been distributed under these terms. A \"work based on the Library\" means\
+    \ either the Library or any derivative work under copyright law: that is to say,\
+    \ a work containing the Library or a portion of it, either verbatim or with modifications\
+    \ and/or translated straightforwardly into another language. (Hereinafter, translation\
+    \ is included without limitation in the term \"modification\".)\n\n   \"Source\
+    \ code\" for a work means the preferred form of the work for making modifications\
+    \ to it. For a library, complete source code means all the source code for all\
+    \ modules it contains, plus any associated interface definition files, plus the\
+    \ scripts used to control compilation and installation of the library.\n\n   Activities\
+    \ other than copying, distribution and modification are not covered by this License;\
+    \ they are outside its scope. The act of running a program using the Library is\
+    \ not restricted, and output from such a program is covered only if its contents\
+    \ constitute a work based on the Library (independent of the use of the Library\
+    \ in a tool for writing it). Whether that is true depends on what the Library\
+    \ does and what the program that uses the Library does.\n\n   1. You may copy\
+    \ and distribute verbatim copies of the Library's complete source code as you\
+    \ receive it, in any medium, provided that you conspicuously and appropriately\
+    \ publish on each copy an appropriate copyright notice and disclaimer of warranty;\
+    \ keep intact all the notices that refer to this License and to the absence of\
+    \ any warranty; and distribute a copy of this License along with the Library.\n\
+    \n   You may charge a fee for the physical act of transferring a copy, and you\
+    \ may at your option offer warranty protection in exchange for a fee.\n\n   2.\
+    \ You may modify your copy or copies of the Library or any portion of it, thus\
+    \ forming a work based on the Library, and copy and distribute such modifications\
+    \ or work under the terms of Section 1 above, provided that you also meet all\
+    \ of these conditions:\n\n      a) The modified work must itself be a software\
+    \ library.\n\n      b) You must cause the files modified to carry prominent notices\
+    \ stating that you changed the files and the date of any change.\n\n      c) You\
+    \ must cause the whole of the work to be licensed at no charge to all third parties\
+    \ under the terms of this License.\n\n      d) If a facility in the modified Library\
+    \ refers to a function or a table of data to be supplied by an application program\
+    \ that uses the facility, other than as an argument passed when the facility is\
+    \ invoked, then you must make a good faith effort to ensure that, in the event\
+    \ an application does not supply such function or table, the facility still operates,\
+    \ and performs whatever part of its purpose remains meaningful.\n\n      (For\
+    \ example, a function in a library to compute square roots has a purpose that\
+    \ is entirely well-defined independent of the application. Therefore, Subsection\
+    \ 2d requires that any application-supplied function or table used by this function\
+    \ must be optional: if the application does not supply it, the square root function\
+    \ must still compute square roots.)\n\n   These requirements apply to the modified\
+    \ work as a whole. If identifiable sections of that work are not derived from\
+    \ the Library, and can be reasonably considered independent and separate works\
+    \ in themselves, then this License, and its terms, do not apply to those sections\
+    \ when you distribute them as separate works. But when you distribute the same\
+    \ sections as part of a whole which is a work based on the Library, the distribution\
+    \ of the whole must be on the terms of this License, whose permissions for other\
+    \ licensees extend to the entire whole, and thus to each and every part regardless\
+    \ of who wrote it.\n\n   Thus, it is not the intent of this section to claim rights\
+    \ or contest your rights to work written entirely by you; rather, the intent is\
+    \ to exercise the right to control the distribution of derivative or collective\
+    \ works based on the Library.\n\n   In addition, mere aggregation of another work\
+    \ not based on the Library with the Library (or with a work based on the Library)\
+    \ on a volume of a storage or distribution medium does not bring the other work\
+    \ under the scope of this License.\n\n   3. You may opt to apply the terms of\
+    \ the ordinary GNU General Public License instead of this License to a given copy\
+    \ of the Library. To do this, you must alter all the notices that refer to this\
+    \ License, so that they refer to the ordinary GNU General Public License, version\
+    \ 2, instead of to this License. (If a newer version than version 2 of the ordinary\
+    \ GNU General Public License has appeared, then you can specify that version instead\
+    \ if you wish.) Do not make any other change in these notices.\n\n   Once this\
+    \ change is made in a given copy, it is irreversible for that copy, so the ordinary\
+    \ GNU General Public License applies to all subsequent copies and derivative works\
+    \ made from that copy.\n\n   This option is useful when you wish to copy part\
+    \ of the code of the Library into a program that is not a library.\n\n   4. You\
+    \ may copy and distribute the Library (or a portion or derivative of it, under\
+    \ Section 2) in object code or executable form under the terms of Sections 1 and\
+    \ 2 above provided that you accompany it with the complete corresponding machine-readable\
+    \ source code, which must be distributed under the terms of Sections 1 and 2 above\
+    \ on a medium customarily used for software interchange.\n\n   If distribution\
+    \ of object code is made by offering access to copy from a designated place, then\
+    \ offering equivalent access to copy the source code from the same place satisfies\
+    \ the requirement to distribute the source code, even though third parties are\
+    \ not compelled to copy the source along with the object code.\n\n   5. A program\
+    \ that contains no derivative of any portion of the Library, but is designed to\
+    \ work with the Library by being compiled or linked with it, is called a \"work\
+    \ that uses the Library\". Such a work, in isolation, is not a derivative work\
+    \ of the Library, and therefore falls outside the scope of this License.\n\n \
+    \  However, linking a \"work that uses the Library\" with the Library creates\
+    \ an executable that is a derivative of the Library (because it contains portions\
+    \ of the Library), rather than a \"work that uses the library\". The executable\
+    \ is therefore covered by this License. Section 6 states terms for distribution\
+    \ of such executables.\n\n   When a \"work that uses the Library\" uses material\
+    \ from a header file that is part of the Library, the object code for the work\
+    \ may be a derivative work of the Library even though the source code is not.\
+    \ Whether this is true is especially significant if the work can be linked without\
+    \ the Library, or if the work is itself a library. The threshold for this to be\
+    \ true is not precisely defined by law.\n\n   If such an object file uses only\
+    \ numerical parameters, data structure layouts and accessors, and small macros\
+    \ and small inline functions (ten lines or less in length), then the use of the\
+    \ object file is unrestricted, regardless of whether it is legally a derivative\
+    \ work. (Executables containing this object code plus portions of the Library\
+    \ will still fall under Section 6.)\n\n   Otherwise, if the work is a derivative\
+    \ of the Library, you may distribute the object code for the work under the terms\
+    \ of Section 6. Any executables containing that work also fall under Section 6,\
+    \ whether or not they are linked directly with the Library itself.\n\n   6. As\
+    \ an exception to the Sections above, you may also compile or link a \"work that\
+    \ uses the Library\" with the Library to produce a work containing portions of\
+    \ the Library, and distribute that work under terms of your choice, provided that\
+    \ the terms permit modification of the work for the customer's own use and reverse\
+    \ engineering for debugging such modifications.\n\n   You must give prominent\
+    \ notice with each copy of the work that the Library is used in it and that the\
+    \ Library and its use are covered by this License. You must supply a copy of this\
+    \ License. If the work during execution displays copyright notices, you must include\
+    \ the copyright notice for the Library among them, as well as a reference directing\
+    \ the user to the copy of this License. Also, you must do one of these things:\n\
+    \n      a) Accompany the work with the complete corresponding machine-readable\
+    \ source code for the Library including whatever changes were used in the work\
+    \ (which must be distributed under Sections 1 and 2 above); and, if the work is\
+    \ an executable linked with the Library, with the complete machine-readable \"\
+    work that uses the Library\", as object code and/or source code, so that the user\
+    \ can modify the Library and then relink to produce a modified executable containing\
+    \ the modified Library. (It is understood that the user who changes the contents\
+    \ of definitions files in the Library will not necessarily be able to recompile\
+    \ the application to use the modified definitions.)\n\n      b) Accompany the\
+    \ work with a written offer, valid for at least three years, to give the same\
+    \ user the materials specified in Subsection 6a, above, for a charge no more than\
+    \ the cost of performing this distribution.\n\n      c) If distribution of the\
+    \ work is made by offering access to copy from a designated place, offer equivalent\
+    \ access to copy the above specified materials from the same place.\n\n      d)\
+    \ Verify that the user has already received a copy of these materials or that\
+    \ you have already sent this user a copy.\n\n   For an executable, the required\
+    \ form of the \"work that uses the Library\" must include any data and utility\
+    \ programs needed for reproducing the executable from it. However, as a special\
+    \ exception, the source code distributed need not include anything that is normally\
+    \ distributed (in either source or binary form) with the major components (compiler,\
+    \ kernel, and so on) of the operating system on which the executable runs, unless\
+    \ that component itself accompanies the executable.\n\n   It may happen that this\
+    \ requirement contradicts the license restrictions of other proprietary libraries\
+    \ that do not normally accompany the operating system. Such a contradiction means\
+    \ you cannot use both them and the Library together in an executable that you\
+    \ distribute.\n\n   7. You may place library facilities that are a work based\
+    \ on the Library side-by-side in a single library together with other library\
+    \ facilities not covered by this License, and distribute such a combined library,\
+    \ provided that the separate distribution of the work based on the Library and\
+    \ of the other library facilities is otherwise permitted, and provided that you\
+    \ do these two things:\n\n      a) Accompany the combined library with a copy\
+    \ of the same work based on the Library, uncombined with any other library facilities.\
+    \ This must be distributed under the terms of the Sections above.\n\n      b)\
+    \ Give prominent notice with the combined library of the fact that part of it\
+    \ is a work based on the Library, and explaining where to find the accompanying\
+    \ uncombined form of the same work.\n\n   8. You may not copy, modify, sublicense,\
+    \ link with, or distribute the Library except as expressly provided under this\
+    \ License. Any attempt otherwise to copy, modify, sublicense, link with, or distribute\
+    \ the Library is void, and will automatically terminate your rights under this\
+    \ License. However, parties who have received copies, or rights, from you under\
+    \ this License will not have their licenses terminated so long as such parties\
+    \ remain in full compliance.\n\n   9. You are not required to accept this License,\
+    \ since you have not signed it. However, nothing else grants you permission to\
+    \ modify or distribute the Library or its derivative works. These actions are\
+    \ prohibited by law if you do not accept this License. Therefore, by modifying\
+    \ or distributing the Library (or any work based on the Library), you indicate\
+    \ your acceptance of this License to do so, and all its terms and conditions for\
+    \ copying, distributing or modifying the Library or works based on it.\n\n   10.\
+    \ Each time you redistribute the Library (or any work based on the Library), the\
+    \ recipient automatically receives a license from the original licensor to copy,\
+    \ distribute, link with or modify the Library subject to these terms and conditions.\
+    \ You may not impose any further restrictions on the recipients' exercise of the\
+    \ rights granted herein. You are not responsible for enforcing compliance by third\
+    \ parties to this License.\n\n   11. If, as a consequence of a court judgment\
+    \ or allegation of patent infringement or for any other reason (not limited to\
+    \ patent issues), conditions are imposed on you (whether by court order, agreement\
+    \ or otherwise) that contradict the conditions of this License, they do not excuse\
+    \ you from the conditions of this License. If you cannot distribute so as to satisfy\
+    \ simultaneously your obligations under this License and any other pertinent obligations,\
+    \ then as a consequence you may not distribute the Library at all. For example,\
+    \ if a patent license would not permit royalty-free redistribution of the Library\
+    \ by all those who receive copies directly or indirectly through you, then the\
+    \ only way you could satisfy both it and this License would be to refrain entirely\
+    \ from distribution of the Library.\n\n   If any portion of this section is held\
+    \ invalid or unenforceable under any particular circumstance, the balance of the\
+    \ section is intended to apply, and the section as a whole is intended to apply\
+    \ in other circumstances.\n\n   It is not the purpose of this section to induce\
+    \ you to infringe any patents or other property right claims or to contest validity\
+    \ of any such claims; this section has the sole purpose of protecting the integrity\
+    \ of the free software distribution system which is implemented by public license\
+    \ practices. Many people have made generous contributions to the wide range of\
+    \ software distributed through that system in reliance on consistent application\
+    \ of that system; it is up to the author/donor to decide if he or she is willing\
+    \ to distribute software through any other system and a licensee cannot impose\
+    \ that choice.\n\n   This section is intended to make thoroughly clear what is\
+    \ believed to be a consequence of the rest of this License.\n\n   12. If the distribution\
+    \ and/or use of the Library is restricted in certain countries either by patents\
+    \ or by copyrighted interfaces, the original copyright holder who places the Library\
+    \ under this License may add an explicit geographical distribution limitation\
+    \ excluding those countries, so that distribution is permitted only in or among\
+    \ countries not thus excluded. In such case, this License incorporates the limitation\
+    \ as if written in the body of this License.\n\n   13. The Free Software Foundation\
+    \ may publish revised and/or new versions of the Library General Public License\
+    \ from time to time. Such new versions will be similar in spirit to the present\
+    \ version, but may differ in detail to address new problems or concerns.\n\n \
+    \  Each version is given a distinguishing version number. If the Library specifies\
+    \ a version number of this License which applies to it and \"any later version\"\
+    , you have the option of following the terms and conditions either of that version\
+    \ or of any later version published by the Free Software Foundation. If the Library\
+    \ does not specify a license version number, you may choose any version ever published\
+    \ by the Free Software Foundation.\n\n   14. If you wish to incorporate parts\
+    \ of the Library into other free programs whose distribution conditions are incompatible\
+    \ with these, write to the author to ask for permission. For software which is\
+    \ copyrighted by the Free Software Foundation, write to the Free Software Foundation;\
+    \ we sometimes make exceptions for this. Our decision will be guided by the two\
+    \ goals of preserving the free status of all derivatives of our free software\
+    \ and of promoting the sharing and reuse of software generally.\n\n   NO WARRANTY\n\
+    \n   15. BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\
+    \ FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE\
+    \ STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE LIBRARY\
+    \ \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING,\
+    \ BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\
+    \ A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE\
+    \ LIBRARY IS WITH YOU. SHOULD THE LIBRARY PROVE DEFECTIVE, YOU ASSUME THE COST\
+    \ OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n\n   16. IN NO EVENT UNLESS\
+    \ REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER,\
+    \ OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED\
+    \ ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL\
+    \ OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE LIBRARY\
+    \ (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE\
+    \ OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE LIBRARY TO OPERATE\
+    \ WITH ANY OTHER SOFTWARE), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED\
+    \ OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS\n\nHow to Apply\
+    \ These Terms to Your New Libraries\n\nIf you develop a new library, and you want\
+    \ it to be of the greatest possible use to the public, we recommend making it\
+    \ free software that everyone can redistribute and change. You can do so by permitting\
+    \ redistribution under these terms (or, alternatively, under the terms of the\
+    \ ordinary General Public License).\n\nTo apply these terms, attach the following\
+    \ notices to the library. It is safest to attach them to the start of each source\
+    \ file to most effectively convey the exclusion of warranty; and each file should\
+    \ have at least the \"copyright\" line and a pointer to where the full notice\
+    \ is found.\n\none line to give the library's name and an idea of what it does.\n\
+    \nCopyright (C) year name of author\n\nThis library is free software; you can\
+    \ redistribute it and/or modify it under the terms of the GNU Library General\
+    \ Public License as published by the Free Software Foundation; either version\
+    \ 2 of the License, or (at your option) any later version.\n\nThis library is\
+    \ distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without\
+    \ even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\
+    \ See the GNU Library General Public License for more details.\n\nYou should have\
+    \ received a copy of the GNU Library General Public License along with this library;\
+    \ if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,\
+    \ Boston, MA 02110-1301, USA.\n\nAlso add information on how to contact you by\
+    \ electronic and paper mail.\n\nYou should also get your employer (if you work\
+    \ as a programmer) or your school, if any, to sign a \"copyright disclaimer\"\
+    \ for the library, if necessary. Here is a sample; alter the names:\n\nYoyodyne,\
+    \ Inc., hereby disclaims all copyright interest in\n\nthe library `Frob' (a library\
+    \ for tweaking knobs) written\n\nby James Random Hacker.\n\nsignature of Ty Coon,\
+    \ 1 April 1990\n\nTy Coon, President of Vice\n\nThat's all there is to it!"
+  name: "GNU Library General Public License v2 or later"
+- licenseId: "LicenseRef-LGPL-2.1-only"
+  extractedText: "GNU LESSER GENERAL PUBLIC LICENSE\n\nVersion 2.1, February 1999\n\
+    \nCopyright (C) 1991, 1999 Free Software Foundation, Inc.\n51 Franklin Street,\
+    \ Fifth Floor, Boston, MA  02110-1301  USA\n\nEveryone is permitted to copy and\
+    \ distribute verbatim copies of this license document, but changing it is not\
+    \ allowed.\n\n[This is the first released version of the Lesser GPL.  It also\
+    \ counts as the successor of the GNU Library Public License, version 2, hence\
+    \ the version number 2.1.]\n\nPreamble\n\nThe licenses for most software are designed\
+    \ to take away your freedom to share and change it. By contrast, the GNU General\
+    \ Public Licenses are intended to guarantee your freedom to share and change free\
+    \ software--to make sure the software is free for all its users.\n\nThis license,\
+    \ the Lesser General Public License, applies to some specially designated software\
+    \ packages--typically libraries--of the Free Software Foundation and other authors\
+    \ who decide to use it. You can use it too, but we suggest you first think carefully\
+    \ about whether this license or the ordinary General Public License is the better\
+    \ strategy to use in any particular case, based on the explanations below.\n\n\
+    When we speak of free software, we are referring to freedom of use, not price.\
+    \ Our General Public Licenses are designed to make sure that you have the freedom\
+    \ to distribute copies of free software (and charge for this service if you wish);\
+    \ that you receive source code or can get it if you want it; that you can change\
+    \ the software and use pieces of it in new free programs; and that you are informed\
+    \ that you can do these things.\n\nTo protect your rights, we need to make restrictions\
+    \ that forbid distributors to deny you these rights or to ask you to surrender\
+    \ these rights. These restrictions translate to certain responsibilities for you\
+    \ if you distribute copies of the library or if you modify it.\n\nFor example,\
+    \ if you distribute copies of the library, whether gratis or for a fee, you must\
+    \ give the recipients all the rights that we gave you. You must make sure that\
+    \ they, too, receive or can get the source code. If you link other code with the\
+    \ library, you must provide complete object files to the recipients, so that they\
+    \ can relink them with the library after making changes to the library and recompiling\
+    \ it. And you must show them these terms so they know their rights.\n\nWe protect\
+    \ your rights with a two-step method: (1) we copyright the library, and (2) we\
+    \ offer you this license, which gives you legal permission to copy, distribute\
+    \ and/or modify the library.\n\nTo protect each distributor, we want to make it\
+    \ very clear that there is no warranty for the free library. Also, if the library\
+    \ is modified by someone else and passed on, the recipients should know that what\
+    \ they have is not the original version, so that the original author's reputation\
+    \ will not be affected by problems that might be introduced by others.\n\nFinally,\
+    \ software patents pose a constant threat to the existence of any free program.\
+    \ We wish to make sure that a company cannot effectively restrict the users of\
+    \ a free program by obtaining a restrictive license from a patent holder. Therefore,\
+    \ we insist that any patent license obtained for a version of the library must\
+    \ be consistent with the full freedom of use specified in this license.\n\nMost\
+    \ GNU software, including some libraries, is covered by the ordinary GNU General\
+    \ Public License. This license, the GNU Lesser General Public License, applies\
+    \ to certain designated libraries, and is quite different from the ordinary General\
+    \ Public License. We use this license for certain libraries in order to permit\
+    \ linking those libraries into non-free programs.\n\nWhen a program is linked\
+    \ with a library, whether statically or using a shared library, the combination\
+    \ of the two is legally speaking a combined work, a derivative of the original\
+    \ library. The ordinary General Public License therefore permits such linking\
+    \ only if the entire combination fits its criteria of freedom. The Lesser General\
+    \ Public License permits more lax criteria for linking other code with the library.\n\
+    \nWe call this license the \"Lesser\" General Public License because it does Less\
+    \ to protect the user's freedom than the ordinary General Public License. It also\
+    \ provides other free software developers Less of an advantage over competing\
+    \ non-free programs. These disadvantages are the reason we use the ordinary General\
+    \ Public License for many libraries. However, the Lesser license provides advantages\
+    \ in certain special circumstances.\n\nFor example, on rare occasions, there may\
+    \ be a special need to encourage the widest possible use of a certain library,\
+    \ so that it becomes a de-facto standard. To achieve this, non-free programs must\
+    \ be allowed to use the library. A more frequent case is that a free library does\
+    \ the same job as widely used non-free libraries. In this case, there is little\
+    \ to gain by limiting the free library to free software only, so we use the Lesser\
+    \ General Public License.\n\nIn other cases, permission to use a particular library\
+    \ in non-free programs enables a greater number of people to use a large body\
+    \ of free software. For example, permission to use the GNU C Library in non-free\
+    \ programs enables many more people to use the whole GNU operating system, as\
+    \ well as its variant, the GNU/Linux operating system.\n\nAlthough the Lesser\
+    \ General Public License is Less protective of the users' freedom, it does ensure\
+    \ that the user of a program that is linked with the Library has the freedom and\
+    \ the wherewithal to run that program using a modified version of the Library.\n\
+    \nThe precise terms and conditions for copying, distribution and modification\
+    \ follow. Pay close attention to the difference between a \"work based on the\
+    \ library\" and a \"work that uses the library\". The former contains code derived\
+    \ from the library, whereas the latter must be combined with the library in order\
+    \ to run.\n\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\
+    \n0. This License Agreement applies to any software library or other program which\
+    \ contains a notice placed by the copyright holder or other authorized party saying\
+    \ it may be distributed under the terms of this Lesser General Public License\
+    \ (also called \"this License\"). Each licensee is addressed as \"you\".\n\nA\
+    \ \"library\" means a collection of software functions and/or data prepared so\
+    \ as to be conveniently linked with application programs (which use some of those\
+    \ functions and data) to form executables.\n\nThe \"Library\", below, refers to\
+    \ any such software library or work which has been distributed under these terms.\
+    \ A \"work based on the Library\" means either the Library or any derivative work\
+    \ under copyright law: that is to say, a work containing the Library or a portion\
+    \ of it, either verbatim or with modifications and/or translated straightforwardly\
+    \ into another language. (Hereinafter, translation is included without limitation\
+    \ in the term \"modification\".)\n\n\"Source code\" for a work means the preferred\
+    \ form of the work for making modifications to it. For a library, complete source\
+    \ code means all the source code for all modules it contains, plus any associated\
+    \ interface definition files, plus the scripts used to control compilation and\
+    \ installation of the library.\n\nActivities other than copying, distribution\
+    \ and modification are not covered by this License; they are outside its scope.\
+    \ The act of running a program using the Library is not restricted, and output\
+    \ from such a program is covered only if its contents constitute a work based\
+    \ on the Library (independent of the use of the Library in a tool for writing\
+    \ it). Whether that is true depends on what the Library does and what the program\
+    \ that uses the Library does.\n\n1. You may copy and distribute verbatim copies\
+    \ of the Library's complete source code as you receive it, in any medium, provided\
+    \ that you conspicuously and appropriately publish on each copy an appropriate\
+    \ copyright notice and disclaimer of warranty; keep intact all the notices that\
+    \ refer to this License and to the absence of any warranty; and distribute a copy\
+    \ of this License along with the Library.\n\nYou may charge a fee for the physical\
+    \ act of transferring a copy, and you may at your option offer warranty protection\
+    \ in exchange for a fee.\n\n2. You may modify your copy or copies of the Library\
+    \ or any portion of it, thus forming a work based on the Library, and copy and\
+    \ distribute such modifications or work under the terms of Section 1 above, provided\
+    \ that you also meet all of these conditions:\n\n     a) The modified work must\
+    \ itself be a software library.\n\n     b) You must cause the files modified to\
+    \ carry prominent notices stating that you changed the files and the date of any\
+    \ change.\n\n     c) You must cause the whole of the work to be licensed at no\
+    \ charge to all third parties under the terms of this License.\n\n     d) If a\
+    \ facility in the modified Library refers to a function or a table of data to\
+    \ be supplied by an application program that uses the facility, other than as\
+    \ an argument passed when the facility is invoked, then you must make a good faith\
+    \ effort to ensure that, in the event an application does not supply such function\
+    \ or table, the facility still operates, and performs whatever part of its purpose\
+    \ remains meaningful.\n\n(For example, a function in a library to compute square\
+    \ roots has a purpose that is entirely well-defined independent of the application.\
+    \ Therefore, Subsection 2d requires that any application-supplied function or\
+    \ table used by this function must be optional: if the application does not supply\
+    \ it, the square root function must still compute square roots.)\n\nThese requirements\
+    \ apply to the modified work as a whole. If identifiable sections of that work\
+    \ are not derived from the Library, and can be reasonably considered independent\
+    \ and separate works in themselves, then this License, and its terms, do not apply\
+    \ to those sections when you distribute them as separate works. But when you distribute\
+    \ the same sections as part of a whole which is a work based on the Library, the\
+    \ distribution of the whole must be on the terms of this License, whose permissions\
+    \ for other licensees extend to the entire whole, and thus to each and every part\
+    \ regardless of who wrote it.\n\nThus, it is not the intent of this section to\
+    \ claim rights or contest your rights to work written entirely by you; rather,\
+    \ the intent is to exercise the right to control the distribution of derivative\
+    \ or collective works based on the Library.\n\nIn addition, mere aggregation of\
+    \ another work not based on the Library with the Library (or with a work based\
+    \ on the Library) on a volume of a storage or distribution medium does not bring\
+    \ the other work under the scope of this License.\n\n3. You may opt to apply the\
+    \ terms of the ordinary GNU General Public License instead of this License to\
+    \ a given copy of the Library. To do this, you must alter all the notices that\
+    \ refer to this License, so that they refer to the ordinary GNU General Public\
+    \ License, version 2, instead of to this License. (If a newer version than version\
+    \ 2 of the ordinary GNU General Public License has appeared, then you can specify\
+    \ that version instead if you wish.) Do not make any other change in these notices.\n\
+    \nOnce this change is made in a given copy, it is irreversible for that copy,\
+    \ so the ordinary GNU General Public License applies to all subsequent copies\
+    \ and derivative works made from that copy.\n\nThis option is useful when you\
+    \ wish to copy part of the code of the Library into a program that is not a library.\n\
+    \n4. You may copy and distribute the Library (or a portion or derivative of it,\
+    \ under Section 2) in object code or executable form under the terms of Sections\
+    \ 1 and 2 above provided that you accompany it with the complete corresponding\
+    \ machine-readable source code, which must be distributed under the terms of Sections\
+    \ 1 and 2 above on a medium customarily used for software interchange.\n\nIf distribution\
+    \ of object code is made by offering access to copy from a designated place, then\
+    \ offering equivalent access to copy the source code from the same place satisfies\
+    \ the requirement to distribute the source code, even though third parties are\
+    \ not compelled to copy the source along with the object code.\n\n5. A program\
+    \ that contains no derivative of any portion of the Library, but is designed to\
+    \ work with the Library by being compiled or linked with it, is called a \"work\
+    \ that uses the Library\". Such a work, in isolation, is not a derivative work\
+    \ of the Library, and therefore falls outside the scope of this License.\n\nHowever,\
+    \ linking a \"work that uses the Library\" with the Library creates an executable\
+    \ that is a derivative of the Library (because it contains portions of the Library),\
+    \ rather than a \"work that uses the library\". The executable is therefore covered\
+    \ by this License. Section 6 states terms for distribution of such executables.\n\
+    \nWhen a \"work that uses the Library\" uses material from a header file that\
+    \ is part of the Library, the object code for the work may be a derivative work\
+    \ of the Library even though the source code is not. Whether this is true is especially\
+    \ significant if the work can be linked without the Library, or if the work is\
+    \ itself a library. The threshold for this to be true is not precisely defined\
+    \ by law.\n\nIf such an object file uses only numerical parameters, data structure\
+    \ layouts and accessors, and small macros and small inline functions (ten lines\
+    \ or less in length), then the use of the object file is unrestricted, regardless\
+    \ of whether it is legally a derivative work. (Executables containing this object\
+    \ code plus portions of the Library will still fall under Section 6.)\n\nOtherwise,\
+    \ if the work is a derivative of the Library, you may distribute the object code\
+    \ for the work under the terms of Section 6. Any executables containing that work\
+    \ also fall under Section 6, whether or not they are linked directly with the\
+    \ Library itself.\n\n6. As an exception to the Sections above, you may also combine\
+    \ or link a \"work that uses the Library\" with the Library to produce a work\
+    \ containing portions of the Library, and distribute that work under terms of\
+    \ your choice, provided that the terms permit modification of the work for the\
+    \ customer's own use and reverse engineering for debugging such modifications.\n\
+    \nYou must give prominent notice with each copy of the work that the Library is\
+    \ used in it and that the Library and its use are covered by this License. You\
+    \ must supply a copy of this License. If the work during execution displays copyright\
+    \ notices, you must include the copyright notice for the Library among them, as\
+    \ well as a reference directing the user to the copy of this License. Also, you\
+    \ must do one of these things:\n\n     a) Accompany the work with the complete\
+    \ corresponding machine-readable source code for the Library including whatever\
+    \ changes were used in the work (which must be distributed under Sections 1 and\
+    \ 2 above); and, if the work is an executable linked with the Library, with the\
+    \ complete machine-readable \"work that uses the Library\", as object code and/or\
+    \ source code, so that the user can modify the Library and then relink to produce\
+    \ a modified executable containing the modified Library. (It is understood that\
+    \ the user who changes the contents of definitions files in the Library will not\
+    \ necessarily be able to recompile the application to use the modified definitions.)\n\
+    \n     b) Use a suitable shared library mechanism for linking with the Library.\
+    \ A suitable mechanism is one that (1) uses at run time a copy of the library\
+    \ already present on the user's computer system, rather than copying library functions\
+    \ into the executable, and (2) will operate properly with a modified version of\
+    \ the library, if the user installs one, as long as the modified version is interface-compatible\
+    \ with the version that the work was made with.\n\n     c) Accompany the work\
+    \ with a written offer, valid for at least three years, to give the same user\
+    \ the materials specified in Subsection 6a, above, for a charge no more than the\
+    \ cost of performing this distribution.\n\n     d) If distribution of the work\
+    \ is made by offering access to copy from a designated place, offer equivalent\
+    \ access to copy the above specified materials from the same place.\n\n     e)\
+    \ Verify that the user has already received a copy of these materials or that\
+    \ you have already sent this user a copy.\n\nFor an executable, the required form\
+    \ of the \"work that uses the Library\" must include any data and utility programs\
+    \ needed for reproducing the executable from it. However, as a special exception,\
+    \ the materials to be distributed need not include anything that is normally distributed\
+    \ (in either source or binary form) with the major components (compiler, kernel,\
+    \ and so on) of the operating system on which the executable runs, unless that\
+    \ component itself accompanies the executable.\n\nIt may happen that this requirement\
+    \ contradicts the license restrictions of other proprietary libraries that do\
+    \ not normally accompany the operating system. Such a contradiction means you\
+    \ cannot use both them and the Library together in an executable that you distribute.\n\
+    \n7. You may place library facilities that are a work based on the Library side-by-side\
+    \ in a single library together with other library facilities not covered by this\
+    \ License, and distribute such a combined library, provided that the separate\
+    \ distribution of the work based on the Library and of the other library facilities\
+    \ is otherwise permitted, and provided that you do these two things:\n\n     a)\
+    \ Accompany the combined library with a copy of the same work based on the Library,\
+    \ uncombined with any other library facilities. This must be distributed under\
+    \ the terms of the Sections above.\n\n     b) Give prominent notice with the combined\
+    \ library of the fact that part of it is a work based on the Library, and explaining\
+    \ where to find the accompanying uncombined form of the same work.\n\n8. You may\
+    \ not copy, modify, sublicense, link with, or distribute the Library except as\
+    \ expressly provided under this License. Any attempt otherwise to copy, modify,\
+    \ sublicense, link with, or distribute the Library is void, and will automatically\
+    \ terminate your rights under this License. However, parties who have received\
+    \ copies, or rights, from you under this License will not have their licenses\
+    \ terminated so long as such parties remain in full compliance.\n\n9. You are\
+    \ not required to accept this License, since you have not signed it. However,\
+    \ nothing else grants you permission to modify or distribute the Library or its\
+    \ derivative works. These actions are prohibited by law if you do not accept this\
+    \ License. Therefore, by modifying or distributing the Library (or any work based\
+    \ on the Library), you indicate your acceptance of this License to do so, and\
+    \ all its terms and conditions for copying, distributing or modifying the Library\
+    \ or works based on it.\n\n10. Each time you redistribute the Library (or any\
+    \ work based on the Library), the recipient automatically receives a license from\
+    \ the original licensor to copy, distribute, link with or modify the Library subject\
+    \ to these terms and conditions. You may not impose any further restrictions on\
+    \ the recipients' exercise of the rights granted herein. You are not responsible\
+    \ for enforcing compliance by third parties with this License.\n\n11. If, as a\
+    \ consequence of a court judgment or allegation of patent infringement or for\
+    \ any other reason (not limited to patent issues), conditions are imposed on you\
+    \ (whether by court order, agreement or otherwise) that contradict the conditions\
+    \ of this License, they do not excuse you from the conditions of this License.\
+    \ If you cannot distribute so as to satisfy simultaneously your obligations under\
+    \ this License and any other pertinent obligations, then as a consequence you\
+    \ may not distribute the Library at all. For example, if a patent license would\
+    \ not permit royalty-free redistribution of the Library by all those who receive\
+    \ copies directly or indirectly through you, then the only way you could satisfy\
+    \ both it and this License would be to refrain entirely from distribution of the\
+    \ Library.\n\nIf any portion of this section is held invalid or unenforceable\
+    \ under any particular circumstance, the balance of the section is intended to\
+    \ apply, and the section as a whole is intended to apply in other circumstances.\n\
+    \nIt is not the purpose of this section to induce you to infringe any patents\
+    \ or other property right claims or to contest validity of any such claims; this\
+    \ section has the sole purpose of protecting the integrity of the free software\
+    \ distribution system which is implemented by public license practices. Many people\
+    \ have made generous contributions to the wide range of software distributed through\
+    \ that system in reliance on consistent application of that system; it is up to\
+    \ the author/donor to decide if he or she is willing to distribute software through\
+    \ any other system and a licensee cannot impose that choice.\n\nThis section is\
+    \ intended to make thoroughly clear what is believed to be a consequence of the\
+    \ rest of this License.\n\n12. If the distribution and/or use of the Library is\
+    \ restricted in certain countries either by patents or by copyrighted interfaces,\
+    \ the original copyright holder who places the Library under this License may\
+    \ add an explicit geographical distribution limitation excluding those countries,\
+    \ so that distribution is permitted only in or among countries not thus excluded.\
+    \ In such case, this License incorporates the limitation as if written in the\
+    \ body of this License.\n\n13. The Free Software Foundation may publish revised\
+    \ and/or new versions of the Lesser General Public License from time to time.\
+    \ Such new versions will be similar in spirit to the present version, but may\
+    \ differ in detail to address new problems or concerns.\n\nEach version is given\
+    \ a distinguishing version number. If the Library specifies a version number of\
+    \ this License which applies to it and \"any later version\", you have the option\
+    \ of following the terms and conditions either of that version or of any later\
+    \ version published by the Free Software Foundation. If the Library does not specify\
+    \ a license version number, you may choose any version ever published by the Free\
+    \ Software Foundation.\n\n14. If you wish to incorporate parts of the Library\
+    \ into other free programs whose distribution conditions are incompatible with\
+    \ these, write to the author to ask for permission. For software which is copyrighted\
+    \ by the Free Software Foundation, write to the Free Software Foundation; we sometimes\
+    \ make exceptions for this. Our decision will be guided by the two goals of preserving\
+    \ the free status of all derivatives of our free software and of promoting the\
+    \ sharing and reuse of software generally.\n\nNO WARRANTY\n\n15. BECAUSE THE LIBRARY\
+    \ IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE LIBRARY, TO THE EXTENT\
+    \ PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT\
+    \ HOLDERS AND/OR OTHER PARTIES PROVIDE THE LIBRARY \"AS IS\" WITHOUT WARRANTY\
+    \ OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE\
+    \ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.\
+    \ THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE LIBRARY IS WITH YOU.\
+    \ SHOULD THE LIBRARY PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\
+    \ REPAIR OR CORRECTION.\n\n16. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR\
+    \ AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY\
+    \ AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\
+    \ INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\
+    \ OUT OF THE USE OR INABILITY TO USE THE LIBRARY (INCLUDING BUT NOT LIMITED TO\
+    \ LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR\
+    \ THIRD PARTIES OR A FAILURE OF THE LIBRARY TO OPERATE WITH ANY OTHER SOFTWARE),\
+    \ EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\
+    \ DAMAGES.\n\nEND OF TERMS AND CONDITIONS\n\nHow to Apply These Terms to Your\
+    \ New Libraries\n\nIf you develop a new library, and you want it to be of the\
+    \ greatest possible use to the public, we recommend making it free software that\
+    \ everyone can redistribute and change. You can do so by permitting redistribution\
+    \ under these terms (or, alternatively, under the terms of the ordinary General\
+    \ Public License).\n\nTo apply these terms, attach the following notices to the\
+    \ library. It is safest to attach them to the start of each source file to most\
+    \ effectively convey the exclusion of warranty; and each file should have at least\
+    \ the \"copyright\" line and a pointer to where the full notice is found.\n\n\
+    \     one line to give the library's name and an idea of what it does.\n     Copyright\
+    \ (C) year  name of author\n\n     This library is free software; you can redistribute\
+    \ it and/or modify it under the terms of the GNU Lesser General Public License\
+    \ as published by the Free Software Foundation; either version 2.1 of the License,\
+    \ or (at your option) any later version.\n\n     This library is distributed in\
+    \ the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the\
+    \ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See\
+    \ the GNU Lesser General Public License for more details.\n\n     You should have\
+    \ received a copy of the GNU Lesser General Public License along with this library;\
+    \ if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth\
+    \ Floor, Boston, MA  02110-1301  USA Also add information on how to contact you\
+    \ by electronic and paper mail.\n\nYou should also get your employer (if you work\
+    \ as a programmer) or your school, if any, to sign a \"copyright disclaimer\"\
+    \ for the library, if necessary. Here is a sample; alter the names:\n\nYoyodyne,\
+    \ Inc., hereby disclaims all copyright interest in\nthe library `Frob' (a library\
+    \ for tweaking knobs) written\nby James Random Hacker.\n\nsignature of Ty Coon,\
+    \ 1 April 1990\nTy Coon, President of Vice\nThat's all there is to it!"
+  name: "GNU Lesser General Public License v2.1 only"
+- licenseId: "LicenseRef-LGPL-2.1-or-later"
+  extractedText: "GNU LESSER GENERAL PUBLIC LICENSE\n\nVersion 2.1, February 1999\n\
+    \nCopyright (C) 1991, 1999 Free Software Foundation, Inc.\n\n51 Franklin Street,\
+    \ Fifth Floor, Boston, MA 02110-1301 USA\n\nEveryone is permitted to copy and\
+    \ distribute verbatim copies of this license document, but changing it is not\
+    \ allowed.\n\n[This is the first released version of the Lesser GPL. It also counts\
+    \ as the successor of the GNU Library Public License, version 2, hence the version\
+    \ number 2.1.]\n\nPreamble\n\nThe licenses for most software are designed to take\
+    \ away your freedom to share and change it. By contrast, the GNU General Public\
+    \ Licenses are intended to guarantee your freedom to share and change free software--to\
+    \ make sure the software is free for all its users.\n\nThis license, the Lesser\
+    \ General Public License, applies to some specially designated software packages--typically\
+    \ libraries--of the Free Software Foundation and other authors who decide to use\
+    \ it. You can use it too, but we suggest you first think carefully about whether\
+    \ this license or the ordinary General Public License is the better strategy to\
+    \ use in any particular case, based on the explanations below.\n\nWhen we speak\
+    \ of free software, we are referring to freedom of use, not price. Our General\
+    \ Public Licenses are designed to make sure that you have the freedom to distribute\
+    \ copies of free software (and charge for this service if you wish); that you\
+    \ receive source code or can get it if you want it; that you can change the software\
+    \ and use pieces of it in new free programs; and that you are informed that you\
+    \ can do these things.\n\nTo protect your rights, we need to make restrictions\
+    \ that forbid distributors to deny you these rights or to ask you to surrender\
+    \ these rights. These restrictions translate to certain responsibilities for you\
+    \ if you distribute copies of the library or if you modify it.\n\nFor example,\
+    \ if you distribute copies of the library, whether gratis or for a fee, you must\
+    \ give the recipients all the rights that we gave you. You must make sure that\
+    \ they, too, receive or can get the source code. If you link other code with the\
+    \ library, you must provide complete object files to the recipients, so that they\
+    \ can relink them with the library after making changes to the library and recompiling\
+    \ it. And you must show them these terms so they know their rights.\n\nWe protect\
+    \ your rights with a two-step method: (1) we copyright the library, and (2) we\
+    \ offer you this license, which gives you legal permission to copy, distribute\
+    \ and/or modify the library.\n\nTo protect each distributor, we want to make it\
+    \ very clear that there is no warranty for the free library. Also, if the library\
+    \ is modified by someone else and passed on, the recipients should know that what\
+    \ they have is not the original version, so that the original author's reputation\
+    \ will not be affected by problems that might be introduced by others.\n\nFinally,\
+    \ software patents pose a constant threat to the existence of any free program.\
+    \ We wish to make sure that a company cannot effectively restrict the users of\
+    \ a free program by obtaining a restrictive license from a patent holder. Therefore,\
+    \ we insist that any patent license obtained for a version of the library must\
+    \ be consistent with the full freedom of use specified in this license.\n\nMost\
+    \ GNU software, including some libraries, is covered by the ordinary GNU General\
+    \ Public License. This license, the GNU Lesser General Public License, applies\
+    \ to certain designated libraries, and is quite different from the ordinary General\
+    \ Public License. We use this license for certain libraries in order to permit\
+    \ linking those libraries into non-free programs.\n\nWhen a program is linked\
+    \ with a library, whether statically or using a shared library, the combination\
+    \ of the two is legally speaking a combined work, a derivative of the original\
+    \ library. The ordinary General Public License therefore permits such linking\
+    \ only if the entire combination fits its criteria of freedom. The Lesser General\
+    \ Public License permits more lax criteria for linking other code with the library.\n\
+    \nWe call this license the \"Lesser\" General Public License because it does Less\
+    \ to protect the user's freedom than the ordinary General Public License. It also\
+    \ provides other free software developers Less of an advantage over competing\
+    \ non-free programs. These disadvantages are the reason we use the ordinary General\
+    \ Public License for many libraries. However, the Lesser license provides advantages\
+    \ in certain special circumstances.\n\nFor example, on rare occasions, there may\
+    \ be a special need to encourage the widest possible use of a certain library,\
+    \ so that it becomes a de-facto standard. To achieve this, non-free programs must\
+    \ be allowed to use the library. A more frequent case is that a free library does\
+    \ the same job as widely used non-free libraries. In this case, there is little\
+    \ to gain by limiting the free library to free software only, so we use the Lesser\
+    \ General Public License.\n\nIn other cases, permission to use a particular library\
+    \ in non-free programs enables a greater number of people to use a large body\
+    \ of free software. For example, permission to use the GNU C Library in non-free\
+    \ programs enables many more people to use the whole GNU operating system, as\
+    \ well as its variant, the GNU/Linux operating system.\n\nAlthough the Lesser\
+    \ General Public License is Less protective of the users' freedom, it does ensure\
+    \ that the user of a program that is linked with the Library has the freedom and\
+    \ the wherewithal to run that program using a modified version of the Library.\n\
+    \nThe precise terms and conditions for copying, distribution and modification\
+    \ follow. Pay close attention to the difference between a \"work based on the\
+    \ library\" and a \"work that uses the library\". The former contains code derived\
+    \ from the library, whereas the latter must be combined with the library in order\
+    \ to run.\n\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\
+    \n   0. This License Agreement applies to any software library or other program\
+    \ which contains a notice placed by the copyright holder or other authorized party\
+    \ saying it may be distributed under the terms of this Lesser General Public License\
+    \ (also called \"this License\"). Each licensee is addressed as \"you\".\n\n \
+    \  A \"library\" means a collection of software functions and/or data prepared\
+    \ so as to be conveniently linked with application programs (which use some of\
+    \ those functions and data) to form executables.\n\n   The \"Library\", below,\
+    \ refers to any such software library or work which has been distributed under\
+    \ these terms. A \"work based on the Library\" means either the Library or any\
+    \ derivative work under copyright law: that is to say, a work containing the Library\
+    \ or a portion of it, either verbatim or with modifications and/or translated\
+    \ straightforwardly into another language. (Hereinafter, translation is included\
+    \ without limitation in the term \"modification\".)\n\n   \"Source code\" for\
+    \ a work means the preferred form of the work for making modifications to it.\
+    \ For a library, complete source code means all the source code for all modules\
+    \ it contains, plus any associated interface definition files, plus the scripts\
+    \ used to control compilation and installation of the library.\n\n   Activities\
+    \ other than copying, distribution and modification are not covered by this License;\
+    \ they are outside its scope. The act of running a program using the Library is\
+    \ not restricted, and output from such a program is covered only if its contents\
+    \ constitute a work based on the Library (independent of the use of the Library\
+    \ in a tool for writing it). Whether that is true depends on what the Library\
+    \ does and what the program that uses the Library does.\n\n   1. You may copy\
+    \ and distribute verbatim copies of the Library's complete source code as you\
+    \ receive it, in any medium, provided that you conspicuously and appropriately\
+    \ publish on each copy an appropriate copyright notice and disclaimer of warranty;\
+    \ keep intact all the notices that refer to this License and to the absence of\
+    \ any warranty; and distribute a copy of this License along with the Library.\n\
+    \n   You may charge a fee for the physical act of transferring a copy, and you\
+    \ may at your option offer warranty protection in exchange for a fee.\n\n   2.\
+    \ You may modify your copy or copies of the Library or any portion of it, thus\
+    \ forming a work based on the Library, and copy and distribute such modifications\
+    \ or work under the terms of Section 1 above, provided that you also meet all\
+    \ of these conditions:\n\n      a) The modified work must itself be a software\
+    \ library.\n\n      b) You must cause the files modified to carry prominent notices\
+    \ stating that you changed the files and the date of any change.\n\n      c) You\
+    \ must cause the whole of the work to be licensed at no charge to all third parties\
+    \ under the terms of this License.\n\n      d) If a facility in the modified Library\
+    \ refers to a function or a table of data to be supplied by an application program\
+    \ that uses the facility, other than as an argument passed when the facility is\
+    \ invoked, then you must make a good faith effort to ensure that, in the event\
+    \ an application does not supply such function or table, the facility still operates,\
+    \ and performs whatever part of its purpose remains meaningful.\n\n   (For example,\
+    \ a function in a library to compute square roots has a purpose that is entirely\
+    \ well-defined independent of the application. Therefore, Subsection 2d requires\
+    \ that any application-supplied function or table used by this function must be\
+    \ optional: if the application does not supply it, the square root function must\
+    \ still compute square roots.)\n\n   These requirements apply to the modified\
+    \ work as a whole. If identifiable sections of that work are not derived from\
+    \ the Library, and can be reasonably considered independent and separate works\
+    \ in themselves, then this License, and its terms, do not apply to those sections\
+    \ when you distribute them as separate works. But when you distribute the same\
+    \ sections as part of a whole which is a work based on the Library, the distribution\
+    \ of the whole must be on the terms of this License, whose permissions for other\
+    \ licensees extend to the entire whole, and thus to each and every part regardless\
+    \ of who wrote it.\n\n   Thus, it is not the intent of this section to claim rights\
+    \ or contest your rights to work written entirely by you; rather, the intent is\
+    \ to exercise the right to control the distribution of derivative or collective\
+    \ works based on the Library.\n\n   In addition, mere aggregation of another work\
+    \ not based on the Library with the Library (or with a work based on the Library)\
+    \ on a volume of a storage or distribution medium does not bring the other work\
+    \ under the scope of this License.\n\n   3. You may opt to apply the terms of\
+    \ the ordinary GNU General Public License instead of this License to a given copy\
+    \ of the Library. To do this, you must alter all the notices that refer to this\
+    \ License, so that they refer to the ordinary GNU General Public License, version\
+    \ 2, instead of to this License. (If a newer version than version 2 of the ordinary\
+    \ GNU General Public License has appeared, then you can specify that version instead\
+    \ if you wish.) Do not make any other change in these notices.\n\n   Once this\
+    \ change is made in a given copy, it is irreversible for that copy, so the ordinary\
+    \ GNU General Public License applies to all subsequent copies and derivative works\
+    \ made from that copy.\n\n   This option is useful when you wish to copy part\
+    \ of the code of the Library into a program that is not a library.\n\n   4. You\
+    \ may copy and distribute the Library (or a portion or derivative of it, under\
+    \ Section 2) in object code or executable form under the terms of Sections 1 and\
+    \ 2 above provided that you accompany it with the complete corresponding machine-readable\
+    \ source code, which must be distributed under the terms of Sections 1 and 2 above\
+    \ on a medium customarily used for software interchange.\n\n   If distribution\
+    \ of object code is made by offering access to copy from a designated place, then\
+    \ offering equivalent access to copy the source code from the same place satisfies\
+    \ the requirement to distribute the source code, even though third parties are\
+    \ not compelled to copy the source along with the object code.\n\n   5. A program\
+    \ that contains no derivative of any portion of the Library, but is designed to\
+    \ work with the Library by being compiled or linked with it, is called a \"work\
+    \ that uses the Library\". Such a work, in isolation, is not a derivative work\
+    \ of the Library, and therefore falls outside the scope of this License.\n\n \
+    \  However, linking a \"work that uses the Library\" with the Library creates\
+    \ an executable that is a derivative of the Library (because it contains portions\
+    \ of the Library), rather than a \"work that uses the library\". The executable\
+    \ is therefore covered by this License. Section 6 states terms for distribution\
+    \ of such executables.\n\n   When a \"work that uses the Library\" uses material\
+    \ from a header file that is part of the Library, the object code for the work\
+    \ may be a derivative work of the Library even though the source code is not.\
+    \ Whether this is true is especially significant if the work can be linked without\
+    \ the Library, or if the work is itself a library. The threshold for this to be\
+    \ true is not precisely defined by law.\n\n   If such an object file uses only\
+    \ numerical parameters, data structure layouts and accessors, and small macros\
+    \ and small inline functions (ten lines or less in length), then the use of the\
+    \ object file is unrestricted, regardless of whether it is legally a derivative\
+    \ work. (Executables containing this object code plus portions of the Library\
+    \ will still fall under Section 6.)\n\n   Otherwise, if the work is a derivative\
+    \ of the Library, you may distribute the object code for the work under the terms\
+    \ of Section 6. Any executables containing that work also fall under Section 6,\
+    \ whether or not they are linked directly with the Library itself.\n\n   6. As\
+    \ an exception to the Sections above, you may also combine or link a \"work that\
+    \ uses the Library\" with the Library to produce a work containing portions of\
+    \ the Library, and distribute that work under terms of your choice, provided that\
+    \ the terms permit modification of the work for the customer's own use and reverse\
+    \ engineering for debugging such modifications.\n\n   You must give prominent\
+    \ notice with each copy of the work that the Library is used in it and that the\
+    \ Library and its use are covered by this License. You must supply a copy of this\
+    \ License. If the work during execution displays copyright notices, you must include\
+    \ the copyright notice for the Library among them, as well as a reference directing\
+    \ the user to the copy of this License. Also, you must do one of these things:\n\
+    \n      a) Accompany the work with the complete corresponding machine-readable\
+    \ source code for the Library including whatever changes were used in the work\
+    \ (which must be distributed under Sections 1 and 2 above); and, if the work is\
+    \ an executable linked with the Library, with the complete machine-readable \"\
+    work that uses the Library\", as object code and/or source code, so that the user\
+    \ can modify the Library and then relink to produce a modified executable containing\
+    \ the modified Library. (It is understood that the user who changes the contents\
+    \ of definitions files in the Library will not necessarily be able to recompile\
+    \ the application to use the modified definitions.)\n\n      b) Use a suitable\
+    \ shared library mechanism for linking with the Library. A suitable mechanism\
+    \ is one that (1) uses at run time a copy of the library already present on the\
+    \ user's computer system, rather than copying library functions into the executable,\
+    \ and (2) will operate properly with a modified version of the library, if the\
+    \ user installs one, as long as the modified version is interface-compatible with\
+    \ the version that the work was made with.\n\n      c) Accompany the work with\
+    \ a written offer, valid for at least three years, to give the same user the materials\
+    \ specified in Subsection 6a, above, for a charge no more than the cost of performing\
+    \ this distribution.\n\n      d) If distribution of the work is made by offering\
+    \ access to copy from a designated place, offer equivalent access to copy the\
+    \ above specified materials from the same place.\n\n      e) Verify that the user\
+    \ has already received a copy of these materials or that you have already sent\
+    \ this user a copy.\n\n   For an executable, the required form of the \"work that\
+    \ uses the Library\" must include any data and utility programs needed for reproducing\
+    \ the executable from it. However, as a special exception, the materials to be\
+    \ distributed need not include anything that is normally distributed (in either\
+    \ source or binary form) with the major components (compiler, kernel, and so on)\
+    \ of the operating system on which the executable runs, unless that component\
+    \ itself accompanies the executable.\n\n   It may happen that this requirement\
+    \ contradicts the license restrictions of other proprietary libraries that do\
+    \ not normally accompany the operating system. Such a contradiction means you\
+    \ cannot use both them and the Library together in an executable that you distribute.\n\
+    \n   7. You may place library facilities that are a work based on the Library\
+    \ side-by-side in a single library together with other library facilities not\
+    \ covered by this License, and distribute such a combined library, provided that\
+    \ the separate distribution of the work based on the Library and of the other\
+    \ library facilities is otherwise permitted, and provided that you do these two\
+    \ things:\n\n      a) Accompany the combined library with a copy of the same work\
+    \ based on the Library, uncombined with any other library facilities. This must\
+    \ be distributed under the terms of the Sections above.\n\n      b) Give prominent\
+    \ notice with the combined library of the fact that part of it is a work based\
+    \ on the Library, and explaining where to find the accompanying uncombined form\
+    \ of the same work.\n\n   8. You may not copy, modify, sublicense, link with,\
+    \ or distribute the Library except as expressly provided under this License. Any\
+    \ attempt otherwise to copy, modify, sublicense, link with, or distribute the\
+    \ Library is void, and will automatically terminate your rights under this License.\
+    \ However, parties who have received copies, or rights, from you under this License\
+    \ will not have their licenses terminated so long as such parties remain in full\
+    \ compliance.\n\n   9. You are not required to accept this License, since you\
+    \ have not signed it. However, nothing else grants you permission to modify or\
+    \ distribute the Library or its derivative works. These actions are prohibited\
+    \ by law if you do not accept this License. Therefore, by modifying or distributing\
+    \ the Library (or any work based on the Library), you indicate your acceptance\
+    \ of this License to do so, and all its terms and conditions for copying, distributing\
+    \ or modifying the Library or works based on it.\n\n   10. Each time you redistribute\
+    \ the Library (or any work based on the Library), the recipient automatically\
+    \ receives a license from the original licensor to copy, distribute, link with\
+    \ or modify the Library subject to these terms and conditions. You may not impose\
+    \ any further restrictions on the recipients' exercise of the rights granted herein.\
+    \ You are not responsible for enforcing compliance by third parties with this\
+    \ License.\n\n   11. If, as a consequence of a court judgment or allegation of\
+    \ patent infringement or for any other reason (not limited to patent issues),\
+    \ conditions are imposed on you (whether by court order, agreement or otherwise)\
+    \ that contradict the conditions of this License, they do not excuse you from\
+    \ the conditions of this License. If you cannot distribute so as to satisfy simultaneously\
+    \ your obligations under this License and any other pertinent obligations, then\
+    \ as a consequence you may not distribute the Library at all. For example, if\
+    \ a patent license would not permit royalty-free redistribution of the Library\
+    \ by all those who receive copies directly or indirectly through you, then the\
+    \ only way you could satisfy both it and this License would be to refrain entirely\
+    \ from distribution of the Library.\n\n   If any portion of this section is held\
+    \ invalid or unenforceable under any particular circumstance, the balance of the\
+    \ section is intended to apply, and the section as a whole is intended to apply\
+    \ in other circumstances.\n\n   It is not the purpose of this section to induce\
+    \ you to infringe any patents or other property right claims or to contest validity\
+    \ of any such claims; this section has the sole purpose of protecting the integrity\
+    \ of the free software distribution system which is implemented by public license\
+    \ practices. Many people have made generous contributions to the wide range of\
+    \ software distributed through that system in reliance on consistent application\
+    \ of that system; it is up to the author/donor to decide if he or she is willing\
+    \ to distribute software through any other system and a licensee cannot impose\
+    \ that choice.\n\n   This section is intended to make thoroughly clear what is\
+    \ believed to be a consequence of the rest of this License.\n\n   12. If the distribution\
+    \ and/or use of the Library is restricted in certain countries either by patents\
+    \ or by copyrighted interfaces, the original copyright holder who places the Library\
+    \ under this License may add an explicit geographical distribution limitation\
+    \ excluding those countries, so that distribution is permitted only in or among\
+    \ countries not thus excluded. In such case, this License incorporates the limitation\
+    \ as if written in the body of this License.\n\n   13. The Free Software Foundation\
+    \ may publish revised and/or new versions of the Lesser General Public License\
+    \ from time to time. Such new versions will be similar in spirit to the present\
+    \ version, but may differ in detail to address new problems or concerns.\n\n \
+    \  Each version is given a distinguishing version number. If the Library specifies\
+    \ a version number of this License which applies to it and \"any later version\"\
+    , you have the option of following the terms and conditions either of that version\
+    \ or of any later version published by the Free Software Foundation. If the Library\
+    \ does not specify a license version number, you may choose any version ever published\
+    \ by the Free Software Foundation.\n\n   14. If you wish to incorporate parts\
+    \ of the Library into other free programs whose distribution conditions are incompatible\
+    \ with these, write to the author to ask for permission. For software which is\
+    \ copyrighted by the Free Software Foundation, write to the Free Software Foundation;\
+    \ we sometimes make exceptions for this. Our decision will be guided by the two\
+    \ goals of preserving the free status of all derivatives of our free software\
+    \ and of promoting the sharing and reuse of software generally.\n\n   NO WARRANTY\n\
+    \n   15. BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\
+    \ FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE\
+    \ STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE LIBRARY\
+    \ \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING,\
+    \ BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\
+    \ A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE\
+    \ LIBRARY IS WITH YOU. SHOULD THE LIBRARY PROVE DEFECTIVE, YOU ASSUME THE COST\
+    \ OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n\n   16. IN NO EVENT UNLESS\
+    \ REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER,\
+    \ OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED\
+    \ ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL\
+    \ OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE LIBRARY\
+    \ (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE\
+    \ OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE LIBRARY TO OPERATE\
+    \ WITH ANY OTHER SOFTWARE), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED\
+    \ OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS\n\nHow to Apply\
+    \ These Terms to Your New Libraries\n\nIf you develop a new library, and you want\
+    \ it to be of the greatest possible use to the public, we recommend making it\
+    \ free software that everyone can redistribute and change. You can do so by permitting\
+    \ redistribution under these terms (or, alternatively, under the terms of the\
+    \ ordinary General Public License).\n\nTo apply these terms, attach the following\
+    \ notices to the library. It is safest to attach them to the start of each source\
+    \ file to most effectively convey the exclusion of warranty; and each file should\
+    \ have at least the \"copyright\" line and a pointer to where the full notice\
+    \ is found.\n\n<one line to give the library's name and an idea of what it does.>\n\
+    \nCopyright (C) <year> <name of author>\n\nThis library is free software; you\
+    \ can redistribute it and/or modify it under the terms of the GNU Lesser General\
+    \ Public License as published by the Free Software Foundation; either version\
+    \ 2.1 of the License, or (at your option) any later version.\n\nThis library is\
+    \ distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without\
+    \ even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\
+    \ See the GNU Lesser General Public License for more details.\n\nYou should have\
+    \ received a copy of the GNU Lesser General Public License along with this library;\
+    \ if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth\
+    \ Floor, Boston, MA 02110-1301 USA\n\nAlso add information on how to contact you\
+    \ by electronic and paper mail.\n\nYou should also get your employer (if you work\
+    \ as a programmer) or your school, if any, to sign a \"copyright disclaimer\"\
+    \ for the library, if necessary. Here is a sample; alter the names:\n\nYoyodyne,\
+    \ Inc., hereby disclaims all copyright interest in\n\nthe library `Frob' (a library\
+    \ for tweaking knobs) written\n\nby James Random Hacker.\n\n< signature of Ty\
+    \ Coon > , 1 April 1990\n\nTy Coon, President of Vice\n\nThat's all there is to\
+    \ it!"
+  name: "GNU Library General Public License v2.1 or later"
+- licenseId: "LicenseRef-License-of-GNU-Licenses"
+  extractedText: "Everyone is permitted to copy and distribute verbatim copies\nof\
+    \ this license document, but changing it is not allowed."
+  name: "License-of-GNU-Licenses"
+- licenseId: "LicenseRef-LicenseRef-scancode-free-unknown"
+  extractedText: "License by Scancode."
+  name: "Free unknown license detected but not recognized"
+- licenseId: "LicenseRef-No_license_found"
+  extractedText: "Not find any license in the scanned file"
+  name: "No_license_found"
+documentNamespace: "http://fossy.osadl.org/repo/SPDX2TV_libgpiod-1.6.3.tar.gz_1705334684.spdx"
+packages:
+- SPDXID: "SPDXRef-upload822"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9be40cfaa5ef71ec619a8ad754c14d3a4511ad48"
+  - algorithm: "SHA256"
+    checksumValue: "eb446070be1444fd7d32d32bbca53c2f3bbb0a21193db86198cf6050b7a28441"
+  - algorithm: "MD5"
+    checksumValue: "e1cf986b68b3eb5ae873499767cfe382"
+  copyrightText: "NOASSERTION"
+  downloadLocation: "NOASSERTION"
+  licenseComments: "licenseInfoInFile determined by Scanners:\n - nomos (\"4.1.0.95\"\
+    .82b3b2)\n - monk (\"4.1.0.95\".82b3b2)\n - ojo (\"4.1.0.95\".82b3b2)\n- scancode\
+    \ (\"4.1.0.95\".82b3b2)"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoFromFiles:
+  - "NOASSERTION"
+  name: "libgpiod-1.6.3.tar.gz"
+  packageFileName: "libgpiod-1.6.3.tar.gz"
+  packageVerificationCode:
+    packageVerificationCodeValue: "91e5d5691fb8d54330e2471e0f1aea715e20f085"
+files:
+- SPDXID: "SPDXRef-item3046060"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1020e9db63fd1adb2b4dc5438a69562eeaf64149"
+  - algorithm: "SHA256"
+    checksumValue: "f89325adeacc6df4d22881a8f47f352913be25d4a8376c7ce10d7bf671624d7a"
+  - algorithm: "MD5"
+    checksumValue: "b1fa2cf7dcb0813a15c79a2ccd228e5a"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/tests-line.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046062"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "880e939b5fe5ecff2be8ba16c35bad0bed3b70be"
+  - algorithm: "SHA256"
+    checksumValue: "2834ddd8c034d635a0d6f2c66a02ac937b0978511dda741f244fdaa8c71ccac1"
+  - algorithm: "MD5"
+    checksumValue: "090c59ad08db2113ab07faa4f32b301c"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/.gitignore"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046061"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "ec3841d3d34b4acb9605f9472eaa25ce"
+  - algorithm: "SHA256"
+    checksumValue: "2a26291d898045937b828132eb99e65158040d11e4a822db2238c6cbb8975aa0"
+  - algorithm: "SHA1"
+    checksumValue: "e20f6d35aae197a3c52d06dcf7e9d8b9cb604831"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/gpio-mockup.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046068"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "36870bf4b6b279e18847d69ba1a862fc"
+  - algorithm: "SHA256"
+    checksumValue: "af42c8f03a249fc92bf4bde4d5402579ec2b79bd82da36ed2a3b6925f37be632"
+  - algorithm: "SHA1"
+    checksumValue: "7ac60a2db324448518c1e81be3246c7c0c39d171"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/NEWS"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-only"
+  - "LicenseRef-LGPL-2.0-or-later"
+- SPDXID: "SPDXRef-item3046067"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "25ea72073f36201dea14f1eeee48dba8"
+  - algorithm: "SHA1"
+    checksumValue: "f952cc39b7f2b215898139c697f54712fbfa7119"
+  - algorithm: "SHA256"
+    checksumValue: "fa2738309f31719dcb3fd836704700d478bff2882986ceb19b918169bd1c8f31"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/TODO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046069"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "aec38f6cc2cf86cf22366ec32c7c77e62f3fd679"
+  - algorithm: "MD5"
+    checksumValue: "87e2d4f91da844607bde9699e8467b97"
+  - algorithm: "SHA256"
+    checksumValue: "7756ca76f75ee0791f86ca84f130408092b1c14681c06e1e32101377b03427b4"
+  copyrightText: "Copyright (C) 2017-2019 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/configure.ac"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046064"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "66ec124e0dc21cb96a66cc9c0299a4de"
+  - algorithm: "SHA1"
+    checksumValue: "62b3abfc4a964672183430ae8b39167deb4a6e2a"
+  - algorithm: "SHA256"
+    checksumValue: "7318d53585489d07f2cb6d74d373d9f044960fa5a382364d3dc8434d2bb0827f"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/chip.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046063"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "dc243ed9ed2a7cffb55e95bcd44efccac12ca785"
+  - algorithm: "SHA256"
+    checksumValue: "e9862005bb2f1a66994af9d9e82f8b5a1670d17f60ba0d4501b2f1f30f8e45f2"
+  - algorithm: "MD5"
+    checksumValue: "95a482057bc6d1919770b0b101d5c65c"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046066"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "77c602f6081754f29c86a5cbabd6e57fe62b8bc8"
+  - algorithm: "SHA256"
+    checksumValue: "3228dbb3874f5d08358e3c5657f3ca2614a3668d2dd579c0628f2ec4145a6bff"
+  - algorithm: "MD5"
+    checksumValue: "b46670405c51e4a94c0eb722ea9e50ab"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046065"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ecdea9a90976662a4f78e5abd1d4fee6aa00f9b1"
+  - algorithm: "MD5"
+    checksumValue: "975e33c9f46d89051c245eadaba6fe35"
+  - algorithm: "SHA256"
+    checksumValue: "ffe24ad09618084cea03c184738ffce589fe2718806aedf881abe3459aa77713"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046051"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "ff0e23583d92e3d5ca63b5274c6307bb"
+  - algorithm: "SHA1"
+    checksumValue: "b238093756833f86f838018c87ef318616d15249"
+  - algorithm: "SHA256"
+    checksumValue: "40bf31c64cdcddcfe09f089111426b21d92a123edb53e0b43419b8e9074ab3c4"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/libgpiodcxx.pc.in"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046050"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "def62a7f977de3a3f4b586a13049ddd8d638e81c7e4f1e4eb132b6dc0fb1d352"
+  - algorithm: "MD5"
+    checksumValue: "a5c099ed3d042c86877dce5f681fbf99"
+  - algorithm: "SHA1"
+    checksumValue: "2a14313564792d5447c9efc121f7a00ee0ac4166"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/iter.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046057"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "a5347578960878d1ade4fdb88303aeae"
+  - algorithm: "SHA1"
+    checksumValue: "c7d6bfa68e095fe050a17bc71c9b436538ade171"
+  - algorithm: "SHA256"
+    checksumValue: "fce768ff4a0fad54b31a180b1609df1aafc382f5bf68105db86df47587f21168"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/tests-chip.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046056"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a312d5a000ef1aaebbce9a1ec9b8b3e3c0a071bb"
+  - algorithm: "SHA256"
+    checksumValue: "c23eb774ce80bab83bd1b91d31016a0d44477f6447debe9bf76c12ee1f1f7930"
+  - algorithm: "MD5"
+    checksumValue: "1b5601634b1b557cc26f97354a9142dc"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/tests-event.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046059"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "4d63385db1d165edd7c41e4a3dc15c319ee6e5eb"
+  - algorithm: "SHA256"
+    checksumValue: "4365919c63ed4dabcdb0ba4ac5f62df5323ee12ce842a8c6b7ada6feb4fa0972"
+  - algorithm: "MD5"
+    checksumValue: "85af6da24bf06264ed99d5be98356432"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/gpiod-cxx-test.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046058"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "7615e79cf98ad7220bfd2826c479c4cbcbffd569"
+  - algorithm: "SHA256"
+    checksumValue: "9680dbc73fadbab827b9ff1c77eb955a724ab2af6e9cd5c9c637af5c27c248ff"
+  - algorithm: "MD5"
+    checksumValue: "37b2498ac98df04aab0b8e8afbc31491"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/tests-iter.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046052"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "f75879fd30607ad5d39f871934c1f658"
+  - algorithm: "SHA1"
+    checksumValue: "c0393fd10c7be81c53aa8aeb697e1d62b5186e9c"
+  - algorithm: "SHA256"
+    checksumValue: "a412df399be52f841ec6a7db7b114d2a04818bf761f2d9f743d79fba276e4229"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/line.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046055"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "53a79d5ff2d9d3a6223feffc11a50b8dc3e25d95"
+  - algorithm: "SHA256"
+    checksumValue: "9f9a6a4d318830ad648a5ae11d157f71e2a728f4de507169d571b4319bee05c3"
+  - algorithm: "MD5"
+    checksumValue: "0d03112a754a2027c31949bacd8ae463"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/gpio-mockup.hpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046054"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "dfeed03ceef7e1d1590eeeb7ba1f44749caf960f"
+  - algorithm: "MD5"
+    checksumValue: "d31c4b611ca71ac76637fefb41b1b9bc"
+  - algorithm: "SHA256"
+    checksumValue: "f95c299d53041ef8cefee510f4bb998b61694563de94562e710a4009212db6d3"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/tests/gpiod-cxx-test-main.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046040"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "e687cf8f4883cb3491d54eb4a38af87e"
+  - algorithm: "SHA1"
+    checksumValue: "7ec9d98786de612b88f42185ba761881236bfc1b"
+  - algorithm: "SHA256"
+    checksumValue: "1c269c5b8ff7db37afda4d691bf53653c8b66c86808487c6737ea1266961722a"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/gpiod.hpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046049"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "fd71fcf129529f41ed013c9294ae1374"
+  - algorithm: "SHA1"
+    checksumValue: "36751f3978f423734d6d80451e7067c6b25a6214"
+  - algorithm: "SHA256"
+    checksumValue: "5b3f3769976d1d2a127cf6129a0ad343a078d3cdcbb6d8ba952e820885355f43"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/examples/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046046"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "7abb1dfbdffd84bf0eb3494584514ae5"
+  - algorithm: "SHA1"
+    checksumValue: "1209e224bf9ed2f0c2b3539f3aeadf3bcc65340f"
+  - algorithm: "SHA256"
+    checksumValue: "f6e8769c6888b50cc3b97bfa9c624ed1ccbe2c5cb68f4e0ccb418e123091f96a"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/examples/gpiofindcxx.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046045"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "390f6ad6f3bd2be8e99d35ceec39df20"
+  - algorithm: "SHA1"
+    checksumValue: "ed5f4fa894e348b7229588f0ba881afa7cfa0827"
+  - algorithm: "SHA256"
+    checksumValue: "34d21b3c03eb6be2d17fbcc95d4db13d5da4318f0304c5b063c7a7f1508c7662"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/examples/gpiomoncxx.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046048"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "4057becae8b17e887569c5893ac280e8"
+  - algorithm: "SHA1"
+    checksumValue: "3ec77d93fb96e8a70b8b6f825a21b0af086de3a5"
+  - algorithm: "SHA256"
+    checksumValue: "d56bea8a684bda4b681f7130891ed7f2f9fda05c8bb5318223da5c5979fe59da"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/examples/.gitignore"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046047"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "022dd3aafe70023bbf3bd4e9a622ff8899aff453e8916b61796252fc94550ee6"
+  - algorithm: "SHA1"
+    checksumValue: "1003798579d6132b33a19cbab55d302e312b0e59"
+  - algorithm: "MD5"
+    checksumValue: "2ebd7bf17b6ebdeb19d44fe0af3cbcbc"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/examples/gpiosetcxx.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046042"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "180c2b7dc46ebf47c64322657b9167ca8fc01dc4"
+  - algorithm: "MD5"
+    checksumValue: "cdae56b5197926699e859270a35e5dc1"
+  - algorithm: "SHA256"
+    checksumValue: "1cd55599a7913a7b19ca3261d41d83122786a692d5350d2b9b19a04574e51916"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/examples/gpiogetcxx.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046044"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a1aa8a70b6b664566ad207be1fe7501109e647f0"
+  - algorithm: "SHA256"
+    checksumValue: "c87251909ea0933914f0d07fc775c0327531630851ea1f7ecf88df1367078eaf"
+  - algorithm: "MD5"
+    checksumValue: "ba750506f90a5a4bafbe0592bb663bc0"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/examples/gpioinfocxx.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046043"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1230d24639307213792012117c646746dfc209f8"
+  - algorithm: "SHA256"
+    checksumValue: "1128489c867f8be12747e7563aee045ae269859eff068c7de2e80ec384f88682"
+  - algorithm: "MD5"
+    checksumValue: "76c3fc2ffe4c3cf85b80ffbce86af585"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/examples/gpiodetectcxx.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046039"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "f504f880191e8007d470d9bf9a569936"
+  - algorithm: "SHA1"
+    checksumValue: "e2df10aeaedf7e722a62491be437cc81723aa4a2"
+  - algorithm: "SHA256"
+    checksumValue: "095f881940a4035f65cf354ee32887c649295143ebc7b446789c5842b5f5db5c"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/cxx/line_bulk.cpp"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046035"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "26b069410a20649c788383f27d7798ee4bd0802a4e91db7aa400aa584c4d14d6"
+  - algorithm: "MD5"
+    checksumValue: "a397585e67d2f98cb4cf37e0e1441170"
+  - algorithm: "SHA1"
+    checksumValue: "4997060ba274518f55c16e3a0b899492365a7f63"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/tests/gpiomockupmodule.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046034"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "0723b78b19afecc706b14670edc79881552a9528175ff5d767d629151f658b4f"
+  - algorithm: "MD5"
+    checksumValue: "490c21ef5bf207ee9f848639f9656023"
+  - algorithm: "SHA1"
+    checksumValue: "27cf52b351a269a267fc7f9ef7986e6608983b65"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/tests/gpiod_py_test.py"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046037"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c50af655c9b755df99bbeca3dad5b9d5fa086d27"
+  - algorithm: "SHA256"
+    checksumValue: "c3db4c870f61a4d965ace8022fe720a56f10fd6de4c981c72068e345e63ea81b"
+  - algorithm: "MD5"
+    checksumValue: "2b5365f718c91b2792716a2490edd6e3"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046036"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "ee814535407bba66dc97df346edb319b"
+  - algorithm: "SHA256"
+    checksumValue: "1a2046dffd31a42ce93e091406e3870b19c143deab77ba938588683e40d411fe"
+  - algorithm: "SHA1"
+    checksumValue: "a69d8d953a9fc6b9d5c2bbd5eabb41efa1f66883"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/tests/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046031"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "47f8c6e5f5a9d4eb4d3b350ffee0e1dcf0883e8b"
+  - algorithm: "SHA256"
+    checksumValue: "e563b8152b0e95e013f960dd7b6bf111abc712517554429099a258524723be11"
+  - algorithm: "MD5"
+    checksumValue: "7d2ee6b29c343bfede32ce9f5e8e34fc"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/examples/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046030"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8b7894705564504e9b94b805ee93e259f817378f"
+  - algorithm: "SHA256"
+    checksumValue: "ed0b0a349962b54eb4974e26e6f4cb675c1705402995f80f11bba16cf0e8a4b5"
+  - algorithm: "MD5"
+    checksumValue: "5bdc9e780c7f49ac80cc00f12c7ea033"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/examples/gpiomon.py"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046032"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "d3c7a192eafff01413bf2c8491e872151dc1032a6b8d85f51a0760366eab6d2a"
+  - algorithm: "MD5"
+    checksumValue: "352b22fd3d3bc25e9d805fb1859faffa"
+  - algorithm: "SHA1"
+    checksumValue: "4be169a2d009971338eec0f667ea930797917413"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/gpiodmodule.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046093"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "7fcc2d85f9dd2327df38a73fe07490b2"
+  - algorithm: "SHA1"
+    checksumValue: "9edf148780c73864f90234a9bb41f1aa124040b5"
+  - algorithm: "SHA256"
+    checksumValue: "30d088e7f386ae98693954dacd111bb9aac437751b14a19e94c154cb93f58167"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/tools-common.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+  - "LicenseRef-LicenseRef-scancode-free-unknown"
+  - "LicenseRef-LGPL-2.1-only"
+- SPDXID: "SPDXRef-item3046092"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "78e6d37100a98b8207cf2a5e507d342c64f101aa"
+  - algorithm: "SHA256"
+    checksumValue: "5601bea1699864ccb9b88e28e104636b6fc45a65334dc01695c7fca95cdd3542"
+  - algorithm: "MD5"
+    checksumValue: "386d8665e148d2241d36dfb20e3d08c9"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/gpiomon.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046095"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b707173286aeaddee192dd49cdbf73460e563a45"
+  - algorithm: "SHA256"
+    checksumValue: "63d8b57bf75c9114c1d04805355fbfb7f9b5b6c65893966f490b40dcb9d0df60"
+  - algorithm: "MD5"
+    checksumValue: "572d311ec21ceb097f5237922e95877a"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/.gitignore"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046094"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "71c29d1bd31db24f5908c9f3ebe2c543"
+  - algorithm: "SHA1"
+    checksumValue: "e06651eb0638d9379b0872aa95cfc80427ae380c"
+  - algorithm: "SHA256"
+    checksumValue: "6d35e84bb61d1e0af931ea0de7ae2607a83519fc33acaf32a464fd2bed8014d6"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/gpiofind.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046091"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "22017d7f209be810e416fd26405133b0d75dd9ad13bcc091afdc608fb65d5730"
+  - algorithm: "MD5"
+    checksumValue: "5babe1faf4b2a5ba40fd2ca6dfd9b584"
+  - algorithm: "SHA1"
+    checksumValue: "5c9e55f0ab3117b1e8f95b3ed9a26a74f301d412"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/gpioinfo.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046090"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "da126b742845bac5b3ea3e0fb8fc16d6"
+  - algorithm: "SHA1"
+    checksumValue: "266ab01184e1a2011e54c79cda7b6a3fe0359b90"
+  - algorithm: "SHA256"
+    checksumValue: "e54b3b9d12823e778f95ad7be7a181ff29930c1be8f9800a26100203125ee60e"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/gpiodetect.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046097"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a158de97482dd50434e2dbc1066ad485b0e55e9d"
+  - algorithm: "SHA256"
+    checksumValue: "c2c52044cf97ae147ef3e78fb6386372bdd737b1c8784bbdbe139cdcaa231277"
+  - algorithm: "MD5"
+    checksumValue: "8f8bbd9def62960a95ad2bdf1d03703b"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046096"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "a5cf1474d5858a26c9a61b95efe2d5ce"
+  - algorithm: "SHA1"
+    checksumValue: "c931d967438bdec76fa1eae06547305dcea04f60"
+  - algorithm: "SHA256"
+    checksumValue: "7613f826f166f1e3cc368404b0318f4c0e896ce1ebf992a1ad66a39bcd2aa1a6"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/gpio-tools-test"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046099"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "feb60c388df38fe82c27b8a1d300a16fc221157d92f1b6a1db2d572bafa76d8c"
+  - algorithm: "MD5"
+    checksumValue: "2094b065fedabd4cc2ca14880a170ffb"
+  - algorithm: "SHA1"
+    checksumValue: "12a1de4d1e2615bee54228c0d794242237caad78"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/tests-iter.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046081"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2c378b484c6da96db8f05f9bd795fcf5ddad0205"
+  - algorithm: "SHA256"
+    checksumValue: "ce64d5f7b49ea6d80fdb6d4cdee6839d1a94274f7493dc797c3b55b65ec8e9ed"
+  - algorithm: "MD5"
+    checksumValue: "2caced0b25dfefd4c601d92bd15116de"
+  copyrightText: "Copyright (C) 1991, 1999 Free Software Foundation, Inc."
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/COPYING"
+  licenseComments: "The file contains the text of the GPL/LGPL. the text is licensed\
+    \ under License-of-GNU-Licenses:\nEveryone is permitted to copy and distribute\
+    \ verbatim copies\nof this license document, but changing it is not allowed.\n\
+    Thus we concluded License-of-GNU-Licenses as license of this file"
+  licenseConcluded: "LicenseRef-License-of-GNU-Licenses"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+  - "LicenseRef-LGPL-2.1-only"
+- SPDXID: "SPDXRef-item3046084"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "8c6699a1508e125d7abfeb5e949cb26f"
+  - algorithm: "SHA1"
+    checksumValue: "af3e8d7c15f9f208072d5ec65dad3ecfd5df0742"
+  - algorithm: "SHA256"
+    checksumValue: "f7c63a483d5f38cecd192f88c50fdb6957fb8de4be51154da7661ea4c1d71407"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/include/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046083"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "4afbe58840c1bb143e9e3d95fa42e0c7"
+  - algorithm: "SHA1"
+    checksumValue: "c1856330ccae1f207026be09530436f7363f65d6"
+  - algorithm: "SHA256"
+    checksumValue: "b202d23e352c90e7d2f632d3eb5665b79545497f74de890c2d4136962371c592"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/include/gpiod.h"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046080"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "7abd82a6c5da1eb6a245f5e22a6767d9"
+  - algorithm: "SHA1"
+    checksumValue: "95f7f4b6c5663ce244480f1622c5ea8ad72561c9"
+  - algorithm: "SHA256"
+    checksumValue: "7fdc266474a0b339069435c1f67a5e297981140037c07d4347f9c8e2028652e6"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>\
+    \ 2017 Thierry Reding <treding@nvidia.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/autogen.sh"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046089"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "4c9b50f6d47d4f7d351de757837e6b71cb95d7d5"
+  - algorithm: "SHA256"
+    checksumValue: "730a759a8ae763f1935cc0dbc454a28ec19d3427edfddc28c29caecf7425c365"
+  - algorithm: "MD5"
+    checksumValue: "d60257f3a0c1f7a41e247681625b8177"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/tools-common.h"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046086"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "95b6336ec6e972ae65724a5afa3b779c"
+  - algorithm: "SHA1"
+    checksumValue: "1f111fc457090d28ac439d62023be4660026dc21"
+  - algorithm: "SHA256"
+    checksumValue: "db2db25bb23d1aa7faec3b9fcffe84618a42c496ea246a23fa06cfbaa2c3bd8f"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/gpio-tools-test.bats"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046088"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "b8289b3b5b15d293c8684ddca4003f4fae047ced6827e9398126e868a3637ee2"
+  - algorithm: "MD5"
+    checksumValue: "19cbee8cde7c64c3fc6a44bcaa5df15e"
+  - algorithm: "SHA1"
+    checksumValue: "09e4b5e912987f216797c05f9de062493c591c48"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/gpioset.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046087"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "38403d4d8b641f805cd8bb1b989efc1a"
+  - algorithm: "SHA1"
+    checksumValue: "95f81c0f6ab28d0ae7648b3f6ee3a8b53109edb6"
+  - algorithm: "SHA256"
+    checksumValue: "b1db22ca078a731e2612a76a5900e1cb06661b3a2222200b5c33abe3e8dac834"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tools/gpioget.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046070"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "95de2635cc735ea9b1b8ea489cd3390a35ade809"
+  - algorithm: "SHA256"
+    checksumValue: "35a9a1a09301c1db726b7ec2e64e355db4f2190d8343f117b53cb0defdec500c"
+  - algorithm: "MD5"
+    checksumValue: "be3259b1ce17188de32f7c2ac97e3d21"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/README"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046073"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "a56ddfeb463fe37b93045ef2386cf0795a62983a5f7c7d75ac473157c82084b3"
+  - algorithm: "MD5"
+    checksumValue: "035ceec8acad0c5bfb9179186278732f"
+  - algorithm: "SHA1"
+    checksumValue: "0b97dd2018d401f178e1328b689a6eb70a6c5028"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/lib/core.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046072"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "485b734932c55a53305cceace90a63204ff9acc3992bbc5df5dd32d1d8acb894"
+  - algorithm: "SHA1"
+    checksumValue: "5a04c5fcea65d7b2d3b37f7f3b1188935a9d1f02"
+  - algorithm: "MD5"
+    checksumValue: "250ff5a4dc696a4066f7627ebd18311a"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/lib/libgpiod.pc.in"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046079"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c476c7f7e9797d85ea0fcebcc828ee557bababe5"
+  - algorithm: "SHA256"
+    checksumValue: "39bb6bc5a71ca5d70f0a82b891c71c1b64afc7e356df6f004c5f97d192e89472"
+  - algorithm: "MD5"
+    checksumValue: "03b095272e627d822468a8aee9220456"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/Doxyfile.in"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046078"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "079bed7b450602648473534a8c56715a23b03402"
+  - algorithm: "SHA256"
+    checksumValue: "96f89346745042c585867d736495e063dde874bc12783362d8948779718fa4b1"
+  - algorithm: "MD5"
+    checksumValue: "581d357b6b693079dfcc71a0887a312f"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/lib/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046075"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9f280e8584eb786e27cdac0361d64eee134fb735"
+  - algorithm: "SHA256"
+    checksumValue: "dc6559d618d98fb9430c41345f7b5a2254b6afe7b67a718fceb53f83bec88ca4"
+  - algorithm: "MD5"
+    checksumValue: "8a8938cf05535a92eb8e59eaa0caff7a"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/lib/ctxless.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046074"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a82f3616ce52a7c7e1379816a531f611cec54a66"
+  - algorithm: "SHA256"
+    checksumValue: "a974ce1c71c83ab897c3bc3ce8f6d3a5df63efdaaa5bce7fb50a164cc020c781"
+  - algorithm: "MD5"
+    checksumValue: "b7d3bd64efed83919216b68d74e8dcb6"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/lib/helpers.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046077"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "924d0e3f17a8af5d5f23e963cfce30d9a938d2a3730e8ea10eebb0a65ace2313"
+  - algorithm: "MD5"
+    checksumValue: "a062e9a78d18784a6ddd634f4cb33b86"
+  - algorithm: "SHA1"
+    checksumValue: "a96ed4613d55294df294eb6a6d828b64fc32ec69"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/lib/iter.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046076"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "0e0d5d6fa24031d95a28ba6b74d1f145d7f01f35d11c69c6b5c5575c37a49338"
+  - algorithm: "MD5"
+    checksumValue: "82e07eb8188a3d9b993cd5d92b82ad9f"
+  - algorithm: "SHA1"
+    checksumValue: "400cc389ba7ec66b5932f156bc62e6b130e2339e"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/lib/misc.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046109"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "e635f87f685e0deca6643c38a0590d9ac18c3f9a63f2ecfcf8c36d3393b8bab4"
+  - algorithm: "MD5"
+    checksumValue: "44083a14d7db48bd5873cc81123b0066"
+  - algorithm: "SHA1"
+    checksumValue: "f801c913b15b0315167a081b14998b70ebb91e61"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/tests-misc.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046108"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c65f433336f69a3913a4eba48e65cdb56a7fc043"
+  - algorithm: "MD5"
+    checksumValue: "ff7c35f0a39885297d68bde4c9f88c2c"
+  - algorithm: "SHA256"
+    checksumValue: "d8a2897c503c0706bd4b5f2430c96062392117475a71bc1389ebd93933969192"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/tests-line.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046105"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6aad51786ca7844ecfde4314969305ab04e6a73a"
+  - algorithm: "SHA256"
+    checksumValue: "ae0a1904188d3b71332382a358162887327d96ccff6f1be5b05fed4c218ef9c9"
+  - algorithm: "MD5"
+    checksumValue: "bb097a2ca10628631f31b48adadc3446"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/mockup/gpio-mockup.h"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046107"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "c5886016bcf0ad9d2f1c32c7570beb82"
+  - algorithm: "SHA1"
+    checksumValue: "fe603ae464e97661a2d7a92cbcb0328316bf7fd8"
+  - algorithm: "SHA256"
+    checksumValue: "fea8de93df733ff6821511b3927bacb12581dbda6fb82c01219624f779e6ff8a"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/mockup/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046106"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "76557054e457feac174466a88cb9801c"
+  - algorithm: "SHA256"
+    checksumValue: "90e3f5b3c31bf948f18793937d85abff43a7ebe5dca22accbf43a82ef8356879"
+  - algorithm: "SHA1"
+    checksumValue: "8a06e11448d5c79ffe829aa26374891824c05f75"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/mockup/gpio-mockup.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046101"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "f981f84bbfeadddae7e13bc6cf33059e"
+  - algorithm: "SHA1"
+    checksumValue: "a5007bf5064849e1f4ef49c6ca0870bd88062691"
+  - algorithm: "SHA256"
+    checksumValue: "84cee1efa5b9ac9bb01d06bb7b92c3c99a4867f96c160fa7e44327c44898c97d"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/tests-event.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046100"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d24e746d1a0114e3bdfee5df85325451b19aa426"
+  - algorithm: "SHA256"
+    checksumValue: "763c23cc5eac277b6f0e6d2bdbda89fd8a2ddc4e08ad2b9c4c2c9199e49ac18d"
+  - algorithm: "MD5"
+    checksumValue: "18e87db93d4aec49b104b95609253260"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/tests-ctxless.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046103"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "7053ec21cab565fb3318f16c5a59286aec3f8379f21abd34ac97c8a688eb9e8e"
+  - algorithm: "SHA1"
+    checksumValue: "50a61ced9ba0c93747389533b5f83b0fca713e83"
+  - algorithm: "MD5"
+    checksumValue: "d670dace36458a7d7c5f3c7c08b765be"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/gpiod-test.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046102"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "4e9e1918e02de370246dd9ca9fb34c9b"
+  - algorithm: "SHA1"
+    checksumValue: "13047f491d38b64e92e32bf81972be430db3d0ed"
+  - algorithm: "SHA256"
+    checksumValue: "cd15e81248bd6d5481f78acfe593483e4235bebd51701366a4e766cd7b95910b"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/gpiod-test.h"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046028"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "89b1c6c8a50ad7bc30ddf89e16f384fc525d9831"
+  - algorithm: "SHA256"
+    checksumValue: "516485e9a3d94df5684d9b5cef2df0f0c85f20e62a24263e568b6a6999a5df6a"
+  - algorithm: "MD5"
+    checksumValue: "265eba7dc33e56aead8a051bca122683"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/examples/gpioinfo.py"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046027"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "2337c66da6575f7f210dd831c516dbe6a333cdc0e76f42c316d9943db4fbfe57"
+  - algorithm: "MD5"
+    checksumValue: "721b2d0d80c5e881bb3b36c7055273aa"
+  - algorithm: "SHA1"
+    checksumValue: "9692f544edeec11b34adab5b4f3f8aee82eec235"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/examples/gpioget.py"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046029"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "01dfe5dfc1b9e970fce8921cc4990ea2"
+  - algorithm: "SHA1"
+    checksumValue: "988f58599f015286f11e6f8f001ea6fdcd15b3ce"
+  - algorithm: "SHA256"
+    checksumValue: "70b45f89b65e3c1954a8d27046e1619764a1d759bdc9fe6b8120d7508c3f5403"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/examples/gpioset.py"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046026"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ea5b4a8e84eae82cd4dbe5ba121109734fa4b9e7"
+  - algorithm: "SHA256"
+    checksumValue: "89f63a3cffaff72dbb906cef3e3e350c3046a0b747bc8f8f9810a4af9cc4bffc"
+  - algorithm: "MD5"
+    checksumValue: "8631dba8620c59b5230faa3d0519ea0d"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/examples/gpiofind.py"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046025"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "76dda0c3a6d1b15c7d40ce57fb6ae434ccff12d02deb12d5fa585885ef06c9ef"
+  - algorithm: "MD5"
+    checksumValue: "4b28021000fa0be842f326e59869f380"
+  - algorithm: "SHA1"
+    checksumValue: "a7ab69e7528f3d6aa263ac757aa5a8aff90d6227"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/bindings/python/examples/gpiodetect.py"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046116"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "6f2f41dfa1c8e795e03b1b9bf9ab67df"
+  - algorithm: "SHA256"
+    checksumValue: "0bc2ce3f8592d890e48876ccf88127eb720b368debfdce3c59ebcea73f66a451"
+  - algorithm: "SHA1"
+    checksumValue: "9af3c0a0a5a36890e9cc69998a1fb8e554fc93bc"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/man/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046115"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "288f5a6a4ca690c75debe8831a4316aa"
+  - algorithm: "SHA1"
+    checksumValue: "d88c8c188c80b760e44c9fdc58319b57037efdc1"
+  - algorithm: "SHA256"
+    checksumValue: "9159dcc0aafa16681297f785ac862965ec48fdc8cd583107eef24120d3264455"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/man/.gitignore"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046118"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "b20a2b9a97be7c90e6747775010c798e"
+  - algorithm: "SHA1"
+    checksumValue: "44c12d5752fcd54d5377ca654a1a6b0da1d791ff"
+  - algorithm: "SHA256"
+    checksumValue: "36f9878a562e3bbf1f3aace16aff95a6e759fd32d1809d682105046b4eb70b39"
+  copyrightText: "Copyright (C) 2017-2019 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046117"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "2d8bae3786371a70f91c68f592a85614"
+  - algorithm: "SHA1"
+    checksumValue: "a7a2b85e37bdaac4706bad3f40f54348356787f7"
+  - algorithm: "SHA256"
+    checksumValue: "fce0187db1b994474eb06b7646ec37867d8a17ef24a04405ade43afe54273efb"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/.gitignore"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046112"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "b2a53013024ddec9f4aeb1295376fda4313598366199cc0952c8cfa85f1f6157"
+  - algorithm: "MD5"
+    checksumValue: "700780b3cc96918c688859379bab7f97"
+  - algorithm: "SHA1"
+    checksumValue: "18f61c0589dbc44767e209b36c89d627e27f1b10"
+  copyrightText: "Copyright (C) 2017-2018 Bartosz Golaszewski <bartekgola@gmail.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/Makefile.am"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046111"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "5937d8d05862335d63f8ad1c0b07d7ccb05a918cdb82cffb3931d93dbba5bf27"
+  - algorithm: "MD5"
+    checksumValue: "3a7cded9679de6cd4222d78d2a36bc8d"
+  - algorithm: "SHA1"
+    checksumValue: "5c8fff1db5a95574521af0e45de88652dea64299"
+  copyrightText: "Copyright (C) 2019 Bartosz Golaszewski <bgolaszewski@baylibre.com>"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/tests-chip.c"
+  licenseComments: "NOASSERTION"
+  licenseConcluded: "LicenseRef-LGPL-2.1-or-later"
+  licenseInfoInFiles:
+  - "LicenseRef-LGPL-2.1-or-later"
+- SPDXID: "SPDXRef-item3046114"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "14eb2ead9f734844b691bf84d9a602fd55f124365e1d437704abc37390d9ca19"
+  - algorithm: "SHA1"
+    checksumValue: "a95230d568c123c2ab66957db7de7146fa987033"
+  - algorithm: "MD5"
+    checksumValue: "dcd76468ff11003a64c0aaddb7f24f84"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/man/template"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item3046110"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "40a5aaae46890c4eccbfce328315f2fa"
+  - algorithm: "SHA1"
+    checksumValue: "34089e5699dcf0c3aa2b68ce9bc67ef100e11ddb"
+  - algorithm: "SHA256"
+    checksumValue: "a9b7f46b58f41b2e1b61941458f60d1f71086c55787269ed77aa00947aee9d40"
+  copyrightText: "NOASSERTION"
+  fileName: "libgpiod-1.6.3.tar.gz/libgpiod-1.6.3.tar/libgpiod-1.6.3/tests/.gitignore"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+relationships:
+- spdxElementId: "SPDXRef-DOCUMENT"
+  relationshipType: "DESCRIBES"
+  relatedSpdxElement: "SPDXRef-upload822"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046091"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046090"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046100"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046069"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046092"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046101"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046027"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046118"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046086"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046030"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046077"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046039"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046073"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046067"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046031"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046066"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046065"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046087"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046064"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046114"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046110"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046074"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046058"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046109"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046097"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046057"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046028"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046116"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046061"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046072"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046111"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046040"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046095"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046105"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046036"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046083"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046108"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046060"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046042"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046081"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046117"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046052"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046062"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046084"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046026"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046115"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046063"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046034"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046076"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046080"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046078"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046070"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046106"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046050"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046056"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046029"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046047"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046075"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046059"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046035"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046096"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046054"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046032"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046055"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046093"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046046"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046049"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046051"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046102"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046025"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046103"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046048"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046112"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046088"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046043"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046037"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046089"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046068"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046094"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046045"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046079"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046107"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046099"
+- spdxElementId: "SPDXRef-upload822"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item3046044"
