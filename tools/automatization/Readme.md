@@ -1,5 +1,5 @@
-### Installations
-One prepare the setup for installation either via docker or via virtual environment.
+# Installations
+One can prepare the setup either via docker or via virtual environment.
 
 ## Via docker
 You need to first install docker in order to proceed to next steps
