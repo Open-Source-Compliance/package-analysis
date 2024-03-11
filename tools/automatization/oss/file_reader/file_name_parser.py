@@ -2,11 +2,20 @@ import re
 import textwrap
 from oss.utils.command_line_parser import parser
 
+class FileNameParserException(Exception):
+    pass
+
+
+class MissingOutputPathException(FileNameParserException):
+    pass
+
+
 class FileNameParser:
     """
     """
-    def __init__(self, file_path: list, dictionary_replacement_texts: dict):
+    def __init__(self, file_path: str, output_path: str, dictionary_replacement_texts: dict):
         self.file_path = file_path
+        self.output_path = output_path
         self.dictionary_replacement_texts = dictionary_replacement_texts
         for key, value in  self.dictionary_replacement_texts.items():
             print ("key: ", key)
@@ -16,8 +25,8 @@ class FileNameParser:
         self.packet_name = ""
 
     @classmethod
-    def create (cls, file_path: list, dictionary_replacement_texts: dict):
-        instance = FileNameParser(file_path, dictionary_replacement_texts)
+    def create (cls, file_path: str, output_path: str, dictionary_replacement_texts: dict):
+        instance = FileNameParser(file_path, output_path, dictionary_replacement_texts)
         new_file_name = instance.new_file_name_provider()
         instance.file_name = new_file_name
         instance.save_new_file()
@@ -29,10 +38,9 @@ class FileNameParser:
     def set_new_file_name(self, new_file_name: list):
         self.new_file_name = new_file_name
     
-    def remove_patter_ending(self, file_name):
-        if parser["removal_file_ending"]:
-            if parser["removal_file_ending"] in file_name:
-                file_name, _= file_name.split(pattern)
+    def find_package_name(self, file_name):
+        if parser["package_name"]:
+            return parser["package_name"]
         pattern = ".zip" or ".tar.xz" or ".tar.gz"
         if pattern in file_name :
             file_name, _= file_name.split(pattern)
@@ -40,7 +48,7 @@ class FileNameParser:
     
     def parse_txt(self, file_name):
         _, file_name = file_name.split("ReadMe_OSS_")
-        file_name = self.remove_patter_ending(file_name)
+        file_name = self.find_package_name(file_name)
         if ".txt" in file_name:
             file_name, _= file_name.split(".txt")
         self.packet_name = file_name
@@ -49,7 +57,7 @@ class FileNameParser:
     
     def parse_spdx(self, file_name):
         _, file_name = file_name.split("SPDX2TV_")
-        file_name = self.remove_patter_ending(file_name)
+        file_name = self.find_package_name(file_name)
         if ".spdx" in file_name:
             file_name, _= file_name.split(".spdx")
         self.packet_name = file_name
@@ -94,6 +102,8 @@ class FileNameParser:
         for line in lines:
             replacement_line = self.apply_text_replacement(line)
             if replacement_line:
+                if "[package]" in replacement_line:
+                    replacement_line = replacement_line.replace("[package]", self.packet_name)
                 new_line_list.append(replacement_line)
                 continue
             new_line_list.append(line)
@@ -120,14 +130,15 @@ class FileNameParser:
         return self.remove_white_space(new_line_list)
 
 
-    def save_new_file(self):    
-        if parser["destination_path"]:
-            final_path = parser["destination_path"] + self.file_name
-        else:
-            final_path = self.filwork_on_txt_filee_path.replace(self.original_file_name, self.file_name)
-        with open(parser["file_path"], "r") as file1:
+    def save_new_file(self):
+        final_path = ""
+        if self.output_path:
+            final_path = self.output_path + self.file_name
+        if not final_path:
+            raise MissingOutputPathException("Final output path is empty! It can not generate the new file")
+        with open(self.file_path, "r") as file1:
             lines= file1.readlines()
-            if ".txt" in parser["file_path"]:
+            if ".txt" in self.file_path:
                 final = self.work_on_txt_file(lines)
             else:
                 final = self.work_on_spdx_file(lines)
