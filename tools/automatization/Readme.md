@@ -31,7 +31,11 @@ You need to first install docker in order to proceed to next steps
 
 3. Mount your folder into docker. Give your absolute path to the itxpt_mqtt_example_nodejs folder
     ~~~
-    >$ docker run -it -v ABSOLUTE_PATH_TO/automatization/:/app/ automatization_app
+    >$ docker run -it -v ABSOLUTE_PATH_TO/automatization/src/:/app/ automatization_app
+    ~~~
+4. After execution, try to change the permission of the files in output folder
+    ~~~
+    >$  && cd src/oss/output/ && sudo chmod 777 *
     ~~~
 
 ## Via virtual environment
