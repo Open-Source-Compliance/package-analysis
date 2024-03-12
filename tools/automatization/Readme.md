@@ -1,8 +1,38 @@
-# Installations
+# Installations and Running Scripts
+
 One can prepare the setup either via docker or via virtual environment.
 
+# Preparation before running script
+
+Whether you use docker or virtual env, you need to first prepare some steps
+
+1. Move ReadmeXXXXX.txt and SPDX2TVXXXXX.spdx to input folder
+
+2. Put the name of ReadmeXXXXX.txt in the place of file_path in  config_txt.yaml
+
+3. Put the name of SPDX2TVXXXXX.spdx in the place of file_path in  config_spdx.yaml
+
+4. Replace your name instead of XXXXX in "Person: XXXXX" in  config_spdx.yaml
+
+
 ## Via docker
+
+### Installation
+
 You need to first install docker in order to proceed to next steps
+
+1. Install docker for your OS
+
+2. Build the image with docker
+
+    ```
+    >$  docker build . -t automatization_app
+    ```
+
+3. Mount your folder into docker. Give your absolute path to the itxpt_mqtt_example_nodejs folder
+    ~~~
+    >$ docker run -it -v ABSOLUTE_PATH_TO/automatization/:/app/ automatization_app
+    ~~~
 
 ## Via virtual environment
 
