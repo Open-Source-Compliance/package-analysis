@@ -1,4 +1,5 @@
 import re
+import os
 import textwrap
 from oss.utils.command_line_parser import parser
 
@@ -20,6 +21,7 @@ class FileNameParser:
         for key, value in  self.dictionary_replacement_texts.items():
             print ("key: ", key)
             print ("value: ", value)
+        self.final_file_path = ""
         self.new_file_name = []
         self.original_file_name = ""
         self.packet_name = ""
@@ -63,6 +65,21 @@ class FileNameParser:
         self.packet_name = file_name
         file_name = file_name + "-SPDX2TV.spdx"
         return file_name
+
+    def spdx_to_json(self):
+        generated_spdx_json = self.output_path + self.packet_name + ".spdx.json"
+        command = f"pyspdxtools_convertor --infile {self.final_file_path} --outfile {generated_spdx_json}"
+        os.system(command)
+
+    def spdx_to_yaml(self):
+        generated_spdx_yaml = self.output_path + self.packet_name + ".spdx.yaml"
+        command = f"pyspdxtools_convertor --infile {self.final_file_path} --outfile {generated_spdx_yaml}"
+        os.system(command)
+
+    def spdx_to_rdf_xml(self):
+        generated_spdx_rdf_xml = self.output_path + self.packet_name + ".spdx.rdf.xml"
+        command = f"pyspdxtools_convertor --infile {self.final_file_path} --outfile {generated_spdx_rdf_xml}"
+        os.system(command)
 
     def remove_white_space(self, lines):
         three_element_before=""
@@ -131,10 +148,9 @@ class FileNameParser:
 
 
     def save_new_file(self):
-        final_path = ""
         if self.output_path:
-            final_path = self.output_path + self.file_name
-        if not final_path:
+            self.final_file_path = self.output_path + self.file_name
+        if not self.final_file_path:
             raise MissingOutputPathException("Final output path is empty! It can not generate the new file")
         with open(self.file_path, "r") as file1:
             lines= file1.readlines()
@@ -142,9 +158,13 @@ class FileNameParser:
                 final = self.work_on_txt_file(lines)
             else:
                 final = self.work_on_spdx_file(lines)
-            with open(final_path, "w") as file2:
+            with open(self.final_file_path, "w") as file2:
                 for line in final:
                     file2.write(line)
+        if "spdx" in self.final_file_path:
+            self.spdx_to_json()
+            self.spdx_to_yaml()
+            #self.spdx_to_rdf_xml()
     
     def new_file_name_provider(self):
         new_file_name = []
