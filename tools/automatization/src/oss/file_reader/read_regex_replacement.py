@@ -42,16 +42,18 @@ class ReadRegexReplacement:
         if not parser["replacement_regex_texts"]:
             return data
         for element in parser["replacement_regex_texts"]:
-            key, value = parse_var(element)
-            if not key:
-                raise MissingFindTextException("Missing Finding text in configuration parameters")
-            if not value:
-                raise MissingReplacementTextException("Missing Replacement Text in configuration parameters")
-            if double_quotes in key:
-                key = key.replace(double_quotes, '')
-            if double_quotes in value:
-                value = value.replace(double_quotes, '')
-            #Remove leading spaces using regex
-            value =re.sub(r"^\s+", "", value)
-            data[key] = value
+            print (">>>> element: ", element)
+            if element:
+                key, value = parse_var(element)
+                if not key:
+                    raise MissingFindTextException("Missing Finding text in configuration parameters")
+                if not value:
+                    raise MissingReplacementTextException("Missing Replacement Text in configuration parameters")
+                if double_quotes in key:
+                    key = key.replace(double_quotes, '')
+                if double_quotes in value:
+                    value = value.replace(double_quotes, '')
+                #Remove leading spaces using regex
+                value =re.sub(r"^\s+", "", value)
+                data[key] = value
         return data

@@ -1,4 +1,0 @@
-#Please move the spdx file inside input folder and paste the right name of the file
-file_path : oss/input/SPDX2TV_XXXX.spdx
-#package_name : banana
-replacement_regex_texts : [ "^Creator: Person: .*()$" = "Creator: Person: XXXXX ", "^PackageLicenseConcluded: .*\n$" = "PackageLicenseConcluded: NOASSERTION\n", "^This document was created using license information and a generator from Fossology.": "This document was created using license information and a generator from Fossology.\nIt contains the license and copyright analysis of [package].\nPlease check "LicenseComments" for explanations of concluded licenses." ]
