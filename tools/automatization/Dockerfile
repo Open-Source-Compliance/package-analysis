@@ -15,4 +15,4 @@ RUN set -ex \
 
 WORKDIR /app
 
-CMD python -m oss -c config_txt.yaml && python -m oss -c config_spdx.yaml && cd oss/output/ && sudo chmod 777 *
+CMD python -m oss -c config_txt.yaml && python -m oss -c config_spdx.yaml
