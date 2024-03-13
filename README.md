@@ -175,15 +175,15 @@ The LICENSE.txt file on root level contains the text of the MIT license. With th
 > LicenseInfoInFile: MIT
 
 #### Packages with "THIRD-PARTY-NOTICE" files
-Some packages provide files in which they list the license of included software or software which is needed to run the built package. In most of the cases the files are called "THIRD-PARTY-NOTICE" or similar. According to our experience such files get in most of the cases outdated. We discussed how to treat the content of such files. Currenty we follow the below listed approach:
+Some packages provide files in which they list the license of included software or software which is needed to run the built package. In most of the cases the files are called "THIRD-PARTY-NOTICE" or similar. According to our experience such files get/are outdated in most of the cases. We discussed with a lawyer how to treat the content of such files. The lawyer's statement was, that we should provide the content of such files unmodified in the created artifacts, although they might be outdated and/or incomplete. Based on this advice we follow currentl the below listed approach:
 We provide the entire content of such files in the element "PackageLicenseComments:" in the SPDX file: 
 >PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
 > - nomos (abcd)
 > - monk (abcd)
 > - ojo (abcd)
 > - scancode (abcd) 
->------------------------------------------------------
->Python-3.10.8 Additional Licenses:
+>********************************************************************************
+>Additional information found in: Python-3.10.8/Doc/license.rst
 >
 Licenses and Acknowledgments for Incorporated Software
 >=======================================================
@@ -191,7 +191,7 @@ Licenses and Acknowledgments for Incorporated Software
 and in the discloure files right after the "LICENSES" section and before the "ACKNOWLEDGEMENT" section (if present):
 >********************************************************************************
 >
->Python-3.10.8 Additional Licenses:
+>Additional information found in: Python-3.10.8/Doc/license.rst
 >
 Licenses and Acknowledgements for Incorporated Software
 >=======================================================
