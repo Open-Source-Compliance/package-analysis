@@ -35,7 +35,7 @@ You need to first install docker in order to proceed to next steps
     ~~~
 4. After execution, try to change the permission of the files in output folder
     ~~~
-    >$  && cd src/oss/output/ && sudo chmod 777 *
+    >$ cd src/oss/output/ && sudo chmod 777 *
     ~~~
 
 ## Via virtual environment
@@ -82,4 +82,11 @@ You need to first install python, git, pip in order to proceed to next steps
 
     ```sh
     >  pip install -r requirements.txt
+    ```
+
+5. Run the sripts
+
+    ```sh
+    > cd src
+    > python -m oss -c config_txt.yaml && python -m oss -c config_spdx.yaml
     ```
