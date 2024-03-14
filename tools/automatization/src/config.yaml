@@ -1,0 +1,5 @@
+## Generaly we do not need to set the package_name it will be take from files name but 
+## in case there is a hash in file name, we need to set the package_name and remove any other old packages from input folder.
+#package_name : banana
+replacement_regex_txt : ["MAIN LICENSES" = "LICENSES", "OTHER LICENSES" = "LICENSES"]
+replacement_regex_spdx : [ "^Creator: Person: .*()$" = "Creator: Person: XXXX", "^PackageLicenseConcluded: .*\n$" = "PackageLicenseConcluded: NOASSERTION\n", "^This document was created using license information and a generator from Fossology." = "This document was created using license information and a generator from Fossology.\nIt contains the license and copyright analysis of [package].\nPlease check "LicenseComments" for explanations of concluded licenses."]
