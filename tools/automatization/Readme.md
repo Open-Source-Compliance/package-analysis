@@ -8,12 +8,18 @@ Whether you use docker or virtual env, you need to first prepare some steps
 
 1. Move ReadmeXXXXX.txt and SPDX2TVXXXXX.spdx to input folder
 
-2. Put the name of ReadmeXXXXX.txt in the place of file_path in  config_txt.yaml
+2. Replace your name instead of XXXXX in "Person: XXXXX" in  config.yaml
 
-3. Put the name of SPDX2TVXXXXX.spdx in the place of file_path in  config_spdx.yaml
+Note:
 
-4. Replace your name instead of XXXXX in "Person: XXXXX" in  config_spdx.yaml
+```
+In case there is a hash in the name of txt and spdx file, please do the following steps:
 
+    1. Make input folder empty and then copy the two files there.
+
+    2. Write the name of package inside config.yaml
+
+```
 
 ## Via docker
 
@@ -88,5 +94,5 @@ You need to first install python, git, pip in order to proceed to next steps
 
     ```sh
     > cd src
-    > python -m oss -c config_txt.yaml && python -m oss -c config_spdx.yaml
+    > python -m oss -c config.yaml
     ```
