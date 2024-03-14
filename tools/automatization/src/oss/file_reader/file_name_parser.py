@@ -18,9 +18,9 @@ class FileNameParser:
         self.file_path = file_path
         self.output_path = output_path
         self.dictionary_replacement_texts = dictionary_replacement_texts
-        for key, value in  self.dictionary_replacement_texts.items():
-            print ("key: ", key)
-            print ("value: ", value)
+        # for key, value in  self.dictionary_replacement_texts.items():
+        #     print (">>>  key: ", key)
+        #     print (">>>> value: ", value)
         self.final_file_path = ""
         self.new_file_name = []
         self.original_file_name = ""
@@ -164,7 +164,7 @@ class FileNameParser:
         if "spdx" in self.final_file_path:
             self.spdx_to_json()
             self.spdx_to_yaml()
-            #self.spdx_to_rdf_xml()
+            self.spdx_to_rdf_xml()
     
     def new_file_name_provider(self):
         new_file_name = []
