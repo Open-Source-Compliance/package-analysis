@@ -1,7 +1,7 @@
 import traceback
 import re
 from oss.utils.command_line_parser import parser, parse_var
-from oss.file_reader.replacement_case import ReplacementCase
+from oss.file_operation.operation_case import OperationCase
 
 
 parser.add_argument('--replacement_regex_txt', metavar="find_text=replace_text another_find_text=another_replace_text",
@@ -12,6 +12,7 @@ parser.add_argument('--replacement_regex_spdx', metavar="find_text=replace_text 
                     nargs='+',
                     help="Set a number of key-value pairs"
                     "values are always treated as strings.")
+
 
 Default_TXT_Replacements = {"MAIN LICENSES" : "LICENSES",
                             "OTHER LICENSES" : "LICENSES"}
@@ -36,21 +37,21 @@ class ReadRegexReplacement:
     """
     This class gets username and password for sensor authentication
     """
-    def __init__(self, replacement_case):
+    def __init__(self, operation_case):
         self.data = {}
         try:
-            config_parameter, default_parameters = self.read_default_configurations(replacement_case)
+            config_parameter, default_parameters = self.read_default_configurations(operation_case)
             self.data = self.get_text_and_replacement_from_cmd(config_parameter, default_parameters)
         except ReplaceTextException as e:
             print(f'{e.__class__.__name__}: {e} : {traceback.format_exc()}')
 
-    def read_default_configurations(self, replacement_case):
+    def read_default_configurations(self, operation_case):
         config_parameter = None
         default_parameters = {}
-        if replacement_case == ReplacementCase.txt:
+        if operation_case == OperationCase.txt:
             config_parameter = parser["replacement_regex_txt"]
             default_parameters = Default_TXT_Replacements
-        if replacement_case == ReplacementCase.spdx:
+        if operation_case == OperationCase.spdx:
             config_parameter = parser["replacement_regex_spdx"]
             default_parameters = Default_SPDX_Replacements
         return config_parameter, default_parameters

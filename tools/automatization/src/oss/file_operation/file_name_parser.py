@@ -6,41 +6,52 @@ from oss.utils.command_line_parser import parser
 
 Packet_Version_Pattern = '\-[0-9]+.*[0-9]$'
 
-class FileNameParserException(Exception):
-    pass
 
-
-class MissingOutputPathException(FileNameParserException):
-    pass
+parser.add_argument('-pn', '--package_name', required=False, type=str, help='name of the package(default: it will be parsed from the name of the file)')
+parser.add_argument('-yn', '--your_name', required=True, type=str, help='name of the author (default value is %(default)s)' , default= "XXXX")
 
 
 class FileNameParser:
     """
     """
-    def __init__(self, file_path: str, output_path: str, dictionary_replacement_texts: dict):
+    def __init__(self, file_path: str, dictionary_replacement_texts: dict):
         self.file_path = file_path
-        self.output_path = output_path
+        #self.output_path = output_path
         self.dictionary_replacement_texts = dictionary_replacement_texts
         # for key, value in  self.dictionary_replacement_texts.items():
         #     print (">>>  key: ", key)
         #     print (">>>> value: ", value)
-        self.final_file_path = ""
+        #self.final_file_path = ""
         self.new_file_name = []
         self.original_file_name = ""
+        self.original_packet_name = ""
         self.packet_name = ""
+        self.final_file = None
 
     @classmethod
-    def create (cls, file_path: str, output_path: str, dictionary_replacement_texts: dict):
-        instance = FileNameParser(file_path, output_path, dictionary_replacement_texts)
+    def create (cls, file_path: str, dictionary_replacement_texts: dict):
+        instance = FileNameParser(file_path, dictionary_replacement_texts)
         new_file_name = instance.new_file_name_provider()
         instance.file_name = new_file_name
-        instance.save_new_file()
+        instance.modified_file = instance.read_parse_file()
         return instance
+
+    def get_final_file(self):
+        return self.final_file
+
+    def set_final_file(self, final_file: str):
+        self.final_file = final_file
+
+    def get_packet_name(self):
+        return self.packet_name
+
+    def set_packet_name(self, packet_name: str):
+        self.new_file_name = packet_name
 
     def get_new_file_name(self):
         return self.new_file_name
 
-    def set_new_file_name(self, new_file_name: list):
+    def set_new_file_name(self, new_file_name: str):
         self.new_file_name = new_file_name
     
     def find_package_name(self, file_name):
@@ -68,21 +79,6 @@ class FileNameParser:
         self.packet_name = file_name
         file_name = file_name + "-SPDX2TV.spdx"
         return file_name
-
-    def spdx_to_json(self):
-        generated_spdx_json = self.output_path + self.packet_name + ".spdx.json"
-        command = f"pyspdxtools -i {self.final_file_path} -o {generated_spdx_json}"
-        os.system(command)
-
-    def spdx_to_yaml(self):
-        generated_spdx_yaml = self.output_path + self.packet_name + ".spdx.yaml"
-        command = f"pyspdxtools -i {self.final_file_path} -o {generated_spdx_yaml}"
-        os.system(command)
-
-    def spdx_to_rdf_xml(self):
-        generated_spdx_rdf_xml = self.output_path + self.packet_name + ".spdx.rdf.xml"
-        command = f"pyspdxtools -i {self.final_file_path} -o {generated_spdx_rdf_xml}"
-        os.system(command)
 
     def remove_white_space(self, lines):
         three_element_before=""
@@ -145,6 +141,7 @@ class FileNameParser:
 
     def work_on_txt_file(self, lines):
         new_line_list = []
+
         for line in lines:
             # if not line.strip():
             #     continue
@@ -164,24 +161,14 @@ class FileNameParser:
         return self.remove_white_space(new_line_list)
 
 
-    def save_new_file(self):
-        if self.output_path:
-            self.final_file_path = self.output_path + self.file_name
-        if not self.final_file_path:
-            raise MissingOutputPathException("Final output path is empty! It can not generate the new file")
+    def read_parse_file(self):
         with open(self.file_path, "r") as file1:
             lines= file1.readlines()
             if ".txt" in self.file_path:
                 final = self.work_on_txt_file(lines)
             else:
                 final = self.work_on_spdx_file(lines)
-            with open(self.final_file_path, "w") as file2:
-                for line in final:
-                    file2.write(line)
-        if "spdx" in self.final_file_path:
-            self.spdx_to_json()
-            self.spdx_to_yaml()
-            self.spdx_to_rdf_xml()
+            return final
     
     def new_file_name_provider(self):
         new_file_name = []
@@ -194,3 +181,5 @@ class FileNameParser:
         return new_file_name
     
     file_name = property(get_new_file_name, set_new_file_name)
+    package_name = property(get_packet_name, set_packet_name)
+    modified_file = property(get_final_file, set_final_file)

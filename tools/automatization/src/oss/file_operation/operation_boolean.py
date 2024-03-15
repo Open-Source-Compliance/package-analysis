@@ -1,10 +1,10 @@
 from enum import Enum
 
 
-class ReplacementCase(Enum):
-    """ We can decide to use ReplacementCase or not"""
-    txt = 'txt'
-    spdx = 'spdx'
+class OperationBoolean(Enum):
+    """ We can decide to use OperationBoolean or not"""
+    true = 'true'
+    false = 'false'
 
     def __str__(self):
         return self.value

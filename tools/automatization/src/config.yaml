@@ -1,6 +1,13 @@
 ## Generaly we do not need to set the package_name it will be take from files name but 
 ## in case there is a hash in file name, we need to set the package_name and remove any other old packages from input folder.
 #package_name : jQuery-MD5-2011.06.13
+
 #replacement_regex_txt : []
 #replacement_regex_spdx : []
+
+## In case you would like to clean your output folder before generation of files,
+## set this configuration to true
+#remove_output : true
+
+## You should replace xxxx with your name and uncomment the next line
 #your_name : XXXX
