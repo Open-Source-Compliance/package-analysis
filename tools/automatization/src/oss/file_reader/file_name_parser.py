@@ -1,7 +1,10 @@
 import re
 import os
 import textwrap
+from copy import deepcopy
 from oss.utils.command_line_parser import parser
+
+Packet_Version_Pattern = '\-[0-9]+.*[0-9]$'
 
 class FileNameParserException(Exception):
     pass
@@ -101,6 +104,14 @@ class FileNameParser:
         if reg_ex_result:
             print ("Regular expression match: ", reg_ex_result)
             return True
+        
+    def create_substitute_text(self, file, given_reg, replacement_part, substitute_part):
+        reg_ex_result = re.search(given_reg, file)
+        if reg_ex_result:
+            print ("Regular expression match: ", reg_ex_result)
+            substitute = deepcopy(reg_ex_result.group(0))
+            final_substitute = substitute.replace(replacement_part, substitute_part)
+            return file.replace(substitute, final_substitute)
     
     def apply_text_replacement(self, line):
         new_line = None
@@ -120,7 +131,11 @@ class FileNameParser:
             replacement_line = self.apply_text_replacement(line)
             if replacement_line:
                 if "[package]" in replacement_line:
-                    replacement_line = replacement_line.replace("[package]", self.packet_name)
+                    package =  deepcopy(self.packet_name)
+                    subsctitute_text = self.create_substitute_text(package, Packet_Version_Pattern, "-", " ")
+                    if subsctitute_text:
+                        package = subsctitute_text
+                    replacement_line = replacement_line.replace("[package]", package)
                 new_line_list.append(replacement_line)
                 continue
             new_line_list.append(line)
