@@ -37,7 +37,7 @@ You need to first install docker in order to proceed to next steps
 
 3. Mount your folder into docker. Give your absolute path to the itxpt_mqtt_example_nodejs folder
     ~~~
-    >$ docker run -it -v ABSOLUTE_PATH_TO/automatization/src/:/app/ automatization_app
+    >$ docker run -it -v /home/parian/work/fossology/pago-package-analysis/tools/automatization/src/:/app/ automatization_app
     ~~~
 4. After execution, try to change the permission of the files in output folder
     ~~~
@@ -81,13 +81,14 @@ You need to first install python, git, pip in order to proceed to next steps
 
     Windows
     ```
-    :\> .\demoEnv\Scripts\activate
+    :\> ./demoEnv/Scripts/activate
+
     ```
 
 4. Install the requirements
 
     ```sh
-    >  pip install -r requirements.txt
+    >  cd  src  && pip install -r requirements.txt
     ```
 
 5. Run the sripts
@@ -95,4 +96,12 @@ You need to first install python, git, pip in order to proceed to next steps
     ```sh
     > cd src
     > python -m oss -c config.yaml
+    ```
+    Note:
+    
+    one can only once write his/her name in config file and change package_name (via -pn) everytime you run the scripts. See example below
+
+    ```
+    > python -m oss -c config.yaml -pn jQuery-MD5-2011.06.13
+
     ```
