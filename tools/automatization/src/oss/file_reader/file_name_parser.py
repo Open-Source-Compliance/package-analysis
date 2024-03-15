@@ -71,17 +71,17 @@ class FileNameParser:
 
     def spdx_to_json(self):
         generated_spdx_json = self.output_path + self.packet_name + ".spdx.json"
-        command = f"pyspdxtools_convertor --infile {self.final_file_path} --outfile {generated_spdx_json}"
+        command = f"pyspdxtools -i {self.final_file_path} -o {generated_spdx_json}"
         os.system(command)
 
     def spdx_to_yaml(self):
         generated_spdx_yaml = self.output_path + self.packet_name + ".spdx.yaml"
-        command = f"pyspdxtools_convertor --infile {self.final_file_path} --outfile {generated_spdx_yaml}"
+        command = f"pyspdxtools -i {self.final_file_path} -o {generated_spdx_yaml}"
         os.system(command)
 
     def spdx_to_rdf_xml(self):
         generated_spdx_rdf_xml = self.output_path + self.packet_name + ".spdx.rdf.xml"
-        command = f"pyspdxtools_convertor --infile {self.final_file_path} --outfile {generated_spdx_rdf_xml}"
+        command = f"pyspdxtools -i {self.final_file_path} -o {generated_spdx_rdf_xml}"
         os.system(command)
 
     def remove_white_space(self, lines):
@@ -179,7 +179,7 @@ class FileNameParser:
         if "spdx" in self.final_file_path:
             self.spdx_to_json()
             self.spdx_to_yaml()
-            #self.spdx_to_rdf_xml()
+            self.spdx_to_rdf_xml()
     
     def new_file_name_provider(self):
         new_file_name = []
