@@ -164,7 +164,7 @@ class FileNameParser:
         if "spdx" in self.final_file_path:
             self.spdx_to_json()
             self.spdx_to_yaml()
-            self.spdx_to_rdf_xml()
+            #self.spdx_to_rdf_xml()
     
     def new_file_name_provider(self):
         new_file_name = []
