@@ -136,6 +136,8 @@ class FileNameParser:
                     if subsctitute_text:
                         package = subsctitute_text
                     replacement_line = replacement_line.replace("[package]", package)
+                if "[YourName]" in replacement_line:
+                    replacement_line = replacement_line.replace("[YourName]", parser["your_name"])
                 new_line_list.append(replacement_line)
                 continue
             new_line_list.append(line)

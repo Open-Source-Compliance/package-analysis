@@ -8,7 +8,7 @@ Whether you use docker or virtual env, you need to first prepare some steps
 
 1. Move ReadmeXXXXX.txt and SPDX2TVXXXXX.spdx to input folder
 
-2. Replace your name instead of XXXXX in "Person: XXXXX" in  config.yaml
+2. Replace your name instead of XXXXX in "your_name : XXXX" in  config.yaml
 
 Note:
 
@@ -99,9 +99,9 @@ You need to first install python, git, pip in order to proceed to next steps
     ```
     Note:
     
-    one can only once write his/her name in config file and change package_name (via -pn) everytime you run the scripts. See example below
+    one can use config.yaml file to write his configuration or via command line . See example below
 
     ```
-    > python -m oss -c config.yaml -pn jQuery-MD5-2011.06.13
+    > python -m oss -yn BANANA -pn jQuery-MD5-2011.06.13
 
     ```

@@ -5,8 +5,10 @@ from oss.file_reader.file_name_parser import FileNameParser
 from oss.file_reader.read_regex_replacement import ReadRegexReplacement
 from oss.file_reader.replacement_case import ReplacementCase
 
-
+parser.add_argument('-yn', '--your_name', required=True, type=str, help='name of the author (default value is %(default)s)' , default= "XXXX")
 parser.add_argument('-pn', '--package_name', required=False, type=str, help='name of the package(default: it will be parsed from the name of the file)')
+
+
 # Add configuration arguments to main
 parser.get_options()
 input_file_path = str(Path(__file__).parent.parent/ "oss/input/")

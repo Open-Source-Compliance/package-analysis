@@ -16,7 +16,8 @@ parser.add_argument('--replacement_regex_spdx', metavar="find_text=replace_text 
 Default_TXT_Replacements = {"MAIN LICENSES" : "LICENSES",
                             "OTHER LICENSES" : "LICENSES"}
 
-Default_SPDX_Replacements = {"^PackageLicenseConcluded: .*\n$" :"PackageLicenseConcluded: NOASSERTION\n",
+Default_SPDX_Replacements = {"^Creator: Person: .*()$" : "Creator: Person: [YourName]",
+                            "^PackageLicenseConcluded: .*\n$" :"PackageLicenseConcluded: NOASSERTION\n",
                              '^This document was created using license information and a generator from Fossology.' : 'This document was created using license information and a generator from Fossology.\nIt contains the license and copyright analysis of [package].\nPlease check "LicenseComments" for explanations of concluded licenses.'}
 
 class ReplaceTextException(Exception):
