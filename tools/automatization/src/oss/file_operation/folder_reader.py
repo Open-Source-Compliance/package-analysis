@@ -20,6 +20,7 @@ class FolderReader:
         txt_files = []
         for file in os.listdir(f"{self.input_path}/"):
             if file.endswith(".txt"):
+                print("---------------------------------------------------------------------------\n")
                 print(">>>>> Preparing Document: ", os.path.join(self.input_path, file))
                 txt_files.append(os.path.join(self.input_path, file))
         return txt_files
@@ -28,6 +29,7 @@ class FolderReader:
         spdx_files = []
         for file in os.listdir(f"{self.input_path}/"):
             if file.endswith(".spdx"):
+                print("---------------------------------------------------------------------------\n")
                 print(">>>>> Preparing Document: ", os.path.join(self.input_path, file))
                 spdx_files.append(os.path.join(self.input_path, file))
         return spdx_files

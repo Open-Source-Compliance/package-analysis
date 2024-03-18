@@ -13,6 +13,7 @@ parser.get_options()
 
 
 input_file_path = str(Path(__file__).parent.parent/ "oss/input/")
+readme_file = str(Path(__file__).parent.parent/ "README.md")
 
 
 # Start of the application
@@ -23,7 +24,7 @@ if __name__ == "__main__":
         if parser["remove_output"] == OperationBoolean.true:
             FolderCleaner(output_path)
             
-        FilesGenerator.create(input_file_path, output_path)
+        FilesGenerator.create(input_file_path, output_path, readme_file)
 
     except KeyboardInterrupt:
         print(f'User Terminate')

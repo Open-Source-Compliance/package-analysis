@@ -3,12 +3,32 @@ import os
 import textwrap
 from copy import deepcopy
 from oss.utils.command_line_parser import parser
+from packageurl.contrib import url2purl
+
 
 Packet_Version_Pattern = '\-[0-9]+.*[0-9]$'
 
+class FileNameParserException(Exception):
+    pass
+
+
+class MissingConfigPackageVersionException(FileNameParserException):
+    pass
+
+
+class MissingConfigPackageNameException(FileNameParserException):
+    pass
+
+
+class UnknownVersionException(FileNameParserException):
+    pass
+
 
 parser.add_argument('-pn', '--package_name', required=False, type=str, help='name of the package(default: it will be parsed from the name of the file)')
+parser.add_argument('-pv', '--package_version', required=False, type=str, help='version of the package(default: it will be parsed from the name of the file)')
 parser.add_argument('-yn', '--your_name', required=True, type=str, help='name of the author (default value is %(default)s)' , default= "XXXX")
+parser.add_argument('-dl', '--download_link', required=False, type=str, help='The download link that it should be written in readme.')
+parser.add_argument('-r', '--reviewer', required=False, type=str, help='The reviewer that it should be written in readme.')
 
 
 class FileNameParser:
@@ -26,6 +46,7 @@ class FileNameParser:
         self.original_file_name = ""
         self.original_packet_name = ""
         self.packet_name = ""
+        self.packet_version = ""
         self.final_file = None
 
     @classmethod
@@ -42,42 +63,69 @@ class FileNameParser:
     def set_final_file(self, final_file: str):
         self.final_file = final_file
 
+    def get_packet_version(self):
+        return self.packet_version
+
+    def set_packet_version(self, packet_version: str):
+        self.packet_version = packet_version
+
     def get_packet_name(self):
         return self.packet_name
 
     def set_packet_name(self, packet_name: str):
-        self.new_file_name = packet_name
+        self.packet_name = packet_name
 
     def get_new_file_name(self):
         return self.new_file_name
 
     def set_new_file_name(self, new_file_name: str):
         self.new_file_name = new_file_name
-    
-    def find_package_name(self, file_name):
+
+    def check_package_name_version(self):
         if parser["package_name"]:
-            return parser["package_name"]
+            if parser["package_version"]:
+                return True
+            else:
+                raise MissingConfigPackageVersionException("Package name is provided in config. However, package version is missing")
+        if parser["package_version"]:
+            if not parser["package_name"]:
+                raise MissingConfigPackageNameException("Package version is provided in config. However, package name is missing")
+
+    def remove_fixed_begining(self, file_name, fixed_part):
+        if fixed_part in file_name:
+            _, file_name = file_name.split(fixed_part)
+        return file_name
+
+    def remove_fixed_ending(self, file_name, fixed_part):
+        if fixed_part in file_name:
+            file_name, _ = file_name.split(fixed_part)
+        return file_name
+
+    def find_package_name_version(self, file_name):
+        if self.check_package_name_version():
+            return parser["package_name"], parser["package_version"]
+        file_name = self.remove_fixed_begining(file_name, "ReadMe_OSS_" or "SPDX2TV_")
+
         pattern = ".zip" or ".tar.xz" or ".tar.gz"
-        if pattern in file_name :
-            file_name, _= file_name.split(pattern)
+        file_name = self.remove_fixed_ending(file_name, pattern)
+
+        ending = ".txt" or ".spdx"
+        file_name = self.remove_fixed_ending(file_name, ending)
+
+        # parse the string to find the version and name
+        substitute_text = self.create_substitute_text(file_name, Packet_Version_Pattern, "-", " ")
+        if substitute_text:
+                return substitute_text.split(" ")
+        raise UnknownVersionException(f"can not parse version from {file_name}. Please provide package_name and package_version in configuration")
+    
+    def parse_txt_file_name(self, file_name):
+        self.packet_name, self.packet_version = self.find_package_name_version(file_name)
+        file_name = self.packet_name + "-" + self.packet_version + "-OSS-disclosure.txt"
         return file_name
     
-    def parse_txt(self, file_name):
-        _, file_name = file_name.split("ReadMe_OSS_")
-        file_name = self.find_package_name(file_name)
-        if ".txt" in file_name:
-            file_name, _= file_name.split(".txt")
-        self.packet_name = file_name
-        file_name = file_name + "-OSS-disclosure.txt"
-        return file_name
-    
-    def parse_spdx(self, file_name):
-        _, file_name = file_name.split("SPDX2TV_")
-        file_name = self.find_package_name(file_name)
-        if ".spdx" in file_name:
-            file_name, _= file_name.split(".spdx")
-        self.packet_name = file_name
-        file_name = file_name + "-SPDX2TV.spdx"
+    def parse_spdx_file_name(self, file_name):
+        self.packet_name, self.packet_version = self.find_package_name_version(file_name)
+        file_name = self.packet_name + "-" + self.packet_version + "-SPDX2TV.spdx"
         return file_name
 
     def remove_white_space(self, lines):
@@ -120,18 +168,25 @@ class FileNameParser:
                    
     def find_replace(self, find_pattern, replace_text, input_line):
         return re.sub(find_pattern, replace_text, input_line)
-    
+
+    def generate_purl(self):
+        if parser["download_link"]:
+            package_purl = url2purl.get_purl(parser["download_link"])
+            print ("PURL Link:   ", package_purl)
+            if package_purl:
+                return package_purl.to_string()
+
     def work_on_spdx_file(self, lines):
         new_line_list = []
         for line in lines:
             replacement_line = self.apply_text_replacement(line)
             if replacement_line:
                 if "[package]" in replacement_line:
-                    package =  deepcopy(self.packet_name)
-                    subsctitute_text = self.create_substitute_text(package, Packet_Version_Pattern, "-", " ")
-                    if subsctitute_text:
-                        package = subsctitute_text
-                    replacement_line = replacement_line.replace("[package]", package)
+                    # package =  deepcopy(self.packet_name)
+                    # subsctitute_text = self.create_substitute_text(package, Packet_Version_Pattern, "-", " ")
+                    # if subsctitute_text:
+                    #     package = subsctitute_text
+                    replacement_line = replacement_line.replace("[package]", self.packet_name + " " + self.packet_version)
                 if "[YourName]" in replacement_line:
                     replacement_line = replacement_line.replace("[YourName]", parser["your_name"])
                 new_line_list.append(replacement_line)
@@ -160,14 +215,34 @@ class FileNameParser:
 
         return self.remove_white_space(new_line_list)
 
+    def work_on_readme_file(self, lines):
+        new_line_list = []
+        package_purl = self.generate_purl()
+        for line in lines:
+            replacement_line = line
+            if "[YourName]" in line:
+                replacement_line = line.replace("[YourName]", parser["your_name"])
+            elif "[DownloadLink]" in line:
+                if parser["download_link"]:
+                    replacement_line = line.replace("[DownloadLink]", parser["download_link"])
+            elif "[PurlLink]" in line:
+                if package_purl:
+                    replacement_line = line.replace("[PurlLink]", package_purl)
+            elif "[Reviewer]" in line:
+                if parser["reviewer"]:
+                    replacement_line = line.replace("[Reviewer]", parser["reviewer"])
+            new_line_list.append(replacement_line)
+        return new_line_list
 
     def read_parse_file(self):
         with open(self.file_path, "r") as file1:
             lines= file1.readlines()
             if ".txt" in self.file_path:
                 final = self.work_on_txt_file(lines)
-            else:
+            elif".spdx" in self.file_path:
                 final = self.work_on_spdx_file(lines)
+            else:
+                final = self.work_on_readme_file(lines)
             return final
     
     def new_file_name_provider(self):
@@ -175,11 +250,14 @@ class FileNameParser:
         input_splited = self.file_path.split("/")
         self.original_file_name = input_splited[-1]
         if ".txt" in  self.original_file_name:
-            new_file_name = self.parse_txt(input_splited[-1])
-        if ".spdx" in self.original_file_name:
-            new_file_name = self.parse_spdx(input_splited[-1])
+            new_file_name = self.parse_txt_file_name(input_splited[-1])
+        elif ".spdx" in self.original_file_name:
+            new_file_name = self.parse_spdx_file_name(input_splited[-1])
+        else:
+            new_file_name="README.md"
         return new_file_name
     
     file_name = property(get_new_file_name, set_new_file_name)
     package_name = property(get_packet_name, set_packet_name)
+    package_version = property(get_packet_version, set_packet_version)
     modified_file = property(get_final_file, set_final_file)

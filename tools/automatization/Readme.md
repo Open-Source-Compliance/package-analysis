@@ -93,15 +93,26 @@ You need to first install python, git, pip in order to proceed to next steps
 
 5. Run the sripts
 
+    One can set all the necessary configuration parameters inside config.yaml or running them via command line. You can find  the available configuration parameters by running this command
+
+    ```sh
+    > cd src
+    > python -m oss --help
+    ```
+
+    5.1 Config.yaml
+
     ```sh
     > cd src
     > python -m oss -c config.yaml
     ```
-    Note:
-    
-    one can use config.yaml file to write his configuration or via command line . See example below
 
-    ```
-    > python -m oss -yn BANANA -pn jQuery-MD5-2011.06.13
+    5.2 Command line 
+    
+    As you can see below, I can give some of the parameters via command line (e.g. package_name and Package_version)
+
+    ```sh
+    > cd src
+    > python -m oss -c config.yaml -pn jQuery-MD5 -pv 2011.06.13
 
     ```
