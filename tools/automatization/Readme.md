@@ -8,7 +8,7 @@ Whether you use docker or virtual env, you need to first prepare some steps
 
 1. Move ReadmeXXXXX.txt and SPDX2TVXXXXX.spdx to input folder
 
-2. Replace your name instead of XXXXX in "your_name : XXXX" in  config.yaml
+2. Replace your name instead of XXXXX in "creator_name : XXXX" in  config.yaml
 
 Note:
 

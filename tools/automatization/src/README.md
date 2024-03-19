@@ -8,7 +8,7 @@
 
 ## Creator
 
-[YourName]
+[CreatorName]
 
 ## Reviewers
 

@@ -14,10 +14,10 @@ parser.add_argument('--replacement_regex_spdx', metavar="find_text=replace_text 
                     "values are always treated as strings.")
 
 
-Default_TXT_Replacements = {"MAIN LICENSES" : "LICENSES",
-                            "OTHER LICENSES" : "LICENSES"}
+Default_TXT_Replacements = {" MAIN LICENSES" : "LICENSES",
+                            " OTHER LICENSES" : "LICENSES"}
 
-Default_SPDX_Replacements = {"^Creator: Person: .*()$" : "Creator: Person: [YourName]",
+Default_SPDX_Replacements = {"^Creator: Person: .*()$" : "Creator: Person: [CreatorName]",
                             "^PackageLicenseConcluded: .*\n$" :"PackageLicenseConcluded: NOASSERTION\n",
                              '^This document was created using license information and a generator from Fossology.' : 'This document was created using license information and a generator from Fossology.\nIt contains the license and copyright analysis of [package].\nPlease check "LicenseComments" for explanations of concluded licenses.'}
 
@@ -35,7 +35,7 @@ class MissingReplacementTextException(ReplaceTextException):
 
 class ReadRegexReplacement:
     """
-    This class gets username and password for sensor authentication
+    This class reads regular expression and replace it with the given value
     """
     def __init__(self, operation_case):
         self.data = {}
@@ -59,7 +59,7 @@ class ReadRegexReplacement:
     @staticmethod
     def get_text_and_replacement_from_cmd(config_parameter, default_parameters):
         """
-        Get authentication cmd line parameter and parse the text and replacement.
+        Get all the key and value lists of items that should be replaced.
         """
         data = {}
         data.update(default_parameters)

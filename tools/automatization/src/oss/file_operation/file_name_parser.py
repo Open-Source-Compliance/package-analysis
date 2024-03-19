@@ -26,7 +26,7 @@ class UnknownVersionException(FileNameParserException):
 
 parser.add_argument('-pn', '--package_name', required=False, type=str, help='name of the package(default: it will be parsed from the name of the file)')
 parser.add_argument('-pv', '--package_version', required=False, type=str, help='version of the package(default: it will be parsed from the name of the file)')
-parser.add_argument('-yn', '--your_name', required=True, type=str, help='name of the author (default value is %(default)s)' , default= "XXXX")
+parser.add_argument('-cn', '--creator_name', required=True, type=str, help='name of the creator (default value is %(default)s)' , default= "XXXX")
 parser.add_argument('-dl', '--download_link', required=False, type=str, help='The download link that it should be written in readme.')
 parser.add_argument('-r', '--reviewer', required=False, type=str, help='The reviewer that it should be written in readme.')
 
@@ -187,8 +187,8 @@ class FileNameParser:
                     # if subsctitute_text:
                     #     package = subsctitute_text
                     replacement_line = replacement_line.replace("[package]", self.packet_name + " " + self.packet_version)
-                if "[YourName]" in replacement_line:
-                    replacement_line = replacement_line.replace("[YourName]", parser["your_name"])
+                if "[CreatorName]" in replacement_line:
+                    replacement_line = replacement_line.replace("[CreatorName]", parser["creator_name"])
                 new_line_list.append(replacement_line)
                 continue
             new_line_list.append(line)
@@ -220,8 +220,8 @@ class FileNameParser:
         package_purl = self.generate_purl()
         for line in lines:
             replacement_line = line
-            if "[YourName]" in line:
-                replacement_line = line.replace("[YourName]", parser["your_name"])
+            if "[CreatorName]" in line:
+                replacement_line = line.replace("[CreatorName]", parser["creator_name"])
             elif "[DownloadLink]" in line:
                 if parser["download_link"]:
                     replacement_line = line.replace("[DownloadLink]", parser["download_link"])

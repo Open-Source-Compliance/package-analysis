@@ -5,7 +5,7 @@ from oss.file_operation.files_generator import FilesGenerator
 from oss.file_operation.operation_boolean import OperationBoolean
 from oss.file_operation.folder_cleaner import FolderCleaner
 
-parser.add_argument('-ro', '--remove_output',  type=OperationBoolean, choices=list(OperationBoolean), help='Remove the output folder before generations of the files(default value is %(default)s)' , default= "false")
+parser.add_argument('-rmo', '--remove_output',  type=OperationBoolean, choices=list(OperationBoolean), help='Remove the output folder before generations of the files(default value is %(default)s)' , default= "false")
 
 
 # Add configuration arguments to main
