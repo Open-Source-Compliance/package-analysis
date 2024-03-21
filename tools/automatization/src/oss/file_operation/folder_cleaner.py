@@ -9,14 +9,12 @@ class FolderCleaner:
     def rmdir(self, directory):
         directory = Path(directory)
         for item in directory.iterdir():
-            if "placeholder" in str(item):
-                continue
             if item.is_dir():
                 self.rmdir(item)
             else:
                 item.unlink()
-        if "output" not in str(directory):
-            directory.rmdir()
+
+        directory.rmdir()
 
     def clean_folder(self):
         try:
