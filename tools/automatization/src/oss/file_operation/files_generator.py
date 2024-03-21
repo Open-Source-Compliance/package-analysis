@@ -1,7 +1,7 @@
 import os
-from oss.file_operation.read_regex_replacement import ReadRegexReplacement
-from oss.file_operation.operation_case import OperationCase
-from oss.file_operation.folder_reader import FolderReader
+from oss.content_analyzer.read_regex_replacement import ReadRegexReplacement
+from oss.types.operation_case import OperationCase
+from oss.folder_operation.folder_reader import FolderReader
 from oss.file_operation.file_name_parser import FileNameParser
 
 
@@ -101,9 +101,10 @@ class FilesGenerator:
             raise MissingTextFileException(f"ReadMe_OSS_XXXXX.txt is missing in {self.input_path} folder")
         if len(txt_files) > 1:
             raise MultiplePackageFilesException(f"Multiple ReadMe_OSS_XXXXX.txt in this {self.input_path} folder. Please keep only the ReadMe file for your desired package")
-        dictionary_replacement_texts = vars(ReadRegexReplacement(OperationCase.txt))['data']
+        dictionary_replacement_texts = vars(ReadRegexReplacement(OperationCase.txt))['single_data']
+        ml_dictionary_replacement_texts = vars(ReadRegexReplacement(OperationCase.txt))['multi_data']
         for txt_file in txt_files:
-            file_parser = FileNameParser.create(txt_file, dictionary_replacement_texts)
+            file_parser = FileNameParser.create(txt_file, dictionary_replacement_texts, ml_dictionary_replacement_texts)
             self.update_output_path(file_parser.package_name, file_parser.package_version)
 
             self.save_new_file(file_parser.modified_file, file_parser.file_name)
@@ -116,9 +117,10 @@ class FilesGenerator:
             raise MissingSpdxException(f"SPDX2TV_XXXX.spdx is missing in {self.input_path} folder")
         if len(spdx_files) > 1:
             raise MultiplePackageFilesException(f"Multiple SPDX2TV_XXXX.spdx in this {self.input_path} folder. Please keep only the SPDX2TV_XXXX.spdx file for your desired package")
-        dictionary_replacement_texts = vars(ReadRegexReplacement(OperationCase.spdx))['data']
+        dictionary_replacement_texts = vars(ReadRegexReplacement(OperationCase.spdx))['single_data']
+        ml_dictionary_replacement_texts = vars(ReadRegexReplacement(OperationCase.spdx))['multi_data']
         for spdx_file in spdx_files:
-            file_parser = FileNameParser.create(spdx_file, dictionary_replacement_texts)
+            file_parser = FileNameParser.create(spdx_file, dictionary_replacement_texts, ml_dictionary_replacement_texts)
             self.update_output_path(file_parser.package_name, file_parser.package_version)
             self.save_new_file(file_parser.modified_file, file_parser.file_name)
             print(">>>>> Generated Document name: ",  file_parser.file_name)
@@ -129,7 +131,7 @@ class FilesGenerator:
         return True
 
     def generatte_readme(self):
-        file_parser = FileNameParser.create(self.readme_file, {})
+        file_parser = FileNameParser.create(self.readme_file, {}, {})
         self.save_new_file(file_parser.modified_file, file_parser.file_name)
         print(">>>>> Generated Document name: ",  file_parser.file_name)
         return True

@@ -1,5 +1,5 @@
 import os
-from oss.file_operation.operation_case import OperationCase
+from oss.types.operation_case import OperationCase
 
 
 class FolderReaderException(Exception):

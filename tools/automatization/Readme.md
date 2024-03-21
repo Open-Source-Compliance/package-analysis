@@ -6,20 +6,88 @@ One can prepare the setup either via docker or via virtual environment.
 
 Whether you use docker or virtual env, you need to first prepare some steps
 
-1. Move ReadmeXXXXX.txt and SPDX2TVXXXXX.spdx to input folder
+1. **Input folder**: 
 
-2. Replace your name instead of XXXXX in "creator_name : XXXX" in  config.yaml
+    Move ReadmeXXXXX.txt and SPDX2TVXXXXX.spdx to **input** folder (src/document-generations/**input**). Please clean inpit folder before moving the files
 
-Note:
+    ```
+        ├── Dockerfile
+        ├── Readme.md
+        └── src
+            ├── config.yaml
+            ├── document-generations
+            │   ├── input
+            │   └── output
+            ├── oss
+            ├── README.md
+            ├── requirements.txt
+            └── setup.py
+    ```
 
-```
-In case there is a hash in the name of txt and spdx file, please do the following steps:
+2. **Creator_name**:
 
-    1. Make input folder empty and then copy the two files there.
+    Replace your name instead of XXXXX in "creator_name : XXXX" in  
 
-    2. Write the name of package inside config.yaml
+    1. config.yaml
+        ```
+        creator_name : XXXXX
+        ```
+    2. command line with -cn configuration flag
+        ```
+        python -m oss -cn XXXXX
+        ```
 
-```
+3. **Package_name** and **package_version**:
+
+    If the name of package has packagename and package version. It will automaitcally parses the name of the file and finds the package name and package version.
+
+    **Note**:  In some cases, it can not parse the name of the file correctly. You can use either config.yaml or command line in those cases
+
+    1. config.yaml
+        ```
+        package_name : update-rc.d
+        package_version : 0.8
+        ```
+    2. command line with -pn and -pv configuration flag
+        ```
+        python -m oss -pn update-rc.d -pn package_name -pv package_version
+        ```
+4. **Remove_output**:
+
+    You can optionally remove the output folder before generation of files. One can achieve this by updating config.yaml or command line
+
+    1. config.yaml
+        ```
+        remove_output : true
+        ```
+    2. command line with -pn and -pv configuration flag
+        ```
+        python -m oss -rmo true
+        ```
+5. **Download_link**:
+
+    This link will be saved inside Readme file.You can use either config.yaml or command line to set this value
+
+    1. config.yaml
+        ```
+        download_link : https://git.yoctoproject.org/update-rc.d/snapshot/update-rc.d-0.8.tar.gz
+        ```
+    2. command line with -dl configuration flag
+        ```
+        python -m oss -dl https://git.yoctoproject.org/update-rc.d/snapshot/update-rc.d-0.8.tar.gz
+        ```
+5. **Reviewer**:
+
+    You can add the name of the reviewer to the Readme.You can use either config.yaml or command line to set this value
+
+    1. config.yaml
+        ```
+        reviewer : YYYYY
+        ```
+    2. command line with -dl configuration flag
+        ```
+        python -m oss -r YYYYY
+        ```
 
 ## Via docker
 

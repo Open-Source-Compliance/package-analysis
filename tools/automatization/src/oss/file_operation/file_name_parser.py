@@ -1,5 +1,4 @@
 import re
-import os
 import textwrap
 from copy import deepcopy
 from oss.utils.command_line_parser import parser
@@ -7,6 +6,7 @@ from packageurl.contrib import url2purl
 
 
 Packet_Version_Pattern = '\-[0-9]+.*[0-9]$'
+License_Name_Pattern_SPDX = '^LicenseName:.*\n$'
 
 class FileNameParserException(Exception):
     pass
@@ -34,24 +34,21 @@ parser.add_argument('-r', '--reviewer', required=False, type=str, help='The revi
 class FileNameParser:
     """
     """
-    def __init__(self, file_path: str, dictionary_replacement_texts: dict):
+    def __init__(self, file_path: str, dictionary_replacement_texts: dict, ml_list_replacement_texts: dict):
         self.file_path = file_path
-        #self.output_path = output_path
         self.dictionary_replacement_texts = dictionary_replacement_texts
-        # for key, value in  self.dictionary_replacement_texts.items():
-        #     print (">>>  key: ", key)
-        #     print (">>>> value: ", value)
-        #self.final_file_path = ""
+        self.ml_list_replacement_texts = ml_list_replacement_texts
         self.new_file_name = []
         self.original_file_name = ""
         self.original_packet_name = ""
         self.packet_name = ""
         self.packet_version = ""
         self.final_file = None
+        self.license_names =  []
 
     @classmethod
-    def create (cls, file_path: str, dictionary_replacement_texts: dict):
-        instance = FileNameParser(file_path, dictionary_replacement_texts)
+    def create (cls, file_path: str, dictionary_replacement_texts: dict, ml_list_replacement_texts: dict):
+        instance = FileNameParser(file_path, dictionary_replacement_texts, ml_list_replacement_texts)
         new_file_name = instance.new_file_name_provider()
         instance.file_name = new_file_name
         instance.modified_file = instance.read_parse_file()
@@ -62,6 +59,12 @@ class FileNameParser:
 
     def set_final_file(self, final_file: str):
         self.final_file = final_file
+    
+    def get_license_names(self):
+        return self.license_names
+
+    def set_license_names(self, license_name: str):
+        self.license_names.append(license_name)
 
     def get_packet_version(self):
         return self.packet_version
@@ -144,13 +147,13 @@ class FileNameParser:
         return new_list
 
     def check_regular_expression(self, file, given_reg):
-        reg_ex_result = re.search(given_reg, file)
+        reg_ex_result = re.findall(given_reg, file, re.MULTILINE)
         if reg_ex_result:
             print ("Regular expression match: ", reg_ex_result)
             return True
         
     def create_substitute_text(self, file, given_reg, replacement_part, substitute_part):
-        reg_ex_result = re.search(given_reg, file)
+        reg_ex_result = re.findall(given_reg, file, re.MULTILINE)
         if reg_ex_result:
             print ("Regular expression match: ", reg_ex_result)
             substitute = deepcopy(reg_ex_result.group(0))
@@ -165,6 +168,28 @@ class FileNameParser:
                     new_line = self.find_replace(key, value,line)
                     print ("Replaced Text: ", new_line)
         return new_line
+
+    def apply_ml_text_replacement(self, lines):
+        original_lines = lines
+        if self.ml_list_replacement_texts:
+            for el in  self.ml_list_replacement_texts:
+                new_lines = []
+                print (">>>>>>>>   Multiple Lines replacement")
+                print ("Started Text: ", el["start"])
+                print ("Replaced Text: ", el["replace"])
+                print ("ended Text: ", el["end"])
+                found_start = False
+                for line in original_lines:
+                    if self.check_regular_expression(line, el["start"]):
+                        found_start = True
+                        continue
+                    if found_start:
+                        if self.check_regular_expression(line, el["end"]):
+                            new_lines.append(el["replace"])
+                        continue
+                    new_lines.append(line)
+                original_lines = new_lines
+        return new_lines
                    
     def find_replace(self, find_pattern, replace_text, input_line):
         return re.sub(find_pattern, replace_text, input_line)
@@ -176,16 +201,18 @@ class FileNameParser:
             if package_purl:
                 return package_purl.to_string()
 
-    def work_on_spdx_file(self, lines):
+    def find_license_names(self, line):
+        if self.check_regular_expression(line, License_Name_Pattern_SPDX):
+            _, license_name = line.split(": ") # Find License name
+            license_name, _ = license_name.split("\n") # Remove new line
+            self.licenses_name = license_name
+
+    def work_on_spdx_line_by_line(self, lines):
         new_line_list = []
         for line in lines:
             replacement_line = self.apply_text_replacement(line)
-            if replacement_line:
+            if replacement_line is not None:
                 if "[package]" in replacement_line:
-                    # package =  deepcopy(self.packet_name)
-                    # subsctitute_text = self.create_substitute_text(package, Packet_Version_Pattern, "-", " ")
-                    # if subsctitute_text:
-                    #     package = subsctitute_text
                     replacement_line = replacement_line.replace("[package]", self.packet_name + " " + self.packet_version)
                 if "[CreatorName]" in replacement_line:
                     replacement_line = replacement_line.replace("[CreatorName]", parser["creator_name"])
@@ -194,12 +221,18 @@ class FileNameParser:
             new_line_list.append(line)
         return new_line_list
 
-    def work_on_txt_file(self, lines):
-        new_line_list = []
-
+    def work_on_spdx_all_lines(self, lines):
+        if not self.ml_list_replacement_texts:
+            return lines
+        lines = self.apply_ml_text_replacement(lines)
         for line in lines:
-            # if not line.strip():
-            #     continue
+            self.find_license_names(line)
+        print (">>>>> Found license_name: ", self.licenses_name)
+        return lines
+
+    def work_on_txt_line_by_line(self, lines):
+        new_line_list = []
+        for line in lines:
             replacement_line = self.apply_text_replacement(line)
             if replacement_line:
                 new_line_list.append(replacement_line)
@@ -210,10 +243,14 @@ class FileNameParser:
             else:
                 new_lines = textwrap.fill(line, width=80)
                 new_line_list.append(new_lines)
-
             new_line_list.append('\n')
-
         return self.remove_white_space(new_line_list)
+
+    def work_on_txt_all_lines(self, lines):
+        if not self.ml_list_replacement_texts:
+            return lines
+        lines = self.apply_ml_text_replacement(lines)
+        return lines
 
     def work_on_readme_file(self, lines):
         new_line_list = []
@@ -238,9 +275,11 @@ class FileNameParser:
         with open(self.file_path, "r") as file1:
             lines= file1.readlines()
             if ".txt" in self.file_path:
-                final = self.work_on_txt_file(lines)
+                final = self.work_on_txt_line_by_line(lines)
+                final = self.work_on_txt_all_lines(final)
             elif".spdx" in self.file_path:
-                final = self.work_on_spdx_file(lines)
+                final = self.work_on_spdx_line_by_line(lines)
+                final = self.work_on_spdx_all_lines(final)
             else:
                 final = self.work_on_readme_file(lines)
             return final
@@ -261,3 +300,4 @@ class FileNameParser:
     package_name = property(get_packet_name, set_packet_name)
     package_version = property(get_packet_version, set_packet_version)
     modified_file = property(get_final_file, set_final_file)
+    licenses_name = property(get_license_names, set_license_names)
