@@ -2,7 +2,7 @@
 
 One can prepare the setup either via docker or via virtual environment.
 
-# Preparation before running script
+## Preparation before running script
 
 Whether you use docker or virtual env, you need to first prepare some steps
 
@@ -89,9 +89,7 @@ Whether you use docker or virtual env, you need to first prepare some steps
         python -m oss -r YYYYY
         ```
 
-## Via docker
-
-### Installation
+### Via docker
 
 You need to first install docker in order to proceed to next steps
 
@@ -112,7 +110,7 @@ You need to first install docker in order to proceed to next steps
     >$ cd src/oss/output/ && sudo chmod 777 *
     ~~~
 
-## Via virtual environment
+### Via virtual environment
 
 You need to first install python, git, pip in order to proceed to next steps
 
@@ -184,3 +182,33 @@ You need to first install python, git, pip in order to proceed to next steps
     > python -m oss -c config.yaml -pn jQuery-MD5 -pv 2011.06.13
 
     ```
+## Generated Output
+
+Whether you use docker or virtual environment, you should have the generated documents inside **output** folder.
+
+```
+.
+└── package_name
+    └── package_version
+        ├── README.md
+        ├── package_name-package_version-OSS-disclosure.txt
+        ├── package_name-package_version-SPDX2TV.spdx
+        ├── package_name-package_version.spdx.json
+        ├── package_name-package_version.spdx.rdf.xml
+        └── package_name-package_version.spdx.yaml
+
+```
+As an example, the output folder for update-rc.d will look like this.
+
+```
+.
+└── update-rc.d
+    └── version-0.8
+        ├── README.md
+        ├── update-rc.d-0.8-OSS-disclosure.txt
+        ├── update-rc.d-0.8-SPDX2TV.spdx
+        ├── update-rc.d-0.8.spdx.json
+        ├── update-rc.d-0.8.spdx.rdf.xml
+        └── update-rc.d-0.8.spdx.yaml
+
+```
