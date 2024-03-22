@@ -21,5 +21,6 @@ Default_TXT_Replacements_Multi = []
 
 
 Default_SPDX_Replacements_Multi = [
-    vars(MultiSpdxReplacement("^LicenseID: LicenseRef-fossology-gpl-2.0-plus", "</text>\n$",""))["data"]
+    vars(MultiSpdxReplacement("^LicenseID: LicenseRef-fossology-gpl-2.0-plus", "</text>\n$",""))["data"],
+    #vars(MultiSpdxReplacement("^LicenseID: LicenseRef-CC0-1.0",  "</text>\n$",""))["data"],
 ]
