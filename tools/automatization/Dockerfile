@@ -1,6 +1,6 @@
 FROM python:3-slim-buster AS builder
 
-#stoppt bei Fehler 
+#terminates in case of error 
 RUN set -ex \
     && apt-get update \
     && apt-get install -y \
