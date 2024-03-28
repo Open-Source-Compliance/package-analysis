@@ -1,0 +1,3648 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_SDL2_gfx-1.0.4.tar.gz_1710448876.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: spdx2
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of SDL2_gfx 1.0.4
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2024-03-14T21:41:16Z
+LicenseListVersion: 2.6
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: SDL2_gfx-1.0.4.tar.gz
+PackageFileName: SDL2_gfx-1.0.4.tar.gz
+SPDXID: SPDXRef-upload899
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 4943466babaedd3d9d5b8b825759817d7119651d
+PackageChecksum: SHA1: 7f3c8c1d7550014849d524fe215f0bf6dd172e01
+PackageChecksum: SHA256: 63e0e01addedc9df2f85b93a248f06e8a04affa014a835c2ea34bfe34e576262
+PackageChecksum: MD5: 15f9866c6464ca298f28f62fe5b36d9f
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.1.0.95".82b3b2)
+ - monk ("4.1.0.95".82b3b2)
+ - ojo ("4.1.0.95".82b3b2)
+ - scancode ("4.1.0.95".82b3b2) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload899
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Makefile.in
+SPDXID: SPDXRef-item3179522
+FileChecksum: SHA1: f72c2a0b6c5ab4d5633a21023d90c59cbaa9f50b
+FileChecksum: SHA256: b25baad02879a5e828d92ca2492d36555b48bcfeb6ff153ae43a0be51cc91567
+FileChecksum: MD5: 95ca9e111bd4f633daae404916389fd5
+LicenseConcluded: LicenseRef-FSFULLR-Warranty-Disclaimer-dea43d35ec943549960f774c352ca597
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSFULLR
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-fsf-unlimited-no-warranty
+FileCopyrightText: <text> Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.  </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/aclocal.m4
+SPDXID: SPDXRef-item3179633
+FileChecksum: SHA1: 727869ab44a16b47e73e23d44dbffcf2d04b398d
+FileChecksum: SHA256: f1b82960b396e9745015de68690c7aafaa9d48f19010beddc06eb85076ef3497
+FileChecksum: MD5: 1fe9db8d9b579f780f1fecc937260a85
+LicenseConcluded: LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b AND LicenseRef-FSFULLR-Warranty-Disclaimer-1ac11883dcc7dd1681da7708ef7e33fd
+LicenseComments: <text>NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSF
+LicenseInfoInFile: LicenseRef-FSFULLR
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-fsf-unlimited-no-warranty
+FileCopyrightText: <text> Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+Copyright (C) 2004-2005, 2007, 2009, 2011-2015 Free Software Foundation, Inc. Written by Scott James Remnant, 2004.
+Copyright (C) 2002, 2003, 2005, 2006, 2007, 2008, 2011 Free Software Foundation, Inc.
+Copyright (C) 2001, 2003, 2005, 2011 Free Software Foundation, Inc.
+Copyright (C) 1997, 2000, 2001, 2003, 2004, 2005, 2006, 2008 Free Software Foundation, Inc.
+Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2009, 2010, 2011 Free Software Foundation, Inc.
+Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2008 Free Software Foundation, Inc.
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2008, 2009 Free Software Foundation, Inc.
+Copyright (C) 2001, 2003, 2005, 2008, 2011 Free Software Foundation, Inc.
+Copyright (C) 2003, 2005 Free Software Foundation, Inc.
+Copyright (C) 2001, 2002, 2003, 2005, 2009 Free Software Foundation, Inc.
+Copyright (C) 1997, 1999, 2000, 2001, 2003, 2004, 2005, 2008 Free Software Foundation, Inc.
+Copyright (C) 2003, 2004, 2005, 2006, 2011 Free Software Foundation, Inc.
+Copyright (C) 2001, 2002, 2003, 2005, 2008, 2010 Free Software Foundation, Inc.
+Copyright (C) 1996, 1997, 2000, 2001, 2003, 2005, 2008 Free Software Foundation, Inc.
+Copyright (C) 2001, 2003, 2005, 2011 Free Software Foundation, Inc.
+Copyright (C) 2006, 2008, 2010 Free Software Foundation, Inc.
+Copyright (C) 2004, 2005, 2012 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/acinclude/libtool.m4
+SPDXID: SPDXRef-item3179527
+FileChecksum: SHA1: dc39eafa60ef3f379fe19631780f98e3fa3971d2
+FileChecksum: SHA256: 235ce3e9bdba8d1da0913aa286b89930097e41f10c77c36859b24eae71862f2b
+FileChecksum: MD5: 4332d1e72b50494607fbec67bfa41a20
+LicenseConcluded: LicenseRef-FSFUL-a1644ee43218a2c79e1c49c99833dd00 AND LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b
+LicenseComments: <text>Additionally to the FSFULLR license there is the following information in the file:
+m4_define([_LT_COPYING], [dnl
+Copyright (C) 2014 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+GNU Libtool is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of of the License, or
+(at your option) any later version.
+
+As a special exception to the GNU General Public License, if you
+distribute this file as part of a program or library that is built
+using GNU Libtool, you may include this file under the same
+distribution terms that you use for the rest of that program.
+
+GNU Libtool is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+]) AND NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Libtool-exception
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-FSFULLR
+LicenseInfoInFile: LicenseRef-FSFUL
+FileCopyrightText: <text> Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc. Written by Gordon Matzigkeit, 1996
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc. Written by Gordon Matzigkeit, 1996
+Copyright (C) 2010 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/jquery.js
+SPDXID: SPDXRef-item3179704
+FileChecksum: SHA1: 179b5da3ecea399d3bc339924a8e23b51bde7706
+FileChecksum: SHA256: c04f2423c6a5fdf84cc47775b6cacab47a61ccdf986d781a2f3d3b50f2c4a8b6
+FileChecksum: MD5: 348c67be8f444dc6fe00d9a2f12ec2b2
+LicenseConcluded: LicenseRef-GPL-2.0-only OR LicenseRef-MIT-cf197bd5d4094c2d8f76ed82f4786aef
+LicenseComments: <text>(The information in the file is:
+Dual licensed under the MIT or GPL Version 2 licenses.
+http://jquery.org/license
+
+Includes Sizzle.js
+http://sizzlejs.com/
+Copyright 2011, The Dojo Foundation
+Released under the MIT, BSD, and GPL Licenses.
+
+The overall valid license situation is GPL-2.0-only or MIT, thus we concluded GPL-2.0-only OR MIT as license of this file) AND NOASSERTION AND We took the text of the MIT license form https://opensource.org/license/mit. 
+The information was retreived on 14th of Mar. 2024 </text>
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Dual-license
+LicenseInfoInFile: LicenseRef-GPL-2.0-only
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright 2011, John Resig
+Copyright 2011, The Dojo Foundation
+Copyright 2011, The Dojo Foundation 
+Copyright 2011, https://github.com/jquery/jquery-ui/blob/main/AUTHORS.txt
+Copyright 2011, https://github.com/jquery/jquery-ui/blob/main/AUTHORS.txt
+Copyright 2011, https://github.com/jquery/jquery-ui/blob/main/AUTHORS.txt
+Copyright (c) 2010 "Cowboy" Ben Alman
+Copyright (c) 2013 Steven Benner (http://stevenbenner.com/). </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/aclocal.m4
+SPDXID: SPDXRef-item3179614
+FileChecksum: SHA1: d98614a4c2baba247c40e7055e2b3efa1371898d
+FileChecksum: SHA256: 31dee026a9b2874051e63a21f417c5aaf39a417d695f0f0f33feab1170b69250
+FileChecksum: MD5: 23ab4aadc25966d1130369b7bc9210a2
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright © 2004 Scott James Remnant <scott@netsplit.com>. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/acinclude.m4
+SPDXID: SPDXRef-item3179608
+FileChecksum: SHA1: d98614a4c2baba247c40e7055e2b3efa1371898d
+FileChecksum: SHA256: 31dee026a9b2874051e63a21f417c5aaf39a417d695f0f0f33feab1170b69250
+FileChecksum: MD5: 23ab4aadc25966d1130369b7bc9210a2
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright © 2004 Scott James Remnant <scott@netsplit.com>. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/acinclude/pkg.m4
+SPDXID: SPDXRef-item3179531
+FileChecksum: SHA1: 94d4df6a698e3c43f053751d09ab5db9d0d21d36
+FileChecksum: SHA256: a4046b4795803251f46fd9e73601d7507a269a1a2da2819f8bc9a68cd3770c6c
+FileChecksum: MD5: fb1bdd4acefd60b661cec4927d4212b4
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+FileCopyrightText: <text> Copyright © 2004 Scott James Remnant <scott@netsplit.com>. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/testimagefilter.c
+SPDXID: SPDXRef-item3179613
+FileChecksum: SHA1: 50e65212e65085322e0793b2fe40b64f557e53e9
+FileChecksum: SHA256: 168269c6d85b825d6d370b147b1e4d255d0384a1730131b869f996db277079eb
+FileChecksum: MD5: 602ddbb00361c46d9b62d4ed37048c7b
+LicenseConcluded: LicenseRef-Permission-Notice-527486655f5a7062cd698b42116b55c9 AND LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>Additionally to the Permission-Notice there is the following information in the file:
+(C) A. Schiffler, 2012-2014, zlib license
+(C) Sylvain Beucler, 2013, zlib license
+Thus we concluded additionally Zlib as license of this file AND NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-other-permissive
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> (C) A. Schiffler, 2012-2014
+(C) Sylvain Beucler, 2013 </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/configure
+SPDXID: SPDXRef-item3179534
+FileChecksum: SHA1: 30a893737080584e7a54fb27670f198418c353fb
+FileChecksum: SHA256: f3abf0ed854b0856eb956b202b3d24798544a27551a7e232272558bf667036b3
+FileChecksum: MD5: e41100f2fa3d031b2fc33fa4c55ef2e7
+LicenseConcluded: LicenseRef-FSFUL-c75eb7486755351ecb2622ed8c28c6d4 AND LicenseRef-FSFULLR-2e01bb672e5007181a921b144efe76a8 AND LicenseRef-GPL-2.0-or-later-WITH-Libtool-exception
+LicenseComments: <text>NOASSERTION AND NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-FSFUL
+LicenseInfoInFile: LicenseRef-Libtool-exception
+FileCopyrightText: <text> Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright (C) 2012 Free Software Foundation, Inc.
+Copyright (C) 2012 Free Software Foundation, Inc.
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc. Written by Gordon Matzigkeit, 1996 </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/configure
+SPDXID: SPDXRef-item3179599
+FileChecksum: SHA1: e1d90f2542ed908e01bc008c0db9447a7107d448
+FileChecksum: SHA256: 677d36c215464ae393c32ce243a59dec890239cf8a94d9f9f88cd82da5670648
+FileChecksum: MD5: c9cb9acdf4122f47a048b018844fa3bd
+LicenseConcluded: LicenseRef-FSFUL-c75eb7486755351ecb2622ed8c28c6d4 AND LicenseRef-FSFULLR-2e01bb672e5007181a921b144efe76a8
+LicenseComments: <text>NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSFUL
+FileCopyrightText: <text> Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright (C) 2012 Free Software Foundation, Inc.
+Copyright (C) 2012 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/ltmain.sh
+SPDXID: SPDXRef-item3179625
+FileChecksum: SHA1: 34081f7a340e5bea8a90b35984c3f835937e53ae
+FileChecksum: SHA256: 008a4f0bc724b50759703737ee5625ae44f82e79b519809c357cc2092c6d11ac
+FileChecksum: MD5: 15c3db062de1df83e72dc31e07d5f632
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Libtool-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-Libtool-exception
+FileCopyrightText: <text> Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/depcomp
+SPDXID: SPDXRef-item3179621
+FileChecksum: SHA1: 22250306aecea98abe4cc05ea69c1bf4f005edc8
+FileChecksum: SHA256: 50439d98ba66026079ae6c957df2978cd982be3508edbfaa1791257749324b4a
+FileChecksum: MD5: 2edbe869dfc213dbc78b76b47175f055
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+FileCopyrightText: <text> Copyright (C) 1999, 2000, 2003, 2004, 2005, 2006, 2007, 2009, 2010, 2011 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/missing
+SPDXID: SPDXRef-item3179535
+FileChecksum: SHA1: d7c9981a81af13370d4ed152b24c0a82b7028585
+FileChecksum: SHA256: 300bea3fb273b763eca2e4bb1576c663605d9b49de385fd375f82be8d912f506
+FileChecksum: MD5: 52cc47fe5f31e22f14f911caaf821429
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+FileCopyrightText: <text> Copyright (C) 1996, 1997, 1999, 2000, 2002, 2003, 2004, 2005, 2006, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc. Originally by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/config.guess
+SPDXID: SPDXRef-item3179603
+FileChecksum: SHA1: ef8055d5bdc820832b7183f90b27f97d7e82b498
+FileChecksum: SHA256: db912c2c5ccb5d2b2e7cd2df46b06945915fbafa6fb277a0c2057f55d3d16ce1
+FileChecksum: MD5: d837ac1634b8e127e61c99f938ab7b84
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-free-unknown
+FileCopyrightText: <text> Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/config.guess
+SPDXID: SPDXRef-item3179592
+FileChecksum: SHA1: ef8055d5bdc820832b7183f90b27f97d7e82b498
+FileChecksum: SHA256: db912c2c5ccb5d2b2e7cd2df46b06945915fbafa6fb277a0c2057f55d3d16ce1
+FileChecksum: MD5: d837ac1634b8e127e61c99f938ab7b84
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-free-unknown
+FileCopyrightText: <text> Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/config.sub
+SPDXID: SPDXRef-item3179638
+FileChecksum: SHA1: d49c962cc02579c219a30c73d4a934d05e2f2f8c
+FileChecksum: SHA256: cf5491e39ea0b616b19024fbb75f8d8b721ff80deafe52ad916eefbb317c17e7
+FileChecksum: MD5: 9b0fe319ee606e8469592eb3a4468b99
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-free-unknown
+FileCopyrightText: <text> Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/config.sub
+SPDXID: SPDXRef-item3179620
+FileChecksum: SHA1: 94a1ead1ea26a0d61da25bff738adbae5a52ab3e
+FileChecksum: SHA256: 5b223d0b2e8fd52baee6c26745b939f5d596daadf19b32e8a9ca8316c80ae54f
+FileChecksum: MD5: ff0344891d7c5a48a1c6d5223fa55fa5
+LicenseConcluded: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-free-unknown
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+FileCopyrightText: <text> Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/acinclude/ltoptions.m4
+SPDXID: SPDXRef-item3179530
+FileChecksum: SHA1: 40abd1f0e6e2e5c98147301c2025f2e3d3568f69
+FileChecksum: SHA256: d980f6dbfeded4c3cc77c94615dde9e3844c8facfe7ea46234c812f86f37357f
+FileChecksum: MD5: ead2aba7ec9ca2443bf91d466eb10028
+LicenseConcluded: LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSFULLR
+FileCopyrightText: <text> Copyright (C) 2004, 2005, 2007, 2008, 2009 Free Software Foundation, Inc. Written by Gary V. Vaughan, 2004 </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/acinclude/ltdl.m4
+SPDXID: SPDXRef-item3179528
+FileChecksum: SHA1: 33270e3981e84539dbb6871a5a7105b6619ad142
+FileChecksum: SHA256: 8d97549b3bf91597673cedcd7208143a860aec67393b544e52dfc9f176ab53e8
+FileChecksum: MD5: e9148d05b9d514169f724e06f61a8421
+LicenseConcluded: LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSFULLR
+FileCopyrightText: <text> Copyright (C) 1999-2006, 2007, 2008 Free Software Foundation, Inc. Written by Thomas Tanner, 1999 </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/acinclude/lt~obsolete.m4
+SPDXID: SPDXRef-item3179532
+FileChecksum: SHA1: fdf1c7c2d12d6d9eeff5c008281a3ba344730819
+FileChecksum: SHA256: c381ebd410139c7afbb002dab09b043262c2357c4858bfa07416e2582b7a4ddd
+FileChecksum: MD5: b82baa46e0c0429b119a622b83111863
+LicenseConcluded: LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSFULLR
+FileCopyrightText: <text> Copyright (C) 2004, 2005, 2007 Free Software Foundation, Inc. Written by Scott James Remnant, 2004. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/acinclude/ltsugar.m4
+SPDXID: SPDXRef-item3179533
+FileChecksum: SHA1: d6d1ea1fd251ced66ba87ceb6f9e3846124691c1
+FileChecksum: SHA256: e8bfa437be7af72bf41b86e7e714bc8b8545046c339f80cfb5e69681bc97f90d
+FileChecksum: MD5: bc2f6032c98896249eadb56177c7d357
+LicenseConcluded: LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSFULLR
+FileCopyrightText: <text> Copyright (C) 2004, 2005, 2007, 2008 Free Software Foundation, Inc. Written by Gary V. Vaughan, 2004 </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/acinclude/ltversion.m4
+SPDXID: SPDXRef-item3179529
+FileChecksum: SHA1: d742e7d3209f5dcefcb5978cc34b551a990dc15b
+FileChecksum: SHA256: 5cede49f23820c678e895e66615e4c936cb609f3ce0e01bbb30c03c382196476
+FileChecksum: MD5: 2b707818da09a075734917376f7f8b69
+LicenseConcluded: LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSFULLR
+FileCopyrightText: <text> Copyright (C) 2004 Free Software Foundation, Inc. Written by Scott James Remnant, 2004 </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/install-sh
+SPDXID: SPDXRef-item3179622
+FileChecksum: SHA1: 06ee6336e63bb845c8439d777c32eb2eccc4fbf1
+FileChecksum: SHA256: e7064b5e01a8d173409749c337966698fa04661cde1e3ef1a93be250eec0d2c3
+FileChecksum: MD5: 9d5ae975ae461be51dfd41d904c52af2
+LicenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11-5872543441a34866c9e94fa78f93667f
+LicenseComments: <text>NOASSERTION AND The information in the file is:
+FSF changes to this file are in the public domain. </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-X11
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright (C) 1994 X Consortium </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/install-sh
+SPDXID: SPDXRef-item3179609
+FileChecksum: SHA1: 06ee6336e63bb845c8439d777c32eb2eccc4fbf1
+FileChecksum: SHA256: e7064b5e01a8d173409749c337966698fa04661cde1e3ef1a93be250eec0d2c3
+FileChecksum: MD5: 9d5ae975ae461be51dfd41d904c52af2
+LicenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11-5872543441a34866c9e94fa78f93667f
+LicenseComments: <text>NOASSERTION AND The information in the file is:
+FSF changes to this file are in the public domain. </text>
+LicenseInfoInFile: LicenseRef-X11
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright (C) 1994 X Consortium </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/TestGfx.c
+SPDXID: SPDXRef-item3179596
+FileChecksum: SHA1: e12aca7c45e0c2ddb66dd75158d995997a2399cd
+FileChecksum: SHA256: f5c9c7f04a49e55d1289c0c8e010959981896611fdf756dba1a6206b55c45669
+FileChecksum: MD5: 993e4483baa97619c0e02fbce759cd73
+LicenseConcluded: LicenseRef-Permission-Notice-527486655f5a7062cd698b42116b55c9
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-other-permissive
+LicenseInfoInFile: LicenseRef-Freeware
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/testrotozoom.c
+SPDXID: SPDXRef-item3179612
+FileChecksum: SHA1: 8272903de4b3e13e90488e9c15a6d2e0e2e2ee40
+FileChecksum: SHA256: 125f7029eb72a61f8e02a923d322b8835cafa2bee734b609c1d6f77b432afa6a
+FileChecksum: MD5: ce4e75bdd8bbc390bbeea1add25e74e5
+LicenseConcluded: LicenseRef-Permission-Notice-527486655f5a7062cd698b42116b55c9
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-other-permissive
+LicenseInfoInFile: LicenseRef-Freeware
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/testframerate.c
+SPDXID: SPDXRef-item3179611
+FileChecksum: SHA1: fb4b989a32911f4a84c47e3fb4f4f275d1769b90
+FileChecksum: SHA256: b18e103663362eba074d999776263d7f43e5f067e04d757c722afcc32ed715b7
+FileChecksum: MD5: d89445b47ffe10b229824ab2a3eb7730
+LicenseConcluded: LicenseRef-Permission-Notice-527486655f5a7062cd698b42116b55c9
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Freeware
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-other-permissive
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__image_filter_8c_source.html
+SPDXID: SPDXRef-item3179676
+FileChecksum: SHA1: bf6e4db9ef4d306d54a1149fae708af6637a053b
+FileChecksum: SHA256: 2f6bf0b688cb454146e73179003b62c5856d915de0c5fed6024e0bf973e05d9f
+FileChecksum: MD5: e84074e2abcc536d47ff63ffd12824eb
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Freeware
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler
+Copyright (C) 2013 Sylvain Beucler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__gfx_primitives__font_8h_source.html
+SPDXID: SPDXRef-item3179686
+FileChecksum: SHA1: 13463aa90e4dcda62250023f1c767d43a84826d0
+FileChecksum: SHA256: 81783383f92661d4995cfe0c6645d7be31190ac7082b540282d230dbbe625c24
+FileChecksum: MD5: 66bcd451d0ef1a4c8249af996b42b1ab
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+LicenseInfoInFile: LicenseRef-Freeware
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__image_filter_8h_source.html
+SPDXID: SPDXRef-item3179703
+FileChecksum: SHA1: f189cf8740bd1559e78e9ccf96d8c2e3e75e6206
+FileChecksum: SHA256: 7d2d1ecccbe87bb298f240d02c903806993453fe278a51e95ddc58b23d36ec36
+FileChecksum: MD5: b54ca13cc91dac68f27dd97f063d0e1b
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+LicenseInfoInFile: LicenseRef-Freeware
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__rotozoom_8h_source.html
+SPDXID: SPDXRef-item3179689
+FileChecksum: SHA1: 919f6a3b66c33e397da6f7bef35ae0dfee8ad79c
+FileChecksum: SHA256: 0c3e57a916f4f49ad324562303788eb925543d44d1aef17b2002cdc58ff44885
+FileChecksum: MD5: 7c22806d8a5f8cf59d233f37ccf30045
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Freeware
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__framerate_8c_source.html
+SPDXID: SPDXRef-item3179660
+FileChecksum: SHA1: 2604a0b280580ebd4b6dc24ebed65e5939742fdc
+FileChecksum: SHA256: e23c9906858c0958ff4ec11a8eb2a2be10aa10567b3a2f7f01a8e67bf19bf8cc
+FileChecksum: MD5: 50095979b8a38d5774c4d4d7299fff5f
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+LicenseInfoInFile: LicenseRef-Freeware
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__framerate_8h_source.html
+SPDXID: SPDXRef-item3179655
+FileChecksum: SHA1: 7edbcb2f4f78f81e497cade8f997b7716e066f4a
+FileChecksum: SHA256: ea4818df22c0747b1e03632f29500d60861d44967c89d5d4ca6cc4f19ec6ebf1
+FileChecksum: MD5: d49b937fe39099080c58d49fc6d4d33d
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+LicenseInfoInFile: LicenseRef-Freeware
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__gfx_primitives_8h_source.html
+SPDXID: SPDXRef-item3179645
+FileChecksum: SHA1: 4838a3eafe19f6dd48e44f80ac579313a1f1c02d
+FileChecksum: SHA256: 6eb05273705dca0761ee37da725912ee5cfccacfbd9d031ca7092fe758fe0ae5
+FileChecksum: MD5: 38bd9c27d65a2b28da69a26c1394f957
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+LicenseInfoInFile: LicenseRef-Freeware
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__gfx_primitives_8c_source.html
+SPDXID: SPDXRef-item3179684
+FileChecksum: SHA1: 1d80dabff78a5945d3aacf00d18cfc870d1af781
+FileChecksum: SHA256: 2650d1b9e0aa68c97ce45196afa5ed68d4c1a931d27e7a0c4a16220c3b0f5fa1
+FileChecksum: MD5: f4fe569ca60c936af8b6c3fccb0d0e0d
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Freeware
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__rotozoom_8c_source.html
+SPDXID: SPDXRef-item3179697
+FileChecksum: SHA1: 2ce52fc13bbbd3ae658a0f98625e287625119c69
+FileChecksum: SHA256: 5fb560c1529cdbaa1e2912961bbe3dc2c2f9a4f19919027976b216121082d491
+FileChecksum: MD5: 18c6af92847c1690877183ece2d184d0
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+LicenseInfoInFile: LicenseRef-Freeware
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_gfxPrimitives.h
+SPDXID: SPDXRef-item3179575
+FileChecksum: SHA1: 5694ba044d7065bd5717b0b5152ac2637bc3990d
+FileChecksum: SHA256: 0d5bfbf2579ac00fb8de28ec45fb45b3984116ae72a5d2264796459bd5e7f219
+FileChecksum: MD5: 1ba9867a13f5296ca097adadbcd24111
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_rotozoom.c
+SPDXID: SPDXRef-item3179594
+FileChecksum: SHA1: 013452dbaa8625213354f46f28db1d35e8bc049d
+FileChecksum: SHA256: dd259402b044df8837ae59ed284a69e02342d758e63663efbe9f6453c89245ce
+FileChecksum: MD5: 471526a431e6bc18afab1789bc774658
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_framerate.c
+SPDXID: SPDXRef-item3179576
+FileChecksum: SHA1: 534436d40c54ba719fd27b2a2d8afbc14ca42300
+FileChecksum: SHA256: 2094336885996241395521ec1644a4cfcff5e542cf182a6969ca4ec785e93378
+FileChecksum: MD5: 45b678daac1bed35cb7fecfde9a32c25
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2001-2012 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_imageFilter.c
+SPDXID: SPDXRef-item3179626
+FileChecksum: SHA1: 233772b037e3c454374f87ad23b84697c5e373c3
+FileChecksum: SHA256: 2ef3f0474d52ff1b6c073e888ee85af40800dde3356c4b50d2b3824a261b99c3
+FileChecksum: MD5: 3f1fe26b5df4d54a8d621bf89213f70c
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler
+Copyright (C) 2013 Sylvain Beucler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_imageFilter.h
+SPDXID: SPDXRef-item3179627
+FileChecksum: SHA1: e8255b60082dbcc2db95f797a0d6b44aae440b9e
+FileChecksum: SHA256: e97e4d1187d72827ce4aadaf80261cc676ab15d5977547a55567acf258fb9517
+FileChecksum: MD5: 7adf186e6063d21c220fa34cdf3f4bb1
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_gfxPrimitives.h
+SPDXID: SPDXRef-item3179631
+FileChecksum: SHA1: a9287d7bc2db7e41944dd34d5745165a3cde99b9
+FileChecksum: SHA256: cdb8f72076c837dbfe1e2ff12f69ad3ca2bf917eb6d107cd002f8fd8b2840771
+FileChecksum: MD5: a9bd6da24f2c0dbbd102c3fa7d97ba40
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_gfxPrimitives_font.h
+SPDXID: SPDXRef-item3179537
+FileChecksum: SHA1: 387e50e0ea2d89d2481ab2431840a0a6ac2f3669
+FileChecksum: SHA256: 993efb7344fcbcde5ab0299b9c97e078740df3c746492575a4133c04aae3dca1
+FileChecksum: MD5: d8721e2972d94dd07c2d5a3cade2ffa1
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_imageFilter.h
+SPDXID: SPDXRef-item3179574
+FileChecksum: SHA1: 5e246b4258d5b5a2adcb3569686111cd68b39e67
+FileChecksum: SHA256: 8945ee81fc32c9b0aa0a4f94a33a0ccd8aca7a93a95f5a5c979fa1995ac0a568
+FileChecksum: MD5: dbdcdc22a27a42416f6273aed2f8b5ac
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2001-2012 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_imageFilter.c
+SPDXID: SPDXRef-item3179573
+FileChecksum: SHA1: ab00b1972d5adb722f8560916bdef912a66e5da5
+FileChecksum: SHA256: 06bd4ca334fd479b81b6afe7b67a1cc550051e28803519041cbd2720b17ac30e
+FileChecksum: MD5: b8126197830c3cd51cbfd73f073d71d0
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2001-2012 Andreas Schiffler
+Copyright (C) 2013 Sylvain Beucler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_framerate.c
+SPDXID: SPDXRef-item3179632
+FileChecksum: SHA1: 4a355b0367d07aba98874cdbaa2f1adc22b14a05
+FileChecksum: SHA256: 8a05e7d14fb1b4dd7328dda00dba17ce6ca645eb2e05575f29513786a014726f
+FileChecksum: MD5: 6915c5ad2579ee5dba106abbb7f2f851
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_rotozoom.h
+SPDXID: SPDXRef-item3179637
+FileChecksum: SHA1: 6ee31f815aa8584a76d952d8035ab7a4a104d5c4
+FileChecksum: SHA256: ed490c87c351c76426e664fff62fc30f7da05e7d0e0df6ca4de8b90372e2dd54
+FileChecksum: MD5: 578b1e26b46d271a0256824b59ea2ab2
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_gfxPrimitives.c
+SPDXID: SPDXRef-item3179571
+FileChecksum: SHA1: 611537f8a49180cc2600d301ecc6899cc123f7ff
+FileChecksum: SHA256: 2d5aba42e0c05becd0f643c7982572ee58687a15da9e11a9f675086558816254
+FileChecksum: MD5: b99b71d4df86645a9c3a11e890bd5254
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_gfxPrimitives.c
+SPDXID: SPDXRef-item3179593
+FileChecksum: SHA1: ce16b7b7972be73dffb7215ced1505fa96e46c62
+FileChecksum: SHA256: 473cf65ff2c43607632ed4d29cbad2a8142d694ca6dbcd7fd32d9294cff231a3
+FileChecksum: MD5: 4c6d0b388964869b0405941cd08d5408
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_rotozoom.h
+SPDXID: SPDXRef-item3179578
+FileChecksum: SHA1: dadd1a385f1dccba0fc2f8b22abab87ce8993208
+FileChecksum: SHA256: 2d535f7314155939343a6987311b07d1c57d846bfb1a0f7d839a417a93e0b6e6
+FileChecksum: MD5: c0677f30b0675cf2a8e0b5ec14a6f297
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2001-2012 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_framerate.h
+SPDXID: SPDXRef-item3179639
+FileChecksum: SHA1: 11ffd4edf0dd27659f3ae346d68a9315f5a55352
+FileChecksum: SHA256: 18e6fad60b809b0e30bd2576a0d33c179ca2ac694504a849d05b6579e3c481dd
+FileChecksum: MD5: 22445748ba55d0d2c9fe99c50dc7add7
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012-2014 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_framerate.h
+SPDXID: SPDXRef-item3179579
+FileChecksum: SHA1: d3c261e148986b67a9d573de025aabbb9d5a6be8
+FileChecksum: SHA256: b76b0cdf6bede33e62969380c047302fc759bbb3de22e860a44867e446a28a8e
+FileChecksum: MD5: ca7651edeb2e176218714e8422954388
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_rotozoom.c
+SPDXID: SPDXRef-item3179572
+FileChecksum: SHA1: 9080f83fc41bbadeabe153a797b3989ca54abfbb
+FileChecksum: SHA256: 30aebe4a7097f155ae78ab1969b6ecf08ad57050757a5b2a79ff72f577f52995
+FileChecksum: MD5: ea635f5d0a29643c87dcd644ca15c333
+LicenseConcluded: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: <text> Copyright (C) 2012 Andreas Schiffler </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/COPYING
+SPDXID: SPDXRef-item3179630
+FileChecksum: SHA1: c15a9b187d33eecf1113d8bc48f3421c49a1d4e9
+FileChecksum: SHA256: ec9036525fe1adde787041cce6c4b7fbb262863c238bb9051037e29a57e27bfc
+FileChecksum: MD5: e04e1feb331457e9da15e0c88d0e8097
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-Zlib
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/files.html
+SPDXID: SPDXRef-item3179691
+FileChecksum: SHA1: 17b92e8e9e42dc983d72c582e2137a8528b18e95
+FileChecksum: SHA256: abfc86f7dbc866c28adc67c2ac9dd0f35fe53cbe6250e31d19572370950d2c94
+FileChecksum: MD5: 43ccac56862a60b6482c426ada9806bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x6c.html
+SPDXID: SPDXRef-item3179714
+FileChecksum: SHA1: 6ca5b1fb4e50481fba260edbc468170a1427b7ec
+FileChecksum: SHA256: b3e2e29d84ddef8e0011854a7fd5e4aad02a960af459ccc9784046ec647462c6
+FileChecksum: MD5: 839716ec0e35304f18cebc8f82b8b12b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x74.html
+SPDXID: SPDXRef-item3179651
+FileChecksum: SHA1: c66141aa37f161cc38c1c886099a831fa796bba6
+FileChecksum: SHA256: d1c922e0dce91fa32488b1ab0c764ed9a0f96cf4b6da7183ec17a34fc8806bee
+FileChecksum: MD5: 15d0b27234ddb5f429cd81c17bd78e66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfxTests/Info.plist
+SPDXID: SPDXRef-item3179567
+FileChecksum: SHA1: 4239984ce09b6ec99e648d940c44a645b1accf61
+FileChecksum: SHA256: 1dcb5aa88dabb5f19b671f7066204bd58220ded8654dc91f5f79e09690d81365
+FileChecksum: MD5: c75e73380a2c3ce3b2c85f58a5c00b46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/bc_s.png
+SPDXID: SPDXRef-item3179658
+FileChecksum: SHA1: ace7ca1070475ae99c9ae7647a9640af2ccffce5
+FileChecksum: SHA256: 9e7ed0ef70f99bb7f763a48ddd95d5990e103bb145eedfd0a76d19c122374be2
+FileChecksum: MD5: ceaaae73746596a7519cfe782d8aa065
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__image_filter_8h.html
+SPDXID: SPDXRef-item3179678
+FileChecksum: SHA1: f83914f6c2da90ea5e317f497f6ccd4f28d32eea
+FileChecksum: SHA256: 145a75c54d1e2b275203c9ddd599a86601284860ad80777394987d54c9e031ca
+FileChecksum: MD5: 0f2bae341d636c4621f3782f71094488
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._SDL2_gfxPrimitives.h
+SPDXID: SPDXRef-item3179557
+FileChecksum: SHA1: 7508dd33dae1ddbc946f1d20c035e69b8bffbfb2
+FileChecksum: SHA256: d77e265e4e35c81d17761bfbc47c7fae3d45141b55fe63a407e4bf92d69ffbb3
+FileChecksum: MD5: 48b58d24292798958bef9b864a10580b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals.html
+SPDXID: SPDXRef-item3179650
+FileChecksum: SHA1: d57bb90e1ceba927dda2a113ca2de0abe78edff5
+FileChecksum: SHA256: 591989df660b49be5faaa6e082199458cebab77ceaf8608e2f57c9a16a7172e8
+FileChecksum: MD5: a35c798728a55dab98a1a4b7f292baaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x67.html
+SPDXID: SPDXRef-item3179662
+FileChecksum: SHA1: 9bf1a6a2cb9849f6fb80b81042900690d3ea6588
+FileChecksum: SHA256: c05e3fe8953c32a86375001e074cd36579d6099a5c1b4b2619a80fb3404b67c4
+FileChecksum: MD5: 98bdd778e19333d8a38b7a4cbc878692
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/nav_h.png
+SPDXID: SPDXRef-item3179719
+FileChecksum: SHA1: dff8e73424c9ea2e502cd3b92f25c397384abc95
+FileChecksum: SHA256: b7711604d6cdeaf3cdfd661fa21fc5bf18de929671c801f00415eaecd35abda3
+FileChecksum: MD5: 935f050f10b7fe425509491f207f574f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/TestGfx.vcxproj
+SPDXID: SPDXRef-item3179605
+FileChecksum: SHA1: d1164cdf73b503f7b734dc0182159a445bff37f0
+FileChecksum: SHA256: 28b2dd42eadc9f3dad5bb7510bea547a50dac406dfba85e576eb55321f2f58eb
+FileChecksum: MD5: bbae348e0b829377146cb0d51655fc28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/doxygen.png
+SPDXID: SPDXRef-item3179652
+FileChecksum: SHA1: 3f9f7099f963a889bd8bd72237dac63467f3dc43
+FileChecksum: SHA256: 6973a2aae66bbb99f2b57f2ef160182825fa5305444511ca1eca4e1b0b38528b
+FileChecksum: MD5: 4d8b8c8f1a68a4f320da8294a085f251
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_imageFilter.lo
+SPDXID: SPDXRef-item3179569
+FileChecksum: SHA1: e5c08edb8f9fb1d305eb362eafc0ad96989b33ef
+FileChecksum: SHA256: b706e05e3179bdcd8984683a4f18d35fc76c95ce1edce73b612ac4187496ad93
+FileChecksum: MD5: 0b23f9864fbe4ca13193527498a17327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._SDL2_imageFilter.h
+SPDXID: SPDXRef-item3179556
+FileChecksum: SHA1: 81255d1948b1fb6d09337c26854ad19d8b0b5f02
+FileChecksum: SHA256: 5c251796ad99d50712ec4b48aa82192d49fd18f12ec600d0c96c9505f0a0e4fa
+FileChecksum: MD5: 46e8914a0775ea86d2f48097bc92c21c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__gfx_primitives_8c.html
+SPDXID: SPDXRef-item3179648
+FileChecksum: SHA1: 56f5415301c92ef7945061057199def28d384083
+FileChecksum: SHA256: 8a5ce3435626f05af7fdb3cf3fc157684f0984d251b66e727f3f4c1f9449c7f9
+FileChecksum: MD5: 886c07f251a406c17d2c1f57f6699225
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/autogen.sh
+SPDXID: SPDXRef-item3179610
+FileChecksum: SHA1: 43473f360e49202cb87d814611eb1839d504fc78
+FileChecksum: SHA256: d677cf1f9fae3fbe87a1e586822852f46ef068d2d3593298ff7fce0e7d008c85
+FileChecksum: MD5: 64abe3f592f340943dc740290ecd7d02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/AUTHORS
+SPDXID: SPDXRef-item3179521
+FileChecksum: SHA1: f285b0aa16373732a477495347f2692b53f1e7a5
+FileChecksum: SHA256: 81f81619e9c1ba52373660312d46c5619f6e4a6aa73125a3d120e3b245d39ed6
+FileChecksum: MD5: 8deb01d1ddba8c3f298c400ac9da38fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._SDL2_gfxPrimitives.c
+SPDXID: SPDXRef-item3179559
+FileChecksum: SHA1: 7508dd33dae1ddbc946f1d20c035e69b8bffbfb2
+FileChecksum: SHA256: d77e265e4e35c81d17761bfbc47c7fae3d45141b55fe63a407e4bf92d69ffbb3
+FileChecksum: MD5: 48b58d24292798958bef9b864a10580b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/doxygen.css
+SPDXID: SPDXRef-item3179721
+FileChecksum: SHA1: 8f96c6762c8328d6ab7f898d5f030c86927b3370
+FileChecksum: SHA256: 589da33d377e9d1280596228e2f168189de81dc48d68146cec2dc7bfa01699ba
+FileChecksum: MD5: 5c497e61571b5d0b3c3483eaf755a631
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/functions.html
+SPDXID: SPDXRef-item3179707
+FileChecksum: SHA1: bbb895da563ec1174cbbbaf7e95a224d70b525a0
+FileChecksum: SHA256: 2fe418fda7758de901244ef3c7d715deab0b954e04961761e4ddf672edc93da7
+FileChecksum: MD5: a3bff13beff685c524752c3a1e9d4100
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x63.html
+SPDXID: SPDXRef-item3179694
+FileChecksum: SHA1: b32015809028518b7c6b2478a418164157c6930d
+FileChecksum: SHA256: ec3700cda50001258340e282a992f19683214bec188efdfb62858e543624b0ff
+FileChecksum: MD5: 91d44917227307cf1beb24e7e53ef093
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_defs.html
+SPDXID: SPDXRef-item3179656
+FileChecksum: SHA1: f578302e2a8eca21607dcff8edd1466a8e6c57bd
+FileChecksum: SHA256: d5665b2ef0cbcb5ae36a716ad0c3d2cb79eb1300667488040290439362f5ea14
+FileChecksum: MD5: a5624bf537f84936d7a6ee07fdf434a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/ChangeLog
+SPDXID: SPDXRef-item3179524
+FileChecksum: SHA1: a7413068e0428b6ec54aae196414860b65f51b0e
+FileChecksum: SHA256: b7d63d4ead6f5a6d59376d7b0c45a553c7f48ea316704411f428f2499a24c063
+FileChecksum: MD5: 4f64e38696d95d6de4824375f8289c0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/.DS_Store
+SPDXID: SPDXRef-item3179564
+FileChecksum: SHA1: e5e93a2d1d5dbb60e6724bcbde89faed221d8bea
+FileChecksum: SHA256: 4a1c04da58e84094f9c655bae7f0617d3d63c44d57b0bf1e0c5b4176cdf7d683
+FileChecksum: MD5: 4d496f14a455289d1e854d5eefba7c36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x66.html
+SPDXID: SPDXRef-item3179681
+FileChecksum: SHA1: 1369abe6685f44d654c40e5a8304a8ba3eb4df17
+FileChecksum: SHA256: 4dd248fa60bdb787aae6af918fd5c1885817d7ce19976b5b1aa2d39c3674ddd2
+FileChecksum: MD5: e33a04f780ba444e406ca6b647282581
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/configure.in
+SPDXID: SPDXRef-item3179602
+FileChecksum: SHA1: 2bce44fb9d360d0400afa81896762bbc0f1fa11a
+FileChecksum: SHA256: 620b4e22b0e59146543330bab406d7fb6104e225a2e9e210639433a5b2ca774f
+FileChecksum: MD5: 4369852c442b4f8c606d5c00ed64c12f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/sample8-box.bmp
+SPDXID: SPDXRef-item3179617
+FileChecksum: SHA1: 01a35712596f17f941c3ab2762c43ab08c605072
+FileChecksum: SHA256: 4d6130c3e74f15ef5cb6bf237a9cfd6a9ee834808e864993fad0b6c07364ec0e
+FileChecksum: MD5: 0ff9353d00e4a7a835ff861ccb62a32a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_r_e_a_d_m_e_source.html
+SPDXID: SPDXRef-item3179693
+FileChecksum: SHA1: 9c456d4d6ab06e003394b94ae2d65f41fa0b87ca
+FileChecksum: SHA256: 441aa27023be75ce9b361692170e7cda1c3ea57568b7be3525e31db9d2ec3a2b
+FileChecksum: MD5: 60a3fd0d567e8eea79757e8e6e96d0c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-Zlib
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-unknown-license-reference
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/README
+SPDXID: SPDXRef-item3179538
+FileChecksum: SHA1: b87cebc433b87cbdd17853fd0a2bd03f55e600cb
+FileChecksum: SHA256: e11a21725c5898f9083c81bcc47ed1d78e39645a452fde7603fe659a3d3f4074
+FileChecksum: MD5: a0df02a25685212fce970673f6613715
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-Zlib
+LicenseInfoInFile: LicenseRef-LicenseRef-scancode-unknown-license-reference
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/struct_s_d_l2__gfx_murphy_iterator.html
+SPDXID: SPDXRef-item3179646
+FileChecksum: SHA1: ce513eb98e9f4c8e5719dfa8359bdb546b154a79
+FileChecksum: SHA256: bc25d2c579548be7f9c4fb25a6a2a570080e21b5f9bea61c50057df76228c830
+FileChecksum: MD5: 546096e0cd1fc11421b43d80b79e5d16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/INSTALL
+SPDXID: SPDXRef-item3179629
+FileChecksum: SHA1: fb696e96d88add5bab0bf3ea786fb29527e5a6e5
+FileChecksum: SHA256: c1c77fe6d58598fde964528905e3c18b0e604e1463c41833e22770e95d5b92b1
+FileChecksum: MD5: adf075604c2e8f221489154db54fd424
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/structt_color_r_g_b_a.html
+SPDXID: SPDXRef-item3179712
+FileChecksum: SHA1: fdc2750bd1926c95aa8928f24f7d4fbc76da612f
+FileChecksum: SHA256: 8ebc2555c8735d7e1f3ae451f5f99e719124d70ba8cadff57fb7b5597456046a
+FileChecksum: MD5: e52fa8e8ffae632390c66d3ec483333d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._SDL2_rotozoom.c
+SPDXID: SPDXRef-item3179554
+FileChecksum: SHA1: 81255d1948b1fb6d09337c26854ad19d8b0b5f02
+FileChecksum: SHA256: 5c251796ad99d50712ec4b48aa82192d49fd18f12ec600d0c96c9505f0a0e4fa
+FileChecksum: MD5: 46e8914a0775ea86d2f48097bc92c21c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x65.html
+SPDXID: SPDXRef-item3179666
+FileChecksum: SHA1: 8e58f2c22c63141cf523533def9cf93dce250a45
+FileChecksum: SHA256: ec6210d2c9113e4cc3dc5b8f5af800e8f174ace884e20beef47ec02638e674dd
+FileChecksum: MD5: 1bc18e4a72417f42f169743f37d028b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._Info.plist
+SPDXID: SPDXRef-item3179558
+FileChecksum: SHA1: cf8e190fc56f992215efcacf59affa11794e515b
+FileChecksum: SHA256: e01dc098d2c7983a171d21703d8ca1fb00b438fac0f9b6f244e5976f05a95bb8
+FileChecksum: MD5: d177ddf967ae177c17071edc4bb4dcb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/tab_h.png
+SPDXID: SPDXRef-item3179713
+FileChecksum: SHA1: be353a1ff77f646ee0f22c3cc6e2d8bf6824d877
+FileChecksum: SHA256: e4b9bd9425bc87b33d6b1911e6398673939aa2f15ac505b9a1ab029b8452dd08
+FileChecksum: MD5: 38c6c507f0ab91770a0ed9a668a03551
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x62.html
+SPDXID: SPDXRef-item3179702
+FileChecksum: SHA1: c4281c0b822916294f89fd7838b7061dacabc146
+FileChecksum: SHA256: 8e16ef5bcfc5e04211bac790d4bf7d5b3df32c86ab0a2306d32da21a73ec6c85
+FileChecksum: MD5: 05d552889d2769f58bf8d7322d544cd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/sample24.bmp
+SPDXID: SPDXRef-item3179606
+FileChecksum: SHA1: c9845d88ec92c7e971224300d6bdb354a2fdf1c2
+FileChecksum: SHA256: 245640a0cd01668dcfd1ce9761929db890093718e2e63da904da7cde9bb47576
+FileChecksum: MD5: 966e8994f8691da2fdd505821fd102b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/classes.html
+SPDXID: SPDXRef-item3179696
+FileChecksum: SHA1: d09c9209de684bd0b63b2d69c17f98f2a84ee994
+FileChecksum: SHA256: d7676bad162266fc10541455abe8b413c13190b090011d07335321b63b978f46
+FileChecksum: MD5: 1e4b71b2078e85f6599418501d98c4a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/bdwn.png
+SPDXID: SPDXRef-item3179682
+FileChecksum: SHA1: 266ec69871aa74ed46448d3688332277114576c2
+FileChecksum: SHA256: 782b30d237bdbeddfde4aed01f007264cc116b2d4be2f398a7cb74ec7a5bc58b
+FileChecksum: MD5: 6249334b2e7fc28090f26abeb328eb78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/tab_a.png
+SPDXID: SPDXRef-item3179667
+FileChecksum: SHA1: f91f9b6053909cfde7e952ac86b837241d89c23d
+FileChecksum: SHA256: 5ddd37bdced843340e0679b6b4e7ed2fe318fd0cef76d160543722e0c3eac11f
+FileChecksum: MD5: 2a5327b5dfc494fd8688fd887991cdab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._SDL2_framerate.c
+SPDXID: SPDXRef-item3179553
+FileChecksum: SHA1: 81255d1948b1fb6d09337c26854ad19d8b0b5f02
+FileChecksum: SHA256: 5c251796ad99d50712ec4b48aa82192d49fd18f12ec600d0c96c9505f0a0e4fa
+FileChecksum: MD5: 46e8914a0775ea86d2f48097bc92c21c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/README
+SPDXID: SPDXRef-item3179601
+FileChecksum: SHA1: 201feb092879d726f07de6ec6f9ed68c04cfb76b
+FileChecksum: SHA256: 896a08e72a7047865e0fcdac717730253df935a96d21a59479e2938a92a99fb0
+FileChecksum: MD5: d83190433a151d1663ae68c06db02862
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx.xcodeproj/project.xcworkspace/xcuserdata/kesenheimer.xcuserdatad/UserInterfaceState.xcuserstate
+SPDXID: SPDXRef-item3179585
+FileChecksum: SHA1: 5297731d84dd57148739d94a2d0e0936d737a085
+FileChecksum: SHA256: c38d0a9c661250247e91b0e63a70dfb58977b4e2a7cc67de1f9ffec442c561be
+FileChecksum: MD5: 1656e8f647204ce4469b6872afba4cd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfxTests/._SDL2_gfxTests.m
+SPDXID: SPDXRef-item3179549
+FileChecksum: SHA1: 7508dd33dae1ddbc946f1d20c035e69b8bffbfb2
+FileChecksum: SHA256: d77e265e4e35c81d17761bfbc47c7fae3d45141b55fe63a407e4bf92d69ffbb3
+FileChecksum: MD5: 48b58d24292798958bef9b864a10580b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/open.png
+SPDXID: SPDXRef-item3179673
+FileChecksum: SHA1: 613c816a65952b73a2a697d33a3f5be1b45433e0
+FileChecksum: SHA256: a04665e9dd0ef5ef2c6ddf02b4a12472984485adb027fd12ae6c60ffd203b1a4
+FileChecksum: MD5: 468c228548b4a85dd54d544810bd0edd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x7a.html
+SPDXID: SPDXRef-item3179700
+FileChecksum: SHA1: b0e2478b71a8381eb432017eb373c5c264d1f5f7
+FileChecksum: SHA256: 3d929c92da043081a103873869d41379a57e6451701a9429541a55a7c1eca137
+FileChecksum: MD5: 630dfa7c24fd5fca6cef0f57b1e9130f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Screenshots/FilledCircle.jpg
+SPDXID: SPDXRef-item3179636
+FileChecksum: SHA1: d4e084bcda00a4846754b2ba08e25bc248b2948a
+FileChecksum: SHA256: 46cf895e966d4c833ee47e0103b8ce6acdae0e9368d32c7b49cc18ecb87bdec9
+FileChecksum: MD5: 8b493736d5cccb4eac0023065b745e23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/TestFramerate.vcxproj
+SPDXID: SPDXRef-item3179597
+FileChecksum: SHA1: 17d458f0837bb0e931f0c6c1e494d68d10815054
+FileChecksum: SHA256: 578e484c6df2def8ef77909431cbea84b76a130e52da2dde854c9d0ce4c8aa8b
+FileChecksum: MD5: 5d2356fe3f1506c8d843a3be57ad8c66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/sample3x3.bmp
+SPDXID: SPDXRef-item3179616
+FileChecksum: SHA1: 799639961b1e44f4bc5fbe0212418d0f3db043df
+FileChecksum: SHA256: 5dd0a99b6c40911bace8745d01c3830787116cc2621b2a79dcbeaa37e7c2919c
+FileChecksum: MD5: fd573d7b6dc1857b769d5f9842722947
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__framerate_8h.html
+SPDXID: SPDXRef-item3179720
+FileChecksum: SHA1: 94c217f8a482b39e7e3daa59d9e851f298aea57b
+FileChecksum: SHA256: acdadc820b734d71b6c6c6cbd49a1425d103141faff141cb7ebc92f1446e09e3
+FileChecksum: MD5: 79e102ed058ea6044f6e48d546215441
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._SDL2_imageFilter.c
+SPDXID: SPDXRef-item3179555
+FileChecksum: SHA1: 7508dd33dae1ddbc946f1d20c035e69b8bffbfb2
+FileChecksum: SHA256: d77e265e4e35c81d17761bfbc47c7fae3d45141b55fe63a407e4bf92d69ffbb3
+FileChecksum: MD5: 48b58d24292798958bef9b864a10580b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_type.html
+SPDXID: SPDXRef-item3179710
+FileChecksum: SHA1: 5e216982f7c97f143fefa9b07ce8ba578682399f
+FileChecksum: SHA256: c07890ecd117ad6b070d6b007ece5d26483d7efd945aee3bca9c56a8ba44a6f1
+FileChecksum: MD5: 9db7f74a3b88efaeb26842f28aa1d163
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html.doxyfile
+SPDXID: SPDXRef-item3179642
+FileChecksum: SHA1: 88e7329fbb9fe0b1fac00840c678b8f8ef7ff8d2
+FileChecksum: SHA256: b7e72112c40bf4ce8ed7d6d06a7cd3b64062ec5c87ef0b4df5ec03385ab166e8
+FileChecksum: MD5: 8143d3618a387fa4a71174ca3a19c57c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__framerate_8c.html
+SPDXID: SPDXRef-item3179699
+FileChecksum: SHA1: 8e950ed3bd84acd2d1755ab9c53673be5d4e88fb
+FileChecksum: SHA256: a265b1ef8f6a0f4118593a49469b60982f7349ad4531edf3b4762626784e23bf
+FileChecksum: MD5: f0726db2adc32ab240dcf29e7a6d1aa8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Makefile.am
+SPDXID: SPDXRef-item3179640
+FileChecksum: SHA1: b8aa9c1bd158236fdd14724f3de9f046ada56cf6
+FileChecksum: SHA256: 8466ed4e8f98ed2975e97c06425b2658a838d617907baf82e78a236e79252222
+FileChecksum: MD5: 9ae613eb55c9215f05c32ba2d1682593
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/sample8.bmp
+SPDXID: SPDXRef-item3179619
+FileChecksum: SHA1: d23499c0756b41213694eb38762e4504422db303
+FileChecksum: SHA256: 231f51f57d33e23784e1e0271ef0bd02f131fd53f6d76be9f9264e6a2ff08042
+FileChecksum: MD5: 2c40b2fb4fe4fdd10b7224359b7b4128
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x61.html
+SPDXID: SPDXRef-item3179649
+FileChecksum: SHA1: 28457da27d0570de764d3c3650a75ec3d72e285d
+FileChecksum: SHA256: 89091e729e7a1c04f3a3c159d247322a0496d19201390bf6e7424036a5a18162
+FileChecksum: MD5: cb620534e7e28da575f81c621ed57ce8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/._.DS_Store
+SPDXID: SPDXRef-item3179547
+FileChecksum: SHA1: 11050c2745c99ec8dacff161c2a0a22ffacb8b47
+FileChecksum: SHA256: 74694443e1068dda8cb89e61b380ea27bcf410293bb68b4680e9d1253da73d4d
+FileChecksum: MD5: f0d9d90674bab5908378533975df5a01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._SDL2_rotozoom.h
+SPDXID: SPDXRef-item3179551
+FileChecksum: SHA1: 7508dd33dae1ddbc946f1d20c035e69b8bffbfb2
+FileChecksum: SHA256: d77e265e4e35c81d17761bfbc47c7fae3d45141b55fe63a407e4bf92d69ffbb3
+FileChecksum: MD5: 48b58d24292798958bef9b864a10580b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/annotated.html
+SPDXID: SPDXRef-item3179688
+FileChecksum: SHA1: 84453c19948d2f4e2a8492c8d14ff0f8fc916f18
+FileChecksum: SHA256: e302546b6903f7ecca044cc8bca218f4cd4447575439842c3029b51350de6044
+FileChecksum: MD5: 162c53b9b1941aaef036f788077238ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/.DS_Store
+SPDXID: SPDXRef-item3179562
+FileChecksum: SHA1: c176a0d5a29d03c86861060910571503edc8adbd
+FileChecksum: SHA256: 1a0a7d488e0ce60e51277763308634cfcb2dbb91feb026d110cfe83fd1c7cc35
+FileChecksum: MD5: c4f7472262ff4f19dd167e24d1d0a1a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/closed.png
+SPDXID: SPDXRef-item3179692
+FileChecksum: SHA1: c6607712f771f03c6d9e440137dbcfd8a373572b
+FileChecksum: SHA256: c98c02adc57337f58c40aae15bbac05a3ccb364e5adb1d610a16452e92f17830
+FileChecksum: MD5: 3fa180a1c853204ee64235708fb8e162
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/tab_s.png
+SPDXID: SPDXRef-item3179716
+FileChecksum: SHA1: 324f6b03a43af75a7e1a732e7f3df52ccfdd8972
+FileChecksum: SHA256: 69f392daa28adc942272615ff2db16bcf084f01ec9fcc2f7f6a632b2bba8c468
+FileChecksum: MD5: d5a3e094c590d5113232b74cd902f58f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/struct_s_d_l2__gfx_bresenham_iterator.html
+SPDXID: SPDXRef-item3179715
+FileChecksum: SHA1: 8f7ab4b5d47d7dda14d0f3e54a781700f78eea82
+FileChecksum: SHA256: 628686115f9a953ae185eddb2472f793185da50b3936ade23c1d04151c1f98f3
+FileChecksum: MD5: 1bf0cf0cf31a9eec91281940f08a6c00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func.html
+SPDXID: SPDXRef-item3179659
+FileChecksum: SHA1: 00d12019bc9e8807d294e76f13f711ab7753abf1
+FileChecksum: SHA256: 2118ab378d1210455f830315da78837341a3ee43b92f8b78498ad6fada1924ae
+FileChecksum: MD5: 417cdc17b016a7cd00e05857554310e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/Makefile.in
+SPDXID: SPDXRef-item3179598
+FileChecksum: SHA1: 3d61a7aa21f44a985bfaf3a19c3d993f34f0a2d5
+FileChecksum: SHA256: 5f5fe1ffb9ce92ad3124619b1e72e5b95ccc57a8189b06288f1365156a7cb700
+FileChecksum: MD5: ec9ce2f0edf6b34d5cddf881c93eeccc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_gfx.pc.in
+SPDXID: SPDXRef-item3179523
+FileChecksum: SHA1: 0b123c06d5979694f9a496cd68c9417aaff161dc
+FileChecksum: SHA256: 7a2286cbca845149d0489522a2170ed2ca443ccffb92e9043b6dc9e75f6092a3
+FileChecksum: MD5: c67d8a039e357963be85e8a7a20f377c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+SPDXID: SPDXRef-item3179582
+FileChecksum: SHA1: 1146cf2cb568f576d2651ff52a9a8fb0c4bc723a
+FileChecksum: SHA256: f18374ac51f613094a2bf447bb9f7aed40fc9382c1d88eab955c893d0ee2e842
+FileChecksum: MD5: 1871e2f319137cf9c92aeec201ad57c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/TestRotozoom.vcxproj
+SPDXID: SPDXRef-item3179618
+FileChecksum: SHA1: dee3b0a4c520283d39bd7e6a7059f1b26a014693
+FileChecksum: SHA256: dbec5d989d7c38a591b63d2bd2feb98013613179384385cb85f487ab40272bc7
+FileChecksum: MD5: 46b6d08c04077f88c0a12b50e7fee5d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx.xcodeproj/project.pbxproj
+SPDXID: SPDXRef-item3179586
+FileChecksum: SHA1: 9528e63496cfbcdba37f5f15a68785e9996c28c2
+FileChecksum: SHA256: ef4483e79b647ccd73787f1ce4f2b1bf76272becf6115469acbc82538f0a4796
+FileChecksum: MD5: f792e21f604aa5046ee8fffaaa7b3533
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x76.html
+SPDXID: SPDXRef-item3179683
+FileChecksum: SHA1: 0e364761e486118b303e201ad4aa39b5272478f1
+FileChecksum: SHA256: 747048a151966e7bf8550d38e9dd02402bfb54201693a003bd8259dc35472896
+FileChecksum: MD5: c204e8b85efaaa827b88078017596b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/TestImageFilter.vcxproj
+SPDXID: SPDXRef-item3179604
+FileChecksum: SHA1: e19d68dcf13371c59d6a93c407c5f4d15e149144
+FileChecksum: SHA256: 4d223d3a4d74b821fb21683ca2ad9bd2dcded443fb8bd9ea758a54bdb05bce8d
+FileChecksum: MD5: c0c38d67564bc0d57b71e0457a1d2c8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/Info.plist
+SPDXID: SPDXRef-item3179577
+FileChecksum: SHA1: f7181ab7c5cc5767fd8c82ffe124fbeb8a1ed472
+FileChecksum: SHA256: a4930317e268986ef06f8b1f4271baf57a3cd590301d3b010a095291b6ffb333
+FileChecksum: MD5: 0978e1cf14ba3c15d2d42413450a03c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright © 2015 Matthias Kesenheimer. All rights reserved. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x68.html
+SPDXID: SPDXRef-item3179717
+FileChecksum: SHA1: 09e35bd4fb4bf4de0b1a2b2486b27280c8a6d23d
+FileChecksum: SHA256: 69d62152ed4e767f6d383310b636252b68ce55a37fb54942e21f7825143b69c9
+FileChecksum: MD5: 4066b7b127610c3815d29311b2fcb5da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__gfx_primitives_8h.html
+SPDXID: SPDXRef-item3179668
+FileChecksum: SHA1: 258dc25ef6c213cc4720162fe014a18870032dad
+FileChecksum: SHA256: 455bc5ca678c887cffcf3189bd5e33b9e5181f646482fc9ca175c427ac5f1da0
+FileChecksum: MD5: 07f9a7f0810db8bd3614d93decf03f7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__rotozoom_8h.html
+SPDXID: SPDXRef-item3179698
+FileChecksum: SHA1: d1c572a06f124f5b3728deeef39b7a6541770aae
+FileChecksum: SHA256: f90a32fd5810dfeffeb711bb7dbd5234e2925a990dba599c2a1eb1a213d36a01
+FileChecksum: MD5: fd03b076ddec2ec2e6f5cbf72d18520e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/nav_f.png
+SPDXID: SPDXRef-item3179644
+FileChecksum: SHA1: 09487f92d803cec5e616466c974f4cb9babd3819
+FileChecksum: SHA256: 4bdc6a72666e1b300fdfc5ecf102714c9fd57df76fdf47139f8dbf8ae5986364
+FileChecksum: MD5: 4e4d8be23c6d6bbe0184fd891ff59e00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__image_filter_8c.html
+SPDXID: SPDXRef-item3179663
+FileChecksum: SHA1: 3945a4aac8ac91469d25c8e79d05efb15a6d1411
+FileChecksum: SHA256: 4a791a9322118ecad8d7e42acc0b8f11c694110295f10702221cb6b2cce38dbd
+FileChecksum: MD5: e0218092ae7b0def5ad6990491e68460
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_gfx.vcxproj
+SPDXID: SPDXRef-item3179628
+FileChecksum: SHA1: 107f569481b4d7ef652367283d248b59592f5aad
+FileChecksum: SHA256: cfa4886e5286bd4ee7bc737ce7c1230a60ef2f4ef0585548e5d1d8a9cf6e02f8
+FileChecksum: MD5: 5c723db1516030a57830a0b40f3d376a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfxTests/SDL2_gfxTests.m
+SPDXID: SPDXRef-item3179566
+FileChecksum: SHA1: 19b9f608452667eeba4a3bdff41956de532b943e
+FileChecksum: SHA256: ddd9ef623502e8b38dd721f6f5055176947effa20fd3cb09098ba2450ce03a59
+FileChecksum: MD5: 2c4a7297359ea1fda9411947bd5ac835
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright © 2015 Matthias Kesenheimer. All rights reserved. </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_r_e_a_d_m_e.html
+SPDXID: SPDXRef-item3179709
+FileChecksum: SHA1: 607e23315e400ef502c4efc70a499132ab5d609e
+FileChecksum: SHA256: 23e1d87bb4b6bd49f3ea8cf59ddb47f8774bc951d030ea006db54a647da2f64e
+FileChecksum: MD5: 70c4492494237ed51cdc1341c3687839
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/acinclude/sdl2.m4
+SPDXID: SPDXRef-item3179526
+FileChecksum: SHA1: 059bae35d1ae7429fbfc062bfaa91d22fdc219b6
+FileChecksum: SHA256: fc3e11c8f94f235f0ca8fdc1c2f10ee6d39fcb6dbc8be1bae3ae2c3be59dcdf0
+FileChecksum: MD5: 4529181f3b4571091a320d560c7044ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/NEWS
+SPDXID: SPDXRef-item3179536
+FileChecksum: SHA1: 1e60ef04ff46796a1001859279ffb773fbf9b6b0
+FileChecksum: SHA256: 0b562cc9c14cd7d976fc3c667087b67ccc8dce2e57a98131fa0d1bb8cba65150
+FileChecksum: MD5: 407471d910de239b35f3b5a08f1b3958
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x6c.html
+SPDXID: SPDXRef-item3179718
+FileChecksum: SHA1: afd795afbd142a400b436d55f5746fed26a1ec91
+FileChecksum: SHA256: 106d5dd47575b8590704240cf60409005e42cb69c7fb924490e10f5243e2cfd8
+FileChecksum: MD5: 823462d6c57e9d4ca90852479a4d5e6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__gfx_primitives__font_8h.html
+SPDXID: SPDXRef-item3179701
+FileChecksum: SHA1: 8fdc5ebb4c5126c5f6deca2f23ed9b121020adaa
+FileChecksum: SHA256: 0e4ff755143a7a32664beb9ebfdce096598307fd1fe98a7e669c68ac733ea90b
+FileChecksum: MD5: 70870b4a36de9256a368f4257af2e2a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x63.html
+SPDXID: SPDXRef-item3179677
+FileChecksum: SHA1: 052bf3b3595fded029f6284ef1e296fbddae5c3e
+FileChecksum: SHA256: ab6335fa17ab40bc7cc430ea1975dd21f89e76bb2480de5097c309470ce4c2fc
+FileChecksum: MD5: f7c09325e7a57fb4a7d9b21ed1e862ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x7a.html
+SPDXID: SPDXRef-item3179653
+FileChecksum: SHA1: 3b23d1a8664898a1853b9e99b4ca2ec8bf3ebc73
+FileChecksum: SHA256: 831dab0fabecbff9b47c6ffb0427cf71a9c6731c1b141e8d2438dfb9ef489d82
+FileChecksum: MD5: dc581581f154f737ec0aca5826e158db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x76.html
+SPDXID: SPDXRef-item3179654
+FileChecksum: SHA1: 0553f2719190044129bf31b08e81a9148e756b0a
+FileChecksum: SHA256: ce082fad47f04cfa1c3f373034d3090b20aebbb96e6e53e7947f7e192c285a73
+FileChecksum: MD5: 18b50d63d55a526e51f7c2fc9d65585a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x74.html
+SPDXID: SPDXRef-item3179671
+FileChecksum: SHA1: a8373761417b8f51d46da56e4a1e7d54bc63ed62
+FileChecksum: SHA256: 42ce96e17a36c774cb6543958fdb768a5b1fc6f89ae6ab8a7c32307d0b06b04b
+FileChecksum: MD5: b6608909a50d274a955ab05e9e91a5af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/autogen.sh
+SPDXID: SPDXRef-item3179623
+FileChecksum: SHA1: b544b64e9f71226951f081fec93277d88a0437e1
+FileChecksum: SHA256: 3a66e3ee377aac9a53fb55bcb2f9b1d5e4bed33c645c985cb5b8c91ca9485bde
+FileChecksum: MD5: ff43d2bc0581d3f85f068e272fe8490d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/functions_vars.html
+SPDXID: SPDXRef-item3179665
+FileChecksum: SHA1: b031fb0d3ceb0bff3f945057f88d0a3aedb834e4
+FileChecksum: SHA256: 18941ca4d4c4b9e39175539cd6a584e821d79af6fae77608c76bbb1cc6399f3b
+FileChecksum: MD5: 247a7ebe2af983bcb175e78064e7f156
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/tab_b.png
+SPDXID: SPDXRef-item3179675
+FileChecksum: SHA1: 0e38f362aa804ce5e92add89f05b17fbc5f15d97
+FileChecksum: SHA256: 901ae15db25905dca7a17b81c6d51869fd12ea569fc4b072d217786b4b4d73bd
+FileChecksum: MD5: c7cd16cfabe8a14b9848f813df53fc2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/configure.in
+SPDXID: SPDXRef-item3179539
+FileChecksum: SHA1: ab71975f7514ec3e2af9d9f3ada4be3ec60b45f6
+FileChecksum: SHA256: b1424b8271eb5b870f43e6e45b6cf5a03158a4839307ffade0580ac9ac309078
+FileChecksum: MD5: 98afeeace427af4803ecabc50825d2d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x61.html
+SPDXID: SPDXRef-item3179657
+FileChecksum: SHA1: 5c1cc654605bde89a4f4ebba8a44858c635d1cdd
+FileChecksum: SHA256: 12bf2e0b6bf0b1efe257f09b3832f1d346a3f851c27d2001fa4f8cd03b7b5713
+FileChecksum: MD5: c2df3332756242ca532153ad531ae2b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx/SDL2_gfxPrimitives_font.h
+SPDXID: SPDXRef-item3179570
+FileChecksum: SHA1: 5c09b9532243dd863452afa542b2bf19f416be49
+FileChecksum: SHA256: 563802eb958d1f5292c604388195aac033b10ffcec399f6dedf86b1cfb6690d8
+FileChecksum: MD5: 72f2b782739b90ff08f5dde7575d70bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> (c) A. Schiffler 2012 </text>
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x67.html
+SPDXID: SPDXRef-item3179690
+FileChecksum: SHA1: 049a0dd7274fd5a1b87186fda64bdd5f8a8f97d4
+FileChecksum: SHA256: 4a450e2218e72862e1d3e6de70435c598b4868230154fd083c0f00f3c58aee30
+FileChecksum: MD5: 43476fa9999aecd8668de63294fedf0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/struct_f_p_smanager.html
+SPDXID: SPDXRef-item3179669
+FileChecksum: SHA1: ab3e5826549fe0a1c02dd9d3c6fa3aadd3509581
+FileChecksum: SHA256: 4a3cf93cb0efdbf2c227413ab3e96d1b1ccc9b68b1ba311ff9a90176368f9306
+FileChecksum: MD5: 0290aba7bf924688623d94145313b909
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/._.DS_Store
+SPDXID: SPDXRef-item3179545
+FileChecksum: SHA1: 11050c2745c99ec8dacff161c2a0a22ffacb8b47
+FileChecksum: SHA256: 74694443e1068dda8cb89e61b380ea27bcf410293bb68b4680e9d1253da73d4d
+FileChecksum: MD5: f0d9d90674bab5908378533975df5a01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/SDL2_gfx.sln
+SPDXID: SPDXRef-item3179634
+FileChecksum: SHA1: a1889b12f3077aeef78fc6515a32707a9e44b248
+FileChecksum: SHA256: 09de5cd3c020599ab6e3836b98960e63c185827335dc06632a318c1567e0eb04
+FileChecksum: MD5: 1e1a9d2493512db80a397499111e813c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x68.html
+SPDXID: SPDXRef-item3179680
+FileChecksum: SHA1: 1356aae8054c1f1aaab84ebde447fb5d83acdb76
+FileChecksum: SHA256: 9fc99dcf5b68e43ac7edf8a207ec0b9261d8ae7bd01aca7492d4c5b73e32efd5
+FileChecksum: MD5: 5841d4de64ce43c9b25c8e0dfc24656c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/sample2x2.bmp
+SPDXID: SPDXRef-item3179600
+FileChecksum: SHA1: 0e231bb06698a574066042a1a45fbc9ac3ebd2ce
+FileChecksum: SHA256: 7faf7d986e8e15f98196a8fe4e8c41af7ad73e3ad0efdde26dc547afb76dbaf2
+FileChecksum: MD5: 586c5097b010772d4d15c2c34c43e6d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x72.html
+SPDXID: SPDXRef-item3179679
+FileChecksum: SHA1: f6fff2df884f59f15ee550fbcc96c9ba381661a2
+FileChecksum: SHA256: 749ecfa24c5dc494d47658de2a385b63ddafbc9be143de7c39da2ad859109307
+FileChecksum: MD5: bc60ede6872fed29c72014a324284eec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._SDL2_gfxPrimitives_font.h
+SPDXID: SPDXRef-item3179552
+FileChecksum: SHA1: 81255d1948b1fb6d09337c26854ad19d8b0b5f02
+FileChecksum: SHA256: 5c251796ad99d50712ec4b48aa82192d49fd18f12ec600d0c96c9505f0a0e4fa
+FileChecksum: MD5: 46e8914a0775ea86d2f48097bc92c21c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/_s_d_l2__rotozoom_8c.html
+SPDXID: SPDXRef-item3179661
+FileChecksum: SHA1: e211e7fe42e268b0758f5d9d923a1f8c1f4bcd05
+FileChecksum: SHA256: 561654ab3ce3d05ab62873d270542b43b527c0e59492c39ae0ebb91a97b9fd68
+FileChecksum: MD5: c8dd57d9851c5acac07b9a58059863d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x73.html
+SPDXID: SPDXRef-item3179664
+FileChecksum: SHA1: 8c26dd9081695cd411d20c2da0fa94a9ffba309d
+FileChecksum: SHA256: a334cfe4008942629d85e3cedbe2e3a09c17b20e0e6226f83d45b7a5c4de4cbf
+FileChecksum: MD5: 7fff34c866a95bd984dff863e5e8e96d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/sample16x16.bmp
+SPDXID: SPDXRef-item3179607
+FileChecksum: SHA1: dcc9d49f65cd1c4048888ebb7c29dfa2d628f2bb
+FileChecksum: SHA256: b1d1fcc7d6b57478bd4b03281b623764b9eec7143db07830c16543bfb1d97b6b
+FileChecksum: MD5: b1f13f345786f84e1d37c737a12142a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x66.html
+SPDXID: SPDXRef-item3179687
+FileChecksum: SHA1: 09b60583414a19840bc08ef80d8a57f6ece54f73
+FileChecksum: SHA256: 0ff67d77a9d90456169c9b8df831fd54bfb051a4ea168db3d1bb5ead63046f6d
+FileChecksum: MD5: 99eba1fe7d3db1e3cd1fc4e564d395ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x73.html
+SPDXID: SPDXRef-item3179685
+FileChecksum: SHA1: 5081e61bc2f3dba99c18907c865142fcfcd9af59
+FileChecksum: SHA256: 5c0f4533ca2ec49765e7e69c0c2a1caaee0cc00af8afe99e8547455e7d118d93
+FileChecksum: MD5: 2e55b91feae945be394523c7b150b921
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/index.html
+SPDXID: SPDXRef-item3179647
+FileChecksum: SHA1: b218a08888c808c2f0c280e8c3afb0eee586fea3
+FileChecksum: SHA256: eb41dc4d3bba99e51fa316f877265b11c53fc93a7b9cec1be43cef7e88304f64
+FileChecksum: MD5: 7ae21514c99c0166267e705cb828d298
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx.xcodeproj/xcuserdata/kesenheimer.xcuserdatad/xcschemes/xcschememanagement.plist
+SPDXID: SPDXRef-item3179590
+FileChecksum: SHA1: e10b0450e4611cf86b1e5a3f4afc84d9c772c607
+FileChecksum: SHA256: a79e6db259b66dbc10cf7926641cc78c07449b6c603ae6ecbadf7fffe13298d5
+FileChecksum: MD5: 328f3dab0b1d8f93df9342f6447529bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/__MACOSX/XCode/SDL2_gfx/SDL2_gfx/._SDL2_framerate.h
+SPDXID: SPDXRef-item3179560
+FileChecksum: SHA1: 7508dd33dae1ddbc946f1d20c035e69b8bffbfb2
+FileChecksum: SHA256: d77e265e4e35c81d17761bfbc47c7fae3d45141b55fe63a407e4bf92d69ffbb3
+FileChecksum: MD5: 48b58d24292798958bef9b864a10580b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x6d.html
+SPDXID: SPDXRef-item3179708
+FileChecksum: SHA1: 80d84cbe42f2f43232e5185ad16ebb5fcc817893
+FileChecksum: SHA256: 51ca433b91bfc5a110b4c625210a9c49fc51c9521ef7b00c1c2f8eb8a45da702
+FileChecksum: MD5: 1fe201b44ffdc7e2c2ddf12b215b6d4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x62.html
+SPDXID: SPDXRef-item3179672
+FileChecksum: SHA1: f55c3e9f723561544c7ccd4ad18e3385cfa8c953
+FileChecksum: SHA256: 24764d9d5889007e256025c494ca89a4c0a28069dd6db0e96ca52bb0480ca902
+FileChecksum: MD5: e83c0e7ae7f87587c7df92960ed361c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x72.html
+SPDXID: SPDXRef-item3179674
+FileChecksum: SHA1: 3793f272ca3aaf13c3561487e4f811a6d215667e
+FileChecksum: SHA256: 12940d61160c7e5b6d0c7ed01003aee24587abd5d68191de39a7b8dd4ab7bb8e
+FileChecksum: MD5: d60a50a537b550d0d1dab12d5915138d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x70.html
+SPDXID: SPDXRef-item3179705
+FileChecksum: SHA1: a37963527f49bac4c919cb79e6e911adacba9b18
+FileChecksum: SHA256: 5741a1655b3f49e8747408361a8d214b979e89c38e7679b03623da8b9d4b8fe2
+FileChecksum: MD5: 8b239e3d02d3ab191a083c5665da344d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_func_0x70.html
+SPDXID: SPDXRef-item3179695
+FileChecksum: SHA1: 3bcf34c94111e5bebb93a3e924f44004ad2552bc
+FileChecksum: SHA256: e049a49327b42adc2e3b5bee1194254577f8401f1558572159c39b20c9f7530c
+FileChecksum: MD5: 7ae9d8b1dac47281bca6357a4a80ba54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/test/sample24-box.bmp
+SPDXID: SPDXRef-item3179615
+FileChecksum: SHA1: c7fad1be6f0b746e748280b8a81ac11ef4c2c8e0
+FileChecksum: SHA256: 591cc5a7997fd27cbc1bcf98a83ce163d5986374583a9900ef4cd84733951de3
+FileChecksum: MD5: 680dad84dd105b52e6f4f124c2907eba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/structt_color_y.html
+SPDXID: SPDXRef-item3179670
+FileChecksum: SHA1: acbcf534aa093b96ad9c372e8e1329227cb4937f
+FileChecksum: SHA256: 624415c4322642ecd64a88f7ade4773321167d5d1a351b7541cd275ce22d0d16
+FileChecksum: MD5: d38592acb186b4b35cb4f7cce7e299c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/tabs.css
+SPDXID: SPDXRef-item3179711
+FileChecksum: SHA1: 7eff4b7ece04a0b8a4ad9be6dfe9f9dd3292f457
+FileChecksum: SHA256: 9a8f6c574cb1bbf474ff6bc90f795cc992d56ba4c2340bb4ef235e09853c94b4
+FileChecksum: MD5: cf9a4ad5a8b52323af8cc15e96fb2e93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/Docs/html/globals_0x65.html
+SPDXID: SPDXRef-item3179706
+FileChecksum: SHA1: 072df49c1140287b3078ad1f2ca8628583600132
+FileChecksum: SHA256: ef0154b9de748408df612d59679664d99054ed8b8abbc7db2471b3fe6638f5eb
+FileChecksum: MD5: e9e87ac5c81973cd38fef77c5ca666ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: SDL2_gfx-1.0.4.tar.gz/SDL2_gfx-1.0.4.tar/SDL2_gfx-1.0.4/XCode.zip/XCode/SDL2_gfx/SDL2_gfx.xcodeproj/xcuserdata/kesenheimer.xcuserdatad/xcschemes/SDL2_gfx.xcscheme
+SPDXID: SPDXRef-item3179591
+FileChecksum: SHA1: fb939da10996d4319c1beb2f1dcf0efa27efa370
+FileChecksum: SHA256: 8c4e2d5fe718da8163a85a6cb21c3c3ba4ba74beed967b1a9ef98a3fc55af998
+FileChecksum: MD5: 66a1b9600077dea706aefef47f33f705
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+LicenseID: LicenseRef-LicenseRef-scancode-free-unknown
+LicenseName: Free unknown license detected but not recognized
+ExtractedText: <text> License by Scancode. </text>
+
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+LicenseID: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseName: GPL-2.0-or-later WITH Autoconf-exception
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+                       Version 2, June 1991
+
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The licenses for most software are designed to take away your
+freedom to share and change it.  By contrast, the GNU General Public
+License is intended to guarantee your freedom to share and change free
+software--to make sure the software is free for all its users.  This
+General Public License applies to most of the Free Software
+Foundation's software and to any other program whose authors commit to
+using it.  (Some other Free Software Foundation software is covered by
+the GNU Lesser General Public License instead.)  You can apply it to
+your programs, too.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+this service if you wish), that you receive source code or can get it
+if you want it, that you can change the software or use pieces of it
+in new free programs; and that you know you can do these things.
+
+  To protect your rights, we need to make restrictions that forbid
+anyone to deny you these rights or to ask you to surrender the rights.
+These restrictions translate to certain responsibilities for you if you
+distribute copies of the software, or if you modify it.
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must give the recipients all the rights that
+you have.  You must make sure that they, too, receive or can get the
+source code.  And you must show them these terms so they know their
+rights.
+
+  We protect your rights with two steps: (1) copyright the software, and
+(2) offer you this license which gives you legal permission to copy,
+distribute and/or modify the software.
+
+  Also, for each author's protection and ours, we want to make certain
+that everyone understands that there is no warranty for this free
+software.  If the software is modified by someone else and passed on, we
+want its recipients to know that what they have is not the original, so
+that any problems introduced by others will not reflect on the original
+authors' reputations.
+
+  Finally, any free program is threatened constantly by software
+patents.  We wish to avoid the danger that redistributors of a free
+program will individually obtain patent licenses, in effect making the
+program proprietary.  To prevent this, we have made it clear that any
+patent must be licensed for everyone's free use or not licensed at all.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+                    GNU GENERAL PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. This License applies to any program or other work which contains
+a notice placed by the copyright holder saying it may be distributed
+under the terms of this General Public License.  The "Program", below,
+refers to any such program or work, and a "work based on the Program"
+means either the Program or any derivative work under copyright law:
+that is to say, a work containing the Program or a portion of it,
+either verbatim or with modifications and/or translated into another
+language.  (Hereinafter, translation is included without limitation in
+the term "modification".)  Each licensee is addressed as "you".
+
+Activities other than copying, distribution and modification are not
+covered by this License; they are outside its scope.  The act of
+running the Program is not restricted, and the output from the Program
+is covered only if its contents constitute a work based on the
+Program (independent of having been made by running the Program).
+Whether that is true depends on what the Program does.
+
+  1. You may copy and distribute verbatim copies of the Program's
+source code as you receive it, in any medium, provided that you
+conspicuously and appropriately publish on each copy an appropriate
+copyright notice and disclaimer of warranty; keep intact all the
+notices that refer to this License and to the absence of any warranty;
+and give any other recipients of the Program a copy of this License
+along with the Program.
+
+You may charge a fee for the physical act of transferring a copy, and
+you may at your option offer warranty protection in exchange for a fee.
+
+  2. You may modify your copy or copies of the Program or any portion
+of it, thus forming a work based on the Program, and copy and
+distribute such modifications or work under the terms of Section 1
+above, provided that you also meet all of these conditions:
+
+    a) You must cause the modified files to carry prominent notices
+    stating that you changed the files and the date of any change.
+
+    b) You must cause any work that you distribute or publish, that in
+    whole or in part contains or is derived from the Program or any
+    part thereof, to be licensed as a whole at no charge to all third
+    parties under the terms of this License.
+
+    c) If the modified program normally reads commands interactively
+    when run, you must cause it, when started running for such
+    interactive use in the most ordinary way, to print or display an
+    announcement including an appropriate copyright notice and a
+    notice that there is no warranty (or else, saying that you provide
+    a warranty) and that users may redistribute the program under
+    these conditions, and telling the user how to view a copy of this
+    License.  (Exception: if the Program itself is interactive but
+    does not normally print such an announcement, your work based on
+    the Program is not required to print an announcement.)
+
+These requirements apply to the modified work as a whole.  If
+identifiable sections of that work are not derived from the Program,
+and can be reasonably considered independent and separate works in
+themselves, then this License, and its terms, do not apply to those
+sections when you distribute them as separate works.  But when you
+distribute the same sections as part of a whole which is a work based
+on the Program, the distribution of the whole must be on the terms of
+this License, whose permissions for other licensees extend to the
+entire whole, and thus to each and every part regardless of who wrote it.
+
+Thus, it is not the intent of this section to claim rights or contest
+your rights to work written entirely by you; rather, the intent is to
+exercise the right to control the distribution of derivative or
+collective works based on the Program.
+
+In addition, mere aggregation of another work not based on the Program
+with the Program (or with a work based on the Program) on a volume of
+a storage or distribution medium does not bring the other work under
+the scope of this License.
+
+  3. You may copy and distribute the Program (or a work based on it,
+under Section 2) in object code or executable form under the terms of
+Sections 1 and 2 above provided that you also do one of the following:
+
+    a) Accompany it with the complete corresponding machine-readable
+    source code, which must be distributed under the terms of Sections
+    1 and 2 above on a medium customarily used for software interchange; or,
+
+    b) Accompany it with a written offer, valid for at least three
+    years, to give any third party, for a charge no more than your
+    cost of physically performing source distribution, a complete
+    machine-readable copy of the corresponding source code, to be
+    distributed under the terms of Sections 1 and 2 above on a medium
+    customarily used for software interchange; or,
+
+    c) Accompany it with the information you received as to the offer
+    to distribute corresponding source code.  (This alternative is
+    allowed only for noncommercial distribution and only if you
+    received the program in object code or executable form with such
+    an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for
+making modifications to it.  For an executable work, complete source
+code means all the source code for all modules it contains, plus any
+associated interface definition files, plus the scripts used to
+control compilation and installation of the executable.  However, as a
+special exception, the source code distributed need not include
+anything that is normally distributed (in either source or binary
+form) with the major components (compiler, kernel, and so on) of the
+operating system on which the executable runs, unless that component
+itself accompanies the executable.
+
+If distribution of executable or object code is made by offering
+access to copy from a designated place, then offering equivalent
+access to copy the source code from the same place counts as
+distribution of the source code, even though third parties are not
+compelled to copy the source along with the object code.
+
+  4. You may not copy, modify, sublicense, or distribute the Program
+except as expressly provided under this License.  Any attempt
+otherwise to copy, modify, sublicense or distribute the Program is
+void, and will automatically terminate your rights under this License.
+However, parties who have received copies, or rights, from you under
+this License will not have their licenses terminated so long as such
+parties remain in full compliance.
+
+  5. You are not required to accept this License, since you have not
+signed it.  However, nothing else grants you permission to modify or
+distribute the Program or its derivative works.  These actions are
+prohibited by law if you do not accept this License.  Therefore, by
+modifying or distributing the Program (or any work based on the
+Program), you indicate your acceptance of this License to do so, and
+all its terms and conditions for copying, distributing or modifying
+the Program or works based on it.
+
+  6. Each time you redistribute the Program (or any work based on the
+Program), the recipient automatically receives a license from the
+original licensor to copy, distribute or modify the Program subject to
+these terms and conditions.  You may not impose any further
+restrictions on the recipients' exercise of the rights granted herein.
+You are not responsible for enforcing compliance by third parties to
+this License.
+
+  7. If, as a consequence of a court judgment or allegation of patent
+infringement or for any other reason (not limited to patent issues),
+conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot
+distribute so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you
+may not distribute the Program at all.  For example, if a patent
+license would not permit royalty-free redistribution of the Program by
+all those who receive copies directly or indirectly through you, then
+the only way you could satisfy both it and this License would be to
+refrain entirely from distribution of the Program.
+
+If any portion of this section is held invalid or unenforceable under
+any particular circumstance, the balance of the section is intended to
+apply and the section as a whole is intended to apply in other
+circumstances.
+
+It is not the purpose of this section to induce you to infringe any
+patents or other property right claims or to contest validity of any
+such claims; this section has the sole purpose of protecting the
+integrity of the free software distribution system, which is
+implemented by public license practices.  Many people have made
+generous contributions to the wide range of software distributed
+through that system in reliance on consistent application of that
+system; it is up to the author/donor to decide if he or she is willing
+to distribute software through any other system and a licensee cannot
+impose that choice.
+
+This section is intended to make thoroughly clear what is believed to
+be a consequence of the rest of this License.
+
+  8. If the distribution and/or use of the Program is restricted in
+certain countries either by patents or by copyrighted interfaces, the
+original copyright holder who places the Program under this License
+may add an explicit geographical distribution limitation excluding
+those countries, so that distribution is permitted only in or among
+countries not thus excluded.  In such case, this License incorporates
+the limitation as if written in the body of this License.
+
+  9. The Free Software Foundation may publish revised and/or new versions
+of the General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+Each version is given a distinguishing version number.  If the Program
+specifies a version number of this License which applies to it and "any
+later version", you have the option of following the terms and conditions
+either of that version or of any later version published by the Free
+Software Foundation.  If the Program does not specify a version number of
+this License, you may choose any version ever published by the Free Software
+Foundation.
+
+  10. If you wish to incorporate parts of the Program into other free
+programs whose distribution conditions are different, write to the author
+to ask for permission.  For software which is copyrighted by the Free
+Software Foundation, write to the Free Software Foundation; we sometimes
+make exceptions for this.  Our decision will be guided by the two goals
+of preserving the free status of all derivatives of our free software and
+of promoting the sharing and reuse of software generally.
+
+                            NO WARRANTY
+
+  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
+TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
+PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+REPAIR OR CORRECTION.
+
+  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+                     END OF TERMS AND CONDITIONS
+
+            How to Apply These Terms to Your New Programs
+
+  If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these terms.
+
+  To do so, attach the following notices to the program.  It is safest
+to attach them to the start of each source file to most effectively
+convey the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this
+when it starts in an interactive mode:
+
+    Gnomovision version 69, Copyright (C) year name of author
+    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.  Of course, the commands you use may
+be called something other than `show w' and `show c'; they could even be
+mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your
+school, if any, to sign a "copyright disclaimer" for the program, if
+necessary.  Here is a sample; alter the names:
+
+  Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+  `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+  <signature of Ty Coon>, 1 April 1989
+  Ty Coon, President of Vice
+
+This General Public License does not permit incorporating your program into
+proprietary programs.  If your program is a subroutine library, you may
+consider it more useful to permit linking proprietary applications with the
+library.  If this is what you want to do, use the GNU Lesser General
+Public License instead of this License.
+
+As a special exception to the GNU General Public License, if you
+distribute this file as part of a program that contains a
+configuration script generated by Autoconf, you may include it under
+the same distribution terms that you use for the rest of that program. </text>
+
+LicenseID: LicenseRef-X11
+LicenseName: X11 License
+ExtractedText: <text> X11 License
+
+Copyright (C) 1996 X Consortium
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
+
+X Window System is a trademark of X Consortium, Inc.
+ </text>
+
+LicenseID: LicenseRef-Dual-license
+LicenseName: Dual-license
+ExtractedText: <text> Multi-licensing is the practice of distributing software under two or more different sets of terms and conditions. This may mean multiple different software licenses or sets of licenses. Prefixes may be used to indicate the number of licenses used, e.g. dual-licensed for software licensed under two different licenses.
+When software is multi-licensed, recipients can choose which terms under which they want to use or distribute the software. The distributor may or may not apply a fee to either option. The two usual motivations for multi-licensing are license compatibility and market segregation based business models. </text>
+
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
+
+LicenseID: LicenseRef-FSFUL
+LicenseName: FSF Unlimited License
+ExtractedText: <text> Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+
+This configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.
+ </text>
+
+LicenseID: LicenseRef-GPL-1.0-or-later
+LicenseName: GNU General Public License v1.0 or later
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+
+Version 1, February 1989
+
+Copyright (C) 1989 Free Software Foundation, Inc. 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The license agreements of most software companies try to keep users at the mercy of those companies. By contrast, our General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. The General Public License applies to the Free Software Foundation's software and to any other program whose authors commit to using it. You can use it for your programs, too.
+
+When we speak of free software, we are referring to freedom, not price. Specifically, the General Public License is designed to make sure that you have the freedom to give away or sell copies of free software, that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of a such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must tell them their rights.
+
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+GNU GENERAL PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+   0. This License Agreement applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any work containing the Program or a portion of it, either verbatim or with modifications. Each licensee is addressed as "you".
+
+   1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this General Public License and to the absence of any warranty; and give any other recipients of the Program a copy of this General Public License along with the Program. You may charge a fee for the physical act of transferring a copy.
+
+   2. You may modify your copy or copies of the Program or any portion of it, and copy and distribute such modifications under the terms of Paragraph 1 above, provided that you also do the following:
+
+      a) cause the modified files to carry prominent notices stating that you changed the files and the date of any change; and
+
+      b) cause the whole of any work that you distribute or publish, that in whole or in part contains the Program or any part thereof, either with or without modifications, to be licensed at no charge to all third parties under the terms of this General Public License (except that you may choose to grant warranty protection to some or all third parties, at your option).
+
+      c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the simplest and most usual way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this General Public License.
+
+      d) You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+
+   Mere aggregation of another independent work with the Program (or its derivative) on a volume of a storage or distribution medium does not bring the other work under the scope of these terms.
+
+   3. You may copy and distribute the Program (or a portion or derivative of it, under Paragraph 2) in object code or executable form under the terms of Paragraphs 1 and 2 above provided that you also do one of the following:
+
+      a) accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Paragraphs 1 and 2 above; or,
+
+      b) accompany it with a written offer, valid for at least three years, to give any third party free (except for a nominal charge for the cost of distribution) a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Paragraphs 1 and 2 above; or,
+
+      c) accompany it with the information you received as to where the corresponding source code may be obtained. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form alone.)
+
+   Source code for a work means the preferred form of the work for making modifications to it. For an executable file, complete source code means all the source code for all modules it contains; but, as a special exception, it need not include source code for modules which are standard libraries that accompany the operating system on which the executable file runs, or for standard header files or definitions files that accompany that operating system.
+
+   4. You may not copy, modify, sublicense, distribute or transfer the Program except as expressly provided under this General Public License. Any attempt otherwise to copy, modify, sublicense, distribute or transfer the Program is void, and will automatically terminate your rights to use the Program under this License. However, parties who have received copies, or rights to use copies, from you under this General Public License will not have their licenses terminated so long as such parties remain in full compliance.
+
+   5. By copying, distributing or modifying the Program (or any work based on the Program) you indicate your acceptance of this license to do so, and all its terms and conditions.
+
+   6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein.
+
+   7. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+   Each version is given a distinguishing version number. If the Program specifies a version number of the license which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the license, you may choose any version ever published by the Free Software Foundation.
+
+   8. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+
+   NO WARRANTY
+
+   9.
+
+   BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+   10. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS
+
+Appendix: How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to humanity, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+<one line to give the program's name and a brief idea of what it does.>
+
+Copyright (C) 19yy <name of author>
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+Gnomovision version 69, Copyright (C) 19xx name of author Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the program, if necessary. Here a sample; alter the names:
+
+Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (a program to direct compilers to make passes at assemblers) written by James Hacker.
+
+<signature of Ty Coon>, 1 April 1989 Ty Coon, President of Vice
+
+That's all there is to it!
+
+ </text>
+
+LicenseID: LicenseRef-FSF
+LicenseName: Free Software Foundation
+ExtractedText: <text> Copyright (C) 2003, 2006-2007 Free Software Foundation, Inc.
+This file is free software; the Free Software Foundation
+gives unlimited permission to copy and/or distribute it,
+with or without modifications, as long as this notice is preserved. </text>
+
+LicenseID: LicenseRef-Autoconf-exception
+LicenseName: Autoconf-exception
+ExtractedText: <text> License by Nomos. </text>
+
+LicenseID: LicenseRef-See-doc.OTHER
+LicenseName: See-doc.OTHER
+ExtractedText: <text> License by Nomos. </text>
+
+LicenseID: LicenseRef-Libtool-exception
+LicenseName: Libtool Exception
+ExtractedText: <text> As a special exception to the GNU General Public License, if you distribute this file as part of a program or library that is built using GNU Libtool, you may include this file under the same distribution terms that you use for the rest of that program.
+ </text>
+
+LicenseID: LicenseRef-FSFULLR
+LicenseName: FSF Unlimited License (with License Retention)
+ExtractedText: <text> Copyright 1996-2006 Free Software Foundation, Inc.
+
+This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.
+ </text>
+
+LicenseID: LicenseRef-LicenseRef-scancode-autoconf-simple-exception-2.0
+LicenseName: Autoconf simple exception to GPL-2.0
+ExtractedText: <text> License by Scancode. </text>
+
+LicenseID: LicenseRef-LicenseRef-scancode-other-permissive
+LicenseName: Other Permissive Licenses
+ExtractedText: <text> License by Scancode. </text>
+
+LicenseID: LicenseRef-LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+ExtractedText: <text> License by Scancode. </text>
+
+LicenseID: LicenseRef-Zlib
+LicenseName: zlib License
+ExtractedText: <text> zlib License
+
+This software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+     1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+     2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+
+     3. This notice may not be removed or altered from any source distribution.
+ </text>
+
+LicenseID: LicenseRef-Freeware
+LicenseName: freeware
+ExtractedText: <text> Software classified as freeware is licensed at no cost and is either fully functional for an unlimited time; or has only basic functions enabled with a fully functional version available commercially or as shareware.[8] In contrast to free software, the author usually restricts one or more rights of the user, including the rights to use, copy, distribute, modify and make derivative works of the software or extract the source code.[1][2][9][10] The software license may impose various additional restrictions on the type of use, e.g. only for personal use, private use, individual use, non-profit use, non-commercial use, academic use, educational use, use in charity or humanitarian organizations, non-military use, use by public authorities or various other combinations of these type of restrictions.[11] For instance, the license may be "free for private, non-commercial use". The software license may also impose various other restrictions, such as restricted use over a network, restricted use on a server, restricted use in a combination with some types of other software or with some hardware devices, prohibited distribution over the Internet other than linking to author's website, restricted distribution without author's consent, restricted number of copies, etc. </text>
+
+LicenseID: LicenseRef-LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+ExtractedText: <text> License by Scancode. </text>
+
+LicenseID: LicenseRef-LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseName: FSF Unlimited License No Warranty
+ExtractedText: <text> License by Scancode. </text>
+
+LicenseID: LicenseRef-GPL-2.0-only
+LicenseName: GNU General Public License v2.0 only
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Lesser General Public License instead.) You can apply it to your programs, too.
+
+When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.
+
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+
+Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+0. This License applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language. (Hereinafter, translation is included without limitation in the term "modification".) Each licensee is addressed as "you".
+
+Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). Whether that is true depends on what the Program does.
+
+1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program.
+
+You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+
+2. You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:
+
+     a) You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
+
+     b) You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License.
+
+     c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this License. (Exception: if the Program itself is interactive but does not normally print such an announcement, your work based on the Program is not required to print an announcement.)
+
+These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Program, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Program, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.
+
+Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Program.
+
+In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.
+
+3. You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following:
+
+     a) Accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+     b) Accompany it with a written offer, valid for at least three years, to give any third party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+     c) Accompany it with the information you received as to the offer to distribute corresponding source code. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form with such an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for making modifications to it. For an executable work, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the executable. However, as a special exception, the source code distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.
+
+If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code.
+
+4. You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.
+
+5. You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Program or works based on it.
+
+6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.
+
+7. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.
+
+If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply and the section as a whole is intended to apply in other circumstances.
+
+It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system, which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.
+
+This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.
+
+8. If the distribution and/or use of the Program is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Program under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License.
+
+9. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+Each version is given a distinguishing version number. If the Program specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation.
+
+10. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+
+NO WARRANTY
+
+11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+END OF TERMS AND CONDITIONS
+
+How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+     one line to give the program's name and an idea of what it does. Copyright (C) yyyy name of author
+
+     This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA. Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+     Gnomovision version 69, Copyright (C) year name of author Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the program, if necessary. Here is a sample; alter the names:
+
+     Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+signature of Ty Coon, 1 April 1989 Ty Coon, President of Vice
+ </text>
+
+LicenseID: LicenseRef-GPL-2.0-or-later-WITH-Libtool-exception
+LicenseName: GPL-2.0-or-later WITH Libtool-exception
+ExtractedText: <text>                     GNU GENERAL PUBLIC LICENSE
+                       Version 2, June 1991
+
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The licenses for most software are designed to take away your
+freedom to share and change it.  By contrast, the GNU General Public
+License is intended to guarantee your freedom to share and change free
+software--to make sure the software is free for all its users.  This
+General Public License applies to most of the Free Software
+Foundation's software and to any other program whose authors commit to
+using it.  (Some other Free Software Foundation software is covered by
+the GNU Lesser General Public License instead.)  You can apply it to
+your programs, too.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+this service if you wish), that you receive source code or can get it
+if you want it, that you can change the software or use pieces of it
+in new free programs; and that you know you can do these things.
+
+  To protect your rights, we need to make restrictions that forbid
+anyone to deny you these rights or to ask you to surrender the rights.
+These restrictions translate to certain responsibilities for you if you
+distribute copies of the software, or if you modify it.
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must give the recipients all the rights that
+you have.  You must make sure that they, too, receive or can get the
+source code.  And you must show them these terms so they know their
+rights.
+
+  We protect your rights with two steps: (1) copyright the software, and
+(2) offer you this license which gives you legal permission to copy,
+distribute and/or modify the software.
+
+  Also, for each author's protection and ours, we want to make certain
+that everyone understands that there is no warranty for this free
+software.  If the software is modified by someone else and passed on, we
+want its recipients to know that what they have is not the original, so
+that any problems introduced by others will not reflect on the original
+authors' reputations.
+
+  Finally, any free program is threatened constantly by software
+patents.  We wish to avoid the danger that redistributors of a free
+program will individually obtain patent licenses, in effect making the
+program proprietary.  To prevent this, we have made it clear that any
+patent must be licensed for everyone's free use or not licensed at all.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+                    GNU GENERAL PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. This License applies to any program or other work which contains
+a notice placed by the copyright holder saying it may be distributed
+under the terms of this General Public License.  The "Program", below,
+refers to any such program or work, and a "work based on the Program"
+means either the Program or any derivative work under copyright law:
+that is to say, a work containing the Program or a portion of it,
+either verbatim or with modifications and/or translated into another
+language.  (Hereinafter, translation is included without limitation in
+the term "modification".)  Each licensee is addressed as "you".
+
+Activities other than copying, distribution and modification are not
+covered by this License; they are outside its scope.  The act of
+running the Program is not restricted, and the output from the Program
+is covered only if its contents constitute a work based on the
+Program (independent of having been made by running the Program).
+Whether that is true depends on what the Program does.
+
+  1. You may copy and distribute verbatim copies of the Program's
+source code as you receive it, in any medium, provided that you
+conspicuously and appropriately publish on each copy an appropriate
+copyright notice and disclaimer of warranty; keep intact all the
+notices that refer to this License and to the absence of any warranty;
+and give any other recipients of the Program a copy of this License
+along with the Program.
+
+You may charge a fee for the physical act of transferring a copy, and
+you may at your option offer warranty protection in exchange for a fee.
+
+  2. You may modify your copy or copies of the Program or any portion
+of it, thus forming a work based on the Program, and copy and
+distribute such modifications or work under the terms of Section 1
+above, provided that you also meet all of these conditions:
+
+    a) You must cause the modified files to carry prominent notices
+    stating that you changed the files and the date of any change.
+
+    b) You must cause any work that you distribute or publish, that in
+    whole or in part contains or is derived from the Program or any
+    part thereof, to be licensed as a whole at no charge to all third
+    parties under the terms of this License.
+
+    c) If the modified program normally reads commands interactively
+    when run, you must cause it, when started running for such
+    interactive use in the most ordinary way, to print or display an
+    announcement including an appropriate copyright notice and a
+    notice that there is no warranty (or else, saying that you provide
+    a warranty) and that users may redistribute the program under
+    these conditions, and telling the user how to view a copy of this
+    License.  (Exception: if the Program itself is interactive but
+    does not normally print such an announcement, your work based on
+    the Program is not required to print an announcement.)
+
+These requirements apply to the modified work as a whole.  If
+identifiable sections of that work are not derived from the Program,
+and can be reasonably considered independent and separate works in
+themselves, then this License, and its terms, do not apply to those
+sections when you distribute them as separate works.  But when you
+distribute the same sections as part of a whole which is a work based
+on the Program, the distribution of the whole must be on the terms of
+this License, whose permissions for other licensees extend to the
+entire whole, and thus to each and every part regardless of who wrote it.
+
+Thus, it is not the intent of this section to claim rights or contest
+your rights to work written entirely by you; rather, the intent is to
+exercise the right to control the distribution of derivative or
+collective works based on the Program.
+
+In addition, mere aggregation of another work not based on the Program
+with the Program (or with a work based on the Program) on a volume of
+a storage or distribution medium does not bring the other work under
+the scope of this License.
+
+  3. You may copy and distribute the Program (or a work based on it,
+under Section 2) in object code or executable form under the terms of
+Sections 1 and 2 above provided that you also do one of the following:
+
+    a) Accompany it with the complete corresponding machine-readable
+    source code, which must be distributed under the terms of Sections
+    1 and 2 above on a medium customarily used for software interchange; or,
+
+    b) Accompany it with a written offer, valid for at least three
+    years, to give any third party, for a charge no more than your
+    cost of physically performing source distribution, a complete
+    machine-readable copy of the corresponding source code, to be
+    distributed under the terms of Sections 1 and 2 above on a medium
+    customarily used for software interchange; or,
+
+    c) Accompany it with the information you received as to the offer
+    to distribute corresponding source code.  (This alternative is
+    allowed only for noncommercial distribution and only if you
+    received the program in object code or executable form with such
+    an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for
+making modifications to it.  For an executable work, complete source
+code means all the source code for all modules it contains, plus any
+associated interface definition files, plus the scripts used to
+control compilation and installation of the executable.  However, as a
+special exception, the source code distributed need not include
+anything that is normally distributed (in either source or binary
+form) with the major components (compiler, kernel, and so on) of the
+operating system on which the executable runs, unless that component
+itself accompanies the executable.
+
+If distribution of executable or object code is made by offering
+access to copy from a designated place, then offering equivalent
+access to copy the source code from the same place counts as
+distribution of the source code, even though third parties are not
+compelled to copy the source along with the object code.
+
+  4. You may not copy, modify, sublicense, or distribute the Program
+except as expressly provided under this License.  Any attempt
+otherwise to copy, modify, sublicense or distribute the Program is
+void, and will automatically terminate your rights under this License.
+However, parties who have received copies, or rights, from you under
+this License will not have their licenses terminated so long as such
+parties remain in full compliance.
+
+  5. You are not required to accept this License, since you have not
+signed it.  However, nothing else grants you permission to modify or
+distribute the Program or its derivative works.  These actions are
+prohibited by law if you do not accept this License.  Therefore, by
+modifying or distributing the Program (or any work based on the
+Program), you indicate your acceptance of this License to do so, and
+all its terms and conditions for copying, distributing or modifying
+the Program or works based on it.
+
+  6. Each time you redistribute the Program (or any work based on the
+Program), the recipient automatically receives a license from the
+original licensor to copy, distribute or modify the Program subject to
+these terms and conditions.  You may not impose any further
+restrictions on the recipients' exercise of the rights granted herein.
+You are not responsible for enforcing compliance by third parties to
+this License.
+
+  7. If, as a consequence of a court judgment or allegation of patent
+infringement or for any other reason (not limited to patent issues),
+conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot
+distribute so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you
+may not distribute the Program at all.  For example, if a patent
+license would not permit royalty-free redistribution of the Program by
+all those who receive copies directly or indirectly through you, then
+the only way you could satisfy both it and this License would be to
+refrain entirely from distribution of the Program.
+
+If any portion of this section is held invalid or unenforceable under
+any particular circumstance, the balance of the section is intended to
+apply and the section as a whole is intended to apply in other
+circumstances.
+
+It is not the purpose of this section to induce you to infringe any
+patents or other property right claims or to contest validity of any
+such claims; this section has the sole purpose of protecting the
+integrity of the free software distribution system, which is
+implemented by public license practices.  Many people have made
+generous contributions to the wide range of software distributed
+through that system in reliance on consistent application of that
+system; it is up to the author/donor to decide if he or she is willing
+to distribute software through any other system and a licensee cannot
+impose that choice.
+
+This section is intended to make thoroughly clear what is believed to
+be a consequence of the rest of this License.
+
+  8. If the distribution and/or use of the Program is restricted in
+certain countries either by patents or by copyrighted interfaces, the
+original copyright holder who places the Program under this License
+may add an explicit geographical distribution limitation excluding
+those countries, so that distribution is permitted only in or among
+countries not thus excluded.  In such case, this License incorporates
+the limitation as if written in the body of this License.
+
+  9. The Free Software Foundation may publish revised and/or new versions
+of the General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+Each version is given a distinguishing version number.  If the Program
+specifies a version number of this License which applies to it and "any
+later version", you have the option of following the terms and conditions
+either of that version or of any later version published by the Free
+Software Foundation.  If the Program does not specify a version number of
+this License, you may choose any version ever published by the Free Software
+Foundation.
+
+  10. If you wish to incorporate parts of the Program into other free
+programs whose distribution conditions are different, write to the author
+to ask for permission.  For software which is copyrighted by the Free
+Software Foundation, write to the Free Software Foundation; we sometimes
+make exceptions for this.  Our decision will be guided by the two goals
+of preserving the free status of all derivatives of our free software and
+of promoting the sharing and reuse of software generally.
+
+                            NO WARRANTY
+
+  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
+TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
+PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+REPAIR OR CORRECTION.
+
+  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+                     END OF TERMS AND CONDITIONS
+
+            How to Apply These Terms to Your New Programs
+
+  If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these terms.
+
+  To do so, attach the following notices to the program.  It is safest
+to attach them to the start of each source file to most effectively
+convey the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this
+when it starts in an interactive mode:
+
+    Gnomovision version 69, Copyright (C) year name of author
+    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.  Of course, the commands you use may
+be called something other than `show w' and `show c'; they could even be
+mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your
+school, if any, to sign a "copyright disclaimer" for the program, if
+necessary.  Here is a sample; alter the names:
+
+  Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+  `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+  <signature of Ty Coon>, 1 April 1989
+  Ty Coon, President of Vice
+
+This General Public License does not permit incorporating your program into
+proprietary programs.  If your program is a subroutine library, you may
+consider it more useful to permit linking proprietary applications with the
+library.  If this is what you want to do, use the GNU Lesser General
+Public License instead of this License.
+
+As a special exception to the GNU General Public License, if you
+distribute this file as part of a program or library that is built
+using GNU Libtool, you may include this file under the same
+distribution terms that you use for the rest of that program. </text>
+
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+LicenseID: LicenseRef-GPL-2.0-or-later
+LicenseName: GNU General Public License v2.0 or later
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+
+Version 2, June 1991
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Lesser General Public License instead.) You can apply it to your programs, too.
+
+When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.
+
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+
+Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+   0. This License applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language. (Hereinafter, translation is included without limitation in the term "modification".) Each licensee is addressed as "you".
+
+   Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). Whether that is true depends on what the Program does.
+
+   1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program.
+
+   You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+
+   2. You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:
+
+      a) You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
+
+      b) You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License.
+
+      c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this License. (Exception: if the Program itself is interactive but does not normally print such an announcement, your work based on the Program is not required to print an announcement.)
+
+   These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Program, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Program, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.
+
+   Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Program.
+
+   In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.
+
+   3. You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following:
+
+      a) Accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+      b) Accompany it with a written offer, valid for at least three years, to give any third party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+      c) Accompany it with the information you received as to the offer to distribute corresponding source code. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form with such an offer, in accord with Subsection b above.)
+
+   The source code for a work means the preferred form of the work for making modifications to it. For an executable work, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the executable. However, as a special exception, the source code distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.
+
+   If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code.
+
+   4. You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.
+
+   5. You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Program or works based on it.
+
+   6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.
+
+   7. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.
+
+   If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply and the section as a whole is intended to apply in other circumstances.
+
+   It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system, which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.
+
+   This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.
+
+   8. If the distribution and/or use of the Program is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Program under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License.
+
+   9. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+   Each version is given a distinguishing version number. If the Program specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation.
+
+   10. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+
+   NO WARRANTY
+
+   11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+   12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS
+
+How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+<one line to give the program's name and an idea of what it does.>
+
+Copyright (C) <yyyy> <name of author>
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+Gnomovision version 69, Copyright (C) year name of author Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the program, if necessary. Here is a sample; alter the names:
+
+Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+< signature of Ty Coon > , 1 April 1989 Ty Coon, President of Vice
+
+ </text>
+
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+LicenseID: LicenseRef-FSFULLR-Warranty-Disclaimer-dea43d35ec943549960f774c352ca597
+LicenseName: FSFULLR-Warranty-Disclaimer-dea43d35ec943549960f774c352ca597
+ExtractedText: <text> This Makefile.in is free software; the Free Software Foundation
+gives unlimited permission to copy and/or distribute it,
+with or without modifications, as long as this notice is preserved.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. </text>
+
+LicenseID: LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b
+LicenseName: FSFULLR-564001a1604da16622c52d713e5f360b
+ExtractedText: <text> This file is free software; the Free Software Foundation
+gives unlimited permission to copy and/or distribute it,
+with or without modifications, as long as this notice is preserved. </text>
+
+LicenseID: LicenseRef-FSFULLR-Warranty-Disclaimer-1ac11883dcc7dd1681da7708ef7e33fd
+LicenseName: FSFULLR-Warranty-Disclaimer-1ac11883dcc7dd1681da7708ef7e33fd
+ExtractedText: <text> This file is free software; the Free Software Foundation
+gives unlimited permission to copy and/or distribute it,
+with or without modifications, as long as this notice is preserved.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. </text>
+
+LicenseID: LicenseRef-FSFUL-a1644ee43218a2c79e1c49c99833dd00
+LicenseName: FSFUL-a1644ee43218a2c79e1c49c99833dd00
+ExtractedText: <text> This config.lt script is free software; the Free Software Foundation
+gives unlimited permision to copy, distribute and modify it. </text>
+
+LicenseID: LicenseRef-MIT-cf197bd5d4094c2d8f76ed82f4786aef
+LicenseName: MIT-cf197bd5d4094c2d8f76ed82f4786aef
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+LicenseID: LicenseRef-Permission-Notice-527486655f5a7062cd698b42116b55c9
+LicenseName: Permission-Notice-527486655f5a7062cd698b42116b55c9
+ExtractedText: <text> This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely. </text>
+
+LicenseID: LicenseRef-Zlib-583a34a90b7ca62441e478a7aa1265ba
+LicenseName: Zlib-583a34a90b7ca62441e478a7aa1265ba
+ExtractedText: <text> This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+claim that you wrote the original software. If you use this software
+in a product, an acknowledgment in the product documentation would be
+appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not be
+misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source
+distribution. </text>
+
+LicenseID: LicenseRef-FSFULLR-2e01bb672e5007181a921b144efe76a8
+LicenseName: FSFULLR-2e01bb672e5007181a921b144efe76a8
+ExtractedText: <text> This config.status script is free software; the Free Software Foundation
+gives unlimited permission to copy, distribute and modify it. </text>
+
+LicenseID: LicenseRef-FSFUL-c75eb7486755351ecb2622ed8c28c6d4
+LicenseName: FSFUL-c75eb7486755351ecb2622ed8c28c6d4
+ExtractedText: <text> This configure script is free software; the Free Software Foundation
+gives unlimited permission to copy, distribute and modify it. </text>
+
+LicenseID: LicenseRef-X11-5872543441a34866c9e94fa78f93667f
+LicenseName: X11-5872543441a34866c9e94fa78f93667f
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not
+be used in advertising or otherwise to promote the sale, use or other deal-
+ings in this Software without prior written authorization from the X Consor-
+tium. </text>
+
