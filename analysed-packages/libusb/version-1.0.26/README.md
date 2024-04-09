@@ -1,10 +1,10 @@
 ## Download Location
 
-hhttps://github.com/libusb/libusb/archive/refs/tags/v1.0.26.tar.gz
+https://github.com/libusb/libusb/archive/refs/tags/v1.0.26.tar.gz
 
 ## Package URL (purl)
 
-pkg:github/libusb/libusb@1.0.26
+pkg:github/libusb/libusb@v1.0.26
 
 ## Creator
 
