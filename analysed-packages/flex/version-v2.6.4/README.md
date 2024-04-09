@@ -1,6 +1,6 @@
 ## Download Location
 
-hhttps://github.com/westes/flex/archive/refs/tags/v2.6.4.tar.gz
+https://github.com/westes/flex/archive/refs/tags/v2.6.4.tar.gz
 
 ## Package URL (purl)
 
