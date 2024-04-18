@@ -186,6 +186,7 @@ class FileNameParser:
                     if found_start:
                         if self.check_regular_expression(line, el["end"]):
                             new_lines.append(el["replace"])
+                            found_start = False
                         continue
                     new_lines.append(line)
                 original_lines = new_lines
