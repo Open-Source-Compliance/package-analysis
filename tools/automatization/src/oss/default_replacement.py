@@ -6,6 +6,7 @@ class MultiSpdxReplacement:
 Default_TXT_Replacements_Single = {
     " MAIN LICENSES": "LICENSES",
     " OTHER LICENSES": "LICENSES",
+    "NOASSERTION" : "",
 }
 
 
@@ -19,7 +20,9 @@ Default_SPDX_Replacements_Single = {
 
 Default_TXT_Replacements_Multi = []
 
-
+# Per default, we do not replace any LicenseID. This feature is in testing phase and it can be activated.
+# However, it needs extra caution.
 Default_SPDX_Replacements_Multi = [
-    vars(MultiSpdxReplacement("^LicenseID: LicenseRef-fossology-gpl-2.0-plus", "</text>\n$",""))["data"]
+    #vars(MultiSpdxReplacement("^LicenseID: LicenseRef-fossology-gpl-2.0-plus", "</text>\n$",""))["data"],
+    #vars(MultiSpdxReplacement("^LicenseID: LicenseRef-CC0-1.0",  "</text>\n$",""))["data"],
 ]
