@@ -35,7 +35,19 @@ class FilesGenerator:
         self.package_name =  ""
         self.package_version = ""
         self.final_file_path = ""
-    
+
+    def validate_file(self, input_file):
+        command = f"pyspdxtools -i {input_file}"
+        os.system(command)
+        print(">>>>> Validate Document name: ",  input_file)
+
+    def generate_file(self, input_file):
+        generated_file_path = os.path.join(self.generated_folder_path, input_file)
+        command = f"pyspdxtools -i {self.final_file_path} -o {generated_file_path}"
+        os.system(command)
+        print(">>>>> Generated Document name:",  generated_file_path)
+        return generated_file_path
+
     def generate_files(self):
         result_txt = self.generate_txt_files()
         result_spdx = self.generate_spdx_files()
@@ -49,25 +61,19 @@ class FilesGenerator:
     
     def spdx_to_json(self, packet_name):
         generated_spdx_json = packet_name + ".spdx.json"
-        generated_file_path = os.path.join(self.generated_folder_path, generated_spdx_json)
-        command = f"pyspdxtools -i {self.final_file_path} -o {generated_file_path}"
-        os.system(command)
-        print(">>>>> Generated Document name: ",  generated_file_path)
+        generated_file_path = self.generate_file(generated_spdx_json)
+        self.validate_file(generated_file_path)
 
     def spdx_to_yaml(self, packet_name):
         generated_spdx_yaml = packet_name + ".spdx.yaml"
-        generated_file_path = os.path.join(self.generated_folder_path, generated_spdx_yaml)
-        command = f"pyspdxtools -i {self.final_file_path} -o {generated_file_path}"
-        os.system(command)
-        print(">>>>> Generated Document name: ",  generated_file_path)
+        generated_file_path = self.generate_file(generated_spdx_yaml)
+        self.validate_file(generated_file_path)
 
     def spdx_to_rdf_xml(self, packet_name):
         generated_spdx_rdf_xml = packet_name + ".spdx.rdf.xml"
-        generated_file_path = os.path.join(self.generated_folder_path, generated_spdx_rdf_xml)
-        command = f"pyspdxtools -i {self.final_file_path} -o {generated_file_path}"
-        os.system(command)
-        print(">>>>> Generated Document name: ",  generated_file_path)
-    
+        generated_file_path = self.generate_file(generated_spdx_rdf_xml)
+        self.validate_file(generated_file_path)
+
     def save_new_file(self, final_file, file_name):
         if self.generated_folder_path:
             self.final_file_path = os.path.join(self.generated_folder_path, file_name)
