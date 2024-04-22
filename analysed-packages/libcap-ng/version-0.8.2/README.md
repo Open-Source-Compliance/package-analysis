@@ -4,7 +4,7 @@ https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v0.8.2.tar.gz
 
 ## Package URL (purl)
 
-https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v0.8.2.tar.gz
+pkg:github/stevegrubb/libcap-ng@v0.8.3
 
 ## Creator
 
