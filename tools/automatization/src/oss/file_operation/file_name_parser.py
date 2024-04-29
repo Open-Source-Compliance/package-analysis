@@ -231,9 +231,21 @@ class FileNameParser:
         print (">>>>> Found license_name: ", self.licenses_name)
         return lines
 
+    def update_filename_in_oss_txt(self, line):
+        # It looks for the name of the file in lines and it will replace it with desired format
+        if self.packet_name in line:
+            print (">>>>>>> Replacing this line : ", line)
+            line = self.packet_name + "-" + self.packet_version + "\n"
+            print ("        With: ", line)
+            return line
+
     def work_on_txt_line_by_line(self, lines):
         new_line_list = []
         for line in lines:
+            update_line = self.update_filename_in_oss_txt(line)
+            if update_line:
+                new_line_list.append(update_line)
+                continue
             replacement_line = self.apply_text_replacement(line)
             if replacement_line:
                 new_line_list.append(replacement_line)
