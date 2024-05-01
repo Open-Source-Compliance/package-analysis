@@ -814,14 +814,6 @@ X Window System is a trademark of X Consortium, Inc.</spdx:extractedText>
       </spdx:ExtractedLicensingInfo>
     </spdx:hasExtractedLicensingInfo>
     <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-warranty-disclaimer-90f0cbc392148555ace0fe8246603e41">
-        <spdx:licenseId>LicenseRef-warranty-disclaimer-90f0cbc392148555ace0fe8246603e41</spdx:licenseId>
-        <spdx:extractedText>This is free software; see the source for copying conditions. There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."</spdx:extractedText>
-        <spdx:name>Generic Bare Warranty Disclaimer</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:hasExtractedLicensingInfo>
       <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-GPL-3.0-or-later">
         <spdx:licenseId>LicenseRef-GPL-3.0-or-later</spdx:licenseId>
         <spdx:extractedText>GNU GENERAL PUBLIC LICENSE
@@ -1133,14 +1125,6 @@ Please check "LicenseComments" for explanations of concluded licenses.</rdfs:com
         <spdx:licenseId>LicenseRef-x11-xconsortium</spdx:licenseId>
         <spdx:extractedText>License by Scancode.</spdx:extractedText>
         <spdx:name>X11-Style (X Consortium)</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-warranty-disclaimer-da410606429db1ac8820308d4a486923">
-        <spdx:licenseId>LicenseRef-warranty-disclaimer-da410606429db1ac8820308d4a486923</spdx:licenseId>
-        <spdx:extractedText>This is free software. There is NO warranty; not even for
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</spdx:extractedText>
-        <spdx:name>Generic Bare Warranty Disclaimer</spdx:name>
       </spdx:ExtractedLicensingInfo>
     </spdx:hasExtractedLicensingInfo>
     <spdx:name>/srv/fossology/repository/report</spdx:name>
@@ -6354,9 +6338,9 @@ We checked the LICENSE file in the root directory, it contains the text of the M
                           <spdx:DisjunctiveLicenseSet>
                             <spdx:member rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-MIT"/>
                             <spdx:member rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-GPL-3.0-or-later"/>
-                          </spdx:DisjunctiveLicenseSet>
-                        </spdx:member>
-                        <spdx:member rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-warranty-disclaimer-da410606429db1ac8820308d4a486923"/>
+						  </spdx:DisjunctiveLicenseSet>
+						</spdx:member>
+
                       </spdx:ConjunctiveLicenseSet>
                     </spdx:licenseConcluded>
                     <spdx:attributionText>To the extend files may be licensed under GPL-3.0-or-later or MIT, in this context MIT has bee chosen. This shall not restrict the freedom of other users to choose either GPL-3.0-or-later or MIT. For convenience all license texts are provided.</spdx:attributionText>
@@ -6390,12 +6374,7 @@ the files within it. See the URLs above, or the file `LICENSE`
 included in the Bootstrap distribution for the full license texts.
 
 Thus we concluded additionally GPL-3-0-or-later OR MIT
-The information in this file is:
-
-This is free software. There is NO warranty; not even for
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-Thus, we concluded Warranty-Disclaimer.</spdx:licenseComments>
+</spdx:licenseComments>
                     <spdx:copyrightText>Copyright (C) 1996-2018 Free Software Foundation, Inc.
 Copyright (C) 2004-2018 Bootstrap Authors
 Copyright (C) 2010-2018 Bootstrap Authors</spdx:copyrightText>
@@ -6577,12 +6556,7 @@ Copyright (C) 2010-2018 Bootstrap Authors</spdx:copyrightText>
                         <spdx:checksumValue>56c8530a22f26cdae7c9b5e946c06429</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
-                    <spdx:licenseConcluded>
-                      <spdx:ConjunctiveLicenseSet>
-                        <spdx:member rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-warranty-disclaimer-90f0cbc392148555ace0fe8246603e41"/>
-                        <spdx:member rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-GPL-3.0-or-later-WITH-Autoconf-exception-generic-3.0"/>
-                      </spdx:ConjunctiveLicenseSet>
-                    </spdx:licenseConcluded>
+                    <spdx:licenseConcluded rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-GPL-3.0-or-later-WITH-Autoconf-exception-generic-3.0"/>
                     <spdx:licenseInfoInFile rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-Autoconf-exception"/>
                     <spdx:licenseInfoInFile rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-Autoconf-exception-generic-3.0"/>
                     <spdx:licenseInfoInFile rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-gpl-3.0-plus"/>
@@ -6599,12 +6573,6 @@ Copyright (C) 2010-2018 Bootstrap Authors</spdx:copyrightText>
                         <spdx:checksumValue>c081ced2d645e3b107fbf864529cc0e5954399a09b87a4f1d300470854b6dea4</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
-                    <spdx:licenseComments>The information in this file is:
-
-This is free software. There is NO warranty; not even for
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-Thus, we concluded Warranty-Disclaimer.</spdx:licenseComments>
                     <spdx:copyrightText>Copyright 1992-2020 Free Software Foundation, Inc.
 Copyright 1992-2020 Free Software Foundation, Inc.</spdx:copyrightText>
                     <spdx:licenseInfoInFile rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-free-unknown"/>
@@ -9326,24 +9294,13 @@ Copyright 1992-2020 Free Software Foundation, Inc.</spdx:copyrightText>
                         <spdx:checksumValue>190c5eaf225abd14513d768efc5073eb</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
-                    <spdx:licenseComments>The information in this file is:
-
-This is free software. There is NO warranty; not even for
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-Thus, we concluded Warranty-Disclaimer.</spdx:licenseComments>
                     <spdx:checksum>
                       <spdx:Checksum>
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
                         <spdx:checksumValue>f08fe8f207c0fa6d722312774c28365024682333f5547c8192d0547957b000af</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
-                    <spdx:licenseConcluded>
-                      <spdx:ConjunctiveLicenseSet>
-                        <spdx:member rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-warranty-disclaimer-90f0cbc392148555ace0fe8246603e41"/>
-                        <spdx:member rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-GPL-3.0-or-later-WITH-Autoconf-exception-generic-3.0"/>
-                      </spdx:ConjunctiveLicenseSet>
-                    </spdx:licenseConcluded>
+                    <spdx:licenseConcluded rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-GPL-3.0-or-later-WITH-Autoconf-exception-generic-3.0"/>
                     <spdx:licenseInfoInFile rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-free-unknown"/>
                     <spdx:licenseInfoInFile rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jansson-2.13.1.tar.gz_1713355582.spdx#LicenseRef-gpl-3.0-plus"/>
                   </spdx:File>
