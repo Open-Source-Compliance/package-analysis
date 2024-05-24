@@ -14,4 +14,4 @@ Sascha Dierberg <dierberg@dresearch-fe.de>
 
 The information was reviewed by:
 
-* [Reviewer]
+Mario Schuknecht
