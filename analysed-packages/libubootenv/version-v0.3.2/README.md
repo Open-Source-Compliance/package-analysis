@@ -8,7 +8,7 @@ pkg:generic/libubootenv@0.3.2?download_url=https://github.com/sbabic/libubootenv
 
 ## Creator
 
-Sascha Dierberg <dierberg@dresearch-fe.de>
+Sascha Dierberg
 
 ## Reviewers
 
