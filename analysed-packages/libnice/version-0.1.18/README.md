@@ -8,7 +8,7 @@ pkg:generic/libnice@0.1.18?download_url=http://nice.freedesktop.org/releases/lib
 
 ## Creator
 
-Sascha Dierberg <dierberg@dresearch-fe.de>
+Sascha Dierberg
 
 ## Reviewers
 
