@@ -8,7 +8,7 @@ pkg:github/webrtcHacks/adapter@v7.3.0
 
 ## Creator
 
-Sascha Dierberg <dierberg@dresearch-fe.de>
+Sascha Dierberg
 
 ## Reviewers
 
