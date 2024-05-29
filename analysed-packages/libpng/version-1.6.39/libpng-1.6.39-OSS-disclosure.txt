@@ -1386,7 +1386,6 @@ FSFULLRWD
 This Makefile.in is free software; the Free Software Foundation
 gives unlimited permission to copy and/or distribute it,
 with or without modifications, as long as this notice is preserved.
-
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY, to the extent permitted by law; without
 even the implied warranty of MERCHANTABILITY or FITNESS FOR A
@@ -1394,7 +1393,7 @@ PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------------
 
-libpng-1.6.39
+libpng-2.0
 
 The software is supplied "as is", without warranty of any kind,
 express or implied, including, without limitation, the warranties
@@ -1446,15 +1445,48 @@ public domain
 
 Dual-license
 
-Multi-licensing is the practice of distributing software under two or more
-different sets of terms and conditions. This may mean multiple different
-software licenses or sets of licenses. Prefixes may be used to indicate the
-number of licenses used, e.g. dual-licensed for software licensed under two
-different licenses.
-When software is multi-licensed, recipients can choose which terms under which
-they want to use or distribute the software. The distributor may or may not
-apply a fee to either option. The two usual motivations for multi-licensing are
-license compatibility and market segregation based business models.
+This software is provided "as is," without warranty of any kind,
+express or implied. In no event shall the author or contributors
+be held liable for any damages arising in any way from the use of
+this software.
+
+The contents of this file are DUAL-LICENSED. You may modify and/or
+redistribute this software according to the terms of one of the
+following two licenses (at your option):
+
+LICENSE 1 ("BSD-like with advertising clause"):
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute
+it freely, subject to the following restrictions:
+
+1. Redistributions of source code must retain the above copyright
+notice, disclaimer, and this list of conditions.
+2. Redistributions in binary form must reproduce the above copyright
+notice, disclaimer, and this list of conditions in the documenta-
+tion and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this
+software must display the following acknowledgment:
+
+This product includes software developed by Greg Roelofs
+and contributors for the book, "PNG: The Definitive Guide,"
+published by O'Reilly and Associates.
+
+LICENSE 2 (GNU GPL v2 or later):
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 --------------------------------------------------------------------------------
 
@@ -1473,21 +1505,30 @@ gives unlimited permision to copy, distribute and modify it.
 
 BSD-3-Clause
 
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute
-it freely, subject to the following restrictions:
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
 
-1. Redistributions of source code must retain the above copyright
-notice, disclaimer, and this list of conditions.
-2. Redistributions in binary form must reproduce the above copyright
-notice, disclaimer, and this list of conditions in the documenta-
-tion and/or other materials provided with the distribution.
-3. All advertising materials mentioning features or use of this
-software must display the following acknowledgment:
+1. Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
 
-This product includes software developed by Greg Roelofs
-and contributors for the book, "PNG: The Definitive Guide,"
-published by O'Reilly and Associates.
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+may be used to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
 
@@ -1528,15 +1569,19 @@ zlib License
 This software is provided 'as-is', without any express or implied warranty.  In
 no event will the authors be held liable for any damages arising from the use of
 this software.
+
 Permission is granted to anyone to use this software for any purpose, including
 commercial applications, and to alter it and redistribute it freely, subject to
 the following restrictions:
+
      1. The origin of this software must not be misrepresented; you must not
 claim that you wrote the original software. If you use this software in a
 product, an acknowledgment in the product documentation would be appreciated but
 is not required.
+
      2. Altered source versions must be plainly marked as such, and must not be
 misrepresented as being the original software.
+
      3. This notice may not be removed or altered from any source distribution.
 
 --------------------------------------------------------------------------------
@@ -2072,23 +2117,32 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program
 
 ================================================================================
 
- ACKNOWLEDGEMENTS
+ACKNOWLEDGEMENTS
 
 --------------------------------------------------------------------------------
 
 Dual-license
 
-ltmain.sh: To the extend files may be licensed under GPL-2.0-or-later or MIT, in
-this context MIT has bee chosen. This shall not restrict the freedom of other
-users to choose either GPL-2.0-or-later or MIT. For convenience all license
-texts are provided.
+To the extend files may be licensed under BSD-3-Clause or GPL-2.0-or-later, in
+this context BSD-3-Clause, has been chosen. This shall not restrict the freedom
+of other users to choose either BSD-3-Clause or GPL-2.0-or-later. For
+convenience all license texts are provided.
+
+--------------------------------------------------------------------------------
+
+Dual-license
+
+ltmain.sh: To the extend files may be licensed under GPL-2.0-or-later or MIT, in this
+context MIT has bee chosen. This shall not restrict the freedom of other users
+to choose either GPL-2.0-or-later or MIT. For convenience all license texts are
+provided.
 
 --------------------------------------------------------------------------------
 
 Copyright notices
 
 The content of the AUTHORS file:
--------------
+--------------
 
 * Andreas Dilger
 * Cosmin Truta
@@ -2126,6 +2180,7 @@ The content of the AUTHORS file:
 - Matt Sarett
 - Mike Klein
 - Sami Boukortt
+
 
 copyright Willem van Schaik, 1999-2019
 copyright 1995 Guy Eric Schalnat, Group 42, Inc.
@@ -2173,8 +2228,7 @@ Copyright (c) 2014-2017 John Cunningham Bowler
 Copyright (c) 2014,2017 Glenn Randers-Pehrson Written by Mans Rullgard, 2011.
 Copyright (c) 2014,2016 Glenn Randers-Pehrson Written by Mans Rullgard, 2011.
 Copyright (c) 2014,2016 Glenn Randers-Pehrson Written by James Yu <james.yu at
-linaro.org>, October 2013. Based on filter_neon.S, written by Mans Rullgard,
-2011.
+linaro.org>, October 2013, written by Mans Rullgard, 2011.
 Copyright (c) 2014, 2017 Glenn Randers-Pehrson Written by John Bowler, 2014,
 2017.
 Copyright (c) 2014 Glenn Randers-Pehrson Written by Mans Rullgard, 2011.
@@ -2229,7 +2283,8 @@ Kevin Bracey * Magnus Holmgren * Mandar Sahastrabuddhe * Mans Rullgard * Matt
 Sarett * Mike Klein * Pascal Massimino * Paul Schmidt * Qiang Zhou * Sam Bushell
 * Samuel Williams * Simon-Pierre Cadieux * Tim Wegner * Tom Lane * Tom Tanner *
 Vadim Barkov * Willem van Schaik * Zhijie Liang * Arm Holdings - Richard
-Townsend * Google Inc. - Dan Field - Leon Scroggins III- Matt Sarett - Mike Klein - Sami Boukortt
+Townsend * Google Inc. - Dan Field - Leon Scroggins III- Matt Sarett - Mike
+Klein - Sami Boukortt
 Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
 Copyright (c) 1995, 1996 Frank J. T. Wojcik December 18, 1995 & January 20, 1996
@@ -2263,7 +2318,7 @@ Foundation, Inc. Written by Scott James Remnant, 2004.
 Copyright (C) 2004, 2011-2019, 2021-2022 Free Software Foundation, Inc. Written
 by Scott James Remnant, 2004
 Copyright (C) 2004, 2006-2008, 2010-2014 Glenn Randers-Pehrson Contributed by
-William L. Sebok, based on makefile.linux
+William L. Sebok
 Copyright (C) 2004 Simon-Pierre Cadieux.
 Copyright (C) 2004 Cosmin Truta.
 Copyright (C) 2003-2021 Free Software Foundation, Inc.
@@ -2333,6 +2388,6 @@ COPYRIGHT: Written by John Cunningham Bowler, 2010. Revised by Cosmin Truta,
 2022.
 COPYRIGHT 2013,2015 John Cunningham Bowler
 (C) Copyright 1997 Tom Tanner
-Copyright (c) Willem van Schaik, 1999, 2011, 2012
-Copyright (c) 2000-2008 Adam M. Costello and Cosmin Truta.
-(c) Willem van Schaik, 2000
+ Copyright (c) Willem van Schaik, 1999, 2011, 2012
+ Copyright (c) 2000-2008 Adam M. Costello and Cosmin Truta.
+ (c) Willem van Schaik, 2000
