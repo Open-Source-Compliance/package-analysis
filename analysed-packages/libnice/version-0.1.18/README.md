@@ -16,3 +16,10 @@ The information was reviewed by:
 
 Mario Schuknecht
 
+## Comment
+
+This package is dual licensed under MPL-1.1 or LGPL-2.1-only. To
+facilitate automatic use, a default license choice of LGPL-2.1-only is
+denoted in the Acknowledgment section of the OSS disclosure document.
+This shall not restrict the freedom of users to choose either
+MPL-1.1 or LGPL-2.1-only. Anyway, all license texts are provided.
