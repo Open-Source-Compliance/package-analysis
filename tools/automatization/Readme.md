@@ -76,7 +76,7 @@ Whether you use docker or virtual env, you need to first prepare some steps
         ```
         python -m oss -dl https://git.yoctoproject.org/update-rc.d/snapshot/update-rc.d-0.8.tar.gz
         ```
-5. **Reviewer**:
+6. **Reviewer**:
 
     You can add the name of the reviewer to the Readme.You can use either config.yaml or command line to set this value
 
@@ -84,10 +84,21 @@ Whether you use docker or virtual env, you need to first prepare some steps
         ```
         reviewer : YYYYY
         ```
-    2. command line with -dl configuration flag
+    2. command line with -r configuration flag
         ```
         python -m oss -r YYYYY
         ```
+7. **Validation**:
+
+    After generation of spdx, yaml and json files, we will validate the generate files. In case you would like to disable this feature, please do as following
+
+    1. config.yaml
+        ```
+        validation : false
+        ```
+    2. command line with -v configuration flag
+        ```
+        python -m oss -v false
 
 ### Via docker
 

@@ -234,10 +234,11 @@ class FileNameParser:
     def update_filename_in_oss_txt(self, line):
         # It looks for the name of the file in lines and it will replace it with desired format
         if self.packet_name in line:
-            print (">>>>>>> Replacing this line : ", line)
-            line = self.packet_name + "-" + self.packet_version + "\n"
-            print ("        With: ", line)
-            return line
+            if self.packet_version in line:
+                print (">>>>>>> Replacing this line : ", line)
+                line = self.packet_name + "-" + self.packet_version + "\n"
+                print ("        With: ", line)
+                return line
 
     def work_on_txt_line_by_line(self, lines):
         new_line_list = []
