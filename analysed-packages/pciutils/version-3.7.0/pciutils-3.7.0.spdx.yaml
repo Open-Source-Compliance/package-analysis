@@ -9,13 +9,13 @@ creationInfo:
     Please check "LicenseComments" for explanations of concluded licenses.
 
     '
-  created: '2024-05-27T09:32:47Z'
+  created: '2024-05-31T10:31:45Z'
   creators:
   - 'Tool: fossology-4.4.0'
   - 'Person: Sascha Dierberg'
   licenseListVersion: '3.22'
 dataLicense: CC0-1.0
-documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pciutils-3.7.0.tar.xz_1716802366.spdx
+documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pciutils-3.7.0.tar.xz_1717151504.spdx
 files:
 - SPDXID: SPDXRef-item543227
   attributionTexts:
@@ -42,7 +42,8 @@ files:
 
 
     Thus, we concluded Dual-license with GPL-2.0-or-later OR BSD-3-Clause. '
-  licenseConcluded: LicenseRef-BSD-3-Clause OR LicenseRef-GPL-2.0-or-later
+  licenseConcluded: LicenseRef-BSD-3-Clause AND LicenseRef-Dual-license-3fa89356002e227741ac17d2d1bb8fe5
+    AND LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
   - LicenseRef-GPL-2.0-only
   - LicenseRef-BSD-3-Clause
@@ -1928,8 +1929,11 @@ files:
   - LicenseRef-GPL-2.0-or-later
   - LicenseRef-gpl-1.0-plus
 hasExtractedLicensingInfos:
-- extractedText: ' Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions are met:
+- extractedText: ' Copyright (c) <year> <owner>.
+
+
+    Redistribution and use in source and binary forms, with or without modification,
+    are permitted provided that the following conditions are met:
 
 
     1. Redistributions of source code must retain the above copyright notice, this
@@ -2182,17 +2186,8 @@ hasExtractedLicensingInfos:
     \n "
   licenseId: LicenseRef-GPL-2.0-or-later
   name: GNU General Public License v2.0 or later
-- extractedText: ' Multi-licensing is the practice of distributing software under
-    two or more different sets of terms and conditions. This may mean multiple different
-    software licenses or sets of licenses. Prefixes may be used to indicate the number
-    of licenses used, e.g. dual-licensed for software licensed under two different
-    licenses.
-
-    When software is multi-licensed, recipients can choose which terms under which
-    they want to use or distribute the software. The distributor may or may not apply
-    a fee to either option. The two usual motivations for multi-licensing are license
-    compatibility and market segregation based business models. '
-  licenseId: LicenseRef-Dual-license
+- extractedText: ' License: BSD-3-Clause OR GPL-2.0-or-later '
+  licenseId: LicenseRef-Dual-license-3fa89356002e227741ac17d2d1bb8fe5
   name: Dual-license
 - extractedText: ' Public domain '
   licenseId: LicenseRef-Public-domain
@@ -2430,6 +2425,18 @@ hasExtractedLicensingInfos:
     \ Ty Coon, President of Vice\n "
   licenseId: LicenseRef-GPL-2.0-only
   name: GNU General Public License v2.0 only
+- extractedText: ' Multi-licensing is the practice of distributing software under
+    two or more different sets of terms and conditions. This may mean multiple different
+    software licenses or sets of licenses. Prefixes may be used to indicate the number
+    of licenses used, e.g. dual-licensed for software licensed under two different
+    licenses.
+
+    When software is multi-licensed, recipients can choose which terms under which
+    they want to use or distribute the software. The distributor may or may not apply
+    a fee to either option. The two usual motivations for multi-licensing are license
+    compatibility and market segregation based business models. '
+  licenseId: LicenseRef-Dual-license
+  name: Dual-license
 - extractedText: ' License by Scancode. '
   licenseId: LicenseRef-bsd-new
   name: BSD-3-Clause
