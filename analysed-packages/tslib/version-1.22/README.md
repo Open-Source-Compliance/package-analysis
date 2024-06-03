@@ -4,7 +4,7 @@ https://github.com/kergoth/tslib/releases/download/1.22/tslib-1.22.tar.xz
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:github/kergoth/tslib@1.22
 
 ## Creator
 
