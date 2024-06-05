@@ -286,7 +286,7 @@ class FileNameParser:
         return new_line_list
 
     def read_parse_file(self):
-        with open(self.file_path, "r") as file1:
+        with open(self.file_path, "r", encoding='utf-8', errors='ignore') as file1:
             lines= file1.readlines()
             if ".txt" in self.file_path:
                 final = self.work_on_txt_line_by_line(lines)

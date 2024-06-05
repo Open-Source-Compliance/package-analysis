@@ -81,7 +81,7 @@ class FilesGenerator:
             self.final_file_path = os.path.join(self.generated_folder_path, file_name)
         if not self.final_file_path:
             raise MissingOutputPathException("Final output path is empty! It can not generate the new file")
-        with open(self.final_file_path, "w") as file:
+        with open(self.final_file_path, "w",  encoding='utf-8', errors='ignore') as file:
             for line in final_file:
                 file.write(line)
 
