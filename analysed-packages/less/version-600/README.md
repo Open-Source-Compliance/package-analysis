@@ -4,7 +4,7 @@ http://download.openpkg.org/components/cache/less/less-600.tar.gz
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:generic/less@600?download_url=http://download.openpkg.org/components/cache/less/less-600.tar.gz
 
 ## Creator
 
