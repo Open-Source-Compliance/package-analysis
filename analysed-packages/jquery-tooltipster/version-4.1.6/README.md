@@ -4,7 +4,7 @@ https://github.com/calebjacob/tooltipster/archive/refs/tags/4.1.6.zip
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:github/calebjacob/tooltipster@4.1.6
 
 ## Creator
 
