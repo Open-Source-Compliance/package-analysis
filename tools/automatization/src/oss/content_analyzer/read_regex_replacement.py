@@ -5,11 +5,17 @@ from oss.types.operation_case import OperationCase
 from oss.default_replacement import Default_TXT_Replacements_Single, Default_TXT_Replacements_Multi
 from oss.default_replacement import Default_SPDX_Replacements_Single, Default_SPDX_Replacements_Multi
 
-parser.add_argument('--replacement_regex_txt', metavar="find_text=replace_text another_find_text=another_replace_text",
+parser.add_argument('--replacement_regex_txt', metavar="find_text=replace_text,another_find_text=another_replace_text",
                     nargs='+',
                     help="Set a number of key-value pairs"
                     "values are always treated as strings.")
-parser.add_argument('--replacement_regex_spdx', metavar="find_text=replace_text another_find_text=another_replace_text",
+
+parser.add_argument('--replacement_regex_spdx', metavar="find_text=replace_text,another_find_text=another_replace_text",
+                    nargs='+',
+                    help="Set a number of key-value pairs"
+                    "values are always treated as strings.")
+
+parser.add_argument('--dual_license_comment', metavar="selected_license=second_license,another_selected_license=another_second_license",
                     nargs='+',
                     help="Set a number of key-value pairs"
                     "values are always treated as strings.")
@@ -54,12 +60,13 @@ class ReadRegexReplacement:
             default_parameters_multi = Default_SPDX_Replacements_Multi
         return (config_parameter_single, default_parameters_single) , default_parameters_multi
     @staticmethod
-    def get_text_and_replacement_from_cmd(config_parameter, default_parameters):
+    def get_text_and_replacement_from_cmd(config_parameter, default_parameters= None):
         """
         Get all the key and value lists of items that should be replaced.
         """
         data = {}
-        data.update(default_parameters)
+        if default_parameters:
+            data.update(default_parameters)
         double_quotes = '"'
         if not config_parameter:
             return data

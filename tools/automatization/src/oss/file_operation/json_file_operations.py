@@ -11,7 +11,7 @@ class JsonFileOperations(FileOperations):
     def read_file(self):
         if os.path.exists(self.file_path):
             if os.stat(self.file_path).st_size != 0:
-                with open(self.file_path) as f:
+                with open(self.file_path, encoding='utf-8', errors='ignore') as f:
                     data = json.load(f)
                     if data:
                         return data
@@ -19,7 +19,7 @@ class JsonFileOperations(FileOperations):
 
     def write_file(self, config):
         # Writing to sample.json
-        with open(self.file_path, 'w') as file:
+        with open(self.file_path, 'w', encoding='utf-8', errors='ignore') as file:
             file.seek(0)
             json.dump(config, file,  indent=4)
             file.truncate()
