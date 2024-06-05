@@ -4,7 +4,7 @@ https://github.com/rsyslog/libfastjson/archive/refs/tags/v0.99.9.zip
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:github/rsyslog/libfastjson@v0.99.9
 
 ## Creator
 
