@@ -9,14 +9,35 @@ creationInfo:
     Please check "LicenseComments" for explanations of concluded licenses.
 
     '
-  created: '2024-06-03T06:43:02Z'
+  created: '2024-06-06T08:03:17Z'
   creators:
   - 'Tool: fossology-4.4.0'
   - 'Person: Sascha Dierberg'
   licenseListVersion: '3.22'
 dataLicense: CC0-1.0
-documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pyserial-3.5.tar.gz_1717396981.spdx
+documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pyserial-3.5.tar.gz_1717660997.spdx
 files:
+- SPDXID: SPDXRef-item462703
+  checksums:
+  - algorithm: SHA1
+    checksumValue: be886d45cf3d90aa7c755f928f4e9271601b5733
+  - algorithm: SHA256
+    checksumValue: c4b48ac45d6816310495f071fbcfce054ea7b027294250903cbb236b1ed9f401
+  - algorithm: MD5
+    checksumValue: 810450d16a81c6ca5e0f5a0efb3df99a
+  copyrightText: ' (C) 2011 Chris Liechti <cliechti@gmx.net> '
+  fileName: pyserial-3.5.tar.gz/pyserial-3.5.tar/pyserial-3.5/test/handlers/protocol_test.py
+  licenseComments: ' The information in the file is:
+
+
+    this is distributed under a free software license, see license.txt
+
+
+    Thus, we concluded BSD-3-Clause. '
+  licenseConcluded: LicenseRef-BSD-3-Clause-b74539f9b0dff65081fd9fc814bdfb70
+  licenseInfoInFiles:
+  - LicenseRef-See-file.LICENSE
+  - LicenseRef-unknown-license-reference
 - SPDXID: SPDXRef-item462763
   checksums:
   - algorithm: SHA1
@@ -749,27 +770,6 @@ files:
   licenseInfoInFiles:
   - LicenseRef-BSD-3-Clause
   - LicenseRef-bsd-new
-- SPDXID: SPDXRef-item462703
-  checksums:
-  - algorithm: SHA1
-    checksumValue: be886d45cf3d90aa7c755f928f4e9271601b5733
-  - algorithm: SHA256
-    checksumValue: c4b48ac45d6816310495f071fbcfce054ea7b027294250903cbb236b1ed9f401
-  - algorithm: MD5
-    checksumValue: 810450d16a81c6ca5e0f5a0efb3df99a
-  copyrightText: ' (C) 2011 Chris Liechti <cliechti@gmx.net> '
-  fileName: pyserial-3.5.tar.gz/pyserial-3.5.tar/pyserial-3.5/test/handlers/protocol_test.py
-  licenseComments: ' The information in the file is:
-
-
-    this is distributed under a free software license, see license.txt
-
-
-    Thus, we concluded BSD-3-Clause. '
-  licenseConcluded: LicenseRef-BSD-3-Clause-b74539f9b0dff65081fd9fc814bdfb70
-  licenseInfoInFiles:
-  - LicenseRef-See-file.LICENSE
-  - LicenseRef-unknown-license-reference
 - SPDXID: SPDXRef-item462704
   checksums:
   - algorithm: SHA1
@@ -1320,7 +1320,7 @@ packages:
   licenseDeclared: LicenseRef-BSD-3-Clause-b74539f9b0dff65081fd9fc814bdfb70
   licenseInfoFromFiles:
   - NOASSERTION
-  name: pyserial-3.5.tar.gz
+  name: pyserial-3.5
   packageFileName: pyserial-3.5.tar.gz
   packageVerificationCode:
     packageVerificationCodeValue: 9f874228c9dc3113cde86efd5bd195f796fdbc39
@@ -1328,6 +1328,9 @@ relationships:
 - relatedSpdxElement: SPDXRef-upload129
   relationshipType: DESCRIBES
   spdxElementId: SPDXRef-DOCUMENT
+- relatedSpdxElement: SPDXRef-item462703
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload129
 - relatedSpdxElement: SPDXRef-item462763
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload129
@@ -1482,9 +1485,6 @@ relationships:
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload129
 - relatedSpdxElement: SPDXRef-item462691
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload129
-- relatedSpdxElement: SPDXRef-item462703
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload129
 - relatedSpdxElement: SPDXRef-item462704
