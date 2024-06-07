@@ -7,6 +7,8 @@ from oss.file_operation.file_analyzer import FileAnalyzer
 from oss.types.operation_boolean import OperationBoolean
 
 parser.add_argument('-v', '--validation',  type=OperationBoolean, choices=list(OperationBoolean), help='Validate all the generated files(default value is %(default)s)' , default= "true")
+parser.add_argument('-rmg', '--readme_generation',  type=OperationBoolean, choices=list(OperationBoolean), help='Generate Readme file (default value is %(default)s)' , default= "true")
+parser.add_argument('-ossg', '--oss_generation',  type=OperationBoolean, choices=list(OperationBoolean), help='Generate oss_disclosure file (default value is %(default)s)' , default= "true")
 
 
 class FilesGeneratorException(Exception):
@@ -54,9 +56,11 @@ class FilesGenerator:
             self.validate_file(generated_file_path)
 
     def generate_files(self):
-        result_txt = self.generate_txt_files()
+        if parser["oss_generation"] == OperationBoolean.true:
+            result_txt = self.generate_txt_files()
         result_spdx = self.generate_spdx_files()
-        self.generate_readme()
+        if parser["readme_generation"] == OperationBoolean.true:
+            self.generate_readme()
 
     @classmethod
     def create (cls, input_path: str, output_path: str, readme_file: str):
