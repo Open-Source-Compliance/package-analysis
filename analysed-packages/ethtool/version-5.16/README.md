@@ -16,7 +16,3 @@ The information was reviewed by:
 
 * Dorothea Kraus
 * Oliver Fendt
-
-## Comment
-
-This package is dual licensed under GPL-2.0-only OR BSD-2-Clause. To facilitate automatic use, a default license choice of BSD-2-Clause is denoted in the Acknowledgment section of the OSS disclosure document. This shall not restrict the freedom of users to choose either GPL-2.0-only OR BSD-2-Clause. For convenience all license texts are provided.
