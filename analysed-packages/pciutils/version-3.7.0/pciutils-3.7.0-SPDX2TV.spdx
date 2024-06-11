@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pciutils-3.7.0.tar.xz_1717151504.spdx
+DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pciutils-3.7.0.tar.xz_1718085856.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of pciutils 3.7.0.
 Please check "LicenseComments" for explanations of concluded licenses.
 </text>
-Created: 2024-05-31T10:31:45Z
+Created: 2024-06-11T06:04:17Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -28,7 +28,7 @@ LicenseListVersion: 3.22
 ##-------------------------
 
 
-PackageName: pciutils-3.7.0.tar.xz
+PackageName: pciutils-3.7.0
 PackageFileName: pciutils-3.7.0.tar.xz
 SPDXID: SPDXRef-upload197
 PackageDownloadLocation: NOASSERTION
@@ -61,12 +61,23 @@ SPDXID: SPDXRef-item543227
 FileChecksum: SHA1: 4dadc33ef2e40062416f3b9c94f33bbdc42ead1f
 FileChecksum: SHA256: 94053616c1f9b93540861931fb7891b1b30d6fd21b3e2c1647467527ea38f557
 FileChecksum: MD5: 88255db5987b6291bc6f37dce8e29ff6
-LicenseConcluded: LicenseRef-BSD-3-Clause OR LicenseRef-GPL-2.0-or-later
+LicenseConcluded: LicenseRef-BSD-3-Clause-8d8b0539fa1d605c3e5ed913c31623a9 OR LicenseRef-GPL-2.0-or-later
 LicenseComments: <text> The information in the file is:
+Maintained by Albert Pool, Martin Mares, and other volunteers from
+the PCI ID Project at https://pci-ids.ucw.cz/.
 
-This file can be distributed under either the GNU General Public License (version 2 or higher) or the 3-clause BSD License.
+New data are always welcome, especially if they are accurate. If you have
+anything to contribute, please follow the instructions at the web site.
 
-Thus, we concluded Dual-license with GPL-2.0-or-later OR BSD-3-Clause. </text>
+This file can be distributed under either the GNU General Public License
+(version 2 or higher) or the 3-clause BSD License.
+
+
+We checked the given link https://pci-ids.ucw.cz/, the site provides among others the following information:
+
+The contents of the database and the generated files can be distributed under the terms of either the GNU General Public License (version 2 or later) or of the 3-clause BSD License. The database is a compilation of factual data, and as such the copyright only covers the aggregation and formatting.
+
+The BSD-3-Clause term is a link to https://opensource.org/license/bsd-3-clause/ we used the license text displayed there for the BSD-3-Clause license. </text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-only
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-Dual-license
@@ -76,6 +87,22 @@ FileCopyrightText: <text> copyright is held by Martin Mares and Albert Pool.
 (C) 8255 Digital Input / Output Card
 (C) 8255 Digital Input / Output Card </text>
 FileAttributionText: <text> To the extent that files may be licensed under either BSD-3-Clause or GPL-2.0-or-later, in this context, BSD-3-Clause has  been chosen. This choice shall not restrict the freedom of other users to select either BSD-3-Clause or GPL-2.0-or-later licenses. For convenience, all license texts are provided. </text>
+
+##File
+
+FileName: pciutils-3.7.0.tar.xz/pciutils-3.7.0/example.c
+SPDXID: SPDXRef-item543339
+FileChecksum: SHA1: 5c192203eff52bf0b91cae71fb33deb3717496e4
+FileChecksum: SHA256: 2ba5a0c0fd54b916a4f50df35f112cb6482ca2ba32b2305480fec2936dc59ec2
+FileChecksum: MD5: 836c142ec3c5dd704819f8dd5a222406
+LicenseConcluded: LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+
+Written by Martin Mares and put to public domain. You can do with it anything you want, but I don't give you any warranty.
+
+Thus, we concluded Public-domain. </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: NOASSERTION
 
 ##File
 
@@ -888,22 +915,6 @@ FileCopyrightText: <text> Copyright (c) 1997--2018 Martin Mares <mj@ucw.cz> </te
 
 ##File
 
-FileName: pciutils-3.7.0.tar.xz/pciutils-3.7.0/example.c
-SPDXID: SPDXRef-item543339
-FileChecksum: SHA1: 5c192203eff52bf0b91cae71fb33deb3717496e4
-FileChecksum: SHA256: 2ba5a0c0fd54b916a4f50df35f112cb6482ca2ba32b2305480fec2936dc59ec2
-FileChecksum: MD5: 836c142ec3c5dd704819f8dd5a222406
-LicenseConcluded: LicenseRef-Public-domain
-LicenseComments: <text> The information in the file is:
-
-Written by Martin Mares and put to public domain. You can do with it anything you want, but I don't give you any warranty.
-
-Thus, we concluded Public-domain </text>
-LicenseInfoInFile: LicenseRef-Public-domain
-FileCopyrightText: NOASSERTION
-
-##File
-
 FileName: pciutils-3.7.0.tar.xz/pciutils-3.7.0/compat/getopt.h
 SPDXID: SPDXRef-item543336
 FileChecksum: SHA1: 62e5c13a1055d1bad576a1989cf49291a1c7839c
@@ -1616,22 +1627,6 @@ FileCopyrightText: <text> Copyright (c) 1997--2020 Martin Mares <mj@ucw.cz> </te
 
 
   
-LicenseID: LicenseRef-BSD-3-Clause
-LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> Copyright (c) <year> <owner>.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
-
-
-  
 LicenseID: LicenseRef-GPL-2.0-or-later
 LicenseName: GNU General Public License v2.0 or later
 ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
@@ -1757,6 +1752,20 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
 < signature of Ty Coon > , 1 April 1989 Ty Coon, President of Vice
 
  </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-8d8b0539fa1d605c3e5ed913c31623a9
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
 
   
 
@@ -1905,6 +1914,22 @@ You should also get your employer (if you work as a programmer) or your school, 
 
 signature of Ty Coon, 1 April 1989 Ty Coon, President of Vice
  </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
 
 
 

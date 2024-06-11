@@ -9,13 +9,13 @@ creationInfo:
     Please check "LicenseComments" for explanations of concluded licenses.
 
     '
-  created: '2024-05-31T10:31:45Z'
+  created: '2024-06-11T06:04:17Z'
   creators:
   - 'Tool: fossology-4.4.0'
   - 'Person: Sascha Dierberg'
   licenseListVersion: '3.22'
 dataLicense: CC0-1.0
-documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pciutils-3.7.0.tar.xz_1717151504.spdx
+documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pciutils-3.7.0.tar.xz_1718085856.spdx
 files:
 - SPDXID: SPDXRef-item543227
   attributionTexts:
@@ -36,18 +36,61 @@ files:
   fileName: pciutils-3.7.0.tar.xz/pciutils-3.7.0/pci.ids
   licenseComments: ' The information in the file is:
 
+    Maintained by Albert Pool, Martin Mares, and other volunteers from
 
-    This file can be distributed under either the GNU General Public License (version
-    2 or higher) or the 3-clause BSD License.
+    the PCI ID Project at https://pci-ids.ucw.cz/.
 
 
-    Thus, we concluded Dual-license with GPL-2.0-or-later OR BSD-3-Clause. '
-  licenseConcluded: LicenseRef-BSD-3-Clause OR LicenseRef-GPL-2.0-or-later
+    New data are always welcome, especially if they are accurate. If you have
+
+    anything to contribute, please follow the instructions at the web site.
+
+
+    This file can be distributed under either the GNU General Public License
+
+    (version 2 or higher) or the 3-clause BSD License.
+
+
+
+    We checked the given link https://pci-ids.ucw.cz/, the site provides among others
+    the following information:
+
+
+    The contents of the database and the generated files can be distributed under
+    the terms of either the GNU General Public License (version 2 or later) or of
+    the 3-clause BSD License. The database is a compilation of factual data, and as
+    such the copyright only covers the aggregation and formatting.
+
+
+    The BSD-3-Clause term is a link to https://opensource.org/license/bsd-3-clause/
+    we used the license text displayed there for the BSD-3-Clause license. '
+  licenseConcluded: LicenseRef-BSD-3-Clause-8d8b0539fa1d605c3e5ed913c31623a9 OR LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
   - LicenseRef-GPL-2.0-only
   - LicenseRef-BSD-3-Clause
   - LicenseRef-Dual-license
   - LicenseRef-bsd-new
+- SPDXID: SPDXRef-item543339
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 5c192203eff52bf0b91cae71fb33deb3717496e4
+  - algorithm: SHA256
+    checksumValue: 2ba5a0c0fd54b916a4f50df35f112cb6482ca2ba32b2305480fec2936dc59ec2
+  - algorithm: MD5
+    checksumValue: 836c142ec3c5dd704819f8dd5a222406
+  copyrightText: NOASSERTION
+  fileName: pciutils-3.7.0.tar.xz/pciutils-3.7.0/example.c
+  licenseComments: ' The information in the file is:
+
+
+    Written by Martin Mares and put to public domain. You can do with it anything
+    you want, but I don''t give you any warranty.
+
+
+    Thus, we concluded Public-domain. '
+  licenseConcluded: LicenseRef-Public-domain
+  licenseInfoInFiles:
+  - LicenseRef-Public-domain
 - SPDXID: SPDXRef-item543342
   checksums:
   - algorithm: SHA1
@@ -96,7 +139,7 @@ files:
     checksumValue: 58177b804de0e3da75ff8a657c1921ce8e28d4475cb69fc97f1af1f15d22f631
   - algorithm: MD5
     checksumValue: 74bef6d536eff6f3cba5bbde199177ad
-  copyrightText: " Copyright (c) 2017 Joan Lled\xC3\xB3 <jlledom@member.fsf.org> "
+  copyrightText: " Copyright (c) 2017 Joan Lled\xF3 <jlledom@member.fsf.org> "
   fileName: pciutils-3.7.0.tar.xz/pciutils-3.7.0/lib/hurd.c
   licenseComments: ' The information in the file is:
 
@@ -856,7 +899,7 @@ files:
   - algorithm: MD5
     checksumValue: 019b75d4769184462424bc4adf4ef9d0
   copyrightText: " Copyright (c) 1999 Jari Kirma <kirma@cs.hut.fi> Updated in 2003\
-    \ by Samy Al Bahra <samy@kerneled.com> Updated in 2017 by Imre Vad\xC3\xA1sz <imrevdsz@gmail.com> "
+    \ by Samy Al Bahra <samy@kerneled.com> Updated in 2017 by Imre Vad\xE1sz <imrevdsz@gmail.com> "
   fileName: pciutils-3.7.0.tar.xz/pciutils-3.7.0/lib/fbsd-device.c
   licenseComments: ' The information in the file is:
 
@@ -1068,27 +1111,6 @@ files:
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
   - GPL-1.0-or-later
-- SPDXID: SPDXRef-item543339
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 5c192203eff52bf0b91cae71fb33deb3717496e4
-  - algorithm: SHA256
-    checksumValue: 2ba5a0c0fd54b916a4f50df35f112cb6482ca2ba32b2305480fec2936dc59ec2
-  - algorithm: MD5
-    checksumValue: 836c142ec3c5dd704819f8dd5a222406
-  copyrightText: NOASSERTION
-  fileName: pciutils-3.7.0.tar.xz/pciutils-3.7.0/example.c
-  licenseComments: ' The information in the file is:
-
-
-    Written by Martin Mares and put to public domain. You can do with it anything
-    you want, but I don''t give you any warranty.
-
-
-    Thus, we concluded Public-domain '
-  licenseConcluded: LicenseRef-Public-domain
-  licenseInfoInFiles:
-  - LicenseRef-Public-domain
 - SPDXID: SPDXRef-item543336
   checksums:
   - algorithm: SHA1
@@ -1928,39 +1950,6 @@ files:
   - LicenseRef-GPL-2.0-or-later
   - LicenseRef-gpl-1.0-plus
 hasExtractedLicensingInfos:
-- extractedText: ' Copyright (c) <year> <owner>.
-
-
-    Redistribution and use in source and binary forms, with or without modification,
-    are permitted provided that the following conditions are met:
-
-
-    1. Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-
-
-    2. Redistributions in binary form must reproduce the above copyright notice, this
-    list of conditions and the following disclaimer in the documentation and/or other
-    materials provided with the distribution.
-
-
-    3. Neither the name of the copyright holder nor the names of its contributors
-    may be used to endorse or promote products derived from this software without
-    specific prior written permission.
-
-
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-    IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
-    INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-    BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
-    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
-    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
-    OF THE POSSIBILITY OF SUCH DAMAGE. '
-  licenseId: LicenseRef-BSD-3-Clause
-  name: BSD 3-Clause "New" or "Revised" License
 - extractedText: " GNU GENERAL PUBLIC LICENSE\n\nVersion 2, June 1991\n\nCopyright\
     \ (C) 1989, 1991 Free Software Foundation, Inc.\n\n51 Franklin Street, Fifth Floor,\
     \ Boston, MA 02110-1301, USA\n\nEveryone is permitted to copy and distribute verbatim\
@@ -2185,6 +2174,27 @@ hasExtractedLicensingInfos:
     \n "
   licenseId: LicenseRef-GPL-2.0-or-later
   name: GNU General Public License v2.0 or later
+- extractedText: " Redistribution and use in source and binary forms, with or without\
+    \ modification, are permitted provided that the following conditions are met:\n\
+    \n1. Redistributions of source code must retain the above copyright notice, this\
+    \ list of conditions and the following disclaimer.\n\n2. Redistributions in binary\
+    \ form must reproduce the above copyright notice, this list of conditions and\
+    \ the following disclaimer in the documentation and/or other materials provided\
+    \ with the distribution.\n\n3. Neither the name of the copyright holder nor the\
+    \ names of its contributors may be used to endorse or promote products derived\
+    \ from this software without specific prior written permission.\n\nTHIS SOFTWARE\
+    \ IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \u201CAS IS\u201D AND\
+    \ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\
+    \ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\
+    \ IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\
+    \ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\
+    \ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\
+    \ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY\
+    \ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\
+    \ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\
+    \ OF THE POSSIBILITY OF SUCH DAMAGE. "
+  licenseId: LicenseRef-BSD-3-Clause-8d8b0539fa1d605c3e5ed913c31623a9
+  name: BSD 3-Clause "New" or "Revised" License
 - extractedText: ' License: BSD-3-Clause OR GPL-2.0-or-later '
   licenseId: LicenseRef-Dual-license-3fa89356002e227741ac17d2d1bb8fe5
   name: Dual-license
@@ -2424,6 +2434,39 @@ hasExtractedLicensingInfos:
     \ Ty Coon, President of Vice\n "
   licenseId: LicenseRef-GPL-2.0-only
   name: GNU General Public License v2.0 only
+- extractedText: ' Copyright (c) <year> <owner>.
+
+
+    Redistribution and use in source and binary forms, with or without modification,
+    are permitted provided that the following conditions are met:
+
+
+    1. Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+
+
+    2. Redistributions in binary form must reproduce the above copyright notice, this
+    list of conditions and the following disclaimer in the documentation and/or other
+    materials provided with the distribution.
+
+
+    3. Neither the name of the copyright holder nor the names of its contributors
+    may be used to endorse or promote products derived from this software without
+    specific prior written permission.
+
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+    IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+    INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+    BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+    OF THE POSSIBILITY OF SUCH DAMAGE. '
+  licenseId: LicenseRef-BSD-3-Clause
+  name: BSD 3-Clause "New" or "Revised" License
 - extractedText: ' Multi-licensing is the practice of distributing software under
     two or more different sets of terms and conditions. This may mean multiple different
     software licenses or sets of licenses. Prefixes may be used to indicate the number
@@ -2567,6 +2610,9 @@ relationships:
   relationshipType: DESCRIBES
   spdxElementId: SPDXRef-DOCUMENT
 - relatedSpdxElement: SPDXRef-item543227
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload197
+- relatedSpdxElement: SPDXRef-item543339
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload197
 - relatedSpdxElement: SPDXRef-item543342
@@ -2717,9 +2763,6 @@ relationships:
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload197
 - relatedSpdxElement: SPDXRef-item543223
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload197
-- relatedSpdxElement: SPDXRef-item543339
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload197
 - relatedSpdxElement: SPDXRef-item543336

@@ -14,4 +14,5 @@ Sascha Dierberg
 
 The information was reviewed by:
 
-* [Reviewer]
+* Dorothea Kraus
+* Sascha Teichmann
