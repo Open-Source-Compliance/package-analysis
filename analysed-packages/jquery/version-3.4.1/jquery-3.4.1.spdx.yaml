@@ -9,14 +9,37 @@ creationInfo:
     Please check "LicenseComments" for explanations of concluded licenses.
 
     '
-  created: '2024-06-05T07:50:00Z'
+  created: '2024-06-11T07:46:02Z'
   creators:
   - 'Tool: fossology-4.4.0'
   - 'Person: Sascha Dierberg'
   licenseListVersion: '3.22'
 dataLicense: CC0-1.0
-documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jquery-3.4.1.tar.gz_1717573799.spdx
+documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_jquery-3.4.1.tar.gz_1718091961.spdx
 files:
+- SPDXID: SPDXRef-item491702
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 33bc97e78f4905e72b4c1eb2ca0a4662588443e3
+  - algorithm: SHA256
+    checksumValue: 9485f0917f97fcf4f63a5ea365200ffd57f123f451382a2f9a1ad2e2fd51ac9b
+  - algorithm: MD5
+    checksumValue: f0cc8bbb2fcef87fc194fecbb632fcfa
+  copyrightText: ' Copyright jQuery Foundation and other contributors '
+  fileName: jquery-3.4.1.tar.gz/jquery-3.4.1.tar/jquery-3.4.1/external/requirejs/require.js
+  licenseComments: ' File contains "Released under MIT license, https://github.com/requirejs/requirejs/blob/master/LICENSE"
+
+
+    We followed the link and found RequireJS.
+
+
+    Thus, we concluded RequireJS.
+
+
+    The information was retrieved on 3rd of June 2024. '
+  licenseConcluded: LicenseRef-RequireJS
+  licenseInfoInFiles:
+  - LicenseRef-MIT
 - SPDXID: SPDXRef-item491697
   checksums:
   - algorithm: SHA1
@@ -44,7 +67,7 @@ files:
 
 
     Thus, we concluded MIT. '
-  licenseConcluded: Apache-2.0 AND LicenseRef-MIT AND LicenseRef-warranty-disclaimer-3128280e49c8d997f279fe7f6b35d52a
+  licenseConcluded: Apache-2.0 AND LicenseRef-MIT
   licenseInfoInFiles:
   - Apache-2.0
   - LicenseRef-MIT
@@ -90,31 +113,6 @@ files:
   - LicenseRef-Unlicense
   - LicenseRef-unknown-license-reference
   - LicenseRef-bsd-new
-- SPDXID: SPDXRef-item491702
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 33bc97e78f4905e72b4c1eb2ca0a4662588443e3
-  - algorithm: SHA256
-    checksumValue: 9485f0917f97fcf4f63a5ea365200ffd57f123f451382a2f9a1ad2e2fd51ac9b
-  - algorithm: MD5
-    checksumValue: f0cc8bbb2fcef87fc194fecbb632fcfa
-  copyrightText: ' Copyright jQuery Foundation and other contributors '
-  fileName: jquery-3.4.1.tar.gz/jquery-3.4.1.tar/jquery-3.4.1/external/requirejs/require.js
-  licenseComments: ' File contains "Released under MIT license, https://github.com/requirejs/requirejs/blob/master/LICENSE"
-
-    File contains "Released under MIT license, https://github.com/requirejs/requirejs/blob/master/LICENSE"
-
-
-    We followed the link and found RequireJS.
-
-
-    Thus, we concluded RequireJS.
-
-
-    The information was retrieved on 3rd of June 2024. '
-  licenseConcluded: LicenseRef-MIT AND LicenseRef-RequireJS
-  licenseInfoInFiles:
-  - LicenseRef-MIT
 - SPDXID: SPDXRef-item491723
   checksums:
   - algorithm: SHA1
@@ -308,19 +306,6 @@ files:
   licenseComments: ' Following the link "MIT License: http://getify.mit-license.org"
     in the file we concluded MIT. '
   licenseConcluded: LicenseRef-MIT-cf197bd5d4094c2d8f76ed82f4786aef
-  licenseInfoInFiles:
-  - LicenseRef-MIT
-- SPDXID: SPDXRef-item491859
-  checksums:
-  - algorithm: SHA1
-    checksumValue: fcf3a2474ae0d8e6ce39e4bc915915e4b4bd32b8
-  - algorithm: SHA256
-    checksumValue: 1ff603118efdb313799567cb4a408594954384f40843ca6f29c596f5b1f8907d
-  - algorithm: MD5
-    checksumValue: 75308107741f7dcdc39127209c7e3fc8
-  copyrightText: ' Copyright JS Foundation and other contributors '
-  fileName: jquery-3.4.1.tar.gz/jquery-3.4.1.tar/jquery-3.4.1/LICENSE.txt
-  licenseConcluded: LicenseRef-MIT
   licenseInfoInFiles:
   - LicenseRef-MIT
 - SPDXID: SPDXRef-item491546
@@ -3615,6 +3600,19 @@ files:
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
   - NOASSERTION
+- SPDXID: SPDXRef-item491859
+  checksums:
+  - algorithm: SHA1
+    checksumValue: fcf3a2474ae0d8e6ce39e4bc915915e4b4bd32b8
+  - algorithm: SHA256
+    checksumValue: 1ff603118efdb313799567cb4a408594954384f40843ca6f29c596f5b1f8907d
+  - algorithm: MD5
+    checksumValue: 75308107741f7dcdc39127209c7e3fc8
+  copyrightText: ' Copyright JS Foundation and other contributors '
+  fileName: jquery-3.4.1.tar.gz/jquery-3.4.1.tar/jquery-3.4.1/LICENSE.txt
+  licenseConcluded: NOASSERTION
+  licenseInfoInFiles:
+  - LicenseRef-MIT
 - SPDXID: SPDXRef-item491860
   checksums:
   - algorithm: SHA1
@@ -4116,6 +4114,86 @@ files:
   licenseInfoInFiles:
   - NOASSERTION
 hasExtractedLicensingInfos:
+- extractedText: ' Copyright jQuery Foundation and other contributors, https://jquery.org/
+
+
+    This software consists of voluntary contributions made by many
+
+    individuals. For exact contribution history, see the revision history
+
+    available at https://github.com/requirejs/requirejs
+
+
+    The following license applies to all parts of this software except as
+
+    documented below:
+
+
+    ====
+
+
+    Permission is hereby granted, free of charge, to any person obtaining
+
+    a copy of this software and associated documentation files (the
+
+    "Software"), to deal in the Software without restriction, including
+
+    without limitation the rights to use, copy, modify, merge, publish,
+
+    distribute, sublicense, and/or sell copies of the Software, and to
+
+    permit persons to whom the Software is furnished to do so, subject to
+
+    the following conditions:
+
+
+    The above copyright notice and this permission notice shall be
+
+    included in all copies or substantial portions of the Software.
+
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+
+    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+
+    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+
+    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+    ====
+
+
+    Copyright and related rights for sample code are waived via CC0. Sample
+
+    code is defined as all source code displayed within the prose of the
+
+    documentation.
+
+
+    CC0: http://creativecommons.org/publicdomain/zero/1.0/
+
+
+    ====
+
+
+    Files located in the node_modules directory, and certain utilities used
+
+    to build or test the software in the test and dist directories, are
+
+    externally maintained libraries used by this software which have their own
+
+    licenses; we recommend you read them, as their terms may differ from the
+
+    terms above. '
+  licenseId: LicenseRef-RequireJS
+  name: RequireJS
 - extractedText: ' MIT License
 
 
@@ -4272,17 +4350,6 @@ hasExtractedLicensingInfos:
     \ "
   licenseId: LicenseRef-Apache-2.0
   name: Apache License 2.0
-- extractedText: ' Unless required by applicable law or agreed to in writing, software
-
-    distributed under the License is distributed on an "AS IS" BASIS,
-
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-
-    See the License for the specific language governing permissions and
-
-    limitations under the License. '
-  licenseId: LicenseRef-warranty-disclaimer-3128280e49c8d997f279fe7f6b35d52a
-  name: Generic Bare Warranty Disclaimer
 - extractedText: ' Redistribution and use in source and binary forms, with or without
     modification,
 
@@ -4331,86 +4398,6 @@ hasExtractedLicensingInfos:
 - extractedText: ' Public domain '
   licenseId: LicenseRef-Public-domain
   name: Public domain software
-- extractedText: ' Copyright jQuery Foundation and other contributors, https://jquery.org/
-
-
-    This software consists of voluntary contributions made by many
-
-    individuals. For exact contribution history, see the revision history
-
-    available at https://github.com/requirejs/requirejs
-
-
-    The following license applies to all parts of this software except as
-
-    documented below:
-
-
-    ====
-
-
-    Permission is hereby granted, free of charge, to any person obtaining
-
-    a copy of this software and associated documentation files (the
-
-    "Software"), to deal in the Software without restriction, including
-
-    without limitation the rights to use, copy, modify, merge, publish,
-
-    distribute, sublicense, and/or sell copies of the Software, and to
-
-    permit persons to whom the Software is furnished to do so, subject to
-
-    the following conditions:
-
-
-    The above copyright notice and this permission notice shall be
-
-    included in all copies or substantial portions of the Software.
-
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-
-    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-
-    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-
-    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-
-    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-
-    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-
-    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-    ====
-
-
-    Copyright and related rights for sample code are waived via CC0. Sample
-
-    code is defined as all source code displayed within the prose of the
-
-    documentation.
-
-
-    CC0: http://creativecommons.org/publicdomain/zero/1.0/
-
-
-    ====
-
-
-    Files located in the node_modules directory, and certain utilities used
-
-    to build or test the software in the test and dist directories, are
-
-    externally maintained libraries used by this software which have their own
-
-    licenses; we recommend you read them, as their terms may differ from the
-
-    terms above. '
-  licenseId: LicenseRef-RequireJS
-  name: RequireJS
 - extractedText: " Permission is hereby granted, free of charge, to any person obtaining\
     \ a copy of this software and associated documentation files (the \u201CSoftware\u201D\
     ), to deal in the Software without restriction, including without limitation the\
@@ -4543,7 +4530,153 @@ packages:
     checksumValue: 4b58238a27515e242c3fca7f56b4b9d99229cf40f6d6f84554f55ce9d2633c19
   - algorithm: MD5
     checksumValue: 35184010253a13f3512b7995a7a4d51d
-  copyrightText: NOASSERTION
+  copyrightText: "\nAuthors ordered by first contribution.\n\nJohn Resig <jeresig@gmail.com>\n\
+    Gilles van den Hoven <gilles0181@gmail.com>\nMichael Geary <mike@geary.com>\n\
+    Stefan Petre <stefan.petre@gmail.com>\nYehuda Katz <wycats@gmail.com>\nCorey Jewett\
+    \ <cj@syntheticplayground.com>\nKlaus Hartl <klaus.hartl@gmail.com>\nFranck Marcia\
+    \ <franck.marcia@gmail.com>\nJ\xF6rn Zaefferer <joern.zaefferer@gmail.com>\nPaul\
+    \ Bakaus <paul.bakaus@gmail.com>\nBrandon Aaron <brandon.aaron@gmail.com>\nMike\
+    \ Alsup <malsup@gmail.com>\nDave Methvin <dave.methvin@gmail.com>\nEd Engelhardt\
+    \ <edengelhardt@gmail.com>\nSean Catchpole <littlecooldude@gmail.com>\nPaul Mclanahan\
+    \ <pmclanahan@gmail.com>\nDavid Serduke <davidserduke@gmail.com>\nRichard D. Worth\
+    \ <rdworth@gmail.com>\nScott Gonz\xE1lez <scott.gonzalez@gmail.com>\nAriel Flesler\
+    \ <aflesler@gmail.com>\nJon Evans <jon@springyweb.com>\nTJ Holowaychuk <tj@vision-media.ca>\n\
+    Michael Bensoussan <mickey@seesmic.com>\nRobert Kati\u0107 <robert.katic@gmail.com>\n\
+    Louis-R\xE9mi Bab\xE9 <lrbabe@gmail.com>\nEarle Castledine <mrspeaker@gmail.com>\n\
+    Damian Janowski <damian.janowski@gmail.com>\nRich Dougherty <rich@rd.gen.nz>\n\
+    Kim Dalsgaard <kim@kimdalsgaard.com>\nAndrea Giammarchi <andrea.giammarchi@gmail.com>\n\
+    Mark Gibson <jollytoad@gmail.com>\nKarl Swedberg <kswedberg@gmail.com>\nJustin\
+    \ Meyer <justinbmeyer@gmail.com>\nBen Alman <cowboy@rj3.net>\nJames Padolsey <cla@padolsey.net>\n\
+    David Petersen <public@petersendidit.com>\nBatiste Bieler <batiste.bieler@gmail.com>\n\
+    Alexander Farkas <info@corrupt-system.de>\nRick Waldron <waldron.rick@gmail.com>\n\
+    Filipe Fortes <filipe@fortes.com>\nNeeraj Singh <neerajdotname@gmail.com>\nPaul\
+    \ Irish <paul.irish@gmail.com>\nIra\xEA Carvalho <irae@irae.pro.br>\nMatt Curry\
+    \ <matt@pseudocoder.com>\nMichael Monteleone <michael@michaelmonteleone.net>\n\
+    Noah Sloan <noah.sloan@gmail.com>\nTom Viner <github@viner.tv>\nDouglas Neiner\
+    \ <doug@dougneiner.com>\nAdam J. Sontag <ajpiano@ajpiano.com>\nDave Reed <dareed@microsoft.com>\n\
+    Ralph Whitbeck <ralph.whitbeck@gmail.com>\nCarl F\xFCrstenberg <azatoth@gmail.com>\n\
+    Jacob Wright <jacwright@gmail.com>\nJ. Ryan Stinnett <jryans@gmail.com>\nunknown\
+    \ <Igen005@.upcorp.ad.uprr.com>\ntemp01 <temp01irc@gmail.com>\nHeungsub Lee <h@subl.ee>\n\
+    Colin Snover <github.com@zetafleet.com>\nRyan W Tenney <ryan@10e.us>\nPinhook\
+    \ <contact@pinhooklabs.com>\nRon Otten <r.j.g.otten@gmail.com>\nJephte Clain <Jephte.Clain@univ-reunion.fr>\n\
+    Anton Matzneller <obhvsbypqghgc@gmail.com>\nAlex Sexton <AlexSexton@gmail.com>\n\
+    Dan Heberden <danheberden@gmail.com>\nHenri Wiechers <hwiechers@gmail.com>\nRussell\
+    \ Holbrook <russell.holbrook@patch.com>\nJulian Aubourg <aubourg.julian@gmail.com>\n\
+    Gianni Alessandro Chiappetta <gianni@runlevel6.org>\nScott Jehl <scottjehl@gmail.com>\n\
+    James Burke <jrburke@gmail.com>\nJonas Pfenniger <jonas@pfenniger.name>\nXavi\
+    \ Ramirez <xavi.rmz@gmail.com>\nJared Grippe <jared@deadlyicon.com>\nSylvester\
+    \ Keil <sylvester@keil.or.at>\nBrandon Sterne <bsterne@mozilla.com>\nMathias Bynens\
+    \ <mathias@qiwi.be>\nTimmy Willison <4timmywil@gmail.com>\nCorey Frang <gnarf37@gmail.com>\n\
+    Digitalxero <digitalxero>\nAnton Kovalyov <anton@kovalyov.net>\nDavid Murdoch\
+    \ <david@davidmurdoch.com>\nJosh Varner <josh.varner@gmail.com>\nCharles McNulty\
+    \ <cmcnulty@kznf.com>\nJordan Boesch <jboesch26@gmail.com>\nJess Thrysoee <jess@thrysoee.dk>\n\
+    Michael Murray <m@murz.net>\nLee Carpenter <elcarpie@gmail.com>\nAlexis Abril\
+    \ <me@alexisabril.com>\nRob Morgan <robbym@gmail.com>\nJohn Firebaugh <john_firebaugh@bigfix.com>\n\
+    Sam Bisbee <sam@sbisbee.com>\nGilmore Davidson <gilmoreorless@gmail.com>\nBrian\
+    \ Brennan <me@brianlovesthings.com>\nXavier Montillet <xavierm02.net@gmail.com>\n\
+    Daniel Pihlstrom <sciolist.se@gmail.com>\nSahab Yazdani <sahab.yazdani+github@gmail.com>\n\
+    avaly <github-com@agachi.name>\nScott Hughes <hi@scott-hughes.me>\nMike Sherov\
+    \ <mike.sherov@gmail.com>\nGreg Hazel <ghazel@gmail.com>\nSchalk Neethling <schalk@ossreleasefeed.com>\n\
+    Denis Knauf <Denis.Knauf@gmail.com>\nTimo Tijhof <krinklemail@gmail.com>\nSteen\
+    \ Nielsen <swinedk@gmail.com>\nAnton Ryzhov <anton@ryzhov.me>\nShi Chuan <shichuanr@gmail.com>\n\
+    Berker Peksag <berker.peksag@gmail.com>\nToby Brain <tobyb@freshview.com>\nMatt\
+    \ Mueller <mattmuelle@gmail.com>\nJustin <drakefjustin@gmail.com>\nDaniel Herman\
+    \ <daniel.c.herman@gmail.com>\nOleg Gaidarenko <markelog@gmail.com>\nRichard Gibson\
+    \ <richard.gibson@gmail.com>\nRafa\xEBl Blais Masson <rafbmasson@gmail.com>\n\
+    cmc3cn <59194618@qq.com>\nJoe Presbrey <presbrey@gmail.com>\nSindre Sorhus <sindresorhus@gmail.com>\n\
+    Arne de Bree <arne@bukkie.nl>\nVladislav Zarakovsky <vlad.zar@gmail.com>\nAndrew\
+    \ E Monat <amonat@gmail.com>\nOskari <admin@o-programs.com>\nJoao Henrique de\
+    \ Andrade Bruni <joaohbruni@yahoo.com.br>\ntsinha <tsinha@Anthonys-MacBook-Pro.local>\n\
+    Matt Farmer <matt@frmr.me>\nTrey Hunner <treyhunner@gmail.com>\nJason Moon <jmoon@socialcast.com>\n\
+    Jeffery To <jeffery.to@gmail.com>\nKris Borchers <kris.borchers@gmail.com>\nVladimir\
+    \ Zhuravlev <private.face@gmail.com>\nJacob Thornton <jacobthornton@gmail.com>\n\
+    Chad Killingsworth <chadkillingsworth@missouristate.edu>\nNowres Rafid <nowres.rafed@gmail.com>\n\
+    David Benjamin <davidben@mit.edu>\nUri Gilad <antishok@gmail.com>\nChris Faulkner\
+    \ <thefaulkner@gmail.com>\nElijah Manor <elijah.manor@gmail.com>\nDaniel Chatfield\
+    \ <chatfielddaniel@gmail.com>\nNikita Govorov <nikita.govorov@gmail.com>\nWesley\
+    \ Walser <waw325@gmail.com>\nMike Pennisi <mike@mikepennisi.com>\nMarkus Staab\
+    \ <markus.staab@redaxo.de>\nDave Riddle <david@joyvuu.com>\nCallum Macrae <callum@lynxphp.com>\n\
+    Benjamin Truyman <bentruyman@gmail.com>\nJames Huston <james@jameshuston.net>\n\
+    Erick Ruiz de Ch\xE1vez <erickrdch@gmail.com>\nDavid Bonner <dbonner@cogolabs.com>\n\
+    Akintayo Akinwunmi <aakinwunmi@judge.com>\nMORGAN <morgan@morgangraphics.com>\n\
+    Ismail Khair <ismail.khair@gmail.com>\nCarl Danley <carldanley@gmail.com>\nMike\
+    \ Petrovich <michael.c.petrovich@gmail.com>\nGreg Lavallee <greglavallee@wapolabs.com>\n\
+    Daniel G\xE1lvez <dgalvez@editablething.com>\nSai Lung Wong <sai.wong@huffingtonpost.com>\n\
+    Tom H Fuertes <TomFuertes@gmail.com>\nRoland Eckl <eckl.roland@googlemail.com>\n\
+    Jay Merrifield <fracmak@gmail.com>\nAllen J Schmidt Jr <cobrasoft@gmail.com>\n\
+    Jonathan Sampson <jjdsampson@gmail.com>\nMarcel Greter <marcel.greter@ocbnet.ch>\n\
+    Matthias J\xE4ggli <matthias.jaeggli@gmail.com>\nDavid Fox <dfoxinator@gmail.com>\n\
+    Yiming He <yiminghe@gmail.com>\nDevin Cooper <cooper.semantics@gmail.com>\nPaul\
+    \ Ramos <paul.b.ramos@gmail.com>\nRod Vagg <rod@vagg.org>\nBennett Sorbo <bsorbo@gmail.com>\n\
+    Sebastian Burkhard <sebi.burkhard@gmail.com>\nZachary Adam Kaplan <razic@viralkitty.com>\n\
+    nanto_vi <nanto@moon.email.ne.jp>\nnanto <nanto@moon.email.ne.jp>\nDanil Somsikov\
+    \ <danilasomsikov@gmail.com>\nRyunosuke SATO <tricknotes.rs@gmail.com>\nJean Boussier\
+    \ <jean.boussier@gmail.com>\nAdam Coulombe <me@adam.co>\nAndrew Plummer <plummer.andrew@gmail.com>\n\
+    Mark Raddatz <mraddatz@gmail.com>\nIsaac Z. Schlueter <i@izs.me>\nKarl Sieburg\
+    \ <ksieburg@yahoo.com>\nPascal Borreli <pascal@borreli.com>\nNguyen Phuc Lam <ruado1987@gmail.com>\n\
+    Dmitry Gusev <dmitry.gusev@gmail.com>\nMicha\u0142 Go\u0142\u0119biowski-Owczarek\
+    \ <m.goleb@gmail.com>\nLi Xudong <istonelee@gmail.com>\nSteven Benner <admin@stevenbenner.com>\n\
+    Tom H Fuertes <tomfuertes@gmail.com>\nRenato Oliveira dos Santos <ros3@cin.ufpe.br>\n\
+    ros3cin <ros3@cin.ufpe.br>\nJason Bedard <jason+jquery@jbedard.ca>\nKyle Robinson\
+    \ Young <kyle@dontkry.com>\nChris Talkington <chris@talkingtontech.com>\nEddie\
+    \ Monge <eddie@eddiemonge.com>\nTerry Jones <terry@jon.es>\nJason Merino <jasonmerino@gmail.com>\n\
+    Jeremy Dunck <jdunck@gmail.com>\nChris Price <price.c@gmail.com>\nGuy Bedford\
+    \ <guybedford@gmail.com>\nAmey Sakhadeo <me@ameyms.com>\nMike Sidorov <mikes.ekb@gmail.com>\n\
+    Anthony Ryan <anthonyryan1@gmail.com>\nDominik D. Geyer <dominik.geyer@gmail.com>\n\
+    George Kats <katsgeorgeek@gmail.com>\nLihan Li <frankieteardrop@gmail.com>\nRonny\
+    \ Springer <springer.ronny@gmail.com>\nChris Antaki <ChrisAntaki@gmail.com>\n\
+    Marian Sollmann <marian.sollmann@cargomedia.ch>\nnjhamann <njhamann@gmail.com>\n\
+    Ilya Kantor <iliakan@gmail.com>\nDavid Hong <d.hong@me.com>\nJohn Paul <john@johnkpaul.com>\n\
+    Jakob Stoeck <jakob@pokermania.de>\nChristopher Jones <chris@cjqed.com>\nForbes\
+    \ Lindesay <forbes@lindesay.co.uk>\nS. Andrew Sheppard <andrew@wq.io>\nLeonardo\
+    \ Balter <leonardo.balter@gmail.com>\nRoman Rei\xDF <me@silverwind.io>\nBenjy\
+    \ Cui <benjytrys@gmail.com>\nRodrigo Rosenfeld Rosas <rr.rosas@gmail.com>\nJohn\
+    \ Hoven <hovenj@gmail.com>\nPhilip J\xE4genstedt <philip@foolip.org>\nChristian\
+    \ Kosmowski <ksmwsk@gmail.com>\nLiang Peng <poppinlp@gmail.com>\nTJ VanToll <tj.vantoll@gmail.com>\n\
+    Senya Pugach <upisfree@outlook.com>\nAurelio De Rosa <aurelioderosa@gmail.com>\n\
+    Nazar Mokrynskyi <nazar@mokrynskyi.com>\nAmit Merchant <bullredeyes@gmail.com>\n\
+    Jason Bedard <jason+github@jbedard.ca>\nArthur Verschaeve <contact@arthurverschaeve.be>\n\
+    Dan Hart <danhart@notonthehighstreet.com>\nBin Xin <rhyzix@gmail.com>\nDavid Corbacho\
+    \ <davidcorbacho@gmail.com>\nVeaceslav Grimalschi <grimalschi@yandex.ru>\nDaniel\
+    \ Husar <dano.husar@gmail.com>\nFrederic Hemberger <mail@frederic-hemberger.de>\n\
+    Ben Toews <mastahyeti@gmail.com>\nAditya Raghavan <araghavan3@gmail.com>\nVictor\
+    \ Homyakov <vkhomyackov@gmail.com>\nShivaji Varma <contact@shivajivarma.com>\n\
+    Nicolas HENRY <icewil@gmail.com>\nAnne-Gaelle Colom <coloma@westminster.ac.uk>\n\
+    George Mauer <gmauer@gmail.com>\nLeonardo Braga <leonardo.braga@gmail.com>\nStephen\
+    \ Edgar <stephen@netweb.com.au>\nThomas Tortorini <thomastortorini@gmail.com>\n\
+    Winston Howes <winstonhowes@gmail.com>\nJon Hester <jon.d.hester@gmail.com>\n\
+    Alexander O'Mara <me@alexomara.com>\nBastian Buchholz <buchholz.bastian@googlemail.com>\n\
+    Arthur Stolyar <nekr.fabula@gmail.com>\nCalvin Metcalf <calvin.metcalf@gmail.com>\n\
+    Mu Haibao <mhbseal@163.com>\nRichard McDaniel <rm0026@uah.edu>\nChris Rebert <github@rebertia.com>\n\
+    Gabriel Schulhof <gabriel.schulhof@intel.com>\nGilad Peleg <giladp007@gmail.com>\n\
+    Martin Naumann <martin@geekonaut.de>\nMarek Lewandowski <m.lewandowski@cksource.com>\n\
+    Bruno Pe\u0301rel <brunoperel@gmail.com>\nReed Loden <reed@reedloden.com>\nDaniel\
+    \ Nill <daniellnill@gmail.com>\nYongwoo Jeon <yongwoo.jeon@navercorp.com>\nSean\
+    \ Henderson <seanh.za@gmail.com>\nRichard Kraaijenhagen <stdin+git@riichard.com>\n\
+    Connor Atherton <c.liam.atherton@gmail.com>\nGary Ye <garysye@gmail.com>\nChristian\
+    \ Grete <webmaster@christiangrete.com>\nLiza Ramo <liza.h.ramo@gmail.com>\nJulian\
+    \ Alexander Murillo <julian.alexander.murillo@gmail.com>\nJoelle Fleurantin <joasqueeniebee@gmail.com>\n\
+    Jae Sung Park <alberto.park@gmail.com>\nJun Sun <klsforever@gmail.com>\nJosh Soref\
+    \ <apache@soref.com>\nHenry Wong <henryw4k@gmail.com>\nJon Dufresne <jon.dufresne@gmail.com>\n\
+    Martijn W. van der Lee <martijn@vanderlee.com>\nDevin Wilson <dwilson6.github@gmail.com>\n\
+    Steve Mao <maochenyan@gmail.com>\nZack Hall <zackhall@outlook.com>\nBernhard M.\
+    \ Wiedemann <jquerybmw@lsmod.de>\nTodor Prikumov <tono_pr@abv.bg>\nJha Naman <createnaman@gmail.com>\n\
+    William Robinet <william.robinet@conostix.com>\nAlexander Lisianoi <all3fox@gmail.com>\n\
+    Vitaliy Terziev <vitaliyterziev@gmail.com>\nJoe Trumbull <trumbull.j@gmail.com>\n\
+    Alexander K <xpyro@ya.ru>\nDamian Senn <jquery@topaxi.codes>\nRalin Chimev <ralin.chimev@gmail.com>\n\
+    Felipe Sateler <fsateler@gmail.com>\nChristophe Tafani-Dereeper <christophetd@hotmail.fr>\n\
+    Manoj Kumar <nithmanoj@gmail.com>\nDavid Broder-Rodgers <broder93@gmail.com>\n\
+    Alex Louden <alex@louden.com>\nAlex Padilla <alexonezero@outlook.com>\n\u5357\u6F02\
+    \u4E00\u5352 <shiy007@qq.com>\nkaran-96 <karanbatra96@gmail.com>\nBoom Lee <teabyii@gmail.com>\n\
+    Andreas Solleder <asol@num42.de>\nCDAGaming <cstack2011@yahoo.com>\nPierre Spring\
+    \ <pierre@nelm.io>\nShashanka Nataraj <shashankan.10@gmail.com>\nErik Lax <erik@datahack.se>\n\
+    Matan Kotler-Berkowitz <205matan@gmail.com>\nJordan Beland <jordan.beland@gmail.com>\n\
+    Henry Zhu <hi@henryzoo.com>\nSaptak Sengupta <saptak013@gmail.com>\nNilton Cesar\
+    \ <niltoncms@gmail.com>\nbasil.belokon <basil.belokon@gmail.com>\ntmybr11 <tomas.perone@gmail.com>\n\
+    Luis Emilio Velasco Sanchez <emibloque@gmail.com>\nEd S <ejsanders@gmail.com>\n\
+    Bert Zhang <enbo@users.noreply.github.com>\nAndrei Fangli <andrei_fangli@outlook.com>\n\
+    Marja H\xF6ltt\xE4 <marja.holtta@gmail.com>\nabnud1 <ahmad13932013@hotmail.com>\n\
+    buddh4 <mail@jharrer.de>\n"
   downloadLocation: NOASSERTION
   filesAnalyzed: true
   licenseComments: " licenseInfoInFile determined by Scanners:\n - nomos (\"4.4.0\"\
@@ -4561,13 +4694,13 @@ relationships:
 - relatedSpdxElement: SPDXRef-upload153
   relationshipType: DESCRIBES
   spdxElementId: SPDXRef-DOCUMENT
+- relatedSpdxElement: SPDXRef-item491702
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload153
 - relatedSpdxElement: SPDXRef-item491697
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload153
 - relatedSpdxElement: SPDXRef-item491705
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload153
-- relatedSpdxElement: SPDXRef-item491702
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload153
 - relatedSpdxElement: SPDXRef-item491723
@@ -4598,9 +4731,6 @@ relationships:
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload153
 - relatedSpdxElement: SPDXRef-item491700
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload153
-- relatedSpdxElement: SPDXRef-item491859
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload153
 - relatedSpdxElement: SPDXRef-item491546
@@ -5360,6 +5490,9 @@ relationships:
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload153
 - relatedSpdxElement: SPDXRef-item491858
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload153
+- relatedSpdxElement: SPDXRef-item491859
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload153
 - relatedSpdxElement: SPDXRef-item491860
