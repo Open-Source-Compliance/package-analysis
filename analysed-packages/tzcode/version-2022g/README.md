@@ -1,10 +1,10 @@
 ## Download Location
 
-[DownloadLink]
+http://www.iana.org/time-zones/repository/releases/tzcode2022g.tar.gz
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:generic/tzcode@2022g?download_url=http://www.iana.org/time-zones/repository/releases/tzcode2022g.tar.gz
 
 ## Creator
 
