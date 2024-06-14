@@ -1,10 +1,10 @@
 ## Download Location
 
-[DownloadLink]
+https://github.com/rockdaboot/libpsl/releases/download/0.21.1/libpsl-0.21.1.tar.gz
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:github/rockdaboot/libpsl@0.21.1
 
 ## Creator
 
