@@ -4,7 +4,7 @@ https://github.com/logrotate/logrotate/releases/download/3.20.1/logrotate-3.20.1
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:github/logrotate/logrotate@3.20.1
 
 ## Creator
 
