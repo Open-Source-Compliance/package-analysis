@@ -9,14 +9,49 @@ creationInfo:
     Please check "LicenseComments" for explanations of concluded licenses.
 
     '
-  created: '2024-06-20T11:32:41Z'
+  created: '2024-06-21T12:16:12Z'
   creators:
   - 'Tool: fossology-4.4.0'
   - 'Person: Sascha Dierberg'
   licenseListVersion: '3.22'
 dataLicense: CC0-1.0
-documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_logrotate-3.20.1.tar.xz_1718883160.spdx
+documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_logrotate-3.20.1.tar.xz_1718972171.spdx
 files:
+- SPDXID: SPDXRef-item547084
+  checksums:
+  - algorithm: SHA1
+    checksumValue: ed9b653d59eeae0a6d53478f29566f72922e422b
+  - algorithm: SHA256
+    checksumValue: 4eadb229fe88f96bcb5241025681a8ec27a438311d5b216f378eb071167bc2a7
+  - algorithm: MD5
+    checksumValue: 05d3ddaaffccf560e3bd69d6dd3e8c1a
+  copyrightText: ' Copyright (C) 1992-1996, 1998-2017, 2020-2021 Free Software Foundation,
+    Inc.
+
+    Copyright (C) 2021 Free Software Foundation, Inc.
+
+    Copyright (C) 2021 Free Software Foundation, Inc. '
+  fileName: logrotate-3.20.1.tar.xz/logrotate-3.20.1/configure
+  licenseConcluded: LicenseRef-FSFUL-20227a7aca8ef7dbd39e0437cc309361
+  licenseInfoInFiles:
+  - LicenseRef-FSFUL
+  - LicenseRef-fsf-free
+- SPDXID: SPDXRef-item547321
+  checksums:
+  - algorithm: SHA1
+    checksumValue: d0608b88907c8bd5dcfbc10f18e4a0b02c7cf560
+  - algorithm: SHA256
+    checksumValue: d55f965dc6a0137ac5d3fe31f9bcc617fe562137d420b21c8de6a4084b556c5d
+  - algorithm: MD5
+    checksumValue: 92ef4e9cd9086e25ce29ddb8991f6ff3
+  copyrightText: ' Copyright (c) 1991, 1993 The Regents of the University of California.
+    All rights reserved. '
+  fileName: logrotate-3.20.1.tar.xz/logrotate-3.20.1/queue.h
+  licenseConcluded: LicenseRef-BSD-3-Clause-04b9a3cb65b486a11d455f0e42350549
+  licenseInfoInFiles:
+  - LicenseRef-BSD-3-Clause
+  - LicenseRef-BSD-3-Clause-HP
+  - LicenseRef-bsd-new
 - SPDXID: SPDXRef-item547085
   checksums:
   - algorithm: SHA1
@@ -210,25 +245,6 @@ files:
   - LicenseRef-Autoconf-exception-generic-3.0
   - LicenseRef-gpl-2.0-plus
   - LicenseRef-autoconf-simple-exception-2.0
-- SPDXID: SPDXRef-item547084
-  checksums:
-  - algorithm: SHA1
-    checksumValue: ed9b653d59eeae0a6d53478f29566f72922e422b
-  - algorithm: SHA256
-    checksumValue: 4eadb229fe88f96bcb5241025681a8ec27a438311d5b216f378eb071167bc2a7
-  - algorithm: MD5
-    checksumValue: 05d3ddaaffccf560e3bd69d6dd3e8c1a
-  copyrightText: ' Copyright (C) 1992-1996, 1998-2017, 2020-2021 Free Software Foundation,
-    Inc.
-
-    Copyright (C) 2021 Free Software Foundation, Inc.
-
-    Copyright (C) 2021 Free Software Foundation, Inc. '
-  fileName: logrotate-3.20.1.tar.xz/logrotate-3.20.1/configure
-  licenseConcluded: LicenseRef-FSFUL
-  licenseInfoInFiles:
-  - LicenseRef-FSFUL
-  - LicenseRef-fsf-free
 - SPDXID: SPDXRef-item547293
   checksums:
   - algorithm: SHA1
@@ -246,22 +262,6 @@ files:
   - LicenseRef-Autoconf-exception-generic-3.0
   - LicenseRef-gpl-2.0-plus
   - LicenseRef-autoconf-simple-exception-2.0
-- SPDXID: SPDXRef-item547321
-  checksums:
-  - algorithm: SHA1
-    checksumValue: d0608b88907c8bd5dcfbc10f18e4a0b02c7cf560
-  - algorithm: SHA256
-    checksumValue: d55f965dc6a0137ac5d3fe31f9bcc617fe562137d420b21c8de6a4084b556c5d
-  - algorithm: MD5
-    checksumValue: 92ef4e9cd9086e25ce29ddb8991f6ff3
-  copyrightText: ' Copyright (c) 1991, 1993 The Regents of the University of California.
-    All rights reserved. '
-  fileName: logrotate-3.20.1.tar.xz/logrotate-3.20.1/queue.h
-  licenseConcluded: LicenseRef-BSD-3-Clause
-  licenseInfoInFiles:
-  - LicenseRef-BSD-3-Clause
-  - LicenseRef-BSD-3-Clause-HP
-  - LicenseRef-bsd-new
 - SPDXID: SPDXRef-item547081
   checksums:
   - algorithm: SHA1
@@ -3282,6 +3282,58 @@ files:
   licenseInfoInFiles:
   - NOASSERTION
 hasExtractedLicensingInfos:
+- extractedText: " This configure script is free software; the Free Software Foundation\
+    \ gives unlimited permission to copy, distribute and modify it.\n\nThis config.status\
+    \ script is free software; the Free Software Foundation gives unlimited permission\
+    \ to copy, distribute and modify it.\n\n "
+  licenseId: LicenseRef-FSFUL-20227a7aca8ef7dbd39e0437cc309361
+  name: FSF Unlimited License
+- extractedText: ' Redistribution and use in source and binary forms, with or without
+
+    modification, are permitted provided that the following conditions
+
+    are met:
+
+    1. Redistributions of source code must retain the above copyright
+
+    notice, this list of conditions and the following disclaimer.
+
+    2. Redistributions in binary form must reproduce the above copyright
+
+    notice, this list of conditions and the following disclaimer in the
+
+    documentation and/or other materials provided with the distribution.
+
+    3. Neither the name of the University nor the names of its contributors
+
+    may be used to endorse or promote products derived from this software
+
+    without specific prior written permission.
+
+
+    THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'''' AND
+
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+
+    ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+
+    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+
+    DAMAGES (INCLUDING, BUT NOT LIMITED TO,   PROCUREMENT OF SUBSTITUTE GOODS
+
+    OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+
+    HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+
+    LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+
+    OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+
+    SUCH DAMAGE. '
+  licenseId: LicenseRef-BSD-3-Clause-04b9a3cb65b486a11d455f0e42350549
+  name: BSD 3-Clause "New" or "Revised" License
 - extractedText: ' X11 License
 
 
@@ -4808,43 +4860,6 @@ hasExtractedLicensingInfos:
     of that program. '
   licenseId: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception-generic
   name: GNU General Public License v2.0 or later WITH Autoconf generic exception
-- extractedText: ' This configure script is free software; the Free Software Foundation
-    gives unlimited permission to copy, distribute and modify it. '
-  licenseId: LicenseRef-FSFUL
-  name: FSF Unlimited License
-- extractedText: ' Copyright (c) <year> <owner>.
-
-
-    Redistribution and use in source and binary forms, with or without modification,
-    are permitted provided that the following conditions are met:
-
-
-    1. Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-
-
-    2. Redistributions in binary form must reproduce the above copyright notice, this
-    list of conditions and the following disclaimer in the documentation and/or other
-    materials provided with the distribution.
-
-
-    3. Neither the name of the copyright holder nor the names of its contributors
-    may be used to endorse or promote products derived from this software without
-    specific prior written permission.
-
-
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-    IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
-    INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-    BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
-    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
-    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
-    OF THE POSSIBILITY OF SUCH DAMAGE. '
-  licenseId: LicenseRef-BSD-3-Clause
-  name: BSD 3-Clause "New" or "Revised" License
 - extractedText: ' Everyone is permitted to copy and distribute verbatim copies
 
     of this license document, but changing it is not allowed. '
@@ -5106,6 +5121,10 @@ hasExtractedLicensingInfos:
 - extractedText: ' License by Scancode. '
   licenseId: LicenseRef-autoconf-simple-exception-2.0
   name: Autoconf simple exception to GPL-2.0
+- extractedText: ' This configure script is free software; the Free Software Foundation
+    gives unlimited permission to copy, distribute and modify it. '
+  licenseId: LicenseRef-FSFUL
+  name: FSF Unlimited License
 - extractedText: ' License by Scancode. '
   licenseId: LicenseRef-fsf-free
   name: Free Software Foundation - Free Software License
@@ -5387,6 +5406,39 @@ hasExtractedLicensingInfos:
     \ instead of this License. "
   licenseId: LicenseRef-GPL-2.0
   name: GPL-2.0
+- extractedText: ' Copyright (c) <year> <owner>.
+
+
+    Redistribution and use in source and binary forms, with or without modification,
+    are permitted provided that the following conditions are met:
+
+
+    1. Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+
+
+    2. Redistributions in binary form must reproduce the above copyright notice, this
+    list of conditions and the following disclaimer in the documentation and/or other
+    materials provided with the distribution.
+
+
+    3. Neither the name of the copyright holder nor the names of its contributors
+    may be used to endorse or promote products derived from this software without
+    specific prior written permission.
+
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+    IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+    INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+    BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+    OF THE POSSIBILITY OF SUCH DAMAGE. '
+  licenseId: LicenseRef-BSD-3-Clause
+  name: BSD 3-Clause "New" or "Revised" License
 - extractedText: " Redistribution and use in source and binary forms, with or without\n\
     modification, are permitted provided that the following conditions\nare met:\n\
     1. Redistributions of source code must retain the above copyright\n   notice,\
@@ -5438,6 +5490,12 @@ relationships:
 - relatedSpdxElement: SPDXRef-upload219
   relationshipType: DESCRIBES
   spdxElementId: SPDXRef-DOCUMENT
+- relatedSpdxElement: SPDXRef-item547084
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload219
+- relatedSpdxElement: SPDXRef-item547321
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload219
 - relatedSpdxElement: SPDXRef-item547085
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload219
@@ -5465,13 +5523,7 @@ relationships:
 - relatedSpdxElement: SPDXRef-item547302
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload219
-- relatedSpdxElement: SPDXRef-item547084
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload219
 - relatedSpdxElement: SPDXRef-item547293
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload219
-- relatedSpdxElement: SPDXRef-item547321
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload219
 - relatedSpdxElement: SPDXRef-item547081

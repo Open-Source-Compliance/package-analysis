@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_logrotate-3.20.1.tar.xz_1718883160.spdx
+DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_logrotate-3.20.1.tar.xz_1718972171.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of logrotate 3.20.1.
 Please check "LicenseComments" for explanations of concluded licenses.
 </text>
-Created: 2024-06-20T11:32:41Z
+Created: 2024-06-21T12:16:12Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -53,6 +53,33 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload219
 ##--------------------------
 ## File Information
 ##--------------------------
+
+##File
+
+FileName: logrotate-3.20.1.tar.xz/logrotate-3.20.1/configure
+SPDXID: SPDXRef-item547084
+FileChecksum: SHA1: ed9b653d59eeae0a6d53478f29566f72922e422b
+FileChecksum: SHA256: 4eadb229fe88f96bcb5241025681a8ec27a438311d5b216f378eb071167bc2a7
+FileChecksum: MD5: 05d3ddaaffccf560e3bd69d6dd3e8c1a
+LicenseConcluded: LicenseRef-FSFUL-20227a7aca8ef7dbd39e0437cc309361
+LicenseInfoInFile: LicenseRef-FSFUL
+LicenseInfoInFile: LicenseRef-fsf-free
+FileCopyrightText: <text> Copyright (C) 1992-1996, 1998-2017, 2020-2021 Free Software Foundation, Inc.
+Copyright (C) 2021 Free Software Foundation, Inc.
+Copyright (C) 2021 Free Software Foundation, Inc. </text>
+
+##File
+
+FileName: logrotate-3.20.1.tar.xz/logrotate-3.20.1/queue.h
+SPDXID: SPDXRef-item547321
+FileChecksum: SHA1: d0608b88907c8bd5dcfbc10f18e4a0b02c7cf560
+FileChecksum: SHA256: d55f965dc6a0137ac5d3fe31f9bcc617fe562137d420b21c8de6a4084b556c5d
+FileChecksum: MD5: 92ef4e9cd9086e25ce29ddb8991f6ff3
+LicenseConcluded: LicenseRef-BSD-3-Clause-04b9a3cb65b486a11d455f0e42350549
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD-3-Clause-HP
+LicenseInfoInFile: LicenseRef-bsd-new
+FileCopyrightText: <text> Copyright (c) 1991, 1993 The Regents of the University of California. All rights reserved. </text>
 
 ##File
 
@@ -207,20 +234,6 @@ FileCopyrightText: <text> Copyright (C) 1999-2021 Free Software Foundation, Inc.
 
 ##File
 
-FileName: logrotate-3.20.1.tar.xz/logrotate-3.20.1/configure
-SPDXID: SPDXRef-item547084
-FileChecksum: SHA1: ed9b653d59eeae0a6d53478f29566f72922e422b
-FileChecksum: SHA256: 4eadb229fe88f96bcb5241025681a8ec27a438311d5b216f378eb071167bc2a7
-FileChecksum: MD5: 05d3ddaaffccf560e3bd69d6dd3e8c1a
-LicenseConcluded: LicenseRef-FSFUL
-LicenseInfoInFile: LicenseRef-FSFUL
-LicenseInfoInFile: LicenseRef-fsf-free
-FileCopyrightText: <text> Copyright (C) 1992-1996, 1998-2017, 2020-2021 Free Software Foundation, Inc.
-Copyright (C) 2021 Free Software Foundation, Inc.
-Copyright (C) 2021 Free Software Foundation, Inc. </text>
-
-##File
-
 FileName: logrotate-3.20.1.tar.xz/logrotate-3.20.1/test-driver
 SPDXID: SPDXRef-item547293
 FileChecksum: SHA1: b995d8e65c0364e5e5ee6860c3f8b31e94064e6a
@@ -233,19 +246,6 @@ LicenseInfoInFile: LicenseRef-Autoconf-exception-generic-3.0
 LicenseInfoInFile: LicenseRef-gpl-2.0-plus
 LicenseInfoInFile: LicenseRef-autoconf-simple-exception-2.0
 FileCopyrightText: <text> Copyright (C) 2011-2021 Free Software Foundation, Inc. </text>
-
-##File
-
-FileName: logrotate-3.20.1.tar.xz/logrotate-3.20.1/queue.h
-SPDXID: SPDXRef-item547321
-FileChecksum: SHA1: d0608b88907c8bd5dcfbc10f18e4a0b02c7cf560
-FileChecksum: SHA256: d55f965dc6a0137ac5d3fe31f9bcc617fe562137d420b21c8de6a4084b556c5d
-FileChecksum: MD5: 92ef4e9cd9086e25ce29ddb8991f6ff3
-LicenseConcluded: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-BSD-3-Clause-HP
-LicenseInfoInFile: LicenseRef-bsd-new
-FileCopyrightText: <text> Copyright (c) 1991, 1993 The Regents of the University of California. All rights reserved. </text>
 
 ##File
 
@@ -2804,6 +2804,44 @@ FileCopyrightText: NOASSERTION
 ## License Information
 ##-------------------------
 
+  
+
+LicenseID: LicenseRef-FSFUL-20227a7aca8ef7dbd39e0437cc309361
+LicenseName: FSF Unlimited License
+ExtractedText: <text> This configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.
+
+This config.status script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.
+
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-04b9a3cb65b486a11d455f0e42350549
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+3. Neither the name of the University nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO,   PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE. </text>
+
 
   
 LicenseID: LicenseRef-X11
@@ -3550,28 +3588,6 @@ This General Public License does not permit incorporating your program into prop
 License text of the Autoconf-exception-generic as an exception to the GPL-2.0-or-later:
 As a special exception to the GNU General Public License, if you distribute this file as part of a program that contains a configuration script generated by Autoconf, you may include it under the same distribution terms that you use for the rest of that program. </text>
 
-
-  
-LicenseID: LicenseRef-FSFUL
-LicenseName: FSF Unlimited License
-ExtractedText: <text> This configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it. </text>
-
-
-  
-LicenseID: LicenseRef-BSD-3-Clause
-LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> Copyright (c) <year> <owner>.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
-
   
 
 LicenseID: LicenseRef-License-of-GNU-Licenses-c9e2a178bf951bac93dbe34930fd2820
@@ -3764,6 +3780,12 @@ ExtractedText: <text> License by Scancode. </text>
 LicenseID: LicenseRef-autoconf-simple-exception-2.0
 LicenseName: Autoconf simple exception to GPL-2.0
 ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-FSFUL
+LicenseName: FSF Unlimited License
+ExtractedText: <text> This configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it. </text>
 
 
 
@@ -3975,6 +3997,22 @@ by James Hacker.
 signature of Ty Coon, 1 April 1989
 Ty Coon, President of Vice
 This General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
 
 
   
