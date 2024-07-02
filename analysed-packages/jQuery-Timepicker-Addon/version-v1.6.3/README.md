@@ -1,6 +1,6 @@
 ## Download Location
 
-[DownloadLink]
+https://github.com/trentrichardson/jQuery-Timepicker-Addon/archive/refs/tags/v1.6.3.zip
 
 ## Package URL (purl)
 
