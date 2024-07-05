@@ -4,7 +4,7 @@ https://github.com/trentrichardson/jQuery-Timepicker-Addon/archive/refs/tags/v1.
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:github/trentrichardson/jquery-timepicker-addon@v1.6.3
 
 ## Creator
 
