@@ -14,4 +14,4 @@ Sascha Dierberg
 
 The information was reviewed by:
 
-* Monika Król
+* Mario Schuknecht
