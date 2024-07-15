@@ -4,7 +4,7 @@ https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-2.1.5.1.tar.gz
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:generic/libjpeg-turbo@2..1.5.1?download_url=https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-2.1.5.1.tar.gz
 
 ## Creator
 
