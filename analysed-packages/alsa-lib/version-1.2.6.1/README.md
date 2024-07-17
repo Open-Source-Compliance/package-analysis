@@ -15,4 +15,4 @@ Sascha Dierberg
 
 The information was reviewed by:
 
-* Parian Golchin
+* Monika Król
