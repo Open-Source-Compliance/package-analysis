@@ -4,7 +4,7 @@ https://download.gnome.org/sources//gupnp/1.4/gupnp-1.4.1.tar.xz
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:generic/gupnp@1.4.1?download_url=https://download.gnome.org/sources//gupnp/1.4/gupnp-1.4.1.tar.xz
 
 ## Creator
 
