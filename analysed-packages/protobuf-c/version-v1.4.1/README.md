@@ -4,7 +4,7 @@ https://github.com/protobuf-c/protobuf-c/archive/refs/tags/v1.4.1.zip
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:github/protobuf-c/protobuf-c/protobuf-c@v1.4.1
 
 ## Creator
 
