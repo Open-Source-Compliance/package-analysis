@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pciutils-3.7.0.tar.xz_1718085856.spdx
+DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_pciutils-3.7.0.tar.xz_1721629856.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of pciutils 3.7.0.
 Please check "LicenseComments" for explanations of concluded licenses.
 </text>
-Created: 2024-06-11T06:04:17Z
+Created: 2024-07-22T06:30:57Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -28,7 +28,7 @@ LicenseListVersion: 3.22
 ##-------------------------
 
 
-PackageName: pciutils-3.7.0
+PackageName: pciutils-3.7.0.tar.xz
 PackageFileName: pciutils-3.7.0.tar.xz
 SPDXID: SPDXRef-upload197
 PackageDownloadLocation: NOASSERTION
@@ -61,7 +61,7 @@ SPDXID: SPDXRef-item543227
 FileChecksum: SHA1: 4dadc33ef2e40062416f3b9c94f33bbdc42ead1f
 FileChecksum: SHA256: 94053616c1f9b93540861931fb7891b1b30d6fd21b3e2c1647467527ea38f557
 FileChecksum: MD5: 88255db5987b6291bc6f37dce8e29ff6
-LicenseConcluded: LicenseRef-BSD-3-Clause-8d8b0539fa1d605c3e5ed913c31623a9 OR LicenseRef-GPL-2.0-or-later
+LicenseConcluded: LicenseRef-BSD-3-Clause-a61303d0dd63d33d64cd9c1d48542573 AND LicenseRef-Dual-license-3fa89356002e227741ac17d2d1bb8fe5 AND LicenseRef-GPL-2.0-or-later
 LicenseComments: <text> The information in the file is:
 Maintained by Albert Pool, Martin Mares, and other volunteers from
 the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -82,10 +82,7 @@ LicenseInfoInFile: LicenseRef-GPL-2.0-only
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-Dual-license
 LicenseInfoInFile: LicenseRef-bsd-new
-FileCopyrightText: <text> copyright is held by Martin Mares and Albert Pool.
-(C) MiniPCI 1610 ADSL AccessRunner 
-(C) 8255 Digital Input / Output Card
-(C) 8255 Digital Input / Output Card </text>
+FileCopyrightText: <text> copyright is held by Martin Mares and Albert Pool. </text>
 FileAttributionText: <text> To the extent that files may be licensed under either BSD-3-Clause or GPL-2.0-or-later, in this context, BSD-3-Clause has  been chosen. This choice shall not restrict the freedom of other users to select either BSD-3-Clause or GPL-2.0-or-later licenses. For convenience, all license texts are provided. </text>
 
 ##File
@@ -1755,7 +1752,13 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
 
   
 
-LicenseID: LicenseRef-BSD-3-Clause-8d8b0539fa1d605c3e5ed913c31623a9
+LicenseID: LicenseRef-Dual-license-3fa89356002e227741ac17d2d1bb8fe5
+LicenseName: Dual-license
+ExtractedText: <text> License: BSD-3-Clause OR GPL-2.0-or-later </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-a61303d0dd63d33d64cd9c1d48542573
 LicenseName: BSD 3-Clause "New" or "Revised" License
 ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -1765,13 +1768,7 @@ ExtractedText: <text> Redistribution and use in source and binary forms, with or
 
 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
-
-  
-
-LicenseID: LicenseRef-Dual-license-3fa89356002e227741ac17d2d1bb8fe5
-LicenseName: Dual-license
-ExtractedText: <text> License: BSD-3-Clause OR GPL-2.0-or-later </text>
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
 
 
 
@@ -1919,9 +1916,7 @@ signature of Ty Coon, 1 April 1989 Ty Coon, President of Vice
   
 LicenseID: LicenseRef-BSD-3-Clause
 LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> Copyright (c) <year> <owner>.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
