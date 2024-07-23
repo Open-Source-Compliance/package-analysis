@@ -45,13 +45,34 @@ PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
  - ojo ("4.4.0".903df0)
  - scancode ("4.4.0".903df0) </text>
 PackageLicenseInfoFromFiles: NOASSERTION
-PackageCopyrightText:  <text> 
+PackageCopyrightText: <text>
 
 The content of the AUTHORS file:
 
- Msmtp was mostly written by Martin Lambers <marlam@marlam.de>.
+Msmtp was mostly written by Martin Lambers <marlam@marlam.de>.
 Individual source files may have different copyright holders, see each file for
 details. Much of the code is shared with mpop (https://marlam.de/mpop).
+
+
+The content of the THANKS file:
+
+Thanks go to:
+
+- R.I.Pienaar for pointing out the Bcc header issue.
+- Kai for the --nostarttls patch and man page corrections.
+- Tommy for the bugfixes made in 0.5.3
+- Jess Mahan for debian packages and tips for GNU Autotools support
+- Christophe Nowicki for GNU Autotools support
+- David MacMahon for the original --pretend and --debug patch
+- Dave Librik for suggesting the -i option for mail(1) compatibiliy
+- Martin Hauke for help with the logfile command, testing, suggestions,
+bug reports, README.hpux and more
+- Jim Fohlin for good suggestions and lots of testing
+- Jay Soffian for Mac OS X keychain support
+- Satoru SATOH for GNOME Keyring support
+- Gaizka Villate and Emmanuel Bouthenot for msmtp-gnome-tool.py
+- Martin Stenberg for passwordeval support
+- all senders of bug reports and problem descriptions
 </text>
 
 
