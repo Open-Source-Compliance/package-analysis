@@ -9,14 +9,49 @@ creationInfo:
     Please check "LicenseComments" for explanations of concluded licenses.
 
     '
-  created: '2024-07-08T13:03:45Z'
+  created: '2024-07-29T08:06:44Z'
   creators:
   - 'Tool: fossology-4.4.0'
   - 'Person: Sascha Dierberg'
   licenseListVersion: '3.22'
 dataLicense: CC0-1.0
-documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_alsa-utils-1.2.6.tar.bz2_1720443824.spdx
+documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_alsa-utils-1.2.6.tar.bz2_1722240402.spdx
 files:
+- SPDXID: SPDXRef-item442015
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 68c94ffc34f8ad2d7bfae3f5a6b996409211c1b1
+  - algorithm: SHA256
+    checksumValue: 231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c
+  - algorithm: MD5
+    checksumValue: 59530bdf33659b29e73d4adb9f9f6552
+  copyrightText: ' Copyright (C) 1989, 1991 Free Software Foundation, Inc. '
+  fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/COPYING
+  licenseConcluded: LicenseRef-License-of-GNU-Licenses
+  licenseInfoInFiles:
+  - LicenseRef-GPL-2.0-or-later
+  - LicenseRef-GPL-2.0-only
+  - LicenseRef-License-of-GNU-Licenses
+  - GPL-2.0-only
+- SPDXID: SPDXRef-item441858
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 297b46f08fba07c0484ef540f9f3047d7b326cc8
+  - algorithm: SHA256
+    checksumValue: c2fd71953b47c19c62db69cbf739504aca8b47a40dbdc8c83bbc4cc7664a1779
+  - algorithm: MD5
+    checksumValue: d651f428c7739cf424b31c05dfdbed04
+  copyrightText: ' Copyright (C) 1994 X Consortium '
+  fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/install-sh
+  licenseComments: " Additionally to the X11, the text in this file is:\n\n\"FSF changes\
+    \ to this file are in the public domain.\" \n\nThus we concluded additionally\
+    \ Public-domain. "
+  licenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11
+  licenseInfoInFiles:
+  - LicenseRef-X11
+  - LicenseRef-MIT
+  - LicenseRef-Public-domain
+  - LicenseRef-x11-xconsortium
 - SPDXID: SPDXRef-item442004
   checksums:
   - algorithm: SHA1
@@ -145,9 +180,7 @@ files:
     checksumValue: 8ced8cd2b86458be88c38322db49df53f41f87200a79233ce34499cb031db0cd
   - algorithm: MD5
     checksumValue: 64924e10cba89f24c7ee7d038d1105ac
-  copyrightText: ' Copyright (C) 2001-2017 Free Software Foundation, Inc.
-
-    Copyright (C) 2001-2017 Free Software Foundation, Inc. '
+  copyrightText: ' Copyright (C) 2001-2017 Free Software Foundation, Inc. '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/po/Rules-quot
   licenseConcluded: LicenseRef-FSFUL-0ec62d8e1f9c68247211569e980dca51
   licenseInfoInFiles:
@@ -162,10 +195,8 @@ files:
     checksumValue: 87041830aa4c5e87cedd35a2a95cf94c4e889604580481430b214422a5e8dc98
   - algorithm: MD5
     checksumValue: 2feed9aff9d7d4ca5e2f5cf1af6bad98
-  copyrightText: " Copyright (C) 2001 Free Software Foundation, Inc. Written by Bruno\
-    \ Haible <bruno@clisp.org>, 2001. \nCopyright (C) 2001 Free Software Foundation,\
-    \ Inc. Written by Bruno Haible <bruno@clisp.org>, 2001\nCopyright (C) 2001 Free\
-    \ Software Foundation, Inc. Written by Bruno Haible <bruno@clisp.org>, 2001. "
+  copyrightText: ' Copyright (C) 2001 Free Software Foundation, Inc. Written by Bruno
+    Haible <bruno@clisp.org>, 2001.  '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/po/insert-header.sin
   licenseConcluded: LicenseRef-FSFUL
   licenseInfoInFiles:
@@ -180,9 +211,7 @@ files:
     checksumValue: d27a2bb020210531000c6b7e35e7e823980ef4ce05efe6e3b094ab1306e565a6
   - algorithm: MD5
     checksumValue: 655cddf1ffc93d29f9dfa9a6c0fd9e7b
-  copyrightText: ' Copyright (c) 2010 Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) 2010 Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) 2010 Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/amixer/volume_mapping.c
   licenseConcluded: LicenseRef-ISC
   licenseInfoInFiles:
@@ -197,10 +226,6 @@ files:
   - algorithm: MD5
     checksumValue: d254fdb422eee3d316941337cbcf6cee
   copyrightText: ' Copyright (C) 1999-2000 Takashi Iwai
-
-    Copyright (C) 1999 Takashi Iwai
-
-    Copyright (C) 1999-2000 Takashi Iwai
 
     Copyright (C) 1999 Takashi Iwai '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aseqnet/aseqnet.c
@@ -218,11 +243,7 @@ files:
     checksumValue: b75dca3b507cd7219e1862f38f0f948b
   copyrightText: ' Copyright (C) 1999 Takashi Iwai
 
-    Copyright (C) 1999-2000 Takashi Iwai
-
-    Copyright (C) 1999-2000 Takashi Iwai
-
-    Copyright (C) 1999 Takashi Iwai '
+    Copyright (C) 1999-2000 Takashi Iwai '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aconnect/aconnect.c
   licenseConcluded: LicenseRef-GPL-2.0-only
   licenseInfoInFiles:
@@ -236,7 +257,7 @@ files:
     checksumValue: bcf4edbe123b0548626d9d783118e9ccf60e8a06f22f0da801eb6516c6266ecc
   - algorithm: MD5
     checksumValue: e1631c8f84a4542cef76076bf344f1ef
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/list.h
   licenseConcluded: LicenseRef-GPL-2.0-only
   licenseInfoInFiles:
@@ -250,9 +271,7 @@ files:
     checksumValue: 1d2c71ee54841dd538ea5a461879bb3e59deaf3722df1b8bc175e1954cda69ab
   - algorithm: MD5
     checksumValue: ad93a6c5009d15fa85321f19c277d8ab
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/xfer.h
   licenseComments: ' The information in the file is:
 
@@ -273,9 +292,7 @@ files:
     checksumValue: aaaf512c1d68f30a74f22669560f28c8a374b77909771e44aa8a2736df643e58
   - algorithm: MD5
     checksumValue: 8e5b4fa21dffef09058be3a42d8184e5
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/misc.h
   licenseComments: ' The information in the file is:
 
@@ -296,9 +313,7 @@ files:
     checksumValue: e1b57fd334d33611e243fec8921f3c8d7f6c4927299d5f292f6a6017a762bd94
   - algorithm: MD5
     checksumValue: 3d29cbabe09bd930c4048a3d3ff8b837
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/xfer-libasound-irq-mmap.c
   licenseComments: ' The information in the file is:
 
@@ -319,9 +334,7 @@ files:
     checksumValue: e4965b12e61081c55a0178b3f0e309182075da0e8a082abdc39abfdb38c577f2
   - algorithm: MD5
     checksumValue: b844628268304d9cc8ca0002c5ef81da
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/waiter.h
   licenseComments: ' The information in the file is:
 
@@ -342,9 +355,7 @@ files:
     checksumValue: ceb406af60139e5c749b3a9785b3cafc842a32389a1360931ef32db9f4e807f9
   - algorithm: MD5
     checksumValue: 5ceb02d311008973dd760d48b8b6a9bb
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/waiter.c
   licenseComments: ' The information in the file is:
 
@@ -365,9 +376,7 @@ files:
     checksumValue: 8465fd16411734841655574f33d9310dbda32f388f837ba296e7e861279129a1
   - algorithm: MD5
     checksumValue: 418ea4be0ae651f599a2a0578623cfd6
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/container.h
   licenseComments: ' The information in the file is:
 
@@ -388,9 +397,7 @@ files:
     checksumValue: 013cdd72e15bb8be1946bbc92a5ee426721301e494b6f05189346538dafb8dd3
   - algorithm: MD5
     checksumValue: d55ebfdfb66448a57b16720d72083323
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/container-au.c
   licenseComments: ' The information in the file is:
 
@@ -411,9 +418,7 @@ files:
     checksumValue: 4af0b54765ead6580be21983bbe6299927ab8d3a8cc1c8e844948715e1a12f78
   - algorithm: MD5
     checksumValue: 8e2824b7965f4722d9656bf889e1885f
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/mapper-multiple.c
   licenseComments: ' The information in the file is:
 
@@ -434,9 +439,7 @@ files:
     checksumValue: ab3150e9608b0deee9eaf957f8be60d885634ed51083a2a0780769b77edf567f
   - algorithm: MD5
     checksumValue: 415713b3309ed3e18d08a06d38bbc537
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/subcmd-transfer.c
   licenseComments: ' The information in the file is:
 
@@ -457,9 +460,7 @@ files:
     checksumValue: a6bf6838d50c8a0cc3eba8e2a7fb76b5282f9058499ebd0e8b4644ca7fab2f9a
   - algorithm: MD5
     checksumValue: 70163b426c1b83e016fcffcac3146573
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/xfer-libffado.c
   licenseComments: ' The information in the file is:
 
@@ -480,9 +481,7 @@ files:
     checksumValue: 5a051bb6a5c5145376f0fa27f8f5fc862d0f73e49b7095c3a6e39e8a78425ee5
   - algorithm: MD5
     checksumValue: 70d285d10101681d918ee2636fee4e26
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/container.c
   licenseComments: ' The information in the file is:
 
@@ -503,9 +502,7 @@ files:
     checksumValue: ef4a47fa9ae93717cd917c7802f39b5eaf078069ae9a34f214ff3930dbc34422
   - algorithm: MD5
     checksumValue: 05730086bba4a689c78f31996711e5ce
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/xfer-libasound-irq-rw.c
   licenseComments: ' The information in the file is:
 
@@ -526,9 +523,7 @@ files:
     checksumValue: e091b46c8b71c5de6908065e33e0f631537967d6c18f7cc32b370d765d95282d
   - algorithm: MD5
     checksumValue: eda0a58e6ff4a3400d917cbab194b09d
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/xfer-libasound.c
   licenseComments: ' The information in the file is:
 
@@ -549,9 +544,7 @@ files:
     checksumValue: 742ed6700f7e29e6177bdfd5877551b5f7d19aa176ae1dddbaed26186f5a2183
   - algorithm: MD5
     checksumValue: 671a31d801b571b8404de1b39fa30778
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/container-voc.c
   licenseComments: ' The information in the file is:
 
@@ -572,9 +565,7 @@ files:
     checksumValue: 18b7b482a4de25e6806811085ea690233428c1cd7cd83b32e87d8397ff9e9335
   - algorithm: MD5
     checksumValue: da012acc6034b935f40a6deb4788cd97
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/xfer-libasound.h
   licenseComments: ' The information in the file is:
 
@@ -595,9 +586,7 @@ files:
     checksumValue: b8b4e5eea2ea987a6dcb68f56c683f0c42d53b5a4d7416113835629ba5550b1b
   - algorithm: MD5
     checksumValue: c49c93d28967c9749a4ff2487af69d2a
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/xfer-options.c
   licenseComments: ' The information in the file is:
 
@@ -618,9 +607,7 @@ files:
     checksumValue: de1dd1b24f65c9515a4a874bdde15ebf935c674f8e37053237b7ec009cefc646
   - algorithm: MD5
     checksumValue: a78ee96584c0ffc083a852f98f5b97d5
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/container-riff-wave.c
   licenseComments: ' The information in the file is:
 
@@ -641,9 +628,7 @@ files:
     checksumValue: 8457e54d473551e103d961228390d6fbd4b906f9f70ae82bce1dbdeae0d20ac8
   - algorithm: MD5
     checksumValue: fb28be0737058f351bc6a48f5f160ff3
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/waiter-epoll.c
   licenseComments: ' The information in the file is:
 
@@ -664,9 +649,7 @@ files:
     checksumValue: 5b0740df6c0a3b606274083143c92799ac97941578c4cbc04908aa4c0cd3e1f7
   - algorithm: MD5
     checksumValue: e97f97d08d1627d887cfedf9f91b92b4
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/test/generator.c
   licenseComments: ' The information in the file is:
 
@@ -687,9 +670,7 @@ files:
     checksumValue: bb74f50f613af1c550a3bff20ceb6bbe9cbc5e59915f96fc528de4092363a09e
   - algorithm: MD5
     checksumValue: 2b05f3953f017327a5e746a3f6a0bbdb
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/xfer-libasound-timer-mmap.c
   licenseComments: ' The information in the file is:
 
@@ -710,9 +691,7 @@ files:
     checksumValue: c99d1da30bfbaf9998e6b94f61757709ab7a5f508f1f3f7d4f31cd353422bcc4
   - algorithm: MD5
     checksumValue: 5c297da7495c0c945908f785df7f64d5
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/frame-cache.c
   licenseComments: ' The information in the file is:
 
@@ -733,9 +712,7 @@ files:
     checksumValue: d56801d18e450a4c5a140f039fa44dec36432ba8a230790ec3d4aa7a70c91b58
   - algorithm: MD5
     checksumValue: ce8194de02bbc0a5ec7f53027e6d794b
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/main.c
   licenseComments: ' The information in the file is:
 
@@ -756,9 +733,7 @@ files:
     checksumValue: a70a01e74cb87aae494cd03c9eabdbd4e12d3429cf92164cfe08ffdf9c5ed16f
   - algorithm: MD5
     checksumValue: 3900463984c519593ab44eb15c5a26ea
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/mapper-single.c
   licenseComments: ' The information in the file is:
 
@@ -779,9 +754,7 @@ files:
     checksumValue: e6a6e09a8249229f6b45324b307e7cafb0ba5dbb3bb06a399c3b992986d78f14
   - algorithm: MD5
     checksumValue: 7e164e6a9743b9199d277abe6aaeccab
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/waiter-select.c
   licenseComments: ' The information in the file is:
 
@@ -802,9 +775,7 @@ files:
     checksumValue: 212c9f362d78cd0b1c895dadc39ba89b8c308e2b0b6b718aed509a0184214a30
   - algorithm: MD5
     checksumValue: 2ddafdbb1bf286a8b5d31b4ffc7f1727
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/test/mapper-test.c
   licenseComments: ' The information in the file is:
 
@@ -825,9 +796,7 @@ files:
     checksumValue: 2260d1f567486e5cfb7a223ddd502f4fa04e6bc28902998002b2a3457f693d53
   - algorithm: MD5
     checksumValue: c82084c307307c172c9ed2587532972f
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/subcmd.h
   licenseComments: ' The information in the file is:
 
@@ -848,9 +817,7 @@ files:
     checksumValue: 7921663802023cf072296e3307fbdc66f49e98542e36c0f2ead72ebad4fdaad7
   - algorithm: MD5
     checksumValue: b2ad1ae332e641b6bb45023011638894
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/mapper.c
   licenseComments: ' The information in the file is:
 
@@ -871,9 +838,7 @@ files:
     checksumValue: ed59fe662a3cb04a60e5a39c4c835d2d283c09d90019493da0be744aa86bf2f8
   - algorithm: MD5
     checksumValue: 485edf8ac2602211c28d64d4174f6d2d
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/test/generator.h
   licenseComments: ' The information in the file is:
 
@@ -894,9 +859,7 @@ files:
     checksumValue: 5ae70758f5badbd5acd97f10f0bc7e2230c0e56ba18b7730ae3545a970aebc1b
   - algorithm: MD5
     checksumValue: d0e47e34ef1d57d83eb531063d78c8c5
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/container-raw.c
   licenseComments: ' The information in the file is:
 
@@ -917,9 +880,7 @@ files:
     checksumValue: 02eec498bdcee9e2805a84bbffab43a15ebc1794163a4dc0794483146ed730b8
   - algorithm: MD5
     checksumValue: 5efb100a32adf293df1d5d8d7ee4602b
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/test/container-test.c
   licenseComments: ' The information in the file is:
 
@@ -940,9 +901,7 @@ files:
     checksumValue: a3c2eeaf1226fcfd3cb40e7d44c8a1bec5bf0c0b863d3b5857a709470d8762b4
   - algorithm: MD5
     checksumValue: 743fadc6ecb9d1aae672173fe5dd9ecb
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/xfer.c
   licenseComments: ' The information in the file is:
 
@@ -963,9 +922,7 @@ files:
     checksumValue: ce8e9b559ef2f0a096f1e6267f6d31a02fc46954e3f07b76d8209216e868d59d
   - algorithm: MD5
     checksumValue: c841175ba9f781d97349a09c322a0fef
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/subcmd-list.c
   licenseComments: ' The information in the file is:
 
@@ -986,9 +943,7 @@ files:
     checksumValue: ed22445bd4b68715ce99e86599a3f7e8b4b87790cfd5cb22dcd60ecbc1981e42
   - algorithm: MD5
     checksumValue: bf47948bb299a637ab255bb5009823e1
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/mapper.h
   licenseComments: ' The information in the file is:
 
@@ -1009,9 +964,7 @@ files:
     checksumValue: 1c191ee7d378f449dc6b16473e61fcc93e33ea406d96ffb56bc7f11d1da93f63
   - algorithm: MD5
     checksumValue: a7336eb13d59726b88457c81ee296218
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/waiter-poll.c
   licenseComments: ' The information in the file is:
 
@@ -1032,9 +985,7 @@ files:
     checksumValue: 21c35d2c424fd471bd110b11a6e921d220ad57254c425fe51bc88bdafef1826a
   - algorithm: MD5
     checksumValue: 4581fe4ca16eb8079e0748796e03528a
-  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp>
-
-    Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
+  copyrightText: ' Copyright (c) 2018 Takashi Sakamoto <o-takashi@sakamocchi.jp> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/frame-cache.h
   licenseComments: ' The information in the file is:
 
@@ -1055,9 +1006,7 @@ files:
     checksumValue: 13192dd7139a80acfa4000b876ce2b7ac382316ef1e97f2ecb54e4eeb40380a5
   - algorithm: MD5
     checksumValue: dc958057f139e1a35c0643802165b0db
-  copyrightText: ' Copyright (C) 2004-2005 Kay Sievers <kay.sievers@vrfy.org>
-
-    Copyright (C) 2004-2005 Kay Sievers <kay.sievers@vrfy.org> '
+  copyrightText: ' Copyright (C) 2004-2005 Kay Sievers <kay.sievers@vrfy.org> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init_utils_run.c
   licenseConcluded: LicenseRef-GPL-2.0-only
   licenseInfoInFiles:
@@ -1073,10 +1022,6 @@ files:
     checksumValue: 909cf4d111e58cc01e9821b409a81a22
   copyrightText: ' Copyright (C) 2003 Greg Kroah-Hartman <greg@kroah.com>
 
-    Copyright (C) 2005-2006 Kay Sievers <kay.sievers@vrfy.org>
-
-    Copyright (C) 2003 Greg Kroah-Hartman <greg@kroah.com>
-
     Copyright (C) 2005-2006 Kay Sievers <kay.sievers@vrfy.org> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init_sysdeps.c
   licenseConcluded: LicenseRef-GPL-2.0-only
@@ -1091,9 +1036,7 @@ files:
     checksumValue: d211681da1677ae39018f59ec54591a5026b6af43887aeaa857a34a37dc475f3
   - algorithm: MD5
     checksumValue: 8608adb67b0e0613c05826eb3b385b60
-  copyrightText: ' Copyright (C) 2004-2005 Kay Sievers <kay.sievers@vrfy.org>
-
-    Copyright (C) 2004-2005 Kay Sievers <kay.sievers@vrfy.org> '
+  copyrightText: ' Copyright (C) 2004-2005 Kay Sievers <kay.sievers@vrfy.org> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init_utils_string.c
   licenseConcluded: LicenseRef-GPL-2.0-only
   licenseInfoInFiles:
@@ -1108,10 +1051,7 @@ files:
   - algorithm: MD5
     checksumValue: a227ce78354cd3c36d357056d97bfbc1
   copyrightText: ' Copyright (C) 2005-2006 Kay Sievers <kay.sievers@vrfy.org> 2008
-    Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (C) 2005-2006 Kay Sievers <kay.sievers@vrfy.org> 2008 Jaroslav Kysela
-    <perex@perex.cz> '
+    Jaroslav Kysela <perex@perex.cz> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init_sysfs.c
   licenseConcluded: LicenseRef-GPL-2.0-only
   licenseInfoInFiles:
@@ -1193,8 +1133,7 @@ files:
     checksumValue: 4a371c9d5b7233f6c1261702d371615fc7f48849a4156d66b953870e04958a2e
   - algorithm: MD5
     checksumValue: 88d0edf002eca3c0368797a7b3bd9980
-  copyrightText: " Copyright (C) 2005 THE alsa-utils'S COPYRIGHT HOLDER \nCopyright\
-    \ (C) 2005 dushistov@mail.ru>, 2005. "
+  copyrightText: ' Copyright (C) 2005 THE alsa-utils''S COPYRIGHT HOLDER  '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaconf/po/ru.po
   licenseComments: ' The information in the file is:
 
@@ -1238,8 +1177,11 @@ files:
     checksumValue: aa13179b0bbd2660b2a3177fc5b710d62a8324364a6a6f6237a6c93106088476
   - algorithm: MD5
     checksumValue: c35e3f7a71db8b1c7d8e6e4f8260d2be
-  copyrightText: " Copyright (C) 2011 The ALSA Team \nCopyright (C) 1999-2000 Takashi\
-    \ Iwai\nCopyright (C) 1999 Takashi Iwai "
+  copyrightText: ' Copyright (C) 2011 The ALSA Team
+
+    Copyright (C) 1999-2000 Takashi Iwai
+
+    Copyright (C) 1999 Takashi Iwai '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/po/fr.po
   licenseComments: ' The information in the file is:
 
@@ -1289,7 +1231,7 @@ files:
     checksumValue: 0a0d024924c530f054e426e818bdd5edb33d0d80a885efb19e41d5a35cb250d1
   - algorithm: MD5
     checksumValue: 1fd448d8eb325132b24ef942e703200a
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaconf/po/ja.po
   licenseComments: ' The information in the file is:
 
@@ -1311,28 +1253,12 @@ files:
     checksumValue: 693fb22fb43d59e06d0ada1f58d9a557f531adc3d3c89a5e34700160c71c1d5a
   - algorithm: MD5
     checksumValue: 811716f81f25f5e596767e90da0028ff
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaucm/alsaucm.rst
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
   - LicenseRef-GPL-2.0-or-later
   - LicenseRef-gpl-2.0-plus
-- SPDXID: SPDXRef-item442015
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 68c94ffc34f8ad2d7bfae3f5a6b996409211c1b1
-  - algorithm: SHA256
-    checksumValue: 231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c
-  - algorithm: MD5
-    checksumValue: 59530bdf33659b29e73d4adb9f9f6552
-  copyrightText: ' Copyright (C) 1989, 1991 Free Software Foundation, Inc. '
-  fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/COPYING
-  licenseConcluded: LicenseRef-License-of-GNU-Licenses-c9e2a178bf951bac93dbe34930fd2820
-  licenseInfoInFiles:
-  - LicenseRef-GPL-2.0-or-later
-  - LicenseRef-GPL-2.0-only
-  - LicenseRef-License-of-GNU-Licenses-c9e2a178bf951bac93dbe34930fd2820
-  - GPL-2.0-only
 - SPDXID: SPDXRef-item441986
   checksums:
   - algorithm: SHA1
@@ -1343,11 +1269,7 @@ files:
     checksumValue: 9be6fd742d361f21c1360444bc31bbd8
   copyrightText: ' Copyright (C) 2015 Caleb Crome
 
-    Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2015 Caleb Crome '
+    Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/bat-signal.h
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1361,9 +1283,7 @@ files:
     checksumValue: eb80df2a67b90ad92ac084774ade8cd23aad77329a22bbf6bcb7aa2db0a5fd7f
   - algorithm: MD5
     checksumValue: 85a03ffa07c41d574c14437f428f8c28
-  copyrightText: ' Copyright (c) 2010 by Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (c) 2010 by Jaroslav Kysela <perex@perex.cz> '
+  copyrightText: ' Copyright (c) 2010 by Jaroslav Kysela <perex@perex.cz> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaloop/control.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1391,9 +1311,7 @@ files:
     checksumValue: b95b679cdd1bdab25fb545128005a35944811ea8e23e13bc6ce313f119e34690
   - algorithm: MD5
     checksumValue: e232e1a51d7b69fcf53234e3bb8c898e
-  copyrightText: ' Copyright (C) 2007 Free Software Foundation.
-
-    Copyright (C) 2007 Free Software Foundation. '
+  copyrightText: ' Copyright (C) 2007 Free Software Foundation. '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsa-info/alsa-info.sh
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1407,9 +1325,7 @@ files:
     checksumValue: 1f08ca60e78f9221778ebb7cb16cee6d49d89048c710099fbf67abf97ec9eef3
   - algorithm: MD5
     checksumValue: b4a72f8067f0dd6270da6e9af6e3897b
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/alsa.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1423,9 +1339,7 @@ files:
     checksumValue: 8e860c262224d873d502837a7dd02fd39808827bfaca0f444f42ad515e36d2dc
   - algorithm: MD5
     checksumValue: 1584cfdecb4eae821b707105827edc18
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/convert.h
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1439,9 +1353,7 @@ files:
     checksumValue: 5009ca2fa1f3169f0e48cd21c2e2f7550ffa809378503feef5d82343a0b8ea9c
   - algorithm: MD5
     checksumValue: 14b6737db648fcb0814b528c1beb4a63
-  copyrightText: ' Copyright (c) 2010 by Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (c) 2010 by Jaroslav Kysela <perex@perex.cz> '
+  copyrightText: ' Copyright (c) 2010 by Jaroslav Kysela <perex@perex.cz> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaloop/pcmjob.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1469,9 +1381,7 @@ files:
     checksumValue: 09713c980cb0d6236bfeadd243f4f995401d86597684f7fafdebbc260e3468e2
   - algorithm: MD5
     checksumValue: a81b3a3d4dcd808002103d99022993f4
-  copyrightText: ' Copyright (c) by Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (c) by Jaroslav Kysela <perex@perex.cz> '
+  copyrightText: ' Copyright (c) by Jaroslav Kysela <perex@perex.cz> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/daemon.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1500,9 +1410,7 @@ files:
     checksumValue: a1f2a4148a923026a0d213ef75985cc54ed3a3c23fa36de4328c33c6456ff9a0
   - algorithm: MD5
     checksumValue: 675a09f8aa543fce53b9f9976142190f
-  copyrightText: ' Copyright (c) 1999-2002 SuSE GmbH Jan ONDREJ
-
-    Copyright (c) 1999-2002 SuSE GmbH Jan ONDREJ '
+  copyrightText: ' Copyright (c) 1999-2002 SuSE GmbH Jan ONDREJ '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaconf/alsaconf.in
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1516,9 +1424,7 @@ files:
     checksumValue: 9eb4e949ad8f2096acdc31acb0b116cdd63a81c8c470f0f4a2c5f7e9c4f4de6c
   - algorithm: MD5
     checksumValue: 2af53922db75ce07452ba4f19dd5da3a
-  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation
-
-    Copyright (C) 2013-2016 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/hdmi_audio_playback.sh
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1532,9 +1438,7 @@ files:
     checksumValue: 063b9dc066bd49d598454d255d20abaa2e7d37751be8d362142fbfa53ac10895
   - algorithm: MD5
     checksumValue: 4ea3f41232ae0f3f2afedab3df0dee32
-  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation
-
-    Copyright (C) 2013-2016 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/analog_audio_playback_and_capture.sh
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1548,9 +1452,7 @@ files:
     checksumValue: 39bcc5c5ef0ae546038554bb0a69b9585c4baf27f8572f3c4e6f11a8a0396028
   - algorithm: MD5
     checksumValue: dd2abd7d418feea527a4ae7ced79524d
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/analyze.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1564,9 +1466,7 @@ files:
     checksumValue: 5ffcf396f55411eef8903a0bf49983721e4a50b4829a77e7d62262413867fec9
   - algorithm: MD5
     checksumValue: cfa7aabe4c9f5bbb850cae19712588b3
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/alsa.h
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1580,9 +1480,7 @@ files:
     checksumValue: ad4386a66b114d96cb8d3f463408b26ede1f68b0b7b3fc1de7797e455afbe766
   - algorithm: MD5
     checksumValue: a214243d0d049fad611abac4e8dd1984
-  copyrightText: ' Copyright (c) 2004-2005 Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) 2004-2005 Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) 2004-2005 Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aplaymidi/arecordmidi.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1596,9 +1494,7 @@ files:
     checksumValue: 17bf03886be7aedd205fda55044f0ff5d61b2654b68be0fb769200d6739cbcc2
   - algorithm: MD5
     checksumValue: 3ce20933cbb6346afe00aaf5edf0a144
-  copyrightText: ' Copyright (c) 1999 by Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (c) 1999 by Jaroslav Kysela <perex@perex.cz> '
+  copyrightText: ' Copyright (c) 1999 by Jaroslav Kysela <perex@perex.cz> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/amixer/amixer.h
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1614,11 +1510,7 @@ files:
     checksumValue: 143db4e481ba771f28cc66fa61266896
   copyrightText: ' Copyright (C) 2015 Caleb Crome
 
-    Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2015 Caleb Crome '
+    Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/signal.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1632,9 +1524,7 @@ files:
     checksumValue: 02ffe0905dd7f2feda8b3d1f842cd6aa27d43a6a8dd5b8300c4d128d6dc01b65
   - algorithm: MD5
     checksumValue: a5984f1df645292bf2c9e9efb261b6c9
-  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation
-
-    Copyright (C) 2013-2016 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/dp_audio_playback.sh
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1648,9 +1538,7 @@ files:
     checksumValue: dea1e6df5e5ecf88d1b222ca032d853c30ef2305c2c4f5e4eb115f65b2f123b1
   - algorithm: MD5
     checksumValue: 9861e9b5cf66e578eded77ff5797032c
-  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation
-
-    Copyright (C) 2013-2016 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/dp_audio_subdevice_number.sh
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1664,7 +1552,7 @@ files:
     checksumValue: d16c661aab8410230ea5fd510dc562f259e4acf25d1ef486afa1d43780751a7d
   - algorithm: MD5
     checksumValue: 1bdd58601bbbcde361a82f82c8fda6fe
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaloop/alsaloop.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1680,10 +1568,6 @@ files:
     checksumValue: 6cdf67e5c3a310711f7577239c1a5478
   copyrightText: ' Copyright (C) 2000-2004 James Courtier-Dutton
 
-    Copyright (C) 2005 Nathan Hurst
-
-    Copyright (C) 2000-2004 James Courtier-Dutton
-
     Copyright (C) 2005 Nathan Hurst '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/speaker-test.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
@@ -1698,9 +1582,7 @@ files:
     checksumValue: 0baa4c4f6b18f0ea284cfa6af29b145e1ad185dd509343854d599c435ffcca49
   - algorithm: MD5
     checksumValue: 9e8239ecbc1313682f60a6e6b88b88b4
-  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/amidi/amidi.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1714,9 +1596,7 @@ files:
     checksumValue: 59ae888c2bb41833ce13c8647a239658ca6f0025f13b5d0fc6269f51a2967914
   - algorithm: MD5
     checksumValue: 3b9b45640fce92b53628d2f67463a112
-  copyrightText: ' Copyright (C) 2003 by Takashi Iwai <tiwai@suse.de>
-
-    Copyright (C) 2003 by Takashi Iwai <tiwai@suse.de> '
+  copyrightText: ' Copyright (C) 2003 by Takashi Iwai <tiwai@suse.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/iecset/iecbits.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1730,9 +1610,7 @@ files:
     checksumValue: 1c27285f9f3c708c7b10d20ec4141edc4ad1de1979bce1bed87d70898e2acbcc
   - algorithm: MD5
     checksumValue: 31be8edc8e0a57c5f279ff0682e2ebeb
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/common.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1746,9 +1624,7 @@ files:
     checksumValue: f711ca94b35fcecefd70631237fd7e2a7490e012900684141085f5dbd3950a66
   - algorithm: MD5
     checksumValue: b61d0cd28d79e09776076c562a2be7d7
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/analyze.h
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1762,9 +1638,7 @@ files:
     checksumValue: fe39231aabacac228b17b1f6343df42c9ef4e78647b531490fc3e64eeb1f9785
   - algorithm: MD5
     checksumValue: f8010b3583c4cb4afdba8acadcc7895a
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/common.h
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1778,9 +1652,7 @@ files:
     checksumValue: 181fddf5bc26d31422ffc0b8709d85da97071ca8fa89a44355416009c40d11e5
   - algorithm: MD5
     checksumValue: e976cf742b3e50388f1b9ecc16303c60
-  copyrightText: ' Copyright (c) 2004-2006 Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) 2004-2006 Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) 2004-2006 Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aplaymidi/aplaymidi.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1794,9 +1666,7 @@ files:
     checksumValue: a79b5d921ba865cc5fc4512456b359b2d5a65159d7f13de8c0d219f1018d0f23
   - algorithm: MD5
     checksumValue: acc8cfe594b4bdd1e26b623ed28af613
-  copyrightText: ' Copyright (c) 2005 Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) 2005 Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) 2005 Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aseqdump/aseqdump.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1810,9 +1680,7 @@ files:
     checksumValue: 35f85d0d61f04cf7f76de309d371aab9d7b70fbd353a48f3c96a07560712a01d
   - algorithm: MD5
     checksumValue: 0a8141921533a45bba227c38330db44e
-  copyrightText: ' Copyright (C) 2003 by Takashi Iwai <tiwai@suse.de>
-
-    Copyright (C) 2003 by Takashi Iwai <tiwai@suse.de> '
+  copyrightText: ' Copyright (C) 2003 by Takashi Iwai <tiwai@suse.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/iecset/iecset.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1854,9 +1722,7 @@ files:
     checksumValue: f3d902cdb92b9d369b87362f4b600a12d04c5dc7876503fedba2934d3f50d643
   - algorithm: MD5
     checksumValue: 97fd41afe7177e533bd3dca7872b2d53
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/convert.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1870,9 +1736,7 @@ files:
     checksumValue: ae277ba1de2113ee60fb67cc630736fcc7e09f46161516bafa057df96bb0104d
   - algorithm: MD5
     checksumValue: 35d484607227dacd2fa97783ce822802
-  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation
-
-    Copyright (C) 2013-2016 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2016 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/hdmi_audio_subdevice_number.sh
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1886,9 +1750,7 @@ files:
     checksumValue: 97af192d16190e6759228d3808829daf9b4cbfa45726fe718653984a42679260
   - algorithm: MD5
     checksumValue: e4c3eaef1ece49b9510c709576878669
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/bat.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1903,10 +1765,7 @@ files:
   - algorithm: MD5
     checksumValue: 801e32ec7d3fb04608ed0ce532025e28
   copyrightText: ' Copyright (c) by Jaroslav Kysela <perex@perex.cz>, Greg Kroah-Hartman
-    <greg@kroah.com>, Kay Sievers <kay.sievers@vrfy.org>
-
-    Copyright (c) by Jaroslav Kysela <perex@perex.cz>, Greg Kroah-Hartman <greg@kroah.com>,
-    Kay Sievers <kay.sievers@vrfy.org> '
+    <greg@kroah.com>, Kay Sievers <kay.sievers@vrfy.org> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init_parse.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1920,9 +1779,7 @@ files:
     checksumValue: 44516c4e4b91ba5185a448461c0b8f22125a3633b69ae0ce4bb4f8514e82427e
   - algorithm: MD5
     checksumValue: 41e5fd73bf10df32c7d4df78045b07af
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tinyalsa.h
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1936,9 +1793,7 @@ files:
     checksumValue: 422d2b58e073e5f2abe033bcd9492dd73e587c1a3261d0f82c7b0f4dbdf0fcda
   - algorithm: MD5
     checksumValue: 20a2938418ea09a890ed3c944cf82330
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tinyalsa.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1952,9 +1807,7 @@ files:
     checksumValue: d4d45a15c6efdcad98db6456c5d7905bbb1466a95593c26a24f7cdd58fa26b75
   - algorithm: MD5
     checksumValue: 8c25b3517f3926760ab994e4b1b4c6e0
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/latencytest.h
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1968,9 +1821,7 @@ files:
     checksumValue: baa77eb5835e65a642b7551f123f9ac52941510000506ea0caca4c453b7785ef
   - algorithm: MD5
     checksumValue: feb246855c3c2bc3b0fa506923220ac2
-  copyrightText: ' Copyright (c) 2010 by Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (c) 2010 by Jaroslav Kysela <perex@perex.cz> '
+  copyrightText: ' Copyright (c) 2010 by Jaroslav Kysela <perex@perex.cz> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaloop/alsaloop.h
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2014,9 +1865,7 @@ files:
     checksumValue: d8972cc617f4b6095b7b91f6ca96124d5dd6d7f194cdecffb54de3f3a5ab676a
   - algorithm: MD5
     checksumValue: 6d5d84d38a8ee019f70de8c6f56a1386
-  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation
-
-    Copyright (C) 2013-2015 Intel Corporation '
+  copyrightText: ' Copyright (C) 2013-2015 Intel Corporation '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/latencytest.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2080,9 +1929,7 @@ files:
     checksumValue: ee4c5b6b80171d720d09174a5547d62aee1960a9800a295083598b6ac9bb6db4
   - algorithm: MD5
     checksumValue: 8c859e6708928f1eb2882916b1184ab3
-  copyrightText: ' Copyright (c) by Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (c) by Jaroslav Kysela <perex@perex.cz> '
+  copyrightText: ' Copyright (c) by Jaroslav Kysela <perex@perex.cz> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/clean.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2096,9 +1943,7 @@ files:
     checksumValue: 343a1a4cb8929ac07d80787470077bc96d575ad6ce1f9952ad9040800649eec2
   - algorithm: MD5
     checksumValue: 1888e9b88cffad75ac0f9de6adb9b8e2
-  copyrightText: ' copyright 2003 by Jordi Mallach <jordi@debian.org>
-
-    copyright 2003 by Jordi Mallach <jordi@debian.org> '
+  copyrightText: ' copyright 2003 by Jordi Mallach <jordi@debian.org> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaconf/alsaconf.8
   licenseComments: " The information in the file is:\n This is free documentation,\
     \ see the latest version of the GNU\n General Public License for copying conditions.\
@@ -2120,9 +1965,7 @@ files:
     checksumValue: 1939ab7c2d98f8972ff2ae3435549f6296a35fa24056bf36aca1e02055f8452b
   - algorithm: MD5
     checksumValue: 0cd9613dbd03da32049f36b3180da868
-  copyrightText: ' copyright 2003 by Jordi Mallach <jordi@debian.org>
-
-    copyright 2003 by Jordi Mallach <jordi@debian.org> '
+  copyrightText: ' copyright 2003 by Jordi Mallach <jordi@debian.org> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaconf/alsaconf.fr.8
   licenseComments: " The information in the file is:\n This is free documentation,\
     \ see the latest version of the GNU\n General Public License for copying conditions.\
@@ -2144,7 +1987,7 @@ files:
     checksumValue: 39bcbc4af980bb816c15b684602630846a041562d7e940ab9f06ab629d9398d9
   - algorithm: MD5
     checksumValue: 6fdd8b440ec1e1451440e58e109f1fec
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/topology/alsatplg.rst
   licenseComments: ' The information in the file is:
 
@@ -2157,29 +2000,6 @@ files:
   licenseInfoInFiles:
   - LicenseRef-GPL-2.0-or-later
   - LicenseRef-gpl-2.0-plus
-- SPDXID: SPDXRef-item441858
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 297b46f08fba07c0484ef540f9f3047d7b326cc8
-  - algorithm: SHA256
-    checksumValue: c2fd71953b47c19c62db69cbf739504aca8b47a40dbdc8c83bbc4cc7664a1779
-  - algorithm: MD5
-    checksumValue: d651f428c7739cf424b31c05dfdbed04
-  copyrightText: ' Copyright (C) 1994 X Consortium '
-  fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/install-sh
-  licenseComments: ' The information in the file is:
-
-
-    FSF changes to this file are in the public domain.
-
-
-    Thus, we concluded Public domain. '
-  licenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11
-  licenseInfoInFiles:
-  - LicenseRef-X11
-  - LicenseRef-MIT
-  - LicenseRef-Public-domain
-  - LicenseRef-x11-xconsortium
 - SPDXID: SPDXRef-item442000
   checksums:
   - algorithm: SHA1
@@ -2293,17 +2113,7 @@ files:
 
     Justin Xu <justinx@slimlogic.co.uk>
 
-    Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (C) 2008-2010 SlimLogic Ltd
-
-    Copyright (C) 2010 Red Hat Inc. Authors: Liam Girdwood <lrg@slimlogic.co.uk> Stefan
-    Schmidt <stefan@slimlogic.co.uk> Justin Xu <justinx@slimlogic.co.uk> Jaroslav
-    Kysela <perex@perex.cz>
-
-    Copyright (C) 2010 Texas Instruments Inc.
-
-    Copyright (C) 2010 Wolfson Microelectronics PLC '
+    Jaroslav Kysela <perex@perex.cz> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaucm/usecase.c
   licenseConcluded: LicenseRef-LGPL-2.0-or-later-c4a20a7c9332c01337a88843c850c213
   licenseInfoInFiles:
@@ -2317,7 +2127,7 @@ files:
     checksumValue: b2cefdebc9dffbc3044a4674c465b6e76bc6882f63f7fd8d3d8c70c85a61a9ce
   - algorithm: MD5
     checksumValue: eb9ad68a9a7894e7d7f514c64e5f410a
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaucm/usecase.h
   licenseConcluded: LicenseRef-LGPL-2.0-or-later-c4a20a7c9332c01337a88843c850c213
   licenseInfoInFiles:
@@ -2331,9 +2141,7 @@ files:
     checksumValue: 779643f7a5b9e575b521dc73c68e451f3247f1816a839f941427751596ae78e1
   - algorithm: MD5
     checksumValue: a9d9dc084f9ab943c98e2a8953ce8460
-  copyrightText: ' Copyright (C) 2019 Red Hat Inc. Authors: Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (C) 2019 Red Hat Inc. Authors: Jaroslav Kysela <perex@perex.cz> '
+  copyrightText: ' Copyright (C) 2019 Red Hat Inc. Authors: Jaroslav Kysela <perex@perex.cz> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaucm/dump.c
   licenseConcluded: LicenseRef-LGPL-2.0-or-later-c4a20a7c9332c01337a88843c850c213
   licenseInfoInFiles:
@@ -2389,9 +2197,7 @@ files:
     checksumValue: 2e25f03c05890db409834ee650c53fcf75e4ece377ed793da9b116b6a326dc44
   - algorithm: MD5
     checksumValue: 78eeae82df367cdd634d65d26fff84c8
-  copyrightText: ' Copyright(c) 2021 Intel Corporation All rights reserved.
-
-    Copyright(c) 2021 Intel Corporation All rights reserved. '
+  copyrightText: ' Copyright(c) 2021 Intel Corporation All rights reserved. '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/topology/pre-process-class.c
   licenseConcluded: LicenseRef-GPL-2.0-only-ae8daadc90cf0be476152c10de5a079b
   licenseInfoInFiles:
@@ -2451,9 +2257,7 @@ files:
     checksumValue: 088de066265004651b30ffa2a16ed99e00207d22583e00e38e1d170327883257
   - algorithm: MD5
     checksumValue: a69f6815251a79504865ac52e9fcaade
-  copyrightText: ' Copyright(c) 2021 Intel Corporation All rights reserved.
-
-    Copyright(c) 2021 Intel Corporation All rights reserved. '
+  copyrightText: ' Copyright(c) 2021 Intel Corporation All rights reserved. '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/topology/pre-process-dai.c
   licenseConcluded: LicenseRef-GPL-2.0-only-ae8daadc90cf0be476152c10de5a079b
   licenseInfoInFiles:
@@ -2467,8 +2271,7 @@ files:
     checksumValue: d582513385c800f75224f4041fbff207053d4229be6038c6810af382420ac362
   - algorithm: MD5
     checksumValue: 9d9b955511f69c8a408a28b87d76cb71
-  copyrightText: " Copyright (C) 2002 Free Software Foundation, Inc. \nCopyright (C)\
-    \ 2002 Free Software Foundation, Inc. "
+  copyrightText: ' Copyright (C) 2002 Free Software Foundation, Inc.  '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/po/remove-potcdate.sin
   licenseConcluded: LicenseRef-FSFAP
   licenseInfoInFiles:
@@ -2599,9 +2402,7 @@ files:
     checksumValue: 46a0c53f58f769722b4c7aa89a53c48dd376e17066038d0a2d577a2e3783a579
   - algorithm: MD5
     checksumValue: bb9ee4b3741e4b43001159402cef271e
-  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/proc_files.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2615,9 +2416,7 @@ files:
     checksumValue: 47fec0c3d63bcd39e448161c0155f458f88e644b7bafa5c1fc35cbe2be3b4677
   - algorithm: MD5
     checksumValue: 6d7ed93ffe704dbaf83e425107fe7727
-  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/card_select.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2631,9 +2430,7 @@ files:
     checksumValue: a142204ec319fd572fdc6e28971e195275920770d155fd9ddfcf97bf9c07a52a
   - algorithm: MD5
     checksumValue: 78296e8c9ee873b6accdb3c9e7c03429
-  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/widget.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2649,10 +2446,6 @@ files:
     checksumValue: e8f153c075c218ed6f7ff7b3304e5542
   copyrightText: ' Copyright (c) 1998,1999 Tim Janik Jaroslav Kysela <perex@perex.cz>
 
-    Copyright (c) 2009 Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) 1998,1999 Tim Janik Jaroslav Kysela <perex@perex.cz>
-
     Copyright (c) 2009 Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/textbox.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
@@ -2667,9 +2460,7 @@ files:
     checksumValue: 82f1e53758be4e964d298be7c2c96341a446ded3fdd3acad9307395cda642ac3
   - algorithm: MD5
     checksumValue: 31a41d61742a098ecfd142174c7df718
-  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/die.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2685,10 +2476,6 @@ files:
     checksumValue: 96d77aed05e0013fd6f36a017ebff32d
   copyrightText: ' Copyright (c) 1874 Lewis Carroll
 
-    Copyright (c) 2009 Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) 1874 Lewis Carroll
-
     Copyright (c) 2009 Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mixer_display.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
@@ -2703,9 +2490,7 @@ files:
     checksumValue: d6d887c59161ec86b91880c3d754ad18f2ae187ac1c99665e286f62ac4ab2354
   - algorithm: MD5
     checksumValue: f1a572a0a4228fc8a35209f7531181e7
-  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/utils.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2719,9 +2504,7 @@ files:
     checksumValue: 2ec385e3f5b73c2b5ad34bd421c3c572aa2a3573b9513432eafcf5419b451fe5
   - algorithm: MD5
     checksumValue: f74a38e045dd613386d4f8d5f1a8a829
-  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mem.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2735,9 +2518,7 @@ files:
     checksumValue: aeeac16b6eeaa827e9927f85c2135e8b7d15af83cdd8d65406c1a8573fbf685f
   - algorithm: MD5
     checksumValue: cdd9a8e06c254c6d56ddc684ee83aa14
-  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/device_name.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -2752,10 +2533,6 @@ files:
   - algorithm: MD5
     checksumValue: cd5b39d89051399e6e1506eee7c5bba7
   copyrightText: ' Copyright (c) 1998,1999 Tim Janik Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (c) 2009 Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) 1998,1999 Tim Janik Jaroslav Kysela <perex@perex.cz>
 
     Copyright (c) 2009 Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mixer_controls.c
@@ -2788,10 +2565,6 @@ files:
   - algorithm: MD5
     checksumValue: 126da024661a384e61fd71e61d14cbf4
   copyrightText: ' Copyright (c) 1998,1999 Tim Janik Jaroslav Kysela <perex@perex.cz>
-
-    Copyright (c) 2009 Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) 1998,1999 Tim Janik Jaroslav Kysela <perex@perex.cz>
 
     Copyright (c) 2009 Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mixer_widget.c
@@ -3241,9 +3014,7 @@ files:
     checksumValue: d27a2bb020210531000c6b7e35e7e823980ef4ce05efe6e3b094ab1306e565a6
   - algorithm: MD5
     checksumValue: 655cddf1ffc93d29f9dfa9a6c0fd9e7b
-  copyrightText: ' Copyright (c) 2010 Clemens Ladisch <clemens@ladisch.de>
-
-    Copyright (c) 2010 Clemens Ladisch <clemens@ladisch.de> '
+  copyrightText: ' Copyright (c) 2010 Clemens Ladisch <clemens@ladisch.de> '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/volume_mapping.c
   licenseConcluded: LicenseRef-ISC-a1a9c92890333752b564a27bf103e3a3
   licenseInfoInFiles:
@@ -3257,7 +3028,7 @@ files:
     checksumValue: 181c90e0c4511b75d91ee2cee09c6f6f1e2c284e1d047307855c400f074af8ba
   - algorithm: MD5
     checksumValue: 367f46d0b1e9ce8ce12e86b8e013b17b
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/amixer/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3270,7 +3041,7 @@ files:
     checksumValue: 344467212e99e4d9ce474425fed928509093729aa3185ed47b0eda929522e55c
   - algorithm: MD5
     checksumValue: 59d8cd06cdc82984cae7834ebe1a1a3d
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/amixer/amixer.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3283,7 +3054,7 @@ files:
     checksumValue: 2f6840c6b1514fb5cd72e4023a01e7dd719b3e13c47dd92529cc382d8d880e8a
   - algorithm: MD5
     checksumValue: 91f68da7028ca87236658fabb7db8a9f
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/amixer/volume_mapping.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3296,7 +3067,7 @@ files:
     checksumValue: d38c58173ebca8443fc22a15d0cb7101fa18e84c23c19433d48b0a9f745bb187
   - algorithm: MD5
     checksumValue: b653cd52117dbffd183f5257b323d59e
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/90-alsa-restore.rules.in
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3348,7 +3119,7 @@ files:
     checksumValue: 6ceaf6edac493f7ff8a2dd7a7b9cd43bf7334f3af432fefed9b377705c06a754
   - algorithm: MD5
     checksumValue: 2ba852ea108988355e997fd7f485b15e
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init/test
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3361,7 +3132,7 @@ files:
     checksumValue: 8dcf33274924b4f102611c7899fc5491c950ba1ec47f31bd217dc9927a16bae9
   - algorithm: MD5
     checksumValue: 24056ec53f900ff4343f3b2d75695e17
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3374,7 +3145,7 @@ files:
     checksumValue: 180debbe6d1340a6713298b9b0dd4b3edfc8cf7822648baf6cb71b2dd27667e6
   - algorithm: MD5
     checksumValue: cfd25aeec5652fae1e7148eaf49666ce
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init/info
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3387,7 +3158,7 @@ files:
     checksumValue: e84c5a4777ad9e965702983bb201f336bedf9279163b8540390e1f1775e88e95
   - algorithm: MD5
     checksumValue: 6cb822c5baa87c0112813be59ad7ff67
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init/ca0106
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3400,7 +3171,7 @@ files:
     checksumValue: f044bccf6275c1ef2be920ffd48fc6b7f6a5d378570ef530218bc618302a8b9b
   - algorithm: MD5
     checksumValue: 84b05375889f2213644e3ac24820c5c4
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init/default
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3426,7 +3197,7 @@ files:
     checksumValue: 1ecafe04be851b9c4dbeb0c59d6e68d68568cca09dbec5833c03adc7494126e5
   - algorithm: MD5
     checksumValue: 11eeee86df9bfb1edcd2f5ac558ed871
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init/hda
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3439,7 +3210,7 @@ files:
     checksumValue: 2434cedd501565f324103477957853575301bfc60c22b380c1f7221be64b7131
   - algorithm: MD5
     checksumValue: 1aefd1542930af5f60dfd687685896d8
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/init/help
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3452,7 +3223,7 @@ files:
     checksumValue: 3b983944a5fea8a55514bf72c1b68729aa4c96dce26628d95c48fc859d2b8881
   - algorithm: MD5
     checksumValue: 2335562f5c33cb9cb34b4b58091f069d
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/alsa-state.service.in
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3465,7 +3236,7 @@ files:
     checksumValue: 23e12027b526f806521ef7b5d9633d60c41104c333527e3028ee4cfe42473e4b
   - algorithm: MD5
     checksumValue: 12773bd0917f3cbf8f476e1039504987
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/alsa-restore.service.in
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3478,7 +3249,7 @@ files:
     checksumValue: eeb9bf057c26431e8186cc3ef7cf61648742d2d283c7f02155ba100c1c6439b1
   - algorithm: MD5
     checksumValue: f8e28a8731c18ddded0b390e25ab07e9
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsactl/alsactl_init.xml
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3491,7 +3262,7 @@ files:
     checksumValue: 87ae60cb2e9f6b5ca8892519a88cccbeadb1cf42590bb6ed201e519fbcbb14c1
   - algorithm: MD5
     checksumValue: fc2d14be0009da2445f38fd307a75fca
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/iecset/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3504,7 +3275,7 @@ files:
     checksumValue: 73718c5a8207627ad515a28fd4a23a8146c0adfb29af326f0376a50828d8114b
   - algorithm: MD5
     checksumValue: a4bffcfb69524c41361b4a935f6c738a
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/iecset/iecset.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3517,7 +3288,7 @@ files:
     checksumValue: fbe8681a07eab3934d302edb4db8fbcea014b460232e3638e7f4cdb7da53e5aa
   - algorithm: MD5
     checksumValue: b8379015c0e4d1221c386a8fff0fcb9b
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/ABOUT-NLS
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3543,7 +3314,7 @@ files:
     checksumValue: 5c76bfed504419c9a414eb86a4c2176843040ba708a5079c7f1c938b6967d15c
   - algorithm: MD5
     checksumValue: b14ac9d45885b705919aea884b7226ad
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/amidi/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3556,7 +3327,7 @@ files:
     checksumValue: 268e667fb015b51fe913f4d4f5bd39a1c99a7f467e24b3860428dcedb2716c52
   - algorithm: MD5
     checksumValue: be4ff52fe0c2d0ff8aa4b39c30f565ef
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/amidi/amidi.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3569,7 +3340,7 @@ files:
     checksumValue: 9cba378bdc32bb34dc313a758c0c678eaa70f92b9ccf06552b94b124ae8794d9
   - algorithm: MD5
     checksumValue: 12e2336a5ba201eee965a34c34f37b8f
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3582,7 +3353,7 @@ files:
     checksumValue: 5f5800f5fb09f23d87de86ab4b6263bb0c6f44f8d948d71795d966e95f4efb39
   - algorithm: MD5
     checksumValue: f9b09d47a1b540666c984b243cdcebdf
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aseqdump/aseqdump.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3595,7 +3366,7 @@ files:
     checksumValue: 2b9112037cfb8cccdc3cb0f8707e82762b7d70924c1c05631d38c0a57d0e0ee0
   - algorithm: MD5
     checksumValue: 17ec9d3a3c548b5c4b2dc726d1b12a5a
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aseqdump/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3608,7 +3379,7 @@ files:
     checksumValue: 81c6278812d558fdc3ccfb1610cd0885357449924df0e479a949e71cfd43c537
   - algorithm: MD5
     checksumValue: f67bea9e3bdf808d3c1f7178e7256c03
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aseqnet/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3621,7 +3392,7 @@ files:
     checksumValue: 3c34ffba800fb5dc53d8fadcae14f9bb23ebc2069e464298b33e2a727731413c
   - algorithm: MD5
     checksumValue: 2725b952d7de9f1caa34abe7e548eb10
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aseqnet/aseqnet.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3634,9 +3405,7 @@ files:
     checksumValue: f940442034cc1f57335a36f7e08498035e11d86d6e420eb9ccb607f64c77f981
   - algorithm: MD5
     checksumValue: 70f3919a8495e00cd846924844d5f9e0
-  copyrightText: ' Copyright (C) 1999-2000 Takashi Iwai
-
-    Copyright (C) 1999-2000 Takashi Iwai '
+  copyrightText: ' Copyright (C) 1999-2000 Takashi Iwai '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aseqnet/README.aseqnet
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3649,7 +3418,7 @@ files:
     checksumValue: 3fc7889911090b5ea4de3b1fa29368b5b9f037a21bf1b36b392d87c312fc5347
   - algorithm: MD5
     checksumValue: b3dfc91dcfc1566dcb8f797c027d6c95
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aplaymidi/arecordmidi.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3662,7 +3431,7 @@ files:
     checksumValue: e8e2aa21f8b0c2f910b33658a91b2b7fcbf2a6e3a479690f117e6ca6e335c83a
   - algorithm: MD5
     checksumValue: 9420d7d00085735b77e8148edb84e481
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aplaymidi/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3675,7 +3444,7 @@ files:
     checksumValue: 0713e933337e54a1a5b349c553897d8d383dea366ef74accf85612234fce279c
   - algorithm: MD5
     checksumValue: ad68343ae92459b8d8afccee988236bf
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aplaymidi/aplaymidi.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3688,7 +3457,7 @@ files:
     checksumValue: 0ccf498bc5ddfa0b9a55b71fbd939aedd21a8ffc1ba6db954700d5abaceb4240
   - algorithm: MD5
     checksumValue: 54481d3817babe649ef3990290e85653
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aconnect/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3701,7 +3470,7 @@ files:
     checksumValue: e491cb151fd6b74c9b91ea5756af32a07c5411489c65cd7a6642bebf77e4796b
   - algorithm: MD5
     checksumValue: 0677f1ef3c2fff20374fbfb3a8acaddd
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aconnect/aconnect.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3714,9 +3483,7 @@ files:
     checksumValue: b07e2add0a2e8284cc9f3195634fb0c2dea63264598c1fe47b38b7f1a5e75820
   - algorithm: MD5
     checksumValue: 86b542832e9cefa18a3f94f78b01892f
-  copyrightText: ' Copyright (C) 1999-2000 Takashi Iwai
-
-    Copyright (C) 1999-2000 Takashi Iwai '
+  copyrightText: ' Copyright (C) 1999-2000 Takashi Iwai '
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/seq/aconnect/README.aconnect
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3729,7 +3496,7 @@ files:
     checksumValue: fdb6010bb2ccce96162fb2ac8443e5ec162d0c11d0f4cd0c4d1bf30d6b4ccc10
   - algorithm: MD5
     checksumValue: f595c66a0f38de360967ca3c7fbb058c
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/axfer-transfer.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3742,7 +3509,7 @@ files:
     checksumValue: 38541b6014181b5b42f342f9c4c525de21024853125266be8e29411ab7cdfb08
   - algorithm: MD5
     checksumValue: d166567c154d748260e12d413ba4487f
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/test/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3755,7 +3522,7 @@ files:
     checksumValue: d0535e0c40bc52889974582af93b7df2f62787f258345007ea98b0850f970d61
   - algorithm: MD5
     checksumValue: 66ae8fabc40928d7fac7e88e6c058e08
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3768,7 +3535,7 @@ files:
     checksumValue: 8612fb2e71a59dbabe74ede252ebc19a190b9a54849758e42a70b0c6047115ec
   - algorithm: MD5
     checksumValue: d7a27f67b9dd6e9d093d9d8417a22f49
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/axfer-list.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3781,7 +3548,7 @@ files:
     checksumValue: c7881f8f0bea3bf51f43de310cf369eb0afdf3cd2cd59ba6596f15ac46e95c32
   - algorithm: MD5
     checksumValue: 13757498e4cf15de94d31fea3cb24d58
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/axfer/axfer.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3794,7 +3561,7 @@ files:
     checksumValue: b487e767a5dc3d2eba312b815371be6afa8c2915a255ad9e3595f29eb50d4467
   - algorithm: MD5
     checksumValue: 9d392b5777b164ee3afc240947938c9e
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/utils/alsa-utils.spec.in
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3808,7 +3575,7 @@ files:
     checksumValue: e5ae8edb3e2d8a04bad5e349c53dd9e1234ac3ca2c5730eb767c1f3fd649e2d0
   - algorithm: MD5
     checksumValue: 50ac3aaf74401efedd71d7d477b6b070
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/utils/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3821,7 +3588,7 @@ files:
     checksumValue: ee497a5974860b0bd65a8dba5283b58933ca3bd9e4649a3d465cc66d678e913a
   - algorithm: MD5
     checksumValue: e3cd3efd06064405d5f8dc717da66acf
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/utils/buildrpm
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3834,7 +3601,7 @@ files:
     checksumValue: b78893179cb858e8d5b4bf579b17e169968572192bd8ed9da32aa5b9050e30d0
   - algorithm: MD5
     checksumValue: 40fa7787ab31f624b48587ff31a38c41
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3847,7 +3614,7 @@ files:
     checksumValue: ab1c5bf2d84f9fc6fa8cca72537d85699cf75f0bb2cfb49a93574440a400bf29
   - algorithm: MD5
     checksumValue: 1be05614b4ab53b090a73b861cceae8a
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/TODO
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3860,7 +3627,7 @@ files:
     checksumValue: fb6b6fddae61d2ae62d80cbc4727cf6f14a3413f174745a4d4ad79200cd29377
   - algorithm: MD5
     checksumValue: 8c6163a4b216483536f4393db8621163
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3873,7 +3640,7 @@ files:
     checksumValue: 0674157282553261a5d9ee2e732fe69d8cf7d68f8f7486874deeea6205994753
   - algorithm: MD5
     checksumValue: 299e42d0fff5fbf8e36b5605fa59e4dc
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/pink.c
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3886,7 +3653,7 @@ files:
     checksumValue: e4ec8d5f6766d1c292bf8276aac24bd2fa85f7b03f015507b8848af672a04a9a
   - algorithm: MD5
     checksumValue: 4700dbbfad17fbc4fe8fe9b6c44b15d2
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/pink.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3899,7 +3666,7 @@ files:
     checksumValue: 1679e0557701864d55b742a0abd3fe5f50d95b1bfcb55ffad4b597dcc7e3c7b8
   - algorithm: MD5
     checksumValue: c86cfb060fc01dc923cac53b7189eee8
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/samples/Rear_Left.wav
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3912,7 +3679,7 @@ files:
     checksumValue: 12828d125f692faa75c7445d52125dcc2c36f82c4f7a3ef49b8ae6afd74ada9d
   - algorithm: MD5
     checksumValue: b3a26327752d20729edfb1709c80e6e2
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/samples/Rear_Right.wav
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3925,7 +3692,7 @@ files:
     checksumValue: 1fdea4d7003f1f7d3e48d3521aaab0a112c4ac570b02ddf1813abacac3070f6f
   - algorithm: MD5
     checksumValue: 22ffa2e708e1af92f2e21111ebf0c8da
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/samples/Front_Right.wav
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3938,7 +3705,7 @@ files:
     checksumValue: 9343207e3298813fdc4d26b7948e15a38533c37a9f232c3eff809b565398b330
   - algorithm: MD5
     checksumValue: f4f15e1d071759f201a089f91c8f2fb6
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/samples/Rear_Center.wav
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3977,7 +3744,7 @@ files:
     checksumValue: ecdd0329945f355960796a56f8126d5080ed93fdd2437c7eaddbbbd56137d7e9
   - algorithm: MD5
     checksumValue: cc2f857156dd6a9359a0a0e4c66a8814
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/samples/Side_Right.wav
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -3990,7 +3757,7 @@ files:
     checksumValue: 9f97e8458785da2f0aa0ec60bf9cc81520cbf80a4683e83eca9cb5f2958e9fef
   - algorithm: MD5
     checksumValue: 31215ca9ec7ddb07343927570604a21f
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/samples/Front_Left.wav
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4003,7 +3770,7 @@ files:
     checksumValue: 0d897df3862192ea078efc1dd8fdc4f51fae9e93d3ed4c15e049829b0386729e
   - algorithm: MD5
     checksumValue: 82a15bb64a71472ac1352e9ee6bfcf80
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/samples/Noise.wav
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4016,7 +3783,7 @@ files:
     checksumValue: 03dc7c641d7825417d2a261831715e945e95d87343fb037db910e7ce4f87a2a1
   - algorithm: MD5
     checksumValue: 61b2bee54ce016bef4934b7e71da13c8
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/samples/Side_Left.wav
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4029,7 +3796,7 @@ files:
     checksumValue: 0d61518bcd3f13b0c709a5298e939caf698b80d31d71d50475365ee0e5536cc9
   - algorithm: MD5
     checksumValue: 916147ce6ced50877c27c5570626a54d
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/samples/Front_Center.wav
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4042,7 +3809,7 @@ files:
     checksumValue: f5d2f9e8e40e6ffbc7732549d6e8fde2915cb1b2428759f8b0e579efc1f1d7b2
   - algorithm: MD5
     checksumValue: 37bc1f08677d76b726da1b39754e2baa
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/readme.txt
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4055,7 +3822,7 @@ files:
     checksumValue: f45652ac70acdf477023f9f241be90c46b3e39a5240372f3ad6ecec116ab9af2
   - algorithm: MD5
     checksumValue: 6c0d59521da5e938e276e1907ce468a2
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/speaker-test/speaker-test.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4068,7 +3835,7 @@ files:
     checksumValue: 5c25482d6a96f14e2b9295c71c6653d191f92ec2a4b71d1087c14dad1be81309
   - algorithm: MD5
     checksumValue: f9da394b057e1f78eebe8a71af14d07c
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/ChangeLog
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4081,7 +3848,7 @@ files:
     checksumValue: 763e1184dde77019f318e4f38653f291ccafac1c3415641741709e7fa791f8e7
   - algorithm: MD5
     checksumValue: 080c27b8b21e234204004a5c31d73059
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/INSTALL
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4120,7 +3887,7 @@ files:
     checksumValue: 87920ab4bc994b2d881e60cbbcb4538e87d07dcb9dfb3ebcf3bfd67c9e1aefdc
   - algorithm: MD5
     checksumValue: 3cb8e08b4b08cd6f807f902f0376be98
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/acinclude.m4
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4133,7 +3900,7 @@ files:
     checksumValue: 54d896a4f3089576be68662cc76090bfa0b94c067b9e3aa6effc16c3c93df0e9
   - algorithm: MD5
     checksumValue: d290e39aa1687bc8b300dccde2aae4b0
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaucm/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4146,7 +3913,7 @@ files:
     checksumValue: e06ffad9d6653ebd645d35dad5c82e206be55d7b1ce36afd01bf56ca39e5ca7c
   - algorithm: MD5
     checksumValue: 84b4e8fe87ada24e16f7298c2f7518a4
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaloop/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4159,7 +3926,7 @@ files:
     checksumValue: ad2bb14453ad9f95fb5da01866f18a967e45707c05937cc56302096f873dec3d
   - algorithm: MD5
     checksumValue: 61e6c739b3226ec815a7f2aea6886bc7
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaloop/alsaloop.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4172,7 +3939,7 @@ files:
     checksumValue: ad579e42b4c61525ea162f99f33122e330decc1b864372cb2b005e73000a2ba3
   - algorithm: MD5
     checksumValue: 651f5d6284b767b9afa0a749847b7104
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4185,7 +3952,7 @@ files:
     checksumValue: 436d75a9165ad995dc54e883281d7eb8982b5398ac2a0efce2f8593ab5cf47c4
   - algorithm: MD5
     checksumValue: f2b0168b2c4654e9d68ff66351c86751
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/map_test_case
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4198,7 +3965,7 @@ files:
     checksumValue: 0587fb0d09b5a480b9d6be9b61576cdafde12108fef8fceb015eb2848e59c500
   - algorithm: MD5
     checksumValue: ddc2a21a7e6b562ab0666b0b60de56f6
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4211,7 +3978,7 @@ files:
     checksumValue: fee1f59c7d4dc17876acd9f3032918e0269379516b32af25e53b38a798057b07
   - algorithm: MD5
     checksumValue: b6df8d18e026cde289507d3482188fe5
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/asound_state/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4224,7 +3991,7 @@ files:
     checksumValue: a8645cc6f386ec300b7eeb35386be3d54048a31c3305df47a3717b83dbb856c4
   - algorithm: MD5
     checksumValue: 375a6679dbf2e46a993d7bbb78fa7b2e
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/asound_state/asound.state.Haswell
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4237,7 +4004,7 @@ files:
     checksumValue: 142a9c7de056831109ad0d9013d467b49d34901c2e7fcc1bfa8cf7f4d6d00bdb
   - algorithm: MD5
     checksumValue: 41468a8bac1c43503334a6a9ba99e4a2
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/asound_state/asound.state.Skylake
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4250,7 +4017,7 @@ files:
     checksumValue: f568df410784ffe1c24b2a103a5f14f9ab01c870b59bc7d6eaada43e4942bfff
   - algorithm: MD5
     checksumValue: 3df642865e5ab177abfe462d929e10ec
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/asound_state/asound.state.Broadwell
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4263,7 +4030,7 @@ files:
     checksumValue: 9d3a19d4cbda8a10001486e2904a4f016e680b6abc1572cf887b0a4282ea07e4
   - algorithm: MD5
     checksumValue: 708b7eebeeb60af8f1820f53c5af90ee
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/tests/README
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4276,7 +4043,7 @@ files:
     checksumValue: 32da3312aeca5ad7b543b39edcdd1381ee26b537b8353219a429332f3d32d4a8
   - algorithm: MD5
     checksumValue: d89cd796c10989de57fb819a1ffce11b
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/alsabat.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4289,7 +4056,7 @@ files:
     checksumValue: 77599455a7598aac9a07722387dfe4950b275518ad9d7f5c4ec133f939e413ac
   - algorithm: MD5
     checksumValue: de31d81700b38ce4d2f90bc11e74d78f
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/bat/alsabat-test.sh
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4315,7 +4082,7 @@ files:
     checksumValue: 0d3fa09f9bda307a878dcc42d7a6de8c25fab69d45958d7642db626e5b288cba
   - algorithm: MD5
     checksumValue: 2cc1d918e9823846c7f19e5e321aefc2
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaconf/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4328,7 +4095,7 @@ files:
     checksumValue: e867ccef106c1e67b7fb5ca92783e14c84bb4819a0afe3caf22582c26f0830c6
   - algorithm: MD5
     checksumValue: 3943dd888260a1ab616364686b69415a
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsaconf/po/Makefile.in
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4354,7 +4121,7 @@ files:
     checksumValue: 00fa82674e8fa6e86f6cc987826ac6cffea4018fb17294f682ca30d87ac621be
   - algorithm: MD5
     checksumValue: 40601dd5793864404365ec406b536330
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/include/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4367,7 +4134,7 @@ files:
     checksumValue: cc062c13a4adab8a851b17ebe87f5798287a9d861b48918358af71304754f35a
   - algorithm: MD5
     checksumValue: 025727dd27165271250cc17370cec3f5
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/include/gettext_curses.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4393,7 +4160,7 @@ files:
     checksumValue: a28125c73a6b881e6df658fac5b97e6a6824d45a7e1db865fa99aa8422aa5197
   - algorithm: MD5
     checksumValue: 38d49601a94ae87e910077111214a39b
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/include/gettext.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4406,7 +4173,7 @@ files:
     checksumValue: 91f13799682dadde3d30a2367187ac39986fb9c9d2775cab956d329b55f18db1
   - algorithm: MD5
     checksumValue: 13f6ba013f82745c56a5f64d63b5b0e6
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/bindings.c
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4419,7 +4186,7 @@ files:
     checksumValue: 7fa5e812d2d160c5a726d7dba011dbd699c1cc01312bfca019cd4cf560383d38
   - algorithm: MD5
     checksumValue: b24afabb8aaa88658dfb3a5211b0fcaf
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mixer_controls.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4445,7 +4212,7 @@ files:
     checksumValue: 043778a3a563094f21b1718f321bb86bf99a19ada775634a830c54ef00969a1d
   - algorithm: MD5
     checksumValue: 166d4019a65713424fbdb865686a84f8
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/utils.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4458,7 +4225,7 @@ files:
     checksumValue: 3c2ecae3e4b931d6177c05b611b6e1dccac0dbe8dee1912328bde3da13f31daa
   - algorithm: MD5
     checksumValue: 3d4902f926fee59b99452d23f976380a
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mem.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4471,7 +4238,7 @@ files:
     checksumValue: c47b54d563276834dfabadc2a882a010f978be73a8296ea29acb352242538969
   - algorithm: MD5
     checksumValue: b270d45c65b3f56aaaa9301ff5d0e5a8
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/configparser.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4484,7 +4251,7 @@ files:
     checksumValue: bdfba88a9fb77a4e4e98b898de56a2d895e26c682cff6880b300fb77cc91b7f2
   - algorithm: MD5
     checksumValue: 5eb93dabeb59f363ed154439c923f00a
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/curskey.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4497,7 +4264,7 @@ files:
     checksumValue: c8822476ca08c31d277e742ab018ecf53e07586d697ad35f2280e1a65c2ab1e3
   - algorithm: MD5
     checksumValue: ef78dd7cdb480f2ec8de04a558f220f5
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/proc_files.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4510,7 +4277,7 @@ files:
     checksumValue: 5240bd35f26105f113de984fb0fee25de7bdff415073ecb6479087b7ab92d388
   - algorithm: MD5
     checksumValue: a1248a338f91561bbe2d93996af51f27
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/textbox.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4536,7 +4303,7 @@ files:
     checksumValue: a2980aa01bebaf2ecdfc23f568038f9099aac9cc222de042e10509e25e18a01f
   - algorithm: MD5
     checksumValue: 0b5f96570eebe601db6a054999e8ae9b
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/device_name.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4549,7 +4316,7 @@ files:
     checksumValue: fc20aaeeca01d8417d7d664e7a3240bdd0dad82e6966acddad4f498cbf85d2a0
   - algorithm: MD5
     checksumValue: 70fd94938a684561d2af0eb401c5e79e
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/menu_widget.c
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4562,7 +4329,7 @@ files:
     checksumValue: d0009dd687809c4865f13cbf020649ef435e878adf8f08dd6df6620b0bf73cd9
   - algorithm: MD5
     checksumValue: 6f424e408a40d2528ebc3dff350cded5
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mixer_clickable.c
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4575,7 +4342,7 @@ files:
     checksumValue: e11397fc5add5a5f74142dfbf3b1407117c2f90e8385b66fef411817f19e64b9
   - algorithm: MD5
     checksumValue: 81dbdf55c770a0294d812be1022cb66f
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/card_select.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4588,7 +4355,7 @@ files:
     checksumValue: 9b2809f7583c9b06abdac9267ba4ce48943bc97180f2fe13ed0415a0070a357f
   - algorithm: MD5
     checksumValue: f18d70a73cdb479e7ce51a32c88dda37
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/die.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4601,7 +4368,7 @@ files:
     checksumValue: 72f46df8f5161ecda3216f8c6745ca4bbe5f939b62de8f87abe5e4b0d67f96a5
   - algorithm: MD5
     checksumValue: 9e8bc3682aa52a6b6eb3fc8914286b4c
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/bindings.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4614,7 +4381,7 @@ files:
     checksumValue: f10744c80c80f23c723dce97e3bb7ab10192addf7ef1167a6badb332029b4dd3
   - algorithm: MD5
     checksumValue: 0a374c4a1af3b21fd07b42bc61fd3ae4
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/menu_widget.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4640,7 +4407,7 @@ files:
     checksumValue: 5cf396c97ddd58c28b0f284f567ffdf17bc1e88736dccff67984bf587ca33835
   - algorithm: MD5
     checksumValue: 1fcaf7a7086bfe8b2eef3cf86472ac53
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mixer_widget.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4653,7 +4420,7 @@ files:
     checksumValue: 2f6840c6b1514fb5cd72e4023a01e7dd719b3e13c47dd92529cc382d8d880e8a
   - algorithm: MD5
     checksumValue: 91f68da7028ca87236658fabb7db8a9f
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/volume_mapping.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4666,7 +4433,7 @@ files:
     checksumValue: ab56cdbaa985e79b685331052ac3bbd865b295dd7b430295c8e09471dc04ea58
   - algorithm: MD5
     checksumValue: 67d8005af632c88c7853e6a364b9cd20
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mixer_display.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4679,7 +4446,7 @@ files:
     checksumValue: 3e8263eadecb69b584f7bd8abc89e617c412bf2517a1f084a5d854f9c6a0056c
   - algorithm: MD5
     checksumValue: a396b68e6247c96cf2f6d6271256ac86
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mixer_clickable.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4692,7 +4459,7 @@ files:
     checksumValue: d0679a73751d80a06a00ee718f0c99820e6b1741ac96dbfc8ba2eadd56506ef1
   - algorithm: MD5
     checksumValue: f1fec747c091300692ee019e10ef76b9
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/curskey.c
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4705,7 +4472,7 @@ files:
     checksumValue: 9e1e83870b0f86e1363c0ccb7e62c5c7c645ad1299a22f111d0e60b33d1600a2
   - algorithm: MD5
     checksumValue: 63d99443e19d71fb044c476582946505
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/mainloop.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4718,7 +4485,7 @@ files:
     checksumValue: 85b2cd95ed7026194f52ae747c7f8b9545cd1a2353c9c5ffbe52c84d276dca05
   - algorithm: MD5
     checksumValue: d6c973bc10603df4e8fed56241299082
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/widget.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4731,7 +4498,7 @@ files:
     checksumValue: 90885913cfb23b6af4cf5ead89481ec567fc1de1cef208b68b713c07cd69e335
   - algorithm: MD5
     checksumValue: 23d595e3d580e5408376f619eaeb727e
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsamixer/alsamixer.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4744,7 +4511,7 @@ files:
     checksumValue: 77cce266858ec3d5bbc742b3d344594ddd3faa166efa14cf161054991d8c58cc
   - algorithm: MD5
     checksumValue: dd89d7231bee958a6b218961d12d6174
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/aplay/formats.h
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4757,7 +4524,7 @@ files:
     checksumValue: 18730c92e77603d993262e30146f3c9840ad3a5b9fc5676be3e12de5b675f2ba
   - algorithm: MD5
     checksumValue: ecd8ceaf465e6f567284cc12c9dccf76
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/aplay/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4770,7 +4537,7 @@ files:
     checksumValue: 4e933d5a9ad778aba0f2752ecfe5cf60aaa85e2764b70ce82f30d3f60312ba33
   - algorithm: MD5
     checksumValue: 3c4a29e3f839c53ba9b10e13535f95d3
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/aplay/aplay.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4783,7 +4550,7 @@ files:
     checksumValue: 4e933d5a9ad778aba0f2752ecfe5cf60aaa85e2764b70ce82f30d3f60312ba33
   - algorithm: MD5
     checksumValue: 3c4a29e3f839c53ba9b10e13535f95d3
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/aplay/arecord.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4796,7 +4563,7 @@ files:
     checksumValue: 0b78f5dea48339900406ae8ef8917e55b35b5e75aea2a207c9ed820c23f2edc2
   - algorithm: MD5
     checksumValue: 0b8aa4f40c07cd439ae595e1ebb726a3
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsa-info/Makefile.am
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4809,7 +4576,7 @@ files:
     checksumValue: d9dc6303d69127117f678a673d5a840e0874f5e9af0d49d6a3aad2485a5951d1
   - algorithm: MD5
     checksumValue: 13f941ac77e91f680305d9620ea57c51
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/alsa-info/alsa-info.sh.1
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4835,7 +4602,7 @@ files:
     checksumValue: 4a7bb97e007bff68856c06368ee8d4b152c32c5b0cbcbd02452226490ec9e0b7
   - algorithm: MD5
     checksumValue: 1f54c8408482241f9bd12ebd49f8e7cb
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/po/POTFILES.in
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4903,7 +4670,7 @@ files:
     checksumValue: 99ad82767e9b1b4dd1e413664e06c686c8ab70eaadb129ac08a8b8b76f9173d2
   - algorithm: MD5
     checksumValue: afcb97fd905e3812fa6d569ae42e1b26
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/po/en@boldquot.header
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4929,7 +4696,7 @@ files:
     checksumValue: 6f4df89908e6e413db10738ff01e0c7046922c2a4aa4f9e64d376235745a4af5
   - algorithm: MD5
     checksumValue: e24cfce1a6a5e96f458f5a8a88db7bae
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/po/en@quot.header
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4942,7 +4709,7 @@ files:
     checksumValue: 80732f667861717f0cb1760cbffdf7c15a62b7bbb5545023f47402d664b1e67e
   - algorithm: MD5
     checksumValue: 87d257b8785129e9f92e85c03ac812d7
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/po/Makevars
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4955,7 +4722,7 @@ files:
     checksumValue: fc1d61334ad13021c118f96ec3796fc6babf7e568158c98a9ca315993cf6cc87
   - algorithm: MD5
     checksumValue: 8e8afff33cd10085fc6cf7714e8774cd
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/po/LINGUAS
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
@@ -4996,12 +4763,54 @@ files:
     checksumValue: 32900afa87635f61072f9424664fc2f0b178c03a58a8c5c7bfee5847e187f9da
   - algorithm: MD5
     checksumValue: 593126eed7869614dfd72b83ff0f82cc
-  copyrightText: ' NOASSERTION '
+  copyrightText: NOASSERTION
   fileName: alsa-utils-1.2.6.tar.bz2/alsa-utils-1.2.6.tar/alsa-utils-1.2.6/README.md
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
   - NOASSERTION
 hasExtractedLicensingInfos:
+- extractedText: ' Everyone is permitted to copy and distribute verbatim copies
+
+    of this license document, but changing it is not allowed. '
+  licenseId: LicenseRef-License-of-GNU-Licenses
+  name: License-of-GNU-Licenses
+- extractedText: ' X11 License
+
+
+    Copyright (C) 1994 X Consortium
+
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of
+    this software and associated documentation files (the "Software"), to deal in
+    the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+    Software, and to permit persons to whom the Software is furnished to do so, subject
+    to the following conditions:
+
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+    PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE
+    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+    THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+    Except as contained in this notice, the name of the X Consortium shall not be
+    used in advertising or otherwise to promote the sale, use or other dealings in
+    this Software without prior written authorization from the X Consortium.
+
+
+    X Window System is a trademark of X Consortium, Inc. '
+  licenseId: LicenseRef-X11
+  name: X11 License
+- extractedText: ' Public domain '
+  licenseId: LicenseRef-Public-domain
+  name: Public domain software
 - extractedText: ' This file is free software; the Free Software Foundation
 
     gives unlimited permission to copy and/or distribute it,
@@ -5530,11 +5339,6 @@ hasExtractedLicensingInfos:
     \n "
   licenseId: LicenseRef-GPL-2.0-or-later
   name: GNU General Public License v2.0 or later
-- extractedText: ' Everyone is permitted to copy and distribute verbatim copies
-
-    of this license document, but changing it is not allowed. '
-  licenseId: LicenseRef-License-of-GNU-Licenses-c9e2a178bf951bac93dbe34930fd2820
-  name: License-of-GNU-Licenses
 - extractedText: ' This file is free software; the Free Software Foundation gives
     unlimited permission to copy and/or distribute it, with or without modifications,
     as long as this notice is preserved. '
@@ -5908,40 +5712,6 @@ hasExtractedLicensingInfos:
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. '
   licenseId: LicenseRef-FSFULLRWD
   name: FSF Unlimited License (With License Retention    and Warranty Disclaimer)
-- extractedText: ' Public domain '
-  licenseId: LicenseRef-Public-domain
-  name: Public domain software
-- extractedText: ' X11 License
-
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy of
-    this software and associated documentation files (the "Software"), to deal in
-    the Software without restriction, including without limitation the rights to use,
-    copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
-    Software, and to permit persons to whom the Software is furnished to do so, subject
-    to the following conditions:
-
-
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-    PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE
-    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
-    THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-    Except as contained in this notice, the name of the X Consortium shall not be
-    used in advertising or otherwise to promote the sale, use or other dealings in
-    this Software without prior written authorization from the X Consortium.
-
-
-    X Window System is a trademark of X Consortium, Inc. '
-  licenseId: LicenseRef-X11
-  name: X11 License
 - extractedText: ' This file is free software; you can redistribute it and/or modify
     it
 
@@ -7426,6 +7196,12 @@ relationships:
 - relatedSpdxElement: SPDXRef-upload101
   relationshipType: DESCRIBES
   spdxElementId: SPDXRef-DOCUMENT
+- relatedSpdxElement: SPDXRef-item442015
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload101
+- relatedSpdxElement: SPDXRef-item441858
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload101
 - relatedSpdxElement: SPDXRef-item442004
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload101
@@ -7609,9 +7385,6 @@ relationships:
 - relatedSpdxElement: SPDXRef-item441944
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload101
-- relatedSpdxElement: SPDXRef-item442015
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload101
 - relatedSpdxElement: SPDXRef-item441986
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload101
@@ -7757,9 +7530,6 @@ relationships:
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload101
 - relatedSpdxElement: SPDXRef-item441817
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload101
-- relatedSpdxElement: SPDXRef-item441858
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload101
 - relatedSpdxElement: SPDXRef-item442000
