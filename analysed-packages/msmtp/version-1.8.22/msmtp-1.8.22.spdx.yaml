@@ -9,14 +9,66 @@ creationInfo:
     Please check "LicenseComments" for explanations of concluded licenses.
 
     '
-  created: '2024-07-23T09:47:53Z'
+  created: '2024-07-30T09:55:31Z'
   creators:
   - 'Tool: fossology-4.4.0'
   - 'Person: Sascha Dierberg'
   licenseListVersion: '3.22'
 dataLicense: CC0-1.0
-documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_msmtp-1.8.22.tar.xz_1721728072.spdx
+documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_msmtp-1.8.22.tar.xz_1722333329.spdx
 files:
+- SPDXID: SPDXRef-item461267
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 1b96c5c68c948caef42f728e3e8fb2820a10ce17
+  - algorithm: SHA256
+    checksumValue: 8ced8cd2b86458be88c38322db49df53f41f87200a79233ce34499cb031db0cd
+  - algorithm: MD5
+    checksumValue: 64924e10cba89f24c7ee7d038d1105ac
+  copyrightText: ' Copyright (C) 2001-2017 Free Software Foundation, Inc.
+
+    Copyright (C) 2001-2017 Free Software Foundation, Inc. '
+  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/po/Rules-quot
+  licenseConcluded: LicenseRef-FSFUL-0ec62d8e1f9c68247211569e980dca51
+  licenseInfoInFiles:
+  - LicenseRef-FSF
+  - LicenseRef-fsf-free
+- SPDXID: SPDXRef-item461241
+  checksums:
+  - algorithm: SHA1
+    checksumValue: c62ca06e078f3eac99557493caa5ab82d075ea34
+  - algorithm: SHA256
+    checksumValue: 87041830aa4c5e87cedd35a2a95cf94c4e889604580481430b214422a5e8dc98
+  - algorithm: MD5
+    checksumValue: 2feed9aff9d7d4ca5e2f5cf1af6bad98
+  copyrightText: ' Copyright (C) 2001 Free Software Foundation, Inc.
+
+    Copyright (C) 2001 Free Software Foundation, Inc. Written by Bruno Haible <bruno@clisp.org>,
+    2001
+
+    Copyright (C) 2001 Free Software Foundation, Inc. Written by Bruno Haible <bruno@clisp.org>,
+    2001. '
+  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/po/insert-header.sin
+  licenseConcluded: LicenseRef-FSFUL-0cfb159683304f16d2ed820eaf1112fc
+  licenseInfoInFiles:
+  - LicenseRef-FSF
+  - LicenseRef-fsf-free
+- SPDXID: SPDXRef-item461259
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 8e75f280444991e7c061f140c85f269fa98668ff
+  - algorithm: SHA256
+    checksumValue: 7a79db247cbf0b020ec233a9d329a18388c2a8b4439a06c3b8441e9a48955bb3
+  - algorithm: MD5
+    checksumValue: d872a01ed767c1a5b5e4248defdb1eab
+  copyrightText: ' Copyright (C) 2003-2019 Free Software Foundation, Inc. '
+  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/po/Makevars
+  licenseConcluded: LicenseRef-FSFUL-0cfb159683304f16d2ed820eaf1112fc
+  licenseInfoInFiles:
+  - LicenseRef-FSF
+  - LicenseRef-Public-domain
+  - LicenseRef-FSFUL
+  - LicenseRef-fsf-free
 - SPDXID: SPDXRef-item461209
   checksums:
   - algorithm: SHA1
@@ -204,7 +256,8 @@ files:
     \ Foundation, Inc.\nCopyright (C) 1996-2021 Free Software Foundation, Inc.\nCopyright\
     \ (C) 2009-2021 Free Software Foundation, Inc.\nCopyright (C) 2001-2021 Free Software\
     \ Foundation, Inc.\nCopyright (C) 2006-2021 Free Software Foundation, Inc.\nCopyright\
-    \ (C) 2004-2021 Free Software Foundation, Inc. "
+    \ (C) 2004-2021 Free Software Foundation, Inc.\nUlrich Drepper <drepper@cygnus.com>,\
+    \ 1995-2000.\nBruno Haible <haible@clisp.cons.org>, 2000-2006, 2008-2010. "
   fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/aclocal.m4
   licenseConcluded: LicenseRef-FSFULLR AND LicenseRef-FSFULLRWD AND LicenseRef-GPL-2.0-or-later
     AND LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception-generic
@@ -261,7 +314,13 @@ files:
   - algorithm: MD5
     checksumValue: 1d2614309f4e8c92e6ed575e92adc2b6
   copyrightText: ' Copyright (C) 1999-2001, 2004-2006, 2009-2018 Free Software Foundation,
-    Inc. '
+    Inc.
+
+    Written by Simon Josefsson. Partially adapted from GNU MailUtils
+
+    (mailbox/filter_trans.c, as of 2004-11-28). Improved by review
+
+    from Paul Eggert, Bruno Haible, and Stepan Kasal. '
   fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/src/base64.c
   licenseConcluded: LicenseRef-GPL-2.0-or-later
   licenseInfoInFiles:
@@ -1194,20 +1253,6 @@ files:
   - LicenseRef-MIT
   - LicenseRef-Public-domain
   - LicenseRef-x11-xconsortium
-- SPDXID: SPDXRef-item461267
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 1b96c5c68c948caef42f728e3e8fb2820a10ce17
-  - algorithm: SHA256
-    checksumValue: 8ced8cd2b86458be88c38322db49df53f41f87200a79233ce34499cb031db0cd
-  - algorithm: MD5
-    checksumValue: 64924e10cba89f24c7ee7d038d1105ac
-  copyrightText: ' Copyright (C) 2001-2017 Free Software Foundation, Inc. '
-  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/po/Rules-quot
-  licenseConcluded: LicenseRef-FSF-0ec62d8e1f9c68247211569e980dca51
-  licenseInfoInFiles:
-  - LicenseRef-FSF
-  - LicenseRef-fsf-free
 - SPDXID: SPDXRef-item461247
   checksums:
   - algorithm: SHA1
@@ -1216,42 +1261,14 @@ files:
     checksumValue: d582513385c800f75224f4041fbff207053d4229be6038c6810af382420ac362
   - algorithm: MD5
     checksumValue: 9d9b955511f69c8a408a28b87d76cb71
-  copyrightText: ' Copyright (C) 2002 Free Software Foundation, Inc. '
+  copyrightText: ' Copyright (C) 2002 Free Software Foundation, Inc.
+
+    Copyright (C) 2002 Free Software Foundation, Inc. '
   fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/po/remove-potcdate.sin
   licenseConcluded: LicenseRef-FSFAP
   licenseInfoInFiles:
   - LicenseRef-FSFAP
   - LicenseRef-fsf-ap
-- SPDXID: SPDXRef-item461259
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 8e75f280444991e7c061f140c85f269fa98668ff
-  - algorithm: SHA256
-    checksumValue: 7a79db247cbf0b020ec233a9d329a18388c2a8b4439a06c3b8441e9a48955bb3
-  - algorithm: MD5
-    checksumValue: d872a01ed767c1a5b5e4248defdb1eab
-  copyrightText: ' Copyright (C) 2003-2019 Free Software Foundation, Inc. '
-  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/po/Makevars
-  licenseConcluded: LicenseRef-FSFUL-0cfb159683304f16d2ed820eaf1112fc
-  licenseInfoInFiles:
-  - LicenseRef-FSF
-  - LicenseRef-Public-domain
-  - LicenseRef-FSFUL
-  - LicenseRef-fsf-free
-- SPDXID: SPDXRef-item461241
-  checksums:
-  - algorithm: SHA1
-    checksumValue: c62ca06e078f3eac99557493caa5ab82d075ea34
-  - algorithm: SHA256
-    checksumValue: 87041830aa4c5e87cedd35a2a95cf94c4e889604580481430b214422a5e8dc98
-  - algorithm: MD5
-    checksumValue: 2feed9aff9d7d4ca5e2f5cf1af6bad98
-  copyrightText: ' Copyright (C) 2001 Free Software Foundation, Inc. '
-  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/po/insert-header.sin
-  licenseConcluded: LicenseRef-FSF-0cfb159683304f16d2ed820eaf1112fc
-  licenseInfoInFiles:
-  - LicenseRef-FSF
-  - LicenseRef-fsf-free
 - SPDXID: SPDXRef-item461182
   checksums:
   - algorithm: SHA1
@@ -1918,6 +1935,18 @@ files:
   - GPL-1.0-or-later
   - LicenseRef-gpl-1.0-plus
 hasExtractedLicensingInfos:
+- extractedText: ' This file, Rules-quot, and its auxiliary files (listed under
+
+    DISTFILES.common.extra1) are free software; the Free Software Foundation
+
+    gives unlimited permission to use, copy, distribute, and modify them. '
+  licenseId: LicenseRef-FSFUL-0ec62d8e1f9c68247211569e980dca51
+  name: FSF Unlimited License
+- extractedText: ' This file is free software; the Free Software Foundation gives
+
+    unlimited permission to use, copy, distribute, and modify it. '
+  licenseId: LicenseRef-FSFUL-0cfb159683304f16d2ed820eaf1112fc
+  name: FSF Unlimited License
 - extractedText: " GNU GENERAL PUBLIC LICENSE\n\nVersion 3, 29 June 2007\n\nCopyright\
     \ \xA9 2007 Free Software Foundation, Inc. <https://fsf.org/>\n\nEveryone is permitted\
     \ to copy and distribute verbatim copies of this license document, but changing\
@@ -4090,23 +4119,6 @@ hasExtractedLicensingInfos:
 - extractedText: ' Public domain '
   licenseId: LicenseRef-Public-domain
   name: Public domain software
-- extractedText: ' This file, Rules-quot, and its auxiliary files (listed under
-
-    DISTFILES.common.extra1) are free software; the Free Software Foundation
-
-    gives unlimited permission to use, copy, distribute, and modify them. '
-  licenseId: LicenseRef-FSF-0ec62d8e1f9c68247211569e980dca51
-  name: Free Software Foundation
-- extractedText: ' This file is free software; the Free Software Foundation gives
-
-    unlimited permission to use, copy, distribute, and modify it. '
-  licenseId: LicenseRef-FSFUL-0cfb159683304f16d2ed820eaf1112fc
-  name: FSF Unlimited License
-- extractedText: ' This file is free software; the Free Software Foundation gives
-
-    unlimited permission to use, copy, distribute, and modify it. '
-  licenseId: LicenseRef-FSF-0cfb159683304f16d2ed820eaf1112fc
-  name: Free Software Foundation
 - extractedText: " This license means that you can get copyright or license information\
     \ through a reference file.\n\none example below:\n/* \n * Copyright (C) 2007\
     \  Olli Salonen &lt;oasalonen@gmail.com&gt;\n * see btnx.c for detailed license\
@@ -5197,6 +5209,15 @@ relationships:
 - relatedSpdxElement: SPDXRef-upload116
   relationshipType: DESCRIBES
   spdxElementId: SPDXRef-DOCUMENT
+- relatedSpdxElement: SPDXRef-item461267
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload116
+- relatedSpdxElement: SPDXRef-item461241
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload116
+- relatedSpdxElement: SPDXRef-item461259
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload116
 - relatedSpdxElement: SPDXRef-item461209
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload116
@@ -5398,16 +5419,7 @@ relationships:
 - relatedSpdxElement: SPDXRef-item461230
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload116
-- relatedSpdxElement: SPDXRef-item461267
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload116
 - relatedSpdxElement: SPDXRef-item461247
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload116
-- relatedSpdxElement: SPDXRef-item461259
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload116
-- relatedSpdxElement: SPDXRef-item461241
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload116
 - relatedSpdxElement: SPDXRef-item461182
