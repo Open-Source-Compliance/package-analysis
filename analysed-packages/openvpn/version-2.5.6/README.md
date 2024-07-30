@@ -4,7 +4,7 @@ http://swupdate.openvpn.org/community/releases/openvpn-2.5.6.tar.gz
 
 ## Package URL (purl)
 
-[PurlLink]
+pkg:generic/openvpn@2.5.6?download_url=http://swupdate.openvpn.org/community/releases/openvpn-2.5.6.tar.gz
 
 ## Creator
 
