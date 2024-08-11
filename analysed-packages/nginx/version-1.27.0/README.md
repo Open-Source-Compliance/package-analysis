@@ -1,10 +1,10 @@
 ## Download Location
 
-https://github.com/nginx/nginx/archive/refs/tags/release-1.27.0.tar.gz
+http://nginx.org/download/nginx-1.27.0.tar.gz
 
 ## Package URL (purl)
 
-pkg:github/nginx/nginx@release-1.27.0
+pkg:generic/nginx@1.27.0?download_url=http://nginx.org/download/nginx-1.27.0.tar.gz
 
 ## Creator
 
