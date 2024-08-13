@@ -30,5 +30,6 @@ These font files contain no license information. We searched the internet about 
 https://www.daltonmaag.com/font-library/aller.html
 The license provided there is a commercial license. Thus we concluded Restrictive-Proprietary as license of this file.
 There is a small risk that this is not the correct license.
-The information was retrieved on 12th of Aug 2024
+The information was retrieved on 12th of Aug 2024.
+
 Please be aware that the provided artifacts contain the text of the proprietary license.
