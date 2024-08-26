@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_msmtp-1.8.22.tar.xz_1722333329.spdx
+DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_msmtp-1.8.22.tar.xz_1724673924.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of msmtp 1.8.22.
 Please check "LicenseComments" for explanations of concluded licenses.
 </text>
-Created: 2024-07-30T09:55:31Z
+Created: 2024-08-26T12:05:25Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -38,7 +38,7 @@ PackageChecksum: SHA1: d7dc9030a88b795bcdf7aaf9ac0a032e56bd3e54
 PackageChecksum: SHA256: 1b04206286a5b82622335e4eb09e17074368b7288e53d134543cbbc6b79ea3e7
 PackageChecksum: MD5: 8d4ab680f16e9736e24c749015ae858b
 PackageLicenseConcluded: NOASSERTION
-PackageLicenseDeclared: LicenseRef-GPL-3.0 AND LicenseRef-GPL-3.0-or-later
+PackageLicenseDeclared: LicenseRef-GPL-3.0-or-later
 PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
  - nomos ("4.4.0".903df0)
  - monk ("4.4.0".903df0)
@@ -82,6 +82,37 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload116
 ##--------------------------
 ## File Information
 ##--------------------------
+
+##File
+
+FileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/COPYING
+SPDXID: SPDXRef-item461236
+FileChecksum: SHA1: 8624bcdae55baeef00cd11d5dfcfa60f68710a02
+FileChecksum: SHA256: 8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
+FileChecksum: MD5: d32239bcb673463ab874e80d47fae504
+LicenseConcluded: LicenseRef-License-of-GNU-Licenses
+LicenseInfoInFile: LicenseRef-GPL-3.0-only
+LicenseInfoInFile: LicenseRef-GPL-3.0
+FileCopyrightText: <text> Copyright (C) 2007 Free Software Foundation, Inc. </text>
+
+##File
+
+FileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/build-aux/install-sh
+SPDXID: SPDXRef-item461230
+FileChecksum: SHA1: 894e0a9de7976233743575c6b84dedc1b37025b6
+FileChecksum: SHA256: 3d7488bebd0cfc9b5c440c55d5b44f1c6e2e3d3e19894821bae4a27f9307f1d2
+FileChecksum: MD5: b090c5891571c820e91d345a9551af44
+LicenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11
+LicenseComments: <text> Additionally to the X11, the text in this file is:
+
+"FSF changes to this file are in the public domain." 
+
+Thus we concluded additionally Public-domain. </text>
+LicenseInfoInFile: LicenseRef-X11
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-x11-xconsortium
+FileCopyrightText: <text> Copyright (C) 1994 X Consortium </text>
 
 ##File
 
@@ -954,18 +985,6 @@ FileCopyrightText: <text> Copyright 1996-2020 Free Software Foundation, Inc.  </
 
 ##File
 
-FileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/COPYING
-SPDXID: SPDXRef-item461236
-FileChecksum: SHA1: 8624bcdae55baeef00cd11d5dfcfa60f68710a02
-FileChecksum: SHA256: 8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
-FileChecksum: MD5: d32239bcb673463ab874e80d47fae504
-LicenseConcluded: LicenseRef-License-of-GNU-Licenses
-LicenseInfoInFile: LicenseRef-GPL-3.0-only
-LicenseInfoInFile: LicenseRef-GPL-3.0
-FileCopyrightText: <text> Copyright (C) 2007 Free Software Foundation, Inc. </text>
-
-##File
-
 FileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/doc/msmtp.1
 SPDXID: SPDXRef-item461179
 FileChecksum: SHA1: 46f66effc8ccb55d9e94302b66acd08c7e763955
@@ -1068,25 +1087,6 @@ License: GPL version 3 or later
 Thus, we concluded GPL-3.0-or-later. </text>
 LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
-
-##File
-
-FileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/build-aux/install-sh
-SPDXID: SPDXRef-item461230
-FileChecksum: SHA1: 894e0a9de7976233743575c6b84dedc1b37025b6
-FileChecksum: SHA256: 3d7488bebd0cfc9b5c440c55d5b44f1c6e2e3d3e19894821bae4a27f9307f1d2
-FileChecksum: MD5: b090c5891571c820e91d345a9551af44
-LicenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11
-LicenseComments: <text> The information in the file is:
-
-FSF changes to this file are in the public domain.
-
-Thus, we concluded Public domain. </text>
-LicenseInfoInFile: LicenseRef-X11
-LicenseInfoInFile: LicenseRef-MIT
-LicenseInfoInFile: LicenseRef-Public-domain
-LicenseInfoInFile: LicenseRef-x11-xconsortium
-FileCopyrightText: <text> Copyright (C) 1994 X Consortium </text>
 
 ##File
 
@@ -1661,6 +1661,37 @@ FileCopyrightText: NOASSERTION
 ##-------------------------
 ## License Information
 ##-------------------------
+
+
+  
+LicenseID: LicenseRef-License-of-GNU-Licenses
+LicenseName: License-of-GNU-Licenses
+ExtractedText: <text> Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed. </text>
+
+
+  
+LicenseID: LicenseRef-X11
+LicenseName: X11 License
+ExtractedText: <text> X11 License
+
+Copyright (C) 1994 X Consortium
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
+
+X Window System is a trademark of X Consortium, Inc. </text>
+
+
+
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
 
   
 
@@ -2639,13 +2670,6 @@ ExtractedText: <text> Copying and distribution of this file, with or without mod
 
 
   
-LicenseID: LicenseRef-License-of-GNU-Licenses
-LicenseName: License-of-GNU-Licenses
-ExtractedText: <text> Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed. </text>
-
-
-  
 LicenseID: LicenseRef-GFDL-1.2-no-invariants-or-later
 LicenseName: GNU Free Documentation License v1.2 or later - no invariants
 ExtractedText: <text> GNU Free Documentation License
@@ -2779,30 +2803,6 @@ If you have Invariant Sections without Cover Texts, or some other combination of
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
  </text>
-
-
-  
-LicenseID: LicenseRef-X11
-LicenseName: X11 License
-ExtractedText: <text> X11 License
-
-Copyright (C) 1994 X Consortium
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
-
-X Window System is a trademark of X Consortium, Inc. </text>
-
-
-
-LicenseID: LicenseRef-Public-domain
-LicenseName: Public domain software
-ExtractedText: <text> Public domain </text>
 
 
 

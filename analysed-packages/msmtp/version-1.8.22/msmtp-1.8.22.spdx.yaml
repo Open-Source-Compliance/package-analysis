@@ -9,14 +9,47 @@ creationInfo:
     Please check "LicenseComments" for explanations of concluded licenses.
 
     '
-  created: '2024-07-30T09:55:31Z'
+  created: '2024-08-26T12:05:25Z'
   creators:
   - 'Tool: fossology-4.4.0'
   - 'Person: Sascha Dierberg'
   licenseListVersion: '3.22'
 dataLicense: CC0-1.0
-documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_msmtp-1.8.22.tar.xz_1722333329.spdx
+documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_msmtp-1.8.22.tar.xz_1724673924.spdx
 files:
+- SPDXID: SPDXRef-item461236
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 8624bcdae55baeef00cd11d5dfcfa60f68710a02
+  - algorithm: SHA256
+    checksumValue: 8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
+  - algorithm: MD5
+    checksumValue: d32239bcb673463ab874e80d47fae504
+  copyrightText: ' Copyright (C) 2007 Free Software Foundation, Inc. '
+  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/COPYING
+  licenseConcluded: LicenseRef-License-of-GNU-Licenses
+  licenseInfoInFiles:
+  - LicenseRef-GPL-3.0-only
+  - GPL-3.0-only
+- SPDXID: SPDXRef-item461230
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 894e0a9de7976233743575c6b84dedc1b37025b6
+  - algorithm: SHA256
+    checksumValue: 3d7488bebd0cfc9b5c440c55d5b44f1c6e2e3d3e19894821bae4a27f9307f1d2
+  - algorithm: MD5
+    checksumValue: b090c5891571c820e91d345a9551af44
+  copyrightText: ' Copyright (C) 1994 X Consortium '
+  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/build-aux/install-sh
+  licenseComments: " Additionally to the X11, the text in this file is:\n\n\"FSF changes\
+    \ to this file are in the public domain.\" \n\nThus we concluded additionally\
+    \ Public-domain. "
+  licenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11
+  licenseInfoInFiles:
+  - LicenseRef-X11
+  - LicenseRef-MIT
+  - LicenseRef-Public-domain
+  - LicenseRef-x11-xconsortium
 - SPDXID: SPDXRef-item461267
   checksums:
   - algorithm: SHA1
@@ -1088,20 +1121,6 @@ files:
   licenseInfoInFiles:
   - LicenseRef-FSFULLR
   - LicenseRef-fsf-unlimited
-- SPDXID: SPDXRef-item461236
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 8624bcdae55baeef00cd11d5dfcfa60f68710a02
-  - algorithm: SHA256
-    checksumValue: 8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
-  - algorithm: MD5
-    checksumValue: d32239bcb673463ab874e80d47fae504
-  copyrightText: ' Copyright (C) 2007 Free Software Foundation, Inc. '
-  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/COPYING
-  licenseConcluded: LicenseRef-License-of-GNU-Licenses
-  licenseInfoInFiles:
-  - LicenseRef-GPL-3.0-only
-  - GPL-3.0-only
 - SPDXID: SPDXRef-item461179
   checksums:
   - algorithm: SHA1
@@ -1230,29 +1249,6 @@ files:
   licenseConcluded: GPL-3.0-or-later
   licenseInfoInFiles:
   - NOASSERTION
-- SPDXID: SPDXRef-item461230
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 894e0a9de7976233743575c6b84dedc1b37025b6
-  - algorithm: SHA256
-    checksumValue: 3d7488bebd0cfc9b5c440c55d5b44f1c6e2e3d3e19894821bae4a27f9307f1d2
-  - algorithm: MD5
-    checksumValue: b090c5891571c820e91d345a9551af44
-  copyrightText: ' Copyright (C) 1994 X Consortium '
-  fileName: msmtp-1.8.22.tar.xz/msmtp-1.8.22/build-aux/install-sh
-  licenseComments: ' The information in the file is:
-
-
-    FSF changes to this file are in the public domain.
-
-
-    Thus, we concluded Public domain. '
-  licenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11
-  licenseInfoInFiles:
-  - LicenseRef-X11
-  - LicenseRef-MIT
-  - LicenseRef-Public-domain
-  - LicenseRef-x11-xconsortium
 - SPDXID: SPDXRef-item461247
   checksums:
   - algorithm: SHA1
@@ -1935,6 +1931,48 @@ files:
   - GPL-1.0-or-later
   - LicenseRef-gpl-1.0-plus
 hasExtractedLicensingInfos:
+- extractedText: ' Everyone is permitted to copy and distribute verbatim copies
+
+    of this license document, but changing it is not allowed. '
+  licenseId: LicenseRef-License-of-GNU-Licenses
+  name: License-of-GNU-Licenses
+- extractedText: ' X11 License
+
+
+    Copyright (C) 1994 X Consortium
+
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of
+    this software and associated documentation files (the "Software"), to deal in
+    the Software without restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+    Software, and to permit persons to whom the Software is furnished to do so, subject
+    to the following conditions:
+
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+    PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE
+    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+    THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+    Except as contained in this notice, the name of the X Consortium shall not be
+    used in advertising or otherwise to promote the sale, use or other dealings in
+    this Software without prior written authorization from the X Consortium.
+
+
+    X Window System is a trademark of X Consortium, Inc. '
+  licenseId: LicenseRef-X11
+  name: X11 License
+- extractedText: ' Public domain '
+  licenseId: LicenseRef-Public-domain
+  name: Public domain software
 - extractedText: ' This file, Rules-quot, and its auxiliary files (listed under
 
     DISTFILES.common.extra1) are free software; the Free Software Foundation
@@ -3815,11 +3853,6 @@ hasExtractedLicensingInfos:
     \ "
   licenseId: LicenseRef-FSFAP
   name: FSF All Permissive License
-- extractedText: ' Everyone is permitted to copy and distribute verbatim copies
-
-    of this license document, but changing it is not allowed. '
-  licenseId: LicenseRef-License-of-GNU-Licenses
-  name: License-of-GNU-Licenses
 - extractedText: " GNU Free Documentation License\nVersion 1.2, November 2002\n\n\
     Copyright (C) 2000,2001,2002 Free Software Foundation, Inc. 51 Franklin St, Fifth\
     \ Floor, Boston, MA 02110-1301 USA\n\nEveryone is permitted to copy and distribute\
@@ -4082,43 +4115,6 @@ hasExtractedLicensingInfos:
     \ to permit their use in free software.\n "
   licenseId: LicenseRef-GFDL-1.2-no-invariants-or-later
   name: GNU Free Documentation License v1.2 or later - no invariants
-- extractedText: ' X11 License
-
-
-    Copyright (C) 1994 X Consortium
-
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy of
-    this software and associated documentation files (the "Software"), to deal in
-    the Software without restriction, including without limitation the rights to use,
-    copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
-    Software, and to permit persons to whom the Software is furnished to do so, subject
-    to the following conditions:
-
-
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-    PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE
-    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
-    THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-    Except as contained in this notice, the name of the X Consortium shall not be
-    used in advertising or otherwise to promote the sale, use or other dealings in
-    this Software without prior written authorization from the X Consortium.
-
-
-    X Window System is a trademark of X Consortium, Inc. '
-  licenseId: LicenseRef-X11
-  name: X11 License
-- extractedText: ' Public domain '
-  licenseId: LicenseRef-Public-domain
-  name: Public domain software
 - extractedText: " This license means that you can get copyright or license information\
     \ through a reference file.\n\none example below:\n/* \n * Copyright (C) 2007\
     \  Olli Salonen &lt;oasalonen@gmail.com&gt;\n * see btnx.c for detailed license\
@@ -5198,7 +5194,7 @@ packages:
     .903df0)\n - monk (\"4.4.0\".903df0)\n - ojo (\"4.4.0\".903df0)\n - scancode (\"\
     4.4.0\".903df0) "
   licenseConcluded: NOASSERTION
-  licenseDeclared: GPL-3.0-only AND GPL-3.0-or-later
+  licenseDeclared: GPL-3.0-or-later
   licenseInfoFromFiles:
   - NOASSERTION
   name: msmtp-1.8.22
@@ -5209,6 +5205,12 @@ relationships:
 - relatedSpdxElement: SPDXRef-upload116
   relationshipType: DESCRIBES
   spdxElementId: SPDXRef-DOCUMENT
+- relatedSpdxElement: SPDXRef-item461236
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload116
+- relatedSpdxElement: SPDXRef-item461230
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload116
 - relatedSpdxElement: SPDXRef-item461267
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload116
@@ -5392,9 +5394,6 @@ relationships:
 - relatedSpdxElement: SPDXRef-item461235
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload116
-- relatedSpdxElement: SPDXRef-item461236
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload116
 - relatedSpdxElement: SPDXRef-item461179
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload116
@@ -5414,9 +5413,6 @@ relationships:
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload116
 - relatedSpdxElement: SPDXRef-item461154
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload116
-- relatedSpdxElement: SPDXRef-item461230
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload116
 - relatedSpdxElement: SPDXRef-item461247
