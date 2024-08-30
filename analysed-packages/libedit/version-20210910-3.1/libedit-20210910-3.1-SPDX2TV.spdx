@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_libedit-20210910-3.1.tar.gz_1724853785.spdx
+DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_libedit-20210910-3.1.tar.gz_1724999601.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of libedit 20210910-3.1.
 Please check "LicenseComments" for explanations of concluded licenses.
 </text>
-Created: 2024-08-28T14:03:06Z
+Created: 2024-08-30T06:33:21Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -38,7 +38,7 @@ PackageChecksum: SHA1: 855747cff17110fb59703b5b957d11c8f76b91ef
 PackageChecksum: SHA256: 6792a6a992050762edcca28ff3318cdb7de37dccf7bc30db59fcd7017eed13c5
 PackageChecksum: MD5: 648946c97eb92daed5ca0d08bbd5e6a2
 PackageLicenseConcluded: NOASSERTION
-PackageLicenseDeclared: LicenseRef-BSD-3-Clause
+PackageLicenseDeclared: LicenseRef-BSD-3-Clause-5982ba0d4fafb162c64f096b24b771a7
 PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
  - nomos ("4.4.0".903df0)
  - monk ("4.4.0".903df0)
@@ -53,6 +53,223 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload490
 ##--------------------------
 ## File Information
 ##--------------------------
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/install-sh
+SPDXID: SPDXRef-item831910
+FileChecksum: SHA1: 894e0a9de7976233743575c6b84dedc1b37025b6
+FileChecksum: SHA256: 3d7488bebd0cfc9b5c440c55d5b44f1c6e2e3d3e19894821bae4a27f9307f1d2
+FileChecksum: MD5: b090c5891571c820e91d345a9551af44
+LicenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11-5872543441a34866c9e94fa78f93667f
+LicenseComments: <text> Additionally to the X11, the text in this file is: 
+"FSF changes to this file are in the public domain."
+
+ Thus we concluded additionally Public-domain. </text>
+LicenseInfoInFile: LicenseRef-X11
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-x11-xconsortium
+FileCopyrightText: <text> Copyright (C) 1994 X Consortium </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/m4/libtool.m4
+SPDXID: SPDXRef-item831957
+FileChecksum: SHA1: c7b543d7622cef397ac05830c65bb0a17aab4ed4
+FileChecksum: SHA256: 69c28d3ec923e91024567a9385fb32d890ffe8192d1ecb1f6ab729f8a4ac11fe
+FileChecksum: MD5: 507376106beeeb6b07e10f41c8cfd678
+LicenseConcluded: LicenseRef-FSFUL-e258a1b8b3b818a11f136ff12b30a7dc AND LicenseRef-FSFULLR AND LicenseRef-GPL-2.0-or-later-WITH-Libtool-exception
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-Libtool-exception
+LicenseInfoInFile: LicenseRef-FSFUL
+LicenseInfoInFile: LicenseRef-FSFULLR
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+LicenseInfoInFile: LicenseRef-gpl-2.0-plus
+LicenseInfoInFile: LicenseRef-fsf-unlimited
+LicenseInfoInFile: LicenseRef-fsf-free
+LicenseInfoInFile: LicenseRef-libtool-exception-2.0
+FileCopyrightText: <text> Copyright (C) 1996-2001, 2003-2015 Free Software Foundation, Inc. Written by Gordon Matzigkeit, 1996
+Copyright (C) 2014 Free Software Foundation, Inc.
+Copyright (C) 2011 Free Software Foundation, Inc. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/configure
+SPDXID: SPDXRef-item831909
+FileChecksum: SHA1: 5795ec755f4431b84a1c5bf69661e2db5a57c602
+FileChecksum: SHA256: b4088c6a1a972ecf447a5ea15062d451d0a950d37de6533acbcff16138902bf2
+FileChecksum: MD5: 98b89c9ce5479fc517357649f4bace78
+LicenseConcluded: LicenseRef-FSFUL-b11765ee0baf7f3ab339d7ecc6f39f54 AND LicenseRef-GPL-2.0-or-later-WITH-Libtool-exception
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-Libtool-exception
+LicenseInfoInFile: LicenseRef-FSFUL
+LicenseInfoInFile: LicenseRef-gpl-2.0-plus
+LicenseInfoInFile: LicenseRef-fsf-free
+LicenseInfoInFile: LicenseRef-libtool-exception-2.0
+FileCopyrightText: <text> Copyright (C) 1992-1996, 1998-2017, 2020-2021 Free Software Foundation, Inc.
+Copyright (C) 2021 Free Software Foundation, Inc.
+Copyright (C) 2021 Free Software Foundation, Inc.
+Copyright (C) 2014 Free Software Foundation, Inc. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/doc/editrc.5.roff
+SPDXID: SPDXRef-item831930
+FileChecksum: SHA1: 667f4f237ac17144932a6986573fb9ce5f4cfd50
+FileChecksum: SHA256: df25f3fe1791100628cd1475c06e7ffe744fc9802e913e7f65dd40066bc34e85
+FileChecksum: MD5: c471e73b936b1727547fa10cbc2ac517
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 1997-2000 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/doc/editline.3.roff
+SPDXID: SPDXRef-item831926
+FileChecksum: SHA1: 40250c01c329b538518363b88ef457a71686e4d9
+FileChecksum: SHA256: 67fd739c153055cc3c7e4bffed1e4c8d885be1a955b57bc022dbf0037e2322b4
+FileChecksum: MD5: 78c4e9ba3da9d8704845c44fbfc7bd75
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 1997-2014 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/chartype.h
+SPDXID: SPDXRef-item832051
+FileChecksum: SHA1: 992c0501a33eba2f3a1bea87a2c6405f03256530
+FileChecksum: SHA256: cd6d9affc31b109d8d9223bface088ae5f751f2aa689cbf7029403daa39e24b0
+FileChecksum: MD5: 67437a4328f77bd24fef34e992ea7429
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 2009 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/filecomplete.c
+SPDXID: SPDXRef-item832069
+FileChecksum: SHA1: 92a16d8041a01d9820e5ba87e5d248ef3d25da78
+FileChecksum: SHA256: b6067911dbc18163bc33c32d345420efb09ad21f2105b554b651049c5a5bad79
+FileChecksum: MD5: 742b7f48d7f49200d74eaa56549a6d15
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 1997 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/read.h
+SPDXID: SPDXRef-item832047
+FileChecksum: SHA1: 9a9a42d22b5160cfd69872edcc908dc29b3b300f
+FileChecksum: SHA256: 920984e3ddca90b4812acb951b3a3641438c9670028cc27c1db01c01275c6d47
+FileChecksum: MD5: 65896df27437d453ef8928efb932cc43
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 2001 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/readline.c
+SPDXID: SPDXRef-item832028
+FileChecksum: SHA1: 25705e7ead8c06263b6f403b2bfc2dad342df12c
+FileChecksum: SHA256: 640fb61b8e4c868c9303015999bb77b868fc88ff7c30306241feae81bf9eee05
+FileChecksum: MD5: 07dd1e404101d680b8a1c6b2e610ac9d
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 1997 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/editline/readline.h
+SPDXID: SPDXRef-item832021
+FileChecksum: SHA1: f730906b90e605ea05a7c99b5039578f7d35d6a7
+FileChecksum: SHA256: 33c8a6d1528850b6d1f80a61943ccf182e786abddb8f2887e910354746a24ff7
+FileChecksum: MD5: 415e6515b628d289bca9f8f0f8e5c779
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 1997 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/getline.c
+SPDXID: SPDXRef-item832037
+FileChecksum: SHA1: e38d60d20c64f9222a51a6ea6d253799eb4a9662
+FileChecksum: SHA256: f788c25cd4e82cff69395b382798c9404fee4d3c6a34b16bba1389db236ed3e4
+FileChecksum: MD5: c8182d572c59e626867435fade8f7a9e
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 2011 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/vis.c
+SPDXID: SPDXRef-item832015
+FileChecksum: SHA1: 002a56fe7f751b78a19061538176452c1bfbebf4
+FileChecksum: SHA256: 51a258ebee56a89dbb96e258f451c3a97921dd7aa8b84149168dbc8ed82a67e5
+FileChecksum: MD5: e8b3c6556e3abd4b4e30bbcc13441937
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab AND LicenseRef-BSD-3-Clause-5982ba0d4fafb162c64f096b24b771a7
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD-3-Clause-HP
+LicenseInfoInFile: LicenseRef-bsd-new
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 1989, 1993 The Regents of the University of California. All rights reserved.
+Copyright (c) 1999, 2005 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/filecomplete.h
+SPDXID: SPDXRef-item832013
+FileChecksum: SHA1: f42a3f181e285b1370f6709b2026d421cadc4c0c
+FileChecksum: SHA256: 5000e59776e570710822ca3e06bec2a4d2904560208962d6db28dee335f31e5f
+FileChecksum: MD5: 4a38c0494322401bcbbc15d8640b6cf5
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 1997 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/chartype.c
+SPDXID: SPDXRef-item832002
+FileChecksum: SHA1: 5e88609115beb7ffaf9ca6280deb0ea2cee9eff3
+FileChecksum: SHA256: f2b9f4970cf182b668b3c1c0d97a7070629ce2bfb03429ef98215ee9ab1db866
+FileChecksum: MD5: aa37d3e1722051867d9c97d1fd09a183
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 2009 The NetBSD Foundation, Inc. All rights reserved. </text>
+
+##File
+
+FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/eln.c
+SPDXID: SPDXRef-item831989
+FileChecksum: SHA1: 85f2c624446883cc042479bd547219f6574c1d6c
+FileChecksum: SHA256: 1ce4028d07b258e5c1f431abb5c76dbf1a210673a5ae5c1cfa3f313a3c4d9c1d
+FileChecksum: MD5: d612e8ec844300f6791ca8261b5317c5
+LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseInfoInFile: LicenseRef-NewBSD
+LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
+LicenseInfoInFile: LicenseRef-bsd-simplified
+FileCopyrightText: <text> Copyright (c) 2009 The NetBSD Foundation, Inc. All rights reserved. </text>
 
 ##File
 
@@ -88,19 +305,6 @@ Copyright (C) 2004-2021 Free Software Foundation, Inc. </text>
 
 ##File
 
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/doc/editline.3.roff
-SPDXID: SPDXRef-item831926
-FileChecksum: SHA1: 40250c01c329b538518363b88ef457a71686e4d9
-FileChecksum: SHA256: 67fd739c153055cc3c7e4bffed1e4c8d885be1a955b57bc022dbf0037e2322b4
-FileChecksum: MD5: 78c4e9ba3da9d8704845c44fbfc7bd75
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 1997-2014 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
 FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/doc/editline.7.roff
 SPDXID: SPDXRef-item831925
 FileChecksum: SHA1: 5c13f3406c1c4a00070be41648098bea644a8a9a
@@ -109,19 +313,6 @@ FileChecksum: MD5: aa2f427e83779f74511fb096a17368e0
 LicenseConcluded: LicenseRef-ISC
 LicenseInfoInFile: LicenseRef-ISC
 FileCopyrightText: <text> Copyright (c) 2016 Ingo Schwarze <schwarze@openbsd.org> </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/doc/editrc.5.roff
-SPDXID: SPDXRef-item831930
-FileChecksum: SHA1: 667f4f237ac17144932a6986573fb9ce5f4cfd50
-FileChecksum: SHA256: df25f3fe1791100628cd1475c06e7ffe744fc9802e913e7f65dd40066bc34e85
-FileChecksum: MD5: c471e73b936b1727547fa10cbc2ac517
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 1997-2000 The NetBSD Foundation, Inc. All rights reserved. </text>
 
 ##File
 
@@ -159,27 +350,6 @@ LicenseInfoInFile: LicenseRef-FSFULLR
 LicenseInfoInFile: LicenseRef-FSFULLRWD
 LicenseInfoInFile: LicenseRef-fsf-unlimited-no-warranty
 FileCopyrightText: <text> Copyright (C) 1994-2021 Free Software Foundation, Inc. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/m4/libtool.m4
-SPDXID: SPDXRef-item831957
-FileChecksum: SHA1: c7b543d7622cef397ac05830c65bb0a17aab4ed4
-FileChecksum: SHA256: 69c28d3ec923e91024567a9385fb32d890ffe8192d1ecb1f6ab729f8a4ac11fe
-FileChecksum: MD5: 507376106beeeb6b07e10f41c8cfd678
-LicenseConcluded: LicenseRef-FSFUL-e258a1b8b3b818a11f136ff12b30a7dc AND LicenseRef-FSFULLR AND LicenseRef-GPL-2.0-or-later-WITH-Libtool-exception
-LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
-LicenseInfoInFile: LicenseRef-Libtool-exception
-LicenseInfoInFile: LicenseRef-FSFUL
-LicenseInfoInFile: LicenseRef-FSFULLR
-LicenseInfoInFile: LicenseRef-Autoconf-exception
-LicenseInfoInFile: LicenseRef-gpl-2.0-plus
-LicenseInfoInFile: LicenseRef-fsf-unlimited
-LicenseInfoInFile: LicenseRef-fsf-free
-LicenseInfoInFile: LicenseRef-libtool-exception-2.0
-FileCopyrightText: <text> Copyright (C) 1996-2001, 2003-2015 Free Software Foundation, Inc. Written by Gordon Matzigkeit, 1996
-Copyright (C) 2014 Free Software Foundation, Inc.
-Copyright (C) 2011 Free Software Foundation, Inc. </text>
 
 ##File
 
@@ -280,24 +450,6 @@ Written by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996 </text>
 
 ##File
 
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/install-sh
-SPDXID: SPDXRef-item831910
-FileChecksum: SHA1: 894e0a9de7976233743575c6b84dedc1b37025b6
-FileChecksum: SHA256: 3d7488bebd0cfc9b5c440c55d5b44f1c6e2e3d3e19894821bae4a27f9307f1d2
-FileChecksum: MD5: b090c5891571c820e91d345a9551af44
-LicenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11
-LicenseComments: <text> Additionally to the X11, the text in this file is: 
-"FSF changes to this file are in the public domain."
-
- Thus we concluded additionally Public-domain. </text>
-LicenseInfoInFile: LicenseRef-X11
-LicenseInfoInFile: LicenseRef-MIT
-LicenseInfoInFile: LicenseRef-Public-domain
-LicenseInfoInFile: LicenseRef-x11-xconsortium
-FileCopyrightText: <text> Copyright (C) 1994 X Consortium </text>
-
-##File
-
 FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/INSTALL
 SPDXID: SPDXRef-item831921
 FileChecksum: SHA1: 98ddba3c54f8cd72a6c937b47a7faf1ed62899b8
@@ -322,25 +474,6 @@ LicenseInfoInFile: LicenseRef-Autoconf-exception-generic
 LicenseInfoInFile: LicenseRef-gpl-2.0-plus
 LicenseInfoInFile: LicenseRef-autoconf-simple-exception-2.0
 FileCopyrightText: <text> Copyright (C) 1999-2021 Free Software Foundation, Inc. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/configure
-SPDXID: SPDXRef-item831909
-FileChecksum: SHA1: 5795ec755f4431b84a1c5bf69661e2db5a57c602
-FileChecksum: SHA256: b4088c6a1a972ecf447a5ea15062d451d0a950d37de6533acbcff16138902bf2
-FileChecksum: MD5: 98b89c9ce5479fc517357649f4bace78
-LicenseConcluded: LicenseRef-FSFUL-056ccc2325847a7be80736159824342e AND LicenseRef-GPL-2.0-or-later-WITH-Libtool-exception
-LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
-LicenseInfoInFile: LicenseRef-Libtool-exception
-LicenseInfoInFile: LicenseRef-FSFUL
-LicenseInfoInFile: LicenseRef-gpl-2.0-plus
-LicenseInfoInFile: LicenseRef-fsf-free
-LicenseInfoInFile: LicenseRef-libtool-exception-2.0
-FileCopyrightText: <text> Copyright (C) 1992-1996, 1998-2017, 2020-2021 Free Software Foundation, Inc.
-Copyright (C) 2021 Free Software Foundation, Inc.
-Copyright (C) 2021 Free Software Foundation, Inc.
-Copyright (C) 2014 Free Software Foundation, Inc. </text>
 
 ##File
 
@@ -464,139 +597,6 @@ LicenseInfoInFile: LicenseRef-NewBSD
 LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
 LicenseInfoInFile: LicenseRef-bsd-simplified
 FileCopyrightText: <text> Copyright (c) 2017 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/filecomplete.c
-SPDXID: SPDXRef-item832069
-FileChecksum: SHA1: 92a16d8041a01d9820e5ba87e5d248ef3d25da78
-FileChecksum: SHA256: b6067911dbc18163bc33c32d345420efb09ad21f2105b554b651049c5a5bad79
-FileChecksum: MD5: 742b7f48d7f49200d74eaa56549a6d15
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 1997 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/read.h
-SPDXID: SPDXRef-item832047
-FileChecksum: SHA1: 9a9a42d22b5160cfd69872edcc908dc29b3b300f
-FileChecksum: SHA256: 920984e3ddca90b4812acb951b3a3641438c9670028cc27c1db01c01275c6d47
-FileChecksum: MD5: 65896df27437d453ef8928efb932cc43
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 2001 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/vis.c
-SPDXID: SPDXRef-item832015
-FileChecksum: SHA1: 002a56fe7f751b78a19061538176452c1bfbebf4
-FileChecksum: SHA256: 51a258ebee56a89dbb96e258f451c3a97921dd7aa8b84149168dbc8ed82a67e5
-FileChecksum: MD5: e8b3c6556e3abd4b4e30bbcc13441937
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD AND LicenseRef-BSD-3-Clause-5982ba0d4fafb162c64f096b24b771a7
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-BSD-3-Clause-HP
-LicenseInfoInFile: LicenseRef-bsd-new
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 1989, 1993 The Regents of the University of California. All rights reserved.
-Copyright (c) 1999, 2005 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/chartype.h
-SPDXID: SPDXRef-item832051
-FileChecksum: SHA1: 992c0501a33eba2f3a1bea87a2c6405f03256530
-FileChecksum: SHA256: cd6d9affc31b109d8d9223bface088ae5f751f2aa689cbf7029403daa39e24b0
-FileChecksum: MD5: 67437a4328f77bd24fef34e992ea7429
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 2009 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/filecomplete.h
-SPDXID: SPDXRef-item832013
-FileChecksum: SHA1: f42a3f181e285b1370f6709b2026d421cadc4c0c
-FileChecksum: SHA256: 5000e59776e570710822ca3e06bec2a4d2904560208962d6db28dee335f31e5f
-FileChecksum: MD5: 4a38c0494322401bcbbc15d8640b6cf5
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 1997 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/editline/readline.h
-SPDXID: SPDXRef-item832021
-FileChecksum: SHA1: f730906b90e605ea05a7c99b5039578f7d35d6a7
-FileChecksum: SHA256: 33c8a6d1528850b6d1f80a61943ccf182e786abddb8f2887e910354746a24ff7
-FileChecksum: MD5: 415e6515b628d289bca9f8f0f8e5c779
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 1997 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/getline.c
-SPDXID: SPDXRef-item832037
-FileChecksum: SHA1: e38d60d20c64f9222a51a6ea6d253799eb4a9662
-FileChecksum: SHA256: f788c25cd4e82cff69395b382798c9404fee4d3c6a34b16bba1389db236ed3e4
-FileChecksum: MD5: c8182d572c59e626867435fade8f7a9e
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 2011 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/chartype.c
-SPDXID: SPDXRef-item832002
-FileChecksum: SHA1: 5e88609115beb7ffaf9ca6280deb0ea2cee9eff3
-FileChecksum: SHA256: f2b9f4970cf182b668b3c1c0d97a7070629ce2bfb03429ef98215ee9ab1db866
-FileChecksum: MD5: aa37d3e1722051867d9c97d1fd09a183
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 2009 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/readline.c
-SPDXID: SPDXRef-item832028
-FileChecksum: SHA1: 25705e7ead8c06263b6f403b2bfc2dad342df12c
-FileChecksum: SHA256: 640fb61b8e4c868c9303015999bb77b868fc88ff7c30306241feae81bf9eee05
-FileChecksum: MD5: 07dd1e404101d680b8a1c6b2e610ac9d
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 1997 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: libedit-20210910-3.1.tar.gz/libedit-20210910-3.1.tar/libedit-20210910-3.1/src/eln.c
-SPDXID: SPDXRef-item831989
-FileChecksum: SHA1: 85f2c624446883cc042479bd547219f6574c1d6c
-FileChecksum: SHA256: 1ce4028d07b258e5c1f431abb5c76dbf1a210673a5ae5c1cfa3f313a3c4d9c1d
-FileChecksum: MD5: d612e8ec844300f6791ca8261b5317c5
-LicenseConcluded: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-NewBSD
-LicenseInfoInFile: LicenseRef-BSD-2-Clause-NetBSD
-LicenseInfoInFile: LicenseRef-bsd-simplified
-FileCopyrightText: <text> Copyright (c) 2009 The NetBSD Foundation, Inc. All rights reserved. </text>
 
 ##File
 
@@ -1275,56 +1275,36 @@ FileCopyrightText: NOASSERTION
 ##-------------------------
 
 
-  
-LicenseID: LicenseRef-FSFULLR
-LicenseName: FSF Unlimited License (with License Retention)
-ExtractedText: <text> This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved. </text>
+
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
 
   
 
-LicenseID: LicenseRef-FSFULLRWD-1ac11883dcc7dd1681da7708ef7e33fd
-LicenseName: FSF Unlimited License (With License Retention    and Warranty Disclaimer)
-ExtractedText: <text> This file is free software; the Free Software Foundation
-gives unlimited permission to copy and/or distribute it,
-with or without modifications, as long as this notice is preserved.
+LicenseID: LicenseRef-X11-5872543441a34866c9e94fa78f93667f
+LicenseName: X11 License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY, to the extent permitted by law; without
-even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. </text>
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
-LicenseID: LicenseRef-BSD-2-Clause-NetBSD
-LicenseName: BSD 2-Clause NetBSD License
-ExtractedText: <text> Copyright (c) 2008 The NetBSD Foundation, Inc. All rights reserved.
-
-This code is derived from software contributed to The NetBSD Foundation by
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- </text>
-
-
-  
-LicenseID: LicenseRef-ISC
-LicenseName: ISC License
-ExtractedText: <text> Permission to use, copy, modify, and /or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. </text>
-
-
-  
-LicenseID: LicenseRef-FSFULLRWD
-LicenseName: FSF Unlimited License (With License Retention    and Warranty Disclaimer)
-ExtractedText: <text> This Makefile.in is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY, to the extent permitted by law; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. </text>
+Except as contained in this notice, the name of the X Consortium shall not
+be used in advertising or otherwise to promote the sale, use or other deal-
+ings in this Software without prior written authorization from the X Consor-
+tium. </text>
 
 
 
@@ -1438,11 +1418,110 @@ This General Public License does not permit incorporating your program into prop
 License text of the Libtool-exception as an exception to the GPL-2.0-or-later:
 As a special exception to the GNU General Public License, if you distribute this file as part of a program or library that is built using GNU Libtool, you may include this file under the same distribution terms that you use for the rest of that program. </text>
 
+
+  
+LicenseID: LicenseRef-FSFULLR
+LicenseName: FSF Unlimited License (with License Retention)
+ExtractedText: <text> This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved. </text>
+
   
 
 LicenseID: LicenseRef-FSFUL-e258a1b8b3b818a11f136ff12b30a7dc
 LicenseName: FSF Unlimited License
 ExtractedText: <text> This config.lt script is free software; the Free Software Foundation gives unlimited permision to copy, distribute and modify it. </text>
+
+  
+
+LicenseID: LicenseRef-FSFUL-b11765ee0baf7f3ab339d7ecc6f39f54
+LicenseName: FSF Unlimited License
+ExtractedText: <text> This config.status script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.
+
+This configure script is free software; the Free Software Foundation
+gives unlimited permission to copy, distribute and modify it.
+
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-2-Clause-NetBSD-aa336611ef3ea65fcbb9895773aa09ab
+LicenseName: BSD 2-Clause NetBSD License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-5982ba0d4fafb162c64f096b24b771a7
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+3. Neither the name of the University nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-FSFULLRWD-1ac11883dcc7dd1681da7708ef7e33fd
+LicenseName: FSF Unlimited License (With License Retention    and Warranty Disclaimer)
+ExtractedText: <text> This file is free software; the Free Software Foundation
+gives unlimited permission to copy and/or distribute it,
+with or without modifications, as long as this notice is preserved.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. </text>
+
+
+  
+LicenseID: LicenseRef-ISC
+LicenseName: ISC License
+ExtractedText: <text> Permission to use, copy, modify, and /or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-FSFULLRWD
+LicenseName: FSF Unlimited License (With License Retention    and Warranty Disclaimer)
+ExtractedText: <text> This Makefile.in is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY, to the extent permitted by law; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. </text>
 
 
 
@@ -1765,46 +1844,11 @@ The GNU General Public License does not permit incorporating your program into p
 License text of the Libtool-exception as an exception to the GPL-3.0-or-later:
 As a special exception to the GNU General Public License, if you distribute this file as part of a program or library that is built using GNU Libtool, you may include this file under the same distribution terms that you use for the rest of that program. </text>
 
-
-
-LicenseID: LicenseRef-Public-domain
-LicenseName: Public domain software
-ExtractedText: <text> Public domain </text>
-
-
-  
-LicenseID: LicenseRef-X11
-LicenseName: X11 License
-ExtractedText: <text> X11 License
-
-Copyright (C) 1994 X Consortium
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
-
-X Window System is a trademark of X Consortium, Inc. </text>
-
   
 
 LicenseID: LicenseRef-FSFUL-3785a6b6e8d958b171e4c053a78838ec
 LicenseName: FSF Unlimited License
 ExtractedText: <text> This file is free documentation; the Free Software Foundation gives unlimited permission to copy, distribute and modify it. </text>
-
-  
-
-LicenseID: LicenseRef-FSFUL-056ccc2325847a7be80736159824342e
-LicenseName: FSF Unlimited License
-ExtractedText: <text> This config.status # script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.
-
-This configure script is free software; the Free Software Foundation
-gives unlimited permission to copy, distribute and modify it.
-
- </text>
 
 
 
@@ -2061,34 +2105,6 @@ notice, this list of conditions and the following disclaimer.
 2. Redistributions in binary form must reproduce the above copyright
 notice, this list of conditions and the following disclaimer in the
 documentation and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE. </text>
-
-  
-
-LicenseID: LicenseRef-BSD-3-Clause-5982ba0d4fafb162c64f096b24b771a7
-LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-1. Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-3. Neither the name of the University nor the names of its contributors
-may be used to endorse or promote products derived from this software
-without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
 ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
@@ -2575,6 +2591,24 @@ ExtractedText: <text> License by Scancode. </text>
 
 
   
+LicenseID: LicenseRef-X11
+LicenseName: X11 License
+ExtractedText: <text> X11 License
+
+Copyright (C) 1994 X Consortium
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
+
+X Window System is a trademark of X Consortium, Inc. </text>
+
+
+  
 LicenseID: LicenseRef-MIT
 LicenseName: MIT License
 ExtractedText: <text> MIT License
@@ -2635,6 +2669,23 @@ ExtractedText: <text> /*-
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */ </text>
+
+
+
+LicenseID: LicenseRef-BSD-2-Clause-NetBSD
+LicenseName: BSD 2-Clause NetBSD License
+ExtractedText: <text> Copyright (c) 2008 The NetBSD Foundation, Inc. All rights reserved.
+
+This code is derived from software contributed to The NetBSD Foundation by
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
 
 
 
