@@ -484,7 +484,7 @@ That's all there is to it!
 
 --------------------------------------------------------------------------------
 
-LGPL-2.0-or-later WITH OpenSSL-exception
+LGPL-2.0-or-later WITH cryptsetup-OpenSSL-exception
 
 GNU LIBRARY GENERAL PUBLIC LICENSE
 
@@ -935,23 +935,17 @@ Ty Coon, President of Vice
 
 That's all there is to it!
 
-Linking with OpenSSL
+In addition, as a special exception, the copyright holders give permission to
+link the code of portions of this program with the OpenSSL library under certain
+conditions as described in each individual source file, and distribute linked
+combinations including the two.
 
-17. In addition, as a special exception, we give permission to link the code
-
-of its release of libssh with the OpenSSL project's "OpenSSL" library (or with
-
-modified versions of it that use the same license as the "OpenSSL" library),
-
-and distribute the linked executables. You must obey the GNU Lesser General
-
-Public License in all respects for all of the code used other than "OpenSSL".
-
-If you modify this file, you may extend this exception to your version of the
-
-file, but you are not obligated to do so. If you do not wish to do so, delete
-
-this exception statement from your version.
+You must obey the GNU Lesser General Public License in all respects for all of
+the code used other than OpenSSL. If you modify file(s) with this exception, you
+may extend this exception to your version of the file(s), but you are not
+obligated to do so. If you do not wish to do so, delete this exception statement
+from your version. If you delete this exception statement from all source files
+in the program, then also delete it here.
 
 --------------------------------------------------------------------------------
 
@@ -1432,12 +1426,30 @@ link the code of portions of this program with the OpenSSL library under certain
 conditions as described in each individual source file, and distribute linked
 combinations including the two.
 
-You must obey the GNU General Public License in all respects for all of the code
-used other than OpenSSL. If you modify file(s) with this exception, you may
-extend this exception to your version of the file(s), but you are not obligated
-to do so. If you do not wish to do so, delete this exception statement from your
-version. If you delete this exception statement from all source files in the
-program, then also delete it here.
+You must obey the GNU Lesser General Public License in all respects for all of
+the code used other than OpenSSL. If you modify file(s) with this exception, you
+may extend this exception to your version of the file(s), but you are not
+obligated to do so. If you do not wish to do so, delete this exception statement
+from your version. If you delete this exception statement from all source files
+in the program, then also delete it here.
+
+--------------------------------------------------------------------------------
+
+Permission-Notice
+
+Licence to copy this document
+is granted provided that it is identified as "RSA Security Inc. Public-Key
+Cryptography Standards (PKCS)" in all material mentioning or referencing
+this document.
+
+--------------------------------------------------------------------------------
+
+Permission-Notice
+
+Licence to copy this document
+is granted provided that it is identified as "RSA Security In.c Public-Key
+Cryptography Standards (PKCS)" in all material mentioning or referencing
+this document.
 
 --------------------------------------------------------------------------------
 
@@ -1450,27 +1462,19 @@ of this license document, but changing it is not allowed.
 
 RSA-Cryptoki
 
-DISCLAIMER
-Regarding the header / include files:
-License to copy and use this software is granted provided that it is identified
-as "RSA Security Inc. PKCS #11 Cryptographic Token Interface (Cryptoki)" in all
-material mentioning or referencing this software or this function.
-License is also granted to make and use derivative works provided that such
-works are identified as "derived from the RSA Security Inc. PKCS #11
+License to copy and use this software is granted provided that it is
+identified as "RSA Security Inc. PKCS  11 Cryptographic Token Interface
+(Cryptoki)" in all material mentioning or referencing this software.
+
+License is also granted to make and use derivative works provided that
+such works are identified as "derived from the RSA Security Inc. PKCS  11
 Cryptographic Token Interface (Cryptoki)" in all material mentioning or
 referencing the derived work.
-This software is provided "AS IS" and RSA Security, Inc. disclaims all
-warranties including but not limited to the implied warranty of merchantability,
-fitness for a particular purpose, and noninfringement.
-Regarding reference implementations:
-RSA Laboratories is providing links to external reference implementations for
-the benefit of PKCS #11 developers. RSA Laboratories has not verified or
-reviewed these implementations and therefore can make no statement regarding
-their conformance to the current PKCS #11 specification. RSA Laboratories also
-makes no representations regarding intellectual property coverage or ownership
-of the reference implementations. The implementations may also be subject to
-regulations on the import, export and/or use of cryptography. Resolution of
-these issues is the responsibility of the user.
+
+RSA Security Inc. makes no representations concerning either the
+merchantability of this software or the suitability of this software for
+any particular purpose. It is provided "as is" without express or implied
+warranty of any kind.
 
 --------------------------------------------------------------------------------
 
@@ -1959,9 +1963,32 @@ the Mozilla Public License, v. 2.0.
 
 --------------------------------------------------------------------------------
 
+================================================================================
+
+ ACKNOWLEDGEMENTS
+
+--------------------------------------------------------------------------------
+
+RSA-Cryptoki
+
+This software contains RSA Security Inc. PKCS 11 Cryptographic Token Interface
+(Cryptoki).
+
+This software contains material derived from the RSA Security Inc. PKCS 11
+Cryptographic Token Interface (Cryptoki).
+
+--------------------------------------------------------------------------------
+
+Permission-Notice
+
+This software contains RSA Security Inc Public-Key Cryptography Standards (PKCS)
+
+--------------------------------------------------------------------------------
+
 Copyright notices
-Copyright (C) 1991, 1999 Free Software Foundation, Inc.
+Copyright (C) 1994-1999 RSA Security Inc.
 Copyright 2011, 2015, 2016 Collabora, Ltd.
+Copyright (C) 1991, 1999 Free Software Foundation, Inc.
 Copyright (C) 2015 NICE s.r.l.
 Copyright (C) 2021 Ole André Vadla Ravnås <oleavr@frida.re>
 Copyright 2011 Collabora, Ltd.
@@ -1984,8 +2011,7 @@ Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2015. sicklylife
 <translation@sicklylife.jp>, 2020, 2022.
 Copyright (C) 2011 Tommi Vainikainen
 Copyright (C) 2011 The GNOME Project.
-Copyright (C) 2011 glib-networking'S COPYRIGHT HOLDER This file is distributed
-under the same licence as the glib-networking package. Bruce Cowan
+Copyright (C) 2011 glib-networking'S COPYRIGHT HOLDER  Bruce Cowan
 <bruce@bcowan.me.uk>, 2011, 2012. Zander Brown <zbrown@gnome.org>, 2019-2021.
 Copyright (C) 2011, 2012 Swecha Telugu Localisation team
 Copyright © 2011 Leandro Regueiro. Proxecto Trasno
@@ -2070,7 +2096,6 @@ Ngọc Duy <pclouds@gmail.com>, 2011-2013.
 Copyright (C) 2011 glib-networking's COPYRIGHT HOLDER  Jorge González
 <jorgegonz@svn.gnome.org>, 2011. Daniel Mustieles <daniel.mustieles@gmail.com>,
 2011-2022.
-Copyright (C) 1994-1999 RSA Security Inc.
 Copyright 2011-2013 Red Hat, Inc.
 Copyright 2011 Red Hat, Inc.
 Copyright © 2022 Red Hat Inc.
