@@ -1,109 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
   xmlns:spdx="http://spdx.org/rdf/terms#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <spdx:SpdxDocument rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#SPDXRef-DOCUMENT">
+  <spdx:SpdxDocument rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#SPDXRef-DOCUMENT">
     <spdx:name>/srv/fossology/repository/report</spdx:name>
-    <spdx:relationship>
-      <spdx:Relationship rdf:nodeID="N78283d36ce194eb1a9f3678671f887b8">
-        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
-        <spdx:relatedSpdxElement>
-          <spdx:Package rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#SPDXRef-upload582">
-            <spdx:packageVerificationCode>
-              <spdx:PackageVerificationCode rdf:nodeID="Nbfab375b1ea34eef8c8d524609a52f45">
-                <spdx:packageVerificationCodeValue>31f5aa9f1f2c3d8e043cd1d294571bef39162820</spdx:packageVerificationCodeValue>
-              </spdx:PackageVerificationCode>
-            </spdx:packageVerificationCode>
-            <spdx:relationship>
-              <spdx:Relationship rdf:nodeID="Nf222130e92134a2c991f810a8d882b09">
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#SPDXRef-item1016509">
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="Naf42d15fbc9f40b98015d1193934c5a9">
-                        <spdx:checksumValue>41a953ae45ba3360cbeb31273a73ad76e220d57d60ae6e468f0324c33cda30bd</spdx:checksumValue>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N5c199b922d9345c4ab3e2d3b8aed23c7">
-                        <spdx:checksumValue>4d514e269c645fc5491fa47b487e787d21fcfba1</spdx:checksumValue>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N30335e05d0c4446c9e19bfe62d31e2d1">
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>2c13781e471178f1b50fb038a9ac83c9</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/bugs.txt</spdx:fileName>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship rdf:nodeID="Na55784b848bb4e01988f4b958034ed32">
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#SPDXRef-item1016508">
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N6bc8506f778e4aef8aa79a55dc9bbfa6">
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>b66869e13a15e2681a2acf69b38c1bbb06019b7b</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N361a949ae3774306acc3815292bc053e">
-                        <spdx:checksumValue>582dbbe60451096e7ca3adde53d7e9ee</spdx:checksumValue>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="Ne7e5f265df8945a1893395d283bcb442">
-                        <spdx:checksumValue>9774217e1cd484530c7a643144019591c593957bd84cd901e33e140ce6073d6d</spdx:checksumValue>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/config</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship rdf:nodeID="Nf6373b4bc4ae44d1a0a9a9a35e8dbb77">
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#SPDXRef-item1016506">
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N05f615a2760a4282a213eb5639a43fc8">
-                        <spdx:checksumValue>5bc04b2e6d0555475b5bf66200c04d70da9f0d90a892fc7f9b83beb6373368fb</spdx:checksumValue>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="Ndea6fe07525847589f3d204b66b4db8e">
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>0882ab6c248f949a9d4e30b6bea0a152a99710c0</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N03c4da3cd147425f8e990e3953e16219">
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>27afbff78d18c0e5153cedd4a8905082</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseInfoInFile>
-                      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#LicenseRef-BSD-2-Clause-Views">
-                        <spdx:name>BSD 2-Clause with views sentence</spdx:name>
-                        <spdx:extractedText> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#LicenseRef-BSD-2-Clause-Views">
+        <spdx:extractedText> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
@@ -112,34 +17,35 @@
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 The views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the copyright holders or contributors. </spdx:extractedText>
-                        <spdx:licenseId>LicenseRef-BSD-2-Clause-Views</spdx:licenseId>
-                      </spdx:ExtractedLicensingInfo>
-                    </spdx:licenseInfoInFile>
-                    <spdx:licenseInfoInFile>
-                      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#LicenseRef-BSD-2-Clause">
-                        <spdx:extractedText> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+        <spdx:licenseId>LicenseRef-BSD-2-Clause-Views</spdx:licenseId>
+        <spdx:name>BSD 2-Clause with views sentence</spdx:name>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#LicenseRef-BSD-2-Clause">
+        <spdx:extractedText> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </spdx:extractedText>
-                        <spdx:licenseId>LicenseRef-BSD-2-Clause</spdx:licenseId>
-                        <spdx:name>BSD 2-Clause "Simplified" License</spdx:name>
-                      </spdx:ExtractedLicensingInfo>
-                    </spdx:licenseInfoInFile>
-                    <spdx:licenseInfoInFile>
-                      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#LicenseRef-bsd-simplified">
-                        <spdx:name>BSD-2-Clause</spdx:name>
-                        <spdx:licenseId>LicenseRef-bsd-simplified</spdx:licenseId>
-                        <spdx:extractedText> License by Scancode. </spdx:extractedText>
-                      </spdx:ExtractedLicensingInfo>
-                    </spdx:licenseInfoInFile>
-                    <spdx:licenseConcluded>
-                      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#LicenseRef-BSD-2-Clause-c91da7fa6fc7de48c5e9b0395b97a6aa">
-                        <spdx:name>BSD 2-Clause "Simplified" License</spdx:name>
-                        <spdx:licenseId>LicenseRef-BSD-2-Clause-c91da7fa6fc7de48c5e9b0395b97a6aa</spdx:licenseId>
-                        <spdx:extractedText> Redistribution and use in source and binary forms, with or without
+        <spdx:name>BSD 2-Clause "Simplified" License</spdx:name>
+        <spdx:licenseId>LicenseRef-BSD-2-Clause</spdx:licenseId>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#LicenseRef-bsd-simplified">
+        <spdx:licenseId>LicenseRef-bsd-simplified</spdx:licenseId>
+        <spdx:name>BSD-2-Clause</spdx:name>
+        <spdx:extractedText> License by Scancode. </spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#LicenseRef-BSD-2-Clause-c91da7fa6fc7de48c5e9b0395b97a6aa">
+        <spdx:licenseId>LicenseRef-BSD-2-Clause-c91da7fa6fc7de48c5e9b0395b97a6aa</spdx:licenseId>
+        <spdx:name>BSD 2-Clause "Simplified" License</spdx:name>
+        <spdx:extractedText> Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
 are met:
 1. Redistributions of source code must retain the above copyright
@@ -159,194 +65,288 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE. </spdx:extractedText>
-                      </spdx:ExtractedLicensingInfo>
-                    </spdx:licenseConcluded>
-                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/LICENSE</spdx:fileName>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:creationInfo>
+      <spdx:CreationInfo rdf:nodeID="Nb802800d7d904d2185475f5a47989a7a">
+        <spdx:licenseListVersion>3.22</spdx:licenseListVersion>
+        <spdx:creator>Person: Mario Schuknecht</spdx:creator>
+        <spdx:creator>Tool: fossology-4.4.0</spdx:creator>
+        <rdfs:comment>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of nginx-http-auth-digest 1.0.0.
+Please check "LicenseComments" for explanations of concluded licenses.
+</rdfs:comment>
+        <spdx:created>2024-09-12T14:17:16Z</spdx:created>
+      </spdx:CreationInfo>
+    </spdx:creationInfo>
+    <spdx:relationship>
+      <spdx:Relationship rdf:nodeID="N719b46d83977488293b80ba45b6a08a6">
+        <spdx:relatedSpdxElement>
+          <spdx:Package rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#SPDXRef-upload582">
+            <spdx:relationship>
+              <spdx:Relationship rdf:nodeID="Neffb1524df9e4598a73f9fb546a38cab">
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#SPDXRef-item1016506">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#LicenseRef-BSD-2-Clause"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#LicenseRef-bsd-simplified"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#LicenseRef-BSD-2-Clause-Views"/>
                     <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/LICENSE</spdx:fileName>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="Nff8ed369fa704cf99f5782f20c8cfb8b">
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                        <spdx:checksumValue>0882ab6c248f949a9d4e30b6bea0a152a99710c0</spdx:checksumValue>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="Naa4abe56fe3549da876a7ddc45137cc2">
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                        <spdx:checksumValue>5bc04b2e6d0555475b5bf66200c04d70da9f0d90a892fc7f9b83beb6373368fb</spdx:checksumValue>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="N18466df86e644ada9706e0ea41452455">
+                        <spdx:checksumValue>27afbff78d18c0e5153cedd4a8905082</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseConcluded rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#LicenseRef-BSD-2-Clause-c91da7fa6fc7de48c5e9b0395b97a6aa"/>
                   </spdx:File>
                 </spdx:relatedSpdxElement>
                 <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
               </spdx:Relationship>
             </spdx:relationship>
             <spdx:relationship>
-              <spdx:Relationship rdf:nodeID="Nebd62fdf95934267844b0e1b5ccabfa4">
+              <spdx:Relationship rdf:nodeID="N869692e258624c3bb176166a5503c47f">
                 <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
                 <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#SPDXRef-item1016507">
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#SPDXRef-item1016509">
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
                     <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N85668ba5462e40c99ff9d67bb757dbb2">
-                        <spdx:checksumValue>2968ecfb7d75a3daf24b9e9a39a94b34d264004b</spdx:checksumValue>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      <spdx:Checksum rdf:nodeID="Ndd97dc88be6944428fbcc225455e5e66">
+                        <spdx:checksumValue>41a953ae45ba3360cbeb31273a73ad76e220d57d60ae6e468f0324c33cda30bd</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
                       </spdx:Checksum>
                     </spdx:checksum>
                     <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="Nc5a7cdf9693c45e6b80c4d33ac79ef02">
+                      <spdx:Checksum rdf:nodeID="N8b1bdbfd142e4adb800dd0c6b8022a6e">
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                        <spdx:checksumValue>2c13781e471178f1b50fb038a9ac83c9</spdx:checksumValue>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="N12e69340c6344863a93a1c6b48370f5c">
+                        <spdx:checksumValue>4d514e269c645fc5491fa47b487e787d21fcfba1</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/bugs.txt</spdx:fileName>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship rdf:nodeID="N92e2e25e9b954fad96d54f2e65d9aaf1">
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#SPDXRef-item1016507">
+                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/htdigest.py</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="Nf2a37675f26b418795befca76ce9e0f8">
                         <spdx:checksumValue>f88fb8999b7175eaed4918c6f834a848</spdx:checksumValue>
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
                       </spdx:Checksum>
                     </spdx:checksum>
                     <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N0ea3f3a5c0d74c6abceb8b3e2ca80f6d">
-                        <spdx:checksumValue>d1fe69f33211b25505e1d51f371655ed2af6593615f0a791bc24a4990b8d0754</spdx:checksumValue>
+                      <spdx:Checksum rdf:nodeID="N3a973f7cdf2b4bcaaa95d738005b522f">
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                        <spdx:checksumValue>d1fe69f33211b25505e1d51f371655ed2af6593615f0a791bc24a4990b8d0754</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="N2d36087b926c4e96ae30f73cc33f4e2b">
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                        <spdx:checksumValue>2968ecfb7d75a3daf24b9e9a39a94b34d264004b</spdx:checksumValue>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                     <spdx:copyrightText> Copyright (c) 2011 Samizdat Drafting Co. All rights reserved. </spdx:copyrightText>
-                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/htdigest.py</spdx:fileName>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                   </spdx:File>
                 </spdx:relatedSpdxElement>
               </spdx:Relationship>
             </spdx:relationship>
             <spdx:relationship>
-              <spdx:Relationship rdf:nodeID="Nd69f9743d0b04bb796b03067dc022664">
+              <spdx:Relationship rdf:nodeID="N3ead0dd7125047b7bb20c5022b529d08">
                 <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
                 <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#SPDXRef-item1016512">
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/ngx_http_auth_digest_module.h</spdx:fileName>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="Nfafd4f0982234882bb4d2b32e94cd1ab">
-                        <spdx:checksumValue>6a507a24719c2ae3929971d16aaf320e</spdx:checksumValue>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="Neef495cbbc14471ba4edbae7b46e3293">
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>1220943d430a767612a4ea5ca37398abdb88c3b6</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="Nfd2c5cee0a0e4e94b12e60dcd73f921b">
-                        <spdx:checksumValue>edeeff49b2c30dc13341aa01ea22bbdf33c48c37c7ef6c784486de51ec395f98</spdx:checksumValue>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                      </spdx:Checksum>
-                    </spdx:checksum>
+                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#SPDXRef-item1016510">
                     <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                     <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship rdf:nodeID="N5fe35069939c445ea957ab374546b0a7">
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#SPDXRef-item1016510">
-                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/readme.rst</spdx:fileName>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                     <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N3577dbbcc92d4330ba6ab132e58462a9">
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>18d22fcaf0a90f851bf034ef3bd89082690ed221</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N9c49bf3f6860420e9e5360467e9a5032">
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      <spdx:Checksum rdf:nodeID="N8c8a1ca1f2d44b85b5878ef642a3640c">
                         <spdx:checksumValue>1d7f9224473297081904ac3c5cdd1e82</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
                       </spdx:Checksum>
                     </spdx:checksum>
                     <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N0a4db9dc59de41c9ab9e47c7e2b01067">
+                      <spdx:Checksum rdf:nodeID="N11cbd5ce08da46e084059637a37d0575">
                         <spdx:checksumValue>699df41fa72102e301cd83e5badd327cfd5f961a1dd13625af42ed06db4994f4</spdx:checksumValue>
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
                       </spdx:Checksum>
                     </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="N2b17afc6774f49d980594c132e3d40b7">
+                        <spdx:checksumValue>18d22fcaf0a90f851bf034ef3bd89082690ed221</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
                     <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/readme.rst</spdx:fileName>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship rdf:nodeID="Ncdacdb1737c545528d0b9552039e9854">
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#SPDXRef-item1016508">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="Ne3acbbab63134ad79314881049a6266b">
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                        <spdx:checksumValue>b66869e13a15e2681a2acf69b38c1bbb06019b7b</spdx:checksumValue>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="N96600c5617734958b016f92f3366130b">
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                        <spdx:checksumValue>9774217e1cd484530c7a643144019591c593957bd84cd901e33e140ce6073d6d</spdx:checksumValue>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="Nb368dc2bbb9d482c8bfbb586a5a70fe3">
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                        <spdx:checksumValue>582dbbe60451096e7ca3adde53d7e9ee</spdx:checksumValue>
+                      </spdx:Checksum>
+                    </spdx:checksum>
                     <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/config</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                   </spdx:File>
                 </spdx:relatedSpdxElement>
                 <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
               </spdx:Relationship>
             </spdx:relationship>
             <spdx:relationship>
-              <spdx:Relationship rdf:nodeID="Nb9f1ff656e4a4242942aeb421da79f1a">
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+              <spdx:Relationship rdf:nodeID="Nbc06298ef6fa4a9ea82e8544117a60a8">
                 <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#SPDXRef-item1016511">
+                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#SPDXRef-item1016511">
+                    <spdx:copyrightText> copyright (c) Erik Dubbelboer
+(c) samizdat drafting co.
+(c) igor sysoev </spdx:copyrightText>
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                     <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="Nb48775ff13fe4e079fc0c640b2fc6c27">
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>8adcea6fa2c20913b450133cdc6676da35b5b882</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="Nebc1689c15744dab811cfbe547705d94">
+                      <spdx:Checksum rdf:nodeID="Na897cc3cb9094cd7b87bdb3ac0e337f0">
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
                         <spdx:checksumValue>53c8cf3d17d709401035c37f5667e7da</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
                     <spdx:checksum>
-                      <spdx:Checksum rdf:nodeID="N04b94e2aa59e41e291a9451f515e400f">
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      <spdx:Checksum rdf:nodeID="N554505b6dcbb40aca237f517a2e61eb7">
                         <spdx:checksumValue>de7f1ed6d4ea536030a3654e295837b77bc1769b9e7d25b7d42cad469e79b6f9</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
                       </spdx:Checksum>
                     </spdx:checksum>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:copyrightText> copyright (c) Erik Dubbelboer
-(c) samizdat drafting co.
-(c) igor sysoev </spdx:copyrightText>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="N1845016ac07a45dd9eeb7cf231f9af78">
+                        <spdx:checksumValue>8adcea6fa2c20913b450133cdc6676da35b5b882</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
                     <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/ngx_http_auth_digest_module.c</spdx:fileName>
                     <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                   </spdx:File>
                 </spdx:relatedSpdxElement>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
               </spdx:Relationship>
             </spdx:relationship>
-            <spdx:name>nginx-http-auth-digest_1.0.0.tar.gz</spdx:name>
-            <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-            <spdx:checksum>
-              <spdx:Checksum rdf:nodeID="Nf67f98cc12724ccc88c068bb5dfb71ea">
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                <spdx:checksumValue>4ae8d157e623abf987234f819d0137a7</spdx:checksumValue>
-              </spdx:Checksum>
-            </spdx:checksum>
-            <spdx:checksum>
-              <spdx:Checksum rdf:nodeID="N210fb423f2524269a0c3080ee7038d61">
-                <spdx:checksumValue>43ca13f06cfa50bb69f0b7434ed0a91abb17320b</spdx:checksumValue>
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-              </spdx:Checksum>
-            </spdx:checksum>
-            <spdx:checksum>
-              <spdx:Checksum rdf:nodeID="N8c44cf08374b4992a0df23b92390bd8e">
-                <spdx:checksumValue>f09851e6309560a8ff3e901548405066c83f1f6ff88aa7171e0763bd9514762b</spdx:checksumValue>
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-              </spdx:Checksum>
-            </spdx:checksum>
-            <spdx:licenseDeclared rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#LicenseRef-BSD-2-Clause"/>
+            <spdx:relationship>
+              <spdx:Relationship rdf:nodeID="Nd8637911c1444bc990522e6429536a2d">
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#SPDXRef-item1016512">
+                    <spdx:fileName>nginx-http-auth-digest_1.0.0.tar.gz/nginx-http-auth-digest_1.0.0.tar/nginx-http-auth-digest-1.0.0/ngx_http_auth_digest_module.h</spdx:fileName>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="Nad096bb5f4974cee9ba1d0447919b176">
+                        <spdx:checksumValue>edeeff49b2c30dc13341aa01ea22bbdf33c48c37c7ef6c784486de51ec395f98</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="N33d25376ab4b424788e2f5d2f9c0b90d">
+                        <spdx:checksumValue>1220943d430a767612a4ea5ca37398abdb88c3b6</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum rdf:nodeID="N5446aef5e3da414eafbc3116f7ce92f9">
+                        <spdx:checksumValue>6a507a24719c2ae3929971d16aaf320e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
             <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
             <spdx:licenseComments> licenseInfoInFile determined by Scanners:
  - nomos ("4.4.0".903df0)
  - monk ("4.4.0".903df0)
  - ojo ("4.4.0".903df0)
  - scancode ("4.4.0".903df0) </spdx:licenseComments>
-            <spdx:filesAnalyzed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</spdx:filesAnalyzed>
-            <spdx:packageFileName>nginx-http-auth-digest_1.0.0.tar.gz</spdx:packageFileName>
+            <spdx:checksum>
+              <spdx:Checksum rdf:nodeID="N4539d31954fe48cab8918f28066ce6b9">
+                <spdx:checksumValue>4ae8d157e623abf987234f819d0137a7</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:checksum>
+              <spdx:Checksum rdf:nodeID="N720ed5b95dfa493d88fe25e07e7a4797">
+                <spdx:checksumValue>f09851e6309560a8ff3e901548405066c83f1f6ff88aa7171e0763bd9514762b</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:checksum>
+              <spdx:Checksum rdf:nodeID="N42f026278e9049d3b0329b709cc891ab">
+                <spdx:checksumValue>43ca13f06cfa50bb69f0b7434ed0a91abb17320b</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:packageVerificationCode>
+              <spdx:PackageVerificationCode rdf:nodeID="N0c290b7db6264e2d8afed09ce6b01af8">
+                <spdx:packageVerificationCodeValue>31f5aa9f1f2c3d8e043cd1d294571bef39162820</spdx:packageVerificationCodeValue>
+              </spdx:PackageVerificationCode>
+            </spdx:packageVerificationCode>
             <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-            <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:packageFileName>nginx-http-auth-digest_1.0.0.tar.gz</spdx:packageFileName>
+            <spdx:licenseDeclared rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1726150636.spdx#LicenseRef-BSD-2-Clause-c91da7fa6fc7de48c5e9b0395b97a6aa"/>
+            <spdx:filesAnalyzed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</spdx:filesAnalyzed>
+            <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+            <spdx:name>nginx-http-auth-digest_1.0.0.tar.gz</spdx:name>
           </spdx:Package>
         </spdx:relatedSpdxElement>
+        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
       </spdx:Relationship>
     </spdx:relationship>
-    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#LicenseRef-BSD-2-Clause-c91da7fa6fc7de48c5e9b0395b97a6aa"/>
-    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#LicenseRef-BSD-2-Clause-Views"/>
-    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#LicenseRef-BSD-2-Clause"/>
-    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_nginx-http-auth-digest_1.0.0.tar.gz_1725356707.spdx#LicenseRef-bsd-simplified"/>
     <spdx:dataLicense rdf:resource="http://spdx.org/licenses/CC0-1.0"/>
-    <spdx:creationInfo>
-      <spdx:CreationInfo rdf:nodeID="N6404ab52e1c94e7f876f9545cb38820d">
-        <spdx:creator>Person: Mario Schuknecht</spdx:creator>
-        <spdx:creator>Tool: fossology-4.4.0</spdx:creator>
-        <spdx:created>2024-09-03T09:45:08Z</spdx:created>
-        <rdfs:comment>
-This document was created using license information and a generator from Fossology.
-It contains the license and copyright analysis of nginx-http-auth-digest 1.0.0.
-Please check "LicenseComments" for explanations of concluded licenses.
-</rdfs:comment>
-        <spdx:licenseListVersion>3.22</spdx:licenseListVersion>
-      </spdx:CreationInfo>
-    </spdx:creationInfo>
     <spdx:specVersion>SPDX-2.3</spdx:specVersion>
   </spdx:SpdxDocument>
 </rdf:RDF>
