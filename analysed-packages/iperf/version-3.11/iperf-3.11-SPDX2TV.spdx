@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_iperf-3.11.tar.gz_1726131982.spdx
+DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_iperf-3.11.tar.gz_1726468180.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of iperf 3.11.
 Please check "LicenseComments" for explanations of concluded licenses.
 </text>
-Created: 2024-09-12T09:06:23Z
+Created: 2024-09-16T06:29:41Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -53,6 +53,137 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload654
 ##--------------------------
 ## File Information
 ##--------------------------
+
+##File
+
+FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/timer.h
+SPDXID: SPDXRef-item1165431
+FileChecksum: SHA1: 17cf3be33fdb69b355363b9c842fd4adf104edb5
+FileChecksum: SHA256: d25e34f8a7dfc93a495da87c484fb259aaaba7aa94edc59c978818b4c15962ae
+FileChecksum: MD5: c2975b59be122e0a043dd03860671794
+LicenseConcluded: LicenseRef-BSD-2-Clause-fc52c331df17bf332537612d674ffeda AND LicenseRef-BSD-3-Clause-LBNL AND LicenseRef-Permission-Notice-e7ee8890e20932263ed70a4e7c62647d
+LicenseComments: <text> The information in the file is:
+
+Based on timers.c by Jef Poskanzer. Used with permission.
+
+We searched for more information about the license of timer.c. The file is also used in httpd (see https://github.com/jacklicn/thttpd/blob/master/timers.c )
+The license information there is:
+timers.c - simple timer routines
+
+Copyright (C) 1995,1998,2000,2014 by Jef Poskanzer jef@mail.acme.com.
+All rights reserved.
+
+After that follows the given BSD-2-Clause. This search was done on Sept. 15th 2024.
+
+Thus, we concluded BSD-2-Clause.
+The information in the file is:
+
+This code is distributed under a BSD style license, see the LICENSE file for complete information.
+
+The LICENSE file contains the text of BSD-3-Clause-LBNL.
+
+Thus, we concluded BSD-3-Clause-LBNL. </text>
+LicenseInfoInFile: LicenseRef-BSD-style
+LicenseInfoInFile: LicenseRef-unknown-license-reference
+LicenseInfoInFile: LicenseRef-bsd-new
+FileCopyrightText: <text> Copyright (c) 2014, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved. </text>
+
+##File
+
+FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/timer.c
+SPDXID: SPDXRef-item1165407
+FileChecksum: SHA1: 6def95febcb3ee7c30eb76fc262ab3416c8eaa79
+FileChecksum: SHA256: f34da0584f19a6c9166beb2fa41d9395904d9a0235087312d4458929451b2098
+FileChecksum: MD5: bf65a6317efe85cb5d4cf651bd2828c1
+LicenseConcluded: LicenseRef-BSD-2-Clause-fc52c331df17bf332537612d674ffeda AND LicenseRef-BSD-3-Clause-LBNL AND LicenseRef-Permission-Notice-e7ee8890e20932263ed70a4e7c62647d
+LicenseComments: <text> The information in the file is:
+
+Based on timers.c by Jef Poskanzer. Used with permission.
+
+We searched for more information about the license of timer.c. The file is also used in httpd (see https://github.com/jacklicn/thttpd/blob/master/timers.c )
+The license information there is:
+timers.c - simple timer routines
+
+Copyright (C) 1995,1998,2000,2014 by Jef Poskanzer jef@mail.acme.com.
+All rights reserved.
+
+After that follows the given BSD-2-Clause. This search was done on Sept. 15th 2024.
+
+Thus, we concluded BSD-2-Clause.
+The information in the file is:
+
+This code is distributed under a BSD style license, see the LICENSE file for complete information.
+
+The LICENSE file contains the text of BSD-3-Clause-LBNL.
+
+Thus, we concluded BSD-3-Clause-LBNL. </text>
+LicenseInfoInFile: LicenseRef-BSD-style
+LicenseInfoInFile: LicenseRef-unknown-license-reference
+LicenseInfoInFile: LicenseRef-bsd-new
+FileCopyrightText: <text> Copyright (c) 2014, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved. </text>
+
+##File
+
+FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/LICENSE
+SPDXID: SPDXRef-item1165325
+FileChecksum: SHA1: 637e327b91fee7e7b995bee31b5ba695d6ace016
+FileChecksum: SHA256: a5c2e3d799f2835156e565a3de4fad33d32ed289cdc9e414dfaf75719fd12ef9
+FileChecksum: MD5: 68ae8cfc577a2c8c51bb51e9628e80b7
+LicenseConcluded: LicenseRef-NCSA-9456d89cc356995d88276ef663f76d46
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-BSD-3-Clause-LBNL
+LicenseInfoInFile: LicenseRef-ATT
+LicenseInfoInFile: LicenseRef-BSD-3-Clause-HP
+LicenseInfoInFile: LicenseRef-dtoa
+LicenseInfoInFile: LicenseRef-bsd-new
+LicenseInfoInFile: LicenseRef-x11-lucent
+LicenseInfoInFile: LicenseRef-uoi-ncsa
+LicenseInfoInFile: LicenseRef-lbnl-bsd
+LicenseInfoInFile: LicenseRef-lucent-pl-1.02
+FileCopyrightText: <text> Copyright (c) 2014-2022, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
+Copyright (c) 2009-2017 Dave Gamble and cJSON contributors
+Copyright (c) 2005-2007 Russ Cox, Massachusetts Institute of Technology
+Copyright (c) 2003 by Lucent Technologies. 
+Copyright (c) 2001 Eric Jackson <ericj@monkey.org>
+Copyright (c) 1991, 1993 The Regents of the University of California. All rights reserved.
+Copyright (c) 1999,2000,2001,2002,2003 The Board of Trustees of the University of Illinois All Rights Reserved. </text>
+
+##File
+
+FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/units.c
+SPDXID: SPDXRef-item1165430
+FileChecksum: SHA1: aea3fb09333c101b16d84d64289d5214ce507dc7
+FileChecksum: SHA256: 9b8ca75328a56c6a8c4df0c6e63782b1276cbab89854769a3fac3ed6e3535718
+FileChecksum: MD5: 9fc62eed569136739f78477e05f2a5e3
+LicenseConcluded: LicenseRef-NCSA-9456d89cc356995d88276ef663f76d46
+LicenseInfoInFile: LicenseRef-BSD-style
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-uoi-ncsa
+FileCopyrightText: <text> Copyright (c) 1999,2000,2001,2002,2003 The Board of Trustees of the University of Illinois All Rights Reserved. </text>
+
+##File
+
+FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/iperf_locale.c
+SPDXID: SPDXRef-item1165391
+FileChecksum: SHA1: 1a3335b69265a87c8cc84a8e31d054fa4d87bdde
+FileChecksum: SHA256: 9bf4fe19b6953fc136b56a1343d5f3e121ebebb0607b5fed10677095ee863720
+FileChecksum: MD5: 6d0467826cf54fbd554166f58d4155ec
+LicenseConcluded: LicenseRef-BSD-3-Clause-LBNL AND LicenseRef-NCSA-9456d89cc356995d88276ef663f76d46 AND LicenseRef-Permission-Notice-e7ee8890e20932263ed70a4e7c62647d
+LicenseComments: <text> The information in the file is:
+
+This code is distributed under a BSD style license, see the LICENSE file for complete information.
+
+The LICENSE file contains the text of BSD-3-Clause-LBNL.
+
+Thus, we concluded BSD-3-Clause-LBNL. </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-bsd-new
+LicenseInfoInFile: LicenseRef-uoi-ncsa
+FileCopyrightText: <text> Copyright (c) 2014-2022, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
+Copyright (c) 1999,2000,2001,2002,2003 The Board of Trustees of the University of Illinois All Rights Reserved. </text>
 
 ##File
 
@@ -190,26 +321,6 @@ LicenseInfoInFile: LicenseRef-bsd-new
 LicenseInfoInFile: LicenseRef-bsd-simplified
 FileCopyrightText: <text> Copyright (c) 2014, 2016, 2017, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
 Copyright (c) 2011 The NetBSD Foundation, Inc. All rights reserved. </text>
-
-##File
-
-FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/timer.h
-SPDXID: SPDXRef-item1165431
-FileChecksum: SHA1: 17cf3be33fdb69b355363b9c842fd4adf104edb5
-FileChecksum: SHA256: d25e34f8a7dfc93a495da87c484fb259aaaba7aa94edc59c978818b4c15962ae
-FileChecksum: MD5: c2975b59be122e0a043dd03860671794
-LicenseConcluded: LicenseRef-BSD-3-Clause-LBNL AND LicenseRef-Permission-Notice-e7ee8890e20932263ed70a4e7c62647d AND LicenseRef-unknown-license-reference-e1bea6c63688d666243c79fedacb4dbe
-LicenseComments: <text> The information in the file is:
-
-This code is distributed under a BSD style license, see the LICENSE file for complete information.
-
-The LICENSE file contains the text of BSD-3-Clause-LBNL.
-
-Thus, we concluded BSD-3-Clause-LBNL. </text>
-LicenseInfoInFile: LicenseRef-BSD-style
-LicenseInfoInFile: LicenseRef-unknown-license-reference
-LicenseInfoInFile: LicenseRef-bsd-new
-FileCopyrightText: <text> Copyright (c) 2014, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved. </text>
 
 ##File
 
@@ -498,26 +609,6 @@ FileCopyrightText: <text> Copyright (c) 2014-2020, The Regents of the University
 
 ##File
 
-FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/timer.c
-SPDXID: SPDXRef-item1165407
-FileChecksum: SHA1: 6def95febcb3ee7c30eb76fc262ab3416c8eaa79
-FileChecksum: SHA256: f34da0584f19a6c9166beb2fa41d9395904d9a0235087312d4458929451b2098
-FileChecksum: MD5: bf65a6317efe85cb5d4cf651bd2828c1
-LicenseConcluded: LicenseRef-BSD-3-Clause-LBNL AND LicenseRef-Permission-Notice-e7ee8890e20932263ed70a4e7c62647d AND LicenseRef-unknown-license-reference-e1bea6c63688d666243c79fedacb4dbe
-LicenseComments: <text> The information in the file is:
-
-This code is distributed under a BSD style license, see the LICENSE file for complete information.
-
-The LICENSE file contains the text of BSD-3-Clause-LBNL.
-
-Thus, we concluded BSD-3-Clause-LBNL. </text>
-LicenseInfoInFile: LicenseRef-BSD-style
-LicenseInfoInFile: LicenseRef-unknown-license-reference
-LicenseInfoInFile: LicenseRef-bsd-new
-FileCopyrightText: <text> Copyright (c) 2014, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved. </text>
-
-##File
-
 FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/iperf_udp.c
 SPDXID: SPDXRef-item1165405
 FileChecksum: SHA1: e341ab51422eee297431cad062313e045ec1e7ff
@@ -689,28 +780,6 @@ FileCopyrightText: <text> Copyright (c) 2014, The Regents of the University of C
 
 ##File
 
-FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/iperf_locale.c
-SPDXID: SPDXRef-item1165391
-FileChecksum: SHA1: 1a3335b69265a87c8cc84a8e31d054fa4d87bdde
-FileChecksum: SHA256: 9bf4fe19b6953fc136b56a1343d5f3e121ebebb0607b5fed10677095ee863720
-FileChecksum: MD5: 6d0467826cf54fbd554166f58d4155ec
-LicenseConcluded: LicenseRef-BSD-3-Clause-LBNL AND LicenseRef-Permission-Notice-e7ee8890e20932263ed70a4e7c62647d AND LicenseRef-uoi-ncsa-dd61d3e0fa1f04c7ef2e97751ac51c1e
-LicenseComments: <text> The information in the file is:
-
-This code is distributed under a BSD style license, see the LICENSE file for complete information.
-
-The LICENSE file contains the text of BSD-3-Clause-LBNL.
-
-Thus, we concluded BSD-3-Clause-LBNL. </text>
-LicenseInfoInFile: LicenseRef-BSD
-LicenseInfoInFile: LicenseRef-MIT-style
-LicenseInfoInFile: LicenseRef-bsd-new
-LicenseInfoInFile: LicenseRef-uoi-ncsa
-FileCopyrightText: <text> Copyright (c) 2014-2022, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
-Copyright (c) 1999,2000,2001,2002,2003 The Board of Trustees of the University of Illinois All Rights Reserved. </text>
-
-##File
-
 FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/iperf_api.h
 SPDXID: SPDXRef-item1165389
 FileChecksum: SHA1: 2ac16d694939cb113cb32634dfa00f31b70233b3
@@ -808,19 +877,6 @@ Copyright (C) 1996-2015 Free Software Foundation, Inc.
 Copyright (C) 2004-2015 Free Software Foundation, Inc.
 Copyright (C) 2010-2015 Free Software Foundation, Inc.
 Written by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996 </text>
-
-##File
-
-FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/src/units.c
-SPDXID: SPDXRef-item1165430
-FileChecksum: SHA1: aea3fb09333c101b16d84d64289d5214ce507dc7
-FileChecksum: SHA256: 9b8ca75328a56c6a8c4df0c6e63782b1276cbab89854769a3fac3ed6e3535718
-FileChecksum: MD5: 9fc62eed569136739f78477e05f2a5e3
-LicenseConcluded: LicenseRef-uoi-ncsa-dd61d3e0fa1f04c7ef2e97751ac51c1e
-LicenseInfoInFile: LicenseRef-BSD-style
-LicenseInfoInFile: LicenseRef-MIT-style
-LicenseInfoInFile: LicenseRef-uoi-ncsa
-FileCopyrightText: <text> Copyright (c) 1999,2000,2001,2002,2003 The Board of Trustees of the University of Illinois All Rights Reserved. </text>
 
 ##File
 
@@ -1129,34 +1185,6 @@ LicenseInfoInFile: LicenseRef-Less
 LicenseInfoInFile: LicenseRef-bsd-simplified
 FileCopyrightText: <text> Copyright (c) 2000 Markus Friedl. All rights reserved.
 Copyright (c) 2005,2006 Damien Miller. All rights reserved. </text>
-
-##File
-
-FileName: iperf-3.11.tar.gz/iperf-3.11.tar/iperf-3.11/LICENSE
-SPDXID: SPDXRef-item1165325
-FileChecksum: SHA1: 637e327b91fee7e7b995bee31b5ba695d6ace016
-FileChecksum: SHA256: a5c2e3d799f2835156e565a3de4fad33d32ed289cdc9e414dfaf75719fd12ef9
-FileChecksum: MD5: 68ae8cfc577a2c8c51bb51e9628e80b7
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: LicenseRef-MIT
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-Public-domain
-LicenseInfoInFile: LicenseRef-BSD-3-Clause-LBNL
-LicenseInfoInFile: LicenseRef-ATT
-LicenseInfoInFile: LicenseRef-BSD-3-Clause-HP
-LicenseInfoInFile: LicenseRef-dtoa
-LicenseInfoInFile: LicenseRef-bsd-new
-LicenseInfoInFile: LicenseRef-x11-lucent
-LicenseInfoInFile: LicenseRef-uoi-ncsa
-LicenseInfoInFile: LicenseRef-lbnl-bsd
-LicenseInfoInFile: LicenseRef-lucent-pl-1.02
-FileCopyrightText: <text> Copyright (c) 2014-2022, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
-Copyright (c) 2009-2017 Dave Gamble and cJSON contributors
-Copyright (c) 2005-2007 Russ Cox, Massachusetts Institute of Technology
-Copyright (c) 2003 by Lucent Technologies. 
-Copyright (c) 2001 Eric Jackson <ericj@monkey.org>
-Copyright (c) 1991, 1993 The Regents of the University of California. All rights reserved.
-Copyright (c) 1999,2000,2001,2002,2003 The Board of Trustees of the University of Illinois All Rights Reserved. </text>
 
 ##File
 
@@ -1757,38 +1785,36 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
 You are under no obligation whatsoever to provide any bug fixes, patches, or upgrades to the features, functionality or performance of the source code ("Enhancements") to anyone; however, if you choose to make your Enhancements available either publicly, or directly to Lawrence Berkeley National Laboratory, without imposing a separate written license agreement for such Enhancements, then you hereby grant the following license: a non-exclusive, royalty-free perpetual license to install, use, modify, prepare derivative works, incorporate into other computer software, distribute, and sublicense such Enhancements or derivative works thereof, in binary and source code form.
  </text>
 
+  
 
+LicenseID: LicenseRef-BSD-2-Clause-fc52c331df17bf332537612d674ffeda
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
 
-LicenseID: LicenseRef-BSD-2-Clause-NetBSD
-LicenseName: BSD 2-Clause NetBSD License
-ExtractedText: <text> Copyright (c) 2008 The NetBSD Foundation, Inc. All rights reserved.
-
-This code is derived from software contributed to The NetBSD Foundation by
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- </text>
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE. </text>
 
   
 
-LicenseID: LicenseRef-unknown-license-reference-e1bea6c63688d666243c79fedacb4dbe
-LicenseName: Unknown License file reference
-ExtractedText: <text> Based on timers.c by Jef Poskanzer. Used with permission. </text>
-
-  
-
-LicenseID: LicenseRef-uoi-ncsa-dd61d3e0fa1f04c7ef2e97751ac51c1e
+LicenseID: LicenseRef-NCSA-9456d89cc356995d88276ef663f76d46
 LicenseName: University of Illinois/NCSA Open Source License
-ExtractedText: <text> Copyright (c) 1999,2000,2001,2002,2003
-The Board of Trustees of the University of Illinois
-All Rights Reserved.
----------------------------------------------------------------
-Permission is hereby granted, free of charge, to any person
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software (Iperf) and associated
 documentation files (the "Software"), to deal in the Software
 without restriction, including without limitation the
@@ -1822,6 +1848,20 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+
+LicenseID: LicenseRef-BSD-2-Clause-NetBSD
+LicenseName: BSD 2-Clause NetBSD License
+ExtractedText: <text> This code is derived from software contributed to The NetBSD Foundation by
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
 
   
 
