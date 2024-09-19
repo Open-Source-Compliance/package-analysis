@@ -9,14 +9,38 @@ creationInfo:
     Please check "LicenseComments" for explanations of concluded licenses.
 
     '
-  created: '2024-09-17T11:13:08Z'
+  created: '2024-09-19T07:01:31Z'
   creators:
   - 'Tool: fossology-4.4.0'
   - 'Person: Sascha Dierberg'
   licenseListVersion: '3.22'
 dataLicense: CC0-1.0
-documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_dosfstools-4.2.tar.gz_1726571588.spdx
+documentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_dosfstools-4.2.tar.gz_1726729291.spdx
 files:
+- SPDXID: SPDXRef-item440950
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 8624bcdae55baeef00cd11d5dfcfa60f68710a02
+  - algorithm: SHA256
+    checksumValue: 8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
+  - algorithm: MD5
+    checksumValue: d32239bcb673463ab874e80d47fae504
+  copyrightText: ' Copyright (C) 2007 Free Software Foundation, Inc. '
+  fileName: dosfstools-4.2.tar.gz/dosfstools-4.2.tar/dosfstools-4.2/COPYING
+  licenseComments: ' The file contains the text of the GPL-3.0. The text of the license
+    is licensed under:
+
+
+    Everyone is permitted to copy and distribute verbatim copies
+
+    of this license document, but changing it is not allowed.
+
+
+    Thus we concluded License-of-GNU-Licenses as license of this file. '
+  licenseConcluded: LicenseRef-License-of-GNU-Licenses
+  licenseInfoInFiles:
+  - LicenseRef-GPL-3.0-only
+  - GPL-3.0-only
 - SPDXID: SPDXRef-item440914
   checksums:
   - algorithm: SHA1
@@ -161,30 +185,6 @@ files:
   - GPL-3.0-or-later
   - LicenseRef-Public-domain
   - LicenseRef-gpl-3.0-plus
-- SPDXID: SPDXRef-item440950
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 8624bcdae55baeef00cd11d5dfcfa60f68710a02
-  - algorithm: SHA256
-    checksumValue: 8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
-  - algorithm: MD5
-    checksumValue: d32239bcb673463ab874e80d47fae504
-  copyrightText: ' Copyright (C) 2007 Free Software Foundation, Inc. '
-  fileName: dosfstools-4.2.tar.gz/dosfstools-4.2.tar/dosfstools-4.2/COPYING
-  licenseComments: ' The file contains the text of the GPL-3.0. The text of the license
-    is licensed under:
-
-
-    Everyone is permitted to copy and distribute verbatim copies
-
-    of this license document, but changing it is not allowed.
-
-
-    Thus we concluded License-of-GNU-Licenses as license of this file. '
-  licenseConcluded: LicenseRef-License-of-GNU-Licenses
-  licenseInfoInFiles:
-  - LicenseRef-GPL-3.0-only
-  - GPL-3.0-only
 - SPDXID: SPDXRef-item440896
   checksums:
   - algorithm: SHA1
@@ -221,26 +221,6 @@ files:
   - LicenseRef-Autoconf-exception-generic-3.0
   - LicenseRef-gpl-2.0-plus
   - LicenseRef-autoconf-simple-exception-2.0
-- SPDXID: SPDXRef-item440908
-  checksums:
-  - algorithm: SHA1
-    checksumValue: 7b162866e9b9af9c953ba8df2bd5915ce348981f
-  - algorithm: SHA256
-    checksumValue: 2912131e0a9fa82189fa26d12d70dce3cb73fc3c935ed4a82d76c26db062e66f
-  - algorithm: MD5
-    checksumValue: 625934b496c765f8810238b6368c8875
-  copyrightText: NOASSERTION
-  fileName: dosfstools-4.2.tar.gz/dosfstools-4.2.tar/dosfstools-4.2/doc/README.dosfsck
-  licenseComments: ' The information in the file is:
-
-
-    WARNING: This is ALPHA test software. Use at your own risk.
-
-
-    Thus, we concluded warranty-disclaimer. '
-  licenseConcluded: LicenseRef-warranty-disclaimer-45f67d830b5b48e8d64e1114612be857
-  licenseInfoInFiles:
-  - LicenseRef-warranty-disclaimer
 - SPDXID: SPDXRef-item440928
   checksums:
   - algorithm: SHA1
@@ -1072,6 +1052,19 @@ files:
   licenseConcluded: NOASSERTION
   licenseInfoInFiles:
   - NOASSERTION
+- SPDXID: SPDXRef-item440908
+  checksums:
+  - algorithm: SHA1
+    checksumValue: 7b162866e9b9af9c953ba8df2bd5915ce348981f
+  - algorithm: SHA256
+    checksumValue: 2912131e0a9fa82189fa26d12d70dce3cb73fc3c935ed4a82d76c26db062e66f
+  - algorithm: MD5
+    checksumValue: 625934b496c765f8810238b6368c8875
+  copyrightText: NOASSERTION
+  fileName: dosfstools-4.2.tar.gz/dosfstools-4.2.tar/dosfstools-4.2/doc/README.dosfsck
+  licenseConcluded: NOASSERTION
+  licenseInfoInFiles:
+  - LicenseRef-warranty-disclaimer
 - SPDXID: SPDXRef-item440909
   checksums:
   - algorithm: SHA1
@@ -2257,6 +2250,11 @@ files:
   - GPL-3.0-or-later
   - LicenseRef-gpl-3.0-plus
 hasExtractedLicensingInfos:
+- extractedText: ' Everyone is permitted to copy and distribute verbatim copies
+
+    of this license document, but changing it is not allowed. '
+  licenseId: LicenseRef-License-of-GNU-Licenses
+  name: License-of-GNU-Licenses
 - extractedText: ' This file is free software; the Free Software Foundation gives
     unlimited permission to copy and/or distribute it, with or without modifications,
     as long as this notice is preserved. '
@@ -2776,11 +2774,6 @@ hasExtractedLicensingInfos:
     tium. '
   licenseId: LicenseRef-X11-5872543441a34866c9e94fa78f93667f
   name: X11 License
-- extractedText: ' Everyone is permitted to copy and distribute verbatim copies
-
-    of this license document, but changing it is not allowed. '
-  licenseId: LicenseRef-License-of-GNU-Licenses
-  name: License-of-GNU-Licenses
 - extractedText: '  This configure script is free software; the Free Software Foundation
     gives unlimited permission to copy, distribute and modify it.
 
@@ -3147,9 +3140,6 @@ hasExtractedLicensingInfos:
     of that program. '
   licenseId: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception-generic
   name: GNU General Public License v2.0 or later WITH Autoconf generic exception
-- extractedText: ' WARNING: This is ALPHA test software. Use at your own risk. '
-  licenseId: LicenseRef-warranty-disclaimer-45f67d830b5b48e8d64e1114612be857
-  name: Generic Bare Warranty Disclaimer
 - extractedText: " The license text of the GPL-3.0-or-later (the text of the exception\
     \ follows below):\nGNU GENERAL PUBLIC LICENSE\nVersion 3, 29 June 2007\n\nCopyright\
     \ \xA9 2007 Free Software Foundation, Inc. <https://fsf.org/>\n\nEveryone is permitted\
@@ -4836,7 +4826,7 @@ packages:
     .903df0)\n - monk (\"4.4.0\".903df0)\n - ojo (\"4.4.0\".903df0)\n - scancode (\"\
     4.4.0\".903df0) "
   licenseConcluded: NOASSERTION
-  licenseDeclared: LicenseRef-GPL-3.0-only
+  licenseDeclared: GPL-3.0-or-later
   licenseInfoFromFiles:
   - NOASSERTION
   name: dosfstools-4.2
@@ -4847,6 +4837,9 @@ relationships:
 - relatedSpdxElement: SPDXRef-upload93
   relationshipType: DESCRIBES
   spdxElementId: SPDXRef-DOCUMENT
+- relatedSpdxElement: SPDXRef-item440950
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload93
 - relatedSpdxElement: SPDXRef-item440914
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload93
@@ -4862,16 +4855,10 @@ relationships:
 - relatedSpdxElement: SPDXRef-item440916
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload93
-- relatedSpdxElement: SPDXRef-item440950
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload93
 - relatedSpdxElement: SPDXRef-item440896
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload93
 - relatedSpdxElement: SPDXRef-item440912
-  relationshipType: CONTAINS
-  spdxElementId: SPDXRef-upload93
-- relatedSpdxElement: SPDXRef-item440908
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload93
 - relatedSpdxElement: SPDXRef-item440928
@@ -5025,6 +5012,9 @@ relationships:
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload93
 - relatedSpdxElement: SPDXRef-item440907
+  relationshipType: CONTAINS
+  spdxElementId: SPDXRef-upload93
+- relatedSpdxElement: SPDXRef-item440908
   relationshipType: CONTAINS
   spdxElementId: SPDXRef-upload93
 - relatedSpdxElement: SPDXRef-item440909

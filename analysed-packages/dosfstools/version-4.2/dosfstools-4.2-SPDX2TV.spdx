@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_dosfstools-4.2.tar.gz_1726571588.spdx
+DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_dosfstools-4.2.tar.gz_1726729291.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of dosfstools 4.2.
 Please check "LicenseComments" for explanations of concluded licenses.
 </text>
-Created: 2024-09-17T11:13:08Z
+Created: 2024-09-19T07:01:31Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -38,7 +38,7 @@ PackageChecksum: SHA1: 14efc68c64987a9067b6a919ad2870007247686b
 PackageChecksum: SHA256: 64926eebf90092dca21b14259a5301b7b98e7b1943e8a201c7d726084809b527
 PackageChecksum: MD5: 49c8e457327dc61efab5b115a27b087a
 PackageLicenseConcluded: NOASSERTION
-PackageLicenseDeclared: LicenseRef-GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-GPL-3.0-or-later
 PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
  - nomos ("4.4.0".903df0)
  - monk ("4.4.0".903df0)
@@ -53,6 +53,24 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload93
 ##--------------------------
 ## File Information
 ##--------------------------
+
+##File
+
+FileName: dosfstools-4.2.tar.gz/dosfstools-4.2.tar/dosfstools-4.2/COPYING
+SPDXID: SPDXRef-item440950
+FileChecksum: SHA1: 8624bcdae55baeef00cd11d5dfcfa60f68710a02
+FileChecksum: SHA256: 8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
+FileChecksum: MD5: d32239bcb673463ab874e80d47fae504
+LicenseConcluded: LicenseRef-License-of-GNU-Licenses
+LicenseComments: <text> The file contains the text of the GPL-3.0. The text of the license is licensed under:
+
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
+Thus we concluded License-of-GNU-Licenses as license of this file. </text>
+LicenseInfoInFile: LicenseRef-GPL-3.0-only
+LicenseInfoInFile: LicenseRef-GPL-3.0
+FileCopyrightText: <text> Copyright (C) 2007 Free Software Foundation, Inc. </text>
 
 ##File
 
@@ -167,24 +185,6 @@ Copyright (C) 2018 Pali Rohár <pali.rohar@gmail.com> </text>
 
 ##File
 
-FileName: dosfstools-4.2.tar.gz/dosfstools-4.2.tar/dosfstools-4.2/COPYING
-SPDXID: SPDXRef-item440950
-FileChecksum: SHA1: 8624bcdae55baeef00cd11d5dfcfa60f68710a02
-FileChecksum: SHA256: 8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903
-FileChecksum: MD5: d32239bcb673463ab874e80d47fae504
-LicenseConcluded: LicenseRef-License-of-GNU-Licenses
-LicenseComments: <text> The file contains the text of the GPL-3.0. The text of the license is licensed under:
-
-Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed.
-
-Thus we concluded License-of-GNU-Licenses as license of this file. </text>
-LicenseInfoInFile: LicenseRef-GPL-3.0-only
-LicenseInfoInFile: LicenseRef-GPL-3.0
-FileCopyrightText: <text> Copyright (C) 2007 Free Software Foundation, Inc. </text>
-
-##File
-
 FileName: dosfstools-4.2.tar.gz/dosfstools-4.2.tar/dosfstools-4.2/configure
 SPDXID: SPDXRef-item440896
 FileChecksum: SHA1: c3a7785644a01ec67f74ddb282740df45fbabfcf
@@ -211,22 +211,6 @@ LicenseInfoInFile: LicenseRef-Autoconf-exception-generic-3.0
 LicenseInfoInFile: LicenseRef-gpl-2.0-plus
 LicenseInfoInFile: LicenseRef-autoconf-simple-exception-2.0
 FileCopyrightText: <text> Copyright (C) 1999-2018 Free Software Foundation, Inc. Written by Tom Tromey <tromey@cygnus.com>. </text>
-
-##File
-
-FileName: dosfstools-4.2.tar.gz/dosfstools-4.2.tar/dosfstools-4.2/doc/README.dosfsck
-SPDXID: SPDXRef-item440908
-FileChecksum: SHA1: 7b162866e9b9af9c953ba8df2bd5915ce348981f
-FileChecksum: SHA256: 2912131e0a9fa82189fa26d12d70dce3cb73fc3c935ed4a82d76c26db062e66f
-FileChecksum: MD5: 625934b496c765f8810238b6368c8875
-LicenseConcluded: LicenseRef-warranty-disclaimer-45f67d830b5b48e8d64e1114612be857
-LicenseComments: <text> The information in the file is:
-
-WARNING: This is ALPHA test software. Use at your own risk.
-
-Thus, we concluded warranty-disclaimer. </text>
-LicenseInfoInFile: LicenseRef-warranty-disclaimer
-FileCopyrightText: NOASSERTION
 
 ##File
 
@@ -924,6 +908,17 @@ FileChecksum: SHA256: b5373b2c7df31759ea4bae1c0f0713a6c3dee4d373a7842d6ae38097bc
 FileChecksum: MD5: c71b4390b16aacaef735df225847f541
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: dosfstools-4.2.tar.gz/dosfstools-4.2.tar/dosfstools-4.2/doc/README.dosfsck
+SPDXID: SPDXRef-item440908
+FileChecksum: SHA1: 7b162866e9b9af9c953ba8df2bd5915ce348981f
+FileChecksum: SHA256: 2912131e0a9fa82189fa26d12d70dce3cb73fc3c935ed4a82d76c26db062e66f
+FileChecksum: MD5: 625934b496c765f8810238b6368c8875
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-warranty-disclaimer
 FileCopyrightText: NOASSERTION
 
 ##File
@@ -1936,6 +1931,13 @@ FileCopyrightText: NOASSERTION
 
 
   
+LicenseID: LicenseRef-License-of-GNU-Licenses
+LicenseName: License-of-GNU-Licenses
+ExtractedText: <text> Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed. </text>
+
+
+  
 LicenseID: LicenseRef-FSFULLR
 LicenseName: FSF Unlimited License (with License Retention)
 ExtractedText: <text> This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved. </text>
@@ -2253,13 +2255,6 @@ be used in advertising or otherwise to promote the sale, use or other deal-
 ings in this Software without prior written authorization from the X Consor-
 tium. </text>
 
-
-  
-LicenseID: LicenseRef-License-of-GNU-Licenses
-LicenseName: License-of-GNU-Licenses
-ExtractedText: <text> Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed. </text>
-
   
 
 LicenseID: LicenseRef-FSFUL-98b8c57e8dae68bce1ba5bc67de59a13
@@ -2379,12 +2374,6 @@ This General Public License does not permit incorporating your program into prop
 
 License text of the Autoconf-exception-generic as an exception to the GPL-2.0-or-later:
 As a special exception to the GNU General Public License, if you distribute this file as part of a program that contains a configuration script generated by Autoconf, you may include it under the same distribution terms that you use for the rest of that program. </text>
-
-  
-
-LicenseID: LicenseRef-warranty-disclaimer-45f67d830b5b48e8d64e1114612be857
-LicenseName: Generic Bare Warranty Disclaimer
-ExtractedText: <text> WARNING: This is ALPHA test software. Use at your own risk. </text>
 
 
 
