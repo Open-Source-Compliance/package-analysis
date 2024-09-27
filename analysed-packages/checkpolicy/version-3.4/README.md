@@ -4,7 +4,7 @@ https://github.com/SELinuxProject/selinux/archive/refs/tags/checkpolicy-3.4.tar.
 
 ## Package URL (purl)
 
-pkg:github/SELinuxProject/checkpolicy@3.4
+pkg:github/selinuxproject/selinux@checkpolicy-3.4
 
 ## Creator
 
