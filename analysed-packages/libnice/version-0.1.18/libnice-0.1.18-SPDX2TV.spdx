@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_libnice-0.1.18.tar.gz_1717138695.spdx
+DocumentNamespace: http://fossology-6674c79fbf-2qzn2/repo/SPDX2TV_libnice-0.1.18.tar.gz_1729070881.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of libnice 0.1.18.
 Please check "LicenseComments" for explanations of concluded licenses.
 </text>
-Created: 2024-05-31T06:58:16Z
+Created: 2024-10-16T09:28:03Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -28,7 +28,7 @@ LicenseListVersion: 3.22
 ##-------------------------
 
 
-PackageName: libnice-0.1.18.tar.gz
+PackageName: libnice-0.1.18
 PackageFileName: libnice-0.1.18.tar.gz
 SPDXID: SPDXRef-upload97
 PackageDownloadLocation: NOASSERTION
@@ -45,7 +45,16 @@ PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
  - ojo ("4.4.0".903df0)
  - scancode ("4.4.0".903df0) </text>
 PackageLicenseInfoFromFiles: NOASSERTION
-PackageCopyrightText: NOASSERTION
+PackageCopyrightText: <text>
+
+The content of the AUTHORS file:
+
+Dafydd Harries <dafydd.harries@collabora.co.uk>
+Rémi Denis-Courmont <remi.denis-courmont@nokia.com>
+Kai Vehmanen <kai.vehmanen@nokia.com>
+Youness Alaoui <youness.alaoui@collabora.co.uk>
+</text>
+
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload97
 
@@ -53,6 +62,61 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload97
 ##--------------------------
 ## File Information
 ##--------------------------
+
+##File
+
+FileName: libnice-0.1.18.tar.gz/libnice-0.1.18.tar/libnice-0.1.18/stun/stuncrc32.c
+SPDXID: SPDXRef-item441557
+FileChecksum: SHA1: c7454d80a0aeae1341378347f50af8bca87a8cb5
+FileChecksum: SHA256: 1b593f617b6875b151d000f069e01c72174ef3b94fdd19cc9ef497b1107ffda5
+FileChecksum: MD5: 6cfba1065978da15970f06fa695db28e
+LicenseConcluded: ( LicenseRef-LGPL-2.1-only OR LicenseRef-MPL-1.1 ) AND LicenseRef-Public-domain
+LicenseComments: <text> Additionally to the MPL-1.1 boilerplate there is the following information in the file:
+
+Alternatively, the contents of this file may be used under the terms of the the GNU Lesser General Public License Version 2.1 (the "LGPL"), in which case the provisions of LGPL are applicable instead of those above.
+
+Thus we concluded additionally MPL-1.1 OR  LGPL-2.1-only.
+The information in the file is:
+
+You may use this program, or code or tables extracted from it, as desired without restriction.
+
+Thus, we concluded Public-domain. </text>
+LicenseInfoInFile: LicenseRef-MPL-1.1
+LicenseInfoInFile: LicenseRef-LGPL-2.1-only
+LicenseInfoInFile: LicenseRef-Dual-license
+LicenseInfoInFile: LicenseRef-gpl-2.0-plus
+LicenseInfoInFile: LicenseRef-lgpl-2.0-plus
+LicenseInfoInFile: LicenseRef-gary-s-brown
+FileCopyrightText: <text> (C) 2008-2009 Collabora Ltd. Contact: Youness Alaoui
+(C) 2007-2009 Nokia Corporation. All rights reserved.
+COPYRIGHT (C) 1986 Gary S. Brown 
+COPYRIGHT (C) 1986 Gary S. Brown </text>
+FileAttributionText: <text> To the extent that files may be licensed under either MPL-1.1 or LGPL-2.1-only, in this context, LGPL-2.1-only has been chosen. This choice shall not restrict the freedom of other users to select either MPL-1.1 or LGPL-2.1-only licenses. For convenience, all license texts are provided. </text>
+
+##File
+
+FileName: libnice-0.1.18.tar.gz/libnice-0.1.18.tar/libnice-0.1.18/agent/pseudotcp.c
+SPDXID: SPDXRef-item441608
+FileChecksum: SHA1: 67f9cd31742ef0b5dfc06015e02c9da3608f4561
+FileChecksum: SHA256: f11e3915a2802f207712419d726ec30ae42e8f0f0bd2dbb1bba4dccd80e455a4
+FileChecksum: MD5: b2aa2fd278384b57d78e7b9eb8d44542
+LicenseConcluded: LicenseRef-BSD-3-Clause-a511b553f70bceb1b09750830b42cf0b AND ( LicenseRef-LGPL-2.1-only OR LicenseRef-MPL-1.1 )
+LicenseComments: <text> Additionally to the MPL-1.1 boilerplate there is the following information in the file:
+
+Alternatively, the contents of this file may be used under the terms of the the GNU Lesser General Public License Version 2.1 (the "LGPL"), in which case the provisions of LGPL are applicable instead of those above.
+
+Thus we concluded additionally MPL-1.1 OR  LGPL-2.1-only. </text>
+LicenseInfoInFile: LicenseRef-MPL-1.1
+LicenseInfoInFile: LicenseRef-LGPL-2.1-only
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Dual-license
+LicenseInfoInFile: LicenseRef-BSD-3-Clause-HP
+LicenseInfoInFile: LicenseRef-gpl-2.0-plus
+LicenseInfoInFile: LicenseRef-bsd-new
+LicenseInfoInFile: LicenseRef-lgpl-2.0-plus
+FileCopyrightText: <text> (C) 2010, 2014 Collabora Ltd. Contact: Philip Withnall
+Copyright 2004--2005, Google Inc. </text>
+FileAttributionText: <text> To the extent that files may be licensed under either MPL-1.1 or LGPL-2.1-only, in this context, LGPL-2.1-only has been chosen. This choice shall not restrict the freedom of other users to select either MPL-1.1 or LGPL-2.1-only licenses. For convenience, all license texts are provided. </text>
 
 ##File
 
@@ -334,31 +398,6 @@ LicenseInfoInFile: LicenseRef-lgpl-2.0-plus
 FileCopyrightText: <text> Copyright (C) 2006 Youness Alaoui <kakaroto@kakaroto.homelinux.net>
 Copyright (C) 2007 Collabora, Nokia Contact: Youness Alaoui
 Copyright (C) 2008 Haakon Sporsheim <haakon.sporsheim@tandberg.com> </text>
-FileAttributionText: <text> To the extent that files may be licensed under either MPL-1.1 or LGPL-2.1-only, in this context, LGPL-2.1-only has been chosen. This choice shall not restrict the freedom of other users to select either MPL-1.1 or LGPL-2.1-only licenses. For convenience, all license texts are provided. </text>
-
-##File
-
-FileName: libnice-0.1.18.tar.gz/libnice-0.1.18.tar/libnice-0.1.18/agent/pseudotcp.c
-SPDXID: SPDXRef-item441608
-FileChecksum: SHA1: 67f9cd31742ef0b5dfc06015e02c9da3608f4561
-FileChecksum: SHA256: f11e3915a2802f207712419d726ec30ae42e8f0f0bd2dbb1bba4dccd80e455a4
-FileChecksum: MD5: b2aa2fd278384b57d78e7b9eb8d44542
-LicenseConcluded: LicenseRef-BSD-3-Clause-372c7b6fc752e0e6621c79d00f3a3499 AND ( LicenseRef-LGPL-2.1-only OR LicenseRef-MPL-1.1 )
-LicenseComments: <text> Additionally to the MPL-1.1 boilerplate there is the following information in the file:
-
-Alternatively, the contents of this file may be used under the terms of the the GNU Lesser General Public License Version 2.1 (the "LGPL"), in which case the provisions of LGPL are applicable instead of those above.
-
-Thus we concluded additionally MPL-1.1 OR  LGPL-2.1-only. </text>
-LicenseInfoInFile: LicenseRef-MPL-1.1
-LicenseInfoInFile: LicenseRef-LGPL-2.1-only
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-Dual-license
-LicenseInfoInFile: LicenseRef-BSD-3-Clause-HP
-LicenseInfoInFile: LicenseRef-gpl-2.0-plus
-LicenseInfoInFile: LicenseRef-bsd-new
-LicenseInfoInFile: LicenseRef-lgpl-2.0-plus
-FileCopyrightText: <text> (C) 2010, 2014 Collabora Ltd. Contact: Philip Withnall
-Copyright 2004--2005, Google Inc. </text>
 FileAttributionText: <text> To the extent that files may be licensed under either MPL-1.1 or LGPL-2.1-only, in this context, LGPL-2.1-only has been chosen. This choice shall not restrict the freedom of other users to select either MPL-1.1 or LGPL-2.1-only licenses. For convenience, all license texts are provided. </text>
 
 ##File
@@ -1119,31 +1158,6 @@ LicenseInfoInFile: LicenseRef-gpl-2.0-plus
 LicenseInfoInFile: LicenseRef-lgpl-2.0-plus
 FileCopyrightText: <text> (C) 2008-2009 Collabora Ltd. Contact: Youness Alaoui
 (C) 2007-2009 Nokia Corporation. All rights reserved. </text>
-FileAttributionText: <text> To the extent that files may be licensed under either MPL-1.1 or LGPL-2.1-only, in this context, LGPL-2.1-only has been chosen. This choice shall not restrict the freedom of other users to select either MPL-1.1 or LGPL-2.1-only licenses. For convenience, all license texts are provided. </text>
-
-##File
-
-FileName: libnice-0.1.18.tar.gz/libnice-0.1.18.tar/libnice-0.1.18/stun/stuncrc32.c
-SPDXID: SPDXRef-item441557
-FileChecksum: SHA1: c7454d80a0aeae1341378347f50af8bca87a8cb5
-FileChecksum: SHA256: 1b593f617b6875b151d000f069e01c72174ef3b94fdd19cc9ef497b1107ffda5
-FileChecksum: MD5: 6cfba1065978da15970f06fa695db28e
-LicenseConcluded: LicenseRef-gary-s-brown-b50ea8522477a699eb01db25c3ab5641 AND ( LicenseRef-LGPL-2.1-only OR LicenseRef-MPL-1.1 )
-LicenseComments: <text> Additionally to the MPL-1.1 boilerplate there is the following information in the file:
-
-Alternatively, the contents of this file may be used under the terms of the the GNU Lesser General Public License Version 2.1 (the "LGPL"), in which case the provisions of LGPL are applicable instead of those above.
-
-Thus we concluded additionally MPL-1.1 OR  LGPL-2.1-only. </text>
-LicenseInfoInFile: LicenseRef-MPL-1.1
-LicenseInfoInFile: LicenseRef-LGPL-2.1-only
-LicenseInfoInFile: LicenseRef-Dual-license
-LicenseInfoInFile: LicenseRef-gpl-2.0-plus
-LicenseInfoInFile: LicenseRef-lgpl-2.0-plus
-LicenseInfoInFile: LicenseRef-gary-s-brown
-FileCopyrightText: <text> (C) 2008-2009 Collabora Ltd. Contact: Youness Alaoui
-(C) 2007-2009 Nokia Corporation. All rights reserved.
-COPYRIGHT (C) 1986 Gary S. Brown 
-COPYRIGHT (C) 1986 Gary S. Brown. </text>
 FileAttributionText: <text> To the extent that files may be licensed under either MPL-1.1 or LGPL-2.1-only, in this context, LGPL-2.1-only has been chosen. This choice shall not restrict the freedom of other users to select either MPL-1.1 or LGPL-2.1-only licenses. For convenience, all license texts are provided. </text>
 
 ##File
@@ -2907,8 +2921,7 @@ LicenseConcluded: LicenseRef-License-of-GNU-Licenses-c9e2a178bf951bac93dbe34930f
 LicenseInfoInFile: LicenseRef-LGPL-2.1-or-later
 LicenseInfoInFile: LicenseRef-LGPL-2.1-only
 LicenseInfoInFile: LicenseRef-LGPL-2.1
-FileCopyrightText: <text> Copyright (C) 1991, 1999 Free Software Foundation, Inc.
-Copyright (C) 1991, 1999 Free Software Foundation, Inc. </text>
+FileCopyrightText: <text> Copyright (C) 1991, 1999 Free Software Foundation, Inc. </text>
 
 ##File
 
@@ -2919,7 +2932,10 @@ FileChecksum: SHA256: d72eb6fa9d5e93abb11d13b6c6f04fda2ba183d0705e703887cda243f6
 FileChecksum: MD5: 00c6022612e6a490f7cea902510cae9d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
+FileCopyrightText: <text> Dafydd Harries <dafydd.harries@collabora.co.uk>
+Rémi Denis-Courmont <remi.denis-courmont@nokia.com>
+Kai Vehmanen <kai.vehmanen@nokia.com>
+Youness Alaoui <youness.alaoui@collabora.co.uk> </text>
 
 ##File
 
@@ -3675,11 +3691,18 @@ LicenseID: LicenseRef-Dual-license-b2ec556fd071b73f18189e0817ec6df7
 LicenseName: Dual-license
 ExtractedText: <text> License: MPL-1.1 OR LGPL-2.1-only </text>
 
+
+
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
+
   
 
-LicenseID: LicenseRef-BSD-3-Clause-372c7b6fc752e0e6621c79d00f3a3499
+LicenseID: LicenseRef-BSD-3-Clause-a511b553f70bceb1b09750830b42cf0b
 LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+ExtractedText: <text>
+Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright notice,
@@ -3712,13 +3735,6 @@ This code is distributed in the hope that it will be useful but
 WITHOUT ANY WARRANTY. ALL WARRANTIES, EXPRESS OR IMPLIED ARE HEREBY
 DISCLAIMED. This includes but is not limited to warranties of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. </text>
-
-  
-
-LicenseID: LicenseRef-gary-s-brown-b50ea8522477a699eb01db25c3ab5641
-LicenseName: Gary S. Brown License
-ExtractedText: <text> You may use this program, or
-code or tables extracted from it, as desired without restriction. </text>
 
 
   
@@ -4612,9 +4628,7 @@ ExtractedText: <text> License by Scancode. </text>
   
 LicenseID: LicenseRef-BSD-3-Clause
 LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> Copyright (c) <year> <owner>.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
