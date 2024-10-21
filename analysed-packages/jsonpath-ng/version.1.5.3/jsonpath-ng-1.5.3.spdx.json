@@ -1,0 +1,821 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "comment" : "This document was created using license information and a generator from Fossology.\nIt contains the license and copyright analysis of jsonpath-ng 1.5.3\nPlease check \"LicenseComments\" for explanations of concluded licenses",
+    "created" : "2024-10-21T14:37:07Z",
+    "creators" : [ "Tool: fossology-4.4.0.51", "Person: Kanzlei Jun on behalf of AUDI AG" ],
+    "licenseListVersion" : "3.22"
+  },
+  "name" : "/srv/fossology/repository/report",
+  "dataLicense" : "CC0-1.0",
+  "hasExtractedLicensingInfos" : [ {
+    "licenseId" : "LicenseRef-Apache-2.0",
+    "extractedText" : "Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"{}\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright {yyyy} {name of copyright owner}\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       https://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\nlimitations under the License.",
+    "name" : "Apache License 2.0"
+  }, {
+    "licenseId" : "LicenseRef-CC0-1.0",
+    "extractedText" : "Creative Commons Legal Code\n\nCC0 1.0 Universal\n\n    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE\n    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN\n    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS\n    INFORMATION ON AN \"AS-IS\" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES\n    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS\n    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM\n    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED\n    HEREUNDER.\n\nStatement of Purpose\n\nThe laws of most jurisdictions throughout the world automatically confer\nexclusive Copyright and Related Rights (defined below) upon the creator\nand subsequent owner(s) (each and all, an \"owner\") of an original work of\nauthorship and/or a database (each, a \"Work\").\n\nCertain owners wish to permanently relinquish those rights to a Work for\nthe purpose of contributing to a commons of creative, cultural and\nscientific works (\"Commons\") that the public can reliably and without fear\nof later claims of infringement build upon, modify, incorporate in other\nworks, reuse and redistribute as freely as possible in any form whatsoever\nand for any purposes, including without limitation commercial purposes.\nThese owners may contribute to the Commons to promote the ideal of a free\nculture and the further production of creative, cultural and scientific\nworks, or to gain reputation or greater distribution for their Work in\npart through the use and efforts of others.\n\nFor these and/or other purposes and motivations, and without any\nexpectation of additional consideration or compensation, the person\nassociating CC0 with a Work (the \"Affirmer\"), to the extent that he or she\nis an owner of Copyright and Related Rights in the Work, voluntarily\nelects to apply CC0 to the Work and publicly distribute the Work under its\nterms, with knowledge of his or her Copyright and Related Rights in the\nWork and the meaning and intended legal effect of CC0 on those rights.\n\n1. Copyright and Related Rights. A Work made available under CC0 may be\nprotected by copyright and related or neighboring rights (\"Copyright and\nRelated Rights\"). Copyright and Related Rights include, but are not\nlimited to, the following:\n\n  i. the right to reproduce, adapt, distribute, perform, display,\n     communicate, and translate a Work;\n ii. moral rights retained by the original author(s) and/or performer(s);\niii. publicity and privacy rights pertaining to a person's image or\n     likeness depicted in a Work;\n iv. rights protecting against unfair competition in regards to a Work,\n     subject to the limitations in paragraph 4(a), below;\n  v. rights protecting the extraction, dissemination, use and reuse of data\n     in a Work;\n vi. database rights (such as those arising under Directive 96/9/EC of the\n     European Parliament and of the Council of 11 March 1996 on the legal\n     protection of databases, and under any national implementation\n     thereof, including any amended or successor version of such\n     directive); and\nvii. other similar, equivalent or corresponding rights throughout the\n     world based on applicable law or treaty, and any national\n     implementations thereof.\n\n2. Waiver. To the greatest extent permitted by, but not in contravention\nof, applicable law, Affirmer hereby overtly, fully, permanently,\nirrevocably and unconditionally waives, abandons, and surrenders all of\nAffirmer's Copyright and Related Rights and associated claims and causes\nof action, whether now known or unknown (including existing as well as\nfuture claims and causes of action), in the Work (i) in all territories\nworldwide, (ii) for the maximum duration provided by applicable law or\ntreaty (including future time extensions), (iii) in any current or future\nmedium and for any number of copies, and (iv) for any purpose whatsoever,\nincluding without limitation commercial, advertising or promotional\npurposes (the \"Waiver\"). Affirmer makes the Waiver for the benefit of each\nmember of the public at large and to the detriment of Affirmer's heirs and\nsuccessors, fully intending that such Waiver shall not be subject to\nrevocation, rescission, cancellation, termination, or any other legal or\nequitable action to disrupt the quiet enjoyment of the Work by the public\nas contemplated by Affirmer's express Statement of Purpose.\n\n3. Public License Fallback. Should any part of the Waiver for any reason\nbe judged legally invalid or ineffective under applicable law, then the\nWaiver shall be preserved to the maximum extent permitted taking into\naccount Affirmer's express Statement of Purpose. In addition, to the\nextent the Waiver is so judged Affirmer hereby grants to each affected\nperson a royalty-free, non transferable, non sublicensable, non exclusive,\nirrevocable and unconditional license to exercise Affirmer's Copyright and\nRelated Rights in the Work (i) in all territories worldwide, (ii) for the\nmaximum duration provided by applicable law or treaty (including future\ntime extensions), (iii) in any current or future medium and for any number\nof copies, and (iv) for any purpose whatsoever, including without\nlimitation commercial, advertising or promotional purposes (the\n\"License\"). The License shall be deemed effective as of the date CC0 was\napplied by Affirmer to the Work. Should any part of the License for any\nreason be judged legally invalid or ineffective under applicable law, such\npartial invalidity or ineffectiveness shall not invalidate the remainder\nof the License, and in such case Affirmer hereby affirms that he or she\nwill not (i) exercise any of his or her remaining Copyright and Related\nRights in the Work or (ii) assert any associated claims and causes of\naction with respect to the Work, in either case contrary to Affirmer's\nexpress Statement of Purpose.\n\n4. Limitations and Disclaimers.\n\n a. No trademark or patent rights held by Affirmer are waived, abandoned,\n    surrendered, licensed or otherwise affected by this document.\n b. Affirmer offers the Work as-is and makes no representations or\n    warranties of any kind concerning the Work, express, implied,\n    statutory or otherwise, including without limitation warranties of\n    title, merchantability, fitness for a particular purpose, non\n    infringement, or the absence of latent or other defects, accuracy, or\n    the present or absence of errors, whether or not discoverable, all to\n    the greatest extent permissible under applicable law.\n c. Affirmer disclaims responsibility for clearing rights of other persons\n    that may apply to the Work or any use thereof, including without\n    limitation any person's Copyright and Related Rights in the Work.\n    Further, Affirmer disclaims responsibility for obtaining any necessary\n    consents, permissions or other rights required for any use of the\n    Work.\n d. Affirmer understands and acknowledges that Creative Commons is not a\n    party to this document and has no duty or obligation with respect to\n    this CC0 or use of the Work.",
+    "name" : "Creative Commons Zero v1.0 Universal"
+  }, {
+    "licenseId" : "LicenseRef-No_license_found",
+    "extractedText" : "Not find any license in the scanned file",
+    "name" : "No_license_found"
+  }, {
+    "licenseId" : "LicenseRef-WTFPL",
+    "extractedText" : "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\nVersion 2, December 2004\n\nCopyright (C) 2004 Sam Hocevar <sam@hocevar.net>\n\nEveryone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed.\n\nDO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n  0. You just DO WHAT THE FUCK YOU WANT TO.",
+    "name" : "Do What The F*ck You Want To Public License"
+  } ],
+  "documentNamespace" : "http://fossy.osadl.org/repo/SPDX2TV_jsonpath-ng-1.5.3.tar.gz_1729521426.spdx",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-upload2202",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "382b1a2fe2960261b0fb00d576036795"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e7d603d56f785c9cf9c2d9f585b14e1f48c29ef6"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b773568cc7528906fae36cdea93e42da4a239d64122affc02eb953563bfd2b6f"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "https://github.com/h2non/jsonpath-ng/archive/refs/tags/1.5.3.tar.gz",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:github/h2non/jsonpath-ng@1.5.3",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : true,
+    "licenseComments" : "licenseInfoInFile determined by Scanners:\n - nomos (\"4.4.0.51\".1e52cb)\n - monk (\"4.4.0.51\".1e52cb)\n - ojo (\"4.4.0.51\".1e52cb)\n- scancode (\"4.4.0.51\".1e52cb)",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "LicenseRef-Apache-2.0",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "jsonpath-ng-1.5.3.tar.gz",
+    "packageFileName" : "jsonpath-ng-1.5.3.tar.gz",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "da09a1b43b63e22cdcb88b1907e42c2a0f1ab938"
+    }
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-item9593153",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "1221aad1427cd9952d8da7f721cb9791"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a31fba2956ecb3000d1d39126e59d65d61e9a8a8"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "70f758775842a758cd9e990349568ff561abae41d67555d5a27b811d51c1f986"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/requirements-dev.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593146",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "f1aee6bd8c77ad19052c9c4179eb41b7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e7e2db1f99e9440040925837bbdc8ac97e475548"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2827ba2a0892ce104a37d6fd5917bc24be732fb0d51260119237f5bd90f56ef7"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/filter.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593131",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5fdd64bb995656b85b17cf3fc638295d32d06fc9726a1deaaf4276b7f9f95857"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "5dc9b4cbb234436a5a286478b7137ddc"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "73233b3fe3c62522269efecd2f6b53193240bc24"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/.travis.yml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593145",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "edf4a1c7e01d3621f569390b3302e58a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7b898b68d5890edcf1383d5756a36954e4e0923d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b5cdf5b3247b72d27e2cd1ac9673bf2f8f94cafc2032bed5a04425ff5e36006b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/string.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593151",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "5c498378def5af2fad12819e1892dee8"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "678ae4dbe374b329598bdc5275149e6c8116ac4e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1bbd76e0ec78c2b9422ae2bd3430e5b82aa2f7df6f5a3fcdd1ab4526b9bb227b"
+    } ],
+    "copyrightText" : "Copyright 2013 - Kenneth Knowles\nCopyright 2017 - Tomas Aparicio",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/README.rst",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593143",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d41d8cd98f00b204e9800998ecf8427e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/bin/__init__.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593150",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "4294f15602259ab6870c4ed87b3dab89"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9a40229f267fb9fa390ca33d79567a60c7e8c4d9"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "154a7790fbd2878c774284d9ee328372c70c5612ac30860993056c9bd052bf20"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/iterable.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593168",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c60a05b942fe9e3e3a363ce40b20dd5fabb920ad"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "3801412a198c221f3ec648270950f3a78df0fb547a910af2d5bb14f56b0b99ed"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c4f6f1fd16f1928e74096dea2e46f982"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/History.md",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593167",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "39eebf3d1c07bb3c2a8d9580eaac8068780c8065210299ead010b863c6bfbef7"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "159e43282c9c2ed39152058133b38e30"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "96eee8aff61e5871c8ddd370ae572892e14b7bec"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_jsonpath.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593140",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "911825a6c118cd879e916d0b14d25de0ed6f78cd"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d237f83be49fc0740c5edc3195e4594529d114f3677b13e825ce940e3524e984"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d186331652f7fb564e8aeff78bea9b72"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/__init__.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593130",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "6d1f5f0554aa792e5c5852f33468ff5d139ed28f6e7d777399330c9b1e937877"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c67920f4c0b72f37a9ce464bff5350db"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "65bc9a81d86d750789ba4f8e40ddbaffd4ff2443"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/NOTICE",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593170",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4bf9db1a98edb88b0d407b356b8f95d2ce353426"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2a758ff8d2b7598fbb4db86d52e971ca1a111ff346487e31b67f5a9e8dcbc081"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "50780e8f8e0f2df02cede69c74a85c7b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/.gitignore",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593161",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "36b3a915c26b902b4dd60f5ec2f2d3e8"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ae14436e8c614b4dd297d3ad804981c7253634ae"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a71b66b84f3095b0a1a3d367378a28313c5e7d7d00eb23b1a1a67aad6a1d7a13"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_jsonpath_rw_ext.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593152",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5e87d30569d33f2abcf1a723d85da9411b1ab287c21912bb217a66754346ab64"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "66cf2b2a8babf782449ebfc481714e9c3a104498"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "352f7532788571a4efcc5a54d051c67b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/requirements.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593163",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "e5860e0c8fb04951051ad17d6ef72e0a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "667009263786d593f19fca340da7ab1d1fb7e741"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "76f49b803f9f8ba4671f6ed63639c3e2af760ca8c3480e85e8e02fefe0cfc425"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/bin/test2.json",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593160",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d41d8cd98f00b204e9800998ecf8427e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/__init__.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593164",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6bb5fc9729a5ad32e6b344a9f4c275e928882db6"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e4ad138ee8e8de026f830a1f04d461ea3c610f6a72053a79742af87c9c870e9d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "18a21b880bc0d0f1acfa976e4e85e892"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/bin/__init__.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593142",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "cd86476d56e453daad18d7e01127f32cbceea1cd"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a2a31fe3289d305f56a000b6da4a3787c2bcfa38646ab3fcc29a79d832a65a67"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3d20c767bb87803701e1a9eb31b34820"
+    } ],
+    "copyrightText" : "Copyright © 2012 Felix Richter <wtfpl@syntax-fehler.de>.",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/bin/jsonpath.py",
+    "licenseConcluded" : "LicenseRef-WTFPL",
+    "licenseInfoInFiles" : [ "LicenseRef-WTFPL" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593169",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "dcb613e3f81b4c37ab777e4cd981ad8108186a1a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c966b61fefc467b4ffd46e7e93e0bf21"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "cd7215ce2275a0c286b8917c8d6064f6422362ed1d064a15a025a8e26f5f5dda"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/.coveragerc",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593147",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ef96328522e987e40a3b2352b211a801a9759c2c0705c55b3642b6d5614086f1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "63ee07cdb908df9c5d5c2895d465f3f7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "fadbdce3f9865f9fff68880fa3a1d698a421a6c6"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/parser.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593159",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "bea587cc36b5b64aef64d467a3e45639746c5c2e29cfb106ee5fe79cd7ed0f56"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c1beeddd12f4b5dfd28b115c48ea980e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c80d5ef11f7d6a2612a646ca44cde36e3021d041"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_lexer.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593129",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "3b83ef96387f14655fc854ddc3c6bd57"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2b8b815229aa8a61e483fb4ba0588b8b6c491890"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/LICENSE",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593148",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "03e9f991193d136b4bb4dc6dd96d769c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f9daa7540781a819305fa475672f4b0ad1f2e7db"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0af445d1d9c55aeed5d6fd97ad0063ca63c91abc58588af87dfe1e7e14103a11"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/arithmetic.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593136",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "59b9b0563842b69aa9d1e9cddd2778ca695918ff1965492f4fdbaaecf5e212ae"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c57138403a98a88b31eb5d780a22b25d"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8c77ef3a2d139b8e3d6aa144ca13b77dfd324315"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/exceptions.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593149",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d2e244e32969254f90cd7adedaab1ea017466dac"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a310078b3d7ec5c46c0d7fca1830a2061e8b18fdb31d92b3bc8dd0c6b15387a1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "807bbfdd8c64f1c4608ebbeb962d3987"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/__init__.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593137",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "133397ee9c758a7c7326cb99040483d640680aa7"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "84e8725ecca1fccfaacec79148c702847d310760eff0b0d40572bb026e33e244"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "5b9ad7e709cd9248c9d76a6dddbd6191"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/jsonpath.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593158",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "70b353161a7e89a87d1aac4947e8dec6"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a09fb04607813c10be5941094fc5113fdc9e2e0b"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ffdf5eb12b76b0e194ae5b41264145ce0d8a08afee4e6a967e512815f5703c4b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_exceptions.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593133",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c6ffef1bcbca05d1826c035d4794575d9d1a76b89148fb454ee2e07609d68090"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "57c40a34d0130cfa1c6e1c6c46f22cbd"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "553c9198810ac05130facca0f5dbc75f8840a5ee"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/setup.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593155",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "df6aed4a1d876864be2a785da3622eda48175ff2853a706cf4b51f89204b99d8"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "153337109642f06d5e4913bfcea95c29"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3a8cb7d8b108c870f11c11d2dee02597cf68f06f"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_parser.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593134",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ced8f881e943dae54795f42d07621a1fb697c78903de45e16654742ca5b5bb9f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "2bed25d5e75515d43240e12d59a0f413"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7ea036bcc2d0b0e1ae5b00a4c98a2c6d0227ec1e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/Makefile",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593166",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ce12ed6379b2832e30454043b56d19027a49d7ac"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "83020367b7d9d3b906e1ebf4130161ed3b852e7b1355ed89ef9d58051a37d34f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "079e2e62958a9dc490ca39e77199fd9b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/bin/test_jsonpath.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593156",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "da3bf8485212149322b6d0b1606869c5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "45748b2339d69fe55c330c00a48895f5e021f945"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0b4014d44fc04ee1a774f4be6c0e2f2839cd0f241084b4b9f076be0e1e177a12"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_examples.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593165",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "29c080ba682cf16719da750fd2cd6d305c9c053e5affd983931d6327aa6263d0"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ae87159e04a6ffaf37c7fd326e7204bd"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "71e900007100eac37c155a209464a950cb06bcd2"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/bin/test1.json",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593132",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "99b39662fd0392997d9e818b91fc25d9"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7698b533322548ade8add56db10ed769445524d2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1d33f0dac6960320e7ba69c1dfc65daf872e7c22838e868af64cddaba3b28500"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/MANIFEST.in",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593139",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "52e653a74f8aa7a27779b23337131c8dfecdb9e1fe904f7ae9f01823b47512cd"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "76b922795c679cfe90384a83cfd6a087"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3c71d4f92ca73a2eddb53acb6e9a8739c637732d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/lexer.py",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593157",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "f1a55a3d1ea6ec2f3c3432bac718c2f0"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "693631bbcd9e5779a7c19832bcc5c122f9f5e3c7"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "7c00f202278eed3ad6827d50c9e41320133c5d20e63789f504af30ea90b3565c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_create.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item9593138",
+    "attributionTexts" : [ "Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):\n- jsonpath_ng/ext/filter.py\n- jsonpath_ng/ext/iterable.py\n- jsonpath_ng/ext/parser.py\n- tests/test_jsonpath_rw_ext.py\n\nFiles modified by elrandira to support commas for index accesses and steps in slices\n(https://github.com/h2non/jsonpath-ng/pull/102):\n- jsonpath_ng/jsonpath.py\n- jsonpath_ng/parser.py\n- tests/test_create.py\n- tests/test_examples.py\n- tests/test_jsonpath.py\n- tests/test_parser.py" ],
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4ed4a523a52ce4039113c046465bc45336335ad1"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c9d4a36be5f75c15b255dac4737f2f7f76bf207e8c145a566e28bb7fed596251"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "41ebbd92b484e98e6e3ade8d7065d1f8"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/parser.py",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-upload2202"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593167"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593145"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593168"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593169"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593131"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593152"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593153"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593165"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593129"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593133"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593156"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593158"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593150"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593142"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593146"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593161"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593136"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593164"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593132"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593170"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593148"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593155"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593143"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593151"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593160"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593130"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593138"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593149"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593157"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593166"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593139"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593134"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593163"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593140"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593159"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593137"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2202",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item9593147"
+  } ]
+}
