@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://8a175d67a405/repo/SPDX2TV_jsonpath-ng-1.5.3.tar.gz_1726837150.spdx
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_jsonpath-ng-1.5.3.tar.gz_1729521426.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -13,10 +13,14 @@ SPDXID: SPDXRef-DOCUMENT
 ## Creation Information
 ##-------------------------
 
-Creator: Tool: fossology-4.4.0.15
+Creator: Tool: fossology-4.4.0.51
 Creator: Person: Kanzlei Jun on behalf of AUDI AG
-CreatorComment: <text>This document was created using license information and a generator from Fossology. It contains the license and copyright analysis of jsonpath-ng 1.5.3. Please check LicenseComments for explanations of concluded licenses.</text>
-Created: 2024-09-20T12:59:10Z
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of jsonpath-ng 1.5.3
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2024-10-21T14:37:07Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -26,8 +30,8 @@ LicenseListVersion: 3.22
 
 PackageName: jsonpath-ng-1.5.3.tar.gz
 PackageFileName: jsonpath-ng-1.5.3.tar.gz
-SPDXID: SPDXRef-upload11862
-PackageDownloadLocation: https://github.com/h2non/jsonpath-ng/archive/refs/tags/1.5.3.zip
+SPDXID: SPDXRef-upload2202
+PackageDownloadLocation: https://github.com/h2non/jsonpath-ng/archive/refs/tags/1.5.3.tar.gz
 ExternalRef: PACKAGE-MANAGER purl pkg:github/h2non/jsonpath-ng@1.5.3
 FilesAnalyzed: true
 PackageVerificationCode: da09a1b43b63e22cdcb88b1907e42c2a0f1ab938
@@ -37,15 +41,14 @@ PackageChecksum: MD5: 382b1a2fe2960261b0fb00d576036795
 PackageLicenseConcluded: NOASSERTION
 PackageLicenseDeclared: LicenseRef-Apache-2.0
 PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
- - nomos ("4.4.0.15".5d291e)
- - monk ("4.4.0.15".5d291e)
- - ojo ("4.4.0.15".5d291e)
- - scancode ("4.4.0.15".5d291e)
- - reso (4.1.0.38.78e82f) </text>
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
 PackageLicenseInfoFromFiles: NOASSERTION
 PackageCopyrightText: NOASSERTION
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload11862
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2202
 
 
 ##--------------------------
@@ -54,302 +57,26 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload11862
 
 ##File
 
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/string.py
-SPDXID: SPDXRef-item19861129
-FileChecksum: SHA1: 7b898b68d5890edcf1383d5756a36954e4e0923d
-FileChecksum: SHA256: b5cdf5b3247b72d27e2cd1ac9673bf2f8f94cafc2032bed5a04425ff5e36006b
-FileChecksum: MD5: edf4a1c7e01d3621f569390b3302e58a
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/arithmetic.py
-SPDXID: SPDXRef-item19861124
-FileChecksum: SHA1: f9daa7540781a819305fa475672f4b0ad1f2e7db
-FileChecksum: SHA256: 0af445d1d9c55aeed5d6fd97ad0063ca63c91abc58588af87dfe1e7e14103a11
-FileChecksum: MD5: 03e9f991193d136b4bb4dc6dd96d769c
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/__init__.py
-SPDXID: SPDXRef-item19861134
-FileChecksum: SHA1: d2e244e32969254f90cd7adedaab1ea017466dac
-FileChecksum: SHA256: a310078b3d7ec5c46c0d7fca1830a2061e8b18fdb31d92b3bc8dd0c6b15387a1
-FileChecksum: MD5: 807bbfdd8c64f1c4608ebbeb962d3987
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/parser.py
-SPDXID: SPDXRef-item19861095
-FileChecksum: SHA1: 4ed4a523a52ce4039113c046465bc45336335ad1
-FileChecksum: SHA256: c9d4a36be5f75c15b255dac4737f2f7f76bf207e8c145a566e28bb7fed596251
-FileChecksum: MD5: 41ebbd92b484e98e6e3ade8d7065d1f8
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/jsonpath.py
-SPDXID: SPDXRef-item19861088
-FileChecksum: SHA1: 133397ee9c758a7c7326cb99040483d640680aa7
-FileChecksum: SHA256: 84e8725ecca1fccfaacec79148c702847d310760eff0b0d40572bb026e33e244
-FileChecksum: MD5: 5b9ad7e709cd9248c9d76a6dddbd6191
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_parser.py
-SPDXID: SPDXRef-item19861273
-FileChecksum: SHA1: 3a8cb7d8b108c870f11c11d2dee02597cf68f06f
-FileChecksum: SHA256: df6aed4a1d876864be2a785da3622eda48175ff2853a706cf4b51f89204b99d8
-FileChecksum: MD5: 153337109642f06d5e4913bfcea95c29
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/LICENSE
-SPDXID: SPDXRef-item19861288
-FileChecksum: SHA1: 2b8b815229aa8a61e483fb4ba0588b8b6c491890
-FileChecksum: SHA256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
-FileChecksum: MD5: 3b83ef96387f14655fc854ddc3c6bd57
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_create.py
-SPDXID: SPDXRef-item19861254
-FileChecksum: SHA1: 693631bbcd9e5779a7c19832bcc5c122f9f5e3c7
-FileChecksum: SHA256: 7c00f202278eed3ad6827d50c9e41320133c5d20e63789f504af30ea90b3565c
-FileChecksum: MD5: f1a55a3d1ea6ec2f3c3432bac718c2f0
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/filter.py
-SPDXID: SPDXRef-item19861158
-FileChecksum: SHA1: e7e2db1f99e9440040925837bbdc8ac97e475548
-FileChecksum: SHA256: 2827ba2a0892ce104a37d6fd5917bc24be732fb0d51260119237f5bd90f56ef7
-FileChecksum: MD5: f1aee6bd8c77ad19052c9c4179eb41b7
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/iterable.py
-SPDXID: SPDXRef-item19861148
-FileChecksum: SHA1: 9a40229f267fb9fa390ca33d79567a60c7e8c4d9
-FileChecksum: SHA256: 154a7790fbd2878c774284d9ee328372c70c5612ac30860993056c9bd052bf20
-FileChecksum: MD5: 4294f15602259ab6870c4ed87b3dab89
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/parser.py
-SPDXID: SPDXRef-item19861140
-FileChecksum: SHA1: fadbdce3f9865f9fff68880fa3a1d698a421a6c6
-FileChecksum: SHA256: ef96328522e987e40a3b2352b211a801a9759c2c0705c55b3642b6d5614086f1
-FileChecksum: MD5: 63ee07cdb908df9c5d5c2895d465f3f7
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/bin/jsonpath.py
+SPDXID: SPDXRef-item9593142
+FileChecksum: SHA1: cd86476d56e453daad18d7e01127f32cbceea1cd
+FileChecksum: SHA256: a2a31fe3289d305f56a000b6da4a3787c2bcfa38646ab3fcc29a79d832a65a67
+FileChecksum: MD5: 3d20c767bb87803701e1a9eb31b34820
+LicenseConcluded: LicenseRef-WTFPL
+LicenseInfoInFile: LicenseRef-WTFPL
+FileCopyrightText: <text> Copyright © 2012 Felix Richter <wtfpl@syntax-fehler.de>. </text>
 
 ##File
 
 FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_jsonpath_rw_ext.py
-SPDXID: SPDXRef-item19861203
+SPDXID: SPDXRef-item9593161
 FileChecksum: SHA1: ae14436e8c614b4dd297d3ad804981c7253634ae
 FileChecksum: SHA256: a71b66b84f3095b0a1a3d367378a28313c5e7d7d00eb23b1a1a67aad6a1d7a13
 FileChecksum: MD5: 36b3a915c26b902b4dd60f5ec2f2d3e8
 LicenseConcluded: LicenseRef-Apache-2.0
 LicenseInfoInFile: LicenseRef-Apache-2.0
 FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
 - jsonpath_ng/ext/filter.py
 - jsonpath_ng/ext/iterable.py
 - jsonpath_ng/ext/parser.py
@@ -367,41 +94,14 @@ Files modified by elrandira to support commas for index accesses and steps in sl
 ##File
 
 FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_jsonpath.py
-SPDXID: SPDXRef-item19861266
+SPDXID: SPDXRef-item9593167
 FileChecksum: SHA1: 96eee8aff61e5871c8ddd370ae572892e14b7bec
 FileChecksum: SHA256: 39eebf3d1c07bb3c2a8d9580eaac8068780c8065210299ead010b863c6bfbef7
 FileChecksum: MD5: 159e43282c9c2ed39152058133b38e30
 LicenseConcluded: LicenseRef-Apache-2.0
 LicenseInfoInFile: LicenseRef-Apache-2.0
 FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
-- jsonpath_ng/ext/filter.py
-- jsonpath_ng/ext/iterable.py
-- jsonpath_ng/ext/parser.py
-- tests/test_jsonpath_rw_ext.py
-
-Files modified by elrandira to support commas for index accesses and steps in slices
-(https://github.com/h2non/jsonpath-ng/pull/102):
-- jsonpath_ng/jsonpath.py
-- jsonpath_ng/parser.py
-- tests/test_create.py
-- tests/test_examples.py
-- tests/test_jsonpath.py
-- tests/test_parser.py </text>
-
-##File
-
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_examples.py
-SPDXID: SPDXRef-item19861194
-FileChecksum: SHA1: 45748b2339d69fe55c330c00a48895f5e021f945
-FileChecksum: SHA256: 0b4014d44fc04ee1a774f4be6c0e2f2839cd0f241084b4b9f076be0e1e177a12
-FileChecksum: MD5: da3bf8485212149322b6d0b1606869c5
-LicenseConcluded: LicenseRef-Apache-2.0
-LicenseInfoInFile: LicenseRef-Apache-2.0
-FileCopyrightText: NOASSERTION
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
 - jsonpath_ng/ext/filter.py
 - jsonpath_ng/ext/iterable.py
 - jsonpath_ng/ext/parser.py
@@ -419,7 +119,7 @@ Files modified by elrandira to support commas for index accesses and steps in sl
 ##File
 
 FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/README.rst
-SPDXID: SPDXRef-item19861282
+SPDXID: SPDXRef-item9593151
 FileChecksum: SHA1: 678ae4dbe374b329598bdc5275149e6c8116ac4e
 FileChecksum: SHA256: 1bbd76e0ec78c2b9422ae2bd3430e5b82aa2f7df6f5a3fcdd1ab4526b9bb227b
 FileChecksum: MD5: 5c498378def5af2fad12819e1892dee8
@@ -427,8 +127,7 @@ LicenseConcluded: LicenseRef-Apache-2.0
 LicenseInfoInFile: LicenseRef-Apache-2.0
 FileCopyrightText: <text> Copyright 2013 - Kenneth Knowles
 Copyright 2017 - Tomas Aparicio </text>
-FileAttributionText: <text> NOTICE:
-Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
 - jsonpath_ng/ext/filter.py
 - jsonpath_ng/ext/iterable.py
 - jsonpath_ng/ext/parser.py
@@ -445,25 +144,533 @@ Files modified by elrandira to support commas for index accesses and steps in sl
 
 ##File
 
-FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/bin/jsonpath.py
-SPDXID: SPDXRef-item19861109
-FileChecksum: SHA1: cd86476d56e453daad18d7e01127f32cbceea1cd
-FileChecksum: SHA256: a2a31fe3289d305f56a000b6da4a3787c2bcfa38646ab3fcc29a79d832a65a67
-FileChecksum: MD5: 3d20c767bb87803701e1a9eb31b34820
-LicenseConcluded: LicenseRef-WTFPL
-LicenseInfoInFile: LicenseRef-WTFPL
-LicenseInfoInFile: LicenseRef-fossology-wtfpl-2.0
-FileCopyrightText: <text> Copyright © 2012 Felix Richter <wtfpl@syntax-fehler.de>  </text>
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_examples.py
+SPDXID: SPDXRef-item9593156
+FileChecksum: SHA1: 45748b2339d69fe55c330c00a48895f5e021f945
+FileChecksum: SHA256: 0b4014d44fc04ee1a774f4be6c0e2f2839cd0f241084b4b9f076be0e1e177a12
+FileChecksum: MD5: da3bf8485212149322b6d0b1606869c5
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_create.py
+SPDXID: SPDXRef-item9593157
+FileChecksum: SHA1: 693631bbcd9e5779a7c19832bcc5c122f9f5e3c7
+FileChecksum: SHA256: 7c00f202278eed3ad6827d50c9e41320133c5d20e63789f504af30ea90b3565c
+FileChecksum: MD5: f1a55a3d1ea6ec2f3c3432bac718c2f0
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_parser.py
+SPDXID: SPDXRef-item9593155
+FileChecksum: SHA1: 3a8cb7d8b108c870f11c11d2dee02597cf68f06f
+FileChecksum: SHA256: df6aed4a1d876864be2a785da3622eda48175ff2853a706cf4b51f89204b99d8
+FileChecksum: MD5: 153337109642f06d5e4913bfcea95c29
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/parser.py
+SPDXID: SPDXRef-item9593138
+FileChecksum: SHA1: 4ed4a523a52ce4039113c046465bc45336335ad1
+FileChecksum: SHA256: c9d4a36be5f75c15b255dac4737f2f7f76bf207e8c145a566e28bb7fed596251
+FileChecksum: MD5: 41ebbd92b484e98e6e3ade8d7065d1f8
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/__init__.py
+SPDXID: SPDXRef-item9593149
+FileChecksum: SHA1: d2e244e32969254f90cd7adedaab1ea017466dac
+FileChecksum: SHA256: a310078b3d7ec5c46c0d7fca1830a2061e8b18fdb31d92b3bc8dd0c6b15387a1
+FileChecksum: MD5: 807bbfdd8c64f1c4608ebbeb962d3987
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/iterable.py
+SPDXID: SPDXRef-item9593150
+FileChecksum: SHA1: 9a40229f267fb9fa390ca33d79567a60c7e8c4d9
+FileChecksum: SHA256: 154a7790fbd2878c774284d9ee328372c70c5612ac30860993056c9bd052bf20
+FileChecksum: MD5: 4294f15602259ab6870c4ed87b3dab89
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/parser.py
+SPDXID: SPDXRef-item9593147
+FileChecksum: SHA1: fadbdce3f9865f9fff68880fa3a1d698a421a6c6
+FileChecksum: SHA256: ef96328522e987e40a3b2352b211a801a9759c2c0705c55b3642b6d5614086f1
+FileChecksum: MD5: 63ee07cdb908df9c5d5c2895d465f3f7
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/filter.py
+SPDXID: SPDXRef-item9593146
+FileChecksum: SHA1: e7e2db1f99e9440040925837bbdc8ac97e475548
+FileChecksum: SHA256: 2827ba2a0892ce104a37d6fd5917bc24be732fb0d51260119237f5bd90f56ef7
+FileChecksum: MD5: f1aee6bd8c77ad19052c9c4179eb41b7
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/arithmetic.py
+SPDXID: SPDXRef-item9593148
+FileChecksum: SHA1: f9daa7540781a819305fa475672f4b0ad1f2e7db
+FileChecksum: SHA256: 0af445d1d9c55aeed5d6fd97ad0063ca63c91abc58588af87dfe1e7e14103a11
+FileChecksum: MD5: 03e9f991193d136b4bb4dc6dd96d769c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/ext/string.py
+SPDXID: SPDXRef-item9593145
+FileChecksum: SHA1: 7b898b68d5890edcf1383d5756a36954e4e0923d
+FileChecksum: SHA256: b5cdf5b3247b72d27e2cd1ac9673bf2f8f94cafc2032bed5a04425ff5e36006b
+FileChecksum: MD5: edf4a1c7e01d3621f569390b3302e58a
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/jsonpath.py
+SPDXID: SPDXRef-item9593137
+FileChecksum: SHA1: 133397ee9c758a7c7326cb99040483d640680aa7
+FileChecksum: SHA256: 84e8725ecca1fccfaacec79148c702847d310760eff0b0d40572bb026e33e244
+FileChecksum: MD5: 5b9ad7e709cd9248c9d76a6dddbd6191
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/LICENSE
+SPDXID: SPDXRef-item9593129
+FileChecksum: SHA1: 2b8b815229aa8a61e483fb4ba0588b8b6c491890
+FileChecksum: SHA256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+FileChecksum: MD5: 3b83ef96387f14655fc854ddc3c6bd57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> Files modified by dlacher to support predicate logic (https://github.com/h2non/jsonpath-ng/pull/21):
+- jsonpath_ng/ext/filter.py
+- jsonpath_ng/ext/iterable.py
+- jsonpath_ng/ext/parser.py
+- tests/test_jsonpath_rw_ext.py
+
+Files modified by elrandira to support commas for index accesses and steps in slices
+(https://github.com/h2non/jsonpath-ng/pull/102):
+- jsonpath_ng/jsonpath.py
+- jsonpath_ng/parser.py
+- tests/test_create.py
+- tests/test_examples.py
+- tests/test_jsonpath.py
+- tests/test_parser.py </text>
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/NOTICE
+SPDXID: SPDXRef-item9593130
+FileChecksum: SHA1: 65bc9a81d86d750789ba4f8e40ddbaffd4ff2443
+FileChecksum: SHA256: 6d1f5f0554aa792e5c5852f33468ff5d139ed28f6e7d777399330c9b1e937877
+FileChecksum: MD5: c67920f4c0b72f37a9ce464bff5350db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/.travis.yml
+SPDXID: SPDXRef-item9593131
+FileChecksum: SHA1: 73233b3fe3c62522269efecd2f6b53193240bc24
+FileChecksum: SHA256: 5fdd64bb995656b85b17cf3fc638295d32d06fc9726a1deaaf4276b7f9f95857
+FileChecksum: MD5: 5dc9b4cbb234436a5a286478b7137ddc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/MANIFEST.in
+SPDXID: SPDXRef-item9593132
+FileChecksum: SHA1: 7698b533322548ade8add56db10ed769445524d2
+FileChecksum: SHA256: 1d33f0dac6960320e7ba69c1dfc65daf872e7c22838e868af64cddaba3b28500
+FileChecksum: MD5: 99b39662fd0392997d9e818b91fc25d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
 
 ##File
 
 FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/setup.py
-SPDXID: SPDXRef-item19861019
+SPDXID: SPDXRef-item9593133
 FileChecksum: SHA1: 553c9198810ac05130facca0f5dbc75f8840a5ee
 FileChecksum: SHA256: c6ffef1bcbca05d1826c035d4794575d9d1a76b89148fb454ee2e07609d68090
 FileChecksum: MD5: 57c40a34d0130cfa1c6e1c6c46f22cbd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/Makefile
+SPDXID: SPDXRef-item9593134
+FileChecksum: SHA1: 7ea036bcc2d0b0e1ae5b00a4c98a2c6d0227ec1e
+FileChecksum: SHA256: ced8f881e943dae54795f42d07621a1fb697c78903de45e16654742ca5b5bb9f
+FileChecksum: MD5: 2bed25d5e75515d43240e12d59a0f413
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/exceptions.py
+SPDXID: SPDXRef-item9593136
+FileChecksum: SHA1: 8c77ef3a2d139b8e3d6aa144ca13b77dfd324315
+FileChecksum: SHA256: 59b9b0563842b69aa9d1e9cddd2778ca695918ff1965492f4fdbaaecf5e212ae
+FileChecksum: MD5: c57138403a98a88b31eb5d780a22b25d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/lexer.py
+SPDXID: SPDXRef-item9593139
+FileChecksum: SHA1: 3c71d4f92ca73a2eddb53acb6e9a8739c637732d
+FileChecksum: SHA256: 52e653a74f8aa7a27779b23337131c8dfecdb9e1fe904f7ae9f01823b47512cd
+FileChecksum: MD5: 76b922795c679cfe90384a83cfd6a087
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/__init__.py
+SPDXID: SPDXRef-item9593140
+FileChecksum: SHA1: 911825a6c118cd879e916d0b14d25de0ed6f78cd
+FileChecksum: SHA256: d237f83be49fc0740c5edc3195e4594529d114f3677b13e825ce940e3524e984
+FileChecksum: MD5: d186331652f7fb564e8aeff78bea9b72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/jsonpath_ng/bin/__init__.py
+SPDXID: SPDXRef-item9593143
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText:  NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/requirements.txt
+SPDXID: SPDXRef-item9593152
+FileChecksum: SHA1: 66cf2b2a8babf782449ebfc481714e9c3a104498
+FileChecksum: SHA256: 5e87d30569d33f2abcf1a723d85da9411b1ab287c21912bb217a66754346ab64
+FileChecksum: MD5: 352f7532788571a4efcc5a54d051c67b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/requirements-dev.txt
+SPDXID: SPDXRef-item9593153
+FileChecksum: SHA1: a31fba2956ecb3000d1d39126e59d65d61e9a8a8
+FileChecksum: SHA256: 70f758775842a758cd9e990349568ff561abae41d67555d5a27b811d51c1f986
+FileChecksum: MD5: 1221aad1427cd9952d8da7f721cb9791
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_exceptions.py
+SPDXID: SPDXRef-item9593158
+FileChecksum: SHA1: a09fb04607813c10be5941094fc5113fdc9e2e0b
+FileChecksum: SHA256: ffdf5eb12b76b0e194ae5b41264145ce0d8a08afee4e6a967e512815f5703c4b
+FileChecksum: MD5: 70b353161a7e89a87d1aac4947e8dec6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/test_lexer.py
+SPDXID: SPDXRef-item9593159
+FileChecksum: SHA1: c80d5ef11f7d6a2612a646ca44cde36e3021d041
+FileChecksum: SHA256: bea587cc36b5b64aef64d467a3e45639746c5c2e29cfb106ee5fe79cd7ed0f56
+FileChecksum: MD5: c1beeddd12f4b5dfd28b115c48ea980e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/__init__.py
+SPDXID: SPDXRef-item9593160
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText:  NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/bin/test2.json
+SPDXID: SPDXRef-item9593163
+FileChecksum: SHA1: 667009263786d593f19fca340da7ab1d1fb7e741
+FileChecksum: SHA256: 76f49b803f9f8ba4671f6ed63639c3e2af760ca8c3480e85e8e02fefe0cfc425
+FileChecksum: MD5: e5860e0c8fb04951051ad17d6ef72e0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/bin/__init__.py
+SPDXID: SPDXRef-item9593164
+FileChecksum: SHA1: 6bb5fc9729a5ad32e6b344a9f4c275e928882db6
+FileChecksum: SHA256: e4ad138ee8e8de026f830a1f04d461ea3c610f6a72053a79742af87c9c870e9d
+FileChecksum: MD5: 18a21b880bc0d0f1acfa976e4e85e892
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/bin/test1.json
+SPDXID: SPDXRef-item9593165
+FileChecksum: SHA1: 71e900007100eac37c155a209464a950cb06bcd2
+FileChecksum: SHA256: 29c080ba682cf16719da750fd2cd6d305c9c053e5affd983931d6327aa6263d0
+FileChecksum: MD5: ae87159e04a6ffaf37c7fd326e7204bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/tests/bin/test_jsonpath.py
+SPDXID: SPDXRef-item9593166
+FileChecksum: SHA1: ce12ed6379b2832e30454043b56d19027a49d7ac
+FileChecksum: SHA256: 83020367b7d9d3b906e1ebf4130161ed3b852e7b1355ed89ef9d58051a37d34f
+FileChecksum: MD5: 079e2e62958a9dc490ca39e77199fd9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/History.md
+SPDXID: SPDXRef-item9593168
+FileChecksum: SHA1: c60a05b942fe9e3e3a363ce40b20dd5fabb920ad
+FileChecksum: SHA256: 3801412a198c221f3ec648270950f3a78df0fb547a910af2d5bb14f56b0b99ed
+FileChecksum: MD5: c4f6f1fd16f1928e74096dea2e46f982
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/.coveragerc
+SPDXID: SPDXRef-item9593169
+FileChecksum: SHA1: dcb613e3f81b4c37ab777e4cd981ad8108186a1a
+FileChecksum: SHA256: cd7215ce2275a0c286b8917c8d6064f6422362ed1d064a15a025a8e26f5f5dda
+FileChecksum: MD5: c966b61fefc467b4ffd46e7e93e0bf21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsonpath-ng-1.5.3.tar.gz/jsonpath-ng-1.5.3.tar/jsonpath-ng-1.5.3/.gitignore
+SPDXID: SPDXRef-item9593170
+FileChecksum: SHA1: 4bf9db1a98edb88b0d407b356b8f95d2ce353426
+FileChecksum: SHA256: 2a758ff8d2b7598fbb4db86d52e971ca1a111ff346487e31b67f5a9e8dcbc081
+FileChecksum: MD5: 50780e8f8e0f2df02cede69c74a85c7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 
 
@@ -601,85 +808,6 @@ express Statement of Purpose.
 
 
   
-LicenseID: LicenseRef-Apache-2.0
-LicenseName: Apache License 2.0
-ExtractedText: <text> Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
-
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-
-1. Definitions.
-
-"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
-
-"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
-
-"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
-
-"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
-
-"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
-
-"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
-
-"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
-
-"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
-
-"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
-
-"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
-
-2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
-
-3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
-
-4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
-
-     (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
-
-     (b) You must cause any modified files to carry prominent notices stating that You changed the files; and
-
-     (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
-
-     (d) If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
-
-     You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
-
-5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
-
-6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
-
-7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
-
-8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
-
-9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
-
-END OF TERMS AND CONDITIONS
-
-APPENDIX: How to apply the Apache License to your work.
-
-To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!)  The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.
-
-Copyright [yyyy] [name of copyright owner]
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
- </text>
-
-
-  
 LicenseID: LicenseRef-WTFPL
 LicenseName: Do What The F*ck You Want To Public License
 ExtractedText: <text> DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
@@ -696,8 +824,214 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
  </text>
 
 
+  
+LicenseID: LicenseRef-Apache-2.0
+LicenseName: Apache License 2.0
+ExtractedText: <text> Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
 
-LicenseID: LicenseRef-fossology-wtfpl-2.0
-LicenseName: WTFPL 2.0
-ExtractedText: <text> License by Scancode. </text>
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright {yyyy} {name of copyright owner}
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       https://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License. </text>
+
+
+  
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
 
