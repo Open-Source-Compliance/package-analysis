@@ -1,6 +1,6 @@
 ﻿## Download Location
 
-https://github.com/tartley/colorama/archive/refs/tags/0.4.6.zip
+https://github.com/tartley/colorama/archive/refs/tags/0.4.6.tar.gz
 
 ## Package URL (purl)
 
