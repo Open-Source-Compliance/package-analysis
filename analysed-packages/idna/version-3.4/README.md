@@ -1,6 +1,6 @@
 ﻿## Download Location
 
-https://github.com/kjd/idna/archive/refs/tags/v3.4.zip
+https://github.com/kjd/idna/archive/refs/tags/v3.4.tar.gz
 
 ## Package URL (purl)
 
@@ -13,6 +13,8 @@ Kanzlei Jun on behalf of AUDI AG
 ## Reviewers
 
 The information was reviewed by:
+
+* Oliver Fendt
 
 
 ## Comment
