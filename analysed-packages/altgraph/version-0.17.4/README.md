@@ -1,6 +1,6 @@
 ﻿## Download Location
 
-https://github.com/ronaldoussoren/altgraph/archive/refs/tags/v0.17.4.zip
+https://github.com/ronaldoussoren/altgraph/archive/refs/tags/v0.17.4.tar.gz
 
 ## Package URL (purl)
 
