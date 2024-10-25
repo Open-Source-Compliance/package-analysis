@@ -1,6 +1,6 @@
 ﻿## Download Location
 
-https://github.com/dabeaz/ply/archive/refs/tags/3.11.zip
+https://github.com/dabeaz/ply/archive/refs/tags/3.11.tar.gz
 
 ## Package URL (purl)
 
