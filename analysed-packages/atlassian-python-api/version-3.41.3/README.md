@@ -1,6 +1,6 @@
 ﻿## Download Location
 
-https://github.com/atlassian-api/atlassian-python-api/archive/refs/tags/3.41.3.zip
+https://github.com/atlassian-api/atlassian-python-api/archive/refs/tags/3.41.3.tar.gz
 
 ## Package URL (purl)
 
