@@ -1,6 +1,6 @@
 ﻿## Download Location
 
-https://github.com/oauthlib/oauthlib/archive/refs/tags/v3.2.2.zip
+https://github.com/oauthlib/oauthlib/archive/refs/tags/v3.2.2.tar.gz
 
 ## Package URL (purl)
 
