@@ -1,0 +1,1110 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_kissfft-131.1.0.tar.gz_1729450603.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of kissfft 131.1.0
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2024-10-20T18:56:43Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: kissfft-131.1.0.tar.gz
+PackageFileName: kissfft-131.1.0.tar.gz
+SPDXID: SPDXRef-upload2193
+PackageDownloadLocation: https://github.com/mborgerding/kissfft/archive/refs/tags/131.1.0.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/mborgerding/kissfft@131.1.0
+FilesAnalyzed: true
+PackageVerificationCode: bb745d97f6aa4642c8b15dd624ac3d4a1cdd354e
+PackageChecksum: SHA1: e313f318ed7bf1b2d4226f3ce4434788896fb089
+PackageChecksum: SHA256: 76c1aac87ddb7258f34b08a13f0eebf9e53afa299857568346aa5c82bcafaf1a
+PackageChecksum: MD5: 981ad3e496fbd8edb99704fc0e2aa939
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2193
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/cmake/JoinPaths.cmake
+SPDXID: SPDXRef-item9589326
+FileChecksum: SHA1: 1c2706c7fe0b3194b5fa6731f5993597887d0370
+FileChecksum: SHA256: 794b0d8fa62a3b798c7df12d50114580d1a47a234bfb6b4d83092eb646a6ecc4
+FileChecksum: MD5: 2182fdd60d7407fac6c93fcc4f503cc6
+LicenseConcluded: LicenseRef-CC0-1.0 OR LicenseRef-MIT-cc4734e8a01f740811ac41130a40cf90
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: (MIT OR CC0-1.0)
+Copyright 2020 Jan Tojnar
+https://github.com/jtojnar/cmake-snips
+We checked the github repo and found in cmake-snips/CMakeScripts
+/JoinPaths.cmake the same information, thus we concluded MIT OR CC0-1.0 as license of this file
+We took the text of the MIT License from https://github.com/jtojnar/cmake-snips/blob/master/LICENSE.md </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-CC0-1.0
+LicenseInfoInFile: LicenseRef-Dual-license
+FileCopyrightText: <text> Copyright 2020 Jan Tojnar https://github.com/jtojnar/cmake-snips </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or CC0-1.0, in this context CC0-1.0 has bee chosen. This shall not restrict the freedom of other users to choose either MIT or CC0-1.0. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/doit.c
+SPDXID: SPDXRef-item9589314
+FileChecksum: SHA1: e0b38c726c04da0c617e2f74413bb214ee965b1a
+FileChecksum: SHA256: b7c1522ffb0188f0af102b674bc100c67791ea8503783c6ca4ece6ade3ca102d
+FileChecksum: MD5: 89b280c7a5a0ed6f401103375773d32e
+LicenseConcluded: LicenseRef-Public-domain AND LicenseRef-Unlicense-0f4d2db7768d683cb5411aef3dc4fd6d
+LicenseComments: <text> Additionally ti the Unlicense information, there is the following information in the file:
+This program is in the public domain
+Thus we concluded Public-domain as license of this file
+The information in the file is:
+SPDX-License-Identifier: Unlicense
+See LICENSES/Unlicense for more information.
+The LICENSES directory contains the text of the Unlicense, which we took and concluded Unlicense as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-Unlicense
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright (c) 2003,4 Mark Borgerding </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/pstats.h
+SPDXID: SPDXRef-item9589317
+FileChecksum: SHA1: 48692da3e3b5e759940ef5f95b85eede6828afaa
+FileChecksum: SHA256: dce68bf424eaf9af10ee77409e5cd8999dc2a57d704e5f9160c16559624d9251
+FileChecksum: MD5: 014fed587a58a18aaf5f531587727ee1
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/benchkiss.c
+SPDXID: SPDXRef-item9589313
+FileChecksum: SHA1: 6011be388286bf46404d440a3ed05eb95e795be0
+FileChecksum: SHA256: b85f7743523f7cbac6c3d165bf6bda7bba9d013a2da075759ab49fb2154016e7
+FileChecksum: MD5: fe06f9704f173a54accc0567fcbaaa89
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/tools/psdpng.c
+SPDXID: SPDXRef-item9589336
+FileChecksum: SHA1: 1b40213c72fc07a0757fe7c12adab13fa7a3253e
+FileChecksum: SHA256: 99e809572d0ee11857101d2e922b5d1596e7c62dc4ed94c1d871336326e5cbb0
+FileChecksum: MD5: cd6b1c7a5bb636e50e4e8e2c3150b2a5
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kfc.h
+SPDXID: SPDXRef-item9589308
+FileChecksum: SHA1: 3d8668f3e789ff274ca8fd03bdb15ce65290f7b6
+FileChecksum: SHA256: 4edff1f6014d0043d8ea2e990bac0e2ebc6b7457f29297fa22ba04d579571567
+FileChecksum: MD5: 22643214b2f051963b853664079804cb
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/twotonetest.c
+SPDXID: SPDXRef-item9589320
+FileChecksum: SHA1: 08228f8ad67cdfc3e421a68dbcba42f0173ae8d3
+FileChecksum: SHA256: 61dc387f20da3a52529551d742bf87d9943ee9a0cc26f6fd7fff55e0c7d36378
+FileChecksum: MD5: b260ab63ca8209f053a1ce08b56faeab
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/testcpp.cc
+SPDXID: SPDXRef-item9589315
+FileChecksum: SHA1: 610dd2e5520281b2d7d7fcd361698fcdab31e595
+FileChecksum: SHA256: 485849265b52e01ac7ba0576902a01ba26dbc5c06d5d8354716ecf3ceedb59e7
+FileChecksum: MD5: 87946610a62e2fd7f4680a955a6c409a
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kiss_fft.h
+SPDXID: SPDXRef-item9589329
+FileChecksum: SHA1: 332fc3a6e165445bd0871f5d8b0d066b3c646036
+FileChecksum: SHA256: 9d6c7ddf520932c0aad669c86c064a24e571e594681be9f1491c14c9c9c75693
+FileChecksum: MD5: 554d4a9f9f7d89d53076c686be775315
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/tools/fftutil.c
+SPDXID: SPDXRef-item9589335
+FileChecksum: SHA1: d3180761f14cf3f854c8204a259119271dc3fabb
+FileChecksum: SHA256: 6f70c40e77cfbe8a3e68afb60fa9bc8516976e6f01ae86a2d77a70cb04af5a2a
+FileChecksum: MD5: 693e32fe579ec62bfa4d529973f55ad5
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kissfft.hh
+SPDXID: SPDXRef-item9589294
+FileChecksum: SHA1: bab5b54244fb0e7c532c009678c19db56b29ba06
+FileChecksum: SHA256: 0a31467599b981d784f53a944c19e6991aa96eee703ab424d648e436b2718a8d
+FileChecksum: MD5: 0c5d56a7e9eba0ab4ad1ea150478fbbf
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kiss_fftr.c
+SPDXID: SPDXRef-item9589340
+FileChecksum: SHA1: 7a1dde9855155119e9c8aa2a05cbe5acd4b39b53
+FileChecksum: SHA256: 128b651120725e8d55f6b9edf5d44b06dc022b260894eac078c6ff8aa7159561
+FileChecksum: MD5: 8bd73e497e49261fa90353ae86380469
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/_kiss_fft_guts.h
+SPDXID: SPDXRef-item9589339
+FileChecksum: SHA1: e9452828a0d3ce3b6ec34699ad835d5512b8ef13
+FileChecksum: SHA256: dd1731891d0fff0e297198847de39216c5c8b9677ea4fe53160d1f6c74218d40
+FileChecksum: MD5: 9729a4c33359dc62eda80251c0494bee
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/tools/kiss_fastfir.c
+SPDXID: SPDXRef-item9589338
+FileChecksum: SHA1: 26224015d56036b4db6e3709ddbf6c566b29abdb
+FileChecksum: SHA256: 70299344309e050bd82c017f4cdd60c7c1aebde9ed7e0dbf45e14d9f6f7d33f0
+FileChecksum: MD5: c8dd3e530c222218d51bef6bbd994fca
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/pstats.c
+SPDXID: SPDXRef-item9589324
+FileChecksum: SHA1: 4b60a490ad98a8eef4957b38c102a98429139bdd
+FileChecksum: SHA256: 01d5d02e5eac035f3ea74358d6946a47e406f666e6fc877adfedd62aa764fd25
+FileChecksum: MD5: 793eab965d495d47abcdb6ce49a2b217
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kiss_fftndr.h
+SPDXID: SPDXRef-item9589343
+FileChecksum: SHA1: 75cbbb88ee0f1dd5ee40e079700f2093129ef215
+FileChecksum: SHA256: c2dbaa98fa5d80b3bded47ba2a14f8e35842d4ae7c60024d95a8ebc5c6002f51
+FileChecksum: MD5: 3ffff971b27e99371d9fb82229914e41
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kfc.c
+SPDXID: SPDXRef-item9589327
+FileChecksum: SHA1: b6af6c3a7cbb97724a413ec6c115c70f576b379d
+FileChecksum: SHA256: 979e5a4257bb8e7d08092db10ae252f50a00276545ed70a81330015cd55eacf2
+FileChecksum: MD5: 7dcba8cb0ccd916b23a729bf85109062
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kiss_fftndr.c
+SPDXID: SPDXRef-item9589330
+FileChecksum: SHA1: 8469c4c1d0372a3c81cf7c000ae2f4baddb9ad26
+FileChecksum: SHA256: f4395cdbc88e9f25bc8d4aac1a0bc34606ad367ae01d4b903fb364bee77c430c
+FileChecksum: MD5: dd35013618a27bd142b953db122496d2
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/kissfft-testsuite.sh
+SPDXID: SPDXRef-item9589322
+FileChecksum: SHA1: 22f3b3526d6bad51ec8e08b7fd1d41252167111d
+FileChecksum: SHA256: 3fa882fd8648b8fabc7090f753c29f6262d09cefe136c252259a9bf3cf5cb6fd
+FileChecksum: MD5: 9e1b5aed56442b5294dbd48aa5d2256d
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2021, Vasyl Gello. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/test_real.c
+SPDXID: SPDXRef-item9589316
+FileChecksum: SHA1: ef4f9e1214dcfba936176a840da7ce24d2a33ec1
+FileChecksum: SHA256: 174258481782bd09f77090352cf3eb42bbc2e3a7f8f2d915e2b338ff62f89fa6
+FileChecksum: MD5: 346dc574154ccb9443b4583fd7b289d7
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/benchfftw.c
+SPDXID: SPDXRef-item9589312
+FileChecksum: SHA1: 7605b7c5eee436db60b3442541817697b7224b20
+FileChecksum: SHA256: 43910195d90269bf300c3cf9682a838d2c2ec4eb3cbb01b0059d27bc85f4aaef
+FileChecksum: MD5: 330d2a72c69fb9f430be66673b859fab
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kiss_fft_log.h
+SPDXID: SPDXRef-item9589297
+FileChecksum: SHA1: fce67e6cbdbf21a11d9f6a63f7de400cc5c0dab3
+FileChecksum: SHA256: 48b089fccb815b535dcbee88bbcabac702b5f29408563d2cc1d8a311be089afc
+FileChecksum: MD5: 66398e7cf0ee672d103933c5780419f7
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kiss_fftnd.h
+SPDXID: SPDXRef-item9589306
+FileChecksum: SHA1: 4640e56f035e034e665018826dcf0c9ae39ef760
+FileChecksum: SHA256: e5a439e66c51b62c58406a7d4eb0a91b565deb14c60f1ce58b37d65b0c0c621e
+FileChecksum: MD5: 35ba02091877e69f4adb27f4d8a759a1
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kiss_fftr.h
+SPDXID: SPDXRef-item9589301
+FileChecksum: SHA1: 71d05028143e00ec1ed09b037266c3ff8e3bad3c
+FileChecksum: SHA256: a0f72c1bddc3126d7a51ad80e965b58f6af77e4419aa882a0b11951e783632a8
+FileChecksum: MD5: 9aa1d7b09c2aed22b8841b8ff292e178
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kiss_fftnd.c
+SPDXID: SPDXRef-item9589298
+FileChecksum: SHA1: 42bd0964fd16b4f3ca64e09ae69d775bfaa3a71f
+FileChecksum: SHA256: fdbdd7db054852093cd74a179cac569a523757bb1b7ba9ec3525995512f15b96
+FileChecksum: MD5: 9cedb15fe69c3978d0f6454c422d9e6c
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2004, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/testkiss.py
+SPDXID: SPDXRef-item9589318
+FileChecksum: SHA1: d643edb7736e45242d51a6cf94642b070c381135
+FileChecksum: SHA256: c5b95dfda868208a5d4be04be342c3ca7218fb111ae69931681652fed4ed41e3
+FileChecksum: MD5: ad86e7c93f7c03c98ef1455a65e6da2f
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2019, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kiss_fft.c
+SPDXID: SPDXRef-item9589299
+FileChecksum: SHA1: 89dc9fc2f1a0865fb340073f55eac4300f57d1d7
+FileChecksum: SHA256: 3e8af99313c7e94f952ac12db46d3d5c5dd4a9bf93e0c32d43efa5fe39724051
+FileChecksum: MD5: dee66e85d7153f9e4df247419bf36449
+LicenseConcluded: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseComments: <text> The information in the file is:
+This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+
+SPDX-License-Identifier: BSD-3-Clause
+The LICENSES directory contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010, Mark Borgerding. All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/.travis.yml
+SPDXID: SPDXRef-item9589295
+FileChecksum: SHA1: b5e66032ffe02edd7d0f35d5fe266b4c2d87fc0b
+FileChecksum: SHA256: bbe54b4c5d88726628de1bb5242020a82180233ae974eac59b27c719176fe2bf
+FileChecksum: MD5: 9e7707af240f60c550da81313ab42f68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kissfft_i32.hh
+SPDXID: SPDXRef-item9589296
+FileChecksum: SHA1: 6516f7195977ecef60cc88fe3ebc49587ac59c29
+FileChecksum: SHA256: 64e6be185afc907fef7ae733079e8f188d88109a92b5adca0a9ed5899b35f7e9
+FileChecksum: MD5: 3f0095e912538d4256f74e15993fe875
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kissfft-config.cmake.in
+SPDXID: SPDXRef-item9589300
+FileChecksum: SHA1: 87da1ebf26fe0c4b2b0be8aa506c469b951e17c6
+FileChecksum: SHA256: 2964268dde91282672ea064f4e656b9c638af34154f2b23378c7360d1185d415
+FileChecksum: MD5: 6d46d0a01e0d3e513217fe92b12939ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/TIPS
+SPDXID: SPDXRef-item9589302
+FileChecksum: SHA1: 55fafd0f4c63a5c15854d62403f759c16b009ccd
+FileChecksum: SHA256: dd49be97e5ea42496874fd23857e2d9d7ac2101ce11cfb4f72c7cd2ede0aa615
+FileChecksum: MD5: 384301239c66a28625fd593d8c331969
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/LICENSES/BSD-3-Clause
+SPDXID: SPDXRef-item9589304
+FileChecksum: SHA1: 44473dec7143174bafbb0633455d9f3e48725520
+FileChecksum: SHA256: 4d6bcab46f27d6d0c878e8305d4bdcfe040d52bf6656b9771f04c9fb9902c0ed
+FileChecksum: MD5: b7e9798596b65245c4127bf4accdbee2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/LICENSES/Unlicense
+SPDXID: SPDXRef-item9589305
+FileChecksum: SHA1: eaf4a973ddb9c33089ce84190c0cd9193d9597b5
+FileChecksum: SHA256: c543dab3c100d8741a83b02f397746b1e10fc0046f30b942f308191a68e99407
+FileChecksum: MD5: 04e5c54102c0390fd2e2c3f24211003b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-Unlicense
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/README.md
+SPDXID: SPDXRef-item9589307
+FileChecksum: SHA1: 5d2cbffa448e023e362d8116f8b3448c2d6c2d0c
+FileChecksum: SHA256: d32f90b671f0b1b290388c84d2db25a7cc7d457275a54e0483feeb92c8472add
+FileChecksum: MD5: d8eb146402911ca97e684470a555134b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-GPL
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/README.simd
+SPDXID: SPDXRef-item9589309
+FileChecksum: SHA1: b0740c2ad4ac4c6dfca5f0f929325f452e6c7f3c
+FileChecksum: SHA256: 3d353443bf57108b11cc05fba84750a5306e94126d0f983fc9e9d0f8bf1b2087
+FileChecksum: MD5: 7e60c694728036575acc5d1e11cc7d0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/Makefile
+SPDXID: SPDXRef-item9589310
+FileChecksum: SHA1: cbeb56a172c1b50e674bee07d7a8846c6c8ea8f7
+FileChecksum: SHA256: 4393ee810928f9e345c786043feba37abf34994edb059a796293af4a1647f021
+FileChecksum: MD5: cb5ea6bb0fbaae56019c38561dd640f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/Makefile
+SPDXID: SPDXRef-item9589319
+FileChecksum: SHA1: 8c508502968a4d74171a5b006918fc0337ddd7ec
+FileChecksum: SHA256: 101df5a2bff7a3b09ce28756531e2e18a13c2587eeb4e0ded18649071186811d
+FileChecksum: MD5: 311c9f3f3bb22aea8f242703a4e9318f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/CMakeLists.txt
+SPDXID: SPDXRef-item9589321
+FileChecksum: SHA1: dd456baa952078d1664e67f08f66259a8820d706
+FileChecksum: SHA256: e457016e32ef0f4d61943eafa6168fb5f46fb2e468c1886f5ffcfe38fb36d616
+FileChecksum: MD5: 4169126a356d44848730d0ca46e22c18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/test/test_simd.c
+SPDXID: SPDXRef-item9589323
+FileChecksum: SHA1: ffb44a4b47c2b8b1266012243b279c16e8c33bcc
+FileChecksum: SHA256: 232346097ffac2f33dba0994b8c023c0f8f434dab2ecd8b83548278e773f898a
+FileChecksum: MD5: 64a0b1bffbaa6a97988820fb9780c55b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/kissfft.pc.in
+SPDXID: SPDXRef-item9589328
+FileChecksum: SHA1: 28f22a8339f3b723faaae0bb8905bd55256b3e42
+FileChecksum: SHA256: b49143cc4ba3d1d584d3d8e4e5a37b10e2721299851b36cdfd9abd81a8225a95
+FileChecksum: MD5: 8f380b2fa61d120a3d7d8263f5127a91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/CMakeLists.txt
+SPDXID: SPDXRef-item9589331
+FileChecksum: SHA1: 6e6e9c08103a51d5c41f905fe9d2c04365630755
+FileChecksum: SHA256: 21a43a190bbf03b225bd877639828e61e192f3149ab20b8863e1aae48c14f8df
+FileChecksum: MD5: 927dd61867deb5107a403844aa2f98d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/COPYING
+SPDXID: SPDXRef-item9589332
+FileChecksum: SHA1: f94e370111194bcabce447062296e2c105a50644
+FileChecksum: SHA256: a2840585f8411be8e6826a31ef15ae65c950bd74a2437a73b013398a934ad0c6
+FileChecksum: MD5: 6dae13f6990c3d2cacc8326c4bf36457
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2003-2010 Mark Borgerding . All rights reserved. </text>
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/tools/Makefile
+SPDXID: SPDXRef-item9589334
+FileChecksum: SHA1: e9c9b14c4bc9a2059c925353343420741f632ecd
+FileChecksum: SHA256: 75cf326dd5d52d73008475948664d59374bd91ca379c20b2425b2413dc94fbf4
+FileChecksum: MD5: 23fcd2f169a03f8daffa1e0380801980
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/tools/CMakeLists.txt
+SPDXID: SPDXRef-item9589337
+FileChecksum: SHA1: a5a3eee5fa7ced4a3e70af7fa482730b291f10a9
+FileChecksum: SHA256: 21a7e62d33261a65987ddce011425ba1fe93cf0de82c9f4d46e9ff351c572461
+FileChecksum: MD5: 9a342e99613aa2aedb8d35a42472befc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/CHANGELOG
+SPDXID: SPDXRef-item9589341
+FileChecksum: SHA1: fa62fc435a2f0ecfd2871d46b8dc97bd3f4239fe
+FileChecksum: SHA256: 103f9093677380c067e0265db63432ce1bee869018118212fcb8fd25cd6b2dfd
+FileChecksum: MD5: 25d17215ca8f56f7d7541e4ff568578d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: kissfft-131.1.0.tar.gz/kissfft-131.1.0.tar/kissfft-131.1.0/.gitignore
+SPDXID: SPDXRef-item9589342
+FileChecksum: SHA1: 8e7b17dfd7c95b6c1fe7b740bbab1d57decc983d
+FileChecksum: SHA256: ec5c91af7769cd89aae7a8096e16f0856b145a36a93268a88d312fad659489e7
+FileChecksum: MD5: 2d07ac3015e4d0d1cf8d30d716bfd0be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-MIT-cc4734e8a01f740811ac41130a40cf90
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+  
+
+  
+
+LicenseID: LicenseRef-Unlicense-0f4d2db7768d683cb5411aef3dc4fd6d
+LicenseName: The Unlicense
+ExtractedText: <text> This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute
+this software, either in source code form or as a compiled binary, for any
+purpose, commercial or non-commercial, and by any means.
+
+In jurisdictions that recognize copyright laws, the author or authors of this
+software dedicate any and all copyright interest in the software to the public
+domain. We make this dedication for the benefit of the public at large and
+to the detriment of our heirs and successors. We intend this dedication to be
+an overt act of relinquishment in perpetuity of all present and future rights
+to this software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
+THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org/> </text>
+
+
+
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-6905886a1d0d4bcfc1e10eb2be088036
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+may be used to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+  
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+
+
+LicenseID: LicenseRef-MIT-style
+LicenseName: MIT-style
+ExtractedText: <text> According to MIT license, add some modifications </text>
+
+
+  
+LicenseID: LicenseRef-Unlicense
+LicenseName: The Unlicense
+ExtractedText: <text> This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+
+In jurisdictions that recognize copyright laws, the author or authors of this software dedicate any and all copyright interest in the software to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org/>
+ </text>
+
+
+  
+LicenseID: LicenseRef-GPL-1.0-or-later
+LicenseName: GNU General Public License v1.0 or later
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+
+Version 1, February 1989
+
+Copyright (C) 1989 Free Software Foundation, Inc. 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The license agreements of most software companies try to keep users at the mercy of those companies. By contrast, our General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. The General Public License applies to the Free Software Foundation's software and to any other program whose authors commit to using it. You can use it for your programs, too.
+
+When we speak of free software, we are referring to freedom, not price. Specifically, the General Public License is designed to make sure that you have the freedom to give away or sell copies of free software, that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of a such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must tell them their rights.
+
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+GNU GENERAL PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+   0. This License Agreement applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any work containing the Program or a portion of it, either verbatim or with modifications. Each licensee is addressed as "you".
+
+   1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this General Public License and to the absence of any warranty; and give any other recipients of the Program a copy of this General Public License along with the Program. You may charge a fee for the physical act of transferring a copy.
+
+   2. You may modify your copy or copies of the Program or any portion of it, and copy and distribute such modifications under the terms of Paragraph 1 above, provided that you also do the following:
+
+      a) cause the modified files to carry prominent notices stating that you changed the files and the date of any change; and
+
+      b) cause the whole of any work that you distribute or publish, that in whole or in part contains the Program or any part thereof, either with or without modifications, to be licensed at no charge to all third parties under the terms of this General Public License (except that you may choose to grant warranty protection to some or all third parties, at your option).
+
+      c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the simplest and most usual way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this General Public License.
+
+      d) You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+
+   Mere aggregation of another independent work with the Program (or its derivative) on a volume of a storage or distribution medium does not bring the other work under the scope of these terms.
+
+   3. You may copy and distribute the Program (or a portion or derivative of it, under Paragraph 2) in object code or executable form under the terms of Paragraphs 1 and 2 above provided that you also do one of the following:
+
+      a) accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Paragraphs 1 and 2 above; or,
+
+      b) accompany it with a written offer, valid for at least three years, to give any third party free (except for a nominal charge for the cost of distribution) a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Paragraphs 1 and 2 above; or,
+
+      c) accompany it with the information you received as to where the corresponding source code may be obtained. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form alone.)
+
+   Source code for a work means the preferred form of the work for making modifications to it. For an executable file, complete source code means all the source code for all modules it contains; but, as a special exception, it need not include source code for modules which are standard libraries that accompany the operating system on which the executable file runs, or for standard header files or definitions files that accompany that operating system.
+
+   4. You may not copy, modify, sublicense, distribute or transfer the Program except as expressly provided under this General Public License. Any attempt otherwise to copy, modify, sublicense, distribute or transfer the Program is void, and will automatically terminate your rights to use the Program under this License. However, parties who have received copies, or rights to use copies, from you under this General Public License will not have their licenses terminated so long as such parties remain in full compliance.
+
+   5. By copying, distributing or modifying the Program (or any work based on the Program) you indicate your acceptance of this license to do so, and all its terms and conditions.
+
+   6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein.
+
+   7. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+   Each version is given a distinguishing version number. If the Program specifies a version number of the license which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the license, you may choose any version ever published by the Free Software Foundation.
+
+   8. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+
+   NO WARRANTY
+
+   9.
+
+   BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+   10. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS
+
+Appendix: How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to humanity, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+<one line to give the program's name and a brief idea of what it does.>
+
+Copyright (C) 19yy <name of author>
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+Gnomovision version 69, Copyright (C) 19xx name of author Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the program, if necessary. Here a sample; alter the names:
+
+Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (a program to direct compilers to make passes at assemblers) written by James Hacker.
+
+<signature of Ty Coon>, 1 April 1989 Ty Coon, President of Vice
+
+That's all there is to it!
+
+ </text>
+
+
+
+LicenseID: LicenseRef-GPL
+LicenseName: GNU General Public License
+ExtractedText: <text> GPL is referenced without a version number. Please look up GPL in the License Admin to view the different versions. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+ExtractedText: <text> License by Scancode. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+
+LicenseID: LicenseRef-Dual-license
+LicenseName: Dual-license
+ExtractedText: <text> Multi-licensing is the practice of distributing software under two or more different sets of terms and conditions. This may mean multiple different software licenses or sets of licenses. Prefixes may be used to indicate the number of licenses used, e.g. dual-licensed for software licensed under two different licenses.
+When software is multi-licensed, recipients can choose which terms under which they want to use or distribute the software. The distributor may or may not apply a fee to either option. The two usual motivations for multi-licensing are license compatibility and market segregation based business models. </text>
+
