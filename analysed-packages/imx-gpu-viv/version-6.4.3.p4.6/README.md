@@ -15,3 +15,11 @@ Sascha Dierberg
 The information was reviewed by:
 
 * Sascha Teichmann
+
+## Comment
+
+This package is dual licensed under GPL-2.0-or-later OR MIT.
+To facilitate automatic use, a default license choice of MIT
+is denoted in the Acknowledgment section of the OSS disclosure document. 
+This shall not restrict the freedom of users to choose either
+GPL-2.0-or-later OR MIT. Anyway, all license texts are provided.
