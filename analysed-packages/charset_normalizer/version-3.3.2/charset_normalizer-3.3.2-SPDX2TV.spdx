@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://8a175d67a405/repo/SPDX2TV_charset_normalizer-3.3.2.tar.gz_1726835338.spdx
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_charset-normalizer-3.3.2.tar.gz_1730557479.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -13,10 +13,14 @@ SPDXID: SPDXRef-DOCUMENT
 ## Creation Information
 ##-------------------------
 
-Creator: Tool: fossology-4.4.0.15
+Creator: Tool: fossology-4.4.0.51
 Creator: Person: Kanzlei Jun on behalf of AUDI AG
-CreatorComment: <text>This document was created using license information and a generator from Fossology. It contains the license and copyright analysis of charset_normalizer 3.3.2. Please check LicenseComments for explanations of concluded licenses.</text>
-Created: 2024-09-20T12:28:58Z
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of charset_normalizer 3.3.2
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2024-11-02T14:24:40Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -24,28 +28,43 @@ LicenseListVersion: 3.22
 ##-------------------------
 
 
-PackageName: charset_normalizer-3.3.2.tar.gz
-PackageFileName: charset_normalizer-3.3.2.tar.gz
-SPDXID: SPDXRef-upload11867
-PackageDownloadLocation: NOASSERTION
+PackageName: charset-normalizer-3.3.2.tar.gz
+PackageFileName: charset-normalizer-3.3.2.tar.gz
+SPDXID: SPDXRef-upload2198
+PackageDownloadLocation: https://github.com/jawah/charset_normalizer/releases/download/3.3.2/charset-normalizer-3.3.2.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/jawah/charset_normalizer@3.3.2
 FilesAnalyzed: true
-PackageVerificationCode: 6b69e73dbdf617fe1b53f75f687e1c8244ef05e9
-PackageChecksum: SHA1: 2f99fc5ffedbf82d8806eaf12cc208d8583b2a9c
-PackageChecksum: SHA256: 9948e5c17831916ef192cf3f26c744d539eb6f4e9e3b02eea649552c52b10d91
-PackageChecksum: MD5: 0ea50c6b308585fa57151c82be2375ca
-PackageLicenseConcluded: LicenseRef-MIT
-PackageLicenseDeclared: NOASSERTION
+PackageVerificationCode: 5e9db4dea5c80411061943103c6d2ea47575b6ae
+PackageChecksum: SHA1: 68fdc6a7c23ff54f4a0b175977e6d5a5366fb1e0
+PackageChecksum: SHA256: f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5
+PackageChecksum: MD5: 0a4019908d9e50ff13138e8a794d9e2b
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
 PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
- - nomos ("4.4.0.15".5d291e)
- - monk ("4.4.0.15".5d291e)
- - ojo ("4.4.0.15".5d291e)
- - scancode ("4.4.0.15".5d291e)
- - reso (4.1.0.38.78e82f) </text>
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) 
+
+********************************************************************************
+
+Additional information found in: data/NOTICE.md
+
+Included and Redistributed Files
+---------------------------------
+
+17 files are included in the source distribution tar. They are used to verify the standard functions of
+this library. They are mandatory to run `pytest` but not required to make the lib usable after install.
+They DO NOT guarantee that the detection-coverage will not regress.
+
+Those are EITHER pulled from Wikipedia _(CC-BY-SA)_ OR public domain archive.
+You SHALL NOT modify any of those files without explicit approval.
+********************************************************************************
+</text>
 PackageLicenseInfoFromFiles: NOASSERTION
 PackageCopyrightText: NOASSERTION
-PackageAttributionText: <text> TEST </text>
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload11867
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2198
 
 
 ##--------------------------
@@ -54,57 +73,35 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload11867
 
 ##File
 
-FileName: charset_normalizer-3.3.2.tar.gz/charset_normalizer-3.3.2.tar/charset_normalizer-3.3.2/charset_normalizer/__init__.py
-SPDXID: SPDXRef-item19862193
-FileChecksum: SHA1: 77d5af7535e54eaa64ad408e7fcff26d79059eb1
-FileChecksum: SHA256: 533237c42f0f86670b44ccd280f6fa9a29d3991ab4916ce79c2049f1909cd972
-FileChecksum: MD5: 50687f9f222a8417f91d6faa98f26e97
-LicenseConcluded: LicenseRef-MIT
-LicenseInfoInFile: LicenseRef-MIT
-FileCopyrightText: <text> copyright: (c) 2021 by Ahmed TAHRI  </text>
-
-##File
-
-FileName: charset_normalizer-3.3.2.tar.gz/charset_normalizer-3.3.2.tar/charset_normalizer-3.3.2/docs/index.rst
-SPDXID: SPDXRef-item19861758
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/index.rst
+SPDXID: SPDXRef-item9589829
 FileChecksum: SHA1: 2b536d5df1d4b8da0562ec6f3bd38f8c8406a396
 FileChecksum: SHA256: 04d3d4a1c9aa63ffbb5e14b2984d2c6c6d09b3afcbb7151ccc75e60629a31f2f
 FileChecksum: MD5: c566706812d4c56648a44e175d891365
-LicenseConcluded: LicenseRef-MIT
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
 LicenseInfoInFile: LicenseRef-MIT
-LicenseInfoInFile: LicenseRef-fossology-unknown-license-reference
-LicenseInfoInFile: LicenseRef-fossology-warranty-disclaimer
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
 FileCopyrightText: <text> Copyright (C) 2023 Ahmed TAHRI <ahmed(dot)tahri(at)cloudnursery.dev> </text>
 
 ##File
 
-FileName: charset_normalizer-3.3.2.tar.gz/charset_normalizer-3.3.2.tar/charset_normalizer-3.3.2/setup.cfg
-SPDXID: SPDXRef-item19861810
-FileChecksum: SHA1: 63d2d9de8516afef637873681d01fc7d981c7602
-FileChecksum: SHA256: 1e385f7829f516375af3dab7a97ad278944989b98191f4e2002c1b601620601b
-FileChecksum: MD5: f6b0a23b4bb40e129b6d893479c1032d
-LicenseConcluded: LicenseRef-MIT
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/__init__.py
+SPDXID: SPDXRef-item9589810
+FileChecksum: SHA1: 77d5af7535e54eaa64ad408e7fcff26d79059eb1
+FileChecksum: SHA256: 533237c42f0f86670b44ccd280f6fa9a29d3991ab4916ce79c2049f1909cd972
+FileChecksum: MD5: 50687f9f222a8417f91d6faa98f26e97
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+:license: MIT, see LICENSE for more details.
+We checked the LICENSE file in the root directory it contains the text of a MIT license, which we took and concluded MIT as license of this file </text>
 LicenseInfoInFile: LicenseRef-MIT
-FileCopyrightText: NOASSERTION
+FileCopyrightText: <text> copyright (c) 2021 by Ahmed TAHRI </text>
 
 ##File
 
-FileName: charset_normalizer-3.3.2.tar.gz/charset_normalizer-3.3.2.tar/charset_normalizer-3.3.2/README.md
-SPDXID: SPDXRef-item19862007
-FileChecksum: SHA1: 6484238e72ea8d903b73cdaa5e50a97cf7a3ac1a
-FileChecksum: SHA256: 81965b4e20f3028b1b2d78c455ac29c332baee75b5d565f753d0bb25253be725
-FileChecksum: MD5: e5e47b2e9a1b58fa2aa34927de98cfb2
-LicenseConcluded: NOASSERTION
-LicenseInfoInFile: LicenseRef-LGPL-2.1-only
-LicenseInfoInFile: LicenseRef-MPL-1.1
-LicenseInfoInFile: LicenseRef-fossology-MPL
-FileCopyrightText: <text> Copyright � [Ahmed TAHRI @Ousret](https://github.com/Ousret).
-� 2012 [Denny Vrandecic](http://simia.net/letters/) </text>
-
-##File
-
-FileName: charset_normalizer-3.3.2.tar.gz/charset_normalizer-3.3.2.tar/charset_normalizer-3.3.2/LICENSE
-SPDXID: SPDXRef-item19862145
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/LICENSE
+SPDXID: SPDXRef-item9589752
 FileChecksum: SHA1: 753eb879a99db2b65e384b3c1baec552b6134f26
 FileChecksum: SHA256: eb31a0c5a4fb09b8a4e32055d25c1e5f9c358a2752fef3cd720213d1ccfee241
 FileChecksum: MD5: 0974a390827087287db39928f7c524b5
@@ -114,26 +111,810 @@ FileCopyrightText: <text> Copyright (c) 2019 TAHRI Ahmed R. </text>
 
 ##File
 
-FileName: charset_normalizer-3.3.2.tar.gz/charset_normalizer-3.3.2.tar/charset_normalizer-3.3.2/data/NOTICE.md
-SPDXID: SPDXRef-item19861921
-FileChecksum: SHA1: 9ce5b634458da659dbb0ef53b3c4abbc2a1f7e60
-FileChecksum: SHA256: 0cb3efcfd8f7a02a337e98dc3de4b0b57424d7208a332b26e7deb8cb94c13922
-FileChecksum: MD5: 339b9b2e83364dfc4cdd2bf6f837dbd5
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/MANIFEST.in
+SPDXID: SPDXRef-item9589753
+FileChecksum: SHA1: e54c6285293e57093f0a0bd8b3250985881be6e2
+FileChecksum: SHA256: ca4b41f666add307c4507beea5b65d45b45baebd50ab8bd559af417486262c1d
+FileChecksum: MD5: 86a6249c28074771d09f33222ac4c563
 LicenseConcluded: NOASSERTION
-LicenseInfoInFile: LicenseRef-fossology-Public-domain
-LicenseInfoInFile: LicenseRef-CC-BY-SA-3.0
+LicenseInfoInFile: NOASSERTION
 FileCopyrightText: NOASSERTION
 
 ##File
 
-FileName: charset_normalizer-3.3.2.tar.gz/charset_normalizer-3.3.2.tar/charset_normalizer-3.3.2/docs/conf.py
-SPDXID: SPDXRef-item19861802
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/setup.py
+SPDXID: SPDXRef-item9589754
+FileChecksum: SHA1: 65d1e13c2cef8e26f7bb33b283b899ad5eda6e33
+FileChecksum: SHA256: d2b2789c5bada754209d2eed40283812d3fdfe33d287991ab95c00a9b63a324e
+FileChecksum: MD5: 72565469e0493afe3c07a7fa4c7ba99b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/README.md
+SPDXID: SPDXRef-item9589755
+FileChecksum: SHA1: 6484238e72ea8d903b73cdaa5e50a97cf7a3ac1a
+FileChecksum: SHA256: 81965b4e20f3028b1b2d78c455ac29c332baee75b5d565f753d0bb25253be725
+FileChecksum: MD5: e5e47b2e9a1b58fa2aa34927de98cfb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MPL-1.1
+LicenseInfoInFile: LicenseRef-LGPL-2.1-only
+LicenseInfoInFile: LicenseRef-MPL
+FileCopyrightText: <text> Copyright © Ahmed TAHRI @Ousret https://github.com/Ousret
+© 2012 Denny Vrandečić http://simia.net/letters/ </text>
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/dev-requirements.txt
+SPDXID: SPDXRef-item9589756
+FileChecksum: SHA1: da7da7df8e5a362417a2c3c4c21ec664a8f7124a
+FileChecksum: SHA256: d9faabf71742e820d2947f4165585606958ae9501c1384ad3d1731140ae934c1
+FileChecksum: MD5: a54fa38736a3ac875c367e7b215a7eaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer.egg-info/top_level.txt
+SPDXID: SPDXRef-item9589758
+FileChecksum: SHA1: dae3ebdcc69b477d630cd238ad44582110512f1f
+FileChecksum: SHA256: ec04b2cde3ebf3fc6e65626c9ea263201b7257cbe1128d30042bf530f4518b74
+FileChecksum: MD5: 2272ed22c63ebee3f83cd23e68ee7407
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer.egg-info/SOURCES.txt
+SPDXID: SPDXRef-item9589759
+FileChecksum: SHA1: a88aa815dd876f18530f7e94bb402587f5bdf7b8
+FileChecksum: SHA256: dd5dd20031d634d5b88aff82760851e58c511c75cba4e166b737e3cd4c8fbdf2
+FileChecksum: MD5: 9ecb7f3c779033bbb4971e912423bad0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer.egg-info/entry_points.txt
+SPDXID: SPDXRef-item9589760
+FileChecksum: SHA1: eb389bbb99774531f490ba09de2d6fe307718512
+FileChecksum: SHA256: 0034932ab91767786174e5458ba0dc5041d0452d317f10c813fa44cf8c0b2170
+FileChecksum: MD5: 946b4fcd3fcface4499fbdd19855ffaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer.egg-info/dependency_links.txt
+SPDXID: SPDXRef-item9589761
+FileChecksum: SHA1: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+FileChecksum: SHA256: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+FileChecksum: MD5: 68b329da9893e34099c7d8ad5cb9c940
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer.egg-info/PKG-INFO
+SPDXID: SPDXRef-item9589762
+FileChecksum: SHA1: a150b0a6bce2612b0869a1712000f5d031b6f00c
+FileChecksum: SHA256: d0c6b3da5bab931ea38663df3625959ed8441b2ba2fc9f7a8626bfb9e8a49e80
+FileChecksum: MD5: 2cff84f8cc822db2a500762d5b559664
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-MPL-1.1
+LicenseInfoInFile: LicenseRef-LGPL-2.1-only
+LicenseInfoInFile: LicenseRef-MPL
+FileCopyrightText: <text> Copyright © Ahmed TAHRI @Ousret https://github.com/Ousret
+© 2012 Denny Vrandečić http://simia.net/letters/
+Copyright (c) 2019 TAHRI Ahmed R. </text>
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer.egg-info/requires.txt
+SPDXID: SPDXRef-item9589763
+FileChecksum: SHA1: b9b020b41be9784f8d4804c2d70f30ac5972cd84
+FileChecksum: SHA256: 8b972240287d73a24ac2a18c9833e53c693e255931bf5bc6dc2342758512c004
+FileChecksum: MD5: 63f948c42dd200eb8c4bd10c52814464
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/setup.cfg
+SPDXID: SPDXRef-item9589764
+FileChecksum: SHA1: a28d83d96dbe6d8f363a6e203e49dbd6dda21bf0
+FileChecksum: SHA256: a7592d3be6e46b5d3fb5024c988cbe2fc9476ccc01b06083da67f0fe157b0ed2
+FileChecksum: MD5: c2e9cf4ddb3365028c5e04893ea40455
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/PKG-INFO
+SPDXID: SPDXRef-item9589765
+FileChecksum: SHA1: a150b0a6bce2612b0869a1712000f5d031b6f00c
+FileChecksum: SHA256: d0c6b3da5bab931ea38663df3625959ed8441b2ba2fc9f7a8626bfb9e8a49e80
+FileChecksum: MD5: 2cff84f8cc822db2a500762d5b559664
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-MPL-1.1
+LicenseInfoInFile: LicenseRef-LGPL-2.1-only
+LicenseInfoInFile: LicenseRef-MPL
+FileCopyrightText: <text> Copyright © Ahmed TAHRI @Ousret https://github.com/Ousret
+© 2012 Denny Vrandečić http://simia.net/letters/
+Copyright (c) 2019 TAHRI Ahmed R. </text>
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-hebrew-3.txt
+SPDXID: SPDXRef-item9589767
+FileChecksum: SHA1: 99514035326e1848508fe5a3be76fe50f122c8a8
+FileChecksum: SHA256: eb3a0aa5646487ee6b06c7ef8a9223a89cc2c7b920c787f982ba712d8fedf5f4
+FileChecksum: MD5: b91ace1489b4eb81cc5ae0b266798248
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-greek-2.txt
+SPDXID: SPDXRef-item9589768
+FileChecksum: SHA1: ac5dd75748464367e0ea3a44e8b9f6a85b3d7021
+FileChecksum: SHA256: cf9afae3a58f28a422fa8edecf255744a8cffb559262d3b3f7dfa3e1d6f59cb4
+FileChecksum: MD5: 0f13adde331cbb87ea508bfc33625888
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-korean.txt
+SPDXID: SPDXRef-item9589769
+FileChecksum: SHA1: 6f1ef45b1166d6589b50d749633737d562ca29d7
+FileChecksum: SHA256: 281246aaaefceb47f6bc0120b2646ebe1832d57101cc0d7bfaeedfbfed979329
+FileChecksum: MD5: 820ec16acabcdfd0b234e50924f9450b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-arabic.txt
+SPDXID: SPDXRef-item9589770
+FileChecksum: SHA1: c2a0b17b646b620deb36cc60b7b2196eba674c1a
+FileChecksum: SHA256: 3606d50f8dbd20d80aa4470bd89e74696ceda8ec9138f9524330869eb9aafa46
+FileChecksum: MD5: cbb0c925f5288482d0e9ff256997d0ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-arabic-1.txt
+SPDXID: SPDXRef-item9589771
+FileChecksum: SHA1: 4e9f9b17a6c8a1086c7f8222f151e68552f7d90c
+FileChecksum: SHA256: 00c83c71aaf34f6c17ee5ed4e6ad868fe7f281c56d96d5f88f21fc5d39203648
+FileChecksum: MD5: a7f4a2ee8f643f2cb1a41c794efc785e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-spanish.txt
+SPDXID: SPDXRef-item9589772
+FileChecksum: SHA1: 8b448cad132f463ec025003677e324df28b8157b
+FileChecksum: SHA256: b43d16b5398e26565153b1c1118a7f040fa2350493eac5cea51721ffe5367edd
+FileChecksum: MD5: 1dedaf1c60b8f902cee505399a92d03f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-english.bom.txt
+SPDXID: SPDXRef-item9589773
+FileChecksum: SHA1: 4a6132e525ba4daacd99fa5d1a2fb85ff6894e36
+FileChecksum: SHA256: 4a5850a424c075e25e86fbee489561d5869efdb42297ed08ae074238f312e818
+FileChecksum: MD5: b550e1b45d7c690f674592a1633fb3b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-hebrew-2.txt
+SPDXID: SPDXRef-item9589774
+FileChecksum: SHA1: 99514035326e1848508fe5a3be76fe50f122c8a8
+FileChecksum: SHA256: eb3a0aa5646487ee6b06c7ef8a9223a89cc2c7b920c787f982ba712d8fedf5f4
+FileChecksum: MD5: b91ace1489b4eb81cc5ae0b266798248
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-french-1.txt
+SPDXID: SPDXRef-item9589775
+FileChecksum: SHA1: 907f06183180fbd526b85bb19687b3220cea6c99
+FileChecksum: SHA256: 6b88988aa8cfd689df08f91a25ae0ea8032cc28b4557092432849a2712fce716
+FileChecksum: MD5: 78a5011835b30b5febd9c72a866cfb1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-bulgarian.txt
+SPDXID: SPDXRef-item9589776
+FileChecksum: SHA1: 4f171db0c9c55a37efc606a391aca276557c71c9
+FileChecksum: SHA256: d6f347a930569baa7150ab528cfd64420fd9335d89d6617cbed4addec7c4ad30
+FileChecksum: MD5: d557afdd84208c47f5e0d3f969faa242
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-polish.txt
+SPDXID: SPDXRef-item9589777
+FileChecksum: SHA1: 53baf1182ef6f1b9a7e727c026fbd8c175319567
+FileChecksum: SHA256: fe130e75df06b484e1a00cfa6c7679f2ab2b2c44f9a69780b89e729c651e5fcf
+FileChecksum: MD5: a41671dc1504346ab461b3f619e9f764
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-french.txt
+SPDXID: SPDXRef-item9589778
+FileChecksum: SHA1: ba0e10bc9f9a967b8bba63c380c524a2482ae9c9
+FileChecksum: SHA256: ab1b0ebf22b7bd85d2a45600844c0a2c89ba6217b862a6d96b9fa46ce1e132bb
+FileChecksum: MD5: 65f4ed33d071365cd1501c05e2834684
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-russian-3.txt
+SPDXID: SPDXRef-item9589779
+FileChecksum: SHA1: e17e3f1c2b85e247c43e2bb14b0cae24c1707565
+FileChecksum: SHA256: 81c49a881b7175f68201edc41966016b5c0f16ddb4ac4a30407af0e4ac8b84e6
+FileChecksum: MD5: 1a2ecac60ffc35400095bb95732ef61d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-greek.txt
+SPDXID: SPDXRef-item9589780
+FileChecksum: SHA1: ac5dd75748464367e0ea3a44e8b9f6a85b3d7021
+FileChecksum: SHA256: cf9afae3a58f28a422fa8edecf255744a8cffb559262d3b3f7dfa3e1d6f59cb4
+FileChecksum: MD5: 0f13adde331cbb87ea508bfc33625888
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-russian-2.txt
+SPDXID: SPDXRef-item9589781
+FileChecksum: SHA1: a6be5f8a9a5d6fbda0452eb09874978056a21789
+FileChecksum: SHA256: 2492ff4b9b15c174a998457ff02233cd1367bdfa5d7c066145f15616aaaa941a
+FileChecksum: MD5: 4e12e8d9274f2e2a8587b86268222df8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/NOTICE.md
+SPDXID: SPDXRef-item9589782
+FileChecksum: SHA1: 9ce5b634458da659dbb0ef53b3c4abbc2a1f7e60
+FileChecksum: SHA256: 0cb3efcfd8f7a02a337e98dc3de4b0b57424d7208a332b26e7deb8cb94c13922
+FileChecksum: MD5: 339b9b2e83364dfc4cdd2bf6f837dbd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-CC-BY-SA-3.0
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-chinese.txt
+SPDXID: SPDXRef-item9589783
+FileChecksum: SHA1: 99cffbd5649cb8db2a73401166c12ae3a9432f78
+FileChecksum: SHA256: 5f4aa09479ff9366936b242697680f4f0a50dcb3829fb10d855644bc035a7b7a
+FileChecksum: MD5: 8bd3e6ad24381c42520763a3a199e6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-russian.txt
+SPDXID: SPDXRef-item9589784
+FileChecksum: SHA1: aaba3d9ca9bd7b2af5c213d5421d342cc0738efb
+FileChecksum: SHA256: becee0937e700266497ef4cbe84352be0449476a9299a7fc7c18647344e3ff8c
+FileChecksum: MD5: 5fc67c9d543650a5783659110608502c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/data/sample-turkish.txt
+SPDXID: SPDXRef-item9589785
+FileChecksum: SHA1: 45847eba2f87a18a411ecff701f2b3e3406ce0a5
+FileChecksum: SHA256: df265e595aac51e92faafd41afefadbd21b820d1be3eec2e35dab4213fb16fba
+FileChecksum: MD5: 90e6f3cb9fa99c47e8dd25198f7d1497
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_base_detection.py
+SPDXID: SPDXRef-item9589787
+FileChecksum: SHA1: 50e9e6150458871bfedb1bb1d2ca8bc5ad558474
+FileChecksum: SHA256: 141a09b9468f7857b4cb0560b4a8d5d521100e8d643c03c262e2ad9ad973e12b
+FileChecksum: MD5: c8fc5114c74880adc219f757208ba3b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_mess_detection.py
+SPDXID: SPDXRef-item9589788
+FileChecksum: SHA1: 3420e9d42a8f62b58f5f3f15a28d3c43838e4f58
+FileChecksum: SHA256: d61a8b7b8b634261b1e495d24dc90d990f4054a33a6e8c8b508885f93bd139c1
+FileChecksum: MD5: 68f5f400790eb601100b33949f3c674a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_utils.py
+SPDXID: SPDXRef-item9589789
+FileChecksum: SHA1: 18aad50bcc078cb86b9a3f812bebf26ebd68b9b0
+FileChecksum: SHA256: f60ef1f9a846e83d4951d1d3330f5c52c735a935bf123383ecade05304ecbfc0
+FileChecksum: MD5: a7e14a6c0312c38ebad5a9ec5634f4e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_coherence_detection.py
+SPDXID: SPDXRef-item9589790
+FileChecksum: SHA1: 7e0c116ed1437d955a62e514dfb9deacf440d70f
+FileChecksum: SHA256: e76beba334a0e4130ffb4102e305c8a69ee3125bf422a9728b4a9e5bdfa2ada1
+FileChecksum: MD5: 81debf9435ba42b8255ee5cf67724acf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_detect_legacy.py
+SPDXID: SPDXRef-item9589791
+FileChecksum: SHA1: 2d324b71d288a5769c010c372091f20c115b2834
+FileChecksum: SHA256: ad2af7ce98ca939a88e1356480753cce85c5a595c1b0a4cda2436dc4fb6fe6c5
+FileChecksum: MD5: c33532fd808ce6bd62f9f88bf93ce66f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_preemptive_detection.py
+SPDXID: SPDXRef-item9589792
+FileChecksum: SHA1: 48592e505c7409155c3c11e9d70b09c8222cdd1d
+FileChecksum: SHA256: bdf9937f9d5aeaba6d77e2aa8c2e3083ff9fb4e02120bb743cbc0537653ada8d
+FileChecksum: MD5: a96744132ef7ef94daee82b26fba2ef5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_isbinary.py
+SPDXID: SPDXRef-item9589793
+FileChecksum: SHA1: 60375711123e2781837fc541d2a2a48af69198bc
+FileChecksum: SHA256: 83e52ffa6102072daf5e644350c1748b4dcd7d66bd73d5faecdc01b0f56bd195
+FileChecksum: MD5: 45e309682c4266062f3bada55088e491
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/__init__.py
+SPDXID: SPDXRef-item9589794
+FileChecksum: SHA1: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+FileChecksum: SHA256: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+FileChecksum: MD5: 68b329da9893e34099c7d8ad5cb9c940
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_large_payload.py
+SPDXID: SPDXRef-item9589795
+FileChecksum: SHA1: 0d3343c553fd47e4fd0dfb611cdc147f83e3cbe7
+FileChecksum: SHA256: bea48777abc3bc4993b2cc6091a34445c7088aa607fa173875617242674ea7f4
+FileChecksum: MD5: ccc95cabe425eb988065393b06885c29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_logging.py
+SPDXID: SPDXRef-item9589796
+FileChecksum: SHA1: 309ad07e586d8289becd9f370078e4974372aa0d
+FileChecksum: SHA256: 33ed7ed388e1cb84042f290d84257af3f9a50ce04d72fd3c9cff12d00953dc2a
+FileChecksum: MD5: 92474de061cd39ffb67508922cf4a994
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_edge_case.py
+SPDXID: SPDXRef-item9589797
+FileChecksum: SHA1: 6500ac2e0441ef8188e2105e85ce585961570caf
+FileChecksum: SHA256: 0d96a175dc5bd1a7573deec0b606d231a136b08b8b5cbcf5848916deea568f86
+FileChecksum: MD5: e5aa5530c23819b39ddbd62d023ff06a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_cli.py
+SPDXID: SPDXRef-item9589798
+FileChecksum: SHA1: 6e4d2b3330d300402acaa8649aac75fc795877dd
+FileChecksum: SHA256: 827ece1556c89fd03f15cc1eef02476d49c6e1ce0f6e36a5781d51f63d9e14b2
+FileChecksum: MD5: b83d30e39e85e54fc2e7fd230241655d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/tests/test_full_detection.py
+SPDXID: SPDXRef-item9589799
+FileChecksum: SHA1: d00680cd3acf7f26541b476f500d4fbbd17c65b9
+FileChecksum: SHA256: a4726b2ebd1aebff8288ed54a035c0440131a643aeddadc6530fa136f526ba06
+FileChecksum: MD5: 49fbfe60360acec1532a49704ae3baac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/py.typed
+SPDXID: SPDXRef-item9589801
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> NOASSERTION </text>
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/constant.py
+SPDXID: SPDXRef-item9589802
+FileChecksum: SHA1: b7d3c8f2a4c9e368b2dcc07baa1f96781c529a9a
+FileChecksum: SHA256: a7422c3957046cf5983ce7568678516e32b5615072e9fb34e42e6f282fb3a315
+FileChecksum: MD5: 633415e6ed6a61e4f1947c24bdc2eb3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/md.py
+SPDXID: SPDXRef-item9589803
+FileChecksum: SHA1: 9bd8e5b6f5bd7df0a1303b966a65501ecd1863ca
+FileChecksum: SHA256: 3644ae54b2b5dff6bc73b071678706210e6f3ad18858e761db659912f8e9fbb5
+FileChecksum: MD5: 4812775e34c1d3d4f45bf933eb929539
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/legacy.py
+SPDXID: SPDXRef-item9589804
+FileChecksum: SHA1: e10a146820111d52a7f708629f213c45f3c5594a
+FileChecksum: SHA256: 4fe42e54cb0c783890124f164accccaf354983fd7800c7929261dd45885d9759
+FileChecksum: MD5: 7e4ad9d9e838461d8f069ef3eb6a7231
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/version.py
+SPDXID: SPDXRef-item9589805
+FileChecksum: SHA1: 3c9db48805257b39a61bf82e079df5f06740ed7e
+FileChecksum: SHA256: 8872947c70f7903452cab87f04dda88e1e374c0e7e519423bdb5481057e91c3b
+FileChecksum: MD5: c71c1fec8c5c7b8c3398c4a4215266ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/models.py
+SPDXID: SPDXRef-item9589806
+FileChecksum: SHA1: 26b17b9cee8248ddee1fbd9f1889074def68b257
+FileChecksum: SHA256: 2398b4b3868a08280b3d8dad518de9c2480503e0546db37143b8559154edeb6b
+FileChecksum: MD5: aa1b293c447e9b6fdd663e446551ee74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/cli/__init__.py
+SPDXID: SPDXRef-item9589808
+FileChecksum: SHA1: 996c737bd87728bbba8e82da713f4769566dadf5
+FileChecksum: SHA256: 0f9111a7c3fada5966d85ba8333c9d67b77daecf1cbef2d7a84fb5ffaa1588f7
+FileChecksum: MD5: bd3c2195f491c2a45dd50e00c119f4d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/cli/__main__.py
+SPDXID: SPDXRef-item9589809
+FileChecksum: SHA1: c43a8a05bdda2187b3b9261a09c66cda304c8f89
+FileChecksum: SHA256: d85fb1511649ce8d3add87bed912c9db0726511a5b29e0332b0a62c2ceb9740b
+FileChecksum: MD5: 85ec571d0dbdd3a47c08a1ad31b218ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/cd.py
+SPDXID: SPDXRef-item9589811
+FileChecksum: SHA1: 6fbc2e600099f9d7ffc1f244624325b1cc2ad297
+FileChecksum: SHA256: c706658997134050378d4d1cd343d18aef4c3715d317142414b5a6316db86732
+FileChecksum: MD5: f6e23ab5f1ea740901adbc138e412973
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/utils.py
+SPDXID: SPDXRef-item9589812
+FileChecksum: SHA1: c1bc9c2bde0b84f6919892adbb91d8e63037d8d0
+FileChecksum: SHA256: b5e8a8b0cab32a35f20075e719d8d204e827059c31f929016c22ebc74517cbc3
+FileChecksum: MD5: 74955c48852c64457f74a4cd6ca739d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/api.py
+SPDXID: SPDXRef-item9589813
+FileChecksum: SHA1: 8f3547e0e6c384d77dd34c2e41270724c57b9a95
+FileChecksum: SHA256: 58e9568f2eb04fc49e3181696866d76453754cc5dafacf2f6587e42f81b6f624
+FileChecksum: MD5: 8265213a6212b249b27ae588102f3025
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/charset_normalizer/__main__.py
+SPDXID: SPDXRef-item9589814
+FileChecksum: SHA1: 71ade94d6a0a9c23be57030609938e3976af69da
+FileChecksum: SHA256: 27163c6e579a10d38594b45bf477e87990b300c9e7d80d68191e579b67b2aa0d
+FileChecksum: MD5: 8ed08042229108f55f5dc4c15ae234e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/CHANGELOG.md
+SPDXID: SPDXRef-item9589815
+FileChecksum: SHA1: 6954e9ac1d881b762910e6e4d42309e749663b77
+FileChecksum: SHA256: 8ba4637e421586c4d7b9557f92736a75f1b63f4185307b7cb3bf45fb0a6cb44e
+FileChecksum: MD5: fa36c8941cb0bd003b686efc336fb2bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/user/advanced_search.rst
+SPDXID: SPDXRef-item9589818
+FileChecksum: SHA1: fd48f16897ccfd673df5c5e9f858c61b5764d868
+FileChecksum: SHA256: c43d226b3ee748d01c384783ae3c8e9045218c38c9cb3254619432e366324c60
+FileChecksum: MD5: dfc66ca271ca599ec06a7525bfd5ec0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/user/getstarted.rst
+SPDXID: SPDXRef-item9589819
+FileChecksum: SHA1: 5154b341860b768a40546ad83489214d4b22a093
+FileChecksum: SHA256: 65ed6cdf9ccc8bfd5e5875bbc3f88e8531c466c3acab733b2a2bb1c1eab976b9
+FileChecksum: MD5: b4cef075150dca7dc89551cdf38d9455
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/user/handling_result.rst
+SPDXID: SPDXRef-item9589820
+FileChecksum: SHA1: b106a928f677780af8fa3e3a6037559efa272242
+FileChecksum: SHA256: 81b091c985db9fa2dc7e0ae8e8c11e7bacf9a9a8a9357315d76fbb2730f2e031
+FileChecksum: MD5: 74f01e1f01e51cde2620c4e467d48ada
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/user/support.rst
+SPDXID: SPDXRef-item9589821
+FileChecksum: SHA1: 6069836aef06f607f4883bc635232e3b6d4c319e
+FileChecksum: SHA256: 3fc0aac74b95c320101976cf28f88f62681298cc0cd96ba7f3f8a952458b7682
+FileChecksum: MD5: e5893013314988bbb034b9d147c8ee44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/user/miscellaneous.rst
+SPDXID: SPDXRef-item9589822
+FileChecksum: SHA1: f9dfa4c755b9148a31421523c1964366138d8fde
+FileChecksum: SHA256: 4327802a6133d7b7e8e74c61c8624dd75a16265031146b788c45492149d6e525
+FileChecksum: MD5: b84de14ee06d550dcfb810825f672352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/user/cli.rst
+SPDXID: SPDXRef-item9589823
+FileChecksum: SHA1: 6eea8fd32d13aafd9c4901845c17b18bc9bb0086
+FileChecksum: SHA256: e615d829d5871a9a8a3db6098b5f533ceb4750819f4817a3e44cd7dd3e7da662
+FileChecksum: MD5: d39be6641d1b7cfcb6ebbdf64cfcdbef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/make.bat
+SPDXID: SPDXRef-item9589824
+FileChecksum: SHA1: 8b96a76818d56f0f9101afc142a12ad91205bda2
+FileChecksum: SHA256: 771a2ae411cb6099501cd244cb48702bfe58ff6a1ba3a9ea57abe7bbd23b358b
+FileChecksum: MD5: 9ae2d77141428223f3bd6e8d3a814494
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/Makefile
+SPDXID: SPDXRef-item9589825
+FileChecksum: SHA1: 6663c336c97b7764a8ee01e514c1085c25eba7d4
+FileChecksum: SHA256: 48a9fa670e79d53616ffb67b29204d53cd453250a26a387feaabbb7d6b1d737f
+FileChecksum: MD5: a475f133eb4848dcfe5947b76fc9b06c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/api.rst
+SPDXID: SPDXRef-item9589826
+FileChecksum: SHA1: a5e8d536c4a53f7a9cb8c3172ea3fae120f927a1
+FileChecksum: SHA256: 218383450ba35489ff22fbd0b5fc7d20a1f099a27d2b7732d1c76c9ccc460211
+FileChecksum: MD5: 01c8cd3d6b61207e21bbf6b8007ab3a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/conf.py
+SPDXID: SPDXRef-item9589827
 FileChecksum: SHA1: 87ff527d3bf200f872b6fa8756672f7e30447f01
 FileChecksum: SHA256: 5f4464269781fa8c674870e9dc734b2ea96273d9da41af8d717f45cdb895ee8c
 FileChecksum: MD5: 8cee936d7a720e46429ae43ee41bfd4a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
-FileCopyrightText: <text> copyright = '2023, Ahmed TAHRI' author = 'Ahmed TAHRI' </text>
+FileCopyrightText: <text> copyright 2023, Ahmed TAHRI </text>
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/requirements.txt
+SPDXID: SPDXRef-item9589828
+FileChecksum: SHA1: 5810ddb4030588ad5f1ac2acf3b5e8e571cd7bb8
+FileChecksum: SHA256: b9062d8c90535098aa8a0e0530777d840c78687f6646bdc0ce1a3b879f51d77f
+FileChecksum: MD5: a6160006086193f1541b2ea95f8dca57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/community/why_migrate.rst
+SPDXID: SPDXRef-item9589831
+FileChecksum: SHA1: 86f67fbb900b9bafc6e17259f095aaf898a69d5f
+FileChecksum: SHA256: 74fd0e76897a0084ccf2d966148c63f02c8d5b4bc9618a614ddd17674ddb2b48
+FileChecksum: MD5: b0e84ef3f515d80524f7b4073b99b438
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/community/featured.rst
+SPDXID: SPDXRef-item9589832
+FileChecksum: SHA1: 9fe0d0935f9babebc1eb0868c2c5b359ed69a311
+FileChecksum: SHA256: be9819edde0e36255c12bb8f9ef2c4aa99495b459f1428f79a2fba452821fd44
+FileChecksum: MD5: 943d8d3e00a570d63dfee828b09097cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/community/speedup.rst
+SPDXID: SPDXRef-item9589833
+FileChecksum: SHA1: cf73149e47ded6e4589ee60298786c2acd8b52cc
+FileChecksum: SHA256: 6fb2ef7a4a90b576dd54eedecfdde3fb214a8972095203484965ff63087bd8a5
+FileChecksum: MD5: b2fb4a9a9907776669def94eec8b4f0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: charset-normalizer-3.3.2.tar.gz/charset-normalizer-3.3.2.tar/charset-normalizer-3.3.2/docs/community/faq.rst
+SPDXID: SPDXRef-item9589834
+FileChecksum: SHA1: 142b21ac211e13c396e7d163068ea704c86fd9b8
+FileChecksum: SHA256: f51e34b07b5212c963adb15b44714cd0ec5c6649f2090c53b1253c02ab00c9c6
+FileChecksum: MD5: 469e6f33c3b99bc8537f68104a501342
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
 
 
 
@@ -268,19 +1049,193 @@ express Statement of Purpose.
     this CC0 or use of the Work.
  </text>
 
+  
+
+LicenseID: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. </text>
+
 
   
 LicenseID: LicenseRef-MIT
 LicenseName: MIT License
 ExtractedText: <text> MIT License
 
-Copyright (c) <year> <copyright holders>
-
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+
+  
+LicenseID: LicenseRef-MPL-1.1
+LicenseName: Mozilla Public License 1.1
+ExtractedText: <text> Mozilla Public License Version 1.1
+
+1. Definitions.
+
+     1.0.1. "Commercial Use" means distribution or otherwise making the Covered Code available to a third party.
+
+     1.1. "Contributor" means each entity that creates or contributes to the creation of Modifications.
+
+     1.2. "Contributor Version" means the combination of the Original Code, prior Modifications used by a Contributor, and the Modifications made by that particular Contributor.
+
+     1.3. "Covered Code" means the Original Code or Modifications or the combination of the Original Code and Modifications, in each case including portions thereof.
+
+     1.4. "Electronic Distribution Mechanism" means a mechanism generally accepted in the software development community for the electronic transfer of data.
+
+     1.5. "Executable" means Covered Code in any form other than Source Code.
+
+     1.6. "Initial Developer" means the individual or entity identified as the Initial Developer in the Source Code notice required by Exhibit A.
+
+     1.7. "Larger Work" means a work which combines Covered Code or portions thereof with code not governed by the terms of this License.
+
+     1.8. "License" means this document.
+
+     1.8.1. "Licensable" means having the right to grant, to the maximum extent possible, whether at the time of the initial grant or subsequently acquired, any and all of the rights conveyed herein.
+
+     1.9. "Modifications" means any addition to or deletion from the substance or structure of either the Original Code or any previous Modifications. When Covered Code is released as a series of files, a Modification is:
+Any addition to or deletion from the contents of a file containing Original Code or previous Modifications.
+Any new file that contains any part of the Original Code or previous Modifications.
+
+     1.10. "Original Code" means Source Code of computer software code which is described in the Source Code notice required by Exhibit A as Original Code, and which, at the time of its release under this License is not already Covered Code governed by this License.
+
+     1.10.1. "Patent Claims" means any patent claim(s), now owned or hereafter acquired, including without limitation, method, process, and apparatus claims, in any patent Licensable by grantor.
+
+     1.11. "Source Code" means the preferred form of the Covered Code for making modifications to it, including all modules it contains, plus any associated interface definition files, scripts used to control compilation and installation of an Executable, or source code differential comparisons against either the Original Code or another well known, available Covered Code of the Contributor's choice. The Source Code can be in a compressed or archival form, provided the appropriate decompression or de-archiving software is widely available for no charge.
+
+     1.12. "You" (or "Your") means an individual or a legal entity exercising rights under, and complying with all of the terms of, this License or a future version of this License issued under Section 6.1. For legal entities, "You" includes any entity which controls, is controlled by, or is under common control with You. For purposes of this definition, "control" means (a) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (b) ownership of more than fifty percent (50%) of the outstanding shares or beneficial ownership of such entity.
+
+2. Source Code License.
+
+     2.1. The Initial Developer Grant. The Initial Developer hereby grants You a world-wide, royalty-free, non-exclusive license, subject to third party intellectual property claims:
+
+          a. under intellectual property rights (other than patent or trademark) Licensable by Initial Developer to use, reproduce, modify, display, perform, sublicense and distribute the Original Code (or portions thereof) with or without Modifications, and/or as part of a Larger Work; and
+          b. under Patents Claims infringed by the making, using or selling of Original Code, to make, have made, use, practice, sell, and offer for sale, and/or otherwise dispose of the Original Code (or portions thereof).
+          c. the licenses granted in this Section 2.1 (a) and (b) are effective on the date Initial Developer first distributes Original Code under the terms of this License.
+          d. Notwithstanding Section 2.1 (b) above, no patent license is granted: 1) for code that You delete from the Original Code; 2) separate from the Original Code; or 3) for infringements caused by: i) the modification of the Original Code or ii) the combination of the Original Code with other software or devices.
+
+     2.2. Contributor Grant. Subject to third party intellectual property claims, each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license
+
+          a. under intellectual property rights (other than patent or trademark) Licensable by Contributor, to use, reproduce, modify, display, perform, sublicense and distribute the Modifications created by such Contributor (or portions thereof) either on an unmodified basis, with other Modifications, as Covered Code and/or as part of a Larger Work; and
+          b. under Patent Claims infringed by the making, using, or selling of Modifications made by that Contributor either alone and/or in combination with its Contributor Version (or portions of such combination), to make, use, sell, offer for sale, have made, and/or otherwise dispose of: 1) Modifications made by that Contributor (or portions thereof); and 2) the combination of Modifications made by that Contributor with its Contributor Version (or portions of such combination).
+          c. the licenses granted in Sections 2.2 (a) and 2.2 (b) are effective on the date Contributor first makes Commercial Use of the Covered Code.
+          d. Notwithstanding Section 2.2 (b) above, no patent license is granted: 1) for any code that Contributor has deleted from the Contributor Version; 2) separate from the Contributor Version; 3) for infringements caused by: i) third party modifications of Contributor Version or ii) the combination of Modifications made by that Contributor with other software (except as part of the Contributor Version) or other devices; or 4) under Patent Claims infringed by Covered Code in the absence of Modifications made by that Contributor.
+
+3. Distribution Obligations.
+
+     3.1. Application of License. The Modifications which You create or to which You contribute are governed by the terms of this License, including without limitation Section 2.2. The Source Code version of Covered Code may be distributed only under the terms of this License or a future version of this License released under Section 6.1, and You must include a copy of this License with every copy of the Source Code You distribute. You may not offer or impose any terms on any Source Code version that alters or restricts the applicable version of this License or the recipients' rights hereunder. However, You may include an additional document offering the additional rights described in Section 3.5.
+
+     3.2. Availability of Source Code. Any Modification which You create or to which You contribute must be made available in Source Code form under the terms of this License either on the same media as an Executable version or via an accepted Electronic Distribution Mechanism to anyone to whom you made an Executable version available; and if made available via Electronic Distribution Mechanism, must remain available for at least twelve (12) months after the date it initially became available, or at least six (6) months after a subsequent version of that particular Modification has been made available to such recipients. You are responsible for ensuring that the Source Code version remains available even if the Electronic Distribution Mechanism is maintained by a third party.
+
+     3.3. Description of Modifications. You must cause all Covered Code to which You contribute to contain a file documenting the changes You made to create that Covered Code and the date of any change. You must include a prominent statement that the Modification is derived, directly or indirectly, from Original Code provided by the Initial Developer and including the name of the Initial Developer in (a) the Source Code, and (b) in any notice in an Executable version or related documentation in which You describe the origin or ownership of the Covered Code.
+
+     3.4. Intellectual Property Matters
+
+          (a) Third Party Claims
+          If Contributor has knowledge that a license under a third party's intellectual property rights is required to exercise the rights granted by such Contributor under Sections 2.1 or 2.2, Contributor must include a text file with the Source Code distribution titled "LEGAL" which describes the claim and the party making the claim in sufficient detail that a recipient will know whom to contact. If Contributor obtains such knowledge after the Modification is made available as described in Section 3.2, Contributor shall promptly modify the LEGAL file in all copies Contributor makes available thereafter and shall take other steps (such as notifying appropriate mailing lists or newsgroups) reasonably calculated to inform those who received the Covered Code that new knowledge has been obtained.
+
+          (b) Contributor APIs
+          If Contributor's Modifications include an application programming interface and Contributor has knowledge of patent licenses which are reasonably necessary to implement that API, Contributor must also include this information in the LEGAL file.
+
+          (c) Representations.
+          Contributor represents that, except as disclosed pursuant to Section 3.4 (a) above, Contributor believes that Contributor's Modifications are Contributor's original creation(s) and/or Contributor has sufficient rights to grant the rights conveyed by this License.
+
+     3.5. Required Notices. You must duplicate the notice in Exhibit A in each file of the Source Code. If it is not possible to put such notice in a particular Source Code file due to its structure, then You must include such notice in a location (such as a relevant directory) where a user would be likely to look for such a notice. If You created one or more Modification(s) You may add your name as a Contributor to the notice described in Exhibit A. You must also duplicate this License in any documentation for the Source Code where You describe recipients' rights or ownership rights relating to Covered Code. You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations to one or more recipients of Covered Code. However, You may do so only on Your own behalf, and not on behalf of the Initial Developer or any Contributor. You must make it absolutely clear than any such warranty, support, indemnity or liability obligation is offered by You alone, and You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of warranty, support, indemnity or liability terms You offer.
+
+     3.6. Distribution of Executable Versions. You may distribute Covered Code in Executable form only if the requirements of Sections 3.1, 3.2, 3.3, 3.4 and 3.5 have been met for that Covered Code, and if You include a notice stating that the Source Code version of the Covered Code is available under the terms of this License, including a description of how and where You have fulfilled the obligations of Section 3.2. The notice must be conspicuously included in any notice in an Executable version, related documentation or collateral in which You describe recipients' rights relating to the Covered Code. You may distribute the Executable version of Covered Code or ownership rights under a license of Your choice, which may contain terms different from this License, provided that You are in compliance with the terms of this License and that the license for the Executable version does not attempt to limit or alter the recipient's rights in the Source Code version from the rights set forth in this License. If You distribute the Executable version under a different license You must make it absolutely clear that any terms which differ from this License are offered by You alone, not by the Initial Developer or any Contributor. You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of any such terms You offer.
+
+     3.7. Larger Works. You may create a Larger Work by combining Covered Code with other code not governed by the terms of this License and distribute the Larger Work as a single product. In such a case, You must make sure the requirements of this License are fulfilled for the Covered Code.
+
+4. Inability to Comply Due to Statute or Regulation.
+
+If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Code due to statute, judicial order, or regulation then You must: (a) comply with the terms of this License to the maximum extent possible; and (b) describe the limitations and the code they affect. Such description must be included in the LEGAL file described in Section 3.4 and must be included with all distributions of the Source Code. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill to be able to understand it.
+
+5. Application of this License.
+This License applies to code to which the Initial Developer has attached the notice in Exhibit A and to related Covered Code.
+
+6. Versions of the License.
+
+     6.1. New Versions
+     Netscape Communications Corporation ("Netscape") may publish revised and/or new versions of the License from time to time. Each version will be given a distinguishing version number.
+
+     6.2. Effect of New Versions
+     Once Covered Code has been published under a particular version of the License, You may always continue to use it under the terms of that version. You may also choose to use such Covered Code under the terms of any subsequent version of the License published by Netscape. No one other than Netscape has the right to modify the terms applicable to Covered Code created under this License.
+
+     6.3. Derivative Works
+     If You create or use a modified version of this License (which you may only do in order to apply it to code which is not already Covered Code governed by this License), You must (a) rename Your license so that the phrases "Mozilla", "MOZILLAPL", "MOZPL", "Netscape", "MPL", "NPL" or any confusingly similar phrase do not appear in your license (except to note that your license differs from this License) and (b) otherwise make it clear that Your version of the license contains terms which differ from the Mozilla Public License and Netscape Public License. (Filling in the name of the Initial Developer, Original Code or Contributor in the notice described in Exhibit A shall not of themselves be deemed to be modifications of this License.)
+
+7. DISCLAIMER OF WARRANTY
+COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED CODE IS WITH YOU. SHOULD ANY COVERED CODE PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY COVERED CODE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.
+
+8. Termination
+
+     8.1. This License and the rights granted hereunder will terminate automatically if You fail to comply with terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses to the Covered Code which are properly granted shall survive any termination of this License. Provisions which, by their nature, must remain in effect beyond the termination of this License shall survive.
+
+     8.2. If You initiate litigation by asserting a patent infringement claim (excluding declatory judgment actions) against Initial Developer or a Contributor (the Initial Developer or Contributor against whom You file such action is referred to as "Participant") alleging that:
+
+          a. such Participant's Contributor Version directly or indirectly infringes any patent, then any and all rights granted by such Participant to You under Sections 2.1 and/or 2.2 of this License shall, upon 60 days notice from Participant terminate prospectively, unless if within 60 days after receipt of notice You either: (i) agree in writing to pay Participant a mutually agreeable reasonable royalty for Your past and future use of Modifications made by such Participant, or (ii) withdraw Your litigation claim with respect to the Contributor Version against such Participant. If within 60 days of notice, a reasonable royalty and payment arrangement are not mutually agreed upon in writing by the parties or the litigation claim is not withdrawn, the rights granted by Participant to You under Sections 2.1 and/or 2.2 automatically terminate at the expiration of the 60 day notice period specified above.
+          b. any software, hardware, or device, other than such Participant's Contributor Version, directly or indirectly infringes any patent, then any rights granted to You by such Participant under Sections 2.1(b) and 2.2(b) are revoked effective as of the date You first made, used, sold, distributed, or had made, Modifications made by that Participant.
+
+     8.3. If You assert a patent infringement claim against Participant alleging that such Participant's Contributor Version directly or indirectly infringes any patent where such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such Participant under Sections 2.1 or 2.2 shall be taken into account in determining the amount or value of any payment or license.
+
+     8.4. In the event of termination under Sections 8.1 or 8.2 above, all end user license agreements (excluding distributors and resellers) which have been validly granted by You or any distributor hereunder prior to termination shall survive termination.
+
+9. LIMITATION OF LIABILITY
+UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL YOU, THE INITIAL DEVELOPER, ANY OTHER CONTRIBUTOR, OR ANY DISTRIBUTOR OF COVERED CODE, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY'S NEGLIGENCE TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.
+
+10. U.S. government end users
+The Covered Code is a "commercial item," as that term is defined in 48 C.F.R. 2.101 (Oct. 1995), consisting of "commercial computer software" and "commercial computer software documentation," as such terms are used in 48 C.F.R. 12.212 (Sept. 1995). Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4 (June 1995), all U.S. Government End Users acquire Covered Code with only those rights set forth herein.
+
+11. Miscellaneous
+This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. This License shall be governed by California law provisions (except to the extent applicable law, if any, provides otherwise), excluding its conflict-of-law provisions. With respect to disputes in which at least one party is a citizen of, or an entity chartered or registered to do business in the United States of America, any litigation relating to this License shall be subject to the jurisdiction of the Federal Courts of the Northern District of California, with venue lying in Santa Clara County, California, with the losing party responsible for costs, including without limitation, court costs and reasonable attorneys' fees and expenses. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not apply to this License.
+
+12. Responsibility for claims
+As between Initial Developer and the Contributors, each party is responsible for claims and damages arising, directly or indirectly, out of its utilization of rights under this License and You agree to work with Initial Developer and Contributors to distribute such responsibility on an equitable basis. Nothing herein is intended or shall be deemed to constitute any admission of liability.
+
+13. Multiple-licensed code
+Initial Developer may designate portions of the Covered Code as "Multiple-Licensed". "Multiple-Licensed" means that the Initial Developer permits you to utilize portions of the Covered Code under Your choice of the MPL or the alternative licenses, if any, specified by the Initial Developer in the file described in Exhibit A.
+
+Exhibit A - Mozilla Public License.
+
+"The contents of this file are subject to the Mozilla Public License Version 1.1 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+
+Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
+
+The Original Code is ______________________________________.
+
+The Initial Developer of the Original Code is ________________________.
+Portions created by ______________________ are Copyright (C) ______
+_______________________. All Rights Reserved.
+
+Contributor(s): ______________________________________.
+
+Alternatively, the contents of this file may be used under the terms of the _____ license (the  "[___] License"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the MPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the MPL or the [___] License."
+
+NOTE: The text of this Exhibit A may differ slightly from the text of the notices in the Source Code files of the Original Code. You should use the text of this Exhibit A rather than the text found in the Original Code Source Code for Your Modifications.
  </text>
 
 
@@ -466,176 +1421,9 @@ That's all there is to it!
 
 
 
-LicenseID: LicenseRef-fossology-unknown-license-reference
-LicenseName: Unknown License file reference
-ExtractedText: <text> License by Scancode. </text>
-
-
-  
-LicenseID: LicenseRef-MPL-1.1
-LicenseName: Mozilla Public License 1.1
-ExtractedText: <text> Mozilla Public License Version 1.1
-
-1. Definitions.
-
-     1.0.1. "Commercial Use" means distribution or otherwise making the Covered Code available to a third party.
-
-     1.1. "Contributor" means each entity that creates or contributes to the creation of Modifications.
-
-     1.2. "Contributor Version" means the combination of the Original Code, prior Modifications used by a Contributor, and the Modifications made by that particular Contributor.
-
-     1.3. "Covered Code" means the Original Code or Modifications or the combination of the Original Code and Modifications, in each case including portions thereof.
-
-     1.4. "Electronic Distribution Mechanism" means a mechanism generally accepted in the software development community for the electronic transfer of data.
-
-     1.5. "Executable" means Covered Code in any form other than Source Code.
-
-     1.6. "Initial Developer" means the individual or entity identified as the Initial Developer in the Source Code notice required by Exhibit A.
-
-     1.7. "Larger Work" means a work which combines Covered Code or portions thereof with code not governed by the terms of this License.
-
-     1.8. "License" means this document.
-
-     1.8.1. "Licensable" means having the right to grant, to the maximum extent possible, whether at the time of the initial grant or subsequently acquired, any and all of the rights conveyed herein.
-
-     1.9. "Modifications" means any addition to or deletion from the substance or structure of either the Original Code or any previous Modifications. When Covered Code is released as a series of files, a Modification is:
-Any addition to or deletion from the contents of a file containing Original Code or previous Modifications.
-Any new file that contains any part of the Original Code or previous Modifications.
-
-     1.10. "Original Code" means Source Code of computer software code which is described in the Source Code notice required by Exhibit A as Original Code, and which, at the time of its release under this License is not already Covered Code governed by this License.
-
-     1.10.1. "Patent Claims" means any patent claim(s), now owned or hereafter acquired, including without limitation, method, process, and apparatus claims, in any patent Licensable by grantor.
-
-     1.11. "Source Code" means the preferred form of the Covered Code for making modifications to it, including all modules it contains, plus any associated interface definition files, scripts used to control compilation and installation of an Executable, or source code differential comparisons against either the Original Code or another well known, available Covered Code of the Contributor's choice. The Source Code can be in a compressed or archival form, provided the appropriate decompression or de-archiving software is widely available for no charge.
-
-     1.12. "You" (or "Your") means an individual or a legal entity exercising rights under, and complying with all of the terms of, this License or a future version of this License issued under Section 6.1. For legal entities, "You" includes any entity which controls, is controlled by, or is under common control with You. For purposes of this definition, "control" means (a) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (b) ownership of more than fifty percent (50%) of the outstanding shares or beneficial ownership of such entity.
-
-2. Source Code License.
-
-     2.1. The Initial Developer Grant. The Initial Developer hereby grants You a world-wide, royalty-free, non-exclusive license, subject to third party intellectual property claims:
-
-          a. under intellectual property rights (other than patent or trademark) Licensable by Initial Developer to use, reproduce, modify, display, perform, sublicense and distribute the Original Code (or portions thereof) with or without Modifications, and/or as part of a Larger Work; and
-          b. under Patents Claims infringed by the making, using or selling of Original Code, to make, have made, use, practice, sell, and offer for sale, and/or otherwise dispose of the Original Code (or portions thereof).
-          c. the licenses granted in this Section 2.1 (a) and (b) are effective on the date Initial Developer first distributes Original Code under the terms of this License.
-          d. Notwithstanding Section 2.1 (b) above, no patent license is granted: 1) for code that You delete from the Original Code; 2) separate from the Original Code; or 3) for infringements caused by: i) the modification of the Original Code or ii) the combination of the Original Code with other software or devices.
-
-     2.2. Contributor Grant. Subject to third party intellectual property claims, each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license
-
-          a. under intellectual property rights (other than patent or trademark) Licensable by Contributor, to use, reproduce, modify, display, perform, sublicense and distribute the Modifications created by such Contributor (or portions thereof) either on an unmodified basis, with other Modifications, as Covered Code and/or as part of a Larger Work; and
-          b. under Patent Claims infringed by the making, using, or selling of Modifications made by that Contributor either alone and/or in combination with its Contributor Version (or portions of such combination), to make, use, sell, offer for sale, have made, and/or otherwise dispose of: 1) Modifications made by that Contributor (or portions thereof); and 2) the combination of Modifications made by that Contributor with its Contributor Version (or portions of such combination).
-          c. the licenses granted in Sections 2.2 (a) and 2.2 (b) are effective on the date Contributor first makes Commercial Use of the Covered Code.
-          d. Notwithstanding Section 2.2 (b) above, no patent license is granted: 1) for any code that Contributor has deleted from the Contributor Version; 2) separate from the Contributor Version; 3) for infringements caused by: i) third party modifications of Contributor Version or ii) the combination of Modifications made by that Contributor with other software (except as part of the Contributor Version) or other devices; or 4) under Patent Claims infringed by Covered Code in the absence of Modifications made by that Contributor.
-
-3. Distribution Obligations.
-
-     3.1. Application of License. The Modifications which You create or to which You contribute are governed by the terms of this License, including without limitation Section 2.2. The Source Code version of Covered Code may be distributed only under the terms of this License or a future version of this License released under Section 6.1, and You must include a copy of this License with every copy of the Source Code You distribute. You may not offer or impose any terms on any Source Code version that alters or restricts the applicable version of this License or the recipients' rights hereunder. However, You may include an additional document offering the additional rights described in Section 3.5.
-
-     3.2. Availability of Source Code. Any Modification which You create or to which You contribute must be made available in Source Code form under the terms of this License either on the same media as an Executable version or via an accepted Electronic Distribution Mechanism to anyone to whom you made an Executable version available; and if made available via Electronic Distribution Mechanism, must remain available for at least twelve (12) months after the date it initially became available, or at least six (6) months after a subsequent version of that particular Modification has been made available to such recipients. You are responsible for ensuring that the Source Code version remains available even if the Electronic Distribution Mechanism is maintained by a third party.
-
-     3.3. Description of Modifications. You must cause all Covered Code to which You contribute to contain a file documenting the changes You made to create that Covered Code and the date of any change. You must include a prominent statement that the Modification is derived, directly or indirectly, from Original Code provided by the Initial Developer and including the name of the Initial Developer in (a) the Source Code, and (b) in any notice in an Executable version or related documentation in which You describe the origin or ownership of the Covered Code.
-
-     3.4. Intellectual Property Matters
-
-          (a) Third Party Claims
-          If Contributor has knowledge that a license under a third party's intellectual property rights is required to exercise the rights granted by such Contributor under Sections 2.1 or 2.2, Contributor must include a text file with the Source Code distribution titled "LEGAL" which describes the claim and the party making the claim in sufficient detail that a recipient will know whom to contact. If Contributor obtains such knowledge after the Modification is made available as described in Section 3.2, Contributor shall promptly modify the LEGAL file in all copies Contributor makes available thereafter and shall take other steps (such as notifying appropriate mailing lists or newsgroups) reasonably calculated to inform those who received the Covered Code that new knowledge has been obtained.
-
-          (b) Contributor APIs
-          If Contributor's Modifications include an application programming interface and Contributor has knowledge of patent licenses which are reasonably necessary to implement that API, Contributor must also include this information in the LEGAL file.
-
-          (c) Representations.
-          Contributor represents that, except as disclosed pursuant to Section 3.4 (a) above, Contributor believes that Contributor's Modifications are Contributor's original creation(s) and/or Contributor has sufficient rights to grant the rights conveyed by this License.
-
-     3.5. Required Notices. You must duplicate the notice in Exhibit A in each file of the Source Code. If it is not possible to put such notice in a particular Source Code file due to its structure, then You must include such notice in a location (such as a relevant directory) where a user would be likely to look for such a notice. If You created one or more Modification(s) You may add your name as a Contributor to the notice described in Exhibit A. You must also duplicate this License in any documentation for the Source Code where You describe recipients' rights or ownership rights relating to Covered Code. You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations to one or more recipients of Covered Code. However, You may do so only on Your own behalf, and not on behalf of the Initial Developer or any Contributor. You must make it absolutely clear than any such warranty, support, indemnity or liability obligation is offered by You alone, and You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of warranty, support, indemnity or liability terms You offer.
-
-     3.6. Distribution of Executable Versions. You may distribute Covered Code in Executable form only if the requirements of Sections 3.1, 3.2, 3.3, 3.4 and 3.5 have been met for that Covered Code, and if You include a notice stating that the Source Code version of the Covered Code is available under the terms of this License, including a description of how and where You have fulfilled the obligations of Section 3.2. The notice must be conspicuously included in any notice in an Executable version, related documentation or collateral in which You describe recipients' rights relating to the Covered Code. You may distribute the Executable version of Covered Code or ownership rights under a license of Your choice, which may contain terms different from this License, provided that You are in compliance with the terms of this License and that the license for the Executable version does not attempt to limit or alter the recipient's rights in the Source Code version from the rights set forth in this License. If You distribute the Executable version under a different license You must make it absolutely clear that any terms which differ from this License are offered by You alone, not by the Initial Developer or any Contributor. You hereby agree to indemnify the Initial Developer and every Contributor for any liability incurred by the Initial Developer or such Contributor as a result of any such terms You offer.
-
-     3.7. Larger Works. You may create a Larger Work by combining Covered Code with other code not governed by the terms of this License and distribute the Larger Work as a single product. In such a case, You must make sure the requirements of this License are fulfilled for the Covered Code.
-
-4. Inability to Comply Due to Statute or Regulation.
-
-If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Code due to statute, judicial order, or regulation then You must: (a) comply with the terms of this License to the maximum extent possible; and (b) describe the limitations and the code they affect. Such description must be included in the LEGAL file described in Section 3.4 and must be included with all distributions of the Source Code. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill to be able to understand it.
-
-5. Application of this License.
-This License applies to code to which the Initial Developer has attached the notice in Exhibit A and to related Covered Code.
-
-6. Versions of the License.
-
-     6.1. New Versions
-     Netscape Communications Corporation ("Netscape") may publish revised and/or new versions of the License from time to time. Each version will be given a distinguishing version number.
-
-     6.2. Effect of New Versions
-     Once Covered Code has been published under a particular version of the License, You may always continue to use it under the terms of that version. You may also choose to use such Covered Code under the terms of any subsequent version of the License published by Netscape. No one other than Netscape has the right to modify the terms applicable to Covered Code created under this License.
-
-     6.3. Derivative Works
-     If You create or use a modified version of this License (which you may only do in order to apply it to code which is not already Covered Code governed by this License), You must (a) rename Your license so that the phrases "Mozilla", "MOZILLAPL", "MOZPL", "Netscape", "MPL", "NPL" or any confusingly similar phrase do not appear in your license (except to note that your license differs from this License) and (b) otherwise make it clear that Your version of the license contains terms which differ from the Mozilla Public License and Netscape Public License. (Filling in the name of the Initial Developer, Original Code or Contributor in the notice described in Exhibit A shall not of themselves be deemed to be modifications of this License.)
-
-7. DISCLAIMER OF WARRANTY
-COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED CODE IS WITH YOU. SHOULD ANY COVERED CODE PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY COVERED CODE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.
-
-8. Termination
-
-     8.1. This License and the rights granted hereunder will terminate automatically if You fail to comply with terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses to the Covered Code which are properly granted shall survive any termination of this License. Provisions which, by their nature, must remain in effect beyond the termination of this License shall survive.
-
-     8.2. If You initiate litigation by asserting a patent infringement claim (excluding declatory judgment actions) against Initial Developer or a Contributor (the Initial Developer or Contributor against whom You file such action is referred to as "Participant") alleging that:
-
-          a. such Participant's Contributor Version directly or indirectly infringes any patent, then any and all rights granted by such Participant to You under Sections 2.1 and/or 2.2 of this License shall, upon 60 days notice from Participant terminate prospectively, unless if within 60 days after receipt of notice You either: (i) agree in writing to pay Participant a mutually agreeable reasonable royalty for Your past and future use of Modifications made by such Participant, or (ii) withdraw Your litigation claim with respect to the Contributor Version against such Participant. If within 60 days of notice, a reasonable royalty and payment arrangement are not mutually agreed upon in writing by the parties or the litigation claim is not withdrawn, the rights granted by Participant to You under Sections 2.1 and/or 2.2 automatically terminate at the expiration of the 60 day notice period specified above.
-          b. any software, hardware, or device, other than such Participant's Contributor Version, directly or indirectly infringes any patent, then any rights granted to You by such Participant under Sections 2.1(b) and 2.2(b) are revoked effective as of the date You first made, used, sold, distributed, or had made, Modifications made by that Participant.
-
-     8.3. If You assert a patent infringement claim against Participant alleging that such Participant's Contributor Version directly or indirectly infringes any patent where such claim is resolved (such as by license or settlement) prior to the initiation of patent infringement litigation, then the reasonable value of the licenses granted by such Participant under Sections 2.1 or 2.2 shall be taken into account in determining the amount or value of any payment or license.
-
-     8.4. In the event of termination under Sections 8.1 or 8.2 above, all end user license agreements (excluding distributors and resellers) which have been validly granted by You or any distributor hereunder prior to termination shall survive termination.
-
-9. LIMITATION OF LIABILITY
-UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL YOU, THE INITIAL DEVELOPER, ANY OTHER CONTRIBUTOR, OR ANY DISTRIBUTOR OF COVERED CODE, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY'S NEGLIGENCE TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.
-
-10. U.S. government end users
-The Covered Code is a "commercial item," as that term is defined in 48 C.F.R. 2.101 (Oct. 1995), consisting of "commercial computer software" and "commercial computer software documentation," as such terms are used in 48 C.F.R. 12.212 (Sept. 1995). Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4 (June 1995), all U.S. Government End Users acquire Covered Code with only those rights set forth herein.
-
-11. Miscellaneous
-This License represents the complete agreement concerning subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. This License shall be governed by California law provisions (except to the extent applicable law, if any, provides otherwise), excluding its conflict-of-law provisions. With respect to disputes in which at least one party is a citizen of, or an entity chartered or registered to do business in the United States of America, any litigation relating to this License shall be subject to the jurisdiction of the Federal Courts of the Northern District of California, with venue lying in Santa Clara County, California, with the losing party responsible for costs, including without limitation, court costs and reasonable attorneys' fees and expenses. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not apply to this License.
-
-12. Responsibility for claims
-As between Initial Developer and the Contributors, each party is responsible for claims and damages arising, directly or indirectly, out of its utilization of rights under this License and You agree to work with Initial Developer and Contributors to distribute such responsibility on an equitable basis. Nothing herein is intended or shall be deemed to constitute any admission of liability.
-
-13. Multiple-licensed code
-Initial Developer may designate portions of the Covered Code as "Multiple-Licensed". "Multiple-Licensed" means that the Initial Developer permits you to utilize portions of the Covered Code under Your choice of the MPL or the alternative licenses, if any, specified by the Initial Developer in the file described in Exhibit A.
-
-Exhibit A - Mozilla Public License.
-
-"The contents of this file are subject to the Mozilla Public License Version 1.1 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-
-Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
-
-The Original Code is ______________________________________.
-
-The Initial Developer of the Original Code is ________________________.
-Portions created by ______________________ are Copyright (C) ______
-_______________________. All Rights Reserved.
-
-Contributor(s): ______________________________________.
-
-Alternatively, the contents of this file may be used under the terms of the _____ license (the  "[___] License"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the MPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the MPL or the [___] License."
-
-NOTE: The text of this Exhibit A may differ slightly from the text of the notices in the Source Code files of the Original Code. You should use the text of this Exhibit A rather than the text found in the Original Code Source Code for Your Modifications.
- </text>
-
-
-
-LicenseID: LicenseRef-fossology-Public-domain
-LicenseName: Public domain software
-ExtractedText: <text> Public domain software is software that is not copyrighted. If the source code is in the public domain, that is a special case of noncopylefted free software, which means that some copies or modified versions may not be free at all.
-
-In some cases, an executable program can be in the public domain but the source code is not available. This is not free software, because free software requires accessibility of source code. Meanwhile, most free software is not in the public domain; it is copyrighted, and the copyright holders have legally given permission for everyone to use it in freedom, using a free software license.
-
-Sometimes people use the term "public domain" in a loose fashion to mean "free" or "available gratis." However, "public domain" is a legal term and means, precisely, "not copyrighted". For clarity, we recommend using "public domain" for that meaning only, and using other terms to convey the other meanings.
-
-Under the Berne Convention, which most countries have signed, anything written down is automatically copyrighted. This includes programs. Therefore, if you want a program you have written to be in the public domain, you must take some legal steps to disclaim the copyright on it; otherwise, the program is copyrighted. </text>
-
-
-
-LicenseID: LicenseRef-fossology-warranty-disclaimer
-LicenseName: Generic Bare Warranty Disclaimer
-ExtractedText: <text> License by Scancode. </text>
+LicenseID: LicenseRef-MPL
+LicenseName: MPL
+ExtractedText: <text> License by Nomos. </text>
 
 
   
@@ -744,7 +1532,25 @@ Creative Commons may be contacted at http://creativecommons.org/.
 
 
 
-LicenseID: LicenseRef-fossology-MPL
-LicenseName: MPL
-ExtractedText: <text> License by Nomos. </text>
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
+
+  
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+ExtractedText: <text> License by Scancode. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+ExtractedText: <text> License by Scancode. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-warranty-disclaimer
+LicenseName: Generic Bare Warranty Disclaimer
+ExtractedText: <text> License by Scancode. </text>
 
