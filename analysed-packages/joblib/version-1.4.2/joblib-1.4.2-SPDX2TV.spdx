@@ -1,0 +1,2617 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_joblib-1.4.2.tar.gz_1730548107.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of joblib 1.4.2
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2024-11-02T11:48:27Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: joblib-1.4.2.tar.gz
+PackageFileName: joblib-1.4.2.tar.gz
+SPDXID: SPDXRef-upload2242
+PackageDownloadLocation: https://github.com/joblib/joblib/archive/refs/tags/1.4.2.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/joblib/joblib@1.4.2
+FilesAnalyzed: true
+PackageVerificationCode: 6c1ab5d5bdb58e55af49959385939f9de2a048b3
+PackageChecksum: SHA1: 5a322a34a0335f76931652608fad52ba80c70570
+PackageChecksum: SHA256: 1d95f5f3ab303be89aa4666956bf05a589f56e52c29b836267c8e3885223ff90
+PackageChecksum: MD5: c3e5f9a7d2b6b54adabd492c6d70ddf2
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2242
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/__init__.py
+SPDXID: SPDXRef-item9799237
+FileChecksum: SHA1: a324b2033ac47e47dbe4a060a6f426a54ba88013
+FileChecksum: SHA256: 1169bab9afb9a6afe3586c09d39b7125498aab90b47ffe3c34e310849e867b82
+FileChecksum: MD5: 9a7a7c05596c0bc3cdecee9d0c602794
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+It is
+**BSD-licensed
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/_base.py
+SPDXID: SPDXRef-item9799275
+FileChecksum: SHA1: d6ec6c853df6ef3246c9240108752419e17b5a41
+FileChecksum: SHA256: 2ec42712829628685d7aa1a131cebc02ac33e0cad39c4b36d0a0186c58941f3a
+FileChecksum: MD5: 83d8b91fedca820e45236ab4cf75ce38
+LicenseConcluded: LicenseRef-Python-2.0
+LicenseComments: <text> The information in the file is:
+Licensed to PSF under a Contributor Agreement.
+This is the standard license reference, which is recommended by the PSF to indicate that the file is licensed under Python-2.0 </text>
+LicenseInfoInFile: LicenseRef-Python-2.0
+LicenseInfoInFile: LicenseRef-Python
+FileCopyrightText: <text> Copyright 2009 Brian Quinlan. All Rights Reserved. </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/process_executor.py
+SPDXID: SPDXRef-item9799255
+FileChecksum: SHA1: 7f05855b8f829aafd3a985a6d9ff292ac0acac5d
+FileChecksum: SHA256: 4e3223c1eb00c85b09029d2aab8def35687ef1ebaebb5b84f398f3bb4c43e525
+FileChecksum: MD5: f6275878de1f50307452cf418107c43e
+LicenseConcluded: LicenseRef-Python-2.0
+LicenseComments: <text> The information in the file is:
+Licensed to PSF under a Contributor Agreement.
+This is the standard license reference, which is recommended by the PSF to indicate that the file is licensed under Python-2.0 </text>
+LicenseInfoInFile: LicenseRef-Python-2.0
+LicenseInfoInFile: LicenseRef-Python
+FileCopyrightText: <text> Copyright 2009 Brian Quinlan. All Rights Reserved. </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/continuous_integration/install.sh
+SPDXID: SPDXRef-item9799308
+FileChecksum: SHA1: 236f042affeba2d3e822b452661131abd77115ba
+FileChecksum: SHA256: d1da4f79c87141312d00da1826cf27cbd0feb44eaf4eb78c2c2546d7f6e02cdc
+FileChecksum: MD5: 358bca87cd0f645681832a1a4435182f
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: 3-clause BSD
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/serialization_and_wrappers.py
+SPDXID: SPDXRef-item9799076
+FileChecksum: SHA1: eca2434b63a30da1d1ac4edfd445a22ad9d7e13f
+FileChecksum: SHA256: cbe4fa85301f00403bbfebd238d2ac226483940e943e448927df9525878a2728
+FileChecksum: MD5: cd52e17de84eb88a9c6a0b796b5b8df4
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD 3 clause
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/_memmapping_reducer.py
+SPDXID: SPDXRef-item9799242
+FileChecksum: SHA1: a76ccc2534cbd3119767294248f91baa77f64b8b
+FileChecksum: SHA256: e317253164e023997e0ba385cade85bda987f93a09bb70e6a29017c2dedaf45e
+FileChecksum: MD5: 5d9ffcf8272074e8340c1886c5ed5c96
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD 3 clause
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright: 2017, Thomas Moreau </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/benchmarks/bench_auto_batching.py
+SPDXID: SPDXRef-item9799061
+FileChecksum: SHA1: 7076db703f14fbd2f06933eea35b414573863b04
+FileChecksum: SHA256: 0b4fb45170d6c200738454ba56f98d543e17dc40199a90c1255ade8b68c26ed9
+FileChecksum: MD5: 1237d72bdcebc76480d688c6789f0f60
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD 3 clause
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/benchmarks/bench_sequential_fast_tasks.py
+SPDXID: SPDXRef-item9799062
+FileChecksum: SHA1: 88b14477c67733a9a11a49a7a3bd5b839595d3c6
+FileChecksum: SHA256: 88495e9c981083e886c29e417da35005cccc06fdff56086c8b52c9b530e46c09
+FileChecksum: MD5: 29deed8442bfca4b8cc12512ca292dcb
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD 3 clause
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/parallel.py
+SPDXID: SPDXRef-item9799236
+FileChecksum: SHA1: 1aafed2d4e666e6b5dd2e1b72b622a130d3316cb
+FileChecksum: SHA256: 59dfb6632cd1f6a43321e95ac9ac96671b21fe21fe9db0eff432a318c2b39cbb
+FileChecksum: MD5: 8ea52e27238c93a28ce6f91ab2a44270
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD 3 clause
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright 2010, Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/executor.py
+SPDXID: SPDXRef-item9799089
+FileChecksum: SHA1: 128bb6d1e92acd442a36f85882f6dcad6355704e
+FileChecksum: SHA256: 3e268ec0436179c4559ce76f1d92f01acafe44c29f93f17f368cbccbb9e7b496
+FileChecksum: MD5: 910660260284b4cebbdca5ada038567d
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD 3 clause
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright: 2017, Thomas Moreau </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/pool.py
+SPDXID: SPDXRef-item9799084
+FileChecksum: SHA1: df1017b40706e6555345daac758f519d4572c14c
+FileChecksum: SHA256: c11ae50cb5bfe82c7ba46c4ae40198f0cf105bc3b0251a8e92209f60d56dcb90
+FileChecksum: MD5: 6971b552980ab68e69e9dd2adcf012bf
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD 3 clause
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright 2012, Olivier Grisel </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/cloudpickle/cloudpickle.py
+SPDXID: SPDXRef-item9799251
+FileChecksum: SHA1: d73ddf1ab2749a3c457bf4d8d1f90a9f54e7cae9
+FileChecksum: SHA256: 00f08632e21f56959c7a51ac2e5a36cd19b02919686a88b39d010e0281161fd6
+FileChecksum: MD5: 14ae9e08a9b5acf0d93c28dbea2d6746
+LicenseConcluded: LicenseRef-BSD-3-Clause-c79543e2a39f7b69bf7743b737cc2bdd
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2012-now, CloudPickle developers and contributors.
+Copyright (c) 2012, Regents of the University of California.
+Copyright (c) 2009 PiCloud, Inc. <https://web.archive.org/web/20140626004012/http://www.picloud.com/> All rights reserved. </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_memory.py
+SPDXID: SPDXRef-item9799229
+FileChecksum: SHA1: a698fd4e70d6e2cccea531812bc59bdd3ae3c98d
+FileChecksum: SHA256: 6b8595ca04e4ed2541c064eb14dadd2a9b959acd1582815e23373eb5e97c592f
+FileChecksum: MD5: 2ae8305e1ea0b4ef6b91d2efbed32ab1
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2009 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/func_inspect.py
+SPDXID: SPDXRef-item9799246
+FileChecksum: SHA1: e44ab826d9cf3d3c0eb22c6f27d46e95f081e49a
+FileChecksum: SHA256: 0b07a2d37bb09d9289f666c699d0928d51a0ab6ff59493494a47949f5193bd2a
+FileChecksum: MD5: 372cf309cdf0eedb167fb2640147600e
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2009 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_func_inspect.py
+SPDXID: SPDXRef-item9799235
+FileChecksum: SHA1: a7cca7ebb1580e056d9769dad7488725219045e7
+FileChecksum: SHA256: 7f247dab59c61f0721e610f585e76eb7661e375f611c3c94b8373c99742e19e6
+FileChecksum: MD5: 5d2fec7c94a4c1c85e032b4021ea7ccd
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2009 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/hashing.py
+SPDXID: SPDXRef-item9799240
+FileChecksum: SHA1: c9f6e56b905f1445cd23c6ec4c6381b1b4c75850
+FileChecksum: SHA256: e17f4e3a87e47c342bdcdf0d64a4ec30e296afc222215d248c1c2a0942427a3e
+FileChecksum: MD5: 52e2ea9e5b930831a9dde02eb141adf5
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2009 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/logger.py
+SPDXID: SPDXRef-item9799241
+FileChecksum: SHA1: c90c888bcdaf88c88c4a7e9280e593621bc396ce
+FileChecksum: SHA256: 99e4fe8453d366e91f05191ec82542c61b2c3d2afaebcfd1e4d9f6e52fa25ed7
+FileChecksum: MD5: d4bbd8f4e6950bb7148d4836892e3567
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2008 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_logger.py
+SPDXID: SPDXRef-item9799231
+FileChecksum: SHA1: 8bd57f77d7ff58f106e5bd30c8716950db9da721
+FileChecksum: SHA256: 0b203713c63be001d97ea2717ad36b61fc1748e94b7353ead61aadeda27a3f00
+FileChecksum: MD5: 4f06ec928e63b30347c7f766bc113b6a
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2009 Gael Varoquaux  </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_parallel.py
+SPDXID: SPDXRef-item9799104
+FileChecksum: SHA1: be5b21866d203623ce9c5981c99c0d6a502cf017
+FileChecksum: SHA256: 873ef1b6191a8a02c02dcdfaefa980969229ceefbde81810207d52afbb8d1251
+FileChecksum: MD5: 0df3f4f59195c138b400333444fe9463
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2010-2011 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_hashing.py
+SPDXID: SPDXRef-item9799233
+FileChecksum: SHA1: 3d802e80fe0939d65c2f4686a3019181b39d405c
+FileChecksum: SHA256: c3cfd65605cbd5316e7824ab897f7b1ab0804b799c9aee4bcb4eb6a4e00ea112
+FileChecksum: MD5: 4af1fb2c8baaefa55eb67b5720f17ae9
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2009 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/memory.py
+SPDXID: SPDXRef-item9799091
+FileChecksum: SHA1: f1008291c001e25f76ff55db65dce60f4b6b90c7
+FileChecksum: SHA256: 4610aa2c082b374aadc9471d1ad0221cea98617a156ba093a512b6436660e333
+FileChecksum: MD5: 50a5a3f77580331fb4ecab9b63723d6e
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2009 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/disk.py
+SPDXID: SPDXRef-item9799239
+FileChecksum: SHA1: b6d321ca3f576bbb3a1299196fe8aecb82cd81b9
+FileChecksum: SHA256: 3f1502eb77411b63b51ab88bd522ec907523cfb5f347ecbaaea284247118d230
+FileChecksum: MD5: 8d17c82b6ca240f6b9c19fca3a204f20
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2010 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_disk.py
+SPDXID: SPDXRef-item9799110
+FileChecksum: SHA1: 278e57d2a7184940673d0d8ef7585c269ad340a3
+FileChecksum: SHA256: c09775a3d9cbcea1232eac7192007d4bbf9470a8c73d0f2a2b997473370da74a
+FileChecksum: MD5: ea9cb79784a2831e23afc1c34b7fc888
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2010 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/numpy_pickle.py
+SPDXID: SPDXRef-item9799090
+FileChecksum: SHA1: 75d06dcee25027a331b9f6153db17ef80cd51622
+FileChecksum: SHA256: e7f2fb11b3e0f784f789238311d922909363ff3daabe96586867a2f4794c0565
+FileChecksum: MD5: 77edf0777a67dcbe509c1763aacd52ff
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2009 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/numpy_pickle_utils.py
+SPDXID: SPDXRef-item9799088
+FileChecksum: SHA1: d7cb0e962407747b07f216f3584989736fd96cb2
+FileChecksum: SHA256: 29c712a7f321305b15e35330f694a28dc86d18e0b29a90da1d61f4569214792b
+FileChecksum: MD5: 64d2506aec0ec099e82fa13c7f872014
+LicenseConcluded: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseComments: <text> The information in the file is:
+License: BSD Style, 3 clauses.
+We checked the LICENSE file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: <text> Copyright (c) 2009 Gael Varoquaux </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/LICENSE.txt
+SPDXID: SPDXRef-item9799059
+FileChecksum: SHA1: 3d53c0cb4680058290f41280e73c3a1236fca1fe
+FileChecksum: SHA256: 42612911c1872c5e4b43f6ae0e8ee59467cd350332241cf72ce90640264fae6a
+FileChecksum: MD5: 2e481820abf0a70a18011a30153df066
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2008-2021, The joblib developers. All rights reserved. </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/benchmarks/bench_pickle.py
+SPDXID: SPDXRef-item9799063
+FileChecksum: SHA1: 9431c20d0f5f9369b817e7f6a50fc4ecc00915be
+FileChecksum: SHA256: 3c6aaf78c7fc2d5aa9e0f29ef58c24515c403e08e993aaadd81798bfdbf5d6f0
+FileChecksum: MD5: 9407dcfe6a522b2c7b0092107d328ed9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/benchmarks/bench_grid_search_scaling.py
+SPDXID: SPDXRef-item9799064
+FileChecksum: SHA1: 0a609417aaa1f493be77d6005f56870e52eacb2f
+FileChecksum: SHA256: 90eaab2f86356a41263b594357307e808f7dfcfd77800b35d896a97ffa2976f8
+FileChecksum: MD5: f6cc0fae766203d679b37457becb6277
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/benchmarks/bench_compression.py
+SPDXID: SPDXRef-item9799065
+FileChecksum: SHA1: 06953c692f87d5878eb9ef249f6c65319135d9fc
+FileChecksum: SHA256: 54d7bca09d65c5c5bd43388737168666cf984b8dafe41f52d7be52ce13f4bfe3
+FileChecksum: MD5: e150307633b87f5a074780cbd1ffae76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/TODO.rst
+SPDXID: SPDXRef-item9799066
+FileChecksum: SHA1: 6653d0b75ade8d7c4c2f9a160dbd6dd246963a34
+FileChecksum: SHA256: 81a642addedea51866dde92881970e74b08c9bacb13d54ff0b6828fe44f6e5cd
+FileChecksum: MD5: e8102734aeed8c7c12c465d1002f76ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/MANIFEST.in
+SPDXID: SPDXRef-item9799067
+FileChecksum: SHA1: 6ae42063c85ab2a4247c25ebaefb0e047a39e353
+FileChecksum: SHA256: f69b0dd89ec646b7eef7e44f1b8c93b049c915995333b87edae2f38857e72491
+FileChecksum: MD5: f7e9a87b9f41bdd25fd1bdb46a6373ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/setup.py
+SPDXID: SPDXRef-item9799068
+FileChecksum: SHA1: 54b341edb28ab3f5621030dda462524a701fa8d7
+FileChecksum: SHA256: a477eeb63bdbd7f6049287f4e3f83c98ade291675fc4f1540f83a32362dcbc59
+FileChecksum: MD5: 04e38f3fac518a6424a2a6a5f7e8d218
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/.mailmap
+SPDXID: SPDXRef-item9799069
+FileChecksum: SHA1: c9e7dc7afa8b79dcbc4ffef9944c1d1df71dda8a
+FileChecksum: SHA256: c8825508fe61f88604521ffab662ae4117b755becb1b92d3eb3457b1a462688a
+FileChecksum: MD5: e3777f13a2331f15edc2dcb84260d4fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/parallel_random_state.py
+SPDXID: SPDXRef-item9799071
+FileChecksum: SHA1: 67598b5b3de607acab8eee1cafecd9a61a9e60b7
+FileChecksum: SHA256: 1e4f836520327f25b262f82179547bdcc8238c7c22570a31b722aca5b9685bbe
+FileChecksum: MD5: 0047564674a537d0f592313417621b2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/parallel_generator.py
+SPDXID: SPDXRef-item9799072
+FileChecksum: SHA1: f0fa07df91ee3dfff0e073a2fbbef2c5734079eb
+FileChecksum: SHA256: 083a92080320be881f175353500e54e05ae7fdb03b364f2adf64f0238b835865
+FileChecksum: MD5: e1bfbbf645fc8c9a9064467ee98c20b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/parallel/distributed_backend_simple.py
+SPDXID: SPDXRef-item9799074
+FileChecksum: SHA1: 84910af1c0ebef77dd38489e4fa2f2911196426a
+FileChecksum: SHA256: 56034b78674b99e377b9deb0b74f692c48932c9acd56a600e561d0898da6f8db
+FileChecksum: MD5: d986854b380abfcf5faaa1391a2db93e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/parallel/README.txt
+SPDXID: SPDXRef-item9799075
+FileChecksum: SHA1: 52921d19ea8ecab7762e76c07d7a5d99d512f999
+FileChecksum: SHA256: 68048fbca8b2031b0da903e5e09c99dae3e4dce7355d433ee06f46faa4c86b26
+FileChecksum: MD5: 1f1748b04bbc30067036303d9a59ae3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/memory_basic_usage.py
+SPDXID: SPDXRef-item9799077
+FileChecksum: SHA1: a80388a5e9af3396aebfa6243b64e55eeaf2c086
+FileChecksum: SHA256: b34df34b5aa0ca458f7bcf3f96205b2b08d74ea487b7d043b0e15cefa0c7b4bd
+FileChecksum: MD5: 45d763c73a7e479aecb730dd895b9319
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/nested_parallel_memory.py
+SPDXID: SPDXRef-item9799078
+FileChecksum: SHA1: a464e3e51dbcc899d1261c49ba946a684dc96c06
+FileChecksum: SHA256: c1bbdedeca611a571b0f1915f7a5d68bb83f415bc2c5d408b53517b1ecce5d41
+FileChecksum: MD5: 96d6aee2f80905a018b7a7d570f479f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/parallel_memmap.py
+SPDXID: SPDXRef-item9799079
+FileChecksum: SHA1: 3c60060f19d46d805db69baa3df59705094e8e20
+FileChecksum: SHA256: 441247e22efa8e4c4748da34a800e7afb7fbeb02db707da08b3a68952e9ab3da
+FileChecksum: MD5: 1f52f51c3f8e73fabbbc2b5dbe557a0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/README.txt
+SPDXID: SPDXRef-item9799080
+FileChecksum: SHA1: f8926e53d833a6ca5df0b5e5255e5c262e9dd121
+FileChecksum: SHA256: e4cf89497d34ee3f3fac41592eed262d58e7c62d018b1e193795c39a83f8a490
+FileChecksum: MD5: d2775fcda7af1527362f8ca45ffb7769
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/examples/compressors_comparison.py
+SPDXID: SPDXRef-item9799081
+FileChecksum: SHA1: ff3edc3458cad61bd72d2e9972305627167d3cbc
+FileChecksum: SHA256: 3a4ab8f786cffe99239e03872f778635ed2d0a60b9130a93dae6667b3b392378
+FileChecksum: MD5: cebdfcedb377c0d21eed25e5ed1f380b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/.readthedocs-requirements.txt
+SPDXID: SPDXRef-item9799082
+FileChecksum: SHA1: b75c27011af05e050953dc40193ccf4248dfbd4d
+FileChecksum: SHA256: 8b4d064e2a8d4fd6a5c285e09a26cd55ea3598726ac992499a48a65cfabb825d
+FileChecksum: MD5: ca990221a556a0ea33234d16381c8e73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/testing.py
+SPDXID: SPDXRef-item9799085
+FileChecksum: SHA1: 22e15afcbbdc17de88d60e310dc7ae0c1060ac8a
+FileChecksum: SHA256: ea2d9cb6ca24557a212c185cd5d5c865cd938900d1881fa09462856df64322a1
+FileChecksum: MD5: 59957b11c1e8887ce61d0861fedeff16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/_cloudpickle_wrapper.py
+SPDXID: SPDXRef-item9799086
+FileChecksum: SHA1: dd83cf6c5119b82a79c867811945cd6d8de1f7fa
+FileChecksum: SHA256: f8f04c52a81909f77910c68a9f914242158a88025f6eae22da8e99e8a675ca71
+FileChecksum: MD5: 2c17a8c94763f4bec06d4f94a881123b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/_store_backends.py
+SPDXID: SPDXRef-item9799087
+FileChecksum: SHA1: abedcb86cdb0c4e6a1506f8c5ce98f77df4e118c
+FileChecksum: SHA256: 3daa1e1e8e0cafb89d3c8dccbd7efae8ea8143fcbf5a41bfa196c4e0c8db74ac
+FileChecksum: MD5: b2e031670292a62058d97fa6aafac71d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/_parallel_backends.py
+SPDXID: SPDXRef-item9799092
+FileChecksum: SHA1: b2d2a4f8bbdca72b515c8ca2b473e672ccee350d
+FileChecksum: SHA256: f36a97e26279787cf88b47b981b74782fcd24f73fa2c9e7d8697de7b42326424
+FileChecksum: MD5: 9bb42204090649c349c012f51dfc44ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/_dask.py
+SPDXID: SPDXRef-item9799093
+FileChecksum: SHA1: 0a29f2d9b81e6c54d093b3fb652c3834e87c8e5c
+FileChecksum: SHA256: 22116337aa0c41521c2c2edb2c79c0eca80eee79c4a7ba7a3f8247d76f77e09e
+FileChecksum: MD5: a726935652ee89f1be9e5513ecbb8134
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_numpy_pickle_utils.py
+SPDXID: SPDXRef-item9799095
+FileChecksum: SHA1: d57397fde6e13fddc72868ac1de3c50b5963b855
+FileChecksum: SHA256: fa542784e0081b2779a32593d8b1903dcdd03bf3b16f756133f1f74232a6e5ed
+FileChecksum: MD5: 82f5ce5b39af317516c6eec0517ed85a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_numpy_pickle_compat.py
+SPDXID: SPDXRef-item9799096
+FileChecksum: SHA1: 975043067fe83a2da3644cfae09bdaf1ee1e346f
+FileChecksum: SHA256: a38981f0cea65515fc1f1c3e7f13a658f71b480cacc137441e4eb8855bff6429
+FileChecksum: MD5: faeca97f77c5f66ff6a8306cfabea086
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_memory_async.py
+SPDXID: SPDXRef-item9799097
+FileChecksum: SHA1: c409c699820e95d0090521e7ec6a43a5e959ac03
+FileChecksum: SHA256: 09062316c09cfda6c2277c8c062affb9433505947614560795bfdd4a478dcc8e
+FileChecksum: MD5: 637bce7ea6be78d7d4c11bfea8e70656
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_utils.py
+SPDXID: SPDXRef-item9799098
+FileChecksum: SHA1: 0208e697015b264bc126b02ab244019a05ee987e
+FileChecksum: SHA256: 2fa6811e266b17a4d415b3c69905c6c8d327a00cb9a4484e2681f90801bfe825
+FileChecksum: MD5: 6cf903189bdfebedcabd1174f652508d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/common.py
+SPDXID: SPDXRef-item9799099
+FileChecksum: SHA1: a530104e83c256bd6af226f3045573ed4842363b
+FileChecksum: SHA256: b1e341dfd5b01f0bb4a9f328eaa795ef2d26eb0c42709d41f90d4c58bbe7e159
+FileChecksum: MD5: 2f669c571c655a21c616d23c2bdba110
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/testutils.py
+SPDXID: SPDXRef-item9799100
+FileChecksum: SHA1: e09627749baeeed880c328f6ebdb6f0071b4adde
+FileChecksum: SHA256: e9aef35499b5920e8cfade021fdb73f00eab31d0ba658f6c53ac0107c0bb673a
+FileChecksum: MD5: a7d09f8b39310e5362c827173feb9672
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_cloudpickle_wrapper.py
+SPDXID: SPDXRef-item9799101
+FileChecksum: SHA1: 4dbd1346eeb808d4ae79b741bf17f440c0a1c316
+FileChecksum: SHA256: 81cd393067b52c97e108d4efd3655d0d783c67a15e249deb1537dfd7f5a63307
+FileChecksum: MD5: 9e3648f7ca5fc322edfe0317d4dff8dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_store_backends.py
+SPDXID: SPDXRef-item9799102
+FileChecksum: SHA1: b6b549631bbbb0a6cf289651e81f4896744ad406
+FileChecksum: SHA256: 2c20944bd0cdedf7899e2c27383ef1d2930a010fb9ae008105cb708b91618d63
+FileChecksum: MD5: 4329898a96b471cebc3afe876a0b0d68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_config.py
+SPDXID: SPDXRef-item9799103
+FileChecksum: SHA1: 953f494bedd69ec85e28a47ed429e72f445b2671
+FileChecksum: SHA256: 12f40a1fb9f8a9701c3ddf814e77eee1db91e9be5a83ae718da1233cc0cce74c
+FileChecksum: MD5: 782c62a8ac4bfd804f892fe1f68af5de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_func_inspect_special_encoding.py
+SPDXID: SPDXRef-item9799105
+FileChecksum: SHA1: 8e31f5b9bea276709063ff30103195b550151241
+FileChecksum: SHA256: e7120b0e348efb1b6340030bbcc7950fe2fb206e195116f682f0624a168313bf
+FileChecksum: MD5: e59e160f9615e9b51b49b298d5616aa6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_module.py
+SPDXID: SPDXRef-item9799106
+FileChecksum: SHA1: 429d8e975d54f2a7350f64c799a4fe89b4509444
+FileChecksum: SHA256: 1d31d04a09f06bed5b964be12ffa1504ee7261dc3c22b41320908afd00ac32d3
+FileChecksum: MD5: 23557c66db3f6f3bed150796e15b788c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_init.py
+SPDXID: SPDXRef-item9799107
+FileChecksum: SHA1: 027ebd73c1c3fbc4066feea9c91657c14a6c6723
+FileChecksum: SHA256: 6e0345fbd088265d4c14d03be4b05639a88db6f76e55fbaf825cffbbd4edf147
+FileChecksum: MD5: 19d75cacdbaa67398ec61a4f665b05ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/__init__.py
+SPDXID: SPDXRef-item9799108
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText:  NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_missing_multiprocessing.py
+SPDXID: SPDXRef-item9799109
+FileChecksum: SHA1: 5705fe2877092eb49be693067c7fa400b88979db
+FileChecksum: SHA256: a1e9de3208ba8945486e47dacc6bd798ea7a7ea6bba24f6e863f74d908ecfe79
+FileChecksum: MD5: f062d5bc403934ad292af8ee76e41ae1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/_openmp_test_helper/setup.py
+SPDXID: SPDXRef-item9799112
+FileChecksum: SHA1: f25257f38f6fe859674df5e00e461f85572d3a83
+FileChecksum: SHA256: cb09fd5f4ffd3e63bd7661d45d154970fa1d5f230e508f23828f416bcac494dc
+FileChecksum: MD5: f84e47b52e790ca4e52917d383b50a4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/_openmp_test_helper/parallel_sum.pyx
+SPDXID: SPDXRef-item9799113
+FileChecksum: SHA1: 082fe15d66f5ad8d46402096f1948bc8b5e6c545
+FileChecksum: SHA256: 5a356bdd7770ab3f6bd8bfd51bfbaaf3e3d78d5ec80184349c4f7e2e36b364f8
+FileChecksum: MD5: ff67d0d3137ecbceb164e21b717e0b27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/_openmp_test_helper/__init__.py
+SPDXID: SPDXRef-item9799114
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText:  NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/_openmp_test_helper/.gitignore
+SPDXID: SPDXRef-item9799115
+FileChecksum: SHA1: 4ecbed146479e7a3ed91f9350f48200e12aa7a2b
+FileChecksum: SHA256: db467f9e3670912c75e8514eca998d05104d4c916bcca91c9c535eabfcd30d6f
+FileChecksum: MD5: 771ab5b4cc69416119df22685e428c4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_memmapping.py
+SPDXID: SPDXRef-item9799116
+FileChecksum: SHA1: 0d05566034b9f74503666abfdb4b21f19b742613
+FileChecksum: SHA256: ea45d3e19302b4fca45a10dfeba402710bec742f4f689ba68826348c73f07e2a
+FileChecksum: MD5: 0cae2aad6b162e2b0a634b99152e0d44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_backports.py
+SPDXID: SPDXRef-item9799117
+FileChecksum: SHA1: d65c3d07b25bf6301a8d4a961fe360417c55cba5
+FileChecksum: SHA256: 63d6e119ae87f8afc580b903c976921f3a5a5a4d78f118e7f11f4828229dcbe9
+FileChecksum: MD5: 6561c5462b086981d99f8d400d5bf4f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_01.npy.z
+SPDXID: SPDXRef-item9799119
+FileChecksum: SHA1: f461b7f441361e8a88226050815719d232cbdd86
+FileChecksum: SHA256: 613f55bd3dec125dae5a53b2bc7d8293213d4a8938a1df4ede45ad81eb9452a1
+FileChecksum: MD5: f2f388f4b0f8ff204af53d535e127a47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_compressed_pickle_py33_np18.gz
+SPDXID: SPDXRef-item9799120
+FileChecksum: SHA1: 0f9e5a3c66d00bbb0c310fc13153c81739abfea2
+FileChecksum: SHA256: d9e215780f978ce693e48110ead23652e1c6de1c2189172232690198f7088788
+FileChecksum: MD5: 9f2eb4f3879f8a03638d8f6d7f77c30a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.8.4_compressed_pickle_py27_np17.gz
+SPDXID: SPDXRef-item9799121
+FileChecksum: SHA1: e256066b4e6b83983b03fadbc3468ef69509c5da
+FileChecksum: SHA256: 4a9f994fb8baa63e689f681ba6db33bbb45aaf32693a61c9ebb50a3a608f40c8
+FileChecksum: MD5: 30b43681a0e8fe80db5457a44acfe100
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl
+SPDXID: SPDXRef-item9799122
+FileChecksum: SHA1: 6cd9306e269df409f5a1684075da46e4a1575b81
+FileChecksum: SHA256: 5e6b0e171782d5fd5a61d1844dc946eb27c5f6b2e8075d436b23808433142ebc
+FileChecksum: MD5: 37c06ba3ca3f42992ddeec67bf1fac2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_03.npy.z
+SPDXID: SPDXRef-item9799123
+FileChecksum: SHA1: e202df9bf5fbff2199251c066922940c2b1db559
+FileChecksum: SHA256: 777030202bd4d8ca5236387668f22c74978664b9438c03401754a86bab8cd0fa
+FileChecksum: MD5: d6b6e4d00fa9c3c11ee2989a40ad7572
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl
+SPDXID: SPDXRef-item9799124
+FileChecksum: SHA1: 08144188f6d3d1fc3d17e0329f6e238271c0b5ff
+FileChecksum: SHA256: 2f29d7f1d2ceca07f10df172c0e826ef08163a14b12c6ef3fa80ec53a5fcdc3c
+FileChecksum: MD5: 81de6cccb2d9cf10148caf2cdc6fb23f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl
+SPDXID: SPDXRef-item9799125
+FileChecksum: SHA1: 2d81b8d39814348a0b5f135197e33ee9246fe177
+FileChecksum: SHA256: 8a538100e6ae94b16f2ab0f7d92d4d7e7a622be2dfcc0f6b0b73b623bc513ae2
+FileChecksum: MD5: b4c9519d3f657eda981416439e0b426d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_02.npy
+SPDXID: SPDXRef-item9799126
+FileChecksum: SHA1: e2e82c153ce2248a6da757cedc544a6becc5b27e
+FileChecksum: SHA256: 1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1
+FileChecksum: MD5: 9364205343f5af4d96a12ba74cd79e79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl
+SPDXID: SPDXRef-item9799127
+FileChecksum: SHA1: 68906f4e433902e8b3d1e003f0c5f8c71fe06b24
+FileChecksum: SHA256: 97b9ef2e896104321d3c5ce73b3de504788c38f04f08c8b56d7a29d6d1520a96
+FileChecksum: MD5: 1677e234254ab9bb0330b30195681894
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_compressed_pickle_py34_np19.gz
+SPDXID: SPDXRef-item9799128
+FileChecksum: SHA1: f3ef6404c26ba49145cb5c8994d0185cb14d4098
+FileChecksum: SHA256: 9f33bd8a21a41b729b05dac5deeb0e868f218a092b0e3fe5988094cf167217f6
+FileChecksum: MD5: b46c41fcf7c2d52e0794a3fd8fc5304d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_01.npy
+SPDXID: SPDXRef-item9799129
+FileChecksum: SHA1: 05c93e3e1bce9411d5ad576f592c83aac5836a1f
+FileChecksum: SHA256: 0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809
+FileChecksum: MD5: c6e7291eb0dec6960ca8e829aa23f506
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.bz2/joblib_0.10.0_pickle_py27_np17.pkl
+SPDXID: SPDXRef-item9799132
+FileChecksum: SHA1: 381a8a47f8eb197259096f8ccb909b2759437f0e
+FileChecksum: SHA256: 89c4508e3dfbe01f801e4e739f1aded13f685941e89281c8050f0ca8aa3c97e5
+FileChecksum: MD5: 32ff2527d04fd041aa06adfb7a96736c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_04.npy
+SPDXID: SPDXRef-item9799133
+FileChecksum: SHA1: f01ffbbf7dc23c773dfff466a50215ea484fe370
+FileChecksum: SHA256: 3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05
+FileChecksum: MD5: f69277fdae04e2c60f4275bff214f8d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_compressed_pickle_py35_np19.gz
+SPDXID: SPDXRef-item9799134
+FileChecksum: SHA1: f3ef6404c26ba49145cb5c8994d0185cb14d4098
+FileChecksum: SHA256: 9f33bd8a21a41b729b05dac5deeb0e868f218a092b0e3fe5988094cf167217f6
+FileChecksum: MD5: b46c41fcf7c2d52e0794a3fd8fc5304d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.gzip/joblib_0.10.0_pickle_py27_np17.pkl
+SPDXID: SPDXRef-item9799137
+FileChecksum: SHA1: 381a8a47f8eb197259096f8ccb909b2759437f0e
+FileChecksum: SHA256: 89c4508e3dfbe01f801e4e739f1aded13f685941e89281c8050f0ca8aa3c97e5
+FileChecksum: MD5: 32ff2527d04fd041aa06adfb7a96736c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np16.gz/joblib_0.10.0_compressed_pickle_py27_np16
+SPDXID: SPDXRef-item9799140
+FileChecksum: SHA1: 381a8a47f8eb197259096f8ccb909b2759437f0e
+FileChecksum: SHA256: 89c4508e3dfbe01f801e4e739f1aded13f685941e89281c8050f0ca8aa3c97e5
+FileChecksum: MD5: 32ff2527d04fd041aa06adfb7a96736c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.gzip/joblib_0.11.0_pickle_py36_np111.pkl
+SPDXID: SPDXRef-item9799143
+FileChecksum: SHA1: 6cd9306e269df409f5a1684075da46e4a1575b81
+FileChecksum: SHA256: 5e6b0e171782d5fd5a61d1844dc946eb27c5f6b2e8075d436b23808433142ebc
+FileChecksum: MD5: 37c06ba3ca3f42992ddeec67bf1fac2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl
+SPDXID: SPDXRef-item9799144
+FileChecksum: SHA1: 927c3052fd2067b47a34c1d02019a98c640da553
+FileChecksum: SHA256: e064c2eecfdc58d552844467da7bd56eca596098322bfd266a7e1312abdd5735
+FileChecksum: MD5: 7cfb598bc7c41e6ad1af4169e1bb9d98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl
+SPDXID: SPDXRef-item9799145
+FileChecksum: SHA1: 09dbe5e732461f9c2a18f991432ab137ad815801
+FileChecksum: SHA256: 59f0d522a29c333ce1d60480b2121fcc1a08a5d2dd650b86efdc987f991fa4ea
+FileChecksum: MD5: 8dbbe80f2c1b459b751e2ec0650e12fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_03.npy
+SPDXID: SPDXRef-item9799146
+FileChecksum: SHA1: 1a02eab13448aa3b5a4fcc5766f349ef2d2dc196
+FileChecksum: SHA256: a0c45ae2a289841cbeba2443b7ebaa3b31c0a9e9dcc73294aca5729da0092405
+FileChecksum: MD5: 3e87c0e2b1b5a65a08b61fad93c25aac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np17.gz
+SPDXID: SPDXRef-item9799147
+FileChecksum: SHA1: ed385d1e4711c89e7caab07ad936059f991f222b
+FileChecksum: SHA256: a1f4e8cccfca94f25ae744d1f050b0734f663263ba38ed0642181404b348b17b
+FileChecksum: MD5: 18d592090040fe9546efaaf16eea07c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_01.npy
+SPDXID: SPDXRef-item9799148
+FileChecksum: SHA1: 05c93e3e1bce9411d5ad576f592c83aac5836a1f
+FileChecksum: SHA256: 0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809
+FileChecksum: MD5: c6e7291eb0dec6960ca8e829aa23f506
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.gzip/joblib_0.10.0_pickle_py34_np19.pkl
+SPDXID: SPDXRef-item9799151
+FileChecksum: SHA1: 16bd265ac88cc8b209be7da5a728692a01f851f1
+FileChecksum: SHA256: 869a9d59030975815b741f3958bd7ac309be1dc6000a63d36f8819eed407743f
+FileChecksum: MD5: 4c1585249a16e1a705d645d12fdf02a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_compressed_pickle_py34_np19.gz
+SPDXID: SPDXRef-item9799152
+FileChecksum: SHA1: f603f03530d5c73abceaff53db980293ef277e5f
+FileChecksum: SHA256: 1abdb3ff5b555831f51f7ff00951e66a49277fc2aa787293f18cf8775be65023
+FileChecksum: MD5: 195649e95fde798918ff1a5e54a16846
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.gzip/joblib_0.10.0_pickle_py33_np18.pkl
+SPDXID: SPDXRef-item9799155
+FileChecksum: SHA1: 75ead90a51aa7570b494d7570a437129cd79788b
+FileChecksum: SHA256: 32151d7be7df03e31fa1efb59867f85b51a2c38ce0df781258685793ea38982d
+FileChecksum: MD5: 3935b7a163caa2818058c45bfeaead32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/__init__.py
+SPDXID: SPDXRef-item9799156
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText:  NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.bz2/joblib_0.11.0_pickle_py36_np111.pkl
+SPDXID: SPDXRef-item9799159
+FileChecksum: SHA1: 6cd9306e269df409f5a1684075da46e4a1575b81
+FileChecksum: SHA256: 5e6b0e171782d5fd5a61d1844dc946eb27c5f6b2e8075d436b23808433142ebc
+FileChecksum: MD5: 37c06ba3ca3f42992ddeec67bf1fac2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_03.npy
+SPDXID: SPDXRef-item9799160
+FileChecksum: SHA1: c4727d065ae70cc5c980ca889dd5f241d1c8ec90
+FileChecksum: SHA256: 8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7
+FileChecksum: MD5: 6924a92267c62c87be76ba8d122305cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_03.npy
+SPDXID: SPDXRef-item9799161
+FileChecksum: SHA1: c4727d065ae70cc5c980ca889dd5f241d1c8ec90
+FileChecksum: SHA256: 8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7
+FileChecksum: MD5: 6924a92267c62c87be76ba8d122305cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.11.0_compressed_pickle_py36_np111.gz/joblib_0.11.0_compressed_pickle_py36_np111
+SPDXID: SPDXRef-item9799164
+FileChecksum: SHA1: 6cd9306e269df409f5a1684075da46e4a1575b81
+FileChecksum: SHA256: 5e6b0e171782d5fd5a61d1844dc946eb27c5f6b2e8075d436b23808433142ebc
+FileChecksum: MD5: 37c06ba3ca3f42992ddeec67bf1fac2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl
+SPDXID: SPDXRef-item9799165
+FileChecksum: SHA1: 163c2da11088cba9ce63e3630c1d0c788b9701be
+FileChecksum: SHA256: 9da8a3764db121e29d21ade67c9c3426598e76d88deae44cd7238983af8cef73
+FileChecksum: MD5: e270f779f11a2b4f86fbf9a70c4a2042
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_03.npy
+SPDXID: SPDXRef-item9799166
+FileChecksum: SHA1: c4727d065ae70cc5c980ca889dd5f241d1c8ec90
+FileChecksum: SHA256: 8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7
+FileChecksum: MD5: 6924a92267c62c87be76ba8d122305cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl
+SPDXID: SPDXRef-item9799169
+FileChecksum: SHA1: 5f7b40425db331e82f1229126e240fd83fd96b96
+FileChecksum: SHA256: 1cbe456f5b91f5a3cb8e386838f276c30335432a351426686187761d5c34168b
+FileChecksum: MD5: b1cc31ec1c93c35a6e9e49f7f86e1807
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_04.npy
+SPDXID: SPDXRef-item9799170
+FileChecksum: SHA1: f01ffbbf7dc23c773dfff466a50215ea484fe370
+FileChecksum: SHA256: 3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05
+FileChecksum: MD5: f69277fdae04e2c60f4275bff214f8d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_02.npy
+SPDXID: SPDXRef-item9799171
+FileChecksum: SHA1: e2e82c153ce2248a6da757cedc544a6becc5b27e
+FileChecksum: SHA256: 1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1
+FileChecksum: MD5: 9364205343f5af4d96a12ba74cd79e79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.lzma/joblib_0.10.0_pickle_py27_np17.pkl
+SPDXID: SPDXRef-item9799174
+FileChecksum: SHA1: 381a8a47f8eb197259096f8ccb909b2759437f0e
+FileChecksum: SHA256: 89c4508e3dfbe01f801e4e739f1aded13f685941e89281c8050f0ca8aa3c97e5
+FileChecksum: MD5: 32ff2527d04fd041aa06adfb7a96736c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/generate_data.sh
+SPDXID: SPDXRef-item9799175
+FileChecksum: SHA1: c92ac12b89a87c88b92fc492ab7ad5918050b16f
+FileChecksum: SHA256: 252ed27718b5db47a2571fee2688fbd328122d35c8ade57a7d11f84c340b7752
+FileChecksum: MD5: ac8e77234db048d3df7066205dc1eb93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_compressed_pickle_py35_np19.gz
+SPDXID: SPDXRef-item9799176
+FileChecksum: SHA1: d78d5ee694d2490ccddce9240b1c68bdddd5f2d8
+FileChecksum: SHA256: a56c3fc6e0db3a4102aaed4a19fd4e154eecd956f30b6bf9179897844ed3c01e
+FileChecksum: MD5: d1e498cd2c4ddf8878c7cc1fec1a2808
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_04.npy
+SPDXID: SPDXRef-item9799177
+FileChecksum: SHA1: f01ffbbf7dc23c773dfff466a50215ea484fe370
+FileChecksum: SHA256: 3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05
+FileChecksum: MD5: f69277fdae04e2c60f4275bff214f8d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_02.npy.z
+SPDXID: SPDXRef-item9799178
+FileChecksum: SHA1: 8d43f72cac07516a860c1644a126ea9634c8406a
+FileChecksum: SHA256: b710394432343d1ba253f50d298f291a9fb3420410f6f695bcc8bad2138f695b
+FileChecksum: MD5: 1a37128880863dc369b3802715f2e8b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.lzma/joblib_0.10.0_pickle_py34_np19.pkl
+SPDXID: SPDXRef-item9799181
+FileChecksum: SHA1: 16bd265ac88cc8b209be7da5a728692a01f851f1
+FileChecksum: SHA256: 869a9d59030975815b741f3958bd7ac309be1dc6000a63d36f8819eed407743f
+FileChecksum: MD5: 4c1585249a16e1a705d645d12fdf02a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.bz2/joblib_0.10.0_pickle_py33_np18.pkl
+SPDXID: SPDXRef-item9799184
+FileChecksum: SHA1: 75ead90a51aa7570b494d7570a437129cd79788b
+FileChecksum: SHA256: 32151d7be7df03e31fa1efb59867f85b51a2c38ce0df781258685793ea38982d
+FileChecksum: MD5: 3935b7a163caa2818058c45bfeaead32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_01.npy
+SPDXID: SPDXRef-item9799185
+FileChecksum: SHA1: 05c93e3e1bce9411d5ad576f592c83aac5836a1f
+FileChecksum: SHA256: 0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809
+FileChecksum: MD5: c6e7291eb0dec6960ca8e829aa23f506
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz
+SPDXID: SPDXRef-item9799186
+FileChecksum: SHA1: 246dcf7401ac4da84d5c2ce8df7d6cf124eba0d4
+FileChecksum: SHA256: f2361f589b31d2863627edcb96612280ae5c0a59c9496d89dab7de493670f93b
+FileChecksum: MD5: cf3a61f4ee7cab8e0b6fc300d185e325
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.lzma/joblib_0.10.0_pickle_py33_np18.pkl
+SPDXID: SPDXRef-item9799191
+FileChecksum: SHA1: 75ead90a51aa7570b494d7570a437129cd79788b
+FileChecksum: SHA256: 32151d7be7df03e31fa1efb59867f85b51a2c38ce0df781258685793ea38982d
+FileChecksum: MD5: 3935b7a163caa2818058c45bfeaead32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.bz2/joblib_0.10.0_pickle_py34_np19.pkl
+SPDXID: SPDXRef-item9799194
+FileChecksum: SHA1: 16bd265ac88cc8b209be7da5a728692a01f851f1
+FileChecksum: SHA256: 869a9d59030975815b741f3958bd7ac309be1dc6000a63d36f8819eed407743f
+FileChecksum: MD5: 4c1585249a16e1a705d645d12fdf02a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_01.npy
+SPDXID: SPDXRef-item9799197
+FileChecksum: SHA1: 05c93e3e1bce9411d5ad576f592c83aac5836a1f
+FileChecksum: SHA256: 0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809
+FileChecksum: MD5: c6e7291eb0dec6960ca8e829aa23f506
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl
+SPDXID: SPDXRef-item9799198
+FileChecksum: SHA1: 02c62b45378fa39ddd6706ff893e4b65cb47a336
+FileChecksum: SHA256: c3d4cbc690d3ce9e5323a714ea546f32c01ab1710285c420184f6cdf4b26fc25
+FileChecksum: MD5: 70eb076f2747333fdda98ca95743d0cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.bz2/joblib_0.10.0_pickle_py35_np19.pkl
+SPDXID: SPDXRef-item9799201
+FileChecksum: SHA1: 08c880c2d439b70379ee312c31d7a0a686dc7ca1
+FileChecksum: SHA256: 9ec7a4a35c842a788bd60fcb8ed9747728d6e0a8a32db7fbe0f7b1925ee8275f
+FileChecksum: MD5: cf675cab267df92a1b38666d94ba745a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_04.npy
+SPDXID: SPDXRef-item9799202
+FileChecksum: SHA1: f01ffbbf7dc23c773dfff466a50215ea484fe370
+FileChecksum: SHA256: 3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05
+FileChecksum: MD5: f69277fdae04e2c60f4275bff214f8d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_02.npy
+SPDXID: SPDXRef-item9799203
+FileChecksum: SHA1: e2e82c153ce2248a6da757cedc544a6becc5b27e
+FileChecksum: SHA256: 1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1
+FileChecksum: MD5: 9364205343f5af4d96a12ba74cd79e79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_04.npy
+SPDXID: SPDXRef-item9799204
+FileChecksum: SHA1: f01ffbbf7dc23c773dfff466a50215ea484fe370
+FileChecksum: SHA256: 3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05
+FileChecksum: MD5: f69277fdae04e2c60f4275bff214f8d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_03.npy
+SPDXID: SPDXRef-item9799205
+FileChecksum: SHA1: 1a02eab13448aa3b5a4fcc5766f349ef2d2dc196
+FileChecksum: SHA256: a0c45ae2a289841cbeba2443b7ebaa3b31c0a9e9dcc73294aca5729da0092405
+FileChecksum: MD5: 3e87c0e2b1b5a65a08b61fad93c25aac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_02.npy
+SPDXID: SPDXRef-item9799206
+FileChecksum: SHA1: e2e82c153ce2248a6da757cedc544a6becc5b27e
+FileChecksum: SHA256: 1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1
+FileChecksum: MD5: 9364205343f5af4d96a12ba74cd79e79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl
+SPDXID: SPDXRef-item9799207
+FileChecksum: SHA1: 381a8a47f8eb197259096f8ccb909b2759437f0e
+FileChecksum: SHA256: 89c4508e3dfbe01f801e4e739f1aded13f685941e89281c8050f0ca8aa3c97e5
+FileChecksum: MD5: 32ff2527d04fd041aa06adfb7a96736c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/create_numpy_pickle.py
+SPDXID: SPDXRef-item9799212
+FileChecksum: SHA1: a87c9a17eef05775b84f18a9b1c4eab6db9f029a
+FileChecksum: SHA256: 044692bfc766ddae3c9afc65fca7f9012c2491b1a1c11a65ccda2d4cfe11082d
+FileChecksum: MD5: a13aa8e9d45a2b722e5835dbbc9d56a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np16.gz
+SPDXID: SPDXRef-item9799213
+FileChecksum: SHA1: 11bfe169ee561a4cd3f57ad4ad3720d5d498b3f6
+FileChecksum: SHA256: 34bb43aefa365c81f42af51402f84ea8c7a85c48c65b422e4e4fe8b2ee57883c
+FileChecksum: MD5: 75c4483218ae2e70674311ddaf5a2312
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_02.npy
+SPDXID: SPDXRef-item9799214
+FileChecksum: SHA1: e2e82c153ce2248a6da757cedc544a6becc5b27e
+FileChecksum: SHA256: 1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1
+FileChecksum: MD5: 9364205343f5af4d96a12ba74cd79e79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.gzip/joblib_0.10.0_pickle_py35_np19.pkl
+SPDXID: SPDXRef-item9799217
+FileChecksum: SHA1: 08c880c2d439b70379ee312c31d7a0a686dc7ca1
+FileChecksum: SHA256: 9ec7a4a35c842a788bd60fcb8ed9747728d6e0a8a32db7fbe0f7b1925ee8275f
+FileChecksum: MD5: cf675cab267df92a1b38666d94ba745a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.lzma/joblib_0.11.0_pickle_py36_np111.pkl
+SPDXID: SPDXRef-item9799220
+FileChecksum: SHA1: 6cd9306e269df409f5a1684075da46e4a1575b81
+FileChecksum: SHA256: 5e6b0e171782d5fd5a61d1844dc946eb27c5f6b2e8075d436b23808433142ebc
+FileChecksum: MD5: 37c06ba3ca3f42992ddeec67bf1fac2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_01.npy
+SPDXID: SPDXRef-item9799221
+FileChecksum: SHA1: 05c93e3e1bce9411d5ad576f592c83aac5836a1f
+FileChecksum: SHA256: 0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809
+FileChecksum: MD5: c6e7291eb0dec6960ca8e829aa23f506
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.lzma/joblib_0.10.0_pickle_py35_np19.pkl
+SPDXID: SPDXRef-item9799224
+FileChecksum: SHA1: 08c880c2d439b70379ee312c31d7a0a686dc7ca1
+FileChecksum: SHA256: 9ec7a4a35c842a788bd60fcb8ed9747728d6e0a8a32db7fbe0f7b1925ee8275f
+FileChecksum: MD5: cf675cab267df92a1b38666d94ba745a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np17.gz
+SPDXID: SPDXRef-item9799225
+FileChecksum: SHA1: 11bfe169ee561a4cd3f57ad4ad3720d5d498b3f6
+FileChecksum: SHA256: 34bb43aefa365c81f42af51402f84ea8c7a85c48c65b422e4e4fe8b2ee57883c
+FileChecksum: MD5: 75c4483218ae2e70674311ddaf5a2312
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/data/joblib_0.12.2_pickle_py36_np114.pkl.lz4/joblib_0.12.2_pickle_py36_np114.pkl
+SPDXID: SPDXRef-item9799228
+FileChecksum: SHA1: 6cd9306e269df409f5a1684075da46e4a1575b81
+FileChecksum: SHA256: 5e6b0e171782d5fd5a61d1844dc946eb27c5f6b2e8075d436b23808433142ebc
+FileChecksum: MD5: 37c06ba3ca3f42992ddeec67bf1fac2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_numpy_pickle.py
+SPDXID: SPDXRef-item9799230
+FileChecksum: SHA1: 49b7b378d147b655f2243a4f32b68fb23d57e109
+FileChecksum: SHA256: eab44cbe3fbd760055b9c3cb63b274a81208718d97392406875a30a8e88622b8
+FileChecksum: MD5: af40c3955c33cdbf092d723a223cdda1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_testing.py
+SPDXID: SPDXRef-item9799232
+FileChecksum: SHA1: e4628f631537810fab0d0816ac8b3bd4fbb22fb3
+FileChecksum: SHA256: d4ee594c991d06356433e4ace260a89ac11b260af044e96856ef0caafec9bfec
+FileChecksum: MD5: 53648ae3c0e47554bec6a4779ae153f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/test/test_dask.py
+SPDXID: SPDXRef-item9799234
+FileChecksum: SHA1: 9b19154b0b9779f3da9fd6cb99369eadc6b54d3d
+FileChecksum: SHA256: 2081dd5d7a47e4d7a7bab07a8de9bdad88ac6bfacffaeb0fca83d5696cc110dd
+FileChecksum: MD5: 36dadb036038aaaeb86621a7daad8baf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/compressor.py
+SPDXID: SPDXRef-item9799238
+FileChecksum: SHA1: db683f9f998ef78124b0f87e20091f1a32e95eec
+FileChecksum: SHA256: 5b0473b1085d429d256d0bef11b01c69ebc2382336fd0caffc72783d51eda1b4
+FileChecksum: MD5: aac3f5861c46d7b16264e4ce5d14612f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/_utils.py
+SPDXID: SPDXRef-item9799243
+FileChecksum: SHA1: 074ada6647eaa261d68896c37debd0cdffb7518d
+FileChecksum: SHA256: 04152ce191e90d1c69813b1dad94b205bdfd32a69c33a25ab88ddd4d19a71e6e
+FileChecksum: MD5: b7cc6b66cdb104208c7f5fba0170e768
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/numpy_pickle_compat.py
+SPDXID: SPDXRef-item9799244
+FileChecksum: SHA1: 51953d8764e9ff9a418042df2312d4967e7512e2
+FileChecksum: SHA256: 53bcd534d174dda9ffec08073b1853c5c3926cb25359c1ac9d5ff16d3def45d6
+FileChecksum: MD5: 36ef4854629beaeade67c1aedc049123
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/backports.py
+SPDXID: SPDXRef-item9799245
+FileChecksum: SHA1: cec244850c177f0496bd3ffb16bbbb29fdda363d
+FileChecksum: SHA256: 686874723b3fc4c84edb29bb469ae90e3081b9d88fb438600f5bdfe5831b31a2
+FileChecksum: MD5: a6c7c7130f28cf26041d2f96bd271a56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/cloudpickle/cloudpickle_fast.py
+SPDXID: SPDXRef-item9799249
+FileChecksum: SHA1: b26d23b225ece0b735608a8f55b1ee59e2571fda
+FileChecksum: SHA256: d46a940f89cb2acbf4beff6dcb62dadde54bc9e58dacf16585408df9a348fb7d
+FileChecksum: MD5: 6cc37918342e21fb14ce3fe13863078e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/cloudpickle/__init__.py
+SPDXID: SPDXRef-item9799250
+FileChecksum: SHA1: a1da3f2d8e0a0ff6168e43452b7102f96a39a66b
+FileChecksum: SHA256: bdbd8908e9f51292d4755c8f7b5112ca12f299cbe1f919372121c9fb9d9a0cbc
+FileChecksum: MD5: dd498d40baa136afca2bafb3317d63e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/vendor_loky.sh
+SPDXID: SPDXRef-item9799252
+FileChecksum: SHA1: 9be305e36d28db8e7c299f6bdfc2e277addf8fd8
+FileChecksum: SHA256: 158805f63a78bfbb631a3a8fe9446d2a08371c52ff26b5f1353b9854a7af0aed
+FileChecksum: MD5: f74a03ae36e57f841573dcee9812e970
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/__init__.py
+SPDXID: SPDXRef-item9799253
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText:  NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/reusable_executor.py
+SPDXID: SPDXRef-item9799256
+FileChecksum: SHA1: 81fdaaae35a00c478a2ddfa83946858389cac41b
+FileChecksum: SHA256: 5d5c4b18c8420e28fc094e810c76d828fc67f251beae7a976887f13b69d71978
+FileChecksum: MD5: b9fbf4d9b38389bdfd7ca41eaab33c6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/__init__.py
+SPDXID: SPDXRef-item9799257
+FileChecksum: SHA1: 487f769b1fd5afa2c1f7b1617f4c1102dcbca7c6
+FileChecksum: SHA256: 4f6d218311bd60fa6cf8086c12504ccc8243ef7ab4877c741f2b38f5a953beaf
+FileChecksum: MD5: c0d2bab8e4a00f8cff687e96a3a24aa1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/spawn.py
+SPDXID: SPDXRef-item9799259
+FileChecksum: SHA1: 18489dc1527c62f6c172190341dd03ccee59df13
+FileChecksum: SHA256: 3d5387b3ca2eec83dc2126fbb7f3e9f3a16752d3d4c3f29401dc660c73ab01a5
+FileChecksum: MD5: cf7f98248deea877a342f0a6ee8bcf56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/context.py
+SPDXID: SPDXRef-item9799260
+FileChecksum: SHA1: a9d84cde74abd52f8be9da0d5ca4f9bf4bc74a2c
+FileChecksum: SHA256: 1860541a9e100f1d6abc1b960efc8e4a3356600efdb21c6001a82cadcc40e741
+FileChecksum: MD5: d35b642b03f06f5de311a72cdf2d8b22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/_win_reduction.py
+SPDXID: SPDXRef-item9799261
+FileChecksum: SHA1: 0d5f612af435ab6d60364ef5b7f57c886bc8ea04
+FileChecksum: SHA256: 5a6341d0d5edc89fe8fd6cdf3d410687974f85721e23a16412714d5d4c4edb0b
+FileChecksum: MD5: 3cf710bd5e32d1ffe0a27eb9d1b37a9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/fork_exec.py
+SPDXID: SPDXRef-item9799262
+FileChecksum: SHA1: 6d3df2789ab8bd7e368ec57f405fdf7de1375446
+FileChecksum: SHA256: 737236d94fdec2d4f54f95e7eb94945c7adfb6ca6f965ac67b31a2bf92924506
+FileChecksum: MD5: 64f36bbfb10145383386b1bfce55f393
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/queues.py
+SPDXID: SPDXRef-item9799263
+FileChecksum: SHA1: a7b1d7f2316f8fea50cc6815833e9c908eeefee0
+FileChecksum: SHA256: 7844c5bdb3c7c0a7dda18c8e80d402c8aabf6659be9731f77f0c2950887eff85
+FileChecksum: MD5: 2a76957d398f5d066972aa2bfaa7b33a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/__init__.py
+SPDXID: SPDXRef-item9799264
+FileChecksum: SHA1: 0f9ee4513f9b379d9c8a0d7bbe90deb1237bd783
+FileChecksum: SHA256: 231f4a4e157509893bf8ce4e42727f03f26baeb589f89a306be1cc31e19ba75f
+FileChecksum: MD5: ba53d800ab928c984b2bcde6b343ef5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/utils.py
+SPDXID: SPDXRef-item9799265
+FileChecksum: SHA1: fe6e8b0a882fdf3b2bf63f3e9218f94b2aa971b3
+FileChecksum: SHA256: 455b31ab2113e1325d6e373db941c999f865436bf852af9f893ff96f9adf0b4b
+FileChecksum: MD5: 2c81fdc6540d126cfcd296152424a0cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/popen_loky_posix.py
+SPDXID: SPDXRef-item9799266
+FileChecksum: SHA1: 63711ad8f281e736d3b094c14c50055b7bc2a955
+FileChecksum: SHA256: 64516ce87ed7a77082403138a2a99dfdf95675acba11db65437e079296b63c54
+FileChecksum: MD5: 111fe59054f1856e28046a81a1f44061
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/process.py
+SPDXID: SPDXRef-item9799267
+FileChecksum: SHA1: 196933646e3571af10f1a6d2dc33814a62e236fc
+FileChecksum: SHA256: e3e63de04a08ae0e1bb6c8d33715011c01e147de8daee827ffbfcf18be9a539d
+FileChecksum: MD5: eb9858b9365f76ee44d8a87f94e12341
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/synchronize.py
+SPDXID: SPDXRef-item9799268
+FileChecksum: SHA1: e74f10d4e156002672de5e4756c3a5efdfad33db
+FileChecksum: SHA256: 9e50f00682d907dde6fe5e79a9f64cfd097ee0bf383d26229a842ab794f3a439
+FileChecksum: MD5: a59cb6d9ae18921b44a0bc179917f5fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/popen_loky_win32.py
+SPDXID: SPDXRef-item9799269
+FileChecksum: SHA1: d292d6a9778b0bf6ca147280285cf094622f10ab
+FileChecksum: SHA256: 6d8921440d30f2a51c605c287b3786c1c9e50a87047617965dce9267efeb571a
+FileChecksum: MD5: 95f022cee2afa7da58edab206e9c69bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/resource_tracker.py
+SPDXID: SPDXRef-item9799270
+FileChecksum: SHA1: d1245acfcd5a619c9e8f6516d04036ff873efbc7
+FileChecksum: SHA256: e36d7af3d5c09a6c6635792d7e484d1cd111218dcb6c0726580b264473cd5238
+FileChecksum: MD5: 3bb72c431b12a314bc25b5ad575682e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/_posix_reduction.py
+SPDXID: SPDXRef-item9799271
+FileChecksum: SHA1: 0308d36a6f372dc2c628c5bed1f3674332619b76
+FileChecksum: SHA256: c60092ac868b23493f308d1734e052a797b5a31d5637d89d82b59b916a4c52be
+FileChecksum: MD5: f5c097202c0890cb7379c6fd38dfa770
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/backend/reduction.py
+SPDXID: SPDXRef-item9799272
+FileChecksum: SHA1: 3c657fd54beb9cffc1a965a5e57158be79edd4a3
+FileChecksum: SHA256: 091bbddb647cc4ec688364a7868a7bcba7cdd5f3d7f7f875d746ebac80b06541
+FileChecksum: MD5: c3884fb7c0667dfc0528b7ae02bfe0df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/cloudpickle_wrapper.py
+SPDXID: SPDXRef-item9799273
+FileChecksum: SHA1: 032fedda5f8a22a80e07af24ed37daf4d579cdcb
+FileChecksum: SHA256: f557eb5c87c78897285c3ab081a1d66d1b168a9540db7a1125ac675f34aeec63
+FileChecksum: MD5: 2571450f50136f5ef924cf5a74a5746b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/loky/initializers.py
+SPDXID: SPDXRef-item9799274
+FileChecksum: SHA1: f60e8d22b263587ac4e2979207ae872808f6e359
+FileChecksum: SHA256: 76d2ad46c254995c2226ed3267e221d26f0fbd6fccc66a2e1bb99284472c4ad7
+FileChecksum: MD5: c6398d46f5acb1d9789b932967fb3642
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/externals/vendor_cloudpickle.sh
+SPDXID: SPDXRef-item9799276
+FileChecksum: SHA1: 3d30a8179de99b7f865acf717c719d1b83ae2ce5
+FileChecksum: SHA256: 14d7817343a95ffd506b035a2c26b86ff15d1e936aaee107c984b44358a45fce
+FileChecksum: MD5: 48e6e4b75f99111e2d68c1e5e7d81899
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/joblib/_multiprocessing_helpers.py
+SPDXID: SPDXRef-item9799277
+FileChecksum: SHA1: 2b1ff2b46e329e70fe38e3e5d22da09e14dfc98b
+FileChecksum: SHA256: b7bc085dfacb7f3a855e339e398b3824fe39b69b719989b9ff213cca52116d1f
+FileChecksum: MD5: d4841db1f27818d89e7d4a4f88e52879
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/.codecov.yml
+SPDXID: SPDXRef-item9799278
+FileChecksum: SHA1: 8961889601364b854ca9ed391aa8622cef75f9eb
+FileChecksum: SHA256: 3b28f68e2781d73a4102fd0c57164768465a9f6d5e65b6462b57698d28516236
+FileChecksum: MD5: f5483cfb76455b28993cc9137138174a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/Makefile
+SPDXID: SPDXRef-item9799279
+FileChecksum: SHA1: 9880aa381a81826fb7cf80066e159cffd7a2318f
+FileChecksum: SHA256: b76d36ca785e94dd02fa7a9ae3f97db8c3774313336b965cc1b5abd9e1807d84
+FileChecksum: MD5: f55ef028cf95443a7f6803d37c171515
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/setup.cfg
+SPDXID: SPDXRef-item9799280
+FileChecksum: SHA1: 8acc736ec33914c049a46dea1a8c8f371f3ffe9a
+FileChecksum: SHA256: 029b97e141157907ee3d130ee8a309058b72cc68f2b8830b85ba61691c069941
+FileChecksum: MD5: 45c40cb8c71c3130fe31c2045c5cb87a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/pyproject.toml
+SPDXID: SPDXRef-item9799281
+FileChecksum: SHA1: 1b95545516b4b457a384a1ea18b2ac36020a0dc0
+FileChecksum: SHA256: 5caadcd757e4ced82dbc1a9800f868f442d9cbb931b5ef49c7327f67f048f3c0
+FileChecksum: MD5: 370e68ffc0431f45be1a166a25f04920
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/.readthedocs.yaml
+SPDXID: SPDXRef-item9799282
+FileChecksum: SHA1: 6e9837e82f47f4cd1ac737b9a5d5535d49d40ea6
+FileChecksum: SHA256: e270f083314be9e62db38fb4dd756d86821ebb6549ee3c27bacbef9691604f29
+FileChecksum: MD5: 80e9a2496b3e805b7005a73feaec896b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/azure-pipelines.yml
+SPDXID: SPDXRef-item9799283
+FileChecksum: SHA1: 690657b9efc58436efb16b8c974a65ad98ecc6ab
+FileChecksum: SHA256: f610a50ebb9be0ee0df371054a1054703a0f527eea8d29b2fbcbbd746b19cbc6
+FileChecksum: MD5: c0096dd97be2cfc2bc846901d96a920b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/installing.rst
+SPDXID: SPDXRef-item9799285
+FileChecksum: SHA1: 1dd99e0ec65e7e502eca2ccb04e5fecdafbd2020
+FileChecksum: SHA256: 2bf2449b6e21b790993733e4c01f535b74e3fc6aeef95ecf28396ea0d805b6ae
+FileChecksum: MD5: edc8dfa1f47ce12c73257c84f32463be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/parallel_numpy.rst
+SPDXID: SPDXRef-item9799286
+FileChecksum: SHA1: 4b2b6d45945287c38992709f42c0548ad6dd405c
+FileChecksum: SHA256: c6f302da39fc97e38aaf1d818db10600a3c7acfc9383015c293080be2ab86241
+FileChecksum: MD5: 27640f0cc3f6070b719c627f15ff75a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/_static/favicon.ico
+SPDXID: SPDXRef-item9799288
+FileChecksum: SHA1: ec0cf1b2f0ed0e15a92049c0a68a7414be607815
+FileChecksum: SHA256: 370d7856f937345c545f1933bcaed9dd5111090d6983d3c2a877d765d39c5aed
+FileChecksum: MD5: 7da3290a75e6dcf560888101d41c587f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/_static/joblib_logo.svg
+SPDXID: SPDXRef-item9799289
+FileChecksum: SHA1: 79e48f5d15f853bda96702bcd8814e7ef215fb88
+FileChecksum: SHA256: 4f5c3686af30859f4eb4017fe081ba3927f330a8c976074a1067097cafbd1baa
+FileChecksum: MD5: f631e45ea0e7057140ad1686537200a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/_static/custom.css
+SPDXID: SPDXRef-item9799290
+FileChecksum: SHA1: 6229a27dd1f2b5717fba91810c23c89ab97f9efe
+FileChecksum: SHA256: 65799202661a46fcf96399fb47f76c5a3aa600cb7da296718df7f8d3e779e3df
+FileChecksum: MD5: a89683d1274d8b345b4203e233e2d6a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/_static/joblib_logo_examples.png
+SPDXID: SPDXRef-item9799291
+FileChecksum: SHA1: e0b26e743560dd6135783c0c0ae366b7931becb8
+FileChecksum: SHA256: bd2e908351e3f2bfca472adb665037eb1b3d1699a9f119fb2741d507d739f7c6
+FileChecksum: MD5: 1b8f9542b8a05d223a638d486d8b6282
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/_templates/class.rst
+SPDXID: SPDXRef-item9799293
+FileChecksum: SHA1: 315c6cbab41e9488958729f5df73a00a302c922f
+FileChecksum: SHA256: d7e3e959e382737416b96f95092a2ac904994de72e0772f92dd5da3f330b5cff
+FileChecksum: MD5: 3966824699af07e0134e168567187a0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/_templates/function.rst
+SPDXID: SPDXRef-item9799294
+FileChecksum: SHA1: b8945ed73e1fc073d8b14a25c0ba96910f8d2a73
+FileChecksum: SHA256: 9edb49423ccc73a60ecb00020eb00cadac8ca797e7977981e76d8a9dc56845de
+FileChecksum: MD5: a899d7f6eece58f5e0162400d5239b49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/_templates/navigation.html
+SPDXID: SPDXRef-item9799295
+FileChecksum: SHA1: 1e442ca49aa4ffa351611cb333971dca6ab46a23
+FileChecksum: SHA256: e82edc42c003914b254ef305728df8dab0c228cd8af762fa1b8da7421c8f4a9a
+FileChecksum: MD5: 85a6b95f92415a5198944cdc722d0c4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/_templates/layout.html
+SPDXID: SPDXRef-item9799296
+FileChecksum: SHA1: 4dad0888fa86aba1ed7e0e5c1a2bdd01defe282c
+FileChecksum: SHA256: a73f36a1abb937855b51ac2488c64dd6f1ff66f36d258fbc60b9f1023945d12d
+FileChecksum: MD5: 0f5c27be9d229cc8eb0099acf8fe2d0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/memory.rst
+SPDXID: SPDXRef-item9799297
+FileChecksum: SHA1: 05f7bd562330d74e03dadc677a91e7935a5b81fc
+FileChecksum: SHA256: 8a186dca251647d93783f5a644d0110d7359b74eb8747756669f65226ecd7459
+FileChecksum: MD5: 59cf0ecd1648406f689c975701c13563
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/why.rst
+SPDXID: SPDXRef-item9799298
+FileChecksum: SHA1: f9fd497c14da2b076366880cf610178cd6822962
+FileChecksum: SHA256: 7c41116c89075a914a4fc683799d1b8033e6fad1392caf0b2036767c0516516e
+FileChecksum: MD5: 8b2301c6c98c87503b3f885dcccb150a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/Makefile
+SPDXID: SPDXRef-item9799299
+FileChecksum: SHA1: 3b4d96535beddf53bc6ded854bfaa6471f76b839
+FileChecksum: SHA256: 7f1ccacf21e227b3078963ff31e8f21eb4778e9799822453895bd2ae8ed5994a
+FileChecksum: MD5: eac7d0871e290d218b89c6b2838d956f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/__init__.py
+SPDXID: SPDXRef-item9799300
+FileChecksum: SHA1: f24bf6ee826ca4af8685af8c5a5142b298b86ddf
+FileChecksum: SHA256: 4a38b323e9cfb5efec54f7c5826c79c3050fe456960e6f667937a540fe6b4066
+FileChecksum: MD5: bbc6debe530592216bc676f4a7c65cc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/persistence.rst
+SPDXID: SPDXRef-item9799301
+FileChecksum: SHA1: baec5e4ee4f0599a6f30c498aba7e3f9cc5e156d
+FileChecksum: SHA256: ee82d1b33113dcd888d1ee8f1804ce7dc11299ab03b649137526b74ce1992f6d
+FileChecksum: MD5: d5808e52895b319bcf3bf4e7cdae6b2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/conf.py
+SPDXID: SPDXRef-item9799302
+FileChecksum: SHA1: 7ae2d891eebc9192c50755a569ccfbaabf34502a
+FileChecksum: SHA256: 0200c03f2a6ece7ea2b06f72f28d3a927aad352b13bfc102bf787abe9577974d
+FileChecksum: MD5: 8403ee5b511453685d61b1953aa558e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> copyright 2008-2021, Joblib developers </text>
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/conftest.py
+SPDXID: SPDXRef-item9799303
+FileChecksum: SHA1: 2a028b66af4939dbf77fd92d7ee0cdb8b67ae72c
+FileChecksum: SHA256: 4e01e785accafc33915ba66459dacbfde823b020dc1e3cff9460738a173fcbaf
+FileChecksum: MD5: 24537c1de7d9ddc90a3204aa1b6eb58f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/parallel.rst
+SPDXID: SPDXRef-item9799304
+FileChecksum: SHA1: f048eb18d029f4d064f474c118a91ff2f01a14b8
+FileChecksum: SHA256: 6017ae00235a9ab6ccbca2edaf1228f37fdf8afee2bea21225dffeab467eb832
+FileChecksum: MD5: ca859f9062cc5e7e9c01eaed2f9d0ee1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/index.rst
+SPDXID: SPDXRef-item9799305
+FileChecksum: SHA1: f8048730d00bf4dc27a236114c4c0f98733bad84
+FileChecksum: SHA256: 9686d8ade8878883bdff049ff8bec3a2c7d746145dd980044411f574ed513892
+FileChecksum: MD5: cf7fa81f73c9f402321fb86b996c6c0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/doc/developing.rst
+SPDXID: SPDXRef-item9799306
+FileChecksum: SHA1: 3becf806f5f017dc2e7ec1499de489086669f0db
+FileChecksum: SHA256: db708a791de5812b313434c7615e8707bbef8170a856e6d1689a8bcd5dbc975c
+FileChecksum: MD5: e189c501a7c37625a56544ab97f63cb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/continuous_integration/run_tests.sh
+SPDXID: SPDXRef-item9799309
+FileChecksum: SHA1: d19b18b4b6d349957ac8825ad0558bf10ee1e14d
+FileChecksum: SHA256: 6280da633e731c69e93f9875d32a17b33dce8d8712bc8bf1cdd355799d33faa0
+FileChecksum: MD5: 98772e004427ab534d422c307c23bddb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/conftest.py
+SPDXID: SPDXRef-item9799310
+FileChecksum: SHA1: 2d193dc529305f32404ae8368d098adae09a6ca8
+FileChecksum: SHA256: ee1fc1f94c523fb7045b0ecaec719f9efb87c30d97ee94c9fdbf413b4f97a1dc
+FileChecksum: MD5: 5985c976ada054732bd498b7bb2c5a41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/README.rst
+SPDXID: SPDXRef-item9799311
+FileChecksum: SHA1: f5a8bcd4f8235f379d60becf68c4a34bcd956bda
+FileChecksum: SHA256: b8e3cd332554073f08b29fd250449f48849e9e7888e004903625d476d4fb9008
+FileChecksum: MD5: 41d8416586945600b1246f12b61e72ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/CHANGES.rst
+SPDXID: SPDXRef-item9799312
+FileChecksum: SHA1: 2a5ec8e40026202ecfd893a551fa8093abe5f5f2
+FileChecksum: SHA256: bd9224c6012cc265b3d47a661d064188243f046685e72e43401166ca354b4de3
+FileChecksum: MD5: 2325b01720886f70753c6f59ccb07e45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-URL
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: joblib-1.4.2.tar.gz/joblib-1.4.2.tar/joblib-1.4.2/.gitignore
+SPDXID: SPDXRef-item9799313
+FileChecksum: SHA1: 4b950f50acca9e60f668abf1b9ccec8d4e122ccf
+FileChecksum: SHA256: 8b226e8b0ab673a4b165d8263ae7f7781ac9d65c3a6c7cca2f2345b3aa8d87a6
+FileChecksum: MD5: 85363c37ed6f805871e698b3dbaf6c37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-73e5a73d25fa30fda885ec0f75f040dd
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+  
+LicenseID: LicenseRef-Python-2.0
+LicenseName: Python License 2.0
+ExtractedText: <text> PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
+
+     1. This LICENSE AGREEMENT is between the Python Software Foundation ("PSF"), and the Individual or Organization ("Licensee") accessing and otherwise using this software ("Python") in source or binary form and its associated documentation.
+
+     2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., "Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Python Software Foundation; All Rights Reserved" are retained in Python alone or in any derivative version prepared by Licensee.
+
+     3. In the event Licensee prepares a derivative work that is based on or incorporates Python or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python.
+
+     4. PSF is making Python available to Licensee on an "AS IS" basis. PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+     5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+     6. This License Agreement will automatically terminate upon a material breach of its terms and conditions.
+
+     7. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between PSF and Licensee. This License Agreement does not grant permission to use PSF trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.
+
+     8. By copying, installing or otherwise using Python, Licensee agrees to be bound by the terms and conditions of this License Agreement.
+
+
+BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0
+
+BEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1
+
+     1. This LICENSE AGREEMENT is between BeOpen.com ("BeOpen"), having an office at 160 Saratoga Avenue, Santa Clara, CA 95051, and the Individual or Organization ("Licensee") accessing and otherwise using this software in source or binary form and its associated documentation ("the Software").
+
+     2. Subject to the terms and conditions of this BeOpen Python License Agreement, BeOpen hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use the Software alone or in any derivative version, provided, however, that the BeOpen Python License is retained in the Software, alone or in any derivative version prepared by Licensee.
+
+     3. BeOpen is making the Software available to Licensee on an "AS IS" basis. BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+     4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+     5. This License Agreement will automatically terminate upon a material breach of its terms and conditions.
+
+     6. This License Agreement shall be governed by and interpreted in all respects by the law of the State of California, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between BeOpen and Licensee. This License Agreement does not grant permission to use BeOpen trademarks or trade names in a trademark sense to endorse or promote products or services of Licensee, or any third party. As an exception, the "BeOpen Python" logos available at http://www.pythonlabs.com/logos.html may be used according to the permissions granted on that web page.
+
+     7. By copying, installing or otherwise using the software, Licensee agrees to be bound by the terms and conditions of this License Agreement.
+
+
+CNRI OPEN SOURCE LICENSE AGREEMENT (for Python 1.6b1)
+
+IMPORTANT: PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY.
+
+BY CLICKING ON "ACCEPT" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6, beta 1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.
+
+     1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 ("CNRI"), and the Individual or Organization ("Licensee") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 ("Python 1.6b1").
+
+     2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee.
+
+     Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): "Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011".
+
+     3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1.
+
+     4. CNRI is making Python 1.6b1 available to Licensee on an "AS IS" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+     5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+     6. This License Agreement will automatically terminate upon a material breach of its terms and conditions.
+
+     7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.
+
+     8. By clicking on the "ACCEPT" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.
+
+ACCEPT
+
+
+CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2
+
+Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam, The Netherlands. All rights reserved.
+
+     Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of Stichting Mathematisch Centrum or CWI not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
+
+     STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-c79543e2a39f7b69bf7743b737cc2bdd
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+* Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+* Neither the name of the University of California, Berkeley nor the
+names of its contributors may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+
+LicenseID: LicenseRef-BSD
+LicenseName: BSD
+ExtractedText: <text> BSD is referenced without a version number. Please look up BSD in the License Admin to view the different versions. </text>
+
+
+  
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+
+
+LicenseID: LicenseRef-WebM
+LicenseName: WebM Software License
+ExtractedText: <text> Software License
+Copyright (c) 2010, Google Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of Google nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+
+LicenseID: LicenseRef-Python
+LicenseName: Python
+ExtractedText: <text> License by Nomos. </text>
+
+
+
+LicenseID: LicenseRef-See-URL
+LicenseName: See-URL
+ExtractedText: <text> License by Nomos. </text>
+
