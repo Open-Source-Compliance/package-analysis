@@ -1,0 +1,2891 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_pyparsing-3.2.0.tar.gz_1730646966.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of pyparsing 3.2.0
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2024-11-03T15:16:07Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: pyparsing-3.2.0.tar.gz
+PackageFileName: pyparsing-3.2.0.tar.gz
+SPDXID: SPDXRef-upload2244
+PackageDownloadLocation: https://github.com/pyparsing/pyparsing/archive/refs/tags/3.2.0.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/pyparsing/pyparsing@3.2.0
+FilesAnalyzed: true
+PackageVerificationCode: 1773ad057c4e13a80cbc0fd5c7dfcef01c204ed7
+PackageChecksum: SHA1: 96db1f9e1270b0adb095ecd9aac23e0a1ffdb44b
+PackageChecksum: SHA256: 91f52e4e06a2ee736531a3038fc2c7d6bb83f321831435fcedc14f95749c86ac
+PackageChecksum: MD5: e0790c02dc34a0497616b664266158fa
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-MIT-8d18be6409468bae48b33b87db85824a
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2244
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/btpyparse.py
+SPDXID: SPDXRef-item9799484
+FileChecksum: SHA1: 671e645e6697f99a22a00dd4f578bdd239bd8534
+FileChecksum: SHA256: 51e9320bfe91f8d65f0359d940df121385ff4aef4a5fe226025788029ee8d32a
+FileChecksum: MD5: 33ef14e5908c6b46fbaa4b49b028c874
+LicenseConcluded: LicenseRef-BSD-2-Clause-2c6f31beafbcf8c8f9095b83d8c5688d
+LicenseComments: <text> The infornation in the file is:
+Submitted by Matthew Brett, 2010
+
+Simplified BSD license
+We searched the internet about the exact license of this file, but we were not able to find it, thus we concluded BSD-2-Clause (because of "Simplified SD license") and took the license text from https://opensource.org/license/bsd-2-clause
+The information was retrieved on 03.11.2024
+There is a small risk that this is not the correct license text </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+LicenseInfoInFile: LicenseRef-BSD-possibility
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/LAparser.py
+SPDXID: SPDXRef-item9799492
+FileChecksum: SHA1: a9d5f2c9b3168f9b6797473478fb7dbfe6893735
+FileChecksum: SHA256: 0131bc128945e41fe642ff8f4e23b2d2699e2a0d7eb3554bc097744bc668191c
+FileChecksum: MD5: 9502027a5dbee2bf5f07cd7229858353
+LicenseConcluded: LicenseRef-Permission-Notice-51b73aaf2aaf188199c41fa4bce9284b
+LicenseInfoInFile: LicenseRef-scancode-other-permissive
+LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
+FileCopyrightText: <text> Copyright: Ellis & Grant, Inc. 2005 </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/booleansearchparser.py
+SPDXID: SPDXRef-item9799568
+FileChecksum: SHA1: 9ed2af3530e06b7f5ea3135e209a15fb5702d841
+FileChecksum: SHA256: f9914fa133f1c3031a56379d240b601cb2c202c7665151978ac2382ffafce69a
+FileChecksum: MD5: 84d2bd60768960f77134dca8b3fd9b53
+LicenseConcluded: LicenseRef-BSD-3-Clause-8aa871b6ded09c659fb226753641c5fc
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2006, Estrate, the Netherlands All rights reserved. </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/searchparser.py
+SPDXID: SPDXRef-item9799570
+FileChecksum: SHA1: 3957b91849f4bf4a89df020f888055b57e005674
+FileChecksum: SHA256: 24fe2d27c5c442aafb8081151963078d79397be93cc74a77f6d79c1c43ec1095
+FileChecksum: MD5: 608f52c573fc0f01341dc96496e65a5f
+LicenseConcluded: LicenseRef-BSD-3-Clause-8aa871b6ded09c659fb226753641c5fc
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2006, Estrate, the Netherlands All rights reserved. </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/snmp_api.h
+SPDXID: SPDXRef-item9799482
+FileChecksum: SHA1: ca155b083c3e4d1148a5c6cee42f74105c126819
+FileChecksum: SHA256: 92e308333f6a578c8b83d5ff3c7081d42cc1ead5a5ceff1374d74d9eb722b4b9
+FileChecksum: MD5: e771298c16bf4139215cfdffa269a78e
+LicenseConcluded: LicenseRef-MIT-CMU-b275e0df276fb55edbba5d5ba560f029
+LicenseInfoInFile: LicenseRef-HPND
+LicenseInfoInFile: LicenseRef-MIT-CMU
+FileCopyrightText: <text> Copyright 1989 by Carnegie Mellon University </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/verilog_parse.py
+SPDXID: SPDXRef-item9799475
+FileChecksum: SHA1: 682ff1fb4f717f2ab2e7309b00c62624e6a83148
+FileChecksum: SHA256: f25cd90f3bc28f8cc4598ab9c939f4b8b00e57839f2dbc21ccf362ee1a347e3c
+FileChecksum: MD5: 567814ea7c3966e6a970d7c6f08e7226
+LicenseConcluded: LicenseRef-MIT-style-a4025daea60c9e4da08e0d27db3abc61
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-proprietary-license
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LicenseRef-MIT-testregex
+LicenseInfoInFile: LicenseRef-scancode-mit-synopsys
+FileCopyrightText: <text> Copyright (c) 2004-2011 Paul T. McGuire. All rights reserved. </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/core.py
+SPDXID: SPDXRef-item9799601
+FileChecksum: SHA1: 852cb90dc2b6d3fe358e0ccf377b94b0d9580e08
+FileChecksum: SHA256: 0c7d92741bccb73b8f70799fea32098f60a65a175a73b08d4b9019650748f1ff
+FileChecksum: MD5: a287d93c4fa7b7b45b8387a796cffa19
+LicenseConcluded: LicenseRef-MIT-8d18be6409468bae48b33b87db85824a
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2003-2022 Paul T. McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/LICENSE
+SPDXID: SPDXRef-item9799455
+FileChecksum: SHA1: df156c6a0a89ed2a3bd4a473c68cf85907509ca0
+FileChecksum: SHA256: 10d5120a16805804ffda8b688c220bfb4e8f39741b57320604d455a309e01972
+FileChecksum: MD5: 657a566233888513e1f07ba13e2f47f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/__init__.py
+SPDXID: SPDXRef-item9799596
+FileChecksum: SHA1: b2e4c15305ce51f46ed81bd359f2c02bc64c1ad9
+FileChecksum: SHA256: 13618b5bdd4d5c406a87812afd25ccd696ac1ee6a6a865b408a15c5c5e43b4d9
+FileChecksum: MD5: babfbfca7c60fbfd6b6a83f28a94cb79
+LicenseConcluded: LicenseRef-MIT-8d18be6409468bae48b33b87db85824a
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2003-2022 Paul T. McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/CODE_OF_CONDUCT.rst
+SPDXID: SPDXRef-item9799456
+FileChecksum: SHA1: da5c8c0e317d26ef0e9c26affde436029b821667
+FileChecksum: SHA256: 33b3b6f8d9c79128f61a46600f82b146dec6ddc6b3d5aebdac2f2003cd74107a
+FileChecksum: MD5: 8ed7a5db1c297ff7b03ab110a34f012a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/httpServerLogParser.py
+SPDXID: SPDXRef-item9799458
+FileChecksum: SHA1: 9da982529426dd24a117130acec0fff7f6fbc3ff
+FileChecksum: SHA256: 51382d999dec6f0a361c920a3e29a9debe5442b7824374cd1955d1bd58635ba2
+FileChecksum: MD5: 04959fb2d7461f6790c6c21760f3c855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2016, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/html_stripper.py
+SPDXID: SPDXRef-item9799459
+FileChecksum: SHA1: ff5e8d044420337506c335bc2e872853746915ad
+FileChecksum: SHA256: 27b81453b58d07593cde4374d330e856ed81397027459348650deb5e3a6f09ec
+FileChecksum: MD5: 202a28dcb48fb3b56545261cfcfe553d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2006, 2016, 2023, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/include_preprocessor.py
+SPDXID: SPDXRef-item9799460
+FileChecksum: SHA1: d40c59d80388dd9e01f47f7dd466311fdc1e713f
+FileChecksum: SHA256: 0993330096a9f8351902479228ea607db1217dec169902109d45f5d2dc108218
+FileChecksum: MD5: b5192156cf14ba4bf17438e12d1c8542
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2019, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/number_words.py
+SPDXID: SPDXRef-item9799461
+FileChecksum: SHA1: 027db9b174cf5d8bcb805e71111eca1e8c258ce2
+FileChecksum: SHA256: 1bf475229948078025ad7f47f8046077fe53ee399a0a4d8879c6adb80a6740ad
+FileChecksum: MD5: 502eca802797b80bdedf0d1529961950
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2020, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/SimpleCalc.py
+SPDXID: SPDXRef-item9799462
+FileChecksum: SHA1: 3bc77b64e562453c838940d61e974bf9131bdd99
+FileChecksum: SHA256: 2b9edead39a5f2a8ac1ac609125cfffdd86a57eee024a08bcd2325551dac24a6
+FileChecksum: MD5: dbf4cab7573ad541aa9e70dc42683cbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/delta_time.py
+SPDXID: SPDXRef-item9799463
+FileChecksum: SHA1: 839148fe0485c44afeb28aed47125db89b49c2d4
+FileChecksum: SHA256: 7f94e8167816b4e80bd8380c87a58e61db7794e719be42efd0a44282abaa7a5c
+FileChecksum: MD5: 8dbae8b1fcd5575579f3bbb5d30d7a4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2010, 2019 by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/protobuf_parser.py
+SPDXID: SPDXRef-item9799464
+FileChecksum: SHA1: cea5862bc3504b67d0cd5f32b9b01dbcdeeda7e9
+FileChecksum: SHA256: 61b309deb32d23a7798c79f313c0331a518c3d6d31e6eaa93ff69d5232fa4c80
+FileChecksum: MD5: 0b95c97320051ca45669ae52256dcc49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2010, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/complex_chemical_formulas.py
+SPDXID: SPDXRef-item9799465
+FileChecksum: SHA1: acbeafd036613b917e5f9d20d4f634e0bf75f45a
+FileChecksum: SHA256: 2b5e2e2b22599709dcd5a1e0db463f369053b3a41d3f4d3670048653a7956fbf
+FileChecksum: MD5: 21f814d727dda95f30c74301b5fc01a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2024, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/readJson.py
+SPDXID: SPDXRef-item9799466
+FileChecksum: SHA1: b270aa79726b06040e0c4ceae83eb3942b28b41e
+FileChecksum: SHA256: 65312cdd2f664f052afa31fd3eaa46686c8a0ee172e360f1f464ecd14c1c6382
+FileChecksum: MD5: 9ae0ae2a073f2031745eaa5080337aaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/select_parser.py
+SPDXID: SPDXRef-item9799467
+FileChecksum: SHA1: f8551d85465486390627b5aab75786174b130056
+FileChecksum: SHA256: 94661d7fad251a0e877f80b24f00af7f8a2d3f72f827be1027812476111cb7b6
+FileChecksum: MD5: 6a273f67b534ed4eab073b5309dc72d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2010,2019 Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/AcManForm.dfm
+SPDXID: SPDXRef-item9799468
+FileChecksum: SHA1: f5a7b4f14cad26ad9650c6750eaf175d650cbd2a
+FileChecksum: SHA256: 2be43336701bb7b7cf2a5fe0f14cd99fcfc666a140beb2832b4230f049f0a80b
+FileChecksum: MD5: e78c12abb3e036a171f823e611362e73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/dhcpd_leases_parser.py
+SPDXID: SPDXRef-item9799469
+FileChecksum: SHA1: 35a45f33014ace01f72f52a111467529b8831254
+FileChecksum: SHA256: be083cdbf4322c08926f8d9466377bf6913805f36b1af79546b04cb8f6a9d5f9
+FileChecksum: MD5: fae74134c4a3da94ad0e054f55667500
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2008, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/lox_parser.py
+SPDXID: SPDXRef-item9799470
+FileChecksum: SHA1: 50ef31096cba66d4c72b8bfc6d9372984fa1dcab
+FileChecksum: SHA256: bbf4a96e60c757264fa399a45efb79aeecf76c1bad7958c04c956c2a52ab2fa9
+FileChecksum: MD5: 7c483d8effac138188c2351756b82e8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/lucene_grammar.py
+SPDXID: SPDXRef-item9799471
+FileChecksum: SHA1: 0cf0cb928e3a5a4274298d2a19074dc5dc7468b7
+FileChecksum: SHA256: 1bd2041284d27f79ef974ec2cdb4b6b37a473982d150131d7ef2541d20edb82f
+FileChecksum: MD5: 67b021f35abf108aa384a29538fee4ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2011, Paul McGuire Updated 2023 </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/groupUsingListAllMatches.py
+SPDXID: SPDXRef-item9799472
+FileChecksum: SHA1: a44526df82c0e61eaad0fdfba8294dc0a08f9dcc
+FileChecksum: SHA256: 830c5f82b275bf96ec4891f958437eebfeaafd93fe9990600ad8c53bdf427d2d
+FileChecksum: MD5: c9cfa442385d95666e7f93bcb10b21ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2004-2016, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/simpleSQL.py
+SPDXID: SPDXRef-item9799473
+FileChecksum: SHA1: b2559243ed039aab8b58935be0a1b3a4c315b22d
+FileChecksum: SHA256: b86b9b8e225622b508e676cfe6cbf164d0a1a0430795b68b780dac0c53993285
+FileChecksum: MD5: 7c7757e4b8b604b2bfd4542f1784f056
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2003,2016, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/scanExamples.py
+SPDXID: SPDXRef-item9799474
+FileChecksum: SHA1: c67ba2683d623a31a002328b2ef9f6865f7d112d
+FileChecksum: SHA256: d1367cf72283c44a1e4caab0f2dc37bf829abfcf86ef4ad09eec233f741b8c8b
+FileChecksum: MD5: 30a5a514b7e5d447048157e3a5d5d30e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2004, 2006 Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/nested_markup.py
+SPDXID: SPDXRef-item9799476
+FileChecksum: SHA1: 6ab14e1825c497efdfd58aaf36178bd45350a5d6
+FileChecksum: SHA256: 335e6a2b212d09637c8de7930a5cc4f1209801a54cb42dd9d81defdaeba4f9e1
+FileChecksum: MD5: be33d143d501c2e10128126d52fa2ce5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2019, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/tag_metadata.py
+SPDXID: SPDXRef-item9799477
+FileChecksum: SHA1: a6d8f0338744e6f3ba12c7cf52255e7bc7b1f98c
+FileChecksum: SHA256: bd5ec48ccbfdd4aeac06c748696a79e7c6e127bf7715f7c91a3d114505f83df0
+FileChecksum: MD5: e42c93fb697d8d3183af5a39c1f7d828
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2024, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/mozilla.ics
+SPDXID: SPDXRef-item9799478
+FileChecksum: SHA1: 052a36e2b55d191fef6f06ddea102bd5637a5634
+FileChecksum: SHA256: 87511bb7e86c431817e1af6fb112b1a7c7febf382ecb596c77195321b0f02e28
+FileChecksum: MD5: 3be31071ae641fe32b6a8d79711e4f1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/indentedGrammarExample.py
+SPDXID: SPDXRef-item9799479
+FileChecksum: SHA1: 45c37538f3bf62d1141fa15a78bbd663598b620f
+FileChecksum: SHA256: d5ffc1ccf5f2e38d915d96ad28608bb89421f7189dea79edefe4273e66c02b6d
+FileChecksum: MD5: bf4c150b0b390130107f4940f40ae921
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2006,2016 Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/decaf_parser.py
+SPDXID: SPDXRef-item9799480
+FileChecksum: SHA1: deb298d0fe6cbf37d6832a9e4b053144b306d627
+FileChecksum: SHA256: 3e3e0e9d9924ed23e5577a9aac3e4876c3d361bd9ed9a40a42f484796bef02cd
+FileChecksum: MD5: 99164d1ad8922be38c1ab99f20e5d406
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2018, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/numerics.py
+SPDXID: SPDXRef-item9799481
+FileChecksum: SHA1: ec92f0fc1c78c01576113d3c2909e203f78ceeba
+FileChecksum: SHA256: 7fa945eace9cef6722cc97f661a63f09342bc931108f02abfca1e6e1f68e0f29
+FileChecksum: MD5: 6de0cec7cf6dbe4a8186c3788a8528f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2016, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/unicode_denormalizer.py
+SPDXID: SPDXRef-item9799483
+FileChecksum: SHA1: de4dfb97a49b54ab31e0a4a095c609cb4fa345d2
+FileChecksum: SHA256: 015ee1a7fa32a4a93351c5962038f14780037b1bba187f370bcfc9f347aef82c
+FileChecksum: MD5: 8cee63204d3fa06e53e69809242c0b93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2022, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/apicheck.py
+SPDXID: SPDXRef-item9799485
+FileChecksum: SHA1: 3d81c338f9bc82edc162d56a103d1553bf86b240
+FileChecksum: SHA256: 577894afc52a2bedf15813f7151958b9c74e75f2ade37526f4c099657249f213
+FileChecksum: MD5: b53f25e71af6f66c6e6abf13e7a03fc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2004-2016, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/partial_gene_match.py
+SPDXID: SPDXRef-item9799486
+FileChecksum: SHA1: 4d8cddaa92122e42f030d22cc4bf5f702c3ca760
+FileChecksum: SHA256: 89de486a4484d0876d36ac6dde07c1124209714c098174e14a0eb725868ae2ab
+FileChecksum: MD5: 189c48950ec4b266e3298c3d601455d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/fourFn.py
+SPDXID: SPDXRef-item9799487
+FileChecksum: SHA1: 070a6d20f1d16a9c4159aa71a4a11755c6657d2e
+FileChecksum: SHA256: 85037ce08bf2dac929c423ca3cad5305fab00977312dc61c50455d86860c02ef
+FileChecksum: MD5: 6e78cfa67a1700592a7091cda2aad56b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2003-2019 by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/parse_results_sum_example.py
+SPDXID: SPDXRef-item9799488
+FileChecksum: SHA1: 703328a334e925362cef44e49084c62a048f5530
+FileChecksum: SHA256: 157127bb08a0547224676ba834ffc6b65cf1add16497fc0d9972a2449a707c3a
+FileChecksum: MD5: a785d50106e0ed5764a39a190aa96cca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/simpleArith.py
+SPDXID: SPDXRef-item9799489
+FileChecksum: SHA1: 97c895339e2741e3bce144e254b507f6dcd67abb
+FileChecksum: SHA256: 2a24a7dca40c30b89221efcfb30a7a70ef2f5b4bf1af38b3903839e609f8a16d
+FileChecksum: MD5: 245a7650c699c04c17386c6042b1fa8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2006, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/left_recursion.py
+SPDXID: SPDXRef-item9799490
+FileChecksum: SHA1: f12e9a2331085f0e939cf987c90e7b284cd367ce
+FileChecksum: SHA256: 12d03ba94eb85562a2688e5356cc7c03399f78cc24a93168037c1675ce2791f4
+FileChecksum: MD5: 1b2b942517292c7f4c0dc05110e89080
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/pythonGrammarParser.py
+SPDXID: SPDXRef-item9799491
+FileChecksum: SHA1: 26aff9301b9beea7d04f8745eb9d7013a0381c0a
+FileChecksum: SHA256: 6ddf74c00ac83f78e2c8b64f5a40c788e3b7eaabd66b0c6ef862eb6bf8f38a7c
+FileChecksum: MD5: 8689e9df0f2eebcb693ddc42bdfadd77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright, 2006, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/tag_emitter.py
+SPDXID: SPDXRef-item9799493
+FileChecksum: SHA1: 722bd3d555c2cfc248b07358854c2e2ffc0449d0
+FileChecksum: SHA256: 40cedf0b43df242dceef085568b41a97794578f142cae9a5010e3bf481cfae80
+FileChecksum: MD5: cc2d268dda173bea4fb55c241baed562
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2023, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/position.py
+SPDXID: SPDXRef-item9799494
+FileChecksum: SHA1: 74de8838cfb97ef8facc164d6a8d623ba097316e
+FileChecksum: SHA256: 246c11b2ce8b5bc8e8047a2eedc4951a516e878d965cb9bd5c686078a6147717
+FileChecksum: MD5: f4d89c2e1e3e2f94057344b479f6ef4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/rosettacode.py
+SPDXID: SPDXRef-item9799495
+FileChecksum: SHA1: 8990d36bec464f53fc40735d159dff35ec84aac8
+FileChecksum: SHA256: 2c581d973e7b401ab661512e94a53dd925b2a74f87dff96552b65683c5d51fde
+FileChecksum: MD5: 391ab0e6942e3d1aa5ad15fa9e24bd6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright Paul McGuire, 2019 </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/mongodb_query_expression.py
+SPDXID: SPDXRef-item9799496
+FileChecksum: SHA1: d1dd1c1bbd0a2758f68ad1855261cab8b6846ae7
+FileChecksum: SHA256: faccd25a40e707d911ef9d63c34696425781e61975b227368cec025e9a0ba693
+FileChecksum: MD5: 0ac94a07a7b0716d1767a5d3112f1a0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2024, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/datetime_parse_actions.py
+SPDXID: SPDXRef-item9799497
+FileChecksum: SHA1: 38f05509fee106882cc8b8498f47d8c8812fa30e
+FileChecksum: SHA256: b49326ef96a3bfd86ed51e90b4cd804eaf05a52c76788a9af70a5931eb103527
+FileChecksum: MD5: 6b5a4037da21fdffb76713f674e737f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2012, Paul T. McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/cLibHeader.py
+SPDXID: SPDXRef-item9799498
+FileChecksum: SHA1: 87d937a35b3986738346b35e5daf42fbb677f0af
+FileChecksum: SHA256: 59904b972e17043185fa38b67cd19cf8e5d110265e990f29c8276abf2545ce47
+FileChecksum: MD5: b3edabe056eb9c6e0476c65764f71f53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright, 2012 - Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/bigquery_view_parser.py
+SPDXID: SPDXRef-item9799499
+FileChecksum: SHA1: 24de14e12abe558545dd48b261e91bca56aa1a9e
+FileChecksum: SHA256: db1ee59ce4df5d60b9c03c6513df35d300477a4a25dd435722d36b12f7922c6c
+FileChecksum: MD5: c9eddaec76cb99da0d2b17242005561a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/lineno_example.py
+SPDXID: SPDXRef-item9799500
+FileChecksum: SHA1: 649b8da8498c3bb43d13bc7abb8654dd6f418624
+FileChecksum: SHA256: 39290f66b7ac8b4857e0dc9815f980c418286a46716f86003b3d369d3bc4eb73
+FileChecksum: MD5: 53f4cd741c6ebf183d742c97ce3cfe6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2006, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/greetingInKorean.py
+SPDXID: SPDXRef-item9799501
+FileChecksum: SHA1: 40303adb2858ad19faeb035089ac420c01136e4e
+FileChecksum: SHA256: 1685c55699fe1e7e4dc4c9f80895ada1361f737af50e91a3bc0e871be51fce10
+FileChecksum: MD5: f7313fcbac18411b36d032f1eed58544
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2004-2016, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/email_address_parser.py
+SPDXID: SPDXRef-item9799502
+FileChecksum: SHA1: c7354bf43c5f2381875fdd6a318bc15fcb4af19c
+FileChecksum: SHA256: 56fb523ee0518fd525118f63e25cbac91e9a43955c1fcb5bc08ddbfe03520395
+FileChecksum: MD5: 2473bd41f6ef42ea468da8f162d88d96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2024, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/test_bibparse.py
+SPDXID: SPDXRef-item9799503
+FileChecksum: SHA1: 75374aa1ccbba7f82b9998df7bc671a78896e8e5
+FileChecksum: SHA256: c971296792e03e4c3de3b3052b9d4480976fe4047122ef2e8c3876591f3f6bef
+FileChecksum: MD5: aa1569aed4a64c13345ab88c61989f17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/html_table_parser.py
+SPDXID: SPDXRef-item9799504
+FileChecksum: SHA1: 692040f0e7ecffb7d9fc3201dde2a4d9754c6033
+FileChecksum: SHA256: cdbada28d68bedd9fc008641c44ba1aed3993ce7f731cabb60ee8dc92e7a85ef
+FileChecksum: MD5: fb8018395d32995b7aac2bafb46291a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2019, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/configParse.py
+SPDXID: SPDXRef-item9799505
+FileChecksum: SHA1: 212c1d90386f4915b623623711b5919dea515e03
+FileChecksum: SHA256: fa3eeb00886d39f11e228171905e049816497323b5f7ad43be6fd78212386452
+FileChecksum: MD5: 2d1966fd68926b1a68d290f691525b54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2003, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/jsonParser.py
+SPDXID: SPDXRef-item9799506
+FileChecksum: SHA1: 4ece34d9643c7f5ef488dc1f5f8a9a96588eb915
+FileChecksum: SHA256: 4618e5c781fdb38cc451503899baad4ce1da8562271e0a8a976338f41447bfeb
+FileChecksum: MD5: 7137b1c5d4a571b781010af11a21b330
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2006, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/urlExtractorNew.py
+SPDXID: SPDXRef-item9799507
+FileChecksum: SHA1: 00aab8f4241ec6f8718748d86cae098adc3bc8b5
+FileChecksum: SHA256: fd33a443ae95b7c7cfd28eb780aba483cd6b012e9ba0fe83e89fe7fbc5dbb8cd
+FileChecksum: MD5: 14681ee5ec176158c3dfcf84379ae584
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2004, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/greeting.py
+SPDXID: SPDXRef-item9799508
+FileChecksum: SHA1: 4d17c7d21b073fabbcd4e6a519e7ccc4c71601f4
+FileChecksum: SHA256: dd0425ceb9c6c7e97bfae9e4411f3f6cf556d268feed797b9f6b741db8f6f6fa
+FileChecksum: MD5: 9acd68f5cfcbb0fd2e0be32da1a5efc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2003, 2019 by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/inv_regex.py
+SPDXID: SPDXRef-item9799509
+FileChecksum: SHA1: 9403a83563710bfc3155eb73c1123e5914853354
+FileChecksum: SHA256: e7e2b7979fc9888ba8ba4893f559774c14241e683a1cb27b87ee7cb436b17cf5
+FileChecksum: MD5: 5a262a3caa3502e660a4c5ba38b634b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2008, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/stackish.py
+SPDXID: SPDXRef-item9799510
+FileChecksum: SHA1: 4eacc7bac1b0fa99b82909066d8bf36adbcc3f73
+FileChecksum: SHA256: 0d74cefa44012e8975116a76c3131495477542d53e68eae792a1d9cf3e0bf919
+FileChecksum: MD5: 847c75b1b7938b8a35117c7557fa197e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2008, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/__init__.py
+SPDXID: SPDXRef-item9799511
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText:  NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/dictExample.py
+SPDXID: SPDXRef-item9799512
+FileChecksum: SHA1: 04d48456348d730d7972a975e717752630128922
+FileChecksum: SHA256: edf48e81636e3378265197078b20dd4f50fecb94f2b2366316ce0264126308fd
+FileChecksum: MD5: 2ddde116611009855bd5870ba3846cb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2003, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/mongodb_query_expression_step_0.py
+SPDXID: SPDXRef-item9799513
+FileChecksum: SHA1: eeebc24b93e343b6f0a65fd277dd1297b54a34c4
+FileChecksum: SHA256: b60f99c0c05e7b77c6db97b10af2c20c631581d43c68ffb1005cbf12ab6ec85e
+FileChecksum: MD5: 371950bb1c795f842a61ba6f80d82839
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2024, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/antlr_grammar_tests.py
+SPDXID: SPDXRef-item9799514
+FileChecksum: SHA1: 834b75f2d1002a5c6433af1911ad29f828697ce5
+FileChecksum: SHA256: aa8b43712dda15728c69283eb5e331ff5b1cf2a54e481ad2e44a6ff24b00080a
+FileChecksum: MD5: 19e5dffb5aef70a2a9db6abf5f2aa8e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/cuneiform_python.py
+SPDXID: SPDXRef-item9799515
+FileChecksum: SHA1: bc1aefd0b0a87b80a10cecf00407b4608a6902b5
+FileChecksum: SHA256: 5d40935a172a8fedbd39f8ad854d73e70c7b96fc3623fe9103a78c5db1275a96
+FileChecksum: MD5: 692e815f848cdee5ed3d39faa0fbd8b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright Paul McGuire, 2021 </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/dfmparse.py
+SPDXID: SPDXRef-item9799516
+FileChecksum: SHA1: 1908fe0c76db89dddffbbb35bfeb5621bb1a0419
+FileChecksum: SHA256: 323e6f094e555c63d5b2b6b8d2de11ac9441d9949ba0f3bf2e9733031461d70e
+FileChecksum: MD5: 83a512211618df459855edd7c72e15a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/simpleBool.py
+SPDXID: SPDXRef-item9799517
+FileChecksum: SHA1: 7890d6132b1dcaef3af851ccfb6d2678f995984f
+FileChecksum: SHA256: 2a193ccb62982d253aea8b6190b3c5feabb45e0d16555af5930a74d574d38aeb
+FileChecksum: MD5: 11a5442369446afc00ae9b96dca39f85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2006, by Paul McGuire Updated 2013-Sep-14 </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/oc.py
+SPDXID: SPDXRef-item9799518
+FileChecksum: SHA1: 9504ab7a77fce1f3225bdfc67ab63862394946bf
+FileChecksum: SHA256: b5f110eb46768439f97ddfdb1aa4b79d58c5e90bec20972ca12756adaed82452
+FileChecksum: MD5: fdc02ed3d638ae4192070329eb6f2dce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright, 2010, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/0README.html
+SPDXID: SPDXRef-item9799519
+FileChecksum: SHA1: 72a5a70279fbcc23eae38cfdcdec978e1d7df563
+FileChecksum: SHA256: 2f2f85be34a9c2939442fdf55b3dc4db0c9a7400dba2f8066d97d582b6d54fb9
+FileChecksum: MD5: c56f3e4802028f980096ee8334e262b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/make_diagram.py
+SPDXID: SPDXRef-item9799520
+FileChecksum: SHA1: 39ff9a30c9c8ce926d76314a5ce38b59229e13e4
+FileChecksum: SHA256: 0345e61326a0825d9a6c22de80b5eda604cd3cbecbdb28132fc1729d0a612442
+FileChecksum: MD5: 277c836553dab04cbeb8d48834c5a177
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2021, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/nested.py
+SPDXID: SPDXRef-item9799521
+FileChecksum: SHA1: 58f0b029b5989a7c8326d7e35e2593bd61c18b17
+FileChecksum: SHA256: 2d590f76b89ba6fc7f19ab294da4a4c9d3c827cd428f272a21a048e925e00c60
+FileChecksum: MD5: 5217773e2e27707409e0bfbb4b72b54e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright, 2007 - Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/sexpParser.py
+SPDXID: SPDXRef-item9799522
+FileChecksum: SHA1: d9d224bd4ee238e131f284bd2467f9e5e4ed6378
+FileChecksum: SHA256: 3ee2e354fa0265a20779d93ad86a782a37c8b9ce18ba1c27dbd5b93b61a527eb
+FileChecksum: MD5: 6e5838120676445717f8afd718c3dc61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2007-2011, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/chemical_formulas.py
+SPDXID: SPDXRef-item9799523
+FileChecksum: SHA1: f178dce041a0b3ed738884c3d1cbbe04b8d0fd6e
+FileChecksum: SHA256: 249cb7c86a3d537209ef6ffe1bc1650f64083aa88158c172f4e604066af99ba3
+FileChecksum: MD5: 7c82f6beda12b3a4eae4eb896523e26d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2003,2019 Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/eval_arith.py
+SPDXID: SPDXRef-item9799524
+FileChecksum: SHA1: 22ca7b921297b12b7892fe35f49f05d6e541af46
+FileChecksum: SHA256: 25a4167c9dbb910bf1209972d40ed3553f7b98216ed2cf90b99bb7cbaf78f1e1
+FileChecksum: MD5: 1dc2cc2f8b26b35a5c143560644db768
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2009, 2011 Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/builtin_parse_action_demo.py
+SPDXID: SPDXRef-item9799525
+FileChecksum: SHA1: fd28eeb4665f5131519b8cc6336520706092dd9d
+FileChecksum: SHA256: 959d9a7aa77bd99e12027069d54df60d263918e93838c23dbf580d66a04228d5
+FileChecksum: MD5: 206b2d1f0d04e0e80c6b616f074c8013
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright, 2012 - Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/adventureEngine.py
+SPDXID: SPDXRef-item9799526
+FileChecksum: SHA1: bbf0fd6e8b9d8ec2d4b189c8b561056809927307
+FileChecksum: SHA256: d3b6aee74dbc05bed382da6dc2d0abae88a69000b73e3f89e86b92fbe04aad08
+FileChecksum: MD5: 152df03e42fc3a0e304325fa3c956cac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2005-2006, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/idlParse.py
+SPDXID: SPDXRef-item9799527
+FileChecksum: SHA1: bb0cf62c5726db0293b18f014fd8213204a150c6
+FileChecksum: SHA256: f6f7dd67b2a4924e23f4cd078b94327a607536b37194745f0fdf764bcd9d8df2
+FileChecksum: MD5: d6707ae252e0109621cf877fb0c1fbcd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2003, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/bf.py
+SPDXID: SPDXRef-item9799528
+FileChecksum: SHA1: 4e5e0dcb7cbe0421dd3de6455db758710e77d5bd
+FileChecksum: SHA256: 907900417b39d91bb1005cc807498fef19dfe26539a0276afca9a94c993a0d9b
+FileChecksum: MD5: bb825566451632ac379b758435bfafd8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/SingleForm.dfm
+SPDXID: SPDXRef-item9799529
+FileChecksum: SHA1: 0952bda0871eed99cf725d49e8b5f5544e137647
+FileChecksum: SHA256: 82dc6180c9ad95829777ee38351d7b92121087eaf9157252bc72b57e68fee8c6
+FileChecksum: MD5: f190a30b997526ec1f965c3551570e81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/ebnftest.py
+SPDXID: SPDXRef-item9799530
+FileChecksum: SHA1: 4a2a6264e7046b11c3418efa08534809efcacd10
+FileChecksum: SHA256: 430a842e033824158a6ed34090827ccdb16830d1afd6274f94788cc79e476831
+FileChecksum: MD5: d362ead5b1d02ea2b0882f538e82b49a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/libraryBookDemo.py
+SPDXID: SPDXRef-item9799532
+FileChecksum: SHA1: f51ca8a35ab378b956accc60eda5871aec87a2c0
+FileChecksum: SHA256: 3e39b903fa365d513c8c27001714a55a591d984f252ff1412d3fd26c54a555e9
+FileChecksum: MD5: 4999a437f856f335e415c23d7cb1728f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/videostate.pystate
+SPDXID: SPDXRef-item9799533
+FileChecksum: SHA1: b7ce980b343c34664a9bbaae090e75dee8dfd24f
+FileChecksum: SHA256: 67029a6a454a35e146c68273a70680c5112437ee2ec9b70dfadf10255009f4e8
+FileChecksum: MD5: 4bf261bb79f4540da5e833ed14f304ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/video_demo.py
+SPDXID: SPDXRef-item9799534
+FileChecksum: SHA1: a382f69d53a365e8de715ec791d50eca49ac5299
+FileChecksum: SHA256: a1ec4506f4e33a4bfecf63faef0ceed014bcf3b8bebe22c7728e51e30be212b2
+FileChecksum: MD5: 81083b13024fa02dc438925866f889d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/trafficlightstate.pystate
+SPDXID: SPDXRef-item9799535
+FileChecksum: SHA1: e45724839471a931207aa6a3c1b04d06af3d3daa
+FileChecksum: SHA256: 1c1cf1fbe1e159f1dcdf8e52f4d870e6aa80ea076bcc589eb08d5cb52274766c
+FileChecksum: MD5: 7f0d7c6c3d1880d164a02f4ca7163c30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/documentsignoffstate.pystate
+SPDXID: SPDXRef-item9799536
+FileChecksum: SHA1: c1d22fce664d3eed628a23888338ee1f8d99ff05
+FileChecksum: SHA256: 73803cfdafbc3412117ff38015dbf1689c15e349488fa0a402fbddd7f485fae6
+FileChecksum: MD5: d5106b69d2fb93940863f37f47333fc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/statemachine.py
+SPDXID: SPDXRef-item9799537
+FileChecksum: SHA1: 6ee9562b731d7723980e1d01a3e163a7dd294c0e
+FileChecksum: SHA256: 410132e66694e24d5973bdbb2eb95a409569337d0fa7325d0a43d771d9ae4f09
+FileChecksum: MD5: e066431078554df36363ce0fbf1e8109
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/librarybookstate.pystate
+SPDXID: SPDXRef-item9799538
+FileChecksum: SHA1: d77d0603a97a6706651f36e78b3200c9387ff8e2
+FileChecksum: SHA256: fa71bcd4c3b7ab4f6842291118ec6e23877e0f9b6cb6a8773df4b8fde339e900
+FileChecksum: MD5: 20fc731193fc840bc4de79e95d6095e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/trafficLightDemo.py
+SPDXID: SPDXRef-item9799539
+FileChecksum: SHA1: df4b29938144a235d2fe56b9ac46a9519b291d54
+FileChecksum: SHA256: 9fe2bdae00c43a661aeed2c2240a013053b2156a528c57b918c8e4356fd3b86c
+FileChecksum: MD5: 4df19949e529b6f8d1da9de156c43fe9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/vending_machine.py
+SPDXID: SPDXRef-item9799540
+FileChecksum: SHA1: 3788355f3898931e53cddc0cd3e07b2e76fb5cc6
+FileChecksum: SHA256: 677649df7254a4e1c32e1fd2270f8e2cd1f8ecd7b993d89cbca750a633705165
+FileChecksum: MD5: 9f696ef777d4d329754468aa4f9a78f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/statemachine/documentSignoffDemo.py
+SPDXID: SPDXRef-item9799541
+FileChecksum: SHA1: 150f0ae86f24c91b03c0dfc78cc49df5d3c97e74
+FileChecksum: SHA256: 96f3b2d001bf8eb7312ba430b700380a8452800fd7435f162b4bc1aba25ca8e1
+FileChecksum: MD5: e5b8e22ff0c1dc385e0f1dab9908f6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/greetingInGreek.py
+SPDXID: SPDXRef-item9799542
+FileChecksum: SHA1: b79d2dd1c49e14f2898cff55c20c9d2538973bc1
+FileChecksum: SHA256: fbac1a37bb0e134d11d4786c205c9845245e5f6be43002a911b1857caf0b1203
+FileChecksum: MD5: 6f8803ca5a6d12c8f036fd1ff74dc968
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2004-2016, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/javascript_grammar.g
+SPDXID: SPDXRef-item9799543
+FileChecksum: SHA1: d88711171aabfa80ea690b2c5f5916fe26a72286
+FileChecksum: SHA256: b972f222336403b8e060e858881563be5305cb3f48ddc2bed0485aa3850e2375
+FileChecksum: MD5: 3586bbf2254ce4c5b68caaf00ca6a57f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2008 Chris Lambrou. All rights reserved. </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/dictExample2.py
+SPDXID: SPDXRef-item9799544
+FileChecksum: SHA1: df692bb5de91dd19de3a0557f18011644a63dc17
+FileChecksum: SHA256: 97397b666f8e2f8cc5f4f4e4df98b9409308fe4d67f01f2bde54c4702dc18e56
+FileChecksum: MD5: 69d4c57be1fa3b7c37f97e7cfe3f2d17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2004, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/parse_python_value.py
+SPDXID: SPDXRef-item9799545
+FileChecksum: SHA1: 5fb594871f05b82464f92c2ad906869639a64b83
+FileChecksum: SHA256: 0dae03cd11ffbdf8ecbf44b993075f25e4c0fd5ef41ded2f6622510b9e715ce5
+FileChecksum: MD5: 44f9c2a014d200ee31ea09619baae167
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright, 2006, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/pgn.py
+SPDXID: SPDXRef-item9799546
+FileChecksum: SHA1: d9746dd592cb332cef2058e94299b74e8092c5f5
+FileChecksum: SHA256: fcff9a898049ed5b46e42c3408edbc0d4cfeb113d747412061c2d26acad2593b
+FileChecksum: MD5: 7b906bb3899d62ad1b1ed31ccefde257
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2004, by Alberto Santini http://www.albertosantini.it/chess/ </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/mozillaCalendarParser.py
+SPDXID: SPDXRef-item9799547
+FileChecksum: SHA1: 734ba59b7751451749ab92242327671084039173
+FileChecksum: SHA256: fe9ffeb0332cf3c74a7585dde7bf02614c96a5e0e3ec87fa8d9b9886ed4bd850
+FileChecksum: MD5: 479c601d09f5eb665ec4fc6bf21fb182
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright Petri Savolainen <firstname.lastname@iki.fi> </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/Setup.ini
+SPDXID: SPDXRef-item9799548
+FileChecksum: SHA1: e2f71ad1ce72ce0e3c7c48761ecce20e87b137f6
+FileChecksum: SHA256: 728f079bde1cee02a9312d35888df000cb0a1c664d3bafc755fcef9851904317
+FileChecksum: MD5: a8226f1081aa8dac33265794050843c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/gen_ctypes.py
+SPDXID: SPDXRef-item9799549
+FileChecksum: SHA1: 0c5c5353ca19fe72817acf8a2e5b6ca9c04061f5
+FileChecksum: SHA256: be4dea0118f9aa145470d3d0a1862125818621197df8a317d33d27ac7cd9e6a9
+FileChecksum: MD5: e0fa73a0f377c846a055c30e2b307dd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2004-2016, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/indented_block_example.py
+SPDXID: SPDXRef-item9799550
+FileChecksum: SHA1: d302c2599988d1d8d34a257829641913354e3019
+FileChecksum: SHA256: 1d1d7c346eb1e93060134881ece61c411c08d78451af1542e9b857c735cab507
+FileChecksum: MD5: 7c9b539ba08d23a534878b7c94b4a9b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/railroad_diagram_demo.py
+SPDXID: SPDXRef-item9799551
+FileChecksum: SHA1: 0c248839f52cdd5c0b39f325f61dc854981ecb4e
+FileChecksum: SHA256: db44ea0af503d61a5308ba26ddf72fc96fd34327fa5b111d5554c8e4babe6af2
+FileChecksum: MD5: d6f07dbba8919ab485622fa54a5dae7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/wordsToNum.py
+SPDXID: SPDXRef-item9799552
+FileChecksum: SHA1: 19c8cce0dc3af43fa7729f979ee3c5dbc4a8ff07
+FileChecksum: SHA256: 33aaa9216ccd36dc272b08cdc29ac1bc24896a09e2b1f8f8d5930f982a19b8cd
+FileChecksum: MD5: 10ec2113d5abadcdf823102e7044df4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2006, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/macro_expander.py
+SPDXID: SPDXRef-item9799553
+FileChecksum: SHA1: 49feb0affe1349cd8a5eae7d18ed844683baf9fc
+FileChecksum: SHA256: 5ae4a8c71830d06d3866412c490fb9a59029b40b51ed15e9964dae6b9ed03fc4
+FileChecksum: MD5: e6685d7b562afea248dee0716f2dae9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2007, 2023 by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/ebnf.py
+SPDXID: SPDXRef-item9799554
+FileChecksum: SHA1: 3be383b0303b3c287e7834ea5c99e53c664e29c5
+FileChecksum: SHA256: d410a64b41665b8600dc06229193dc216650f12be5642fc8c5ded7b7e4b14612
+FileChecksum: MD5: 285a9f5b80ad71fd6fb6d2c9e37a268c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/commasep.py
+SPDXID: SPDXRef-item9799555
+FileChecksum: SHA1: 92ec29103aa1379a093e1d839567f5065fedc126
+FileChecksum: SHA256: 7c6919dfbd892ada4312368d4eebf6f238904d9f67ca3421627cee482845f4ca
+FileChecksum: MD5: 9785a319a749f4080cda02c123a23143
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2004-2016, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/antlr_grammar.py
+SPDXID: SPDXRef-item9799556
+FileChecksum: SHA1: 8a64a4baaa93d21529a1c643a39d131a2740d8f7
+FileChecksum: SHA256: c24fdbd089d4b2682ecad22673baa463529323ed7400d26ecb2efe13567a494c
+FileChecksum: MD5: b4761c552801c0ebb22e91fd078f9586
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/removeLineBreaks.py
+SPDXID: SPDXRef-item9799557
+FileChecksum: SHA1: 3f83b190cd4f3869162f0bcd899868e417d90aa8
+FileChecksum: SHA256: 257eacff0ce6abf2b1c508599c5997acb3f075ed6e5cdaa528ecfc6f52563626
+FileChecksum: MD5: ca2143ec83573577b670fcad695b17b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2006, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/hola_mundo.py
+SPDXID: SPDXRef-item9799558
+FileChecksum: SHA1: 4a55f2aefcf6c8423712cc3b14496a2a9767df09
+FileChecksum: SHA256: aebdaeaa0b6c5a6f4ad5a53313cb33348bb419f5adfd39ba6807e27d4e6ce311
+FileChecksum: MD5: 17c9d10be8100cde44eaba0db3341d4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/excel_expr.py
+SPDXID: SPDXRef-item9799559
+FileChecksum: SHA1: d7d93f572489c488ba7eefaf5699b730a0c2896c
+FileChecksum: SHA256: 85dc54bc6f390ccf5d7eccc4f2fbc8dd988ddc0a78028764281a2eac033e32fd
+FileChecksum: MD5: 38729ad13d48f33ee6e408200d54a857
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2010, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/withAttribute.py
+SPDXID: SPDXRef-item9799560
+FileChecksum: SHA1: f5608e6aedc83c0224fce3da9c008d07ea58d7cf
+FileChecksum: SHA256: 3a9b14f16a18bd2d2be1b3a10775f08c6320220b3f6274076f995a231a3efa24
+FileChecksum: MD5: 3dbde5c90f8322b09f872152aef92b9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright, 2007 - Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/getNTPserversNew.py
+SPDXID: SPDXRef-item9799561
+FileChecksum: SHA1: c8b5b410e6604346ed9d9156915e8de713eef224
+FileChecksum: SHA256: f768068d1435157e7422e633c0c5eef19c4374a9ee4b6967355e07e89ad36b93
+FileChecksum: MD5: 3d6435b7ad0f4d2c03a10bb29e227e33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2004-2010, by Paul McGuire September, 2010 </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/searchParserAppDemo.py
+SPDXID: SPDXRef-item9799562
+FileChecksum: SHA1: ac05af4382b582db87acb272fc11d1c5b76f9d30
+FileChecksum: SHA256: e4084bf8d2729984dd1576754fdccac6a3c69edc9f6a63018b44fa570b092cc9
+FileChecksum: MD5: 94ebb0280878e2ff89b7a68054e94c42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/shapes.py
+SPDXID: SPDXRef-item9799563
+FileChecksum: SHA1: bcb552ec80ca5abd54d96fe22fc30d0264dfbe92
+FileChecksum: SHA256: dc834d3f479f04e2b6158bf16940bda48af4bf4f272bd3f0bc4d839ea32553f0
+FileChecksum: MD5: 0aeac6250a6fcb3dd6df399f3587d146
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2012, 2019 Paul T. McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/one_to_ninety_nine.py
+SPDXID: SPDXRef-item9799564
+FileChecksum: SHA1: 667c98ac8f982f3e4e90cc99bbb871b50114b393
+FileChecksum: SHA256: 5ebc3f30f6fb4e20d8128b73988f9b25847e834dd1ceee125f3fca902f241445
+FileChecksum: MD5: cf59d1389b3f3f1d6a59a8ece390d065
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2021, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/parseTabularData.py
+SPDXID: SPDXRef-item9799565
+FileChecksum: SHA1: 5a2e8f467e449e88f2de9751414c2790ed93648c
+FileChecksum: SHA256: c88f0bf9054cc35fdd7d4ba2f9d77d4f89f5fe0c79c906573e1f1b774c6eadb8
+FileChecksum: MD5: 0e16ff1d3195c23031b5d344ea4e2b5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2015, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/matchPreviousDemo.py
+SPDXID: SPDXRef-item9799566
+FileChecksum: SHA1: ff998b118e92ae7dc5b0c2a55ac462da874afbb8
+FileChecksum: SHA256: 641f557eabb5a79aaa4ca164aab9405fdd2d9836301eff37e9c51f61631b9e0f
+FileChecksum: MD5: 0e6880cf600fdde42ef82ccf49e45ab6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/cpp_enum_parser.py
+SPDXID: SPDXRef-item9799567
+FileChecksum: SHA1: 740fece5f1301405167e0e4b27b39f50fa9da0b1
+FileChecksum: SHA256: 3c25b082fee3fdce060499ca984fa2e21e09d1ff0a0d3c2e4c73614037d8f9c4
+FileChecksum: MD5: c4d8c23dd6ab7ffa83fd1ec676ec63c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/listAllMatches.py
+SPDXID: SPDXRef-item9799569
+FileChecksum: SHA1: ddb26a9786525939a40729c2ec762829f47f0f9b
+FileChecksum: SHA256: ceb8f14928bc13223af30af673fad1602b92141173951d1318032cf59ed529af
+FileChecksum: MD5: 30b89fac412111899246e7993bd74daf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> copyright 2006, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/urlExtractor.py
+SPDXID: SPDXRef-item9799571
+FileChecksum: SHA1: e1e07f05c4dce20cd336146d96abb4d61491ef4e
+FileChecksum: SHA256: ed33120d304d3912cc4f658262812ae8d3ea7b5bba47b4a2bee9277d1f135ce2
+FileChecksum: MD5: 932a3f5d9324b9fa4f82a8638978c849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2004, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/roman_numerals.py
+SPDXID: SPDXRef-item9799572
+FileChecksum: SHA1: 6dfd5f3b822c3204e07323f79298552f9b851f31
+FileChecksum: SHA256: 9f2dd55d91e40bb840c988679aabbc1e88101cdc53645d163fcf008f4869901a
+FileChecksum: MD5: 642ee545cbeca0806420275f80db118e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2006, 2019, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/range_check.py
+SPDXID: SPDXRef-item9799573
+FileChecksum: SHA1: eaa6fb0201857e7a12268787e8f197c6bec3c2ab
+FileChecksum: SHA256: 64251f0793dca1ed1a41582755c47f4e230b712fef567d1421f9f7dfb50705fa
+FileChecksum: MD5: f87e367ca1ebd9ba4cc4573f5555223c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2011,2015 Paul T. McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/directx_x_file_parser.py
+SPDXID: SPDXRef-item9799574
+FileChecksum: SHA1: d8e8cf22e5f0fd6e357dc7a8bba12ca6281adb92
+FileChecksum: SHA256: 4265260f6aec8148e9c4cef719dd30c5aa049b8a93039451a0280ae82b97d3d8
+FileChecksum: MD5: a07a8a356c388d2f6da3287a4ac01c40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2024, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/lua_parser.py
+SPDXID: SPDXRef-item9799575
+FileChecksum: SHA1: e44bb36f126e07ac1384644da8cbf28353a3cc23
+FileChecksum: SHA256: 866aa83a34460dce2670f52e28c95b710f478518c2ef64e978504bb3ca592a32
+FileChecksum: MD5: 8b04105d01a95d3ce01cadfefc20b0c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2020, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/simpleWiki.py
+SPDXID: SPDXRef-item9799576
+FileChecksum: SHA1: d9d1540ea5a0972bc6c90bc2453a1ff1c6fc91a9
+FileChecksum: SHA256: 98fd91a1b8244e46097e9fbcf2294bbf3b05711b52c3efc1a58ab56d24a5fa57
+FileChecksum: MD5: ba3adfb2f3129ba500413192d0928223
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/TAP.py
+SPDXID: SPDXRef-item9799577
+FileChecksum: SHA1: 945bd2be6b9b0247df77bbcd4c9384318dba8870
+FileChecksum: SHA256: a9cb2954025767a3a42b998c80cf7a7a919ebb387ba46d36d12cb1a68216341d
+FileChecksum: MD5: a333248b94f7249e74c85d1115b20fa5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2008, by Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/examples/sql2dot.py
+SPDXID: SPDXRef-item9799578
+FileChecksum: SHA1: 7bdeb73a25744c290766c488d21fe7bb84afa4cc
+FileChecksum: SHA256: cfbed916b9dfdd6a159236aa3f099ffe05b534d3a43493b12f44fe2c9b7e0986
+FileChecksum: MD5: ac9451629a8ee2d77fae54a89b559fbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/.pre-commit-config.yaml
+SPDXID: SPDXRef-item9799579
+FileChecksum: SHA1: 9b8b4dab7ad7b3e65baa93b7f3a8b8290f9b7321
+FileChecksum: SHA256: 51a52173b380b88ad0685f4d182907f35d1084434d8bd0cb77e1e91f9b3089f9
+FileChecksum: MD5: 26fa79503c1cda70fc001cf144ebb333
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/BUILDING.md
+SPDXID: SPDXRef-item9799580
+FileChecksum: SHA1: 30584d8da036b2167c843fe889c014ead4ac7b19
+FileChecksum: SHA256: 79109bd457d62bd0f2af30fe3c053a7b6164875b498dcd3f6eca8a51de946e85
+FileChecksum: MD5: a1d78835e7cf393db92eafe1931777ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/CHANGES
+SPDXID: SPDXRef-item9799581
+FileChecksum: SHA1: ee8aeb4ee38f7e4f02d6bd0ebbd8c2ba1885429e
+FileChecksum: SHA256: c8622c6207e5607cb9120d9b64a2c323b99f17b3380ae493a9c76e7528595e62
+FileChecksum: MD5: 8a94784426a3812f9d9fc80245f6f7fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-GPL-3.0-only
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/CONTRIBUTING.md
+SPDXID: SPDXRef-item9799582
+FileChecksum: SHA1: cc8d2ed9061a0522c3cc847d635fbc91c37d610f
+FileChecksum: SHA256: 754bf8c5496f7554b9d061560c5174ad11e1be96ebeb7b7931218b09403b4f89
+FileChecksum: MD5: 339a7e83db064c1abe2c7562ec2b3e20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-MIT-possibility
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/.github/workflows/ci.yml
+SPDXID: SPDXRef-item9799585
+FileChecksum: SHA1: a321f72f00fe372d0cac0127a8ec3fc9772eb8bb
+FileChecksum: SHA256: ce1cf9fe665296d001d560abf8ef4a1230365695ab049a5d78820ebad967fa11
+FileChecksum: MD5: 7cf9a8f38434c84f14841b1423b0a28e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/.github/FUNDING.yml
+SPDXID: SPDXRef-item9799586
+FileChecksum: SHA1: 9fdfbc64d68099df63d636d23d2d9f45c2503982
+FileChecksum: SHA256: 77821ab6e58caa9b315fc9a8a3be9bf66de25b864ad118534c0a06aad2fec338
+FileChecksum: MD5: e3bec36d12cb6c24512cbc4fafde4a04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/.github/SECURITY.md
+SPDXID: SPDXRef-item9799587
+FileChecksum: SHA1: c4e1f54f4a5317bd67c0ca751f6f8e6f2dd865cb
+FileChecksum: SHA256: 0afae2e4dc8fed73cfd368dd3e43ec950b66197db4e1462d2c2ed850a5a8b174
+FileChecksum: MD5: 6e6c2be51253586c618a095876cb9229
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyproject.toml
+SPDXID: SPDXRef-item9799588
+FileChecksum: SHA1: 9a7e4347830fb40011a1ab56db5302ac1d511697
+FileChecksum: SHA256: 77ca162813c0ce90e889094e7e5f60ee123b778b37b871d478c9fcb411eefc2f
+FileChecksum: MD5: 73b4dc28afb8fe896c43d68c6214e7fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/exceptions.py
+SPDXID: SPDXRef-item9799590
+FileChecksum: SHA1: 041b8fa6d0057b37861dad4300e0166328bad122
+FileChecksum: SHA256: df4ac2e0d671729d1d1e1e4a8b06d69304451bbbe24656340ec83302ea591511
+FileChecksum: MD5: 31e91c7fb84a6dd746afbe7407546df5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/py.typed
+SPDXID: SPDXRef-item9799591
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText:  NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/diagram/__init__.py
+SPDXID: SPDXRef-item9799593
+FileChecksum: SHA1: 38dcc89331f1f2978fa534fdae652d1606ce309f
+FileChecksum: SHA256: 908759f448152cf4c97fbb1b580ae78178048e92153a7ea477efbc68fa15d36f
+FileChecksum: MD5: 9e408b39dc2f3bad7a2b88523d71647e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/testing.py
+SPDXID: SPDXRef-item9799594
+FileChecksum: SHA1: 2c53831b3bfcde048e144c4d69a47d9cbbb70c99
+FileChecksum: SHA256: afe90a5dcbfff2bd46fb8beba6b06425eb90169afde0e4a6d23957746c00605d
+FileChecksum: MD5: d8e7770957a6da290ce0d7d4e81cb8c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/common.py
+SPDXID: SPDXRef-item9799595
+FileChecksum: SHA1: e335b69cdaa82857794a0481b3aaa1fff360677b
+FileChecksum: SHA256: 372e29a4f49ebc979e8a50c3ca84142c8d835bf64fbc9acba5361c57087dab38
+FileChecksum: MD5: 9937f56cf5fed8bc87dd66d9af76bb49
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/unicode.py
+SPDXID: SPDXRef-item9799597
+FileChecksum: SHA1: 7fccc753109642013993310643ab058647e9b874
+FileChecksum: SHA256: 7686a7bfb058401e0475045f7578a06a257f483859cb26814b082f544cfa7977
+FileChecksum: MD5: e327e958173c92afbc41d6baeb481d9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/actions.py
+SPDXID: SPDXRef-item9799598
+FileChecksum: SHA1: 0e1851028fec12274e559d59c6e8e91462e3406d
+FileChecksum: SHA256: f888aefc07d9c2fc21024ea1d322740593fe7c67c7878ecdfa1e839b3b5171b6
+FileChecksum: MD5: cef53b2e6f218c3a78248b9a009d65aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/util.py
+SPDXID: SPDXRef-item9799599
+FileChecksum: SHA1: 786609c3090f1ec71deb8eae0c3d5890bc35416b
+FileChecksum: SHA256: 89f2b137ab794206f565fb725263e4c913109d9ae58f6fad8a733a45bc7403da
+FileChecksum: MD5: b5836b650bc01367d3355474de25c09e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/results.py
+SPDXID: SPDXRef-item9799600
+FileChecksum: SHA1: 6626547a43437f9881f15a8a8429f240b030f456
+FileChecksum: SHA256: 9b17cc4cc91c776b492491bb3519c68ad7e26a253e705bba6511b08809ab1c24
+FileChecksum: MD5: 8b27803525ae97483e5558436847d80c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/pyparsing/helpers.py
+SPDXID: SPDXRef-item9799602
+FileChecksum: SHA1: f305b3cd0c0112c0fafe589205ea893cd4b82c2f
+FileChecksum: SHA256: 33f6064a199f14c10b95bc064ba764f372669afb6a71c70467d0b87d748e130e
+FileChecksum: MD5: 0b01dae3b380a59229afc83cd4c822ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/README.rst
+SPDXID: SPDXRef-item9799603
+FileChecksum: SHA1: f432db89432ff723225b5436dc1cf429f2638c49
+FileChecksum: SHA256: 048edfc531c7126f55f464cea8731e46f341ef2ca79c8fa11f2e45194352ed7b
+FileChecksum: MD5: cedf76939034c149207db925e0a7042e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-Python-2.0
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/update_pyparsing_timestamp.py
+SPDXID: SPDXRef-item9799604
+FileChecksum: SHA1: 6f233be890df24a1d4ccb4a8945d3d2f8506b181
+FileChecksum: SHA256: 16651fe9344d14c8f37e97b1785342504f6379605940107b15c6905459128786
+FileChecksum: MD5: d50995dc352d86b71a5d627e852d8009
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/mypy-ignore-cases/forward_methods.py
+SPDXID: SPDXRef-item9799607
+FileChecksum: SHA1: 5b17b9e3f81c312f098ba638f56a2e5395ded508
+FileChecksum: SHA256: 212c6fdf93c9c7160abbc0ce0b54ee5afa39942136617ef1585cb395e7103173
+FileChecksum: MD5: 9366a7561600f215b5f702a7de272ac2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/test_diagram.py
+SPDXID: SPDXRef-item9799608
+FileChecksum: SHA1: 0c39ff064fe7072e57fa8d803eb5bf0c610749a7
+FileChecksum: SHA256: 79e452d54ea8db8ea2353198ff86ca08711b04492f75583b5b923971ab93da29
+FileChecksum: MD5: 31692de0ee3a8bee52f6eea873dcddd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/test_examples.py
+SPDXID: SPDXRef-item9799609
+FileChecksum: SHA1: dfcd1c448de8ea7eb20266210888818e89171b2d
+FileChecksum: SHA256: a68b8e02fef3fa0d3b8d9062c487353395347a140ad43cb5bb96a14f7beccf6e
+FileChecksum: MD5: 2cf525008ea875f22565b52276dc48db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/README.md
+SPDXID: SPDXRef-item9799610
+FileChecksum: SHA1: 16bc5fcc0ea47739acd081c5623feb511b5cdb5c
+FileChecksum: SHA256: b5d82e958a0621d69e1531217e0b282de617adfea029f6e01ec4b95935e73603
+FileChecksum: MD5: 1cbec2f3f99b247b57f701c9914ea668
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/test_matplotlib_cases.py
+SPDXID: SPDXRef-item9799611
+FileChecksum: SHA1: 405ed683e42211a664505896f6d720a9a2aafe41
+FileChecksum: SHA256: 8b0557ffe0f58dfbed7fb4465b677e0b0e73ffeed1d5a7cab13962bb2e7d6e35
+FileChecksum: MD5: d337f137066ddef9188e179b4076ec28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/diag_embed.html
+SPDXID: SPDXRef-item9799612
+FileChecksum: SHA1: 128ec0b8ac3aca9acf5a684acb1179c2ba842dbb
+FileChecksum: SHA256: 02932548903a461ce69f38cef89b84fee55ad106ae63d19ba92145c351198652
+FileChecksum: MD5: 34b489f1ea528187c6033c761b309d1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/karthik.ini
+SPDXID: SPDXRef-item9799613
+FileChecksum: SHA1: 8eb21da64c51b0c13c7aa06b2723e28268349782
+FileChecksum: SHA256: 705425baa4ba0d30dc579f7348de59da0b518e12aeb3d75c3f0dccb30f429742
+FileChecksum: MD5: 0522568521a038152e00a7246c032b2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/__init__.py
+SPDXID: SPDXRef-item9799614
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText:  NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/test_util.py
+SPDXID: SPDXRef-item9799615
+FileChecksum: SHA1: c621ec43e70403449d6995560c8e53cba24722fa
+FileChecksum: SHA256: 865132a109b415e75e6c592f8f1fe5c58030a521d0a41846627652510e21a9e4
+FileChecksum: MD5: 1eb8ad78ebe5ec12543afa06ad7b737a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/requirements.txt
+SPDXID: SPDXRef-item9799616
+FileChecksum: SHA1: 15c85859e6da670e7245e7270c21e7d683612875
+FileChecksum: SHA256: a6ac2e41d8c091c422f2fef7bd50fd2b87ae98331343b8ec19bb316365508af6
+FileChecksum: MD5: fd5c3083eccde4b6be367b38f83e5d86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/test_unit.py
+SPDXID: SPDXRef-item9799617
+FileChecksum: SHA1: ead37ea4245caa1676047acccae01127953ba360
+FileChecksum: SHA256: 6f0c40bd93f29f48703951ea5877dbfd9e5923d1c0b02f52140bda44613fe18e
+FileChecksum: MD5: c99de77cfb5f913a1c178ae2a7612bc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2002-2021, Paul McGuire
+Copyright © 2021 Dot ⟶ ˙ </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/test_simple_unit.py
+SPDXID: SPDXRef-item9799618
+FileChecksum: SHA1: c45295aed68bdf185c9d03aadd28fa33602dcefd
+FileChecksum: SHA256: 6a2bf4a498e7463c30fe8dfecf1680073a40e47587d8ab69499575b6b7b2af72
+FileChecksum: MD5: ab6beb1ed2a6b0811c1cc95d4d67d381
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2018 Paul T. McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/json_parser_tests.py
+SPDXID: SPDXRef-item9799619
+FileChecksum: SHA1: db6576cc3aafad6942030cc033f3a150f1b9a396
+FileChecksum: SHA256: 7ef76a8f2cbb7665199456ca9718a8c27cbe5053443c6808486f9d19c570bca8
+FileChecksum: MD5: 78436165ec0162f8a92304053ffcefce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2006, Paul McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/parsefiletest_input_file.txt
+SPDXID: SPDXRef-item9799620
+FileChecksum: SHA1: 4a87373297b683dbcd9ce7de4d28edae6b514f92
+FileChecksum: SHA256: d2f9516213f88215b2f2d2e87d0e447560deb971b9a3b8eb1328911651140f58
+FileChecksum: MD5: cecde2d8d38351564c5136052237ee01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tests/diag_no_embed.html
+SPDXID: SPDXRef-item9799621
+FileChecksum: SHA1: 972a12f519de688de91d2195d531d1056315033a
+FileChecksum: SHA256: 0d34fe31e18bcd46c19c915f048bbd116bda2ca4a28a8d4ed9dc5ef7fe1ea1ab
+FileChecksum: MD5: d70a262a9ba1c6898e796b4d3c7fc015
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/tox.ini
+SPDXID: SPDXRef-item9799622
+FileChecksum: SHA1: b016bfb83c5bc91a668e5605c7fda91384a29577
+FileChecksum: SHA256: 892ff423896232b2afcb581e409a0ca541eca8fc0cf60e60a9cb7f0946bf1cf0
+FileChecksum: MD5: a04f5afed196cf485d08e3033821a810
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/.coveragerc
+SPDXID: SPDXRef-item9799623
+FileChecksum: SHA1: a1470e4d186b847d8bef01e5fbbd32e968011c5c
+FileChecksum: SHA256: 206e4828fe733ac21cdb5de50048ed604f670658a32cff528caeb7aebd3817d7
+FileChecksum: MD5: b2da907fbaa832dd0055368f420b6a65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/pyparsing_class_diagram.puml
+SPDXID: SPDXRef-item9799625
+FileChecksum: SHA1: a083dd50d6287c5d7274b857cc005aabdc3fe143
+FileChecksum: SHA256: de3702aa10333f1d969e981548d3e61e854785e16e69e1569913cc53907a67af
+FileChecksum: MD5: 7860f9c2a846fe6cf2117063695733de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/_static/pyparsingClassDiagram_3.0.9.jpg
+SPDXID: SPDXRef-item9799627
+FileChecksum: SHA1: a9237f966e0040749447f6470fb8a109f70d540e
+FileChecksum: SHA256: 5d096a909797803fcbcf32e02429ceb3010092415dcd5f688ddd5023c4bdbf29
+FileChecksum: MD5: 2a0660dbd3a82d456c24d6a28db7f513
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/_static/sql_railroad.html
+SPDXID: SPDXRef-item9799628
+FileChecksum: SHA1: 54470163d575864bca1f52351afbfc3af3ec478e
+FileChecksum: SHA256: 817fbad5f5ba032e3058fa2fda26eb4fec66ab6d6203ba18ede534ae53786c65
+FileChecksum: MD5: e442691701142649328e01b6f11158e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/_static/pyparsingClassDiagram_1.5.2.jpg
+SPDXID: SPDXRef-item9799629
+FileChecksum: SHA1: 73717e47ad2b2e7ad79674323793ffd27bd5cde4
+FileChecksum: SHA256: d3b416809eef547d8a2bb0ae21df06a7422f90b920565099a07e752e0155d597
+FileChecksum: MD5: 8f6f3c205cabf7291391dce10c143d7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/whats_new_in_3_1.rst
+SPDXID: SPDXRef-item9799630
+FileChecksum: SHA1: a49573515a3f42c6844c9f60b64fdad01980dc22
+FileChecksum: SHA256: 54437cc231140cb59599c20203eb79097565a179367dcf807c508bb7e1e55b04
+FileChecksum: MD5: fc67e57722fff05d821e3c3c4231cc84
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/CODE_OF_CONDUCT.rst
+SPDXID: SPDXRef-item9799631
+FileChecksum: SHA1: d2c48cd002061f53bc8740c0ca3a78295fe2e112
+FileChecksum: SHA256: b11c6da4f909eab5c924fce04a00d9141e8c697e9ca91d0d24a12db0617a6adb
+FileChecksum: MD5: 9d2be7bdb8b28a428cdb3b0efa7467d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/pyparsing.rst
+SPDXID: SPDXRef-item9799632
+FileChecksum: SHA1: 5ceb91ffe5ca484be1cbf44321bebfed9f422a3e
+FileChecksum: SHA256: 972a0c655bc49a488333a4d3f32ab1e0d178ff6de2c59aba6a1b7a0f571f48a8
+FileChecksum: MD5: 80b1715b728a44cbae46c49fdcd0258c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/HowToUsePyparsing.rst
+SPDXID: SPDXRef-item9799633
+FileChecksum: SHA1: e020bc1b251a4b38e7959237b1be739e29fa670b
+FileChecksum: SHA256: 4175189bbffa47c8f1a157436793828b9570b82d071535d350848455b0b72fd1
+FileChecksum: MD5: 5e364acb2a7223084c92c01b8730b506
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2003-2024 Paul McGuire. </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/modules.rst
+SPDXID: SPDXRef-item9799634
+FileChecksum: SHA1: e782d4deb8bce6dfc7eb8497af6db4c070e04fed
+FileChecksum: SHA256: 817e56092571373d36bbc3eb703b63e2f3b9460ba220267e7df0c992b123bce8
+FileChecksum: MD5: 8e3d0537932688b0858c98e16839b437
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/Makefile
+SPDXID: SPDXRef-item9799635
+FileChecksum: SHA1: b466bf865bccf19188014c49b7e9802e819f0377
+FileChecksum: SHA256: fbe28542407ba902bf97c611e994be685bb532cf2da480ae436dfab807debf73
+FileChecksum: MD5: 71e23e6ab27a362c12ae3bdf93ed74c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/conf.py
+SPDXID: SPDXRef-item9799636
+FileChecksum: SHA1: b0558d849f0f6f545fcf7cb7caa99671aa2a7282
+FileChecksum: SHA256: 767a2cab750b227a8c46eeeca51e5cc162b74b0827c8212cdc9d9ae7efb3a2c8
+FileChecksum: MD5: 232a292803be3bb1796e406282b7cb74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+FileCopyrightText: <text> copyright 2018-2024, Paul T. McGuire </text>
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/whats_new_in_3_0_0.rst
+SPDXID: SPDXRef-item9799637
+FileChecksum: SHA1: be0f2e31db7cb082e2d0a4e43f01d856771e3e2f
+FileChecksum: SHA256: 5f37fd0cfd51327df8390dcd65d2db2806358a8831ff9f20353c8c950d39121a
+FileChecksum: MD5: e0a4aef66032c5913579654f843ff133
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/index.rst
+SPDXID: SPDXRef-item9799638
+FileChecksum: SHA1: 57a50cc3044d8c7cd864ca409ac379c0a52294ad
+FileChecksum: SHA256: 38875deb30f699792c4eca8eb8a4f81aceafe1694bd3af034a5177fbeaa152cd
+FileChecksum: MD5: ed31103eaceed2fdecaeb278d3ef473d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/whats_new_in_3_2.rst
+SPDXID: SPDXRef-item9799639
+FileChecksum: SHA1: b7bd2064be3b25b1d2ec795daf1227f8c18b252e
+FileChecksum: SHA256: 782ecbe8c80ab7e6eefcefd64ec5493e33fe0d0ed091aba3b8f866147da45484
+FileChecksum: MD5: 29787db33bde6483877272546bc7699f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/make_sphinx_docs.bat
+SPDXID: SPDXRef-item9799640
+FileChecksum: SHA1: 15ed4142068f21b332cb65b7d0e48d1776d9da3d
+FileChecksum: SHA256: b686be09199e807013f915d0b22231189064fa07ec1f8b8f58cee034e2eb9d41
+FileChecksum: MD5: c9b076ae1b3849685ee3c056815ad2a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/docs/whats_new_in_x_x_template.rst.txt
+SPDXID: SPDXRef-item9799641
+FileChecksum: SHA1: f7cd88abc7ebc81846cb4351021993eefebc4423
+FileChecksum: SHA256: e59df9e5706abc3dd4f0da464e41ce576c2a9dd4e87cad88eae833e218808390
+FileChecksum: MD5: c68737de8c940bedf65895354d4bc54d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: pyparsing-3.2.0.tar.gz/pyparsing-3.2.0.tar/pyparsing-3.2.0/.gitignore
+SPDXID: SPDXRef-item9799642
+FileChecksum: SHA1: 947c2724ac742c6f226bf5372dc3696955486250
+FileChecksum: SHA256: 3bc45e064813a07856b3f38bf6f60a4ed4d67dd4d859a3f0e5d050b5780d8f93
+FileChecksum: MD5: feaacb13dc463ce03d610418e562ceda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-2-Clause-2c6f31beafbcf8c8f9095b83d8c5688d
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-Permission-Notice-51b73aaf2aaf188199c41fa4bce9284b
+LicenseName: Permission Notice from Adam Costello and Cosim Truta
+ExtractedText: <text> You may freely use, modify, and distribute this software.
+Warranty: THIS SOFTWARE HAS NO WARRANTY WHATSOEVER. USE AT YOUR OWN RISK. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-8aa871b6ded09c659fb226753641c5fc
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+* Neither the name of Estrate nor the names of its contributors may be used
+to endorse or promote products derived from this software without specific
+prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-CMU-b275e0df276fb55edbba5d5ba560f029
+LicenseName: CMU License
+ExtractedText: <text> Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of CMU not be
+used in advertising or publicity pertaining to distribution of the
+software without specific, written prior permission.
+
+CMU DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING
+ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL
+CMU BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR
+ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-style-a4025daea60c9e4da08e0d27db3abc61
+LicenseName: MIT-style
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+If you find this software to be useful, please make a donation to one
+of the following charities:
+- the Red Cross (https://www.redcross.org/)
+- Hospice Austin (https://www.hospiceaustin.org/)
+
+DISCLAIMER:
+THIS SOFTWARE IS PROVIDED BY PAUL T. McGUIRE ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL PAUL T. McGUIRE OR CO-CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OFUSE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+For questions or inquiries regarding this license, or commercial use of
+this software, contact the author via e-mail: ptmcg@users.sourceforge.net </text>
+
+  
+
+LicenseID: LicenseRef-MIT-8d18be6409468bae48b33b87db85824a
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+  
+
+LicenseID: LicenseRef-scancode-proprietary-license
+LicenseName: Proprietary License
+ExtractedText: <text> License by Scancode. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-MIT-testregex
+LicenseName: MIT testregex Variant
+ExtractedText: <text>  * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of THIS SOFTWARE FILE (the "Software"), to deal in the Software
+ * without restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, and/or sell copies of the
+ * Software, and to permit persons to whom the Software is furnished to do
+ * so, subject to the following disclaimer:
+ *
+ * THIS SOFTWARE IS PROVIDED BY AT&T ``AS IS'' AND ANY EXPRESS OR IMPLIED
+ * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ * IN NO EVENT SHALL AT&T BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+  
+
+LicenseID: LicenseRef-scancode-mit-synopsys
+LicenseName: MIT Synopsys License
+ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-HPND
+LicenseName: Historical Permission Notice and Disclaimer
+ExtractedText: <text> Historical Permission Notice and Disclaimer
+
+<copyright notice>
+
+Permission to use, copy, modify and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies, and that both that the copyright notice and this permission notice appear in supporting documentation, and that the name of <copyright holder> or <related entities> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. <copyright holder> makes no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
+
+<copyright holder> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS,. IN NO EVENT SHALL <copyright holder> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ </text>
+
+
+  
+LicenseID: LicenseRef-MIT-CMU
+LicenseName: CMU License
+ExtractedText: <text> <copyright notice>
+
+By obtaining, using, and/or copying this software and/or its associated documentation, you agree that you have read, understood, and will comply with the following terms and conditions:
+
+Permission to use, copy, modify, and distribute this software and its associated documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies, and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of the copyright holder not be used in advertising or publicity pertaining to distribution of the software without specific, written permission.
+
+THE COPYRIGHT HOLDER DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM THE LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ </text>
+
+
+  
+LicenseID: LicenseRef-BSD-2-Clause
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Copyright (c) <year> <owner> 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+
+LicenseID: LicenseRef-BSD-possibility
+LicenseName: BSD-possibility
+ExtractedText: <text> License by Nomos. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-other-permissive
+LicenseName: Other Permissive Licenses
+ExtractedText: <text> License by Scancode. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-warranty-disclaimer
+LicenseName: Generic Bare Warranty Disclaimer
+ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+
+LicenseID: LicenseRef-WebM
+LicenseName: WebM Software License
+ExtractedText: <text> Software License
+Copyright (c) 2010, Google Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of Google nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+  
+LicenseID: LicenseRef-GPL-1.0-or-later
+LicenseName: GNU General Public License v1.0 or later
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+
+Version 1, February 1989
+
+Copyright (C) 1989 Free Software Foundation, Inc. 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The license agreements of most software companies try to keep users at the mercy of those companies. By contrast, our General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. The General Public License applies to the Free Software Foundation's software and to any other program whose authors commit to using it. You can use it for your programs, too.
+
+When we speak of free software, we are referring to freedom, not price. Specifically, the General Public License is designed to make sure that you have the freedom to give away or sell copies of free software, that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of a such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must tell them their rights.
+
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+GNU GENERAL PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+   0. This License Agreement applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any work containing the Program or a portion of it, either verbatim or with modifications. Each licensee is addressed as "you".
+
+   1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this General Public License and to the absence of any warranty; and give any other recipients of the Program a copy of this General Public License along with the Program. You may charge a fee for the physical act of transferring a copy.
+
+   2. You may modify your copy or copies of the Program or any portion of it, and copy and distribute such modifications under the terms of Paragraph 1 above, provided that you also do the following:
+
+      a) cause the modified files to carry prominent notices stating that you changed the files and the date of any change; and
+
+      b) cause the whole of any work that you distribute or publish, that in whole or in part contains the Program or any part thereof, either with or without modifications, to be licensed at no charge to all third parties under the terms of this General Public License (except that you may choose to grant warranty protection to some or all third parties, at your option).
+
+      c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the simplest and most usual way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this General Public License.
+
+      d) You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+
+   Mere aggregation of another independent work with the Program (or its derivative) on a volume of a storage or distribution medium does not bring the other work under the scope of these terms.
+
+   3. You may copy and distribute the Program (or a portion or derivative of it, under Paragraph 2) in object code or executable form under the terms of Paragraphs 1 and 2 above provided that you also do one of the following:
+
+      a) accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Paragraphs 1 and 2 above; or,
+
+      b) accompany it with a written offer, valid for at least three years, to give any third party free (except for a nominal charge for the cost of distribution) a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Paragraphs 1 and 2 above; or,
+
+      c) accompany it with the information you received as to where the corresponding source code may be obtained. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form alone.)
+
+   Source code for a work means the preferred form of the work for making modifications to it. For an executable file, complete source code means all the source code for all modules it contains; but, as a special exception, it need not include source code for modules which are standard libraries that accompany the operating system on which the executable file runs, or for standard header files or definitions files that accompany that operating system.
+
+   4. You may not copy, modify, sublicense, distribute or transfer the Program except as expressly provided under this General Public License. Any attempt otherwise to copy, modify, sublicense, distribute or transfer the Program is void, and will automatically terminate your rights to use the Program under this License. However, parties who have received copies, or rights to use copies, from you under this General Public License will not have their licenses terminated so long as such parties remain in full compliance.
+
+   5. By copying, distributing or modifying the Program (or any work based on the Program) you indicate your acceptance of this license to do so, and all its terms and conditions.
+
+   6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein.
+
+   7. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+   Each version is given a distinguishing version number. If the Program specifies a version number of the license which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the license, you may choose any version ever published by the Free Software Foundation.
+
+   8. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+
+   NO WARRANTY
+
+   9.
+
+   BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+   10. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS
+
+Appendix: How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to humanity, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+<one line to give the program's name and a brief idea of what it does.>
+
+Copyright (C) 19yy <name of author>
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+Gnomovision version 69, Copyright (C) 19xx name of author Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the program, if necessary. Here a sample; alter the names:
+
+Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (a program to direct compilers to make passes at assemblers) written by James Hacker.
+
+<signature of Ty Coon>, 1 April 1989 Ty Coon, President of Vice
+
+That's all there is to it!
+
+ </text>
+
+
+  
+LicenseID: LicenseRef-GPL-3.0-only
+LicenseName: GNU General Public License v3.0 only
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright © 2007 Free Software Foundation, Inc. <http://fsf.org/>
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The GNU General Public License is a free, copyleft license for software and other kinds of works.
+
+The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too.
+
+When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things.
+
+To protect your rights, we need to prevent others from denying you these rights or asking you to surrender the rights. Therefore, you have certain responsibilities if you distribute copies of the software, or if you modify it: responsibilities to respect the freedom of others.
+
+For example, if you distribute copies of such a program, whether gratis or for a fee, you must pass on to the recipients the same freedoms that you received. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.
+
+Developers that use the GNU GPL protect your rights with two steps: (1) assert copyright on the software, and (2) offer you this License giving you legal permission to copy, distribute and/or modify it.
+
+For the developers' and authors' protection, the GPL clearly explains that there is no warranty for this free software. For both users' and authors' sake, the GPL requires that modified versions be marked as changed, so that their problems will not be attributed erroneously to authors of previous versions.
+
+Some devices are designed to deny users access to install or run modified versions of the software inside them, although the manufacturer can do so. This is fundamentally incompatible with the aim of protecting users' freedom to change the software. The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable. Therefore, we have designed this version of the GPL to prohibit the practice for those products. If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users.
+
+Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+TERMS AND CONDITIONS
+
+0. Definitions.
+
+"This License" refers to version 3 of the GNU General Public License.
+
+"Copyright" also means copyright-like laws that apply to other kinds of works, such as semiconductor masks.
+
+"The Program" refers to any copyrightable work licensed under this License. Each licensee is addressed as "you". "Licensees" and "recipients" may be individuals or organizations.
+
+To "modify" a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy. The resulting work is called a "modified version" of the earlier work or a work "based on" the earlier work.
+
+A "covered work" means either the unmodified Program or a work based on the Program.
+
+To "propagate" a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.
+
+To "convey" a work means any kind of propagation that enables other parties to make or receive copies. Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.
+
+An interactive user interface displays "Appropriate Legal Notices" to the extent that it includes a convenient and prominently visible feature that (1) displays an appropriate copyright notice, and (2) tells the user that there is no warranty for the work (except to the extent that warranties are provided), that licensees may convey the work under this License, and how to view a copy of this License. If the interface presents a list of user commands or options, such as a menu, a prominent item in the list meets this criterion.
+
+1. Source Code.
+The "source code" for a work means the preferred form of the work for making modifications to it. "Object code" means any non-source form of a work.
+
+A "Standard Interface" means an interface that either is an official standard defined by a recognized standards body, or, in the case of interfaces specified for a particular programming language, one that is widely used among developers working in that language.
+
+The "System Libraries" of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form. A "Major Component", in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it.
+
+The "Corresponding Source" for a work in object code form means all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. However, it does not include the work's System Libraries, or general-purpose tools or generally available free programs which are used unmodified in performing those activities but which are not part of the work. For example, Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work.
+
+The Corresponding Source need not include anything that users can regenerate automatically from other parts of the Corresponding Source.
+
+The Corresponding Source for a work in source code form is that same work.
+
+2. Basic Permissions.
+All rights granted under this License are granted for the term of copyright on the Program, and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.
+
+You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force. You may convey covered works to others for the sole purpose of having them make modifications exclusively for you, or provide you with facilities for running those works, provided that you comply with the terms of this License in conveying all material for which you do not control copyright. Those thus making or running the covered works for you must do so exclusively on your behalf, under your direction and control, on terms that prohibit them from making any copies of your copyrighted material outside their relationship with you.
+
+Conveying under any other circumstances is permitted solely under the conditions stated below. Sublicensing is not allowed; section 10 makes it unnecessary.
+
+3. Protecting Users' Legal Rights From Anti-Circumvention Law.
+No covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.
+
+When you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work's users, your or third parties' legal rights to forbid circumvention of technological measures.
+
+4. Conveying Verbatim Copies.
+You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.
+
+You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.
+
+5. Conveying Modified Source Versions.
+You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions:
+
+     a) The work must carry prominent notices stating that you modified it, and giving a relevant date.
+
+     b) The work must carry prominent notices stating that it is released under this License and any conditions added under section 7. This requirement modifies the requirement in section 4 to "keep intact all notices".
+
+     c) You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.
+
+     d) If the work has interactive user interfaces, each must display Appropriate Legal Notices; however, if the Program has interactive interfaces that do not display Appropriate Legal Notices, your work need not make them do so.
+
+A compilation of a covered work with other separate and independent works, which are not by their nature extensions of the covered work, and which are not combined with it such as to form a larger program, in or on a volume of a storage or distribution medium, is called an "aggregate" if the compilation and its resulting copyright are not used to limit the access or legal rights of the compilation's users beyond what the individual works permit. Inclusion of a covered work in an aggregate does not cause this License to apply to the other parts of the aggregate.
+
+6. Conveying Non-Source Forms.
+You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:
+
+     a) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange.
+
+     b) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by a written offer, valid for at least three years and valid for as long as you offer spare parts or customer support for that product model, to give anyone who possesses the object code either (1) a copy of the Corresponding Source for all the software in the product that is covered by this License, on a durable physical medium customarily used for software interchange, for a price no more than your reasonable cost of physically performing this conveying of source, or (2) access to copy the Corresponding Source from a network server at no charge.
+
+     c) Convey individual copies of the object code with a copy of the written offer to provide the Corresponding Source. This alternative is allowed only occasionally and noncommercially, and only if you received the object code with such an offer, in accord with subsection 6b.
+
+     d) Convey the object code by offering access from a designated place (gratis or for a charge), and offer equivalent access to the Corresponding Source in the same way through the same place at no further charge. You need not require recipients to copy the Corresponding Source along with the object code. If the place to copy the object code is a network server, the Corresponding Source may be on a different server (operated by you or a third party) that supports equivalent copying facilities, provided you maintain clear directions next to the object code saying where to find the Corresponding Source. Regardless of what server hosts the Corresponding Source, you remain obligated to ensure that it is available for as long as needed to satisfy these requirements.
+
+     e) Convey the object code using peer-to-peer transmission, provided you inform other peers where the object code and Corresponding Source of the work are being offered to the general public at no charge under subsection 6d.
+
+A separable portion of the object code, whose source code is excluded from the Corresponding Source as a System Library, need not be included in conveying the object code work.
+
+A "User Product" is either (1) a "consumer product", which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling. In determining whether a product is a consumer product, doubtful cases shall be resolved in favor of coverage. For a particular product received by a particular user, "normally used" refers to a typical or common use of that class of product, regardless of the status of the particular user or of the way in which the particular user actually uses, or expects or is expected to use, the product. A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product.
+
+"Installation Information" for a User Product means any methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source. The information must suffice to ensure that the continued functioning of the modified object code is in no case prevented or interfered with solely because modification has been made.
+
+If you convey an object code work under this section in, or with, or specifically for use in, a User Product, and the conveying occurs as part of a transaction in which the right of possession and use of the User Product is transferred to the recipient in perpetuity or for a fixed term (regardless of how the transaction is characterized), the Corresponding Source conveyed under this section must be accompanied by the Installation Information. But this requirement does not apply if neither you nor any third party retains the ability to install modified object code on the User Product (for example, the work has been installed in ROM).
+
+The requirement to provide Installation Information does not include a requirement to continue to provide support service, warranty, or updates for a work that has been modified or installed by the recipient, or for the User Product in which it has been modified or installed. Access to a network may be denied when the modification itself materially and adversely affects the operation of the network or violates the rules and protocols for communication across the network.
+
+Corresponding Source conveyed, and Installation Information provided, in accord with this section must be in a format that is publicly documented (and with an implementation available to the public in source code form), and must require no special password or key for unpacking, reading or copying.
+
+7. Additional Terms.
+"Additional permissions" are terms that supplement the terms of this License by making exceptions from one or more of its conditions. Additional permissions that are applicable to the entire Program shall be treated as though they were included in this License, to the extent that they are valid under applicable law. If additional permissions apply only to part of the Program, that part may be used separately under those permissions, but the entire Program remains governed by this License without regard to the additional permissions.
+
+When you convey a copy of a covered work, you may at your option remove any additional permissions from that copy, or from any part of it. (Additional permissions may be written to require their own removal in certain cases when you modify the work.) You may place additional permissions on material, added by you to a covered work, for which you have or can give appropriate copyright permission.
+
+Notwithstanding any other provision of this License, for material you add to a covered work, you may (if authorized by the copyright holders of that material) supplement the terms of this License with terms:
+
+     a) Disclaiming warranty or limiting liability differently from the terms of sections 15 and 16 of this License; or
+
+     b) Requiring preservation of specified reasonable legal notices or author attributions in that material or in the Appropriate Legal Notices displayed by works containing it; or
+
+     c) Prohibiting misrepresentation of the origin of that material, or requiring that modified versions of such material be marked in reasonable ways as different from the original version; or
+
+     d) Limiting the use for publicity purposes of names of licensors or authors of the material; or
+
+     e) Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks; or
+
+     f) Requiring indemnification of licensors and authors of that material by anyone who conveys the material (or modified versions of it) with contractual assumptions of liability to the recipient, for any liability that these contractual assumptions directly impose on those licensors and authors.
+
+All other non-permissive additional terms are considered "further restrictions" within the meaning of section 10. If the Program as you received it, or any part of it, contains a notice stating that it is governed by this License along with a term that is a further restriction, you may remove that term. If a license document contains a further restriction but permits relicensing or conveying under this License, you may add to a covered work material governed by the terms of that license document, provided that the further restriction does not survive such relicensing or conveying.
+
+If you add terms to a covered work in accord with this section, you must place, in the relevant source files, a statement of the additional terms that apply to those files, or a notice indicating where to find the applicable terms.
+
+Additional terms, permissive or non-permissive, may be stated in the form of a separately written license, or stated as exceptions; the above requirements apply either way.
+
+8. Termination.
+You may not propagate or modify a covered work except as expressly provided under this License. Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11).
+
+However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation.
+
+Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice.
+
+Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License. If your rights have been terminated and not permanently reinstated, you do not qualify to receive new licenses for the same material under section 10.
+
+9. Acceptance Not Required for Having Copies.
+You are not required to accept this License in order to receive or run a copy of the Program. Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance. However, nothing other than this License grants you permission to propagate or modify any covered work. These actions infringe copyright if you do not accept this License. Therefore, by modifying or propagating a covered work, you indicate your acceptance of this License to do so.
+
+10. Automatic Licensing of Downstream Recipients.
+Each time you convey a covered work, the recipient automatically receives a license from the original licensors, to run, modify and propagate that work, subject to this License. You are not responsible for enforcing compliance by third parties with this License.
+
+An "entity transaction" is a transaction transferring control of an organization, or substantially all assets of one, or subdividing an organization, or merging organizations. If propagation of a covered work results from an entity transaction, each party to that transaction who receives a copy of the work also receives whatever licenses to the work the party's predecessor in interest had or could give under the previous paragraph, plus a right to possession of the Corresponding Source of the work from the predecessor in interest, if the predecessor has it or can get it with reasonable efforts.
+
+You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License. For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it.
+
+11. Patents.
+A "contributor" is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based. The work thus licensed is called the contributor's "contributor version".
+
+A contributor's "essential patent claims" are all patent claims owned or controlled by the contributor, whether already acquired or hereafter acquired, that would be infringed by some manner, permitted by this License, of making, using, or selling its contributor version, but do not include claims that would be infringed only as a consequence of further modification of the contributor version. For purposes of this definition, "control" includes the right to grant patent sublicenses in a manner consistent with the requirements of this License.
+
+Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.
+
+In the following three paragraphs, a "patent license" is any express agreement or commitment, however denominated, not to enforce a patent (such as an express permission to practice a patent or covenant not to sue for patent infringement). To "grant" such a patent license to a party means to make such an agreement or commitment not to enforce a patent against the party.
+
+If you convey a covered work, knowingly relying on a patent license, and the Corresponding Source of the work is not available for anyone to copy, free of charge and under the terms of this License, through a publicly available network server or other readily accessible means, then you must either (1) cause the Corresponding Source to be so available, or (2) arrange to deprive yourself of the benefit of the patent license for this particular work, or (3) arrange, in a manner consistent with the requirements of this License, to extend the patent license to downstream recipients. "Knowingly relying" means you have actual knowledge that, but for the patent license, your conveying the covered work in a country, or your recipient's use of the covered work in a country, would infringe one or more identifiable patents in that country that you have reason to believe are valid.
+
+If, pursuant to or in connection with a single transaction or arrangement, you convey, or propagate by procuring conveyance of, a covered work, and grant a patent license to some of the parties receiving the covered work authorizing them to use, propagate, modify or convey a specific copy of the covered work, then the patent license you grant is automatically extended to all recipients of the covered work and works based on it.
+
+A patent license is "discriminatory" if it does not include within the scope of its coverage, prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights that are specifically granted under this License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license (a) in connection with copies of the covered work conveyed by you (or copies made from those copies), or (b) primarily for and in connection with specific products or compilations that contain the covered work, unless you entered into that arrangement, or that patent license was granted, prior to 28 March 2007.
+
+Nothing in this License shall be construed as excluding or limiting any implied license or other defenses to infringement that may otherwise be available to you under applicable patent law.
+
+12. No Surrender of Others' Freedom.
+If conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot convey a covered work so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not convey it at all. For example, if you agree to terms that obligate you to collect a royalty for further conveying from those to whom you convey the Program, the only way you could satisfy both those terms and this License would be to refrain entirely from conveying the Program.
+
+13. Use with the GNU Affero General Public License.
+Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such.
+
+14. Revised Versions of this License.
+The Free Software Foundation may publish revised and/or new versions of the GNU General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+Each version is given a distinguishing version number. If the Program specifies that a certain numbered version of the GNU General Public License "or any later version" applies to it, you have the option of following the terms and conditions either of that numbered version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the GNU General Public License, you may choose any version ever published by the Free Software Foundation.
+
+If the Program specifies that a proxy can decide which future versions of the GNU General Public License can be used, that proxy's public statement of acceptance of a version permanently authorizes you to choose that version for the Program.
+
+Later license versions may give you additional or different permissions. However, no additional obligations are imposed on any author or copyright holder as a result of your choosing to follow a later version.
+
+15. Disclaimer of Warranty.
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+16. Limitation of Liability.
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+17. Interpretation of Sections 15 and 16.
+If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.
+
+END OF TERMS AND CONDITIONS
+
+How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+     <one line to give the program's name and a brief idea of what it does.>
+     Copyright (C) <year>  <name of author>
+
+     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:
+
+     <program>  Copyright (C) <year>  <name of author>
+     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an "about box".
+
+You should also get your employer (if you work as a programmer) or school, if any, to sign a "copyright disclaimer" for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.
+
+The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
+ </text>
+
+
+
+LicenseID: LicenseRef-MIT-possibility
+LicenseName: MIT-possibility
+ExtractedText: <text> License by Nomos. </text>
+
+
+  
+LicenseID: LicenseRef-Python-2.0
+LicenseName: Python License 2.0
+ExtractedText: <text> PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
+
+     1. This LICENSE AGREEMENT is between the Python Software Foundation ("PSF"), and the Individual or Organization ("Licensee") accessing and otherwise using this software ("Python") in source or binary form and its associated documentation.
+
+     2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., "Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Python Software Foundation; All Rights Reserved" are retained in Python alone or in any derivative version prepared by Licensee.
+
+     3. In the event Licensee prepares a derivative work that is based on or incorporates Python or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python.
+
+     4. PSF is making Python available to Licensee on an "AS IS" basis. PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+     5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+     6. This License Agreement will automatically terminate upon a material breach of its terms and conditions.
+
+     7. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between PSF and Licensee. This License Agreement does not grant permission to use PSF trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.
+
+     8. By copying, installing or otherwise using Python, Licensee agrees to be bound by the terms and conditions of this License Agreement.
+
+
+BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0
+
+BEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1
+
+     1. This LICENSE AGREEMENT is between BeOpen.com ("BeOpen"), having an office at 160 Saratoga Avenue, Santa Clara, CA 95051, and the Individual or Organization ("Licensee") accessing and otherwise using this software in source or binary form and its associated documentation ("the Software").
+
+     2. Subject to the terms and conditions of this BeOpen Python License Agreement, BeOpen hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use the Software alone or in any derivative version, provided, however, that the BeOpen Python License is retained in the Software, alone or in any derivative version prepared by Licensee.
+
+     3. BeOpen is making the Software available to Licensee on an "AS IS" basis. BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+     4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+     5. This License Agreement will automatically terminate upon a material breach of its terms and conditions.
+
+     6. This License Agreement shall be governed by and interpreted in all respects by the law of the State of California, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between BeOpen and Licensee. This License Agreement does not grant permission to use BeOpen trademarks or trade names in a trademark sense to endorse or promote products or services of Licensee, or any third party. As an exception, the "BeOpen Python" logos available at http://www.pythonlabs.com/logos.html may be used according to the permissions granted on that web page.
+
+     7. By copying, installing or otherwise using the software, Licensee agrees to be bound by the terms and conditions of this License Agreement.
+
+
+CNRI OPEN SOURCE LICENSE AGREEMENT (for Python 1.6b1)
+
+IMPORTANT: PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY.
+
+BY CLICKING ON "ACCEPT" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6, beta 1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.
+
+     1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 ("CNRI"), and the Individual or Organization ("Licensee") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 ("Python 1.6b1").
+
+     2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee.
+
+     Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): "Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011".
+
+     3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1.
+
+     4. CNRI is making Python 1.6b1 available to Licensee on an "AS IS" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+     5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+     6. This License Agreement will automatically terminate upon a material breach of its terms and conditions.
+
+     7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.
+
+     8. By clicking on the "ACCEPT" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.
+
+ACCEPT
+
+
+CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2
+
+Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam, The Netherlands. All rights reserved.
+
+     Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of Stichting Mathematisch Centrum or CWI not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
+
+     STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ </text>
+
+
+
+LicenseID: LicenseRef-GPL
+LicenseName: GNU General Public License
+ExtractedText: <text> GPL is referenced without a version number. Please look up GPL in the License Admin to view the different versions. </text>
+
+
+
+LicenseID: LicenseRef-See-doc.OTHER
+LicenseName: See-doc.OTHER
+ExtractedText: <text> License by Nomos. </text>
+
