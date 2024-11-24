@@ -1,0 +1,968 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "comment" : "This document was created using license information and a generator from Fossology.\nIt contains the license and copyright analysis of tzcode 2024b\nPlease check \"LicenseComments\" for explanations of concluded licenses",
+    "created" : "2024-11-21T18:43:05Z",
+    "creators" : [ "Tool: fossology-4.4.0.51", "Person: Oliver Fendt" ],
+    "licenseListVersion" : "3.22"
+  },
+  "name" : "/srv/fossology/repository/report",
+  "dataLicense" : "CC0-1.0",
+  "hasExtractedLicensingInfos" : [ {
+    "licenseId" : "LicenseRef-Apache-2.0",
+    "extractedText" : "Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"{}\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright {yyyy} {name of copyright owner}\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       https://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\nlimitations under the License.",
+    "name" : "Apache License 2.0"
+  }, {
+    "licenseId" : "LicenseRef-Artistic-1.0",
+    "extractedText" : "The Artistic License\n\nPreamble\n\nThe intent of this document is to state the conditions under which a Package may be copied, such that the Copyright Holder maintains some semblance of artistic control over the development of the package, while giving the users of the package the right to use and distribute the Package in a more-or-less customary fashion, plus the right to make reasonable modifications.\n\nDefinitions:\n\n     \"Package\" refers to the collection of files distributed by the Copyright Holder, and derivatives of that collection of files created through textual modification.\n\n     \"Standard Version\" refers to such a Package if it has not been modified, or has been modified in accordance with the wishes of the Copyright Holder.\n\n     \"Copyright Holder\" is whoever is named in the copyright or copyrights for the package.\n\n     \"You\" is you, if you're thinking about copying or distributing this Package.\n\n     \"Reasonable copying fee\" is whatever you can justify on the basis of media cost, duplication charges, time of people involved, and so on. (You will not be required to justify it to the Copyright Holder, but only to the computing community at large as a market that must bear the fee.)\n\n     \"Freely Available\" means that no fee is charged for the item itself, though there may be fees involved in handling the item. It also means that recipients of the item may redistribute it under the same conditions they received it.\n\n1. You may make and give away verbatim copies of the source form of the Standard Version of this Package without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.\n\n2. You may apply bug fixes, portability fixes and other modifications derived from the Public Domain or from the Copyright Holder. A Package modified in such a way shall still be considered the Standard Version.\n\n3. You may otherwise modify your copy of this Package in any way, provided that you insert a prominent notice in each changed file stating how and when you changed that file, and provided that you do at least ONE of the following:\n\n     a) place your modifications in the Public Domain or otherwise make them Freely Available, such as by posting said modifications to Usenet or an equivalent medium, or placing the modifications on a major archive site such as ftp.uu.net, or by allowing the Copyright Holder to include your modifications in the Standard Version of the Package.\n     b) use the modified Package only within your corporation or organization.\n     c) rename any non-standard executables so the names do not conflict with standard executables, which must also be provided, and provide a separate manual page for each non-standard executable that clearly documents how it differs from the Standard Version.\n     d) make other distribution arrangements with the Copyright Holder.\n\n4. You may distribute the programs of this Package in object code or executable form, provided that you do at least ONE of the following:\n\n     a) distribute a Standard Version of the executables and library files, together with instructions (in the manual page or equivalent) on where to get the Standard Version.\n     b) accompany the distribution with the machine-readable source of the Package with your modifications.\n     c) accompany any non-standard executables with their corresponding Standard Version executables, giving the non-standard executables non-standard names, and clearly documenting the differences in manual pages (or equivalent), together with instructions on where to get the Standard Version.\n     d) make other distribution arrangements with the Copyright Holder.\n\n5. You may charge a reasonable copying fee for any distribution of this Package. You may charge any fee you choose for support of this Package. You may not charge a fee for this Package itself. However, you may distribute this Package in aggregate with other (possibly commercial) programs as part of a larger (possibly commercial) software distribution provided that you do not advertise this Package as a product of your own.\n\n6. The scripts and library files supplied as input to or produced as output from the programs of this Package do not automatically fall under the copyright of this Package, but belong to whomever generated them, and may be sold commercially, and may be aggregated with this Package.\n\n7. C or perl subroutines supplied by you and linked into this Package shall not be considered part of this Package.\n\n8. The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.\n\n9. THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n\nThe End",
+    "name" : "Artistic License 1.0"
+  }, {
+    "licenseId" : "LicenseRef-Artistic-1.0-Perl",
+    "extractedText" : "The \"Artistic License\"\n\nPreamble\n\nThe intent of this document is to state the conditions under which a Package may be copied, such that the Copyright Holder maintains some semblance of artistic control over the development of the package, while giving the users of the package the right to use and distribute the Package in a more-or-less customary fashion, plus the right to make reasonable modifications.\n\nDefinitions:\n\n     \"Package\" refers to the collection of files distributed by the Copyright Holder, and derivatives of that collection of files created through textual modification.\n\n     \"Standard Version\" refers to such a Package if it has not been modified, or has been modified in accordance with the wishes of the Copyright Holder as specified below.\n\n     \"Copyright Holder\" is whoever is named in the copyright or copyrights for the package.\n\n     \"You\" is you, if you're thinking about copying or distributing this Package.\n\n     \"Reasonable copying fee\" is whatever you can justify on the basis of media cost, duplication charges, time of people involved, and so on.  (You will not be required to justify it to the Copyright Holder, but only to the computing community at large as a market that must bear the fee.)\n\n     \"Freely Available\" means that no fee is charged for the item itself, though there may be fees involved in handling the item. It also means that recipients of the item may redistribute it under the same conditions they received it.\n\n1. You may make and give away verbatim copies of the source form of the Standard Version of this Package without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.\n\n2. You may apply bug fixes, portability fixes and other modifications derived from the Public Domain or from the Copyright Holder.  A Package modified in such a way shall still be considered the Standard Version.\n\n3. You may otherwise modify your copy of this Package in any way, provided that you insert a prominent notice in each changed file stating how and when you changed that file, and provided that you do at least ONE of the following:\n\n     a) place your modifications in the Public Domain or otherwise make them Freely Available, such as by posting said modifications to Usenet or an equivalent medium, or placing the modifications on a major archive site such as uunet.uu.net, or by allowing the Copyright Holder to include your modifications in the Standard Version of the Package.\n     b) use the modified Package only within your corporation or organization.\n     c) rename any non-standard executables so the names do not conflict with standard executables, which must also be provided, and provide a separate manual page for each non-standard executable that clearly documents how it differs from the Standard Version.\n     d) make other distribution arrangements with the Copyright Holder.\n\n4. You may distribute the programs of this Package in object code or executable form, provided that you do at least ONE of the following:\n\n     a) distribute a Standard Version of the executables and library files, together with instructions (in the manual page or equivalent) on where to get the Standard Version.\n     b) accompany the distribution with the machine-readable source of the Package with your modifications.\n     c) give non-standard executables non-standard names, and clearly document the differences in manual pages (or equivalent), together with instructions on where to get the Standard Version.\n     d) make other distribution arrangements with the Copyright Holder.\n\n5. You may charge a reasonable copying fee for any distribution of this Package.  You may charge any fee you choose for support of this Package.  You may not charge a fee for this Package itself.  However, you may distribute this Package in aggregate with other (possibly commercial) programs as part of a larger (possibly commercial) software distribution provided that you do not advertise this Package as a product of your own.  You may embed this Package's interpreter within an executable of yours (by linking); this shall be construed as a mere form of aggregation, provided that the complete Standard Version of the interpreter is so embedded.\n\n6. The scripts and library files supplied as input to or produced as output from the programs of this Package do not automatically fall under the copyright of this Package, but belong to whoever generated them, and may be sold commercially, and may be aggregated with this Package.  If such scripts or library files are aggregated with this Package via the so-called \"undump\" or \"unexec\" methods of producing a binary executable image, then distribution of such an image shall neither be construed as a distribution of this Package nor shall it fall under the restrictions of Paragraphs 3 and 4, provided that you do not represent such an executable image as a Standard Version of this Package.\n\n7. C subroutines (or comparably compiled subroutines in other languages) supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this Package shall not be considered part of this Package, but are the equivalent of input as in Paragraph 6, provided these subroutines do not change the language in any way that would cause it to fail the regression tests for the language.\n\n8. Aggregation of this Package with a commercial distribution is always permitted provided that the use of this Package is embedded; that is, when no overt attempt is made to make this Package's interfaces visible to the end user of the commercial distribution.  Such use shall not be construed as a distribution of this Package.\n\n9. The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.\n\n10. THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n\nThe End",
+    "name" : "Artistic License 1.0 (Perl)"
+  }, {
+    "licenseId" : "LicenseRef-Artistic-2.0",
+    "extractedText" : "The Artistic License 2.0\n\nCopyright (c) 2000-2006, The Perl Foundation.\n\nEveryone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.\n\nPreamble\n\nThis license establishes the terms under which a given free software Package may be copied, modified, distributed, and/or redistributed. The intent is that the Copyright Holder maintains some artistic control over the development of that Package while still keeping the Package available as open source and free software.\n\nYou are always permitted to make arrangements wholly outside of this license directly with the Copyright Holder of a given Package.  If the terms of this license do not permit the full use that you propose to make of the Package, you should contact the Copyright Holder and seek a different licensing arrangement.\n\nDefinitions\n\n     \"Copyright Holder\" means the individual(s) or organization(s) named in the copyright notice for the entire Package.\n\n     \"Contributor\" means any party that has contributed code or other material to the Package, in accordance with the Copyright Holder's procedures.\n\n     \"You\" and \"your\" means any person who would like to copy, distribute, or modify the Package.\n\n     \"Package\" means the collection of files distributed by the Copyright Holder, and derivatives of that collection and/or of those files. A given Package may consist of either the Standard Version, or a Modified Version.\n\n     \"Distribute\" means providing a copy of the Package or making it accessible to anyone else, or in the case of a company or organization, to others outside of your company or organization.\n\n     \"Distributor Fee\" means any fee that you charge for Distributing this Package or providing support for this Package to another party.  It does not mean licensing fees.\n\n     \"Standard Version\" refers to the Package if it has not been modified, or has been modified only in ways explicitly requested by the Copyright Holder.\n\n     \"Modified Version\" means the Package, if it has been changed, and such changes were not explicitly requested by the Copyright Holder.\n\n     \"Original License\" means this Artistic License as Distributed with the Standard Version of the Package, in its current version or as it may be modified by The Perl Foundation in the future.\n\n     \"Source\" form means the source code, documentation source, and configuration files for the Package.\n\n     \"Compiled\" form means the compiled bytecode, object code, binary, or any other form resulting from mechanical transformation or translation of the Source form.\n\nPermission for Use and Modification Without Distribution\n\n(1) You are permitted to use the Standard Version and create and use Modified Versions for any purpose without restriction, provided that you do not Distribute the Modified Version.\n\nPermissions for Redistribution of the Standard Version\n\n(2) You may Distribute verbatim copies of the Source form of the Standard Version of this Package in any medium without restriction, either gratis or for a Distributor Fee, provided that you duplicate all of the original copyright notices and associated disclaimers.  At your discretion, such verbatim copies may or may not include a Compiled form of the Package.\n\n(3) You may apply any bug fixes, portability changes, and other modifications made available from the Copyright Holder.  The resulting Package will still be considered the Standard Version, and as such will be subject to the Original License.\n\nDistribution of Modified Versions of the Package as Source\n\n(4) You may Distribute your Modified Version as Source (either gratis or for a Distributor Fee, and with or without a Compiled form of the Modified Version) provided that you clearly document how it differs from the Standard Version, including, but not limited to, documenting any non-standard features, executables, or modules, and provided that you do at least ONE of the following:\n\n     (a) make the Modified Version available to the Copyright Holder of the Standard Version, under the Original License, so that the Copyright Holder may include your modifications in the Standard Version.\n     (b) ensure that installation of your Modified Version does not prevent the user installing or running the Standard Version. In addition, the Modified Version must bear a name that is different from the name of the Standard Version.\n     (c) allow anyone who receives a copy of the Modified Version to make the Source form of the Modified Version available to others under\n\n          (i) the Original License or\n          (ii) a license that permits the licensee to freely copy, modify and redistribute the Modified Version using the same licensing terms that apply to the copy that the licensee received, and requires that the Source form of the Modified Version, and of any works derived from it, be made freely available in that license fees are prohibited but Distributor Fees are allowed.\n\nDistribution of Compiled Forms of the Standard Version or Modified Versions without the Source\n\n(5)  You may Distribute Compiled forms of the Standard Version without the Source, provided that you include complete instructions on how to get the Source of the Standard Version.  Such instructions must be valid at the time of your distribution.  If these instructions, at any time while you are carrying out such distribution, become invalid, you must provide new instructions on demand or cease further distribution. If you provide valid instructions or cease distribution within thirty days after you become aware that the instructions are invalid, then you do not forfeit any of your rights under this license.\n\n(6)  You may Distribute a Modified Version in Compiled form without the Source, provided that you comply with Section 4 with respect to the Source of the Modified Version.\n\nAggregating or Linking the Package\n\n(7)  You may aggregate the Package (either the Standard Version or Modified Version) with other packages and Distribute the resulting aggregation provided that you do not charge a licensing fee for the Package.  Distributor Fees are permitted, and licensing fees for other components in the aggregation are permitted. The terms of this license apply to the use and Distribution of the Standard or Modified Versions as included in the aggregation.\n\n(8) You are permitted to link Modified and Standard Versions with other works, to embed the Package in a larger work of your own, or to build stand-alone binary or bytecode versions of applications that include the Package, and Distribute the result without restriction, provided the result does not expose a direct interface to the Package.\n\nItems That are Not Considered Part of a Modified Version\n\n(9) Works (including, but not limited to, modules and scripts) that merely extend or make use of the Package, do not, by themselves, cause the Package to be a Modified Version.  In addition, such works are not considered parts of the Package itself, and are not subject to the terms of this license.\n\nGeneral Provisions\n\n(10)  Any use, modification, and distribution of the Standard or Modified Versions is governed by this Artistic License. By using, modifying or distributing the Package, you accept this license. Do not use, modify, or distribute the Package, if you do not accept this license.\n\n(11)  If your Modified Version has been derived from a Modified Version made by someone other than you, you are nevertheless required to ensure that your Modified Version complies with the requirements of this license.\n\n(12)  This license does not grant you the right to use any trademark, service mark, tradename, or logo of the Copyright Holder.\n\n(13)  This license includes the non-exclusive, worldwide, free-of-charge patent license to make, have made, use, offer to sell, sell, import and otherwise transfer the Package with respect to any patent claims licensable by the Copyright Holder that are necessarily infringed by the Package. If you institute patent litigation (including a cross-claim or counterclaim) against any party alleging that the Package constitutes direct or contributory patent infringement, then this Artistic License to you shall terminate on the date that such litigation is filed.\n\n(14)  Disclaimer of Warranty:\nTHE PACKAGE IS PROVIDED BY THE COPYRIGHT HOLDER AND CONTRIBUTORS \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES. THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT ARE DISCLAIMED TO THE EXTENT PERMITTED BY YOUR LOCAL LAW. UNLESS REQUIRED BY LAW, NO COPYRIGHT HOLDER OR CONTRIBUTOR WILL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "name" : "Artistic License 2.0"
+  }, {
+    "licenseId" : "LicenseRef-BSD-3-Clause",
+    "extractedText" : "Copyright (c) <year> <owner>.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "name" : "BSD 3-Clause \"New\" or \"Revised\" License"
+  }, {
+    "licenseId" : "LicenseRef-BSD-3-Clause-0af49cde1c26b821687dfcac1419cd9c",
+    "extractedText" : "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in the\ndocumentation and/or other materials provided with the distribution.\n3. Neither the name of the University nor the names of its contributors\nmay be used to endorse or promote products derived from this software\nwithout specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.",
+    "name" : "BSD 3-Clause \"New\" or \"Revised\" License"
+  }, {
+    "licenseId" : "LicenseRef-BSD-3-Clause-HP",
+    "extractedText" : "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n3. Neither the name of the HP nor the names of its\n   contributors may be used to endorse or promote products derived\n   from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR \"AS IS\" AND ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\nOF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\nIN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,\nINCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT\nNOT LIMITED TO, PATENT INFRINGEMENT; PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,\nSTRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING\nIN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE.",
+    "name" : "Hewlett-Packard BSD variant license"
+  }, {
+    "licenseId" : "LicenseRef-BSD-3-Clause-ab1314e22e4ce8a4b7a44264d4572614",
+    "extractedText" : "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in the\ndocumentation and/or other materials provided with the distribution.\n3. Neither the name of the University nor the names of its contributors\nmay be used to endorse or promote products derived from this software\nwithout specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.",
+    "name" : "BSD 3-Clause \"New\" or \"Revised\" License"
+  }, {
+    "licenseId" : "LicenseRef-CC0-1.0",
+    "extractedText" : "Creative Commons Legal Code\n\nCC0 1.0 Universal\n\n    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE\n    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN\n    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS\n    INFORMATION ON AN \"AS-IS\" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES\n    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS\n    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM\n    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED\n    HEREUNDER.\n\nStatement of Purpose\n\nThe laws of most jurisdictions throughout the world automatically confer\nexclusive Copyright and Related Rights (defined below) upon the creator\nand subsequent owner(s) (each and all, an \"owner\") of an original work of\nauthorship and/or a database (each, a \"Work\").\n\nCertain owners wish to permanently relinquish those rights to a Work for\nthe purpose of contributing to a commons of creative, cultural and\nscientific works (\"Commons\") that the public can reliably and without fear\nof later claims of infringement build upon, modify, incorporate in other\nworks, reuse and redistribute as freely as possible in any form whatsoever\nand for any purposes, including without limitation commercial purposes.\nThese owners may contribute to the Commons to promote the ideal of a free\nculture and the further production of creative, cultural and scientific\nworks, or to gain reputation or greater distribution for their Work in\npart through the use and efforts of others.\n\nFor these and/or other purposes and motivations, and without any\nexpectation of additional consideration or compensation, the person\nassociating CC0 with a Work (the \"Affirmer\"), to the extent that he or she\nis an owner of Copyright and Related Rights in the Work, voluntarily\nelects to apply CC0 to the Work and publicly distribute the Work under its\nterms, with knowledge of his or her Copyright and Related Rights in the\nWork and the meaning and intended legal effect of CC0 on those rights.\n\n1. Copyright and Related Rights. A Work made available under CC0 may be\nprotected by copyright and related or neighboring rights (\"Copyright and\nRelated Rights\"). Copyright and Related Rights include, but are not\nlimited to, the following:\n\n  i. the right to reproduce, adapt, distribute, perform, display,\n     communicate, and translate a Work;\n ii. moral rights retained by the original author(s) and/or performer(s);\niii. publicity and privacy rights pertaining to a person's image or\n     likeness depicted in a Work;\n iv. rights protecting against unfair competition in regards to a Work,\n     subject to the limitations in paragraph 4(a), below;\n  v. rights protecting the extraction, dissemination, use and reuse of data\n     in a Work;\n vi. database rights (such as those arising under Directive 96/9/EC of the\n     European Parliament and of the Council of 11 March 1996 on the legal\n     protection of databases, and under any national implementation\n     thereof, including any amended or successor version of such\n     directive); and\nvii. other similar, equivalent or corresponding rights throughout the\n     world based on applicable law or treaty, and any national\n     implementations thereof.\n\n2. Waiver. To the greatest extent permitted by, but not in contravention\nof, applicable law, Affirmer hereby overtly, fully, permanently,\nirrevocably and unconditionally waives, abandons, and surrenders all of\nAffirmer's Copyright and Related Rights and associated claims and causes\nof action, whether now known or unknown (including existing as well as\nfuture claims and causes of action), in the Work (i) in all territories\nworldwide, (ii) for the maximum duration provided by applicable law or\ntreaty (including future time extensions), (iii) in any current or future\nmedium and for any number of copies, and (iv) for any purpose whatsoever,\nincluding without limitation commercial, advertising or promotional\npurposes (the \"Waiver\"). Affirmer makes the Waiver for the benefit of each\nmember of the public at large and to the detriment of Affirmer's heirs and\nsuccessors, fully intending that such Waiver shall not be subject to\nrevocation, rescission, cancellation, termination, or any other legal or\nequitable action to disrupt the quiet enjoyment of the Work by the public\nas contemplated by Affirmer's express Statement of Purpose.\n\n3. Public License Fallback. Should any part of the Waiver for any reason\nbe judged legally invalid or ineffective under applicable law, then the\nWaiver shall be preserved to the maximum extent permitted taking into\naccount Affirmer's express Statement of Purpose. In addition, to the\nextent the Waiver is so judged Affirmer hereby grants to each affected\nperson a royalty-free, non transferable, non sublicensable, non exclusive,\nirrevocable and unconditional license to exercise Affirmer's Copyright and\nRelated Rights in the Work (i) in all territories worldwide, (ii) for the\nmaximum duration provided by applicable law or treaty (including future\ntime extensions), (iii) in any current or future medium and for any number\nof copies, and (iv) for any purpose whatsoever, including without\nlimitation commercial, advertising or promotional purposes (the\n\"License\"). The License shall be deemed effective as of the date CC0 was\napplied by Affirmer to the Work. Should any part of the License for any\nreason be judged legally invalid or ineffective under applicable law, such\npartial invalidity or ineffectiveness shall not invalidate the remainder\nof the License, and in such case Affirmer hereby affirms that he or she\nwill not (i) exercise any of his or her remaining Copyright and Related\nRights in the Work or (ii) assert any associated claims and causes of\naction with respect to the Work, in either case contrary to Affirmer's\nexpress Statement of Purpose.\n\n4. Limitations and Disclaimers.\n\n a. No trademark or patent rights held by Affirmer are waived, abandoned,\n    surrendered, licensed or otherwise affected by this document.\n b. Affirmer offers the Work as-is and makes no representations or\n    warranties of any kind concerning the Work, express, implied,\n    statutory or otherwise, including without limitation warranties of\n    title, merchantability, fitness for a particular purpose, non\n    infringement, or the absence of latent or other defects, accuracy, or\n    the present or absence of errors, whether or not discoverable, all to\n    the greatest extent permissible under applicable law.\n c. Affirmer disclaims responsibility for clearing rights of other persons\n    that may apply to the Work or any use thereof, including without\n    limitation any person's Copyright and Related Rights in the Work.\n    Further, Affirmer disclaims responsibility for obtaining any necessary\n    consents, permissions or other rights required for any use of the\n    Work.\n d. Affirmer understands and acknowledges that Creative Commons is not a\n    party to this document and has no duty or obligation with respect to\n    this CC0 or use of the Work.",
+    "name" : "Creative Commons Zero v1.0 Universal"
+  }, {
+    "licenseId" : "LicenseRef-GPL",
+    "extractedText" : "GPL is referenced without a version number. Please look up GPL in the License Admin to view the different versions.",
+    "name" : "GNU General Public License"
+  }, {
+    "licenseId" : "LicenseRef-GPL-1.0-or-later",
+    "extractedText" : "GNU GENERAL PUBLIC LICENSE\n\nVersion 1, February 1989\n\nCopyright (C) 1989 Free Software Foundation, Inc. 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA\n\nEveryone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.\n\nPreamble\n\nThe license agreements of most software companies try to keep users at the mercy of those companies. By contrast, our General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. The General Public License applies to the Free Software Foundation's software and to any other program whose authors commit to using it. You can use it for your programs, too.\n\nWhen we speak of free software, we are referring to freedom, not price. Specifically, the General Public License is designed to make sure that you have the freedom to give away or sell copies of free software, that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.\n\nTo protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.\n\nFor example, if you distribute copies of a such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must tell them their rights.\n\nWe protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.\n\nAlso, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.\n\nThe precise terms and conditions for copying, distribution and modification follow.\n\nGNU GENERAL PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n   0. This License Agreement applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The \"Program\", below, refers to any such program or work, and a \"work based on the Program\" means either the Program or any work containing the Program or a portion of it, either verbatim or with modifications. Each licensee is addressed as \"you\".\n\n   1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this General Public License and to the absence of any warranty; and give any other recipients of the Program a copy of this General Public License along with the Program. You may charge a fee for the physical act of transferring a copy.\n\n   2. You may modify your copy or copies of the Program or any portion of it, and copy and distribute such modifications under the terms of Paragraph 1 above, provided that you also do the following:\n\n      a) cause the modified files to carry prominent notices stating that you changed the files and the date of any change; and\n\n      b) cause the whole of any work that you distribute or publish, that in whole or in part contains the Program or any part thereof, either with or without modifications, to be licensed at no charge to all third parties under the terms of this General Public License (except that you may choose to grant warranty protection to some or all third parties, at your option).\n\n      c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the simplest and most usual way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this General Public License.\n\n      d) You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.\n\n   Mere aggregation of another independent work with the Program (or its derivative) on a volume of a storage or distribution medium does not bring the other work under the scope of these terms.\n\n   3. You may copy and distribute the Program (or a portion or derivative of it, under Paragraph 2) in object code or executable form under the terms of Paragraphs 1 and 2 above provided that you also do one of the following:\n\n      a) accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Paragraphs 1 and 2 above; or,\n\n      b) accompany it with a written offer, valid for at least three years, to give any third party free (except for a nominal charge for the cost of distribution) a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Paragraphs 1 and 2 above; or,\n\n      c) accompany it with the information you received as to where the corresponding source code may be obtained. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form alone.)\n\n   Source code for a work means the preferred form of the work for making modifications to it. For an executable file, complete source code means all the source code for all modules it contains; but, as a special exception, it need not include source code for modules which are standard libraries that accompany the operating system on which the executable file runs, or for standard header files or definitions files that accompany that operating system.\n\n   4. You may not copy, modify, sublicense, distribute or transfer the Program except as expressly provided under this General Public License. Any attempt otherwise to copy, modify, sublicense, distribute or transfer the Program is void, and will automatically terminate your rights to use the Program under this License. However, parties who have received copies, or rights to use copies, from you under this General Public License will not have their licenses terminated so long as such parties remain in full compliance.\n\n   5. By copying, distributing or modifying the Program (or any work based on the Program) you indicate your acceptance of this license to do so, and all its terms and conditions.\n\n   6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein.\n\n   7. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.\n\n   Each version is given a distinguishing version number. If the Program specifies a version number of the license which applies to it and \"any later version\", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the license, you may choose any version ever published by the Free Software Foundation.\n\n   8. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.\n\n   NO WARRANTY\n\n   9.\n\n   BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n\n   10. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS\n\nAppendix: How to Apply These Terms to Your New Programs\n\nIf you develop a new program, and you want it to be of the greatest possible use to humanity, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.\n\nTo do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the \"copyright\" line and a pointer to where the full notice is found.\n\n<one line to give the program's name and a brief idea of what it does.>\n\nCopyright (C) 19yy <name of author>\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.\n\nAlso add information on how to contact you by electronic and paper mail.\n\nIf the program is interactive, make it output a short notice like this when it starts in an interactive mode:\n\nGnomovision version 69, Copyright (C) 19xx name of author Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.\n\nThe hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.\n\nYou should also get your employer (if you work as a programmer) or your school, if any, to sign a \"copyright disclaimer\" for the program, if necessary. Here a sample; alter the names:\n\nYoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (a program to direct compilers to make passes at assemblers) written by James Hacker.\n\n<signature of Ty Coon>, 1 April 1989 Ty Coon, President of Vice\n\nThat's all there is to it!",
+    "name" : "GNU General Public License v1.0 or later"
+  }, {
+    "licenseId" : "LicenseRef-LGPL",
+    "extractedText" : "LGPL is referenced without a version number. Please look up LGPL in the License Admin to view the different versions.",
+    "name" : "GNU Lesser General Public License"
+  }, {
+    "licenseId" : "LicenseRef-LGPL-2.0-or-later",
+    "extractedText" : "GNU LIBRARY GENERAL PUBLIC LICENSE\n\nVersion 2, June 1991\n\nCopyright (C) 1991 Free Software Foundation, Inc.\n\n51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA\n\nEveryone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.\n\n[This is the first released version of the library GPL. It is numbered 2 because it goes with version 2 of the ordinary GPL.]\n\nPreamble\n\nThe licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public Licenses are intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users.\n\nThis license, the Library General Public License, applies to some specially designated Free Software Foundation software, and to any other libraries whose authors decide to use it. You can use it for your libraries, too.\n\nWhen we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.\n\nTo protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the library, or if you modify it.\n\nFor example, if you distribute copies of the library, whether gratis or for a fee, you must give the recipients all the rights that we gave you. You must make sure that they, too, receive or can get the source code. If you link a program with the library, you must provide complete object files to the recipients so that they can relink them with the library, after making changes to the library and recompiling it. And you must show them these terms so they know their rights.\n\nOur method of protecting your rights has two steps: (1) copyright the library, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the library.\n\nAlso, for each distributor's protection, we want to make certain that everyone understands that there is no warranty for this free library. If the library is modified by someone else and passed on, we want its recipients to know that what they have is not the original version, so that any problems introduced by others will not reflect on the original authors' reputations.\n\nFinally, any free program is threatened constantly by software patents. We wish to avoid the danger that companies distributing free software will individually obtain patent licenses, thus in effect transforming the program into proprietary software. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all.\n\nMost GNU software, including some libraries, is covered by the ordinary GNU General Public License, which was designed for utility programs. This license, the GNU Library General Public License, applies to certain designated libraries. This license is quite different from the ordinary one; be sure to read it in full, and don't assume that anything in it is the same as in the ordinary license.\n\nThe reason we have a separate public license for some libraries is that they blur the distinction we usually make between modifying or adding to a program and simply using it. Linking a program with a library, without changing the library, is in some sense simply using the library, and is analogous to running a utility program or application program. However, in a textual and legal sense, the linked executable is a combined work, a derivative of the original library, and the ordinary General Public License treats it as such.\n\nBecause of this blurred distinction, using the ordinary General Public License for libraries did not effectively promote software sharing, because most developers did not use the libraries. We concluded that weaker conditions might promote sharing better.\n\nHowever, unrestricted linking of non-free programs would deprive the users of those programs of all benefit from the free status of the libraries themselves. This Library General Public License is intended to permit developers of non-free programs to use free libraries, while preserving your freedom as a user of such programs to change the free libraries that are incorporated in them. (We have not seen how to achieve this as regards changes in header files, but we have achieved it as regards changes in the actual functions of the Library.) The hope is that this will lead to faster development of free libraries.\n\nThe precise terms and conditions for copying, distribution and modification follow. Pay close attention to the difference between a \"work based on the library\" and a \"work that uses the library\". The former contains code derived from the library, while the latter only works together with the library.\n\nNote that it is possible for a library to be covered by the ordinary General Public License rather than by this special one.\n\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n   0. This License Agreement applies to any software library which contains a notice placed by the copyright holder or other authorized party saying it may be distributed under the terms of this Library General Public License (also called \"this License\"). Each licensee is addressed as \"you\".\n\n   A \"library\" means a collection of software functions and/or data prepared so as to be conveniently linked with application programs (which use some of those functions and data) to form executables.\n\n   The \"Library\", below, refers to any such software library or work which has been distributed under these terms. A \"work based on the Library\" means either the Library or any derivative work under copyright law: that is to say, a work containing the Library or a portion of it, either verbatim or with modifications and/or translated straightforwardly into another language. (Hereinafter, translation is included without limitation in the term \"modification\".)\n\n   \"Source code\" for a work means the preferred form of the work for making modifications to it. For a library, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library.\n\n   Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running a program using the Library is not restricted, and output from such a program is covered only if its contents constitute a work based on the Library (independent of the use of the Library in a tool for writing it). Whether that is true depends on what the Library does and what the program that uses the Library does.\n\n   1. You may copy and distribute verbatim copies of the Library's complete source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and distribute a copy of this License along with the Library.\n\n   You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.\n\n   2. You may modify your copy or copies of the Library or any portion of it, thus forming a work based on the Library, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:\n\n      a) The modified work must itself be a software library.\n\n      b) You must cause the files modified to carry prominent notices stating that you changed the files and the date of any change.\n\n      c) You must cause the whole of the work to be licensed at no charge to all third parties under the terms of this License.\n\n      d) If a facility in the modified Library refers to a function or a table of data to be supplied by an application program that uses the facility, other than as an argument passed when the facility is invoked, then you must make a good faith effort to ensure that, in the event an application does not supply such function or table, the facility still operates, and performs whatever part of its purpose remains meaningful.\n\n      (For example, a function in a library to compute square roots has a purpose that is entirely well-defined independent of the application. Therefore, Subsection 2d requires that any application-supplied function or table used by this function must be optional: if the application does not supply it, the square root function must still compute square roots.)\n\n   These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Library, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Library, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.\n\n   Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Library.\n\n   In addition, mere aggregation of another work not based on the Library with the Library (or with a work based on the Library) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.\n\n   3. You may opt to apply the terms of the ordinary GNU General Public License instead of this License to a given copy of the Library. To do this, you must alter all the notices that refer to this License, so that they refer to the ordinary GNU General Public License, version 2, instead of to this License. (If a newer version than version 2 of the ordinary GNU General Public License has appeared, then you can specify that version instead if you wish.) Do not make any other change in these notices.\n\n   Once this change is made in a given copy, it is irreversible for that copy, so the ordinary GNU General Public License applies to all subsequent copies and derivative works made from that copy.\n\n   This option is useful when you wish to copy part of the code of the Library into a program that is not a library.\n\n   4. You may copy and distribute the Library (or a portion or derivative of it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange.\n\n   If distribution of object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place satisfies the requirement to distribute the source code, even though third parties are not compelled to copy the source along with the object code.\n\n   5. A program that contains no derivative of any portion of the Library, but is designed to work with the Library by being compiled or linked with it, is called a \"work that uses the Library\". Such a work, in isolation, is not a derivative work of the Library, and therefore falls outside the scope of this License.\n\n   However, linking a \"work that uses the Library\" with the Library creates an executable that is a derivative of the Library (because it contains portions of the Library), rather than a \"work that uses the library\". The executable is therefore covered by this License. Section 6 states terms for distribution of such executables.\n\n   When a \"work that uses the Library\" uses material from a header file that is part of the Library, the object code for the work may be a derivative work of the Library even though the source code is not. Whether this is true is especially significant if the work can be linked without the Library, or if the work is itself a library. The threshold for this to be true is not precisely defined by law.\n\n   If such an object file uses only numerical parameters, data structure layouts and accessors, and small macros and small inline functions (ten lines or less in length), then the use of the object file is unrestricted, regardless of whether it is legally a derivative work. (Executables containing this object code plus portions of the Library will still fall under Section 6.)\n\n   Otherwise, if the work is a derivative of the Library, you may distribute the object code for the work under the terms of Section 6. Any executables containing that work also fall under Section 6, whether or not they are linked directly with the Library itself.\n\n   6. As an exception to the Sections above, you may also compile or link a \"work that uses the Library\" with the Library to produce a work containing portions of the Library, and distribute that work under terms of your choice, provided that the terms permit modification of the work for the customer's own use and reverse engineering for debugging such modifications.\n\n   You must give prominent notice with each copy of the work that the Library is used in it and that the Library and its use are covered by this License. You must supply a copy of this License. If the work during execution displays copyright notices, you must include the copyright notice for the Library among them, as well as a reference directing the user to the copy of this License. Also, you must do one of these things:\n\n      a) Accompany the work with the complete corresponding machine-readable source code for the Library including whatever changes were used in the work (which must be distributed under Sections 1 and 2 above); and, if the work is an executable linked with the Library, with the complete machine-readable \"work that uses the Library\", as object code and/or source code, so that the user can modify the Library and then relink to produce a modified executable containing the modified Library. (It is understood that the user who changes the contents of definitions files in the Library will not necessarily be able to recompile the application to use the modified definitions.)\n\n      b) Accompany the work with a written offer, valid for at least three years, to give the same user the materials specified in Subsection 6a, above, for a charge no more than the cost of performing this distribution.\n\n      c) If distribution of the work is made by offering access to copy from a designated place, offer equivalent access to copy the above specified materials from the same place.\n\n      d) Verify that the user has already received a copy of these materials or that you have already sent this user a copy.\n\n   For an executable, the required form of the \"work that uses the Library\" must include any data and utility programs needed for reproducing the executable from it. However, as a special exception, the source code distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.\n\n   It may happen that this requirement contradicts the license restrictions of other proprietary libraries that do not normally accompany the operating system. Such a contradiction means you cannot use both them and the Library together in an executable that you distribute.\n\n   7. You may place library facilities that are a work based on the Library side-by-side in a single library together with other library facilities not covered by this License, and distribute such a combined library, provided that the separate distribution of the work based on the Library and of the other library facilities is otherwise permitted, and provided that you do these two things:\n\n      a) Accompany the combined library with a copy of the same work based on the Library, uncombined with any other library facilities. This must be distributed under the terms of the Sections above.\n\n      b) Give prominent notice with the combined library of the fact that part of it is a work based on the Library, and explaining where to find the accompanying uncombined form of the same work.\n\n   8. You may not copy, modify, sublicense, link with, or distribute the Library except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense, link with, or distribute the Library is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.\n\n   9. You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Library or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Library (or any work based on the Library), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Library or works based on it.\n\n   10. Each time you redistribute the Library (or any work based on the Library), the recipient automatically receives a license from the original licensor to copy, distribute, link with or modify the Library subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.\n\n   11. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Library at all. For example, if a patent license would not permit royalty-free redistribution of the Library by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Library.\n\n   If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply, and the section as a whole is intended to apply in other circumstances.\n\n   It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.\n\n   This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.\n\n   12. If the distribution and/or use of the Library is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Library under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License.\n\n   13. The Free Software Foundation may publish revised and/or new versions of the Library General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.\n\n   Each version is given a distinguishing version number. If the Library specifies a version number of this License which applies to it and \"any later version\", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Library does not specify a license version number, you may choose any version ever published by the Free Software Foundation.\n\n   14. If you wish to incorporate parts of the Library into other free programs whose distribution conditions are incompatible with these, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.\n\n   NO WARRANTY\n\n   15. BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE LIBRARY \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE LIBRARY IS WITH YOU. SHOULD THE LIBRARY PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n\n   16. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE LIBRARY (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE LIBRARY TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS\n\nHow to Apply These Terms to Your New Libraries\n\nIf you develop a new library, and you want it to be of the greatest possible use to the public, we recommend making it free software that everyone can redistribute and change. You can do so by permitting redistribution under these terms (or, alternatively, under the terms of the ordinary General Public License).\n\nTo apply these terms, attach the following notices to the library. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the \"copyright\" line and a pointer to where the full notice is found.\n\none line to give the library's name and an idea of what it does.\n\nCopyright (C) year name of author\n\nThis library is free software; you can redistribute it and/or modify it under the terms of the GNU Library General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Library General Public License for more details.\n\nYou should have received a copy of the GNU Library General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.\n\nAlso add information on how to contact you by electronic and paper mail.\n\nYou should also get your employer (if you work as a programmer) or your school, if any, to sign a \"copyright disclaimer\" for the library, if necessary. Here is a sample; alter the names:\n\nYoyodyne, Inc., hereby disclaims all copyright interest in\n\nthe library `Frob' (a library for tweaking knobs) written\n\nby James Random Hacker.\n\nsignature of Ty Coon, 1 April 1990\n\nTy Coon, President of Vice\n\nThat's all there is to it!",
+    "name" : "GNU Library General Public License v2 or later"
+  }, {
+    "licenseId" : "LicenseRef-LGPL-2.1-or-later",
+    "extractedText" : "GNU LESSER GENERAL PUBLIC LICENSE\n\nVersion 2.1, February 1999\n\nCopyright (C) 1991, 1999 Free Software Foundation, Inc.\n\n51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n\nEveryone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.\n\n[This is the first released version of the Lesser GPL. It also counts as the successor of the GNU Library Public License, version 2, hence the version number 2.1.]\n\nPreamble\n\nThe licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public Licenses are intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users.\n\nThis license, the Lesser General Public License, applies to some specially designated software packages--typically libraries--of the Free Software Foundation and other authors who decide to use it. You can use it too, but we suggest you first think carefully about whether this license or the ordinary General Public License is the better strategy to use in any particular case, based on the explanations below.\n\nWhen we speak of free software, we are referring to freedom of use, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish); that you receive source code or can get it if you want it; that you can change the software and use pieces of it in new free programs; and that you are informed that you can do these things.\n\nTo protect your rights, we need to make restrictions that forbid distributors to deny you these rights or to ask you to surrender these rights. These restrictions translate to certain responsibilities for you if you distribute copies of the library or if you modify it.\n\nFor example, if you distribute copies of the library, whether gratis or for a fee, you must give the recipients all the rights that we gave you. You must make sure that they, too, receive or can get the source code. If you link other code with the library, you must provide complete object files to the recipients, so that they can relink them with the library after making changes to the library and recompiling it. And you must show them these terms so they know their rights.\n\nWe protect your rights with a two-step method: (1) we copyright the library, and (2) we offer you this license, which gives you legal permission to copy, distribute and/or modify the library.\n\nTo protect each distributor, we want to make it very clear that there is no warranty for the free library. Also, if the library is modified by someone else and passed on, the recipients should know that what they have is not the original version, so that the original author's reputation will not be affected by problems that might be introduced by others.\n\nFinally, software patents pose a constant threat to the existence of any free program. We wish to make sure that a company cannot effectively restrict the users of a free program by obtaining a restrictive license from a patent holder. Therefore, we insist that any patent license obtained for a version of the library must be consistent with the full freedom of use specified in this license.\n\nMost GNU software, including some libraries, is covered by the ordinary GNU General Public License. This license, the GNU Lesser General Public License, applies to certain designated libraries, and is quite different from the ordinary General Public License. We use this license for certain libraries in order to permit linking those libraries into non-free programs.\n\nWhen a program is linked with a library, whether statically or using a shared library, the combination of the two is legally speaking a combined work, a derivative of the original library. The ordinary General Public License therefore permits such linking only if the entire combination fits its criteria of freedom. The Lesser General Public License permits more lax criteria for linking other code with the library.\n\nWe call this license the \"Lesser\" General Public License because it does Less to protect the user's freedom than the ordinary General Public License. It also provides other free software developers Less of an advantage over competing non-free programs. These disadvantages are the reason we use the ordinary General Public License for many libraries. However, the Lesser license provides advantages in certain special circumstances.\n\nFor example, on rare occasions, there may be a special need to encourage the widest possible use of a certain library, so that it becomes a de-facto standard. To achieve this, non-free programs must be allowed to use the library. A more frequent case is that a free library does the same job as widely used non-free libraries. In this case, there is little to gain by limiting the free library to free software only, so we use the Lesser General Public License.\n\nIn other cases, permission to use a particular library in non-free programs enables a greater number of people to use a large body of free software. For example, permission to use the GNU C Library in non-free programs enables many more people to use the whole GNU operating system, as well as its variant, the GNU/Linux operating system.\n\nAlthough the Lesser General Public License is Less protective of the users' freedom, it does ensure that the user of a program that is linked with the Library has the freedom and the wherewithal to run that program using a modified version of the Library.\n\nThe precise terms and conditions for copying, distribution and modification follow. Pay close attention to the difference between a \"work based on the library\" and a \"work that uses the library\". The former contains code derived from the library, whereas the latter must be combined with the library in order to run.\n\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n   0. This License Agreement applies to any software library or other program which contains a notice placed by the copyright holder or other authorized party saying it may be distributed under the terms of this Lesser General Public License (also called \"this License\"). Each licensee is addressed as \"you\".\n\n   A \"library\" means a collection of software functions and/or data prepared so as to be conveniently linked with application programs (which use some of those functions and data) to form executables.\n\n   The \"Library\", below, refers to any such software library or work which has been distributed under these terms. A \"work based on the Library\" means either the Library or any derivative work under copyright law: that is to say, a work containing the Library or a portion of it, either verbatim or with modifications and/or translated straightforwardly into another language. (Hereinafter, translation is included without limitation in the term \"modification\".)\n\n   \"Source code\" for a work means the preferred form of the work for making modifications to it. For a library, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library.\n\n   Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running a program using the Library is not restricted, and output from such a program is covered only if its contents constitute a work based on the Library (independent of the use of the Library in a tool for writing it). Whether that is true depends on what the Library does and what the program that uses the Library does.\n\n   1. You may copy and distribute verbatim copies of the Library's complete source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and distribute a copy of this License along with the Library.\n\n   You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.\n\n   2. You may modify your copy or copies of the Library or any portion of it, thus forming a work based on the Library, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:\n\n      a) The modified work must itself be a software library.\n\n      b) You must cause the files modified to carry prominent notices stating that you changed the files and the date of any change.\n\n      c) You must cause the whole of the work to be licensed at no charge to all third parties under the terms of this License.\n\n      d) If a facility in the modified Library refers to a function or a table of data to be supplied by an application program that uses the facility, other than as an argument passed when the facility is invoked, then you must make a good faith effort to ensure that, in the event an application does not supply such function or table, the facility still operates, and performs whatever part of its purpose remains meaningful.\n\n   (For example, a function in a library to compute square roots has a purpose that is entirely well-defined independent of the application. Therefore, Subsection 2d requires that any application-supplied function or table used by this function must be optional: if the application does not supply it, the square root function must still compute square roots.)\n\n   These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Library, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Library, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.\n\n   Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Library.\n\n   In addition, mere aggregation of another work not based on the Library with the Library (or with a work based on the Library) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.\n\n   3. You may opt to apply the terms of the ordinary GNU General Public License instead of this License to a given copy of the Library. To do this, you must alter all the notices that refer to this License, so that they refer to the ordinary GNU General Public License, version 2, instead of to this License. (If a newer version than version 2 of the ordinary GNU General Public License has appeared, then you can specify that version instead if you wish.) Do not make any other change in these notices.\n\n   Once this change is made in a given copy, it is irreversible for that copy, so the ordinary GNU General Public License applies to all subsequent copies and derivative works made from that copy.\n\n   This option is useful when you wish to copy part of the code of the Library into a program that is not a library.\n\n   4. You may copy and distribute the Library (or a portion or derivative of it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange.\n\n   If distribution of object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place satisfies the requirement to distribute the source code, even though third parties are not compelled to copy the source along with the object code.\n\n   5. A program that contains no derivative of any portion of the Library, but is designed to work with the Library by being compiled or linked with it, is called a \"work that uses the Library\". Such a work, in isolation, is not a derivative work of the Library, and therefore falls outside the scope of this License.\n\n   However, linking a \"work that uses the Library\" with the Library creates an executable that is a derivative of the Library (because it contains portions of the Library), rather than a \"work that uses the library\". The executable is therefore covered by this License. Section 6 states terms for distribution of such executables.\n\n   When a \"work that uses the Library\" uses material from a header file that is part of the Library, the object code for the work may be a derivative work of the Library even though the source code is not. Whether this is true is especially significant if the work can be linked without the Library, or if the work is itself a library. The threshold for this to be true is not precisely defined by law.\n\n   If such an object file uses only numerical parameters, data structure layouts and accessors, and small macros and small inline functions (ten lines or less in length), then the use of the object file is unrestricted, regardless of whether it is legally a derivative work. (Executables containing this object code plus portions of the Library will still fall under Section 6.)\n\n   Otherwise, if the work is a derivative of the Library, you may distribute the object code for the work under the terms of Section 6. Any executables containing that work also fall under Section 6, whether or not they are linked directly with the Library itself.\n\n   6. As an exception to the Sections above, you may also combine or link a \"work that uses the Library\" with the Library to produce a work containing portions of the Library, and distribute that work under terms of your choice, provided that the terms permit modification of the work for the customer's own use and reverse engineering for debugging such modifications.\n\n   You must give prominent notice with each copy of the work that the Library is used in it and that the Library and its use are covered by this License. You must supply a copy of this License. If the work during execution displays copyright notices, you must include the copyright notice for the Library among them, as well as a reference directing the user to the copy of this License. Also, you must do one of these things:\n\n      a) Accompany the work with the complete corresponding machine-readable source code for the Library including whatever changes were used in the work (which must be distributed under Sections 1 and 2 above); and, if the work is an executable linked with the Library, with the complete machine-readable \"work that uses the Library\", as object code and/or source code, so that the user can modify the Library and then relink to produce a modified executable containing the modified Library. (It is understood that the user who changes the contents of definitions files in the Library will not necessarily be able to recompile the application to use the modified definitions.)\n\n      b) Use a suitable shared library mechanism for linking with the Library. A suitable mechanism is one that (1) uses at run time a copy of the library already present on the user's computer system, rather than copying library functions into the executable, and (2) will operate properly with a modified version of the library, if the user installs one, as long as the modified version is interface-compatible with the version that the work was made with.\n\n      c) Accompany the work with a written offer, valid for at least three years, to give the same user the materials specified in Subsection 6a, above, for a charge no more than the cost of performing this distribution.\n\n      d) If distribution of the work is made by offering access to copy from a designated place, offer equivalent access to copy the above specified materials from the same place.\n\n      e) Verify that the user has already received a copy of these materials or that you have already sent this user a copy.\n\n   For an executable, the required form of the \"work that uses the Library\" must include any data and utility programs needed for reproducing the executable from it. However, as a special exception, the materials to be distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.\n\n   It may happen that this requirement contradicts the license restrictions of other proprietary libraries that do not normally accompany the operating system. Such a contradiction means you cannot use both them and the Library together in an executable that you distribute.\n\n   7. You may place library facilities that are a work based on the Library side-by-side in a single library together with other library facilities not covered by this License, and distribute such a combined library, provided that the separate distribution of the work based on the Library and of the other library facilities is otherwise permitted, and provided that you do these two things:\n\n      a) Accompany the combined library with a copy of the same work based on the Library, uncombined with any other library facilities. This must be distributed under the terms of the Sections above.\n\n      b) Give prominent notice with the combined library of the fact that part of it is a work based on the Library, and explaining where to find the accompanying uncombined form of the same work.\n\n   8. You may not copy, modify, sublicense, link with, or distribute the Library except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense, link with, or distribute the Library is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.\n\n   9. You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Library or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Library (or any work based on the Library), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Library or works based on it.\n\n   10. Each time you redistribute the Library (or any work based on the Library), the recipient automatically receives a license from the original licensor to copy, distribute, link with or modify the Library subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties with this License.\n\n   11. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Library at all. For example, if a patent license would not permit royalty-free redistribution of the Library by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Library.\n\n   If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply, and the section as a whole is intended to apply in other circumstances.\n\n   It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.\n\n   This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.\n\n   12. If the distribution and/or use of the Library is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Library under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License.\n\n   13. The Free Software Foundation may publish revised and/or new versions of the Lesser General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.\n\n   Each version is given a distinguishing version number. If the Library specifies a version number of this License which applies to it and \"any later version\", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Library does not specify a license version number, you may choose any version ever published by the Free Software Foundation.\n\n   14. If you wish to incorporate parts of the Library into other free programs whose distribution conditions are incompatible with these, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.\n\n   NO WARRANTY\n\n   15. BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE LIBRARY \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE LIBRARY IS WITH YOU. SHOULD THE LIBRARY PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n\n   16. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE LIBRARY (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE LIBRARY TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS\n\nHow to Apply These Terms to Your New Libraries\n\nIf you develop a new library, and you want it to be of the greatest possible use to the public, we recommend making it free software that everyone can redistribute and change. You can do so by permitting redistribution under these terms (or, alternatively, under the terms of the ordinary General Public License).\n\nTo apply these terms, attach the following notices to the library. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the \"copyright\" line and a pointer to where the full notice is found.\n\n<one line to give the library's name and an idea of what it does.>\n\nCopyright (C) <year> <name of author>\n\nThis library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n\nAlso add information on how to contact you by electronic and paper mail.\n\nYou should also get your employer (if you work as a programmer) or your school, if any, to sign a \"copyright disclaimer\" for the library, if necessary. Here is a sample; alter the names:\n\nYoyodyne, Inc., hereby disclaims all copyright interest in\n\nthe library `Frob' (a library for tweaking knobs) written\n\nby James Random Hacker.\n\n< signature of Ty Coon > , 1 April 1990\n\nTy Coon, President of Vice\n\nThat's all there is to it!",
+    "name" : "GNU Library General Public License v2.1 or later"
+  }, {
+    "licenseId" : "LicenseRef-MIT",
+    "extractedText" : "MIT License\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-No_license_found",
+    "extractedText" : "Not find any license in the scanned file",
+    "name" : "No_license_found"
+  }, {
+    "licenseId" : "LicenseRef-ODbL-1.0",
+    "extractedText" : "## Open Data Commons Open Database License (ODbL)\n\n### Preamble\n\nThe Open Database License (ODbL) is a license agreement intended to\nallow users to freely share, modify, and use this Database while\nmaintaining this same freedom for others. Many databases are covered by\ncopyright, and therefore this document licenses these rights. Some\njurisdictions, mainly in the European Union, have specific rights that\ncover databases, and so the ODbL addresses these rights, too. Finally,\nthe ODbL is also an agreement in contract for users of this Database to\nact in certain ways in return for accessing this Database.\n\nDatabases can contain a wide variety of types of content (images,\naudiovisual material, and sounds all in the same database, for example),\nand so the ODbL only governs the rights over the Database, and not the\ncontents of the Database individually. Licensors should use the ODbL\ntogether with another license for the contents, if the contents have a\nsingle set of rights that uniformly covers all of the contents. If the\ncontents have multiple sets of different rights, Licensors should\ndescribe what rights govern what contents together in the individual\nrecord or in some other way that clarifies what rights apply.\n\nSometimes the contents of a database, or the database itself, can be\ncovered by other rights not addressed here (such as private contracts,\ntrade mark over the name, or privacy rights / data protection rights\nover information in the contents), and so you are advised that you may\nhave to consult other documents or clear other rights before doing\nactivities not covered by this License.\n\n------\n\nThe Licensor (as defined below)\n\nand\n\nYou (as defined below)\n\nagree as follows:\n\n### 1.0 Definitions of Capitalised Words\n\n\"Collective Database\" - Means this Database in unmodified form as part\nof a collection of independent databases in themselves that together are\nassembled into a collective whole. A work that constitutes a Collective\nDatabase will not be considered a Derivative Database.\n\n\"Convey\" - As a verb, means Using the Database, a Derivative Database,\nor the Database as part of a Collective Database in any way that enables\na Person to make or receive copies of the Database or a Derivative\nDatabase.  Conveying does not include interaction with a user through a\ncomputer network, or creating and Using a Produced Work, where no\ntransfer of a copy of the Database or a Derivative Database occurs.\n\"Contents\" - The contents of this Database, which includes the\ninformation, independent works, or other material collected into the\nDatabase. For example, the contents of the Database could be factual\ndata or works such as images, audiovisual material, text, or sounds.\n\n\"Database\" - A collection of material (the Contents) arranged in a\nsystematic or methodical way and individually accessible by electronic\nor other means offered under the terms of this License.\n\n\"Database Directive\" - Means Directive 96/9/EC of the European\nParliament and of the Council of 11 March 1996 on the legal protection\nof databases, as amended or succeeded.\n\n\"Database Right\" - Means rights resulting from the Chapter III (\"sui\ngeneris\") rights in the Database Directive (as amended and as transposed\nby member states), which includes the Extraction and Re-utilisation of\nthe whole or a Substantial part of the Contents, as well as any similar\nrights available in the relevant jurisdiction under Section 10.4.\n\n\"Derivative Database\" - Means a database based upon the Database, and\nincludes any translation, adaptation, arrangement, modification, or any\nother alteration of the Database or of a Substantial part of the\nContents. This includes, but is not limited to, Extracting or\nRe-utilising the whole or a Substantial part of the Contents in a new\nDatabase.\n\n\"Extraction\" - Means the permanent or temporary transfer of all or a\nSubstantial part of the Contents to another medium by any means or in\nany form.\n\n\"License\" - Means this license agreement and is both a license of rights\nsuch as copyright and Database Rights and an agreement in contract.\n\n\"Licensor\" - Means the Person that offers the Database under the terms\nof this License.\n\n\"Person\" - Means a natural or legal person or a body of persons\ncorporate or incorporate.\n\n\"Produced Work\" -  a work (such as an image, audiovisual material, text,\nor sounds) resulting from using the whole or a Substantial part of the\nContents (via a search or other query) from this Database, a Derivative\nDatabase, or this Database as part of a Collective Database.\n\n\"Publicly\" - means to Persons other than You or under Your control by\neither more than 50% ownership or by the power to direct their\nactivities (such as contracting with an independent consultant).\n\n\"Re-utilisation\" - means any form of making available to the public all\nor a Substantial part of the Contents by the distribution of copies, by\nrenting, by online or other forms of transmission.\n\n\"Substantial\" - Means substantial in terms of quantity or quality or a\ncombination of both. The repeated and systematic Extraction or\nRe-utilisation of insubstantial parts of the Contents may amount to the\nExtraction or Re-utilisation of a Substantial part of the Contents.\n\n\"Use\" - As a verb, means doing any act that is restricted by copyright\nor Database Rights whether in the original medium or any other; and\nincludes without limitation distributing, copying, publicly performing,\npublicly displaying, and preparing derivative works of the Database, as\nwell as modifying the Database as may be technically necessary to use it\nin a different mode or format.\n\n\"You\" - Means a Person exercising rights under this License who has not\npreviously violated the terms of this License with respect to the\nDatabase, or who has received express permission from the Licensor to\nexercise rights under this License despite a previous violation.\n\nWords in the singular include the plural and vice versa.\n\n### 2.0 What this License covers\n\n2.1. Legal effect of this document. This License is:\n\n  a. A license of applicable copyright and neighbouring rights;\n\n  b. A license of the Database Right; and\n\n  c. An agreement in contract between You and the Licensor.\n\n2.2 Legal rights covered. This License covers the legal rights in the\nDatabase, including:\n\n  a. Copyright. Any copyright or neighbouring rights in the Database.\n  The copyright licensed includes any individual elements of the\n  Database, but does not cover the copyright over the Contents\n  independent of this Database. See Section 2.4 for details. Copyright\n  law varies between jurisdictions, but is likely to cover: the Database\n  model or schema, which is the structure, arrangement, and organisation\n  of the Database, and can also include the Database tables and table\n  indexes; the data entry and output sheets; and the Field names of\n  Contents stored in the Database;\n\n  b. Database Rights. Database Rights only extend to the Extraction and\n  Re-utilisation of the whole or a Substantial part of the Contents.\n  Database Rights can apply even when there is no copyright over the\n  Database. Database Rights can also apply when the Contents are removed\n  from the Database and are selected and arranged in a way that would\n  not infringe any applicable copyright; and\n\n  c. Contract. This is an agreement between You and the Licensor for\n  access to the Database. In return you agree to certain conditions of\n  use on this access as outlined in this License.\n\n2.3 Rights not covered.\n\n  a. This License does not apply to computer programs used in the making\n  or operation of the Database;\n\n  b. This License does not cover any patents over the Contents or the\n  Database; and\n\n  c. This License does not cover any trademarks associated with the\n  Database.\n\n2.4 Relationship to Contents in the Database. The individual items of\nthe Contents contained in this Database may be covered by other rights,\nincluding copyright, patent, data protection, privacy, or personality\nrights, and this License does not cover any rights (other than Database\nRights or in contract) in individual Contents contained in the Database.\nFor example, if used on a Database of images (the Contents), this\nLicense would not apply to copyright over individual images, which could\nhave their own separate licenses, or one single license covering all of\nthe rights over the images.\n\n### 3.0 Rights granted\n\n3.1 Subject to the terms and conditions of this License, the Licensor\ngrants to You a worldwide, royalty-free, non-exclusive, terminable (but\nonly under Section 9) license to Use the Database for the duration of\nany applicable copyright and Database Rights. These rights explicitly\ninclude commercial use, and do not exclude any field of endeavour. To\nthe extent possible in the relevant jurisdiction, these rights may be\nexercised in all media and formats whether now known or created in the\nfuture.\n\nThe rights granted cover, for example:\n\n  a. Extraction and Re-utilisation of the whole or a Substantial part of\n  the Contents;\n\n  b. Creation of Derivative Databases;\n\n  c. Creation of Collective Databases;\n\n  d. Creation of temporary or permanent reproductions by any means and\n  in any form, in whole or in part, including of any Derivative\n  Databases or as a part of Collective Databases; and\n\n  e. Distribution, communication, display, lending, making available, or\n  performance to the public by any means and in any form, in whole or in\n  part, including of any Derivative Database or as a part of Collective\n  Databases.\n\n3.2 Compulsory license schemes. For the avoidance of doubt:\n\n  a. Non-waivable compulsory license schemes. In those jurisdictions in\n  which the right to collect royalties through any statutory or\n  compulsory licensing scheme cannot be waived, the Licensor reserves\n  the exclusive right to collect such royalties for any exercise by You\n  of the rights granted under this License;\n\n  b. Waivable compulsory license schemes. In those jurisdictions in\n  which the right to collect royalties through any statutory or\n  compulsory licensing scheme can be waived, the Licensor waives the\n  exclusive right to collect such royalties for any exercise by You of\n  the rights granted under this License; and,\n\n  c. Voluntary license schemes. The Licensor waives the right to collect\n  royalties, whether individually or, in the event that the Licensor is\n  a member of a collecting society that administers voluntary licensing\n  schemes, via that society, from any exercise by You of the rights\n  granted under this License.\n\n3.3 The right to release the Database under different terms, or to stop\ndistributing or making available the Database, is reserved. Note that\nthis Database may be multiple-licensed, and so You may have the choice\nof using alternative licenses for this Database. Subject to Section\n10.4, all other rights not expressly granted by Licensor are reserved.\n\n### 4.0 Conditions of Use\n\n4.1 The rights granted in Section 3 above are expressly made subject to\nYour complying with the following conditions of use. These are important\nconditions of this License, and if You fail to follow them, You will be\nin material breach of its terms.\n\n4.2 Notices. If You Publicly Convey this Database, any Derivative\nDatabase, or the Database as part of a Collective Database, then You\nmust:\n\n  a. Do so only under the terms of this License or another license\n  permitted under Section 4.4;\n\n  b. Include a copy of this License (or, as applicable, a license\n  permitted under Section 4.4) or its Uniform Resource Identifier (URI)\n  with the Database or Derivative Database, including both in the\n  Database or Derivative Database and in any relevant documentation; and\n\n  c. Keep intact any copyright or Database Right notices and notices\n  that refer to this License.\n\n  d. If it is not possible to put the required notices in a particular\n  file due to its structure, then You must include the notices in a\n  location (such as a relevant directory) where users would be likely to\n  look for it.\n\n4.3 Notice for using output (Contents). Creating and Using a Produced\nWork does not require the notice in Section 4.2. However, if you\nPublicly Use a Produced Work, You must include a notice associated with\nthe Produced Work reasonably calculated to make any Person that uses,\nviews, accesses, interacts with, or is otherwise exposed to the Produced\nWork aware that Content was obtained from the Database, Derivative\nDatabase, or the Database as part of a Collective Database, and that it\nis available under this License.\n\n  a. Example notice. The following text will satisfy notice under\n  Section 4.3:\n\n        Contains information from DATABASE NAME, which is made available\n        here under the Open Database License (ODbL).\n\nDATABASE NAME should be replaced with the name of the Database and a\nhyperlink to the URI of the Database. \"Open Database License\" should\ncontain a hyperlink to the URI of the text of this License. If\nhyperlinks are not possible, You should include the plain text of the\nrequired URI's with the above notice.\n\n4.4 Share alike.\n\n  a. Any Derivative Database that You Publicly Use must be only under\n  the terms of:\n\n    i. This License;\n\n    ii. A later version of this License similar in spirit to this\n      License; or\n\n    iii. A compatible license.\n\n  If You license the Derivative Database under one of the licenses\n  mentioned in (iii), You must comply with the terms of that license.\n\n  b. For the avoidance of doubt, Extraction or Re-utilisation of the\n  whole or a Substantial part of the Contents into a new database is a\n  Derivative Database and must comply with Section 4.4.\n\n  c. Derivative Databases and Produced Works.  A Derivative Database is\n  Publicly Used and so must comply with Section 4.4. if a Produced Work\n  created from the Derivative Database is Publicly Used.\n\n  d. Share Alike and additional Contents. For the avoidance of doubt,\n  You must not add Contents to Derivative Databases under Section 4.4 a\n  that are incompatible with the rights granted under this License.\n\n  e. Compatible licenses. Licensors may authorise a proxy to determine\n  compatible licenses under Section 4.4 a iii. If they do so, the\n  authorised proxy's public statement of acceptance of a compatible\n  license grants You permission to use the compatible license.\n\n\n4.5 Limits of Share Alike.  The requirements of Section 4.4 do not apply\nin the following:\n\n  a. For the avoidance of doubt, You are not required to license\n  Collective Databases under this License if You incorporate this\n  Database or a Derivative Database in the collection, but this License\n  still applies to this Database or a Derivative Database as a part of\n  the Collective Database;\n\n  b. Using this Database, a Derivative Database, or this Database as\n  part of a Collective Database to create a Produced Work does not\n  create a Derivative Database for purposes of  Section 4.4; and\n\n  c. Use of a Derivative Database internally within an organisation is\n  not to the public and therefore does not fall under the requirements\n  of Section 4.4.\n\n4.6 Access to Derivative Databases. If You Publicly Use a Derivative\nDatabase or a Produced Work from a Derivative Database, You must also\noffer to recipients of the Derivative Database or Produced Work a copy\nin a machine readable form of:\n\n  a. The entire Derivative Database; or\n\n  b. A file containing all of the alterations made to the Database or\n  the method of making the alterations to the Database (such as an\n  algorithm), including any additional Contents, that make up all the\n  differences between the Database and the Derivative Database.\n\nThe Derivative Database (under a.) or alteration file (under b.) must be\navailable at no more than a reasonable production cost for physical\ndistributions and free of charge if distributed over the internet.\n\n4.7 Technological measures and additional terms\n\n  a. This License does not allow You to impose (except subject to\n  Section 4.7 b.)  any terms or any technological measures on the\n  Database, a Derivative Database, or the whole or a Substantial part of\n  the Contents that alter or restrict the terms of this License, or any\n  rights granted under it, or have the effect or intent of restricting\n  the ability of any person to exercise those rights.\n\n  b. Parallel distribution. You may impose terms or technological\n  measures on the Database, a Derivative Database, or the whole or a\n  Substantial part of the Contents (a \"Restricted Database\") in\n  contravention of Section 4.74 a. only if You also make a copy of the\n  Database or a Derivative Database available to the recipient of the\n  Restricted Database:\n\n    i. That is available without additional fee;\n\n    ii. That is available in a medium that does not alter or restrict\n    the terms of this License, or any rights granted under it, or have\n    the effect or intent of restricting the ability of any person to\n    exercise those rights (an \"Unrestricted Database\"); and\n\n    iii. The Unrestricted Database is at least as accessible to the\n    recipient as a practical matter as the Restricted Database.\n\n  c. For the avoidance of doubt, You may place this Database or a\n  Derivative Database in an authenticated environment, behind a\n  password, or within a similar access control scheme provided that You\n  do not alter or restrict the terms of this License or any rights\n  granted under it or have the effect or intent of restricting the\n  ability of any person to exercise those rights.\n\n4.8 Licensing of others. You may not sublicense the Database. Each time\nYou communicate the Database, the whole or Substantial part of the\nContents, or any Derivative Database to anyone else in any way, the\nLicensor offers to the recipient a license to the Database on the same\nterms and conditions as this License. You are not responsible for\nenforcing compliance by third parties with this License, but You may\nenforce any rights that You have over a Derivative Database. You are\nsolely responsible for any modifications of a Derivative Database made\nby You or another Person at Your direction. You may not impose any\nfurther restrictions on the exercise of the rights granted or affirmed\nunder this License.\n\n### 5.0 Moral rights\n\n5.1 Moral rights. This section covers moral rights, including any rights\nto be identified as the author of the Database or to object to treatment\nthat would otherwise prejudice the author's honour and reputation, or\nany other derogatory treatment:\n\n  a. For jurisdictions allowing waiver of moral rights, Licensor waives\n  all moral rights that Licensor may have in the Database to the fullest\n  extent possible by the law of the relevant jurisdiction under Section\n  10.4;\n\n  b. If waiver of moral rights under Section 5.1 a in the relevant\n  jurisdiction is not possible, Licensor agrees not to assert any moral\n  rights over the Database and waives all claims in moral rights to the\n  fullest extent possible by the law of the relevant jurisdiction under\n  Section 10.4; and\n\n  c. For jurisdictions not allowing waiver or an agreement not to assert\n  moral rights under Section 5.1 a and b, the author may retain their\n  moral rights over certain aspects of the Database.\n\nPlease note that some jurisdictions do not allow for the waiver of moral\nrights, and so moral rights may still subsist over the Database in some\njurisdictions.\n\n### 6.0 Fair dealing, Database exceptions, and other rights not affected\n\n6.1 This License does not affect any rights that You or anyone else may\nindependently have under any applicable law to make any use of this\nDatabase, including without limitation:\n\n  a. Exceptions to the Database Right including: Extraction of Contents\n  from non-electronic Databases for private purposes, Extraction for\n  purposes of illustration for teaching or scientific research, and\n  Extraction or Re-utilisation for public security or an administrative\n  or judicial procedure.\n\n  b. Fair dealing, fair use, or any other legally recognised limitation\n  or exception to infringement of copyright or other applicable laws.\n\n6.2 This License does not affect any rights of lawful users to Extract\nand Re-utilise insubstantial parts of the Contents, evaluated\nquantitatively or qualitatively, for any purposes whatsoever, including\ncreating a Derivative Database (subject to other rights over the\nContents, see Section 2.4). The repeated and systematic Extraction or\nRe-utilisation of insubstantial parts of the Contents may however amount\nto the Extraction or Re-utilisation of a Substantial part of the\nContents.\n\n### 7.0 Warranties and Disclaimer\n\n7.1 The Database is licensed by the Licensor \"as is\" and without any\nwarranty of any kind, either express, implied, or arising by statute,\ncustom, course of dealing, or trade usage. Licensor specifically\ndisclaims any and all implied warranties or conditions of title,\nnon-infringement, accuracy or completeness, the presence or absence of\nerrors, fitness for a particular purpose, merchantability, or otherwise.\nSome jurisdictions do not allow the exclusion of implied warranties, so\nthis exclusion may not apply to You.\n\n### 8.0 Limitation of liability\n\n8.1 Subject to any liability that may not be excluded or limited by law,\nthe Licensor is not liable for, and expressly excludes, all liability\nfor loss or damage however and whenever caused to anyone by any use\nunder this License, whether by You or by anyone else, and whether caused\nby any fault on the part of the Licensor or not. This exclusion of\nliability includes, but is not limited to, any special, incidental,\nconsequential, punitive, or exemplary damages such as loss of revenue,\ndata, anticipated profits, and lost business. This exclusion applies\neven if the Licensor has been advised of the possibility of such\ndamages.\n\n8.2 If liability may not be excluded by law, it is limited to actual and\ndirect financial loss to the extent it is caused by proved negligence on\nthe part of the Licensor.\n\n### 9.0 Termination of Your rights under this License\n\n9.1 Any breach by You of the terms and conditions of this License\nautomatically terminates this License with immediate effect and without\nnotice to You. For the avoidance of doubt, Persons who have received the\nDatabase, the whole or a Substantial part of the Contents, Derivative\nDatabases, or the Database as part of a Collective Database from You\nunder this License will not have their licenses terminated provided\ntheir use is in full compliance with this License or a license granted\nunder Section 4.8 of this License.  Sections 1, 2, 7, 8, 9 and 10 will\nsurvive any termination of this License.\n\n9.2 If You are not in breach of the terms of this License, the Licensor\nwill not terminate Your rights under it.\n\n9.3 Unless terminated under Section 9.1, this License is granted to You\nfor the duration of applicable rights in the Database.\n\n9.4 Reinstatement of rights. If you cease any breach of the terms and\nconditions of this License, then your full rights under this License\nwill be reinstated:\n\n  a. Provisionally and subject to permanent termination until the 60th\n  day after cessation of breach;\n\n  b. Permanently on the 60th day after cessation of breach unless\n  otherwise reasonably notified by the Licensor; or\n\n  c.  Permanently if reasonably notified by the Licensor of the\n  violation, this is the first time You have received notice of\n  violation of this License from  the Licensor, and You cure the\n  violation prior to 30 days after your receipt of the notice.\n\nPersons subject to permanent termination of rights are not eligible to\nbe a recipient and receive a license under Section 4.8.\n\n9.5 Notwithstanding the above, Licensor reserves the right to release\nthe Database under different license terms or to stop distributing or\nmaking available the Database. Releasing the Database under different\nlicense terms or stopping the distribution of the Database will not\nwithdraw this License (or any other license that has been, or is\nrequired to be, granted under the terms of this License), and this\nLicense will continue in full force and effect unless terminated as\nstated above.\n\n### 10.0 General\n\n10.1 If any provision of this License is held to be invalid or\nunenforceable, that must not affect the validity or enforceability of\nthe remainder of the terms and conditions of this License and each\nremaining provision of this License shall be valid and enforced to the\nfullest extent permitted by law.\n\n10.2 This License is the entire agreement between the parties with\nrespect to the rights granted here over the Database. It replaces any\nearlier understandings, agreements or representations with respect to\nthe Database.\n\n10.3 If You are in breach of the terms of this License, You will not be\nentitled to rely on the terms of this License or to complain of any\nbreach by the Licensor.\n\n10.4 Choice of law. This License takes effect in and will be governed by\nthe laws of the relevant jurisdiction in which the License terms are\nsought to be enforced. If the standard suite of rights granted under\napplicable copyright law and Database Rights in the relevant\njurisdiction includes additional rights not granted under this License,\nthese additional rights are granted in this License in order to meet the\nterms of this License.",
+    "name" : "Open Data Commons Open Database License v1.0"
+  }, {
+    "licenseId" : "LicenseRef-Public-domain",
+    "extractedText" : "Public domain",
+    "name" : "Public domain software"
+  }, {
+    "licenseId" : "LicenseRef-Python",
+    "extractedText" : "License by Nomos.",
+    "name" : "Python"
+  }, {
+    "licenseId" : "LicenseRef-Python-2.0",
+    "extractedText" : "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n\n     1. This LICENSE AGREEMENT is between the Python Software Foundation (\"PSF\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using this software (\"Python\") in source or binary form and its associated documentation.\n\n     2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee.\n\n     3. In the event Licensee prepares a derivative work that is based on or incorporates Python or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python.\n\n     4. PSF is making Python available to Licensee on an \"AS IS\" basis. PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n     5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n     6. This License Agreement will automatically terminate upon a material breach of its terms and conditions.\n\n     7. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between PSF and Licensee. This License Agreement does not grant permission to use PSF trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n\n     8. By copying, installing or otherwise using Python, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n\n\nBEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0\n\nBEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1\n\n     1. This LICENSE AGREEMENT is between BeOpen.com (\"BeOpen\"), having an office at 160 Saratoga Avenue, Santa Clara, CA 95051, and the Individual or Organization (\"Licensee\") accessing and otherwise using this software in source or binary form and its associated documentation (\"the Software\").\n\n     2. Subject to the terms and conditions of this BeOpen Python License Agreement, BeOpen hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use the Software alone or in any derivative version, provided, however, that the BeOpen Python License is retained in the Software, alone or in any derivative version prepared by Licensee.\n\n     3. BeOpen is making the Software available to Licensee on an \"AS IS\" basis. BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n     4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n     5. This License Agreement will automatically terminate upon a material breach of its terms and conditions.\n\n     6. This License Agreement shall be governed by and interpreted in all respects by the law of the State of California, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between BeOpen and Licensee. This License Agreement does not grant permission to use BeOpen trademarks or trade names in a trademark sense to endorse or promote products or services of Licensee, or any third party. As an exception, the \"BeOpen Python\" logos available at http://www.pythonlabs.com/logos.html may be used according to the permissions granted on that web page.\n\n     7. By copying, installing or otherwise using the software, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n\n\nCNRI OPEN SOURCE LICENSE AGREEMENT (for Python 1.6b1)\n\nIMPORTANT: PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY.\n\nBY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6, beta 1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n\n     1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 (\"Python 1.6b1\").\n\n     2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee.\n\n     Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011\".\n\n     3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1.\n\n     4. CNRI is making Python 1.6b1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n     5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n     6. This License Agreement will automatically terminate upon a material breach of its terms and conditions.\n\n     7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n\n     8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n\nACCEPT\n\n\nCWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2\n\nCopyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam, The Netherlands. All rights reserved.\n\n     Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of Stichting Mathematisch Centrum or CWI not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.\n\n     STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "Python License 2.0"
+  }, {
+    "licenseId" : "LicenseRef-TCL",
+    "extractedText" : "This software is copyrighted by the Regents of the University of California, Sun Microsystems, Inc., Scriptics Corporation, ActiveState Corporation and other parties. The following terms apply to all files associated with the software unless explicitly disclaimed in individual files.\n\nThe authors hereby grant permission to use, copy, modify, distribute, and license this software and its documentation for any purpose, provided that existing copyright notices are retained in all copies and that this notice is included verbatim in any distributions. No written agreement, license, or royalty fee is required for any of the authorized uses. Modifications to this software may be copyrighted by their authors and need not follow the licensing terms described here, provided that the new terms are clearly indicated on the first page of each file where they apply.\n\nIN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nTHE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THIS SOFTWARE IS PROVIDED ON AN \"AS IS\" BASIS, AND THE AUTHORS AND DISTRIBUTORS HAVE NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.\n\nGOVERNMENT USE: If you are acquiring this software on behalf of the U.S. government, the Government shall have only \"Restricted Rights\" in the software and related documentation as defined in the Federal Acquisition Regulations (FARs) in Clause 52.227.19 (c) (2). If you are acquiring the software on behalf of the Department of Defense, the software shall be classified as \"Commercial Computer Software\" and the Government shall have only \"Restricted Rights\" as defined in Clause 252.227-7013 (c) (1) of DFARs. Notwithstanding the foregoing, the authors grant the U.S. Government and others acting in its behalf permission to use and distribute the software in accordance with the terms specified in this license.",
+    "name" : "TCL/TK License"
+  }, {
+    "licenseId" : "LicenseRef-scancode-free-unknown",
+    "extractedText" : "License by Scancode.",
+    "name" : "Free unknown license detected but not recognized"
+  }, {
+    "licenseId" : "LicenseRef-scancode-public-domain",
+    "extractedText" : "License by Scancode.",
+    "name" : "Public Domain"
+  }, {
+    "licenseId" : "LicenseRef-scancode-unknown-license-reference",
+    "extractedText" : "License by Scancode.",
+    "name" : "Unknown License file reference"
+  } ],
+  "documentNamespace" : "http://fossy.osadl.org/repo/SPDX2TV_tzcode2024b.tar.gz_1732214584.spdx",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-upload2333",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "aecb8ab771575b79183897cd591e2fd3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "95cfb1106f60e925f0255d340350ba4be51b9b29"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5e438fc449624906af16a18ff4573739f0cda9862e5ec28d3bcb19cbaed0f672"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "https://data.iana.org/time-zones/releases/tzcode2024b.tar.gz",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:generic/tzcode@2024b?download_url=https://data.iana.org/time-zones/releases/tzcode2024b.tar.gz",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : true,
+    "licenseComments" : "licenseInfoInFile determined by Scanners:\n - nomos (\"4.4.0.51\".1e52cb)\n - monk (\"4.4.0.51\".1e52cb)\n - ojo (\"4.4.0.51\".1e52cb)\n- scancode (\"4.4.0.51\".1e52cb)",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "LicenseRef-Public-domain",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "tzcode2024b.tar.gz",
+    "packageFileName" : "tzcode2024b.tar.gz",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "9d9345eb083b484f4c4f3342bbddafda7e317f2a"
+    }
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-item10129382",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "51ebee1881c6b231ed589a1af053629f7a56b0ff"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "777fe4d5c6e31f2f4359a4b7b4e4fbde8469ea97e75c7902de85235b9b087f60"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "8bdbe53afaa4033c75e668e93cd20c77"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/tz-how-to.html",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129381",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5f6ba043995262d78fd503da627580035a53810a"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a0aced8f7d76898da016e6b5e2e727e7a70cd25a85966c5196849c34bca52aa4"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "55acd0071c70ebfe4be37b82ca43b992"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/zic.c",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129361",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "4027bf08649c76f8a6edeb19d445c7c3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e29149185730d4fc67e5358f270eb91c5af1906d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "af2ac4a7433a2b1bb39ee062625e59c1fb8dc9b9b71f011a2cfbbfe9b71fb65d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/tz-link.html",
+    "licenseComments" : "The information in the file is:\nThis web page is in the public domain, so clarified as of\n2009-05-17 by Arthur David Olson.\nThus we concluded Public-domain as license of this file",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-unknown-license-reference", "LicenseRef-Artistic-2.0", "LicenseRef-Artistic-1.0", "LicenseRef-GPL-1.0-or-later", "LicenseRef-Apache-2.0", "LicenseRef-scancode-free-unknown", "LicenseRef-LGPL-2.0-or-later", "LicenseRef-MIT", "LicenseRef-scancode-public-domain", "LicenseRef-Python-2.0", "LicenseRef-LGPL-2.1-or-later", "LicenseRef-ODbL-1.0", "LicenseRef-LGPL", "LicenseRef-TCL", "LicenseRef-Artistic-1.0-Perl", "LicenseRef-Public-domain", "LicenseRef-GPL", "LicenseRef-Python" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129360",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b3ecc8ed722cbb1a28320c05141fd63cfa3fd0c9"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "535e2da4455bfbe6e34390f91f061750acf5b1447131115f6c4168c112089072"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "627dca30f2d9c766e4ed84ed3ee4c441"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/SECURITY",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129380",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c31e6f1d1c61f1c10cfbf27bdf65147c7f36d7aff457d415ae01c17db028ec7a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "71f37913a8d5625591037f79b17778ecf8713333"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a52216fac221d57aed1d40255498dd43"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/Makefile",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129365",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "7501f23421fdb7f40fab8019c1292c048d7f2a8ac7c44fbfba8a5f4d9b7a9d86"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7139714aa548518b04730a8d252f643d0c8fbba0"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "66dead6498d04107ec83abc6f5b214aa"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/tzfile.h",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129358",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "660b859afd4d160d656a6701da9b97f07ed9fc88b86bbdd73e63784da91fe421"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ba8f84076c4f2a05f237ac7ffa4dd561"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "072e66b14d350bfc82e5a849c9dfcc1e9a2d0663"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/zdump.8",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129387",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "385ea1d7ff9ff4be68283877486dce6813c5667e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0faa5a0c04dd49ffc06bc2f4483aaa5c42db63985567f55e840530e6a41d28c2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "7a2a4f7c9f05b55b2088c7f53123968a"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/tz-art.html",
+    "licenseComments" : "The information in the file is:\nThis web page is in the public domain, so clarified as of\n2009-05-17 by Arthur David Olson.\nThus we concluded Public-domain as license of this file",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129379",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6f74c922a4fea52d8034972aaeddf583bb5e37f9"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2eb4c8a5c2292123b3e128c1bc9d0daaf6009b40e211d51eb6d21357eba7c9c2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c006d7285e932b0a70149c7ced455405"
+    } ],
+    "copyrightText" : "Copyright 1985, 1987, 1988 The Regents of the University of California. All rights reserved.",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/date.c",
+    "licenseConcluded" : "LicenseRef-BSD-3-Clause-0af49cde1c26b821687dfcac1419cd9c",
+    "licenseInfoInFiles" : [ "LicenseRef-BSD-3-Clause", "LicenseRef-BSD-3-Clause-HP" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129385",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "684e9e565ffe37090bff2ad807af7c92"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "66c0523732834313560696265d8a1add090d7ca2377a386857812ddfd9e67d1d"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "97148059523a9ccf1e8ad32c62c5520c8d37c539"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/tzfile.5.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129397",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "57bdf161ce41e1e057318f6d98a45ba878886129"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "579a21da869d315bbedc7ec37609f4083b0b0a864429fae2fd6ff90ebc0ce0b6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "814b5a9c0ee3c4d74aaf3dde4cdbf14f"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/CONTRIBUTING",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129363",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8c3cc490a49d7500125cbc97770ed0629dc2aade1f228a3ab8489980dbb5cbed"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c1ad37d45a5fd065b0bcc40c5043da5f"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "56f531f5b60e80df086d65cd280ef09b997e72d2"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/tzselect.8.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129374",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b61a76c609beb7008ede7633e6ad7b05b210c1545ba6f0a52469e95665fc29df"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "9fcaa13bdfc93df7a8ffca5f64090370"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2d6cab3f54f2322fd785232a02ab391b18c72172"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/newstrftime.3.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129386",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "13f1d0a469dab50eb1ccf1bcabfaab849147b5ff04483705f1ea450deb425655"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "dce919eea3affdd6f0926e28abdb96c7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "52c582844a02268cf1942b33474f6aba7dfffcb0"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/newctime.3.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129378",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "742769bef3b9533821debc9121b7de5d"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3c3b83830d43a362019917301b3832193c595473"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2684a84a0736e483870bb45de5c83b5432641096bf71a32b8451c6cbd03c0e20"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/workman.sh",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129364",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ee715c0f18e297517954f02b771413ba956e8d67669e6d146185b4f83b1c9de4"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0de7c06ab2f7db4025c7fae69a77aae0496e5315"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "068858c96919eb5089b6be3bd17c1543"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/newtzset.3",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129375",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "02942cc766bf2a15e5b4f0454ee838edcf25958854e7478cadb78f0752dec147"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ddb2a7bb5cebff0a1b363d1713b225cb"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "845b07eab9eca36906e6c13ad5767e892dfefd67"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/zdump.c",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129377",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "0ba8eccbf7f5e8ac3b239758a2b49ebd"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b01928929448a1d8616c6c841c89abe991ae7f48"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "bf9d05704d2f320cd33383e7f6623f4c83be8619b25391c1e51adf9dbe1b6caa"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/tzfile.5",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129373",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "988f7baa078c9165fb77dd92ae34ff24"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "79b72d59605c4db05172273ee38b86e663c969f1"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fe2f543aa71653ce524580bb2df2b7f62a8aa67e4b959c5d2237c033d8409968"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/NEWS",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-BSD-3-Clause", "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129390",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4ed7147b9402288d348fb724eb91631ba61f25ba903643ac81389dc3b7680192"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a92e9fa43590ae51cdce3c97b1df8f9b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9ad30dadeed63675f15f2465e6b4795949478a9f"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/version",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129362",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7067a61d3f4dae438636a8b29e41948fccb16a26"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0613408568889f5739e5ae252b722a2659c02002839ad970a63dc5e9174b27cf"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c679c9d6b02bc2757b3eaf8f53c43fba"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/LICENSE",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "LicenseRef-BSD-3-Clause", "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129396",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "3481b2d4a937b90fa52c349df343b225f8525670879e32dce0b464b12cbc7ebe"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "81e339661ea5f729b9daa5f4156e1e47"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "83d3a6aa8c828be3efa5f229fc7e8ed12bc35c75"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/zic.8",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129384",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ee06fb4d90886c56afdf1fae8db51c52aeabc6b74cd085dbefc62372eb788a18"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "81dfcc9394d3ea83165e60cea0379284"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5d85ac0ff8e86f000608e13de007724cae3817d6"
+    } ],
+    "copyrightText" : "Copyright 1989, 1991 The Regents of the University of California. All rights reserved.",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/newstrftime.3",
+    "licenseConcluded" : "LicenseRef-BSD-3-Clause-ab1314e22e4ce8a4b7a44264d4572614",
+    "licenseInfoInFiles" : [ "LicenseRef-BSD-3-Clause" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129395",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c1c5a54ecf19530be0552a2d6c40cb5a80821250cae552fa015d444b2714ba97"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "4f909055f81fe088ef73b2e59c51c1e0"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b6f008ee14e7a59fc3c0f871c67973eba25daf6c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/newctime.3",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129367",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4f61e6ee1deda6662f66508005208c0186d82c0d928e04cf13fb3328ffa6cec7"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "f2ffbcaffa57fe1fc98b2815a673a5d5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "92bf8f5239fd5dd96ea4e03d2ece4fda81293798"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/difftime.c",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129369",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d631d1d4208ac6f9dde61e4eb30d535b5401f4d2686d9727a2b58e2f4bcbb5f8"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "e96b31c6805b7b0306f685881f4b749e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "519830c71a54838ce810712988ba3f4c29d1861c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/tzselect.8",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129368",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f49988167bf03e1998270765f2a31b9376ea3147a2abaf6792b2c76b69d939c7"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "26803d12308259acc70d47d818805881"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d45fa230e1284ac3d1f1a846b79f39a981a3d854"
+    } ],
+    "copyrightText" : "Copyright 1989 The Regents of the University of California. All rights reserved.",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/strftime.c",
+    "licenseConcluded" : "LicenseRef-BSD-3-Clause-0af49cde1c26b821687dfcac1419cd9c",
+    "licenseInfoInFiles" : [ "LicenseRef-BSD-3-Clause", "LicenseRef-BSD-3-Clause-HP" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129391",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a0e0437cb2b9dfa877b6326d928fffacc655259f"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "05e41fd59a9239661464b15df7cc1e41a28fd6609dee2cc0d6dc40be4228c6e5"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "1d06e1db479af257ee110614489df057"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/newtzset.3.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129398",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "9be2ad8d5e59c60ab95f33330e2b2b31"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2c4fd19d353f5eafd6cc0a13fd3de11fa95c57ff"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61c5bdf47228102353a6250e62b16b70c3829464a239c54bcd923f8ae35d5db0"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/zdump.8.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129392",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0882a4710bb6efa9042ce5dc57a148845d9a7aa43dae77a7ddf505804de21c52"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "03ebc317fc4d0de3550105cfdbb434af"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e1335329aa8acdaba63aecc8cefc02d1a6267fd3"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/private.h",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129370",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "48fe27004e0984eb495021ecce89444fd9377686"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "dbb85cdd4bffa26e848a5c378e25dd6f4a7366e5ba9db82de02c1d8542c2901d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "752a8f34b5b01025e8eb1d16894414d0"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/theory.html",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129366",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1f3294a8d713137c3beaf8d0d46d5f7d16aa3487"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "7f1416dc4b50cdce65d22ae5997f92ac8b1b3e7ba82931f7efedf01ac3c381d0"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c2e853c9fccf248fc030eaa85067ef74"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/date.1",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129383",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "3fe7a8866755ef6f11e7177bcc55145a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "78eea9696a794b9ca79d703410cb5c3530806e1d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "855fa2c1626110accaf7d710efd99cf4288d8813bbc0cbeec7aa7f8f446668cc"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/zic.8.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129389",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "5a11bb70a69d1ebad6d1f487acbc9499"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f005e8876d36bbb828e50ca37d801c709ffac8ec"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e5fec8ff7c46b96dee177fb88b82de75a4062519aa1a686f09ec031d569285a7"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/tzselect.ksh",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129376",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ecfbe02b6fdb40ed042d87ba734b0e2ebebb6dd745ed97cb667b5ffedcec45e6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ae266d2287dc955528fb1677a59d7981"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7c887ebe937b40f1447640aceb8695aa32cb0139"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/README",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-unknown-license-reference", "LicenseRef-BSD-3-Clause", "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129388",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "cd36a27e18b05e141a5709a2606d48bc1b78a9f2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "144f9b2283f92caf3ce234bbb4c336d2a9112d7a9e116443fba3234b83bdf019"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a4de3cda5e76b9092b19155ba34f2a46"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/time2posix.3.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129359",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "43785c3f2042635beb447c259739c723ad1e0f3d1de6fe50ea7df92772010a64"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "8f026cad003375ab3aa343db3947ef91"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7c387f9e1a88de2722e9c0316cac0fc707047825"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/calendars",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129371",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "d70df6296db022fc2ac36d209ba03b3a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "42d875e4b81d00d030855185372a949c7eda617b"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "73ef3150b59ce9414fd2b3dee29e6c9bbae55e48ed120fa9d94d3f0b62f0c7bf"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/date.1.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129393",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "51357a16514bf7b9d384776a3815af356dc41e1282515207a44d882afd79b221"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "35ab619345030414962b41b96908c86f"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8ad3589b228253a3b53e17e4236dd8bede52e166"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/asctime.c",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129394",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "a38939257de9eb92a043b44c3f55281c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3af7203f279894d2961971a29253b777547d7bb5"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ad931e3ce73caf7354a116ff6c7140f81c48bbe25679d90f77eafdbda875892c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/time2posix.3",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10129372",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "e39726ee93f5be8e7642eee75c72105a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "122e6b311f68b8540e5d83b4bd9c78104f4a19ba"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "7b1829f0e2a4a470acfab6d06e46152338cab7f6c97888ff460de9359f8e2105"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "tzcode2024b.tar.gz/tzcode2024b.tar/localtime.c",
+    "licenseConcluded" : "LicenseRef-Public-domain",
+    "licenseInfoInFiles" : [ "LicenseRef-Public-domain", "LicenseRef-scancode-public-domain" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-upload2333"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129379"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129360"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129387"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129373"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129361"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129386"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129394"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129382"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129383"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129396"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129391"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129393"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129366"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129368"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129371"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129358"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129377"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129381"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129374"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129395"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129375"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129389"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129363"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129384"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129398"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129365"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129380"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129364"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129397"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129359"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129367"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129388"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129370"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129376"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129392"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129372"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129378"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129385"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129362"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129369"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2333",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10129390"
+  } ]
+}
