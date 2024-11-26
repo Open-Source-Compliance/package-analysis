@@ -1,0 +1,2420 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_attrs-24.2.0.tar.gz_1732620036.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of attrs 24.2.0
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2024-11-26T11:20:37Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: attrs-24.2.0.tar.gz
+PackageFileName: attrs-24.2.0.tar.gz
+SPDXID: SPDXRef-upload2343
+PackageDownloadLocation: https://github.com/python-attrs/attrs/archive/refs/tags/24.2.0.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/python-attrs/attrs@24.2.0
+FilesAnalyzed: true
+PackageVerificationCode: 9417d8a45b64a68d617fdd9ed692c36f7481d91f
+PackageChecksum: SHA1: 8b48d54d59ba77d1150b5b2c3af232a0d9f38391
+PackageChecksum: SHA256: 79f29a9238a5e9d536a9ce31a0b7cf31946352b37616938fcf432e20c5c4b5b8
+PackageChecksum: MD5: 92254f6b7006f01a946281fb76530c29
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2343
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/utils.py
+SPDXID: SPDXRef-item10151004
+FileChecksum: SHA1: 5bf1a315951791646ddaf9d61557bb090c3c74ce
+FileChecksum: SHA256: 944171f2fd8587f6bc1112f224dadf644cae2868272c6e0cfbc0aeb69006a57c
+FileChecksum: MD5: aea28a76848787bc21e7bcdf17d95230
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_filters.py
+SPDXID: SPDXRef-item10151008
+FileChecksum: SHA1: 6a175bf093722bcc31e53981e35f06dbee16e099
+FileChecksum: SHA256: 05147397ccfc3c329ecb4e7d814e7639fa6e68cc4ade16137b117455bca1e3a6
+FileChecksum: MD5: c7352851bed4787f47581b11d1da1999
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_init_subclass.py
+SPDXID: SPDXRef-item10151011
+FileChecksum: SHA1: 10fb324153e384b0e105fb15cad092856ad63c88
+FileChecksum: SHA256: 63c61d21576132d2b88378c90cbc77b9b41607bed5362ab90c6dff4fbb377c44
+FileChecksum: MD5: 980c0fd16a5c9fc1d2d7fb1613d440a3
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/strategies.py
+SPDXID: SPDXRef-item10150988
+FileChecksum: SHA1: 47d4ab9a5a9c03c8da5562afd1c25182e52f78bb
+FileChecksum: SHA256: fe578a5b4641ed6dc8dbc99c387a3a5bad36c8a6fe89238571c6b44671145cd0
+FileChecksum: MD5: d125be53fede2639d0843cbaf03eca14
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_pyright.py
+SPDXID: SPDXRef-item10150999
+FileChecksum: SHA1: 9d81fda107d9e7e1e87470ed37fb49e971d1795d
+FileChecksum: SHA256: 8a2c7fb9296b447e18bf16906b0d9eea75e918d1cf1570e4a9c2bf1e44adfb20
+FileChecksum: MD5: 849d20ad0f9d3431581d4b0aa72310e5
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_config.py
+SPDXID: SPDXRef-item10151072
+FileChecksum: SHA1: 9fa7e6f37c9bd979f4b68c92f1befe5549421e4d
+FileChecksum: SHA256: cfcd55b7e19e4ffdad6b1b355d97e61f1f535a54b18cf6fa7991f52d31ac4b9e
+FileChecksum: MD5: 740833186d3356ea500cf9695ebcc494
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_converters.py
+SPDXID: SPDXRef-item10150998
+FileChecksum: SHA1: 22b4a7dc57b7363aedfde38ba627a9598146b7a6
+FileChecksum: SHA256: 435af1a2d529aa03720b9f21fdf13415c58b0f08ceca031e81f8cb271abb6a4e
+FileChecksum: MD5: 2ca7d4ea51405d57a7017d4a7dea4a51
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/conftest.py
+SPDXID: SPDXRef-item10150983
+FileChecksum: SHA1: 38abd6cb2173a4a451afe059c33326c52c3fe533
+FileChecksum: SHA256: 11ad10920d294be1fc585a40e8c3085c2ff26caedeae66b51ad4ed73c93c1844
+FileChecksum: MD5: 837d028a52259a68ad77cda707f27154
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_dunders.py
+SPDXID: SPDXRef-item10151001
+FileChecksum: SHA1: 50e7ed6271c9175b3bbd0e99e4d35c8d48d510df
+FileChecksum: SHA256: 7767e8adbb5c66afd08929a38405570d277d8f2f63a6a3a51dc6509a0b80dcfb
+FileChecksum: MD5: fc2552e153c01ea8a6c9739fae26e2fe
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_annotations.py
+SPDXID: SPDXRef-item10151002
+FileChecksum: SHA1: 9b47ed700c0bca368661bf6a89d07c7195dfc26f
+FileChecksum: SHA256: 6718d5c7119363aec7c89518828c4b70d6c7c7c51328a735b554bac5858e9691
+FileChecksum: MD5: 0e062eeb889b3d121b90bee09c807f96
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_next_gen.py
+SPDXID: SPDXRef-item10150989
+FileChecksum: SHA1: d1d7b838887826d6da1f437ebcd3ddd30c92dd4b
+FileChecksum: SHA256: bb26cd6fdf5c408eb4cceb311f08c65e0a3a24fd903cabcb3d1f8a48f350c70a
+FileChecksum: MD5: 12d691819f2c87c1a54f52a25d513488
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_hooks.py
+SPDXID: SPDXRef-item10151000
+FileChecksum: SHA1: d3ca8828190b358b8d7d77659eacd4a0507906da
+FileChecksum: SHA256: d727c8d7b3709dc50e16b3304e3ffe646b35661a6f77493461a77d50c84f2645
+FileChecksum: MD5: 6e6b0dc2dd63162480bf3e03500d1559
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/attr_import_star.py
+SPDXID: SPDXRef-item10150990
+FileChecksum: SHA1: ea08718d888969b31a2939fd98023891709d9d79
+FileChecksum: SHA256: f90fdab39f0d15f71ae30daf64873ce0696138a6135fc40f344cdbde6087a436
+FileChecksum: MD5: 647d6d363b6d6d5175848d1e65709f7d
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_validators.py
+SPDXID: SPDXRef-item10151009
+FileChecksum: SHA1: ec78943ca2dad75da2ca1aa26d5bad6774d7ca7b
+FileChecksum: SHA256: b6dcd140be1bf2d97c986629c76f5ce0c0f63a1114cd1987bd794607747c8be4
+FileChecksum: MD5: 20f18df3d882875908e4ca4c842e17c5
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/dataclass_transform_example.py
+SPDXID: SPDXRef-item10150992
+FileChecksum: SHA1: e7d30215a6c4673e2b2d8a08aacc5f91d1e25774
+FileChecksum: SHA256: 29398ee3e836498d584aabf11589a6e3a694e41093b9a05f499461992e189fb5
+FileChecksum: MD5: 86ab8bd03ae35dd5cdad0f69d11f628b
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_funcs.py
+SPDXID: SPDXRef-item10151005
+FileChecksum: SHA1: cbedbe843142b0c679d896c657319fc35eb44c2f
+FileChecksum: SHA256: 151f49c2f1cd9c8114c6695bb09c57293b683e6a23d1d46fa0a4357e8fcd12f6
+FileChecksum: MD5: 32b6821e24584818662a0cd02c80bd23
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_slots.py
+SPDXID: SPDXRef-item10150995
+FileChecksum: SHA1: e71580ef56264890bc851da2543ba61a23e7d503
+FileChecksum: SHA256: b71a7f365f0a043352bbc61c1fab8457045cdba2c4e2d38aa4fdb3b8351e2a0d
+FileChecksum: MD5: 57ac9e8c99b8ea3afbd0132a11661919
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_cmp.py
+SPDXID: SPDXRef-item10150994
+FileChecksum: SHA1: f3755e4eec49fb6566e6651f5b124fc599b61bea
+FileChecksum: SHA256: b4cd00c312ea48b547338e6aae50b83b915d1fe8d761e0f4e131a6fed2c907e8
+FileChecksum: MD5: a3896173388d5cee3611c811a1dca91b
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_setattr.py
+SPDXID: SPDXRef-item10151006
+FileChecksum: SHA1: 29c69df0abdcc02184cd77d128f6dfc4e3aa9035
+FileChecksum: SHA256: 00e867b00fd5ca113778235abecba5848cb48ed61a03a4872f6f62e7adb17978
+FileChecksum: MD5: 54aae60ae8034a3b6367c5064264319d
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_packaging.py
+SPDXID: SPDXRef-item10150996
+FileChecksum: SHA1: 5244cd88e6c2cbc2c818f7ffb11a728fb2b5549d
+FileChecksum: SHA256: 235a928a939c2654135a085bc0810926308b503917129483ac69e98b815bd9c9
+FileChecksum: MD5: d515826bc08315695594d958e9d79e34
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_version_info.py
+SPDXID: SPDXRef-item10151066
+FileChecksum: SHA1: 6795acd58e4ca5e536f4d786489494525fe86e75
+FileChecksum: SHA256: 7b14aa6f76f913e7cc4ac819025130f5770ba448286cf391099a5c68482500ce
+FileChecksum: MD5: 1b37e176fda08f4babc6c10fa09b7250
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_abc.py
+SPDXID: SPDXRef-item10150991
+FileChecksum: SHA1: 97a2ed3de1988ac10ba8a3749f9df37f342be949
+FileChecksum: SHA256: 55dc6f530c9d3fce3fe812ede3c2d6b5e7407875327f07c8b924536f31b014a7
+FileChecksum: MD5: 75f7366a3417fefd95fe8941e27ff65b
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/validators.py
+SPDXID: SPDXRef-item10151078
+FileChecksum: SHA1: 10c5059b65d0bfb1a8934c47c4962eb378be816d
+FileChecksum: SHA256: f7ce5e4cfe911f2a27eb56046ae309832372d6b10e8495a2497309811c4fb6b4
+FileChecksum: MD5: 6c8648a4a6920c64906f240b7306203f
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_3rd_party.py
+SPDXID: SPDXRef-item10151014
+FileChecksum: SHA1: 8be9b83bb5e8465bbbd9ea07373d30434503983a
+FileChecksum: SHA256: 727fff4152279cb3baee037fb931a59a42c65fc7f101caf16688613133ca45ed
+FileChecksum: MD5: ece886783ee32331f2bf48103ef2451b
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_make.py
+SPDXID: SPDXRef-item10151074
+FileChecksum: SHA1: bc5bf20884e6232cdb336dcb3f883e0cb173650c
+FileChecksum: SHA256: 06310d273e5e268a232556c2a2ea568d72cb11927b5480fcf658ac2db4149664
+FileChecksum: MD5: ac823291912f638aae3a9249fc9f4bf5
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/__init__.py
+SPDXID: SPDXRef-item10151003
+FileChecksum: SHA1: 6fcdc4f28cb156573b73ea3a4622298174f79cc2
+FileChecksum: SHA256: 5be230fa13a76b43315ce684e1e849c7104db7aa30af69f7d91144b4b665e2d3
+FileChecksum: MD5: b2dccaa94b3629a08bfb4f983cad6f89
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/setters.py
+SPDXID: SPDXRef-item10151071
+FileChecksum: SHA1: 70311ccc3bba4add1481c202b8cb0f7c287aefc6
+FileChecksum: SHA256: 7da3107a2068fe76d76273da435a6af0f5de03b66bfae36c56c3cc88a0a6c617
+FileChecksum: MD5: 76b7a72746ce130d5df3f66a73faba69
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_pattern_matching.py
+SPDXID: SPDXRef-item10151007
+FileChecksum: SHA1: e314d98802de213039262059418543a40296f704
+FileChecksum: SHA256: 3d052722c92a5113dfa8c01795b2d34dc2e47b8763c07e84f29f37940124026a
+FileChecksum: MD5: 68a1c06f85b25e1e8f109ced99461788
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/converters.py
+SPDXID: SPDXRef-item10151069
+FileChecksum: SHA1: 35bdda3033f0c52d84a2aa7c7d8cedcac6052183
+FileChecksum: SHA256: bcd6b9f29662f55eaec41ce5e2dd50ac76d07e44f8891140a1dc977bb95c820d
+FileChecksum: MD5: bb59544706041c0137ad88b504643599
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_version_info.py
+SPDXID: SPDXRef-item10151013
+FileChecksum: SHA1: 817409fbab4d16a99941ba2fb338abb7d0695118
+FileChecksum: SHA256: cbe80df371f9903d6522834ab3ad7df3d1f7020529f041bdbfdb850eb65a7727
+FileChecksum: MD5: 038e346175c385ccf54e270e03552b44
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attrs/__init__.py
+SPDXID: SPDXRef-item10151087
+FileChecksum: SHA1: ad260ea6248c80dec3111cf954af73c4dbe6c961
+FileChecksum: SHA256: e451e8f84305397fa0e226a548ae1fc0e8eea07ccb212243642c283a5d364f2f
+FileChecksum: MD5: 3637ce2ab27e221407e649cd74ffcbdc
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_compat.py
+SPDXID: SPDXRef-item10151068
+FileChecksum: SHA1: f011a8b0de3b3ead8aefdc804d9a681886ecf743
+FileChecksum: SHA256: 9f6524ddcfb2c2fd0f9057c696fa91ed2cc35e9e0d3a15a6355fd92ba61f5a83
+FileChecksum: MD5: 51b77c2e4713ba9383092807839d73b4
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attrs/validators.py
+SPDXID: SPDXRef-item10151089
+FileChecksum: SHA1: e44997e633ffc044d4343156e46bc4a7b66525bc
+FileChecksum: SHA256: c5ccbac03e53b5391d086d5fe1759ba1c3d23b47da06393921f5497cfe92523d
+FileChecksum: MD5: 6cb626f6d5a315338101956ba6725d04
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/filters.py
+SPDXID: SPDXRef-item10151081
+FileChecksum: SHA1: 7882d1e7de0239780f644baade84ad14fb5eb596
+FileChecksum: SHA256: 64188a58ba774742df099b2aed7d75a67f565fc36c952db05cce23b272ce19cf
+FileChecksum: MD5: eb85ac22144f1b1eedbbf5e83f5df7d6
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_funcs.py
+SPDXID: SPDXRef-item10151062
+FileChecksum: SHA1: 9258c25eff3c6a70b6fcbd7a5b9c62a33369582a
+FileChecksum: SHA256: 4860e6365103d53337b603bd029da67d17d5236e1710072b350b3ba367815c74
+FileChecksum: MD5: a89093ddc8e19eb99e93d27314b6996a
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_config.py
+SPDXID: SPDXRef-item10150997
+FileChecksum: SHA1: 66763c5e06aad1a492fe383364e526023fcb697b
+FileChecksum: SHA256: 2492c1ddccfec819acc634befcaa4e1383628c4afbd16a7ae65305d900b21ce3
+FileChecksum: MD5: b4d274d602af9cee5b99e6c267a0e9e5
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_next_gen.py
+SPDXID: SPDXRef-item10151065
+FileChecksum: SHA1: bd89af847e6d5b91a486c5518fbd295ff90b619c
+FileChecksum: SHA256: 76119bf7a5458389170644bd65dcf5036bb1549f7dabf453d61c3790b03dfae2
+FileChecksum: MD5: 714a3fca332f518c064a28399c749db2
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/pyproject.toml
+SPDXID: SPDXRef-item10150980
+FileChecksum: SHA1: 6c6f1f0f863d74bd0d977da6badd62ddea5e696b
+FileChecksum: SHA256: 96367bb3a117c627664a354db1069733d938ba02c4e42db72fd42277e00c8df7
+FileChecksum: MD5: d91c22f88747f7569d6444942b6f1333
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_cmp.py
+SPDXID: SPDXRef-item10151061
+FileChecksum: SHA1: 1f1b07b59a233d84f56bf821064218e5ecccf040
+FileChecksum: SHA256: dee987881b60b0462dbcd3fff17ad0c1309d1686485f80c4babefa37ed9add7f
+FileChecksum: MD5: 5f27f1aa0edff4cb6f521ce9edd68a48
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attrs/filters.py
+SPDXID: SPDXRef-item10151090
+FileChecksum: SHA1: c5f461d70a0eaaf55cbe07e0d039a56800903044
+FileChecksum: SHA256: 54e50c66e83db8453a754b80d1d1758c89d42b43cbddf2e03f45414b977e0831
+FileChecksum: MD5: d9d3a0b22ae66f8055addd295dac1b24
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/conf.py
+SPDXID: SPDXRef-item10151051
+FileChecksum: SHA1: 87ae065a8e40576963c94fe66ea710d91274abb4
+FileChecksum: SHA256: 5c615720ae6926c4dbeac2aee958d6c91cf5836fcd9d1d0f548879c60c43503f
+FileChecksum: MD5: 3802065873a397f0b1a7c416d052ca40
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attrs/converters.py
+SPDXID: SPDXRef-item10151085
+FileChecksum: SHA1: d940a8f7111744bcdea2947636fe2acda0ae2556
+FileChecksum: SHA256: f244258eb5707d24d1bbc20dc0493c488d1e1abce659fb6c4fbaccd04ab2a213
+FileChecksum: MD5: a84a9bacae96a5151158dc8c708f2ab9
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_make.py
+SPDXID: SPDXRef-item10151018
+FileChecksum: SHA1: 3a8190563179a730b7d8b0424ca0bb591e2bb39f
+FileChecksum: SHA256: cd36fcccab7a983f017847d938d2cbabe7893f66cdc3dc0ac9434ee229d54e31
+FileChecksum: MD5: 3690150b739798825f0d70f0613b43cb
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attrs/exceptions.py
+SPDXID: SPDXRef-item10151083
+FileChecksum: SHA1: 9b22c60f4666d20e423cdb924b3455dc90e91008
+FileChecksum: SHA256: 0020829a0d7dfaf0c56833d8f6f165d7df523d709030dfdb10db380c02e3ce6b
+FileChecksum: MD5: 97bb60b7a06744e84fb33731cfad7287
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_compat.py
+SPDXID: SPDXRef-item10151017
+FileChecksum: SHA1: e9d37b5304deb70736034dc21e2c6ee6ed9043df
+FileChecksum: SHA256: cbf39b2a3a95cca64f49a72c032a484c560c3dde8e73c0d56ee27f5e2e6edfb8
+FileChecksum: MD5: a6a3dd9cbb1fa7b9f20ab4e6099acf45
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_import.py
+SPDXID: SPDXRef-item10151016
+FileChecksum: SHA1: 1011117189eef994191ca00187d5f498abdb6db4
+FileChecksum: SHA256: 8d54679f76f34f62e52a4f2dc299c8a36b882fea05315b0dbf2d86f56faf110e
+FileChecksum: MD5: 9b4c5f2b4fa1009a6c66a0b7ee47e101
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/__init__.py
+SPDXID: SPDXRef-item10151073
+FileChecksum: SHA1: b0153500db34fe55f063b4fbc48089f58df6c7c2
+FileChecksum: SHA256: 97c13087929913b0826348b58837d20a7162513224055a2ab178d7f446672150
+FileChecksum: MD5: f30de2a100084d333285416411389f29
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/typing_example.py
+SPDXID: SPDXRef-item10151015
+FileChecksum: SHA1: ff6921684c433933e855e4c8f6d9034824642564
+FileChecksum: SHA256: ab0c61ce231e7e942fbf3851a43c6abcf8583a92735664813e488d17b2f8e734
+FileChecksum: MD5: f1c327f7be038323cd1d204700691260
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attrs/setters.py
+SPDXID: SPDXRef-item10151086
+FileChecksum: SHA1: cf4ec727760e9090f7e785207be900f0c0a58374
+FileChecksum: SHA256: 78bd5889d6105774f687dfd2608652651d4501c1c66f54ee093cb41342efd925
+FileChecksum: MD5: a9bf5b0b8fbf97f26fc0be8b20e412f6
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_functional.py
+SPDXID: SPDXRef-item10151012
+FileChecksum: SHA1: 2d5b7f215857636ab133e1313c97dcb8891c35bb
+FileChecksum: SHA256: b65f2ef7b10c61a3fb0eb5d57baae7ace9a92b12e21acf3d093f1760bf580b7e
+FileChecksum: MD5: a690107a415a4019396eab965bc6b3a3
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/exceptions.py
+SPDXID: SPDXRef-item10151059
+FileChecksum: SHA1: 8fb6c7d34e76fd58271367c1a0354155b8dc6fb3
+FileChecksum: SHA256: 1d116ae22c9b9afefe0dc670ca397a3357ae33661e2552bf845c6e6811809e02
+FileChecksum: MD5: 3d6c30e65770bc4f5f1c4835f81a4c8e
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: MIT
+The LICENSE file in the root directory contains the text of the MIT license thus we concluded MIT as license of this file
+Although the MIT itself does not require to print an acknowledgment there is in the root directory a file called:
+CITATION.cff with the following information:
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: attrs
+type: software
+authors:
+- given-names: Hynek
+family-names: Schlawack
+email: hs@ox.cx
+doi: 10.5281/zenodo.6925130
+Thus we added the following acknoledgment:
+The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> The attrs software is developed by Hynek Schlawack hs@ox.cx </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/LICENSE
+SPDXID: SPDXRef-item10150963
+FileChecksum: SHA1: 243e9dd038d3d68c67d42c0c4ba80622c2a56246
+FileChecksum: SHA256: 882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f
+FileChecksum: MD5: 5e55731824cf9205cfabeab9a0600887
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2015 Hynek Schlawack and the attrs contributors </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/README.md
+SPDXID: SPDXRef-item10150964
+FileChecksum: SHA1: c465f89fd1c0e1096482ddddf752233f6de5d228
+FileChecksum: SHA256: be5a5c13b7c7fd32c3a9d99829ccd30b791087f8f0065d297f720b422e235ebc
+FileChecksum: MD5: aafe2666b160bf7f5e91d145fc0aba3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.pre-commit-config.yaml
+SPDXID: SPDXRef-item10150965
+FileChecksum: SHA1: 05c74a94a5977c3ae44a86a1667f5ce9b495eb10
+FileChecksum: SHA256: e9660ecab0b4ca468f26700934446ad5626015b98217420a6045c258485f59cf
+FileChecksum: MD5: 32abd7d613dd8cc4d53803a13e1a6211
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.git_archival.txt
+SPDXID: SPDXRef-item10150966
+FileChecksum: SHA1: 743a0221a126817865cfeb479696a05b80c1e15a
+FileChecksum: SHA256: b016d6207f99b943298e2973b0b8496ed6462799cfa082aebb8ab8192153f589
+FileChecksum: MD5: 4b242c890ffc55cb2aa63740df577fdd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/workflows/codspeed.yml
+SPDXID: SPDXRef-item10150969
+FileChecksum: SHA1: 2fede1bf860d7137fadfe1af38eef5d81c06f8db
+FileChecksum: SHA256: 57ec1f6066acf461ef1f723fcdc14fe27d40f4782d09ff8e514928da842af035
+FileChecksum: MD5: 0cc20151d435893f9ee9d5a3bb321669
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/workflows/pypi-package.yml
+SPDXID: SPDXRef-item10150970
+FileChecksum: SHA1: ac32510eb6a9c7286637e61819f6c95b4917ca35
+FileChecksum: SHA256: ccc8a4b69481eecdd577232beb260b5e96186273dd032c472d6de801ec92af99
+FileChecksum: MD5: 991706f4b84200de0ffe4091b40d5efb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/workflows/build-docset.yml
+SPDXID: SPDXRef-item10150971
+FileChecksum: SHA1: e1b0df3cb0c23a9e6f71d7b5983e258a8709f69c
+FileChecksum: SHA256: b634986fc18a216da225781f6796414e8fb40366e88b5b3338c54862507a0dd5
+FileChecksum: MD5: 5bca136d4384f18c40be0cdf0d4f5b5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/workflows/ci.yml
+SPDXID: SPDXRef-item10150972
+FileChecksum: SHA1: fc65e95d3be9639f7c6f1860ce2ff8815ff40ca5
+FileChecksum: SHA256: 4ebb80592c749ccc69c452b52cafa46639751ce187f3171594bb207621ac4ff4
+FileChecksum: MD5: 7b6709c4ec29f5f5652ae2adcd1262d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/workflows/codeql-analysis.yml
+SPDXID: SPDXRef-item10150973
+FileChecksum: SHA1: 3c3b5ecad0854c139775f38df9290b23a0872f2f
+FileChecksum: SHA256: 3ee8e37115e53414660f84696136573a47cc2599a6fc8ac401f28ca64644052a
+FileChecksum: MD5: 97751e8d0c931e84dd4503945991a556
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/CODE_OF_CONDUCT.md
+SPDXID: SPDXRef-item10150974
+FileChecksum: SHA1: 65cfb72e91aeadb26712b2e62f5db2dcb85884db
+FileChecksum: SHA256: 27a97430680031c269c32dbcf0ef980852a528522fd637a515c14a75f2039ebf
+FileChecksum: MD5: cec283ade946a2c3f0e5e16bc3fd01b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/FUNDING.yml
+SPDXID: SPDXRef-item10150975
+FileChecksum: SHA1: 0f80404d27321285e2905ccd5d275462a1ffb3ce
+FileChecksum: SHA256: b7b822b8296e627bfc1111ef66a51b437128bc6f59896f9cccaab7e5c1de7e94
+FileChecksum: MD5: f33a2834445c80bb9ed80f1de6e3beb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/CONTRIBUTING.md
+SPDXID: SPDXRef-item10150976
+FileChecksum: SHA1: 9cfc713a497cef0ef58a5e1fbc097beab88e0dbb
+FileChecksum: SHA256: 275f93b7a58e191b47e8cb649626209c13b34f988f585376e01a04a560cc086c
+FileChecksum: MD5: e4d5c8e252ba71c678b78fe1ba12ef6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/PULL_REQUEST_TEMPLATE.md
+SPDXID: SPDXRef-item10150977
+FileChecksum: SHA1: 04f516f254bc17cb5d49b7b0ce8a236054ec6f98
+FileChecksum: SHA256: 7b9734066a395743f9ebf366b1c1aa1fcd685b34879724969825f80eca8e0b18
+FileChecksum: MD5: 9dead078ba23f3bffb1846c9ebe4aa9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-UnclassifiedLicense
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/SECURITY.md
+SPDXID: SPDXRef-item10150978
+FileChecksum: SHA1: 7961f15a6211697673eb087114130109086116c8
+FileChecksum: SHA256: d0b2da82fc325e249e15807a189d0311faf10d25b2d94d72617e586a4af0ec43
+FileChecksum: MD5: aac06698e1a57d5abe96181280716182
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.github/dependabot.yml
+SPDXID: SPDXRef-item10150979
+FileChecksum: SHA1: cd7a4551fe37612533e8d08af4d50bee9470260a
+FileChecksum: SHA256: 3a2444884af2ce07e943262e0cff5aa25b6caa24dffeb20462e4c89532da627e
+FileChecksum: MD5: d7dfac8efee9b34cfac96ae6b597c955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.gitattributes
+SPDXID: SPDXRef-item10150981
+FileChecksum: SHA1: 7178179d1a9e44ac269abd606e43be3dee93a2e4
+FileChecksum: SHA256: db80fd694370b907829ef742f5b46ff8206bc61a79b2296103cda8341e9e3045
+FileChecksum: MD5: 5dd0dc21a7638d87fd0252b2c238bb76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.readthedocs.yaml
+SPDXID: SPDXRef-item10150982
+FileChecksum: SHA1: 25859d11300a13fc3052ce44e9403ae1acd631b2
+FileChecksum: SHA256: 820eafdfbfc4eabd840356bdbc61e8c20fd2d2e331e6aa34fc2b579dc37bd4b2
+FileChecksum: MD5: 073677fe3026d862446b5e79b5f5b1d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/changelog.d/towncrier_template.md.jinja
+SPDXID: SPDXRef-item10150985
+FileChecksum: SHA1: caaa48767fa7baebc136480c8a40130b21a98614
+FileChecksum: SHA256: 65b9f1654c74f52c103a537d47f8b60b0d03ac46b3fb5955bc238edfb3e28daf
+FileChecksum: MD5: 95a15ac6539d626545122debffc7fe18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.python-version-default
+SPDXID: SPDXRef-item10150986
+FileChecksum: SHA1: 2c561ed018185a0ab382c0d28e718aa1debe8756
+FileChecksum: SHA256: 7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d
+FileChecksum: MD5: 61939823fbcc7e8de3b61ab105331baf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_utils.py
+SPDXID: SPDXRef-item10150993
+FileChecksum: SHA1: 7ea7c36162783db28a5938f7361dfe4ad3198f8b
+FileChecksum: SHA256: 3e570bef589393b51320d6cb269b781c2575e209ae26c47d28b7a671b17fe11c
+FileChecksum: MD5: 3f8d0e07477bcd56743050eb45b1fe51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tests/test_mypy.yml
+SPDXID: SPDXRef-item10151010
+FileChecksum: SHA1: fd670f1484261112a03d842904936b9499289fe1
+FileChecksum: SHA256: 3c2ed32fd5f25d626833deb5d0a61a85d8002f36877de680e1996be2c2da479e
+FileChecksum: MD5: 2b2c1c7b2f7704a0305d39c331e6d394
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/tox.ini
+SPDXID: SPDXRef-item10151019
+FileChecksum: SHA1: 584fabf1b3270b68a7e4c26a11f333b419fa09e3
+FileChecksum: SHA256: 65bacff3480e87dd99b39c1431c25bc04179d5a1edf706041409086bd3a52179
+FileChecksum: MD5: 2806a903e62d874f8126a3fb31cdb821
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/CHANGELOG.md
+SPDXID: SPDXRef-item10151020
+FileChecksum: SHA1: dd5146979caed4d32c4bc108e330644c3c9bf25e
+FileChecksum: SHA256: 854f7feb5738e3659fcc6c21712cbaa3db214139d8e9884bd0088cfbb8a43235
+FileChecksum: MD5: 3192bea4cca49d3a6d68909e301ef492
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/bench/test_benchmarks.py
+SPDXID: SPDXRef-item10151022
+FileChecksum: SHA1: 0c7e365d0d6303389c53a03ca278eda2fb6c1257
+FileChecksum: SHA256: f966dfa5cf52f4ffb87f2dae29a0d3ac55bc223b9e5c663cbc6ac03a06dca33e
+FileChecksum: MD5: a3545ee3576061c754150d5da22e8848
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/index.md
+SPDXID: SPDXRef-item10151024
+FileChecksum: SHA1: 5ec573e06e6f24b181d3b92ad9781005c17a4756
+FileChecksum: SHA256: d1c711888438eddb3f9bbdb60a497f8e91424b85061649c48a2779b788c4485a
+FileChecksum: MD5: 5f22c5b1a21b482a646ccf5f81c1c177
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/hashing.md
+SPDXID: SPDXRef-item10151025
+FileChecksum: SHA1: 0a128152aa8cab9c394277798a9d660fa3ba57e5
+FileChecksum: SHA256: 2bf64384930cac8c2fe3bc84b45db14f009356808182f5dafb7536f88d461ef9
+FileChecksum: MD5: 5a90535a7adacbb1128f9785475a22cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/overview.md
+SPDXID: SPDXRef-item10151026
+FileChecksum: SHA1: 4c6710d2dd263ab8567ef2b33bcc9193cb415892
+FileChecksum: SHA256: a924d95e999c979dd4bd5d9ff81d762485b691de2cd25844b36d9578992a8e73
+FileChecksum: MD5: 9bdc5a72196cad9f8be2db76d1db2d8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/comparison.md
+SPDXID: SPDXRef-item10151027
+FileChecksum: SHA1: 838c17906ba1d59c62687fd2a45bd40f04e67bed
+FileChecksum: SHA256: 4c213476ce293717909e20b68a17f486fa221c75f3a2d8c1aed30023dac7ef5a
+FileChecksum: MD5: d31994141c553e85aa231355a388adb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/glossary.md
+SPDXID: SPDXRef-item10151028
+FileChecksum: SHA1: f428a073e6cd876e1036d9fe9e62e03b588d92f9
+FileChecksum: SHA256: 7d5ce6c6d686e5a94ecf183dc22abb666e78f821cf5bb9ed2fe54355f39ec0fc
+FileChecksum: MD5: 4717031e00ddcefb7e1835b8ed06c2a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/types.md
+SPDXID: SPDXRef-item10151029
+FileChecksum: SHA1: 8b0dcafca9af689766001d3d15733ae6f10c4c6c
+FileChecksum: SHA256: 12940d063634e49e8eda2f0323f846ae461226f60cb73bff16b90c4148a293cc
+FileChecksum: MD5: b4773d9413fd180233be20e79349e5bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/how-does-it-work.md
+SPDXID: SPDXRef-item10151030
+FileChecksum: SHA1: 12f6a926b3b0eb7e4e59e04dfdff2460be28474e
+FileChecksum: SHA256: a8c89b6ccfb4ed189fdd3a65c99dee62fb8c1cdd1843e0febbf9c7064f301c7d
+FileChecksum: MD5: b84e55da01b9fb72ebfd0d5ec4a57300
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/social card.png
+SPDXID: SPDXRef-item10151032
+FileChecksum: SHA1: 1a2b9cba3150aeea35eab9b96d04494721b5e0ee
+FileChecksum: SHA256: e56dbcf6ce55e60f1dc26ac41e3e39d942069e4dd42a54e6203a24383b61f321
+FileChecksum: MD5: 3b851421878b372824cb908dc3ac073e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/attrs_logo.png
+SPDXID: SPDXRef-item10151033
+FileChecksum: SHA1: 8c16841df04c031ae3a42e9272e5e961fffa5f45
+FileChecksum: SHA256: 4919ee7fb8977fa2610ffa8daa47a1d58b074f51fcb1daadbc759c0818a93ba7
+FileChecksum: MD5: f32ac17f4679c123040dc386b9258a94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/attrs_logo_white.png
+SPDXID: SPDXRef-item10151034
+FileChecksum: SHA1: 6effa1ff8d3b33a2a276c7a3a607f3dc2f6fc2e0
+FileChecksum: SHA256: 586dc063d36325c1e10b7d8c876b0dad182c05eb104b2e60e6b895dd10eda39c
+FileChecksum: MD5: fedaf0c278b674b37fc19b7e9a76731f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/social card.afdesign
+SPDXID: SPDXRef-item10151035
+FileChecksum: SHA1: 226ca1dd693ae20648d1f6b3026ea5301f72dff8
+FileChecksum: SHA256: 0cd1358683a5ee85c8448512949a3491faa4417c6010167c07db1f15355070c1
+FileChecksum: MD5: 82b7d7215327d408f445f85c12499119
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/docset-icon.png
+SPDXID: SPDXRef-item10151036
+FileChecksum: SHA1: 215d2fa75950834176b9edea60f73e2a337b9a70
+FileChecksum: SHA256: 9ac6382faa39f676f70b0c0ad2f409e0f991f7fe4a1adbef19399598331dfeb1
+FileChecksum: MD5: bf19194707096a3bb51c3c3a5fe786e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/custom.css
+SPDXID: SPDXRef-item10151037
+FileChecksum: SHA1: ceb2eac039753b67142d4049cb78eceb9eb4551d
+FileChecksum: SHA256: 428781d4178a9699c149b5bcab1e362d164df84e5bae80eb1375c316f8a22421
+FileChecksum: MD5: dc979c4680e1e6c720832f606d0c768c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/docset-icon@2x.png
+SPDXID: SPDXRef-item10151038
+FileChecksum: SHA1: 12b419db7eb0d810ca5b83e769e241f0d088fa63
+FileChecksum: SHA256: 0e6224a9b8a2ae603ab23c3b803a2a4ba5c6e15d1e788e816a9d3d8cca8128d6
+FileChecksum: MD5: 261727ee2ec33ab46355dfd9b8209b05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/attrs_logo_white.svg
+SPDXID: SPDXRef-item10151039
+FileChecksum: SHA1: ff17ae356b3689a52a78b70ff9d402c719cf5ff3
+FileChecksum: SHA256: c3dc871a98fdd7b8f740b5d6d9508454e9540d1d0d4a1972fbf20db8e6e52de7
+FileChecksum: MD5: df132243df89f08f5ebaca6136124bcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/attrs_logo.svg
+SPDXID: SPDXRef-item10151040
+FileChecksum: SHA1: 4ab6fbb6f41d8d14bd4aba513e30ec042ad5d06d
+FileChecksum: SHA256: 837ebd5aa40ffee160a337c3a9f45d0d7dc19d5361d3630afda86b70f892bd69
+FileChecksum: MD5: 32203bae81e7f53716ecf75a1cec1c2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/sponsors/Klaviyo.svg
+SPDXID: SPDXRef-item10151042
+FileChecksum: SHA1: 3a0a1a3b0f3a3ffbd3b32f0e3192a74da11c6eb1
+FileChecksum: SHA256: bf28538b6596e8fa27de0c380127fb24944fa04bc2ebbb4cd12476e549b7a1e5
+FileChecksum: MD5: 8c3560d44b750f45a4830889c19db0fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/sponsors/FilePreviews.svg
+SPDXID: SPDXRef-item10151043
+FileChecksum: SHA1: 663155abf235b8e3b49aee3849f6de857f7baaf8
+FileChecksum: SHA256: 7e107280351ba8a1a996c16834d57d7de963f8b1bc69ca263255843a61432888
+FileChecksum: MD5: 0847b663d2d413bc58f1d5c4dd37a63b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/sponsors/Variomedia.svg
+SPDXID: SPDXRef-item10151044
+FileChecksum: SHA1: a2337924308bda6bed47f0c8f8fa30e353f0c190
+FileChecksum: SHA256: db895f483a1bd2ac5b5fec893d17f98c294ab596d500dce0540235cf794d69a4
+FileChecksum: MD5: 1a1b5484da1ed6143266405a1bd26623
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/_static/sponsors/Tidelift.svg
+SPDXID: SPDXRef-item10151045
+FileChecksum: SHA1: e23bd73ff6bae088aace3c69fd5ece8ec6d6c4ee
+FileChecksum: SHA256: b2cc22a6ab3f605afc5ee727a96e10b776fa86cf2edd77990830e734bfb80f8e
+FileChecksum: MD5: 2706bf75ebcb7027c9ddb76ddf9b8d26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/changelog.md
+SPDXID: SPDXRef-item10151046
+FileChecksum: SHA1: 662fd12ab360466bae8195a508753fd429a33dba
+FileChecksum: SHA256: fadc4516db6612d819db865542d4ee7f91016e9c0cb064eff01d566ddb33257a
+FileChecksum: MD5: 775987620c764be099164f44505b9de2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/init.md
+SPDXID: SPDXRef-item10151047
+FileChecksum: SHA1: 7c75a85ca3dd8d46425f4b894c061ea2b32cf0b1
+FileChecksum: SHA256: b8d98f4f5bfabfb75a17c8e15ddbfab3c65e301106968298556ee3c27d31ae7c
+FileChecksum: MD5: 3b87ed274ce6771ee6e4e4a6b2e21f75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/Makefile
+SPDXID: SPDXRef-item10151048
+FileChecksum: SHA1: c23352aa4edf9dcb00b67144563086555c715572
+FileChecksum: SHA256: 2c47ba475be2c64bbdec473e9c7df0336fe31c4222c85549cbb00e127ca6edda
+FileChecksum: MD5: 765f97d9ef89f59a400480e9bd279ccc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/license.md
+SPDXID: SPDXRef-item10151049
+FileChecksum: SHA1: 92ac297ddc4cc4e7ce9f3240485c9b02171d904b
+FileChecksum: SHA256: 2da25a89fa0fe1957e42b32fb438290e2796009788c161da4fb9792d53f0146e
+FileChecksum: MD5: 8eb987aaa32ed216c0ab291ac8df010f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Python
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/api.rst
+SPDXID: SPDXRef-item10151050
+FileChecksum: SHA1: a38c8e1e9e46113b4b53086a66a86c96d7f84334
+FileChecksum: SHA256: 756faa43dd8acb01c5eff75a9b5d228ec5e2747dc03fad73bbdf9fdd9ce2a9f3
+FileChecksum: MD5: f76e1f95a0991811e6be6722e59b2bc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/why.md
+SPDXID: SPDXRef-item10151052
+FileChecksum: SHA1: 471c4656f4922ac9441a423acc9a42c24e7a8224
+FileChecksum: SHA256: a0b8b8f1deb139d551f8eb95750a96b8ac1dd846381e24368530f8331e76a2f0
+FileChecksum: MD5: 7d2e6fc7d3b75316a4a6d3bf2aa263da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/names.md
+SPDXID: SPDXRef-item10151053
+FileChecksum: SHA1: 4ab7c09f0a3382e876b660ce99ac6479aff1ccc1
+FileChecksum: SHA256: 7a579900e178aba7c44f4599194fe4641cc18fda61ff6aaea522a0f795f2d12b
+FileChecksum: MD5: cd3af7867e6df421aa8590af95f8e4c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/api-attr.rst
+SPDXID: SPDXRef-item10151054
+FileChecksum: SHA1: 648f4be0c20e51003d56e9e9aa9456e4bf2ba41a
+FileChecksum: SHA256: 877b587ac618fb7e2030766061811069c8e9be037dd1e96fc78a5bcb5bf33f2a
+FileChecksum: MD5: 7a63aab78f65fc1c70a9dd5a939ad63d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/examples.md
+SPDXID: SPDXRef-item10151055
+FileChecksum: SHA1: 59326163860ba940de3b51a75c089a36d7ca0ffe
+FileChecksum: SHA256: 120a56084d8e8197068a6d914760c4fad14c42203c5c420d4e1e8cf832c7f2d6
+FileChecksum: MD5: 0e883675ae5d32f120208ed6664610c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/docs/extending.md
+SPDXID: SPDXRef-item10151056
+FileChecksum: SHA1: b68698973a4e831f1ab38f0bb4b986ddf77a78f8
+FileChecksum: SHA256: 8b577674cf26f514e9df9d259e6482c48f33de9e8d4dbadeee57bf582212de73
+FileChecksum: MD5: bbc6b14f7aa1b61d49148690676624d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/py.typed
+SPDXID: SPDXRef-item10151060
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> NOASSERTION </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_typing_compat.pyi
+SPDXID: SPDXRef-item10151063
+FileChecksum: SHA1: 19a314fc23ee683e71eadd645665fb9a69da983a
+FileChecksum: SHA256: 5c33f9e13527f992a10fad9339079b9b3af0172a268540a8191a5c95be9a9510
+FileChecksum: MD5: 1a8f6270a94c9380a44abd5300bf8c1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_version_info.pyi
+SPDXID: SPDXRef-item10151064
+FileChecksum: SHA1: ac50ff0e7c63c52344a528f376cc769a87557d88
+FileChecksum: SHA256: c7f3372f75ae07baff50b5c05a3c7de7db9d290e072c1f25fa1b1cd450c636f9
+FileChecksum: MD5: ea38221124a8a90c1fa60b3e4940cdf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/converters.pyi
+SPDXID: SPDXRef-item10151067
+FileChecksum: SHA1: e6704d461f83059009095d9bbb0e0b7e42d1730b
+FileChecksum: SHA256: 9a90e85453b70a9c7cc58492574899165ec8007ba8341825c4a7f11ef2e3fec6
+FileChecksum: MD5: bc499ad05268f40ab1bc11aeabd06288
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/exceptions.pyi
+SPDXID: SPDXRef-item10151070
+FileChecksum: SHA1: 65209f054d26319252b590d5afa670b541e09ab7
+FileChecksum: SHA256: cd9abc6c2527280cbd983b41130e366613e1014207a1329e7434089c90fcf373
+FileChecksum: MD5: 6cbe49e6589682f720aa0413a26d8f20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/filters.pyi
+SPDXID: SPDXRef-item10151075
+FileChecksum: SHA1: fceefa7ebf4908477c050111b9bfb19791d31309
+FileChecksum: SHA256: dc9e411be753c65b41935ffe46e351507aefdaabb5bfcbf868334043bfe689f0
+FileChecksum: MD5: d89860a07215ba78015e70399d70a6ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/setters.pyi
+SPDXID: SPDXRef-item10151076
+FileChecksum: SHA1: 187c911e901cff9dcbbfa62748decf8646d8aebc
+FileChecksum: SHA256: 367564685535041e0907c13826e5f2af34d482fb4ca63f29df005d258eee8b1e
+FileChecksum: MD5: b00fe6079c27de8a7c8d98c3183d3415
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/__init__.pyi
+SPDXID: SPDXRef-item10151077
+FileChecksum: SHA1: b1268d99c283b7f64c0a192cbd0b9e78c55cee97
+FileChecksum: SHA256: 69354704f5fa92b086bdb42f3a5fd42aa1339a2d8716c688566d962a6022a95b
+FileChecksum: MD5: 4c8c27c5d579ce97c7fc80b8bc3babac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/_cmp.pyi
+SPDXID: SPDXRef-item10151079
+FileChecksum: SHA1: 3be9fe32e070e9806b44778c2db385385dbce710
+FileChecksum: SHA256: 53efd153f5193b23d4110cd713a44c61041c8e4651636e704c7f7db0dd2cecc3
+FileChecksum: MD5: 46c5ff288089741e90ec6f6e6637f9d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attr/validators.pyi
+SPDXID: SPDXRef-item10151080
+FileChecksum: SHA1: f3094768c83d599e75f830594598913eb5648030
+FileChecksum: SHA256: 2e329fec0a1765fbc649f4f72d1b3ad507e59fde24a276323143e82498cec4ae
+FileChecksum: MD5: 710af0ced167c7ea87f99e97d66b3c07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attrs/py.typed
+SPDXID: SPDXRef-item10151084
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> NOASSERTION </text>
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/src/attrs/__init__.pyi
+SPDXID: SPDXRef-item10151088
+FileChecksum: SHA1: 1f8ea35ddd78d9dfcc17f592baa90c9a446a385d
+FileChecksum: SHA256: a3797dd95b03f641f3f2c95d12d6ffb659414ecdd378bfaf201313c68d9973fe
+FileChecksum: MD5: 58acdeb9070741452c788478e043a48b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/CITATION.cff
+SPDXID: SPDXRef-item10151091
+FileChecksum: SHA1: 74074715be912271fbcbae630dbc6149a41abb92
+FileChecksum: SHA256: 494c6c8b4307aebeabb2deb4578bb61070094f2fa346515df396b04f64fbc19d
+FileChecksum: MD5: 182afa3378390c26f4e532463e069c69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: attrs-24.2.0.tar.gz/attrs-24.2.0.tar/attrs-24.2.0/.gitignore
+SPDXID: SPDXRef-item10151092
+FileChecksum: SHA1: 9a2362f9216a0079b0a3db4d8508bb023d2dafd3
+FileChecksum: SHA256: cb0ff14c2c077a9dc50cd91e11734438f3e9c540ddc68cb13497f9ad29fdc215
+FileChecksum: MD5: a3c56d3b61a100d68109f54f068191b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+
+
+LicenseID: LicenseRef-UnclassifiedLicense
+LicenseName: UnclassifiedLicense
+ExtractedText: <text> An unclassified license reference looks like a license (it contains common license terminology) but we don't recognize a specific license. </text>
+
+
+
+LicenseID: LicenseRef-Python
+LicenseName: Python
+ExtractedText: <text> License by Nomos. </text>
+
