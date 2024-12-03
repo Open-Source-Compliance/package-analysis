@@ -1,0 +1,1224 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_toolz-1.0.0.tar.gz_1733139990.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of toolz 1.0.0
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2024-12-02T11:46:31Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: toolz-1.0.0.tar.gz
+PackageFileName: toolz-1.0.0.tar.gz
+SPDXID: SPDXRef-upload2370
+PackageDownloadLocation: https://github.com/pytoolz/toolz/archive/refs/tags/1.0.0.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/pytoolz/toolz@1.0.0
+FilesAnalyzed: true
+PackageVerificationCode: fe1f6cd4a8ca360007d680f31a117404b3fff078
+PackageChecksum: SHA1: 03a148bf9619504314d07df786c577dbf745a746
+PackageChecksum: SHA256: 32e6908d0e88de273386f662069b96185c6fc17d9dafc8030b5e400fb95fd6a5
+PackageChecksum: MD5: fb1a8653e6a6210adbe970d873a782a9
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-BSD-3-Clause-dda4200be8d787fa704470802d54df9a
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2370
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/LICENSE.txt
+SPDXID: SPDXRef-item10211637
+FileChecksum: SHA1: 78653a88ec8550f2d7425fac201e6fa43be4d1dd
+FileChecksum: SHA256: 053664057b295b2f0c1332291a77102f01a099d87926e449e08a117eea9660bf
+FileChecksum: MD5: ca09cab178326d18433aae982d1edf5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2013 Matthew Rocklin </text>
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/versioneer.py
+SPDXID: SPDXRef-item10211680
+FileChecksum: SHA1: e447f6a0ab5500fb400f3ac14cb74a6da4490892
+FileChecksum: SHA256: b23b4730e4430f64332e6b86646d036ef3917e0447208c3f345b9c3d53f4b552
+FileChecksum: MD5: 563e7bb8c36679e86ea45a356876c4ab
+LicenseConcluded: LicenseRef-CC0-1.0 AND LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+This file is released into the public domain. 
+Thus we concluded Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-CC0-1.0
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/_version.py
+SPDXID: SPDXRef-item10211635
+FileChecksum: SHA1: 015b50e28838ae3136fe15bfc78503c8b107c9ab
+FileChecksum: SHA256: 7af45ad1617861d1c27bc065aaf7ac7d548ccc7fac7c5a048821b9e0ca531258
+FileChecksum: MD5: 52d76e14320c0b406fe594ebe6f49311
+LicenseConcluded: LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+This file is released into the public domain. 
+Thus we concluded Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/release-notes
+SPDXID: SPDXRef-item10211602
+FileChecksum: SHA1: a74f2b84b7191a0acf1408498496a1e2ed5abda3
+FileChecksum: SHA256: 349bcde79a5eda4fcfe58e5482b935d8fb4a46e04b66085fc97adf5a98e8303b
+FileChecksum: MD5: 0491c940c0b7b90861387b86ddb82379
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/itertoolz.py
+SPDXID: SPDXRef-item10211604
+FileChecksum: SHA1: 00110f95b0e38be0b81c029d711a50bdd2dce4f1
+FileChecksum: SHA256: c67632e16d243e9d2020fe1b2db25176f7f164cade484b70352c54d28ac18e66
+FileChecksum: MD5: e6f36f4655784f8395d35ed96e6ebd18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/curried/exceptions.py
+SPDXID: SPDXRef-item10211606
+FileChecksum: SHA1: a14b1aba870fd9dcb1b0ebef7ebda59cf860ce2b
+FileChecksum: SHA256: df543d23e468f88300dde46e0c2e704905d0058969771a279c9af8169d21aae2
+FileChecksum: MD5: 1e9debd2161519766578a13d5310b402
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/curried/__init__.py
+SPDXID: SPDXRef-item10211607
+FileChecksum: SHA1: 7ca1e623cb5404b89444c7cfd50fb414c42f0b97
+FileChecksum: SHA256: 53f7749c594e5983750c97399f9276ad3a1ab8753b4047b8e42304d6344b4f56
+FileChecksum: MD5: f8a4b2c11bddb6cc2a7dbd3413a05f6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/curried/operator.py
+SPDXID: SPDXRef-item10211608
+FileChecksum: SHA1: d197f77a4ba1337dc8d27f4696a831d997b84b3d
+FileChecksum: SHA256: 9a2162b162cedd3795152fe9c27699752c386531e136b2f3faf19273efbb891a
+FileChecksum: MD5: 38b583a62ca48cef6799460711427184
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/recipes.py
+SPDXID: SPDXRef-item10211609
+FileChecksum: SHA1: 199a343f605d4cb6ba0cf1a2b56902993154ff5d
+FileChecksum: SHA256: aff8fbd35520dbfa0ee1b1ee9e8cb5c62ce4d0dfa6f5007039bc8221326e1742
+FileChecksum: MD5: 5fb6686e480a7e865bb6f49c990b6e1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/_signatures.py
+SPDXID: SPDXRef-item10211610
+FileChecksum: SHA1: 367bd88e290826354ff98798943a6ef7d822c593
+FileChecksum: SHA256: 448d86b55352c98c977e7e6f7d73aac87c1789b9471752f9a4f8c01e96c25392
+FileChecksum: MD5: 63828166f2cfb9b35771abb20dcdb950
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/__init__.py
+SPDXID: SPDXRef-item10211611
+FileChecksum: SHA1: f8850f0c306682b4978be1c695dbc7939ef96b90
+FileChecksum: SHA256: f5cf41d6f351cffd0b3b8fadded4c31276463414d8b0b7afadcf442ed6b13e9c
+FileChecksum: MD5: c024019248e3b369031ecc42d9090b67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/utils.py
+SPDXID: SPDXRef-item10211612
+FileChecksum: SHA1: 3f69e22360515e1eefcc12fd286c63a9ca94d706
+FileChecksum: SHA256: 24b957b7cc7f26a4957af98b64f9ede5b649b1d28c0498096f923095c7ce9ec7
+FileChecksum: MD5: e5cd6614c7c3d3d0b026e4124ff415eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/functoolz.py
+SPDXID: SPDXRef-item10211613
+FileChecksum: SHA1: 5bb3b03f7009f99e448645b19fb5b633093339a6
+FileChecksum: SHA256: 79c820560c1d9dd22a5dd1c3776f268260709080ec19433a61847a64c2fcc336
+FileChecksum: MD5: 109062d261673e554828dbec602b8ba9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/sandbox/parallel.py
+SPDXID: SPDXRef-item10211615
+FileChecksum: SHA1: c4036e0c8e5cf2b6283d67aecdfaed596b90dff0
+FileChecksum: SHA256: 045b5e798b9d471d654040280f1b169724823ebc891dd7257671e9c42aab6e37
+FileChecksum: MD5: 80b5799256ca06ef71f54ff2aafc07ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/sandbox/__init__.py
+SPDXID: SPDXRef-item10211616
+FileChecksum: SHA1: 9be3ed218cb96a8e2ff88691f5f10557eead3102
+FileChecksum: SHA256: cac01821a1913a96cdcb6fa56047a255f9490aa10e5fd31620700847d05ce800
+FileChecksum: MD5: c12dbf9728d55ea20feb6d6a115e3336
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/sandbox/tests/test_core.py
+SPDXID: SPDXRef-item10211618
+FileChecksum: SHA1: dc2f06c8dbe5fc2b0abb3320a7d54865a1494f54
+FileChecksum: SHA256: 38ce13274e8297b8911894d09611ede9296f2a02334660d0ce9ad5b80ab1b4d7
+FileChecksum: MD5: c3be62fdb18b5d0e2a703cb61756a071
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/sandbox/tests/test_parallel.py
+SPDXID: SPDXRef-item10211619
+FileChecksum: SHA1: 3d6a7beed759e8f1872e5fa067eb38d9a7e5be33
+FileChecksum: SHA256: 2f5d220242ed071e135ef739b99192c9e8094d6b73c8e43c4fe6523311fbba48
+FileChecksum: MD5: 10328a7eb90c6ddf9a2190b7e2acfc0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/sandbox/core.py
+SPDXID: SPDXRef-item10211620
+FileChecksum: SHA1: 798be7becb4e90aa6f52211180d8ebda8a64174d
+FileChecksum: SHA256: 68cfeb1744bcec54afcd4f6a2dd7e605eb24c91c0df7ce6109b9c06c53adcd3c
+FileChecksum: MD5: 45c4609311f2f860509faba8a7f813fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_inspect_args.py
+SPDXID: SPDXRef-item10211622
+FileChecksum: SHA1: 8f83611313a521c3df46fabcffade7d5bb369596
+FileChecksum: SHA256: 4b51cdbdaba462559060520bb5fcc332a1a5b7e1d83a9fb59bad8f3a5f6d19ea
+FileChecksum: MD5: 8c22596bbf8f5221da8326a969ea2187
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_itertoolz.py
+SPDXID: SPDXRef-item10211623
+FileChecksum: SHA1: c7ab798ec0ce8802f730354193b6b212c74d896e
+FileChecksum: SHA256: 1eb7e81f251a7a1170ec7cbd09762638e90921e232c9282497d0c10574a94544
+FileChecksum: MD5: e79b2c14724eed5515a9de69e0fdf54d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_utils.py
+SPDXID: SPDXRef-item10211624
+FileChecksum: SHA1: 8721d69fea3b8bab8c1bd4fa8a8e1341521c27ae
+FileChecksum: SHA256: d8b2214bff715de004d7fa2737cebc81978037c1378d35eda67605d16f8bd8e1
+FileChecksum: MD5: e885a23096ab0e12597919bc9c71afb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_curried.py
+SPDXID: SPDXRef-item10211625
+FileChecksum: SHA1: 24d3a25b61a197d1e8a072096e4068a44bb513dd
+FileChecksum: SHA256: 2c5d8f91b686565378274739f13ede913b96365874afb791a55da85b3b9fe233
+FileChecksum: MD5: 9374f6dde5b712d155d66b65a6fe179a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_functoolz.py
+SPDXID: SPDXRef-item10211626
+FileChecksum: SHA1: 0b39d3cefccd419dbf476071afe0e8855754e0f1
+FileChecksum: SHA256: c7a5320d8dff10f1e7dfb5a5274a58450b729c7632f44fefe79ae2ebf3c77688
+FileChecksum: MD5: c58410247770d6f53258853c962a0672
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_compatibility.py
+SPDXID: SPDXRef-item10211627
+FileChecksum: SHA1: 2cab74d0e304abc749f5ce824e45f8258a8f30ce
+FileChecksum: SHA256: 5db824eb4a30f763aa6e99a1b29c32ef64fd62951a77fb6ee791e3fb8a3d95ee
+FileChecksum: MD5: aa1051bfe0b8f272011e66cd8a52a1aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_recipes.py
+SPDXID: SPDXRef-item10211628
+FileChecksum: SHA1: f727a8c602bcc2eb4252a233e09fa089df6d087b
+FileChecksum: SHA256: 859fe7b8600e21a7c9ac9c279e3f7e2599da46af6cac85f23d0cb305d352d454
+FileChecksum: MD5: c381ba5409c07b9a241c500d12666ebc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_serialization.py
+SPDXID: SPDXRef-item10211629
+FileChecksum: SHA1: e46b8faeb800c308cfcdc0d3e1ad787d7e592c2b
+FileChecksum: SHA256: c2cbc00a50f878ec5076dfc25b1d9eb7f743d19cb6e22432a730df4d98b09dfd
+FileChecksum: MD5: 6f6e2ef64a9ef400c1ceca1a211ee6fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_signatures.py
+SPDXID: SPDXRef-item10211630
+FileChecksum: SHA1: eb0fa105f2bbf66a68512722bd90ae469da0ee6b
+FileChecksum: SHA256: 5fc2bfad74b5397236db2b1c8f7cd4856c5659354823909fd912725df87fd870
+FileChecksum: MD5: 9d98f5bb616cbffbec906c462d1cae20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_dicttoolz.py
+SPDXID: SPDXRef-item10211631
+FileChecksum: SHA1: 7399dea83a6d31c2046e37dc79cf7e910038aa33
+FileChecksum: SHA256: ed154a823ba7f8e63df8579047d4f5c49c0cd37c1f79d558bba4870ac5b0319d
+FileChecksum: MD5: 4d67dd00d12b5d77e687b80ce3496d13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_curried_doctests.py
+SPDXID: SPDXRef-item10211632
+FileChecksum: SHA1: 02c8721a64c2f975fc125fc280e1f52db544510f
+FileChecksum: SHA256: f69fd1c0329e1bff045d4a2a285009fb3ca9e0a1e9db0de52c5c4e0795d7ab0c
+FileChecksum: MD5: f2ea0833a431eb8e99be6b0675c75aef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/tests/test_tlz.py
+SPDXID: SPDXRef-item10211633
+FileChecksum: SHA1: 097c9e2a6ccca7b320e991605eea9ea61cc813e7
+FileChecksum: SHA256: 2d2e480aa89e44b9230143fe0b94e37557a577a4bd38b5d3606807f397d8916c
+FileChecksum: MD5: 58a0ca08e50671e008bbce6a21dc21c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/compatibility.py
+SPDXID: SPDXRef-item10211634
+FileChecksum: SHA1: 5c9e2c5ed0bb9769148b5a5257572fd72e26322b
+FileChecksum: SHA256: 822398730bf54da3960df07e0b624fda91482796195fd68fd6ce143f30909f0e
+FileChecksum: MD5: 2dfde6fc4aa445f4aebddec3a255b618
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/toolz/dicttoolz.py
+SPDXID: SPDXRef-item10211636
+FileChecksum: SHA1: 325142fe39648de75d7f884e03c142bb2def9159
+FileChecksum: SHA256: b04f3094634b7b385d9a446a07681073149bc1b3baf9cfb84956d8fb2163ba81
+FileChecksum: MD5: e2da557724e6eb08fd523c9a0dbf6fd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/MANIFEST.in
+SPDXID: SPDXRef-item10211638
+FileChecksum: SHA1: 1abaa619b40d9640736bfdb1eaccc5395cb7e89f
+FileChecksum: SHA256: df49dc12d20975eb2922185adf2baa84ebffa72f29825b4411ef454604339b6c
+FileChecksum: MD5: c468c68d4d00d175676ae4741079a1fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/setup.py
+SPDXID: SPDXRef-item10211639
+FileChecksum: SHA1: 98cae0ebefee07317f477035ee93cc263b302da1
+FileChecksum: SHA256: bcbb308246dc613ada15be23394bbdcab7f2a539ede6d8a1a90228eeb11a119e
+FileChecksum: MD5: 8edf665cc80162fc5d876b54125d7288
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/examples/wordcount.py
+SPDXID: SPDXRef-item10211641
+FileChecksum: SHA1: 25ec30c50bab4fecf88b36141454cca990723101
+FileChecksum: SHA256: f90e22067c2e1f06f558b265312fac41abda24f149389c40429784755b484b09
+FileChecksum: MD5: 52993d767f223d28586246dbe7f7e1f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/examples/graph.py
+SPDXID: SPDXRef-item10211642
+FileChecksum: SHA1: fb661e47823574a17fc8d7e93ef6c4f79df0c43b
+FileChecksum: SHA256: 9fcb0ddacc826a0ad9974c5bbde6863aef0938fca886b73ef686583f31afa1ff
+FileChecksum: MD5: 89dc424460584a94c2410d3e72e50584
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/examples/fib.py
+SPDXID: SPDXRef-item10211643
+FileChecksum: SHA1: 2a025a5c0d15c1ca872b5cd3789012ec17de4b63
+FileChecksum: SHA256: 890193c6d46c6cd7d9b4fa440db2da2cbfd89fd03c5762baa3d29c2e965a75ea
+FileChecksum: MD5: 7b29b58964846328a7da11201e005b1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/setup.cfg
+SPDXID: SPDXRef-item10211644
+FileChecksum: SHA1: 7a7a9abcf5f8402b395d7bef6a7ffb71b5321d26
+FileChecksum: SHA256: ae13e28e1a91b76a165aaa0f5154717952b0f5f99cc772a4b7e4d73797946f52
+FileChecksum: MD5: f2ea5f8b0d77029fa8c249f68e2e2b53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/.github/workflows/test.yml
+SPDXID: SPDXRef-item10211647
+FileChecksum: SHA1: a0bb907d76a787073f61d6dbe3f1e73877c464e8
+FileChecksum: SHA256: 8a5eba61ed8952e5b72ae66b71fa8eff5c17067dcc2373f457a1264f54c32aa0
+FileChecksum: MD5: a0d6b27f4a5a9ea85be95857846f1187
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/.github/workflows/publish_pypi.yml
+SPDXID: SPDXRef-item10211648
+FileChecksum: SHA1: d8cc26d67c0974effc103efa77b622c49c719454
+FileChecksum: SHA256: ec583d226f7d0610c6f0295d4348de3f2b7105f9a1eb37d02f81ad50d023283d
+FileChecksum: MD5: a222651a75e12db71029cb1374aad9ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/.github/dependabot.yml
+SPDXID: SPDXRef-item10211649
+FileChecksum: SHA1: 452aa5100df9d52e691c753a443e6a80fe06ec34
+FileChecksum: SHA256: c5a86a069ec804ad5fb5444b2264cdf848f4d0f2276540a77ed41f668b67e066
+FileChecksum: MD5: 179c93fd2fda02f66054038ef1b4f06c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/AUTHORS.md
+SPDXID: SPDXRef-item10211650
+FileChecksum: SHA1: ac04d6b915b2e169fd740188af185a7cdcd1aec3
+FileChecksum: SHA256: d1a4cf6dfc6401595b70fdd33747bc3ccff981341e79abe258292115904e5347
+FileChecksum: MD5: 4891d0e93635e9416ada079d9a94e143
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/.gitattributes
+SPDXID: SPDXRef-item10211651
+FileChecksum: SHA1: 376011b0a6b9f4553d99cdf3b73b684d849af3fb
+FileChecksum: SHA256: a85ddf18243c99e8e3fa488df2cfc9a6432965350c0da95c584d287c2cd95dc2
+FileChecksum: MD5: 4d87027b1b7dd816fc4744a8d04a40b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/tlz/_build_tlz.py
+SPDXID: SPDXRef-item10211653
+FileChecksum: SHA1: ef31202afea33829dd82fcc6d95298253aa36046
+FileChecksum: SHA256: 1399383d4770916e23f5dbfde0b6d8ad144a5e1e1049743e6c1dc7673f47f7ca
+FileChecksum: MD5: 932848f631b7bce00a86f661d708dcc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/tlz/__init__.py
+SPDXID: SPDXRef-item10211654
+FileChecksum: SHA1: 20634ce3e3d70444ed1854c13b948d9a0999f9e3
+FileChecksum: SHA256: 287d6932f64e2a4549fd600f5fabd952c0b42862b1190073c6e9960b382f2925
+FileChecksum: MD5: a7f680b734b1ca2bc3bff9897c5b47a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/.readthedocs.yaml
+SPDXID: SPDXRef-item10211655
+FileChecksum: SHA1: 2627937b491917e3cfa10f19204582c75169340e
+FileChecksum: SHA256: 25496b9b82766baa8bab85b183f56ac8d3ba9a8d8a00441368abc01d6b0fac04
+FileChecksum: MD5: 93a134bb3ca7efa48cebff85ff83d302
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-URL
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/curry.rst
+SPDXID: SPDXRef-item10211658
+FileChecksum: SHA1: c2a480002a861f9abc42dbb129340be268c0cd9a
+FileChecksum: SHA256: c7c3a83c6991c9d2bfc5a34a3ab877ad33152815be1c74d2c2307f3c2c1b90c3
+FileChecksum: MD5: b54fb56bbff339782421a1ccb37bad97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/control.rst
+SPDXID: SPDXRef-item10211659
+FileChecksum: SHA1: 16f09abd41ce0fe64f2e9702952c280a1c330ec0
+FileChecksum: SHA256: 9316bf6cbaacae300a0d5136dfc25e50306bf55acdcb5fb9bcd1383f96807ee9
+FileChecksum: MD5: a2d50bbe18305c135d719deead5b2399
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/parallelism.rst
+SPDXID: SPDXRef-item10211660
+FileChecksum: SHA1: bfd6bd6f13f61156992484a096dd3b369eb93d19
+FileChecksum: SHA256: 4be65ddaf758108ae147ac9fec0d260d970a86bf225cc9ff913958c627af7825
+FileChecksum: MD5: 2dedc3233833e679389ade2782fbdd10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/laziness.rst
+SPDXID: SPDXRef-item10211661
+FileChecksum: SHA1: ef0c21b303c46791d56ce2fc76bafd12175d585f
+FileChecksum: SHA256: b85a566a102036d9d38a5b2c0b40efb8e412e21873a47fb9d4d2ef52ccaf3cb6
+FileChecksum: MD5: b243ae1d1b018686daee72414f353605
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/composition.rst
+SPDXID: SPDXRef-item10211662
+FileChecksum: SHA1: 9ea0c29d6cfb0955787822ca7bb9bf0263e5aa62
+FileChecksum: SHA256: ff59e975b596e4657d3319d4d9ad1dcbd7d59ddcc2b968273207a41b164da34b
+FileChecksum: MD5: 3dea48ae83b6ca790ef90306bddbd95e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/api.rst
+SPDXID: SPDXRef-item10211663
+FileChecksum: SHA1: 6479549c8aa79b1766d0128a278ffc5e7a71f5b3
+FileChecksum: SHA256: 0fc51f39aa48fab13f5a7797a37303bc567a01eb4f4b04ccfe413ad05d6b729c
+FileChecksum: MD5: 376bf915f2fff5ccfd4cf8691409d5ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/conf.py
+SPDXID: SPDXRef-item10211664
+FileChecksum: SHA1: 2c7129f4692ace49762d0e6a44617b1c23171e80
+FileChecksum: SHA256: 95df6205ca1402f3c5e0159532cd2a38019737dbfe4ad296838bacebc88b036b
+FileChecksum: MD5: 2ffb1bdff1addd335e76dafab6aadfb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> copyright 2013, Matthew Rocklin, John Jacobsen
+copyright 2013, Matthew Rocklin, John Jacobsen </text>
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/purity.rst
+SPDXID: SPDXRef-item10211665
+FileChecksum: SHA1: c28f151f93a5429c9e01733c09bf6149f32373b5
+FileChecksum: SHA256: daf9116e1c412b0740bd9cb6e91122eb11bf37a1ac9d2fc8e67bcf094b06d5a5
+FileChecksum: MD5: 58bc19816aa0b7cbae37b2172f380043
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/references.rst
+SPDXID: SPDXRef-item10211666
+FileChecksum: SHA1: 3cdc79318e52060c72c2c0cf43fd6f071408ceed
+FileChecksum: SHA256: 6e13b42d86081698903cb740ef3f9449bd6dc4900cc4a1335915b0b99b10f875
+FileChecksum: MD5: 7c9c92e92d2ca4014d05753694382706
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/heritage.rst
+SPDXID: SPDXRef-item10211667
+FileChecksum: SHA1: 7ac74d9b78ae19972af80624add63a9d2306a3e0
+FileChecksum: SHA256: e03a8a79196c7f218a8766ff5bb9f8a24a32dab33625d1e93408729982aac299
+FileChecksum: MD5: 33795d2fc488eae0be9eb2f08601f603
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/index.rst
+SPDXID: SPDXRef-item10211668
+FileChecksum: SHA1: 1d8a4510bac1c4b24323f238bf7bac3dfcb8c35e
+FileChecksum: SHA256: 8bcef408e0dadfbb15fa72163a46d5280da21032aad1454bc50b2bce2b20cced
+FileChecksum: MD5: d8cda81f29740433b81da7dbc6bd06bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD-possibility
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/install.rst
+SPDXID: SPDXRef-item10211669
+FileChecksum: SHA1: 20d73747a4ecdad70e6f39722246f54828311343
+FileChecksum: SHA256: 9e53b576163510ae6c18e5d9aea7ac0d85fb40619485d7c6f4aab62d49f09751
+FileChecksum: MD5: 32c64065a7e943146ff7991cf747fd35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/streaming-analytics.rst
+SPDXID: SPDXRef-item10211670
+FileChecksum: SHA1: eb974f67e17a6902ffedc31f7b1483cddc2348b6
+FileChecksum: SHA256: 48a68e03af4f6fc7d81ba6eaf02cfc9afe2a81b2d1b4f580a5a25cceac7ce69f
+FileChecksum: MD5: 22a03d63d55121ca317b1e55b1f39eb2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/source/tips-and-tricks.rst
+SPDXID: SPDXRef-item10211671
+FileChecksum: SHA1: 987de68fd0d8bfbd01d980eda6418981e5a59cdf
+FileChecksum: SHA256: b928022fcc7edbe3b12d277104d0b90cd6d6537c87f87219235694dd8f70631e
+FileChecksum: MD5: 13058835db61043d2b30f70c68a6008a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/make.bat
+SPDXID: SPDXRef-item10211672
+FileChecksum: SHA1: 4391acf1d61c0e48139951157b8ecdafe63d7396
+FileChecksum: SHA256: 7f8ffa8c49d45e0bb5647656bd795d76ea15d15991fc0f9497ff013de8977bb5
+FileChecksum: MD5: 266c929bca5c4c049ee3a1b50d1d3d20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/Makefile
+SPDXID: SPDXRef-item10211673
+FileChecksum: SHA1: 0f44e8eea39899d0974c4e64bc3e3fa43a192dde
+FileChecksum: SHA256: ca2eee66895bf38317384d630e0e9f693c951c4dacd193b4edb478ce5b36857d
+FileChecksum: MD5: 7ce17f4c9c42073976c62fb218e8365f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/doc/requirements.txt
+SPDXID: SPDXRef-item10211674
+FileChecksum: SHA1: 3f2afafcbed66c5e867f3835d731f8435f8f0547
+FileChecksum: SHA256: f393411b2eae436583b08ecfc83a3263f865be50f40f1d304a75fdaba181e1ec
+FileChecksum: MD5: e4e6d0fd73a1184c3b4b3526611185ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/README.rst
+SPDXID: SPDXRef-item10211675
+FileChecksum: SHA1: 4b877dd76d4af2bcb3b04c16c8939c4b669e99ca
+FileChecksum: SHA256: 35d92fe6586f30a53af318636702bcc25b59049fca1a32eda19fdd306da25eac
+FileChecksum: MD5: 0517caf8911206f0d283255e68ab5337
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LicenseRef-See-URL
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/conda.recipe/bld.bat
+SPDXID: SPDXRef-item10211677
+FileChecksum: SHA1: 51486fd21ae603ea4a3f8972e0f82ee58cb2f3c8
+FileChecksum: SHA256: 6af7b876973bf4d3d7b3642315eb015d87f6414faeb8709057a33dff7b5bacb6
+FileChecksum: MD5: b8ec58370acfc90b35568f26bcabfb77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/conda.recipe/build.sh
+SPDXID: SPDXRef-item10211678
+FileChecksum: SHA1: 82e201d18fb56aea64231623a8c7340c12de24d6
+FileChecksum: SHA256: 16ed228adcc71dba0d78b9766d18b173de9476b78db721194dc89b3f35006dbb
+FileChecksum: MD5: f99de1a300d4da2af805b6ad9946db44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/conda.recipe/meta.yaml
+SPDXID: SPDXRef-item10211679
+FileChecksum: SHA1: ce43dc8e793b31bb6e2b881648598afcc8e7aa51
+FileChecksum: SHA256: b8674d32a64df4b5e40108869186f59418b661688a570255961b64b26b00b72b
+FileChecksum: MD5: ee1a414310a0acbc5d6f06e552dd20ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/tox.ini
+SPDXID: SPDXRef-item10211681
+FileChecksum: SHA1: 857b972895071480cce4fbbf3370d570d2ceff6e
+FileChecksum: SHA256: 3e3910fb369cfdda495d72148def6aa7ed876d9abacb34439cc37da397c18de9
+FileChecksum: MD5: 93dcb44cf0cb79a692d255b5eddf48e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_pluck.py
+SPDXID: SPDXRef-item10211683
+FileChecksum: SHA1: c4a8cc522e24ef33a3d1f6d2698c249b59c0eb02
+FileChecksum: SHA256: 87a54c066da2fc0c7d8c5a0cb26013c8c17a14a6798a0ecd593980c547e2cfe1
+FileChecksum: MD5: 9a778b53bdac51990f3f2ea939b85477
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_get_list.py
+SPDXID: SPDXRef-item10211684
+FileChecksum: SHA1: 3116bda82109045ad1411946941979cf9e9b760f
+FileChecksum: SHA256: 0a42deafb440839d11c198e5efc25733fb9b4d1d458e1913fd2ef5bcf4ec71ae
+FileChecksum: MD5: 89b2294e3ca60c282ac8b31cb61790db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_curry.py
+SPDXID: SPDXRef-item10211685
+FileChecksum: SHA1: 249e5812b93471b7e6151b2692655240c9570c19
+FileChecksum: SHA256: 6efaaa4d050122f4d3d40f6e840a5089eeb4eb096b7e55faef545e41959fb042
+FileChecksum: MD5: ee28a79a4632b3bbe9d7ef8940079cbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_frequencies.py
+SPDXID: SPDXRef-item10211686
+FileChecksum: SHA1: 4b3bf3a7510dfb7f5f095009fcb0d75a86777e7a
+FileChecksum: SHA256: 3989704026f9fa204787bfe61e6d37cf72bde1d2f882ae91d3c17af130bd1be7
+FileChecksum: MD5: 50b8a79ee9653ebdca8e3a54c43a7ea3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_get.py
+SPDXID: SPDXRef-item10211687
+FileChecksum: SHA1: dda8bc8567b8fa452a29153228b522c780ddc138
+FileChecksum: SHA256: 9085f09b9342274b9deed23848fdaf3ca6c44561faf9e6f7fc7bedce07b777d3
+FileChecksum: MD5: fdee2940241f6701afd5fe2126d8fb05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_curry_baseline.py
+SPDXID: SPDXRef-item10211688
+FileChecksum: SHA1: 9766a907dfb0d42f510147394c46a4ef8e2b8d89
+FileChecksum: SHA256: 4c45ee3dd8c6c9ab315e279a32489b074324e187facb7d20c9a1de4e603e66c5
+FileChecksum: MD5: 0a0fecf9f55dba8677a0a54b7957fe5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_wordcount.py
+SPDXID: SPDXRef-item10211689
+FileChecksum: SHA1: a4c37303a58fda99b3252d71c4612c18726ea282
+FileChecksum: SHA256: 0cda8c3f7dc6d87a2ce793db3c9b4edc9484b7b0933ef6e267e105d3d482ca85
+FileChecksum: MD5: 3b90c30b28e62c1dd738d09c70f57a35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_first.py
+SPDXID: SPDXRef-item10211690
+FileChecksum: SHA1: fe64131d825ffad2919e62bb86ed2a8b2d763df5
+FileChecksum: SHA256: bea8374fdf2d934f422ad8fb65395362ca519211a9d734787c858477368dcbd1
+FileChecksum: MD5: f875cdc8978c123f55d5a632b0c0de4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_join.py
+SPDXID: SPDXRef-item10211691
+FileChecksum: SHA1: b1f44cd7754e4fd2bad939b15983022079a4fb96
+FileChecksum: SHA256: 12572957f771f019310142dd7bb41adb51455417199cf590ad1acf63610b5d3a
+FileChecksum: MD5: 2b00a36679f25ab7415aac1dbfb2b50a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_memoize_kwargs.py
+SPDXID: SPDXRef-item10211692
+FileChecksum: SHA1: 71d834a417204786574d4a1db60be95e0a9def53
+FileChecksum: SHA256: 2436547652b7e9ad9fb57423b4a849fb2c6fc0c418fdef0dad584d2fe6381be8
+FileChecksum: MD5: ecb1ac9e43c825b55eb91f2092828edf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_memoize.py
+SPDXID: SPDXRef-item10211693
+FileChecksum: SHA1: ebb554285ca8c91134424452b01457790d3e62b7
+FileChecksum: SHA256: d2a249c955a560c463dd20d9690281337626aaf11a5efb4eb6fe2bcf63829981
+FileChecksum: MD5: 5722c4b672fd6b22a9c8b9d61b67e7aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_groupby.py
+SPDXID: SPDXRef-item10211694
+FileChecksum: SHA1: 15b1febbfc2063d8a7f0c4c38684455c3afac613
+FileChecksum: SHA256: 88ef3748ea459bcee69481c6bfbaed3ba9b20d19e32063baa2a853599be7c9f0
+FileChecksum: MD5: 5e43d87346b5571a40e4918c3e680bb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_first_iter.py
+SPDXID: SPDXRef-item10211695
+FileChecksum: SHA1: 151ef0a6f6b4a025dc715bd2206b7f1df12c4bd6
+FileChecksum: SHA256: 9eab47eac39d4a1b1393c37768cf5f7cc111928f8905508b8a14f95b76895d7f
+FileChecksum: MD5: 90cb28bf70549b1f8949ccd39f59bf42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/bench/test_sliding_window.py
+SPDXID: SPDXRef-item10211696
+FileChecksum: SHA1: 487b39bb58188806c97152390314debdd2b164f5
+FileChecksum: SHA256: b603e59cc3f66ba1d1aec69ff7e33a0a1b5e5114a5961ee7da1983813254f3f5
+FileChecksum: MD5: 365af08f61a504d360b6c2115c5f2f8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: toolz-1.0.0.tar.gz/toolz-1.0.0.tar/toolz-1.0.0/.gitignore
+SPDXID: SPDXRef-item10211697
+FileChecksum: SHA1: e2917ebaab648b89c1e1b690a9c4dd5aead5fbe5
+FileChecksum: SHA256: 29832d555044f6e12eb44947fcb7ca7f1d4ba3005b1cb9a1fc0e7d2ce47d6180
+FileChecksum: MD5: aa23b3f7093a74c5d07837914f318515
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-dda4200be8d787fa704470802d54df9a
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+a. Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+b. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+c. Neither the name of toolz nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE. </text>
+
+
+
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
+
+
+  
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+  
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+
+LicenseID: LicenseRef-WebM
+LicenseName: WebM Software License
+ExtractedText: <text> Software License
+Copyright (c) 2010, Google Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of Google nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+
+LicenseID: LicenseRef-BSD
+LicenseName: BSD
+ExtractedText: <text> BSD is referenced without a version number. Please look up BSD in the License Admin to view the different versions. </text>
+
+
+
+LicenseID: LicenseRef-See-URL
+LicenseName: See-URL
+ExtractedText: <text> License by Nomos. </text>
+
+
+
+LicenseID: LicenseRef-BSD-possibility
+LicenseName: BSD-possibility
+ExtractedText: <text> License by Nomos. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+ExtractedText: <text> License by Scancode. </text>
+
