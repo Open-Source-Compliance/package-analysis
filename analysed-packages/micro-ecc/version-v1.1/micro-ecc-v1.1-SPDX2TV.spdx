@@ -1,0 +1,629 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_micro-ecc-1.1.tar.gz_1734113922.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of micro-ecc v1.1
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2024-12-13T18:18:42Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: micro-ecc-1.1.tar.gz
+PackageFileName: micro-ecc-1.1.tar.gz
+SPDXID: SPDXRef-upload2428
+PackageDownloadLocation: https://github.com/kmackay/micro-ecc/archive/refs/tags/v1.1.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/kmackay/micro-ecc@v1.1
+FilesAnalyzed: true
+PackageVerificationCode: b1987b585e903d23c775a1718be854318a035a22
+PackageChecksum: SHA1: 95795115930af163bb4cc7cceacbe49c892f6bde
+PackageChecksum: SHA256: 0e39fba553f6ae1870c3033201d3eaa61a59bf4aa3bdbabed7a26e1bb5b7e890
+PackageChecksum: MD5: 532f757a4c1a0fefad22397d07db86db
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2428
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/LICENSE.txt
+SPDXID: SPDXRef-item10654955
+FileChecksum: SHA1: 5b3ba9f70f16129389dd3160507407afda7bd9d5
+FileChecksum: SHA256: ffd8b033d2df7568c25a98866bd92b1656f7da82d7f813c0b2eb85ec36611193
+FileChecksum: MD5: 5660ea7c0fedb3e43cd1bc79497cb8a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright (c) 2014, Kenneth MacKay All rights reserved. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/uECC_vli.h
+SPDXID: SPDXRef-item10654964
+FileChecksum: SHA1: d70e5578dbf0d9971f250bad979c3842ce049cc4
+FileChecksum: SHA256: a8ff7957855e6520674cad4bcaf8f3e752d40f6c3f7501915c3504c777be1e7a
+FileChecksum: MD5: 3614ccba80d5e58f5678e8a28250ca6f
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2015, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/test/test_ecdsa.c
+SPDXID: SPDXRef-item10654972
+FileChecksum: SHA1: 24b08d449fb2dbc065316e4b1a0b5a81105d4d3a
+FileChecksum: SHA256: 2475680886f39fc4b3f93801845c66584cf00ad2048a8c5e8b9fd20d4aaca20d
+FileChecksum: MD5: fe7ebca4bd97c68b6cbbae3578da1f20
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2014, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/asm_avr_mult_square.inc
+SPDXID: SPDXRef-item10654966
+FileChecksum: SHA1: 443c41fca99e74067769f772d2a7b4af89c365de
+FileChecksum: SHA256: 5f6a0775622d011b88fa717d4b7d8e6f09798e749728460850afdbf681702d94
+FileChecksum: MD5: 54ff337081f3de9e1c14ac2e37f8908e
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2015, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/asm_arm_mult_square.inc
+SPDXID: SPDXRef-item10654977
+FileChecksum: SHA1: f8a3d68f275259b96de1ee0856c7c6fc670bc48d
+FileChecksum: SHA256: 0e88a8691784dcde6ad283dd8c4e0ca99799d9826e3924f5d7a084c39c8b07f3
+FileChecksum: MD5: c5804c2d5006b36ee817e95379d651bd
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2015, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/asm_arm_mult_square_umaal.inc
+SPDXID: SPDXRef-item10654985
+FileChecksum: SHA1: 34bbe138e2b70c68f749f5bb29e691d474eaf6f6
+FileChecksum: SHA256: da318a86761206601a7210eca9987803bf7f3bc24ac0549c2bb28f91a6e3b7b2
+FileChecksum: MD5: 313244f6c60349d57dfecc1694920e09
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2015, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/test/public_key_test_vectors.c
+SPDXID: SPDXRef-item10654970
+FileChecksum: SHA1: d6b1b32c9cf88e1b14b620c42f58265e13565623
+FileChecksum: SHA256: 489823e3d4ed689e6887751b84e8182904037039f1ca4e9cd51f6368fd966fc0
+FileChecksum: MD5: 42f9e6a7d107841dc7e533d186f425bc
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2020, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/test/test_ecdsa_deterministic.c.example
+SPDXID: SPDXRef-item10654973
+FileChecksum: SHA1: 8c43bd7dfea95c9e9cc3aec9e1ab28228f441850
+FileChecksum: SHA256: 924491e0bae0e26ffd696536393e661bbada59795cb9675ccfda32480929d5f9
+FileChecksum: MD5: ca06044d529435aaf426791b4501d8c1
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2014, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/test/test_ecdh.c
+SPDXID: SPDXRef-item10654974
+FileChecksum: SHA1: 9e3a442681ecda5cb707907d9c4d4907caed089b
+FileChecksum: SHA256: 08248f2deebc774b6635284bce82ce61de509b3e6b2e93761b58fb78f6900238
+FileChecksum: MD5: 4dd075485898faae893f9a91e52b6595
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2014, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/test/test_compute.c
+SPDXID: SPDXRef-item10654975
+FileChecksum: SHA1: aaf580311c8c3a03c1c2483d6bece59fffedece0
+FileChecksum: SHA256: 35753108fd13fac26760b06e89a44ec0eafcbcf1fb2ad6277f183ab1acde4163
+FileChecksum: MD5: bd1b3ea935f8b3b6e778e0a154ffa858
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2014, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/asm_avr.inc
+SPDXID: SPDXRef-item10654956
+FileChecksum: SHA1: 66eac1aa9df2a477c431cb596b39cb7650324685
+FileChecksum: SHA256: bc29567dfe556f669c64fbb8ec1b352a0dfcb2ca00a1a5378ae2a8b7fb2b4749
+FileChecksum: MD5: b94bb30c3bbe25cd9ea878da52265eee
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2015, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/curve-specific.inc
+SPDXID: SPDXRef-item10654959
+FileChecksum: SHA1: ad21c3937d5ece6ae111c082509957686fe1d9f9
+FileChecksum: SHA256: 9e9d8d6771731dce2e084a4469d0dd2e9ac6245c8773766198a83f82d24b6313
+FileChecksum: MD5: 943ceae4c2266d2e36fe2c241fb2ccdb
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2015, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/asm_arm.inc
+SPDXID: SPDXRef-item10654965
+FileChecksum: SHA1: 89dbd1a2c2a33a3c72715079e6d26fcc90a016b5
+FileChecksum: SHA256: bd37042c9366ad2308c0b42bd997aa36fa04e5dd20a5f6997e807d021dbcd2f8
+FileChecksum: MD5: 4338c7ba29c0c7295cbaa251dc3ac650
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2015, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/types.h
+SPDXID: SPDXRef-item10654957
+FileChecksum: SHA1: f701428564d669bb166d7c16922993a5177e9fde
+FileChecksum: SHA256: 61bd255c0dca4c69dfc779cc5c1fe1cbff47039d4bb7f37578a88f63b7fca466
+FileChecksum: MD5: 6ad40fa1091ef1ca7af058795e5e5de0
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2015, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/test/test_compress.c
+SPDXID: SPDXRef-item10654969
+FileChecksum: SHA1: d849821aadf118d3bab64cc3746a9501fd130449
+FileChecksum: SHA256: 13fccadc50e2eb8a1c62f5aa4a77143568207592e7cb8f3d6fa0ffc40e7afe36
+FileChecksum: MD5: bf8b0046bcd34fa01ebd2e38b0a5807d
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2014, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/uECC.h
+SPDXID: SPDXRef-item10654960
+FileChecksum: SHA1: 00a987461b8afe2c9ddf9186dd91f66498114903
+FileChecksum: SHA256: 9d480aa6920155f68503064bebefb815a82aab318ab305efdcf04674d2a9cba7
+FileChecksum: MD5: 97c33aec0e63faa32d4a9bcf01aa813f
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2014, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/test/ecdsa_test_vectors.c
+SPDXID: SPDXRef-item10654968
+FileChecksum: SHA1: 917ae266cb6ee119d3fe3860a375ef272c5b1b2b
+FileChecksum: SHA256: e1a2d83dbba059d1778df399b9547f4f166074f57aedc1a69002c324b27c3ae6
+FileChecksum: MD5: 8e1bf67e50cf33e51c30239e809a310a
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2020, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/uECC.c
+SPDXID: SPDXRef-item10654953
+FileChecksum: SHA1: 5277245d618cd5f9d77d33c4fef478e51e03893b
+FileChecksum: SHA256: fe8f2c228203e927f7a8bc18ca49676090b2ead042cd1842ab9a07b303b30ede
+FileChecksum: MD5: bbbe4123ee45d687b6ace17950679d2d
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2014, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/platform-specific.inc
+SPDXID: SPDXRef-item10654954
+FileChecksum: SHA1: 87298221bd28c3bd01db6d7e088b646dcdb6baf8
+FileChecksum: SHA256: e0f036628b47fb7180bfaeb0903a41edbbcda8e1ef99098456eb3b1cdcb4531e
+FileChecksum: MD5: 2ba39c5db7dceb08158024d8e9d2a8c8
+LicenseConcluded: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseComments: <text> The information in the file is:
+Licensed under the BSD 2-clause license. 
+We checked the LICENSE.txt file in the root directory, ith contains the text of the BSD-2-Clause license, which we took and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright 2015, Kenneth MacKay. </text>
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/README.md
+SPDXID: SPDXRef-item10654958
+FileChecksum: SHA1: acb65eb71c3185fce36b58829f0f979d6e96b14d
+FileChecksum: SHA256: 6dc943ae31e374dc0307f296dc4fe5a636858a4860c1cae309388a7c68f9ae1e
+FileChecksum: MD5: 701c01cb6b35c0470ba9f0938c220fa1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/examples/ecc_test/ecc_test.ino
+SPDXID: SPDXRef-item10654963
+FileChecksum: SHA1: b6ccd4486d36cec4ee7ca9958ae71a5dee9524cd
+FileChecksum: SHA256: f3bcad7c7f3a28f501ba4d211d76ecddb87395454395274d025a53e26e3b5da3
+FileChecksum: MD5: f01bf507fd8f219fa42fffd6cea149df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/test/emk_rules.py
+SPDXID: SPDXRef-item10654971
+FileChecksum: SHA1: f4ba7d84827bf46f279a05a5e2927b6a6fb1bd21
+FileChecksum: SHA256: 7f43c481668d51ce1b256916a7a8182dc4a0128a924c637bf6b021399a7a3a43
+FileChecksum: MD5: 0423be791f55f53fb0fb11b0ac6645fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/emk_rules.py
+SPDXID: SPDXRef-item10654976
+FileChecksum: SHA1: 85ca277c98866270059cedaa71795af45169c049
+FileChecksum: SHA256: 91a0e9ff8f5a037b816c5a0877a300819320ed3baf2dd060c869fcd6164cc9f8
+FileChecksum: MD5: 48543502b15649e232c7b0de9214734f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/scripts/square_arm.py
+SPDXID: SPDXRef-item10654979
+FileChecksum: SHA1: f6d9eb2988395e01486d1969feda222711e0c76d
+FileChecksum: SHA256: c46b7a2a9080fb2fa94792c99267741587e9eca43253484fb7b51470bb99670b
+FileChecksum: MD5: e6871dab978f3c97c2ad9cb6818775ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/scripts/square_avr.py
+SPDXID: SPDXRef-item10654980
+FileChecksum: SHA1: f28be88e01cf95f4444f24a40b79714228994431
+FileChecksum: SHA256: ba19a724e7db2c6126aa5139142d0bb2155b132e6baa72b4a9321fe3dc321f4e
+FileChecksum: MD5: 9cc3e23ccba018e142914939dbf14bb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/scripts/mult_avr.py
+SPDXID: SPDXRef-item10654981
+FileChecksum: SHA1: c3fcacd65c4b117e10b0d1a9702e7ee8c5cdc326
+FileChecksum: SHA256: 0878bb6f8ca68e1e31200d8adb4b40e9ebf4bbd0cd3fe7e5ca9a87e9104f0d2a
+FileChecksum: MD5: 75fff76cdec846a174d0324a98ff05d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/scripts/mult_arm.py
+SPDXID: SPDXRef-item10654982
+FileChecksum: SHA1: 6486b19ae838446ec22708f4b3654d3506e8fdb8
+FileChecksum: SHA256: 9cbfcd558d4a8f521826234554777c9b0e29cebb9147e8ac42d5e4a3081c92ce
+FileChecksum: MD5: 26df36c536a96f8da926653f3b9cdc27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/scripts/mult_avr_extra.py
+SPDXID: SPDXRef-item10654983
+FileChecksum: SHA1: 125b04becd0553d6d7acf58afbdf95226da7a276
+FileChecksum: SHA256: 7655a51aedb82daa08f0fdee16ddf90b65278caa184ef791b67a0ebe490b9546
+FileChecksum: MD5: e53a1187fe9c0254efd39739f5bd4e57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/emk_project.py
+SPDXID: SPDXRef-item10654984
+FileChecksum: SHA1: d727c885a500a061d249acb3e9423a64289b9ac0
+FileChecksum: SHA256: ed3c41634e6f3f02af8d1a545dee88c17e300e2b7a6b662191f20d51fa059ef9
+FileChecksum: MD5: f9179dfa2baa29ad405f79987f9ca703
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/.gitignore
+SPDXID: SPDXRef-item10654986
+FileChecksum: SHA1: c2b71abde8cdb6ac0141a29c6adc3cae3627217e
+FileChecksum: SHA256: 6b13b84f8bea9299907e67a7d2afcb8e0fcf9e6f8cc2604f773247bd6906e20f
+FileChecksum: MD5: 3ce3e4a90fbe9a27074b11966c004572
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: micro-ecc-1.1.tar.gz/micro-ecc-1.1.tar/micro-ecc-1.1/library.properties
+SPDXID: SPDXRef-item10654987
+FileChecksum: SHA1: 3f5542498fce6dffdef38499ec5e07cf71b33ed3
+FileChecksum: SHA256: 31084632537d01ecb7ecbc5b88af04f29ad78464cfab132a55d119d4f2fa132a
+FileChecksum: MD5: 26bcfd34fdebda1d110337eea8ad9b39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-2-Clause-96f549fa01766dabfd42abcdd029fdf2
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+* Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-2-Clause
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Copyright (c) <year> <owner> 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+  
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
