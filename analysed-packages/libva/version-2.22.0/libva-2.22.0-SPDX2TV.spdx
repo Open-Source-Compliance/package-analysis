@@ -1,0 +1,1868 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_libva-2.22.0.tar.gz_1736857076.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of libva 2.22.0
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2025-01-14T12:17:56Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: libva-2.22.0.tar.gz
+PackageFileName: libva-2.22.0.tar.gz
+SPDXID: SPDXRef-upload2535
+PackageDownloadLocation: https://github.com/intel/libva/archive/refs/tags/2.22.0.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/intel/libva@2.22.0
+FilesAnalyzed: true
+PackageVerificationCode: f84909b8cdc81818bd4cb4ca72dde0010cdf4cd9
+PackageChecksum: SHA1: e300c359c146bcd8a2af831135d4e6af87282bd1
+PackageChecksum: SHA256: 467c418c2640a178c6baad5be2e00d569842123763b80507721ab87eb7af8735
+PackageChecksum: MD5: 8dba13313d724b5e930f06e65b7437e2
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2535
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/wayland-drm.xml
+SPDXID: SPDXRef-item11651469
+FileChecksum: SHA1: b21fd4a71ddd577fb1321f3c5b93b207f9683688
+FileChecksum: SHA256: 74f191ddba3eac823f831c8662003214e20fec9327fba27c72dc291290289593
+FileChecksum: MD5: de61e65c9d8b2ca6de58dba8c4fb835d
+LicenseConcluded: LicenseRef-HPND-sell-variant-8b95eeff824c799ae308da04cad84f92
+LicenseInfoInFile: LicenseRef-HPND-sell-variant
+FileCopyrightText: <text> Copyright © 2008-2011 Kristian Høgsberg
+Copyright © 2010-2011 Intel Corporation </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_dri2tokens.h
+SPDXID: SPDXRef-item11651517
+FileChecksum: SHA1: db4434eb7c5854e5eb9c3b8ed38fc7a1a9858aa3
+FileChecksum: SHA256: 2f1c1bb7953e1ca26cb07fe681d3e38aaebe449999628af62a455d5612fbe263
+FileChecksum: MD5: 72e9ac80e060719e97cc439509b77760
+LicenseConcluded: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-ICU
+LicenseInfoInFile: LicenseRef-Clips
+FileCopyrightText: <text> Copyright © 2008 Red Hat, Inc. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_dri2.h
+SPDXID: SPDXRef-item11651508
+FileChecksum: SHA1: ea4c1496b064334110ec19cf26e388ad89fe70cc
+FileChecksum: SHA256: 7dcd333f073827883b60a71f2084b4bb77a509de69acf98f3808a1cc90980e19
+FileChecksum: MD5: 9094d54ab5061700945fa40ac63f3cc2
+LicenseConcluded: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-ICU
+LicenseInfoInFile: LicenseRef-Clips
+FileCopyrightText: <text> Copyright © 2007,2008 Red Hat, Inc. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_dri3.c
+SPDXID: SPDXRef-item11651507
+FileChecksum: SHA1: 0f58db5992510dc5f253068a6c088828ede7ff1c
+FileChecksum: SHA256: b3d2c23cbf9e896d1af073f285c7a23397ee5c5a65fd0493892b7fc8e7154882
+FileChecksum: MD5: 9c2dd3e307a8064a58e63be944beb64b
+LicenseConcluded: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-ICU
+LicenseInfoInFile: LicenseRef-Clips
+FileCopyrightText: <text> Copyright © 2022 Collabora Ltd.
+Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_dri2_priv.h
+SPDXID: SPDXRef-item11651510
+FileChecksum: SHA1: 803922859d2af25998d8193742f75a124d48323c
+FileChecksum: SHA256: ffac49a4bb3575cff15cf6677b540e1884a712eb9f81f6e8657501a85f175c5c
+FileChecksum: MD5: cc26427fe362b006a54fea972f82faaa
+LicenseConcluded: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-ICU
+LicenseInfoInFile: LicenseRef-Clips
+FileCopyrightText: <text> Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_dri2.c
+SPDXID: SPDXRef-item11651509
+FileChecksum: SHA1: 4e4e7bf6b5d595d7a7078884e29bdbf02614e610
+FileChecksum: SHA256: 4424dd4a12ff127dbd54dfe61d8dbaa297747fbba56b67cd243115ed837e146c
+FileChecksum: MD5: 0cffcd1b575393ff128a40cf3684f71d
+LicenseConcluded: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-ICU
+LicenseInfoInFile: LicenseRef-Clips
+FileCopyrightText: <text> Copyright © 2008 Red Hat, Inc.
+Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_dri3.h
+SPDXID: SPDXRef-item11651513
+FileChecksum: SHA1: f4ea474fa2e4310d9ad909b09657adab0c24d620
+FileChecksum: SHA256: 454e2c61e006cf43ae6eb49a53f52c70119f48e67e589409e89cfabb7eb854d5
+FileChecksum: MD5: 8d29370f96afc546cce0e85d685c5800
+LicenseConcluded: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-ICU
+LicenseInfoInFile: LicenseRef-Clips
+FileCopyrightText: <text> Copyright © 2022 Collabora Ltd. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_dri2str.h
+SPDXID: SPDXRef-item11651506
+FileChecksum: SHA1: 0bdf42f734e58629db92ac06c10328f92d73a99d
+FileChecksum: SHA256: 564a741ad2d2ae5765a7389bb3d0284d96ae1103ad3453e2f9d214514e35bf20
+FileChecksum: MD5: 0eb3c4a2807708fc9bde063c4257d726
+LicenseConcluded: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-ICU
+LicenseInfoInFile: LicenseRef-Clips
+FileCopyrightText: <text> Copyright © 2008 Red Hat, Inc. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_nvctrl.c
+SPDXID: SPDXRef-item11651519
+FileChecksum: SHA1: d7c6391db420b0c43ed0956bc6b6c53c6053454f
+FileChecksum: SHA256: bbe22dd2cb51caf8dc97aef4496c9ebf3484d2be6d6ac128668bb4559b028f44
+FileChecksum: MD5: a70087727bf539c33dc5479e5efb67e2
+LicenseConcluded: LicenseRef-MIT-6d0bc1d1fa2d01ae2646c45679fa985f
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2008 NVIDIA, Corporation </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_nvctrl.h
+SPDXID: SPDXRef-item11651515
+FileChecksum: SHA1: 7f68282d6634bcdf0f38ea35d1cf57bf699b45d1
+FileChecksum: SHA256: 994fe7b0deb1257ef8bcbfcd60ebe67406cf16c4c06b7f2f8fd7c7142cd242f6
+FileChecksum: MD5: b879a589b2073767aca74b9813289f03
+LicenseConcluded: LicenseRef-MIT-6d0bc1d1fa2d01ae2646c45679fa985f
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2008 NVIDIA, Corporation </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/linux-dmabuf-v1.xml
+SPDXID: SPDXRef-item11651471
+FileChecksum: SHA1: 5fb7d6c3ed9ece121c47e22fad7e9ec877bca703
+FileChecksum: SHA256: eccc7a040cf67bba17ef29fc906fecc2d55120701821613a821e272b87d74d96
+FileChecksum: MD5: ac6938754ef97f23c61c9836c9194342
+LicenseConcluded: LicenseRef-MIT-6d0bc1d1fa2d01ae2646c45679fa985f
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2014, 2015 Collabora, Ltd. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/win32/va_win32.c
+SPDXID: SPDXRef-item11651523
+FileChecksum: SHA1: 1f49e0b6610ef8b689e917e771937c3ef4def4a7
+FileChecksum: SHA256: d0c202138d4d2d15023ecb1e7774d2c19063ac4e13784e5dc763f0c51641844f
+FileChecksum: MD5: e6b8797f9ca9d4c19397a66974326e2d
+LicenseConcluded: LicenseRef-MIT-d179f7147dde75e7b9989f4616b19abf
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © Microsoft Corporation
+Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/win32/va_win32.h
+SPDXID: SPDXRef-item11651524
+FileChecksum: SHA1: 6144a81e2a40d3aaf4145045b686eb071f35dcb5
+FileChecksum: SHA256: 758597deed836f172a3f18049d545630946207081fd48a85291248c7c0f6bd41
+FileChecksum: MD5: 3ea93aceefa44b79c8332922e170457b
+LicenseConcluded: LicenseRef-MIT-d179f7147dde75e7b9989f4616b19abf
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © Microsoft Corporation </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/compat_win32.h
+SPDXID: SPDXRef-item11651457
+FileChecksum: SHA1: d31f36d6b134b8c16922207f82557bdda17cf769
+FileChecksum: SHA256: daf484dad0a4d6cf65c9846024c406a570030d8dfd11410161d00bdf4b0dbd60
+FileChecksum: MD5: b9b3774b8c8b0e95f62764d6f0ea20ce
+LicenseConcluded: LicenseRef-MIT-d179f7147dde75e7b9989f4616b19abf
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © Microsoft Corporation </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_wayland_drm.h
+SPDXID: SPDXRef-item11651473
+FileChecksum: SHA1: 4fcb81c0d8163aa93d7bc5da0e38064fbb40fe5f
+FileChecksum: SHA256: d63fc6c946f2af477aaf8853dd8c7dec4292a3d087f589cee5943945719fbc09
+FileChecksum: MD5: b1a04cf2173020f42421f93914260bf5
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_dec_vvc.h
+SPDXID: SPDXRef-item11651521
+FileChecksum: SHA1: 48704a0c9259f0945c173be804c478fc0f999a15
+FileChecksum: SHA256: f7072a0535b51afddd1af9f2b97a15ced66a0f7d61c9ed19593a81c7cfdd68ac
+FileChecksum: MD5: 91c355441b422ee6af0b6d0925c19f82
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2024 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_wayland_linux_dmabuf.c
+SPDXID: SPDXRef-item11651463
+FileChecksum: SHA1: 8d10d43bf879dc4c01d2cdc3d7c865c45b838db7
+FileChecksum: SHA256: 77bcbcddb9fe5133471b7465c184ceb3507db326fbace9ec9e147e5d5984e5d9
+FileChecksum: MD5: fddc931e1489987be37f49fe3e4f7bce
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2024 Simon Ser </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_wayland_linux_dmabuf.h
+SPDXID: SPDXRef-item11651468
+FileChecksum: SHA1: e1e04d95114f31c0cdc99624a5fca5be421505fd
+FileChecksum: SHA256: cc83ccc70815909f017d72c33f36fe540d8d2e70ce6b39341d3fdd7358fc0a3b
+FileChecksum: MD5: 921b9eebd680de52217b23877d506048
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2024 Simon Ser </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_dec_jpeg.h
+SPDXID: SPDXRef-item11651478
+FileChecksum: SHA1: f6958232c1115ad0dc49951dc6b8b87f8a0d0802
+FileChecksum: SHA256: abdf2ec902267cf96b62b98ef6e11482eacfed548d793fdda2ee1dd7542520f9
+FileChecksum: MD5: 9d72b83ddcc92e45873d7d9c4d8f7e99
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_enc_vp8.h
+SPDXID: SPDXRef-item11651499
+FileChecksum: SHA1: 0ab8b9dba8556d7c60a0c696e46923692580c7f2
+FileChecksum: SHA256: 020fb8f4891875b8226e606537d20ce143e6151bccfc8f827bad8cadba4778cd
+FileChecksum: MD5: 254022911a7b5a57e560ac19830e6107
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_dec_vp9.h
+SPDXID: SPDXRef-item11651444
+FileChecksum: SHA1: 5bf65eb658e9b09eae88431be84fc8253651567c
+FileChecksum: SHA256: 7e66bb433e6f4a50753fdcb2da937ed20426f87901b2c78ee8b8baf827786f3d
+FileChecksum: MD5: d30c5c8d421d6def88c1a8e37bb8d82a
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2014 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_drmcommon.h
+SPDXID: SPDXRef-item11651498
+FileChecksum: SHA1: c6c57db6a705b8ee4346f1b31804a346f5c854ab
+FileChecksum: SHA256: a71b5899f36f33bdccf540cc8663b335057ef5daa123e2b2af11f783d76dfc27
+FileChecksum: MD5: 867ffbc0bdfd4a1e47e7dcfc29a6c548
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_wayland.h
+SPDXID: SPDXRef-item11651467
+FileChecksum: SHA1: d66069913254da4d38d10b1c24d68f9126333380
+FileChecksum: SHA256: a055b197a0803993063d84e4383f5bb8f9593753301c953210212f06ff9383a2
+FileChecksum: MD5: 2afb0fdf345c8e2188bd78d4a79405db
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_compat.h
+SPDXID: SPDXRef-item11651528
+FileChecksum: SHA1: 06b10fdea51aa3411aa8e7d41e1d6505613b114a
+FileChecksum: SHA256: b3ae37a62e910f32b4ce43ace596e0a280e8aa60c9426e24c17e29c1d8c24197
+FileChecksum: MD5: 1f90b583f06dfe9c6158f7d9637b9ef5
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2011 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_backend_vpp.h
+SPDXID: SPDXRef-item11651482
+FileChecksum: SHA1: 73eca25526d00fca258edf1532172d8d8f18c972
+FileChecksum: SHA256: c2abf2b69e82bc5b267a5937b0c9274acb3f0c46a11ef0a935ecd01e78b18f56
+FileChecksum: MD5: 79d18ab5df42fb184836c2533743b8f8
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2011 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_wayland.c
+SPDXID: SPDXRef-item11651472
+FileChecksum: SHA1: 9c56a9604ecce314def5d13e8a0b8a68bd795a8f
+FileChecksum: SHA256: b4cd66179d4b65c12657fa3115ff3278ab99016251f9badaa71ed7e168a615a7
+FileChecksum: MD5: 58348623bb6e87a10367d3f54275b50e
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_vpp.h
+SPDXID: SPDXRef-item11651529
+FileChecksum: SHA1: 874058983efeabf701f0fc7b2386775f8156e8c5
+FileChecksum: SHA256: 30f6ed310d6324b4221ad01a58a5e1d36f5ca7f10e3cd97caa58159e904cd9eb
+FileChecksum: MD5: a7fbe779eea52f5dfce0c97d8bf7a9f9
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2011 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_dec_vp8.h
+SPDXID: SPDXRef-item11651437
+FileChecksum: SHA1: a334512f50973dbb0464220106a93d7be42bbbe0
+FileChecksum: SHA256: 8ee23275302a9584901ea6dd9f958b10a3119514c92730df3195764d81d80296
+FileChecksum: MD5: 5d951e9dfce39193567d697bde488900
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_fei_hevc.h
+SPDXID: SPDXRef-item11651527
+FileChecksum: SHA1: f4724b54831c9235f17fd303e742475d7ffb4b08
+FileChecksum: SHA256: 28d64fccb741501fa8d20724587a287996477e3289aedec880458a56ce12170d
+FileChecksum: MD5: 77c8dbf5aa596c48302e8c6e1d60dfc2
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2017 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_enc_mpeg2.h
+SPDXID: SPDXRef-item11651497
+FileChecksum: SHA1: 65fc5aa28ccbb46f899d32890646087f106dd43a
+FileChecksum: SHA256: 4aebd65137ef7089560bf82a68a15a7a2530fce1f0eae185a0f219539e5b246f
+FileChecksum: MD5: a9fb843d1e4a14783c1be44b46f92f91
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/drm/va_drm_utils.h
+SPDXID: SPDXRef-item11651448
+FileChecksum: SHA1: 47578ef79679a30e3a640c1ee450713b58788169
+FileChecksum: SHA256: af05e32e083c69a086ec72abbe39ea03888c3c60c6017dfb8aaa417d42dbd526
+FileChecksum: MD5: 4b6d65f511c806396f0862f4770db452
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_enc_h264.h
+SPDXID: SPDXRef-item11651485
+FileChecksum: SHA1: 980733a2806b7ff9ace2893eeede0e56b9abbfd7
+FileChecksum: SHA256: 2474cc028a8e77d17cb46c825c1688f749ce09f4bf18efc15aae7e77045814e5
+FileChecksum: MD5: f0944c19b5b300326eea7328d2e1535f
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2011 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_dec_av1.h
+SPDXID: SPDXRef-item11651458
+FileChecksum: SHA1: 6259992fe0f08f364c96349cc85484702e6760ad
+FileChecksum: SHA256: fba81be5acc10046c25e5b5cef9fe97d98ecf7d441b9bdc214e7451d84a1a1e4
+FileChecksum: MD5: 0ae01a59c8f44ceaeb58d3ee752efe6d
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2019 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/drm/va_drm_utils.c
+SPDXID: SPDXRef-item11651451
+FileChecksum: SHA1: 2da7072154ed316fb196120216934662b8b56ae9
+FileChecksum: SHA256: 79c5bae7deef0ed1365ca4747cfbe5cacf26873b2ab66951e514e8851786f330
+FileChecksum: MD5: 9f92c009018a3c9b258e96050d2826a1
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved.
+Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_compat.c
+SPDXID: SPDXRef-item11651484
+FileChecksum: SHA1: 562a73e48f75f69ebd934c1fd371cfc5084033a6
+FileChecksum: SHA256: eb2c0a4deb4da6c76885725c5ff52cc9298064c3d74f57e6a049672b18e9a96e
+FileChecksum: MD5: 2afeb06f273adcbb3a648a5e70373a13
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2011 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/drm/va_drm.h
+SPDXID: SPDXRef-item11651452
+FileChecksum: SHA1: 23a1e5bb528460c8898a84a786f940078ba0a4f6
+FileChecksum: SHA256: 73cf45f9fa2c36454378cbf92607d3205dcfa8747ce4578a85ee1b40954c7698
+FileChecksum: MD5: 548ccffc2148a4fe621c6a2c541bceb0
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_enc_vp9.h
+SPDXID: SPDXRef-item11651526
+FileChecksum: SHA1: 11ad6e54025ddab8333a82c7a1b6c47a4fe64896
+FileChecksum: SHA256: 493bda53db163ca8e48391b4f60cd9c1162e6b4f033748de5a0c8f94920eb7ec
+FileChecksum: MD5: 3d8955c8826cda6cc494184cf976bc75
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2015 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/sysdeps.h
+SPDXID: SPDXRef-item11651501
+FileChecksum: SHA1: 193333ba3c4cfd345b6cde295bc9804859fb04a9
+FileChecksum: SHA256: 6548f2249b55aa35ff8004ee1aade239fd337b827b8172253aed97eab2ac0976
+FileChecksum: MD5: f83934df1527704bcb839f2229d9f156
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2009 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_prot.h
+SPDXID: SPDXRef-item11651445
+FileChecksum: SHA1: c4cf994238cde78bfa640f95c934ff15bee0ad2b
+FileChecksum: SHA256: bbb40458abc5cad320e49d0458edb0c8eda6f909a7529ad4758ae6d2673d0823
+FileChecksum: MD5: c0d7cecbd79dc661320c55afb1a61c27
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2020 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_wayland_private.h
+SPDXID: SPDXRef-item11651464
+FileChecksum: SHA1: 1e98a8b72959ddd19275337f505b76e209457eb5
+FileChecksum: SHA256: 42e4b53b01243109f0e41d59b72cf801461a3d2d4a8e718986ee7b162d6d063e
+FileChecksum: MD5: 7dd60571d9a2a994b7ddcfd92f0510a5
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_enc_jpeg.h
+SPDXID: SPDXRef-item11651477
+FileChecksum: SHA1: ea81f233facae50fa78eef91e5a73be4501775ec
+FileChecksum: SHA256: 5e864e285352bffa2a9de26d61064f501af0bdce984ee7fa616a119eeccec7c3
+FileChecksum: MD5: 5a855cb0908a6897571b55cc318685fa
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2013 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_enc_av1.h
+SPDXID: SPDXRef-item11651443
+FileChecksum: SHA1: 9cebea89648907f2cf675d1ee82645202e01e35a
+FileChecksum: SHA256: f7b703128774a9fb3646fabfb3a216a9fad7ba439cd56b33d38b80ad94daf426
+FileChecksum: MD5: 6345006b57ace45f868ac2c8b4ad7ca5
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2021 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_tpi.h
+SPDXID: SPDXRef-item11651481
+FileChecksum: SHA1: adf4aa478be3a059a11082b2f6e423f9cbbd6501
+FileChecksum: SHA256: 94d6b6393530277baae52e06323f30a582a5cb068bdfa5f1a0ae6c5c215f9b29
+FileChecksum: MD5: a3da190a125fbae222df39d32243eede
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2009 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_wayland_drm.c
+SPDXID: SPDXRef-item11651462
+FileChecksum: SHA1: 8648e2311793317cd423163d05af02d44cdd416c
+FileChecksum: SHA256: 33df5368e6856d06d93dfc0872e05f73d0e791e420259e1bb8ecdecbe3ff8f76
+FileChecksum: MD5: d1da52c32d34a590c4c283595f52efdc
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved.
+Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_backend_prot.h
+SPDXID: SPDXRef-item11651438
+FileChecksum: SHA1: 4c39fb4c8165954b520fe3b1c600cd7fa128ffee
+FileChecksum: SHA256: 8d7ae3ced06c471dda1da0659a1e8cc36dbada4a74e91b4ebc30f543d98191bd
+FileChecksum: MD5: 4a4188e53f40451db3d33befce1eb8d4
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2020 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_backend_wayland.h
+SPDXID: SPDXRef-item11651470
+FileChecksum: SHA1: 158c9c7da6a8f65b69710308447fab4e3f478446
+FileChecksum: SHA256: 6f25642892e12f63b64312c7b340f635be3857d0ef0c26ba779a7f9e2cf8aafb
+FileChecksum: MD5: d845ef721339a8568f92de8dc82256d9
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va.h
+SPDXID: SPDXRef-item11651503
+FileChecksum: SHA1: db878c1d0f30427a3035019004cb9e8eeb3ac252
+FileChecksum: SHA256: 7a3da5d93255b82af5128d473854a169cf811b08a6bfad2bf6d1eadcfbc93370
+FileChecksum: MD5: 5454814848f259ba3ea6adc1317bded3
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2009 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_fei.h
+SPDXID: SPDXRef-item11651480
+FileChecksum: SHA1: 5b00da4d16e10be798bfb7dbe5928aca2cb09c51
+FileChecksum: SHA256: 02e3596b0902dcc5d82109e7464ab22be479cde4f5820173d2ba0ed00fdc10cf
+FileChecksum: MD5: 7c4883a3f4bf8f0ca30868105357f658
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2017 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_fei_h264.h
+SPDXID: SPDXRef-item11651435
+FileChecksum: SHA1: 47966069f5965c98308e73af10771a8af55c0f17
+FileChecksum: SHA256: c0503249a26e9bb8971fbbfed15da6baeb559ef19cf38dc80b094abccb7c7238
+FileChecksum: MD5: 778ef6a85eca8960a727989910b23836
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2017 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_wayland_emgd.h
+SPDXID: SPDXRef-item11651465
+FileChecksum: SHA1: af6c83d7551e9a3a81694344d1260d5b57308044
+FileChecksum: SHA256: bf313ab0830939d1e7fb5f6fb01f90d9c6661fbadfec169e74356962c813d1c0
+FileChecksum: MD5: f61a908e8a6a944d5e0d387bfc663e60
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_dec_hevc.h
+SPDXID: SPDXRef-item11651476
+FileChecksum: SHA1: c261154ce6195fe4d531b7d7a58bf866c55bb14f
+FileChecksum: SHA256: 3d8d3b6d1f4ec9ca055769579164352cded8987dfc7c9c5339af88fced45a6f3
+FileChecksum: MD5: 48b84a2c5def18cf0bbaf649fdf760f6
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2014 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_str.h
+SPDXID: SPDXRef-item11651434
+FileChecksum: SHA1: 8356fb189ecf8a4db45421059b0ec8fdb85b9773
+FileChecksum: SHA256: 9d2f5b9ea4f41da38cbe9575bef1f59deb920d7f6736a0843f7e712d20cbf058
+FileChecksum: MD5: 8fe03c5707a92dd035f818057defd0e0
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2017 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/va_wayland_emgd.c
+SPDXID: SPDXRef-item11651466
+FileChecksum: SHA1: 2c79e085f9de84524f11eacb7fde0959994a3840
+FileChecksum: SHA256: 197fbf1ef876ecb08ea4f06b2afc70e384fc3dfac5ef90e3219b03d6c7325b11
+FileChecksum: MD5: 7b4803e324ba1115ee7a6c5ba5e82b2e
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved.
+Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_enc_hevc.h
+SPDXID: SPDXRef-item11651475
+FileChecksum: SHA1: 678f2cc6f0480b13f973f2560cc8a2a8a8953463
+FileChecksum: SHA256: 2264e100efce0246c27eca53fad5298d9f744465e0fb7168b6b62f38a7e345af
+FileChecksum: MD5: f9d40c10446be83abf94ff55562ec151
+LicenseConcluded: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2014 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/COPYING
+SPDXID: SPDXRef-item11651571
+FileChecksum: SHA1: 099b1aff1b937aad419a0cc7cfb474d2d74acf0b
+FileChecksum: SHA256: c86a782ee845b52472dae9b9d79fb915d333628ac0efe49cdce63644814931de
+FileChecksum: MD5: 2e48940f94acb0af582e5ef03537800f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/glx/va_glx.h
+SPDXID: SPDXRef-item11651491
+FileChecksum: SHA1: 5b3f51f76edb515afc6b20f82427fb7550d50d62
+FileChecksum: SHA256: 8e357a428039379347e13f158a9d186fb99f8494b10fdfdf610719ae7b748805
+FileChecksum: MD5: c7b27ebf10e900e26b15ffd9b9b05fe7
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2009 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_backend.h
+SPDXID: SPDXRef-item11651436
+FileChecksum: SHA1: a4c5e4f306a082cd4f7d78edebf0089331fa2d8f
+FileChecksum: SHA256: dd8a63a5433a5b7021a95df7026435c3731f0ca156b53b0e5050e82ad6949487
+FileChecksum: MD5: 5aa19a61f9dff57bbb308449fb5fa896
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/build/gen_version.sh
+SPDXID: SPDXRef-item11651562
+FileChecksum: SHA1: 30dcba11c06d4830f1ef7dfb9eaa6ca1ffaa40ee
+FileChecksum: SHA256: c6546938ace4a758631fb06f63418b14164b1fa0328e6584c2a59f3784d5792f
+FileChecksum: MD5: 938c0a4348c241fde0e6ba38efa21561
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_fglrx.c
+SPDXID: SPDXRef-item11651512
+FileChecksum: SHA1: 492627d31c838c029aba2f4f7d35dd9752e6eac6
+FileChecksum: SHA256: f0a95a1265b07785bd6ad1719f21322fedb5377f8b38c25fe41648220d0854ed
+FileChecksum: MD5: 7e728212b7ee3d78c563c48252432d5c
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2010 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/android/va_android.cpp
+SPDXID: SPDXRef-item11651440
+FileChecksum: SHA1: dd44c998157037efabf601b6b2877ad849f1e897
+FileChecksum: SHA256: 13541a0fbb1bfc5340c1c17505ba5bea72198529ba483fbb086a5527dc939532
+FileChecksum: MD5: de454f44242c53985551effe03b38d36
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved.
+Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_version.h.in
+SPDXID: SPDXRef-item11651525
+FileChecksum: SHA1: 36c9572c01faca620bae93500b7a5726d6f066e1
+FileChecksum: SHA256: bc43db1c59403da2e1ecdd37620469a7c2d8565bfaad9a1064498b8e719a789d
+FileChecksum: MD5: 784e9013427afc358952dba99a4a621d
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2009 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/wayland/Makefile.am
+SPDXID: SPDXRef-item11651474
+FileChecksum: SHA1: 7e004d7b1c5e2c08eb91a9ded08320bee64e9eda
+FileChecksum: SHA256: fa6c4450d6136690bf0014c3271cf206de0033f0ad20842e4068553a914cd5d2
+FileChecksum: MD5: 0a7e5990969a4521afd742edb561d8fd
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_trace.c
+SPDXID: SPDXRef-item11651479
+FileChecksum: SHA1: c64081f4259d30370e27933bf933d66ce8765b98
+FileChecksum: SHA256: 243966fc7887fafb021067625e73cbd225078c25d4db4015b30f3b10a5499327
+FileChecksum: MD5: a961ed485c3b0c8bae501045623affc1
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2009-2024 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_x11.c
+SPDXID: SPDXRef-item11651518
+FileChecksum: SHA1: 850bc950dbbebe963d77600d21db7028c3f24bf0
+FileChecksum: SHA256: 655253ba390f4a851ee5416a8420a8cc86f960efa5f2b9ff4a6e12c4cd257640
+FileChecksum: MD5: 63fd7c573ad31f85517a505a00daf4e4
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved.
+Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_x11.h
+SPDXID: SPDXRef-item11651530
+FileChecksum: SHA1: 69e049ee9f615aec06a6a9d180334f826e4a39ca
+FileChecksum: SHA256: b8a6dac505ef5fa8772308ba51c7956b2813cbaa244c68379f4e880b80379de5
+FileChecksum: MD5: a7e7af265efd6e00367f2c9e9a2b2bb5
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_dricommon.c
+SPDXID: SPDXRef-item11651511
+FileChecksum: SHA1: 368faaf5c215de36449c33bddbdedd2eb7bfe66c
+FileChecksum: SHA256: c15dca7892ea0ccb497987518b7a761205fd6aaad671509be9057cd610b676d6
+FileChecksum: MD5: 0dc905516227b4e1f8c31bd220a712b6
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/Makefile.am
+SPDXID: SPDXRef-item11651573
+FileChecksum: SHA1: c02763b757de8a96a764b72d3f406d52f61105d6
+FileChecksum: SHA256: 203ff1b5e4493d961733d510a912919eece79b2f17282b3d9e048673494c2dda
+FileChecksum: MD5: 2ed15b751e8cdd871968e1b2c5219217
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/drm/Makefile.am
+SPDXID: SPDXRef-item11651455
+FileChecksum: SHA1: b166de46f174604cfd5285823825ebebea0c2f50
+FileChecksum: SHA256: 357e1daa7747809409e3bac86fafd637b3872a715f32dce355f9130800f88e1a
+FileChecksum: MD5: 888ed18b20090a0ee43f29e6cc497a54
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/autogen.sh
+SPDXID: SPDXRef-item11651560
+FileChecksum: SHA1: ba1f04828377bf141750df621dd68f34a2497949
+FileChecksum: SHA256: b85d680a9c6cc72a0e693f73fe7328300e402c5bf6c70b0fb8ed6862acfd183c
+FileChecksum: MD5: b3400b3a5935b340dc832e49b04be12f
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_egl.h
+SPDXID: SPDXRef-item11651502
+FileChecksum: SHA1: 0a8b3ac936d3490bfb7b02013792d72518c47330
+FileChecksum: SHA256: 9aca64c0c139355da196b58d50fe6ab6d7850286fdf0381cf0b51ab1a994357b
+FileChecksum: MD5: b41edef2f98a19e2d6292cdce70fe7ec
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/Makefile.am
+SPDXID: SPDXRef-item11651532
+FileChecksum: SHA1: b0db7df5686c6b46988f72ba7c062570e8239ce9
+FileChecksum: SHA256: b53a53802c96033fb13079ba6049b11d98db591c7b29096757c1d7497701271f
+FileChecksum: MD5: 739227ca5a93e76676c4517e3531f73a
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_dricommon.h
+SPDXID: SPDXRef-item11651505
+FileChecksum: SHA1: d9e1d778481d5e95b03441420a82b4012042fa67
+FileChecksum: SHA256: aae936d116751be843e80d92421c1750b0ef33ac892e19d5173ae5d85a791427
+FileChecksum: MD5: e4c7f0f9efc2c520c49599564483ae22
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_internal.h
+SPDXID: SPDXRef-item11651460
+FileChecksum: SHA1: c96879fc4eb97d7c02d05d7e253bdd954bceb9d6
+FileChecksum: SHA256: c734759518cff5eac039d145e88dd916a56a131a9cfc8a06f75b8ce9f2f63504
+FileChecksum: MD5: 8ea0f36e81d7ccdaf8438ad7dfc4d238
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2017 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/pkgconfig/Makefile.am
+SPDXID: SPDXRef-item11651546
+FileChecksum: SHA1: 07c1342889af43430b802f888f9f38ea0113b1cf
+FileChecksum: SHA256: 13aef2f2981153590037ad32773fe7ab482bba113b8fcf165a3ba7dcdefc754c
+FileChecksum: MD5: eeff1ce6cb2bb04256ee61dd3d54db24
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/va_fglrx.h
+SPDXID: SPDXRef-item11651514
+FileChecksum: SHA1: 48485f3d2d50d8a8ba4ecbfdea834a2dbf31b2a3
+FileChecksum: SHA256: d505e8781b3b3235b9afef3ffae6cba7eebffb109057c20365b4db29b8bf8051
+FileChecksum: MD5: 3c11a744eff9c8aea4ccde7ae2c817bb
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2010 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/glx/va_glx_private.h
+SPDXID: SPDXRef-item11651488
+FileChecksum: SHA1: dc9d5a6f1c27639d510148722c14b4ff9d51d1ac
+FileChecksum: SHA256: 38f96f23349e5fd1d16004a4f757db305a33dabb7727dfb41373bd566ba91986
+FileChecksum: MD5: 5424440c60771fb636746b159add6b36
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2009 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_str.c
+SPDXID: SPDXRef-item11651494
+FileChecksum: SHA1: 86b440e75b11357747e04044b0f6866f5cbe252e
+FileChecksum: SHA256: 0b4363e9b6fc2c49efa194690e23e94211971aa2af746d6d8d330f30d782d87d
+FileChecksum: MD5: 02ba5cf1763bb6c4d765f5536cde8244
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2017 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/android/Makefile.am
+SPDXID: SPDXRef-item11651441
+FileChecksum: SHA1: 5d62fd9e4d523257fb3ee6d0146c4d9473bf3df4
+FileChecksum: SHA256: b5ff800152fb7e43c175feb727533cc3e9d535c84ff0232ae49eeab99a10c43b
+FileChecksum: MD5: 1c39a14421ab05d9320c2e21c46bc6d0
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/doc/Makefile.am
+SPDXID: SPDXRef-item11651569
+FileChecksum: SHA1: c828e4bfb9ccfbcb713a59dc4753ab37bce65239
+FileChecksum: SHA256: e8acf2874932b832695e7311d63f76b771c8174779c470a40aa0ad2630cc64d8
+FileChecksum: MD5: 1e62f3ce4b93ea7f07bf6d56c84e7ef8
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2011 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/glx/va_backend_glx.h
+SPDXID: SPDXRef-item11651492
+FileChecksum: SHA1: 5fb72e53e97d67d8e01f5006cf1bb2388b54e7b2
+FileChecksum: SHA256: f783f4f23450d9b8f4e1a3b126a6c98e1bc412dd7dfcce142958f6ab0b3a6706
+FileChecksum: MD5: 243f558fe6dfc8d6b6aa9ec6f779823b
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2009 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/drm/va_drm_auth.h
+SPDXID: SPDXRef-item11651450
+FileChecksum: SHA1: 4353c86d9c447ec684e744cc3fb1cfa9c31c017b
+FileChecksum: SHA256: 157ad769285fabdb3198e07367da18c8ec70aa38e07b4c0262b04ec971c01ae5
+FileChecksum: MD5: 2d097ecefa149bf79cbd1c4bb32ab0c4
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/dri2_util.c
+SPDXID: SPDXRef-item11651516
+FileChecksum: SHA1: bd3f92455a6207590f8578cd68f8f22249e005d7
+FileChecksum: SHA256: 141fa0ad2da6314901985223628be7f0d119b912184dcb54ade13a1b24dc9530
+FileChecksum: MD5: 6195d4058c2d6fbd464c6b71505a9341
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/glx/va_glx_impl.h
+SPDXID: SPDXRef-item11651490
+FileChecksum: SHA1: ba1bc24446791642d1058851a07a7a365b484d8f
+FileChecksum: SHA256: a5f15340a82f8a5f16e45dae4f39e627b8b59b45cc74c048ad93828d180b85f2
+FileChecksum: MD5: 90ecb92e4f0e16952a0946191db180b7
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2009 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/drm/va_drm_auth_x11.h
+SPDXID: SPDXRef-item11651447
+FileChecksum: SHA1: 54b2bf1bc8225e3163ffedfda19069ae777b71d2
+FileChecksum: SHA256: 92980fb07f0ec3406e0f40669ab564fc23e6d7c62ee595b9714fcf7fae3b3b54
+FileChecksum: MD5: 96aa5518f4afb0aefb4e10da6b9cccbd
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/glx/va_glx.c
+SPDXID: SPDXRef-item11651489
+FileChecksum: SHA1: 6a4c2741892e12e5f765a89ccbab57f5a3477a40
+FileChecksum: SHA256: 1cd15c9e34c86b83f00d09a8b6377c4fa9f61cd8adb6f6f949e0352686116523
+FileChecksum: MD5: 0a419005c018f266c739f4345a5a3a2c
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2009 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/drm/va_drm_auth.c
+SPDXID: SPDXRef-item11651453
+FileChecksum: SHA1: 4601c75970544e0cf8de539f22e9c0c79585f13c
+FileChecksum: SHA256: 554adc319646bdc53039645e6f6feeb4a8a3b933fd8762c4e7a7cc07061b8a08
+FileChecksum: MD5: f81817c75e2a09547a4f8f04334fc0c2
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/glx/Makefile.am
+SPDXID: SPDXRef-item11651493
+FileChecksum: SHA1: 55a2248ec2f9c5fec660c6ec776526ab05ab3dc7
+FileChecksum: SHA256: 59fd0af182ef90ac436a7e7e8dba2079a2342e5ccb79c7d3993c4d5b5318a166
+FileChecksum: MD5: ebc2d9eae456fd6f7328b2ec200b88b3
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2009 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va.c
+SPDXID: SPDXRef-item11651483
+FileChecksum: SHA1: e12d7efbc5810e2382dcb0226022b9ff6bca4160
+FileChecksum: SHA256: 30c55ad3da71878152097275a7f1e5c26567d675b1cb4816deab52bce52fcc34
+FileChecksum: MD5: 3d160efebb22fb6b0a788f5f351be9fe
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/drm/va_drm.c
+SPDXID: SPDXRef-item11651454
+FileChecksum: SHA1: 6209d23e11a840751b0391a59941cc10759ef05d
+FileChecksum: SHA256: d8a8aaaccaf5b2fe78ebef15cc582b5ac16ef469ad3c49911f0aafe8d661e4f6
+FileChecksum: MD5: 34b70be1e51f2538984e4f73ce88c574
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved.
+Copyright (c) 2023 Emil Velikov </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/configure.ac
+SPDXID: SPDXRef-item11651537
+FileChecksum: SHA1: 59b6c92668467695b84cf7cb4b005d07072b0358
+FileChecksum: SHA256: b2cb38939c452dd117cdd1c67f9a50d103351db43ce65e7f2c81611d840e4b84
+FileChecksum: MD5: 7de0642d093ac1c48e10a5834aed10c5
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/Android.mk
+SPDXID: SPDXRef-item11651500
+FileChecksum: SHA1: d74e5dcfecad10e7a0d7cedfc4dbec5f6c1acf7b
+FileChecksum: SHA256: 8c20533766eb9db9a4b397715a19e00daf8b77c2e641a1e716927b1d6d0a8e1d
+FileChecksum: MD5: 2ef9cf88977e32d3d21e3b60abb59d3b
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/glx/va_glx_impl.c
+SPDXID: SPDXRef-item11651487
+FileChecksum: SHA1: 2539fe8a9380211ebbff089571207c95008be686
+FileChecksum: SHA256: 2d89ed1e36d74e1ff4b3f4c228e01a7c12597e6b18c7ce762cbe147aa76fb640
+FileChecksum: MD5: e78248fbe8739b0675d6302369e5a3b3
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (C) 2009 Splitted-Desktop Systems. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_android.h
+SPDXID: SPDXRef-item11651442
+FileChecksum: SHA1: 4f423ee71b8434023ab038c21629aa8312e520ff
+FileChecksum: SHA256: bd6753f542b2e3406d283b69f6acc62c23a078a99eb26bf55fd764806372b0f5
+FileChecksum: MD5: 55b7ace51926db134fef4f3b9042651d
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/x11/Makefile.am
+SPDXID: SPDXRef-item11651520
+FileChecksum: SHA1: 259167fd52a7eb9c31f2405975c554cb4133b908
+FileChecksum: SHA256: 7e182a8c230fb7016a4e076e78cd6b5d5a6c00568857a67706a01a28004501f4
+FileChecksum: MD5: 8b2c238d4745bd4a8eaa637251bfac99
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/va_trace.h
+SPDXID: SPDXRef-item11651531
+FileChecksum: SHA1: 77d84180bca483fd6ffa555bdc3c228845e2a8d6
+FileChecksum: SHA256: c3c2eefeb4074b83b2ee6cf28a147a2c7d02780c65043566b9481b930f6b20b2
+FileChecksum: MD5: 3355a2e597f8fef06c72da78021ad51c
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2009 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/drm/va_drm_auth_x11.c
+SPDXID: SPDXRef-item11651449
+FileChecksum: SHA1: febe1dcd1dac7ce601b04a7c7d164e44fd45a879
+FileChecksum: SHA256: 0ec8878d06029af4fd94832aac54822a883487f1ed8e083862cf23099c617868
+FileChecksum: MD5: eeb5fd476e61eecd1f0df267222bba0c
+LicenseConcluded: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2012 Intel Corporation. All Rights Reserved. </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/libva.syms
+SPDXID: SPDXRef-item11651456
+FileChecksum: SHA1: 37ccf54f6d6947011c87b1168e40328c6292574c
+FileChecksum: SHA256: 0f3d870e89fa465832c33a5ae3db0afc2f1910aadd4bb2b2b96d4dae34d0fe60
+FileChecksum: MD5: 219d53bf8b04bf558ec0526e939c7f09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/libva_win32.def
+SPDXID: SPDXRef-item11651459
+FileChecksum: SHA1: b19a0b731964d41681fa48b1f05797534aa283b1
+FileChecksum: SHA256: 63f2e76bdcd5bf9f1fc830b49b4dc49f181dd262fff4cfcb8b738f1d5b4b6c20
+FileChecksum: MD5: cd05b60c724747f4caa776783eae59ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/libva.def
+SPDXID: SPDXRef-item11651495
+FileChecksum: SHA1: 8da07612923e86f56d2765eb54ab9d613554b8d1
+FileChecksum: SHA256: 2234b6956c691aa39536451a933608d4fa05131831eea327420a69f97bba3161
+FileChecksum: MD5: 908c5ed6687c02712445faa068e65e8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/va/meson.build
+SPDXID: SPDXRef-item11651496
+FileChecksum: SHA1: 2190c68f737bec42da885e336f537c0984f91710
+FileChecksum: SHA256: 1e4fb7e9b11259ab4051c8731cdf65c35dbd07925347ea2922c304abc2f7c309
+FileChecksum: MD5: 6d017ce63eeb4827a7d2544241faca06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/security.md
+SPDXID: SPDXRef-item11651533
+FileChecksum: SHA1: f7d7d62d70f774da8636c563d5d309b50f97fb82
+FileChecksum: SHA256: 1f40fa77cd9f1dfd0937744ec3be402980526d81fa3678c9ac752b35d82f232f
+FileChecksum: MD5: 1d2dd4aa907f845860efc722201ef56e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/style_unify
+SPDXID: SPDXRef-item11651534
+FileChecksum: SHA1: 0f3e8ddf4147c3bd02dcbcd2c47c1bc651cb7271
+FileChecksum: SHA256: 87fe12fe9f239a33939c8ed2d0f41b0b9d83edb350a2fba7be95043d47f61936
+FileChecksum: MD5: de05ec33a5f7245227d3425a397ed9b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/README.md
+SPDXID: SPDXRef-item11651535
+FileChecksum: SHA1: 8093a24b3f14a8906b667ab6733390b139060e83
+FileChecksum: SHA256: 4d73cbd2c6df4d6130377434c1c397560f748249cf2b9a6957f0db55213bd2ed
+FileChecksum: MD5: 5ae3b1ba0ab958c2b2d53d6745ee3ba8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/NEWS
+SPDXID: SPDXRef-item11651536
+FileChecksum: SHA1: a96b7287b5045a0c1e3d7be5f7b8328ab47c3d4e
+FileChecksum: SHA256: 04bfe2bcaf7344c59fe3d914d8f4039e77d8392aed8f51d4171c9259ebd4fe83
+FileChecksum: MD5: 18b291524bbfb219c6bcab38c916fa6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (C) 2009-2024 Intel Corporation </text>
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/meson_options.txt
+SPDXID: SPDXRef-item11651538
+FileChecksum: SHA1: 385814eaca0352cc5f2f1f7f934272927ec34df8
+FileChecksum: SHA256: 5d7310c96680fdf67b795483d4ed94fce81dbd75524948478d05be4ee78ab120
+FileChecksum: MD5: f04891e15239cc3fb67d7b384fe7d1d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/pkgconfig/libva-x11.pc.in
+SPDXID: SPDXRef-item11651540
+FileChecksum: SHA1: 9db1fcfc7a550b3aa5504a5254dc16bfda39a3ef
+FileChecksum: SHA256: a708a3d70068af2717b76d9eee354785558ccdbd3d2d6a0ec203c4f4e030f49c
+FileChecksum: MD5: ba80c16d166f86b8fbde86d53c5b149f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/pkgconfig/libva-wayland.pc.in
+SPDXID: SPDXRef-item11651541
+FileChecksum: SHA1: 0ddc73b52cf13a92ce1c10caf2eb9aa2b697305b
+FileChecksum: SHA256: ab900619561a25c4c8e0c11edc6566a5810eb321918b3745f1f8a6810cb7a0b3
+FileChecksum: MD5: b89fdda13cec0ab1fe9ef899eabcbcdb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/pkgconfig/libva-drm.pc.in
+SPDXID: SPDXRef-item11651542
+FileChecksum: SHA1: 5dbd12157ce3b890aa3f48d2cdb347fccf813781
+FileChecksum: SHA256: 05f850f5f950fa94d7758a11a675ea76843b60d03226b09175cce63d900bb2a9
+FileChecksum: MD5: b8459d376414518e0e3ef2c5409457eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/pkgconfig/meson.build
+SPDXID: SPDXRef-item11651543
+FileChecksum: SHA1: e0ef1879a38e74b1f2b6d0e0c93fc6260d5ae460
+FileChecksum: SHA256: 5886b99ac6d2cfb294911d6f094eac3814f6d0b2ad461946862721aad8fc0b45
+FileChecksum: MD5: d912084ad923e3160d7ca5dfb53bd88d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/pkgconfig/libva-glx.pc.in
+SPDXID: SPDXRef-item11651544
+FileChecksum: SHA1: 458fba55791e09d5d4c0ceb392b134341beffcb4
+FileChecksum: SHA256: 8bf0841190bee2bbfef3cad9f8f152555a7d17ca6eb6de434b5129e2ab654cc0
+FileChecksum: MD5: d12135b30018e4c5ad62fc749e5cf433
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/pkgconfig/libva.pc.in
+SPDXID: SPDXRef-item11651545
+FileChecksum: SHA1: 2cbb37c8880d8552a23a867558d4713d2e7d49e8
+FileChecksum: SHA256: f15792f2e4db6bc4c954c52d0e8d917c31af8c1ddcef0de3a8f557182099e5a8
+FileChecksum: MD5: 6fef765ef369578b77e81d19640a9db8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/CONTRIBUTING.md
+SPDXID: SPDXRef-item11651547
+FileChecksum: SHA1: 65dcc2bee5d8562b53108852336a7c2f385e496c
+FileChecksum: SHA256: 5972038174eb7278aeef4c4b10db82ff51e7b8b44888d7dee77bde2587a97a50
+FileChecksum: MD5: 8ca2c84e6bc5624b068ba07711194765
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/workflows/freebsd.yml
+SPDXID: SPDXRef-item11651550
+FileChecksum: SHA1: ea0939e3a780844ae614e88c535c047fc40a4dde
+FileChecksum: SHA256: 8670d69921f813870926856af51d0d6896bc794d1677b5084cbfe49d4d83c8d9
+FileChecksum: MD5: 468acd16f2037e6f7f1b299847dcd164
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/workflows/style.sh
+SPDXID: SPDXRef-item11651551
+FileChecksum: SHA1: 7fd34f7c809f7dfe2c87c78f5504af799cffbe84
+FileChecksum: SHA256: 55f7f7b26c39b8475c5c959d74c757787990bced2c2adf2cdee5a750f6d0967a
+FileChecksum: MD5: b31677e133ff444d1e13583e62599779
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/workflows/ghpages.yml
+SPDXID: SPDXRef-item11651552
+FileChecksum: SHA1: 32fc2bbf0b2a8423c738a04a1345698955ea42d5
+FileChecksum: SHA256: d0ea0b33046022c3166523fca5c8b35783bc3906c86a53ffead54d892c823d9a
+FileChecksum: MD5: 9b109324d2070f40a18b1154611efd83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/workflows/windows.yml
+SPDXID: SPDXRef-item11651553
+FileChecksum: SHA1: 4606b3a98bb34f967e9b970795db2bb672ce7443
+FileChecksum: SHA256: 6caf892018d66e18adec6dd4269d0958261ba12317dc4fe9bfdb8fde1f82f751
+FileChecksum: MD5: f60e4669604045bca14337d44fdc01b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/workflows/EnterDevShell.ps1
+SPDXID: SPDXRef-item11651554
+FileChecksum: SHA1: 7ba4bf3a512aeafd46717f466f740320599591f4
+FileChecksum: SHA256: 1fbccf84d41ccd54329f7d23fca96771db3f0b8d286a9cf34d62bc359bdd495a
+FileChecksum: MD5: 67a6cb6d6f50c8bc8b36439a7d54dd9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/workflows/style.yml
+SPDXID: SPDXRef-item11651555
+FileChecksum: SHA1: 62b9909dffe8da3fac7085c7ed33c52fadf644bf
+FileChecksum: SHA256: 7e01ce9431f68e2c241dae3cb542215f715d5397efc0a4eb1d2223a245a0b66d
+FileChecksum: MD5: 725c6665b9a57a456da281c0d8117880
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/workflows/docs.yml
+SPDXID: SPDXRef-item11651556
+FileChecksum: SHA1: bc68dcda0558b5a48154e69eecc99b3f24961faa
+FileChecksum: SHA256: b705cc54c0b54bb8a7c18edefc1910c2a68b7251135b76f40b5e69a5da14af74
+FileChecksum: MD5: 021c057f68e610f662c1221f0ae65822
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/workflows/ubuntu.yml
+SPDXID: SPDXRef-item11651557
+FileChecksum: SHA1: cae085d2b54b9b2e153cdde1922af2da6060983c
+FileChecksum: SHA256: c3c79a8ed0de3eb05bb0da263257b82a90cfea479951f09c1618ac60d2c6fc49
+FileChecksum: MD5: 21958513589073fb2764d51c1e7714a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/workflows/install-clang.sh
+SPDXID: SPDXRef-item11651558
+FileChecksum: SHA1: bfdefacdf46dab8389ab8421becaad4deae37ca0
+FileChecksum: SHA256: 4297d514c88f2011f6d58debfdd8621bb1646be8438df9645733bf141decddda
+FileChecksum: MD5: a1f5b36806d1db77d92e6b05aa5b5340
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.github/dependabot.yml
+SPDXID: SPDXRef-item11651559
+FileChecksum: SHA1: d3ad5e9d13f66f778ca3bddf2ca2aa18fc9b93bc
+FileChecksum: SHA256: 883b95e3be554fbadd92b315e4a8c6ea6ca688b64924e22dd61222b07f683507
+FileChecksum: MD5: 4334132ba6bcd78670bf574b6b4236f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/meson.build
+SPDXID: SPDXRef-item11651563
+FileChecksum: SHA1: 20342aa87c8f8d8ce447ed07c06cfeaf41d959b6
+FileChecksum: SHA256: 966c912c31018d9c1f46f94753848ee65470c0b68dd3ef0c2a8479205411ba50
+FileChecksum: MD5: 76e2aee7bdd17d74575114080a5b2fcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/doc/Doxyfile.in
+SPDXID: SPDXRef-item11651565
+FileChecksum: SHA1: 527ba4d4bf607dd88cf030a8725a17398b04b068
+FileChecksum: SHA256: 9aa76974bc72b03a8c3e32f1444f16ce6f1b75a508919e146df14f4436c12a65
+FileChecksum: MD5: 53ba404ef464cbfedff72ad125e70c0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/doc/meson.build
+SPDXID: SPDXRef-item11651566
+FileChecksum: SHA1: 89f5f98672dfb29c4a5ca3e0625948d52c5fdebf
+FileChecksum: SHA256: 13531b328ca86cb2cb605cdb0b168de139dfb8b2031cb0b7229ece770c31a174
+FileChecksum: MD5: 01f72a7f01a1a97bfa768b38eee8e5e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/doc/ghdeploydoxy.sh
+SPDXID: SPDXRef-item11651567
+FileChecksum: SHA1: 3994db306a60cbc1f353192c56ca3e9ad84ec391
+FileChecksum: SHA256: b24ff732b51d936c4f950f7c4a40ee9319cf9f4446b6dee9d63fb9334b7e9061
+FileChecksum: MD5: 3a14574ecf853d4208fc738e9f799645
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/doc/va_footer.html
+SPDXID: SPDXRef-item11651568
+FileChecksum: SHA1: b23886cc43643750327d98872a608cdbae63cfa5
+FileChecksum: SHA256: f21d7184976d2ce6115ad53fb93cbbe3cba6bc32344ce03071877fd4c4b70f0a
+FileChecksum: MD5: 5b61093768d62949d33d515657f603d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/Android.mk
+SPDXID: SPDXRef-item11651570
+FileChecksum: SHA1: 329595da4a6e50a4f4da242f11453db2b01552d1
+FileChecksum: SHA256: 3ccd0f64131af05c945baf09fbecf38142c34a27611c861b8ebffa5e98450b8c
+FileChecksum: MD5: d7cd62f75d180afb9b8beb3aedaa499d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libva-2.22.0.tar.gz/libva-2.22.0.tar/libva-2.22.0/.gitignore
+SPDXID: SPDXRef-item11651572
+FileChecksum: SHA1: a43fc334284a2c294f13c7105b4e6c5e0d7d326f
+FileChecksum: SHA256: 632f7e487f2c6b4259ea114ef20e90d46043140759f8372538f7fc93842ceb96
+FileChecksum: MD5: 64425d02ba6d56b206f8ba46fadcad97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-HPND-sell-variant-8b95eeff824c799ae308da04cad84f92
+LicenseName: Historical Permission Notice and Disclaimer - sell variant
+ExtractedText: <text> Permission to use, copy, modify, distribute, and sell this
+software and its documentation for any purpose is hereby granted
+without fee, provided that\n the above copyright notice appear in
+all copies and that both that copyright notice and this permission
+notice appear in supporting documentation, and that the name of
+the copyright holders not be used in advertising or publicity
+pertaining to distribution of the software without specific,
+written prior permission. The copyright holders make no
+representations about the suitability of this software for any
+purpose. It is provided "as is" without express or implied
+warranty.
+
+THE COPYRIGHT HOLDERS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS
+SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS, IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY
+SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+THIS SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseName: ICU License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Soft-
+ware"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, provided that the above copyright
+notice(s) and this permission notice appear in all copies of the Soft-
+ware and that both the above copyright notice(s) and this permission
+notice appear in supporting documentation.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABIL-
+ITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY
+RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN
+THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSE-
+QUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFOR-
+MANCE OF THIS SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall
+not be used in advertising or otherwise to promote the sale, use or
+other dealings in this Software without prior written authorization of
+the copyright holder. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-6d0bc1d1fa2d01ae2646c45679fa985f
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-d179f7147dde75e7b9989f4616b19abf
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-30807923dbd1be5e9bd55341d6c0d0b4
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sub license, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice (including the
+next paragraph) shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+IN NO EVENT SHALL INTEL AND/OR ITS SUPPLIERS BE LIABLE FOR
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-3a62c78014e5f8f7a72e44857aaf39e4
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sub license, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice (including the
+next paragraph) shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+IN NO EVENT SHALL PRECISION INSIGHT AND/OR ITS SUPPLIERS BE LIABLE FOR
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+  
+LicenseID: LicenseRef-HPND-sell-variant
+LicenseName: Historical Permission Notice and Disclaimer - sell variant
+ExtractedText: <text> Copyright 1993 by OpenVision Technologies, Inc.
+
+Permission to use, copy, modify, distribute, and sell this software
+and its documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice appears in all copies and
+that both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of OpenVision not be used
+in advertising or publicity pertaining to distribution of the software
+without specific, written prior permission. OpenVision makes no
+representations about the suitability of this software for any
+purpose.  It is provided "as is" without express or implied warranty.
+
+OPENVISION DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+EVENT SHALL OPENVISION BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+ </text>
+
+
+
+LicenseID: LicenseRef-MIT-style
+LicenseName: MIT-style
+ExtractedText: <text> According to MIT license, add some modifications </text>
+
+
+  
+LicenseID: LicenseRef-ICU
+LicenseName: ICU License
+ExtractedText: <text> ICU License - ICU 1.8.1 and later
+
+COPYRIGHT AND PERMISSION NOTICE
+
+Copyright (c) 1995-2014 International Business Machines Corporation and others
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, provided that the above copyright notice(s) and this permission notice appear in all copies of the Software and that both the above copyright notice(s) and this permission notice appear in supporting documentation.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder.
+ </text>
+
+
+  
+LicenseID: LicenseRef-Clips
+LicenseName: Clips License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, and/or sell copies of the Software, and to permit persons 
+to whom the Software is furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT 
+OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
+CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN 
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF 
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ </text>
+
+
+
+LicenseID: LicenseRef-See-doc.OTHER
+LicenseName: See-doc.OTHER
+ExtractedText: <text> License by Nomos. </text>
+
