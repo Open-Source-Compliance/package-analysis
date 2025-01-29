@@ -1,0 +1,2550 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "comment" : "This document was created using license information and a generator from Fossology.\nIt contains the license and copyright analysis of libxext libXext-1.3.6\nPlease check \"LicenseComments\" for explanations of concluded licenses",
+    "created" : "2025-01-29T20:05:27Z",
+    "creators" : [ "Tool: fossology-4.4.0.51", "Person: Oliver Fendt" ],
+    "licenseListVersion" : "3.22"
+  },
+  "name" : "/srv/fossology/repository/report",
+  "dataLicense" : "CC0-1.0",
+  "hasExtractedLicensingInfos" : [ {
+    "licenseId" : "LicenseRef-0BSD",
+    "extractedText" : "Copyright (C) YEAR by AUTHOR EMAIL\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "BSD Zero Clause License"
+  }, {
+    "licenseId" : "LicenseRef-CC0-1.0",
+    "extractedText" : "Creative Commons Legal Code\n\nCC0 1.0 Universal\n\n    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE\n    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN\n    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS\n    INFORMATION ON AN \"AS-IS\" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES\n    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS\n    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM\n    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED\n    HEREUNDER.\n\nStatement of Purpose\n\nThe laws of most jurisdictions throughout the world automatically confer\nexclusive Copyright and Related Rights (defined below) upon the creator\nand subsequent owner(s) (each and all, an \"owner\") of an original work of\nauthorship and/or a database (each, a \"Work\").\n\nCertain owners wish to permanently relinquish those rights to a Work for\nthe purpose of contributing to a commons of creative, cultural and\nscientific works (\"Commons\") that the public can reliably and without fear\nof later claims of infringement build upon, modify, incorporate in other\nworks, reuse and redistribute as freely as possible in any form whatsoever\nand for any purposes, including without limitation commercial purposes.\nThese owners may contribute to the Commons to promote the ideal of a free\nculture and the further production of creative, cultural and scientific\nworks, or to gain reputation or greater distribution for their Work in\npart through the use and efforts of others.\n\nFor these and/or other purposes and motivations, and without any\nexpectation of additional consideration or compensation, the person\nassociating CC0 with a Work (the \"Affirmer\"), to the extent that he or she\nis an owner of Copyright and Related Rights in the Work, voluntarily\nelects to apply CC0 to the Work and publicly distribute the Work under its\nterms, with knowledge of his or her Copyright and Related Rights in the\nWork and the meaning and intended legal effect of CC0 on those rights.\n\n1. Copyright and Related Rights. A Work made available under CC0 may be\nprotected by copyright and related or neighboring rights (\"Copyright and\nRelated Rights\"). Copyright and Related Rights include, but are not\nlimited to, the following:\n\n  i. the right to reproduce, adapt, distribute, perform, display,\n     communicate, and translate a Work;\n ii. moral rights retained by the original author(s) and/or performer(s);\niii. publicity and privacy rights pertaining to a person's image or\n     likeness depicted in a Work;\n iv. rights protecting against unfair competition in regards to a Work,\n     subject to the limitations in paragraph 4(a), below;\n  v. rights protecting the extraction, dissemination, use and reuse of data\n     in a Work;\n vi. database rights (such as those arising under Directive 96/9/EC of the\n     European Parliament and of the Council of 11 March 1996 on the legal\n     protection of databases, and under any national implementation\n     thereof, including any amended or successor version of such\n     directive); and\nvii. other similar, equivalent or corresponding rights throughout the\n     world based on applicable law or treaty, and any national\n     implementations thereof.\n\n2. Waiver. To the greatest extent permitted by, but not in contravention\nof, applicable law, Affirmer hereby overtly, fully, permanently,\nirrevocably and unconditionally waives, abandons, and surrenders all of\nAffirmer's Copyright and Related Rights and associated claims and causes\nof action, whether now known or unknown (including existing as well as\nfuture claims and causes of action), in the Work (i) in all territories\nworldwide, (ii) for the maximum duration provided by applicable law or\ntreaty (including future time extensions), (iii) in any current or future\nmedium and for any number of copies, and (iv) for any purpose whatsoever,\nincluding without limitation commercial, advertising or promotional\npurposes (the \"Waiver\"). Affirmer makes the Waiver for the benefit of each\nmember of the public at large and to the detriment of Affirmer's heirs and\nsuccessors, fully intending that such Waiver shall not be subject to\nrevocation, rescission, cancellation, termination, or any other legal or\nequitable action to disrupt the quiet enjoyment of the Work by the public\nas contemplated by Affirmer's express Statement of Purpose.\n\n3. Public License Fallback. Should any part of the Waiver for any reason\nbe judged legally invalid or ineffective under applicable law, then the\nWaiver shall be preserved to the maximum extent permitted taking into\naccount Affirmer's express Statement of Purpose. In addition, to the\nextent the Waiver is so judged Affirmer hereby grants to each affected\nperson a royalty-free, non transferable, non sublicensable, non exclusive,\nirrevocable and unconditional license to exercise Affirmer's Copyright and\nRelated Rights in the Work (i) in all territories worldwide, (ii) for the\nmaximum duration provided by applicable law or treaty (including future\ntime extensions), (iii) in any current or future medium and for any number\nof copies, and (iv) for any purpose whatsoever, including without\nlimitation commercial, advertising or promotional purposes (the\n\"License\"). The License shall be deemed effective as of the date CC0 was\napplied by Affirmer to the Work. Should any part of the License for any\nreason be judged legally invalid or ineffective under applicable law, such\npartial invalidity or ineffectiveness shall not invalidate the remainder\nof the License, and in such case Affirmer hereby affirms that he or she\nwill not (i) exercise any of his or her remaining Copyright and Related\nRights in the Work or (ii) assert any associated claims and causes of\naction with respect to the Work, in either case contrary to Affirmer's\nexpress Statement of Purpose.\n\n4. Limitations and Disclaimers.\n\n a. No trademark or patent rights held by Affirmer are waived, abandoned,\n    surrendered, licensed or otherwise affected by this document.\n b. Affirmer offers the Work as-is and makes no representations or\n    warranties of any kind concerning the Work, express, implied,\n    statutory or otherwise, including without limitation warranties of\n    title, merchantability, fitness for a particular purpose, non\n    infringement, or the absence of latent or other defects, accuracy, or\n    the present or absence of errors, whether or not discoverable, all to\n    the greatest extent permissible under applicable law.\n c. Affirmer disclaims responsibility for clearing rights of other persons\n    that may apply to the Work or any use thereof, including without\n    limitation any person's Copyright and Related Rights in the Work.\n    Further, Affirmer disclaims responsibility for obtaining any necessary\n    consents, permissions or other rights required for any use of the\n    Work.\n d. Affirmer understands and acknowledges that Creative Commons is not a\n    party to this document and has no duty or obligation with respect to\n    this CC0 or use of the Work.",
+    "name" : "Creative Commons Zero v1.0 Universal"
+  }, {
+    "licenseId" : "LicenseRef-FSFAP",
+    "extractedText" : "Copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the copyright notice and this notice are preserved.  This file is offered as-is, without any warranty.",
+    "name" : "FSF All Permissive License"
+  }, {
+    "licenseId" : "LicenseRef-FSFAP-27b6144a5a871aae6cbd42c8a2812171",
+    "extractedText" : "Copying and distribution of this file, with or without modification, are\npermitted in any medium without royalty provided the copyright notice\nand this notice are preserved. This file is offered as-is, without any\nwarranty.",
+    "name" : "FSF All Permissive License"
+  }, {
+    "licenseId" : "LicenseRef-HPND",
+    "extractedText" : "Historical Permission Notice and Disclaimer\n\n<copyright notice>\n\nPermission to use, copy, modify and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies, and that both that the copyright notice and this permission notice appear in supporting documentation, and that the name of <copyright holder> or <related entities> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. <copyright holder> makes no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\n<copyright holder> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS,. IN NO EVENT SHALL <copyright holder> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "Historical Permission Notice and Disclaimer"
+  }, {
+    "licenseId" : "LicenseRef-HPND-896563f5821c5b352560de618c67a5b7",
+    "extractedText" : "Permission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation, and that the names of Digital or Olivetti\nnot be used in advertising or publicity pertaining to distribution of the\nsoftware without specific, written prior permission.\n\nDIGITAL AND OLIVETTI DISCLAIM ALL WARRANTIES WITH REGARD TO THIS\nSOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS, IN NO EVENT SHALL THEY BE LIABLE FOR ANY SPECIAL, INDIRECT OR\nCONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF\nUSE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR\nOTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\nPERFORMANCE OF THIS SOFTWARE.",
+    "name" : "Historical Permission Notice and Disclaimer"
+  }, {
+    "licenseId" : "LicenseRef-HPND-Pbmplus",
+    "extractedText" : "Copyright (C) 1991 by Jef Poskanzer.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted, provided\nthat the above copyright notice appear in all copies and that both that\ncopyright notice and this permission notice appear in supporting\ndocumentation.  This software is provided \"as is\" without express or\nimplied warranty.",
+    "name" : "Historical Permission Notice and Disclaimer - Pbmplus variant"
+  }, {
+    "licenseId" : "LicenseRef-HPND-a42476dc374540e94d1e4149e3b3bfae",
+    "extractedText" : "Permission to use, copy, modify, and distribute this\nsoftware and its documentation for any purpose and without\nfee is hereby granted, provided that the above copyright\nnotice appear in all copies and that both that copyright\nnotice and this permission notice appear in supporting\ndocumentation, and that the name of Silicon Graphics not be\nused in advertising or publicity pertaining to distribution\nof the software without specific prior written permission.\nSilicon Graphics makes no representation about the suitability\nof this software for any purpose. It is provided \"as is\"\nwithout any express or implied warranty.\nSILICON GRAPHICS DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS\nSOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY\nAND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL SILICON\nGRAPHICS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL\nDAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,\nDATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE\nOR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH\nTHE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "Historical Permission Notice and Disclaimer"
+  }, {
+    "licenseId" : "LicenseRef-HPND-doc",
+    "extractedText" : "Copyright <year> <copyright holder>\n\nPermission to use, copy, modify, and distribute this documentation for\nany purpose and without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n<copyright holder> makes no representations about the suitability for\nany purpose of the information in this document.  This documentation is\nprovided ``as is'' without express or implied warranty.",
+    "name" : "Historical Permission Notice and Disclaimer - documentation variant"
+  }, {
+    "licenseId" : "LicenseRef-HPND-doc-095a4b81e4f3c061858b78e430b25d86",
+    "extractedText" : "Permission to use, copy, modify, and distribute this documentation for any\npurpose and without fee is hereby granted, provided that the above\ncopyright notice appear in all copies. Olivetti, Digital, MIT, and the\nX Consortium make no representations about the suitability for any purpose\nof the information in this document. This documentation is provided as\nis without express or implied warranty.",
+    "name" : "Historical Permission Notice and Disclaimer - documentation variant"
+  }, {
+    "licenseId" : "LicenseRef-HPND-doc-376081b2880af68e89917b5d1b050d8e",
+    "extractedText" : "Permission to use, copy, modify, and distribute this documentation for any\npurpose and without fee is hereby granted, provided that the above copyright\nnotice and this permission notice appear in all copies. Digital Equipment\nCorporation, Intergraph Corporation, Silicon Graphics, Hewlett-Packard, and\nthe X Consortium make no representations about the suitability for any\npurpose of the information in this document. This documentation is provided\n\"as is\" without express or implied warranty.",
+    "name" : "Historical Permission Notice and Disclaimer - documentation variant"
+  }, {
+    "licenseId" : "LicenseRef-HPND-doc-sell",
+    "extractedText" : "Copyright <year> <copyright holder>\n\nPermission to use, copy, modify, distribute, and sell this\ndocumentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice and this permission\nnotice appear in all copies. <copyright holder>\nmakes no representations about the suitability for any purpose\nof the information in this document. This documentation\nis provided \"as is\" without express or implied warranty.",
+    "name" : "Historical Permission Notice and Disclaimer - documentation sell variant"
+  }, {
+    "licenseId" : "LicenseRef-HPND-doc-sell-61c67fa4095ed548245da114fe72be56",
+    "extractedText" : "Permission to use, copy, modify, distribute, and sell this documentation\nfor any purpose and without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\nDigital Equipment Corporation makes no representations\nabout the suitability for any purpose of the information in\nthis document. This documentation is provided \"as is\"\nwithout express or implied warranty.",
+    "name" : "Historical Permission Notice and Disclaimer - documentation sell variant"
+  }, {
+    "licenseId" : "LicenseRef-HPND-doc-sell-e10f2f5e2a5b675ee7b6b2cd9b943f6f",
+    "extractedText" : "Permission to use, copy, modify, distribute, and sell this\ndocumentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice and this permission\nnotice appear in all copies. Digital Equipment Corporation\nmakes no representations about the suitability for any purpose\nof the information in this document. This documentation is\nprovided \"as is\" without express or implied warranty.",
+    "name" : "Historical Permission Notice and Disclaimer - documentation sell variant"
+  }, {
+    "licenseId" : "LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf",
+    "extractedText" : "Permission to use, copy, modify, distribute, and sell this\ndocumentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice and this permission\nnotice appear in all copies. Digital Equipment Corporation\nmakes no representations about the suitability for any purpose\nof the information in this document. This documentation is\nprovided ``as is'' without express or implied warranty.",
+    "name" : "Historical Permission Notice and Disclaimer - documentation sell variant"
+  }, {
+    "licenseId" : "LicenseRef-HPND-sell-variant",
+    "extractedText" : "Copyright 1993 by OpenVision Technologies, Inc.\n\nPermission to use, copy, modify, distribute, and sell this software\nand its documentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice appears in all copies and\nthat both that copyright notice and this permission notice appear in\nsupporting documentation, and that the name of OpenVision not be used\nin advertising or publicity pertaining to distribution of the software\nwithout specific, written prior permission. OpenVision makes no\nrepresentations about the suitability of this software for any\npurpose.  It is provided \"as is\" without express or implied warranty.\n\nOPENVISION DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,\nINCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO\nEVENT SHALL OPENVISION BE LIABLE FOR ANY SPECIAL, INDIRECT OR\nCONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF\nUSE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR\nOTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\nPERFORMANCE OF THIS SOFTWARE.",
+    "name" : "Historical Permission Notice and Disclaimer - sell variant"
+  }, {
+    "licenseId" : "LicenseRef-HPND-sell-variant-ab6ff87bb86b8e6a6d7bdc368af9d310",
+    "extractedText" : "Permission to use, copy, modify, distribute, and sell this software and its\ndocumentation for any purpose is hereby granted without fee, provided that\nthe above copyright notice appear in all copies and that both that\ncopyright notice and this permission notice appear in supporting\ndocumentation, and that the name of NCD. not be used in advertising or\npublicity pertaining to distribution of the software without specific,\nwritten prior permission. NCD. makes no representations about the\nsuitability of this software for any purpose. It is provided \"as is\"\nwithout express or implied warranty.\n\nNCD. DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL NCD.\nBE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION\nOF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN\nCONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "Historical Permission Notice and Disclaimer - sell variant"
+  }, {
+    "licenseId" : "LicenseRef-ISC",
+    "extractedText" : "ISC License:\n\nCopyright (c) 2004-2010 by Internet Systems Consortium, Inc. (\"ISC\")\nCopyright (c) 1995-2003 by Internet Software Consortium\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "ISC License"
+  }, {
+    "licenseId" : "LicenseRef-ISC-6351e788a19dc7f74fceaa08e0941365",
+    "extractedText" : "Permission to use, copy, modify, and distribute this software for any\npurpose with or without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "ISC License"
+  }, {
+    "licenseId" : "LicenseRef-MIT",
+    "extractedText" : "MIT License\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\n copy of this software and associated documentation files (the \"Software\"),\n to deal in the Software without restriction, including without limitation\n the rights to use, copy, modify, merge, publish, distribute, sublicense,\n and/or sell copies of the Software, and to permit persons to whom the\n Software is furnished to do so, subject to the following conditions:\n\n The above copyright notice and this permission notice (including the next\n paragraph) shall be included in all copies or substantial portions of the\n Software.\n\n THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\n THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\n DEALINGS IN THE SOFTWARE.\n\nX Window System is a trademark of The Open Group.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the \"Software\"),\nto deal in the Software without restriction, including without limitation\nthe rights to use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice (including the next\nparagraph) shall be included in all copies or substantial portions of the\nSoftware.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\nTHE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\nDEALINGS IN THE SOFTWARE.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-MIT-CMU-style",
+    "extractedText" : "License by Nomos.",
+    "name" : "MIT-CMU-style"
+  }, {
+    "licenseId" : "LicenseRef-MIT-open-group",
+    "extractedText" : "Copyright <yyyy, yyyy> The Open Group\n\nPermission to use, copy, modify, distribute, and sell this software and\nits documentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation.\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL BE LIABLE FOR ANY CLAIM, DAMAGES\nOR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of The Open Group\nshall not be used in advertising or otherwise to promote the sale, use\nor other dealings in this Software without prior written authorization\nfrom The Open Group.",
+    "name" : "MIT Open Group variant"
+  }, {
+    "licenseId" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "extractedText" : "Permission to use, copy, modify, distribute, and sell this software and its\ndocumentation for any purpose is hereby granted without fee, provided that\nthe above copyright notice appear in all copies and that both that\ncopyright notice and this permission notice appear in supporting\ndocumentation.\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of The Open Group shall\nnot be used in advertising or otherwise to promote the sale, use or\nother dealings in this Software without prior written authorization\nfrom The Open Group.",
+    "name" : "MIT Open Group variant"
+  }, {
+    "licenseId" : "LicenseRef-MIT-style",
+    "extractedText" : "According to MIT license, add some modifications",
+    "name" : "MIT-style"
+  }, {
+    "licenseId" : "LicenseRef-NTP",
+    "extractedText" : "NTP License (NTP)\n\nCopyright (c) (CopyrightHoldersName) (From 4-digit-year)-(To 4-digit-year)\n\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appears in all copies and that both the copyright notice and this permission notice appear in supporting documentation, and that the name (TrademarkedName) not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. (TrademarkedName) makes no representations about the suitability this software for any purpose. It is provided \"as is\" without express or implied warranty.",
+    "name" : "NTP License"
+  }, {
+    "licenseId" : "LicenseRef-NTP-203c31bb7c177732da5a14b6d84f14a8",
+    "extractedText" : "Permission to use, copy, modify, and distribute this\nsoftware and its documentation for any purpose and without\nfee is hereby granted, provided that the above copyright\nnotice appear in all copies and that both that copyright\nnotice and this permission notice appear in supporting\ndocumentation, and that the name of Hewlett-Packard not be used in\nadvertising or publicity pertaining to distribution of the\nsoftware without specific, written prior permission.\n\nHewlett-Packard makes no representations about the\nsuitability of this software for any purpose. It is provided\n\"as is\" without express or implied warranty.\n\nThis software is not subject to any license of the American\nTelephone and Telegraph Company or of the Regents of the\nUniversity of California.",
+    "name" : "NTP License"
+  }, {
+    "licenseId" : "LicenseRef-SGI-B-2.0",
+    "extractedText" : "SGI FREE SOFTWARE LICENSE B\n(Version 2.0, Sept. 18, 2008)\n\nCopyright (C) [dates of first publication] Silicon Graphics, Inc. All Rights Reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice including the dates of first publication and either this permission notice or a reference to http://oss.sgi.com/projects/FreeB/ shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL SILICON GRAPHICS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of Silicon Graphics, Inc. shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from Silicon Graphics, Inc.",
+    "name" : "SGI Free Software License B v2.0"
+  }, {
+    "licenseId" : "LicenseRef-SGI-B-2.0-32f6c49562038fdbe49546badd6bb19a",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the \"Software\"),\nto deal in the Software without restriction, including without limitation\nthe rights to use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies of the Software, and to permit persons to whom the\nSoftware furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\nSILICON GRAPHICS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF\nOR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nExcept as contained in this notice, the name of Silicon Graphics, Inc. shall not\nbe used in advertising or otherwise to promote the sale, use or other\ndealing in this Software without prior written authorization from\nSilicon Graphics, Inc.",
+    "name" : "SGI Free Software License B v2.0"
+  }, {
+    "licenseId" : "LicenseRef-X11",
+    "extractedText" : "X11 License\n\nCopyright (C) 1996 X Consortium\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.\n\nX Window System is a trademark of X Consortium, Inc.",
+    "name" : "X11 License"
+  }, {
+    "licenseId" : "LicenseRef-X11-0abaa28e42fa00c55135c26caff4bbf3",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the \"Software\"),\nto deal in the Software without restriction, including without limitation\nthe rights to use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies of the Software, and to permit persons to whom the\nSoftware furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\nTHE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF\nOR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nExcept as contained in this notice, the name of the X Consortium shall not\nbe used in advertising or otherwise to promote the sale, use or other\ndealing in this Software without prior written authorization from the\nX Consortium.",
+    "name" : "X11 License"
+  }, {
+    "licenseId" : "LicenseRef-X11-3c6649b78354c643f42adae0717e5564",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files\n(the &ldquo;Software&rdquo;), to deal in the Software without restriction,\nincluding without limitation the rights to use, copy, modify, merge,\npublish, distribute, sublicense, and/or sell copies of the Software, and\nto permit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY\nKIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of the X Consortium shall not be\nused in advertising or otherwise to promote the sale, use or other dealings\nin this Software without prior written authorization from the X Consortium.\n\nX Window System is a trademark of The OpenGroup.",
+    "name" : "X11 License"
+  }, {
+    "licenseId" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the \"Software\"),\nto deal in the Software without restriction, including without limitation\nthe rights to use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies of the Software, and to permit persons to whom the\nSoftware furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\nHEWLETT-PACKARD COMPANY BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF\nOR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nExcept as contained in this notice, the name of the Hewlett-Packard Company shall not\nbe used in advertising or otherwise to promote the sale, use or other\ndealing in this Software without prior written authorization from the\nHewlett-Packard Company.",
+    "name" : "X11 License"
+  }, {
+    "licenseId" : "LicenseRef-X11-5c4dd76e3a861cfdefd071cdc1ab68e1",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X\nCONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN\nACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of the X Consortium shall not be\nused in advertising or otherwise to promote the sale, use or other dealings in\nthis Software without prior written authorization from the X Consortium.\nX Window System is a trademark of The Open Group.",
+    "name" : "X11 License"
+  }, {
+    "licenseId" : "LicenseRef-X11-b07e786585d23697df0f3e66c48c4d6c",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files\n(the \"Software\"), to deal in the Software without\nrestriction, including without limitation the rights to use, copy,\nmodify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished\nto do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of the X Consortium shall\nnot be used in advertising or otherwise to promote the sale, use or other\ndealings in this Software without prior written authorization from the\nX Consortium.\nX Window System is a trademark of The OpenGroup.",
+    "name" : "X11 License"
+  }, {
+    "licenseId" : "LicenseRef-X11-distribute-modifications-variant",
+    "extractedText" : "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, distribute with modifications, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.",
+    "name" : "X11 License Distribution Modification Variant"
+  }, {
+    "licenseId" : "LicenseRef-X11-distribute-modifications-variant-4e8b4715072fedb621c8eb5016321e1c",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software.\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\nDIGITAL EQUIPMENT CORPORATION BE LIABLE FOR ANY CLAIM, DAMAGES, INCLUDING,\nBUT NOT LIMITED TO CONSEQUENTIAL OR INCIDENTAL DAMAGES, OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR\nIN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of Digital Equipment Corporation\nshall not be used in advertising or otherwise to promote the sale, use or other\ndealings in this Software without prior written authorization from Digital\nEquipment Corporation.",
+    "name" : "X11 License Distribution Modification Variant"
+  }, {
+    "licenseId" : "LicenseRef-X11-distribute-modifications-variant-547e123eaa2f161a556f367eeb748d2d",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL HEWLETT-PACKARD COMPANY BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of the Hewlett-Packard\nCompany shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization from the Hewlett-Packard Company.",
+    "name" : "X11 License Distribution Modification Variant"
+  }, {
+    "licenseId" : "LicenseRef-X11-style",
+    "extractedText" : "License by Nomos.",
+    "name" : "X11-style"
+  }, {
+    "licenseId" : "LicenseRef-scancode-warranty-disclaimer",
+    "extractedText" : "License by Scancode.",
+    "name" : "Generic Bare Warranty Disclaimer"
+  }, {
+    "licenseId" : "LicenseRef-scancode-x11-dec1",
+    "extractedText" : "License by Scancode.",
+    "name" : "X11-Style (DEC 1)"
+  }, {
+    "licenseId" : "LicenseRef-scancode-x11-doc",
+    "extractedText" : "License by Scancode.",
+    "name" : "X11 Documentation License"
+  }, {
+    "licenseId" : "LicenseRef-scancode-x11-x11r5",
+    "extractedText" : "License by Scancode.",
+    "name" : "X11-R5"
+  }, {
+    "licenseId" : "LicenseRef-scancode-xfree86-1.0",
+    "extractedText" : "License by Scancode.",
+    "name" : "XFree86 License 1.0"
+  } ],
+  "documentNamespace" : "http://fossy.osadl.org/repo/SPDX2TV_libxext-libXext-1.3.6.tar.gz_1738181127.spdx",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-upload2583",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "1cbffa5dfc5492ecb0d1d61b28d2c126"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6a72208b54ff5cd1ee9b4d40db917d3a64be553d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4e48ea271b5f53c3386018a6e0263454fe582a413fce0273ade601fbfe9e0c72"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "https://gitlab.freedesktop.org/xorg/lib/libxext/-/archive/libXext-1.3.6/libxext-libXext-1.3.6.tar.gz",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:generic/libxext@libXext-1.3.6?download_url=https://gitlab.freedesktop.org/xorg/lib/libxext/-/archive/libXext-1.3.6/libxext-libXext-1.3.6.tar.gz",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : true,
+    "licenseComments" : "licenseInfoInFile determined by Scanners:\n - nomos (\"4.4.0.51\".1e52cb)\n - monk (\"4.4.0.51\".1e52cb)\n - ojo (\"4.4.0.51\".1e52cb)\n- scancode (\"4.4.0.51\".1e52cb)",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "LicenseRef-MIT-open-group",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "libxext-libXext-1.3.6.tar.gz",
+    "packageFileName" : "libxext-libXext-1.3.6.tar.gz",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "f6fd59dbdfa53b2af95c784ed687a24d2772b34f"
+    }
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-item12092532",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "9d02ccd02ae6a066c1232e5ab0c1500c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "694a0f7e19da5e1271849e0a1eded021caef52f8"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "90a02761f273c64acf254103a0dfc1b4f132299e51c787e99a0bd0dbc03900c6"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/MITMisc.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092533",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "40dc2cbe53625d007a536df649bf1596f1cc3148"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "3edbb5385a95c62fb771035f363863c1b8d08140d0ac5e2ec0c885da237dc230"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "38676f4e2fbbe1c61d1ed3aec0773c36"
+    } ],
+    "copyrightText" : "Copyright 1986, 1987, 1988, 1998 The Open Group\nCopyright 1986, 1987, 1988 by Hewlett-Packard Corporation",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/xtestext1.h",
+    "licenseConcluded" : "(LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde AND LicenseRef-NTP-203c31bb7c177732da5a14b6d84f14a8)",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-MIT-CMU-style", "LicenseRef-X11", "LicenseRef-NTP", "LicenseRef-scancode-x11-x11r5" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092632",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8787d6ea07ba8d57c8ab2c6d36c19e2c5565b523"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c4c6d51cfc26ad8a9582c1a891e83d21a1960769c364484a936ebb20a79abe4e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ab21719d310317c0f386e6ba5e319193"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/.gitignore",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092530",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "26904e182202b340a2e41d94f0abe40c8e5bc3d3"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ea4aaf64f74d19ac557754b524c0b97c34c96e54216b6f5616928e9327bbf50a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "fc8dfcfce100712b6b8d89355c31b3b0"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/Xext.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092516",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3b4a3373715ae2f79dafa1696210c1f5356111a8"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5d22ee5fe27cdbf172fe0141732385dba5f4cf64bdfd06604b8c1a8c818d5676"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "7ca9a960de78575354780bff2c65811c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/xext.pc.in",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092531",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "716de480ccbc05edf164540c630b6e43b2a9d056"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "94535bb9375717dd0a790076757be2ec"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b14795e9aa9ecba8347adbe910ab777e0c97ce852128174647202e952f96be67"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/XShm.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092524",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3220d8776b9254989eedb816345229b9801aec34"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b3ffc309b0ce2daa74b79dc4f64aed7aa8e25ead9eaf81cd7405021c567fcd9e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "38c643ff53dd946dfaeace2473eeeae5"
+    } ],
+    "copyrightText" : "Copyright 1996, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/Xag.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092525",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "6647b3aaaf1b212b81705c89f2772e01a4be2dc05f13bedb49203e6011726101"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "5719ed803684caf58b638c7e86c561d4"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d199022155e036010c03bb57fa1e4209a2c32a11"
+    } ],
+    "copyrightText" : "Copyright © 2007-2008 Peter Hutterer",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/Xge.h",
+    "licenseConcluded" : "LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092538",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "fc0a9a68beef2ece4de2340481194844"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ebca5970378465311155edec9cb091de24dbf7f0"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5a1e8770452303a7206090564283a828c8dea6b4e54f6035f58114013369896a"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/shape.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092539",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4b8d6f56d28cf4a6e49ec9b83e941ef26b901eb6e4bdab5e1c9dfd44272f8e39"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "af61d4f22024590ad95c5eb57fd8c2f8"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f527b6c4abb5716cbd73b15956612a6f845d4508"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/extutil.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092597",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufGetWindowAttributes.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092630",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "40e8bc9b91a5a1e8053eb3df476bb950b63a52dddafc55eb9906f7b6cf7ff24d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "00345f369869ac578317c2fc20764eb5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0724c473917269abab9b832e0e378ce70d617ea9"
+    } ],
+    "copyrightText" : "Copyright 1991, 1993, 1998 The Open Group\nCopyright 1991,1993 by Digital Equipment Corporation, Maynard, Massachusetts, and Olivetti Research Limited, Cambridge, England.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/XSync.c",
+    "licenseConcluded" : "(LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde AND LicenseRef-HPND-896563f5821c5b352560de618c67a5b7)",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-HPND", "LicenseRef-scancode-x11-dec1", "LicenseRef-MIT-CMU-style", "LicenseRef-X11", "LicenseRef-HPND-Pbmplus" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092515",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c5542fb117f4714b507e5576ab253b0c2c9e5d43eb6565a0293df6a4982fdcd8"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b7504a7a0ff58abcb4cbadf7e0000a18"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e70349af537a9ddb8fe695b586abe879d38e89ce"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/docbook.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092596",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmGetEventBase.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092511",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "70992967de573adf5441d4f46c8ab002df6e1395"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5e9468f5b17b4134cb71423b2dfff35e08ea4d6849dbd7397311d817df548e7e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "702db7d7c3cc46a6ba305b3ed33e902e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/.gitlab-ci.yml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092599",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeOffsetShape.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092631",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "ae5cb23b861cba7220157d1b2cc1e105"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6b0f63c7d67c614181e9ee8bebe5352cdec18967"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "589cb551db4adc7335b72f7eb18f092947a37f69534699ebc0082131a7b06fe4"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/Makefile.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092598",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "16f940b0b60c7195e183dc0c7e20bc22"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a32eb357dfd9e1adc5b8a20f873eaa1b13cff900"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30fbcb993f8956ffb7e2e5b9c58156f29411a1838b5bae0afd32d47637067527"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XdbeEndIdiom.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092517",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b4b938f97dac8f9783a21623c217dfb5547745719791326a1184a807f10c3bbc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "666272430f65d268b471411c3f1ac996"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "134853768fa7570cec8e1464f5a4356f20bafaf3"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/autogen.sh",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092526",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1d344df464ab863316197ff4ea6b133ea544ce96c0357aa8b28d14840c8c375e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "2185e93fb5bf9a454ce20c07caaff1d0"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "acbe61eed05d0f91091b4570e2119db972782461"
+    } ],
+    "copyrightText" : "Copyright 1996, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/security.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092520",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "efa817418fc8ce4c149170a67a9e601e0b35314a"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fd62910be4b13829d94e76c1447cf840953f0e225c4dc6c79349c84dd0557f22"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "4234bb3b2f1521ea101e4e9db7c33c69"
+    } ],
+    "copyrightText" : "Copyright 1986, 1987, 1988, 1989, 1994, 1998 The Open Group\nCopyright (c) 1996 Digital Equipment Corporation, Maynard, Massachusetts.\nCopyright (c) 1997 by Silicon Graphics Computer Systems, Inc.\nCopyright 1992 Network Computing Devices\nCopyright 1991,1993 by Digital Equipment Corporation, Maynard, Massachusetts, and Olivetti Research Limited, Cambridge, England.\nCopyright 1986, 1987, 1988 by Hewlett-Packard Corporation\nCopyright (c) 1994, 1995 Hewlett-Packard Company\nCopyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, 2006, 2013, 2015, Oracle and/or its affiliates.\nCopyright © 2007-2008 Peter Hutterer\nCopyright (c) 1989 X Consortium, Inc. and Digital Equipment Corporation.\nCopyright (c) 1992 X Consortium, Inc. and Intergraph Corporation.\nCopyright (c) 1993 X Consortium, Inc. and Silicon Graphics, Inc.\nCopyright (c) 1994, 1995 X Consortium, Inc. and Hewlett-Packard Company.\nCopyright (c) 2008 Otto Moerbeek <otto@drijf.net>",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/COPYING",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-HPND", "LicenseRef-scancode-warranty-disclaimer", "LicenseRef-HPND-sell-variant", "LicenseRef-scancode-xfree86-1.0", "LicenseRef-MIT-CMU-style", "LicenseRef-X11-distribute-modifications-variant", "LicenseRef-NTP", "LicenseRef-scancode-x11-x11r5", "LicenseRef-scancode-x11-dec1", "LicenseRef-scancode-x11-doc", "LicenseRef-0BSD", "LicenseRef-HPND-doc-sell", "LicenseRef-ISC", "LicenseRef-MIT", "LicenseRef-X11", "LicenseRef-HPND-doc" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092550",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "d036d648b8ee0cc2d72841538403dd66"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "fa90312de7ef5e2133c1d1287968d2918ee6119d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a438385dcd2a707df2fb55723e362a79d35113e4965f3639607ba2b035cd943d"
+    } ],
+    "copyrightText" : "Copyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DPMSGetVersion.man",
+    "licenseConcluded" : "(LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331 AND LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092551",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeCombineShape.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092623",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "9dc687d042a473f357058f1a7ce3a3be"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f5a84fa96f2d34aba1fece7b29e08ecccb9648e9"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8321bfe9527828edcdac3b758dc7a1d28979cf9f0541df8a91c05095c39bd58d"
+    } ],
+    "copyrightText" : "Copyright 1996, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/XAppgroup.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092528",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "42c07819293953c294e6ca41a1300434427792137de1057e7cce2dbf19df87c1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "5ed4be015113240ef706f334def6a006"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "38bc29e7c96bbe85314d78879a3a160acd6003d0"
+    } ],
+    "copyrightText" : "Copyright (c) 1994, 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/Xdbe.h",
+    "licenseConcluded" : "LicenseRef-X11-distribute-modifications-variant-547e123eaa2f161a556f367eeb748d2d",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-X11-distribute-modifications-variant", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092529",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "9bb79a53caa0754ff05477bf2e745649"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "746619d4a3536520ebc0cea7921ed958d0d02e57"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "796311638cf5e7bbc5a1f083744913694a6c16a2a09b248244d787baf2b63c72"
+    } ],
+    "copyrightText" : "Copyright (c) 1997 by Silicon Graphics Computer Systems, Inc.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/XEVI.h",
+    "licenseConcluded" : "LicenseRef-HPND-a42476dc374540e94d1e4149e3b3bfae",
+    "licenseInfoInFiles" : [ "LicenseRef-HPND", "LicenseRef-MIT-CMU-style" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092558",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmGetImage.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092559",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0541d916a388c94d173a1d4739c835e31534d842"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "705b97da6a83e3d352f9400a20173327"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8278914cea1db5b08635be2be123458d231113903ebe7c93d752635875b58040"
+    } ],
+    "copyrightText" : "Copyright 1986-1997 The Open Group All Rights Reserved\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XcupQueryVersion.man",
+    "licenseConcluded" : "LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092556",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeGetRectangles.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092557",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmDetach.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092582",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d76f4ee8f5586144843081c4d38f7c2519219ff7968f03a6b03984b28f5a225c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "2beba0b27e569a9da84b3a39f3367f59"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "894d9b957658337223385b99eb4dabc4ef957ee9"
+    } ],
+    "copyrightText" : "Copyright (c) 1991 X Consortium\nCopyright (c) 2006, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShm.man",
+    "licenseConcluded" : "(LicenseRef-X11-0abaa28e42fa00c55135c26caff4bbf3 AND LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331)",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT", "LicenseRef-X11-distribute-modifications-variant", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092583",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5c5b99019c698497775b0569a496873d0b3a66c22f3c8fd3c88428d1f7db0e3f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "0f4d18e201cc5266b13f5a99abd363c5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7964010ffbcc36335be5dc25ed62b8c1524dfb7f"
+    } ],
+    "copyrightText" : "Copyright (c) 1989, 1994 X Consortium\nCopyright 1989, Digital Equipment Corporation.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/Xmbuf.man",
+    "licenseConcluded" : "(LicenseRef-X11-0abaa28e42fa00c55135c26caff4bbf3 AND LicenseRef-HPND-doc-sell-61c67fa4095ed548245da114fe72be56)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092519",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "41b8fe836b84ffa6e6b6dc9dc3085b8d58693817"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0878c11e3a1773344038efbaa3b734381b7cfe1c6f17f8cde4333015da028ceb"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3e5b0bf4fa1f09f70fc04ed2bea90400"
+    } ],
+    "copyrightText" : "Copyright (c) 2013 Gabriele Svelto <gabriele.svelto@gmail.com>",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/m4/ax_gcc_builtin.m4",
+    "licenseConcluded" : "LicenseRef-FSFAP-27b6144a5a871aae6cbd42c8a2812171",
+    "licenseInfoInFiles" : [ "LicenseRef-FSFAP" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092581",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeSelectInput.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092622",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "daf262d514e9a881ca7106289f110f117eb6615e0ed673108ffd40d399a9b3eb"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c2a678858c76bad64c4f262475a1db61"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1f3011dfafbaf672a102cf3aa6e448bca783719c"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/globals.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092589",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "44ffd173575a307ca28b2dce794ef890"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "497705f7d055f9513d26d69efee0872c00e355ef"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "13f98392f70c3162793822a2a4319228c6ae3326ac8ab404e17db576028c3a9b"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XdbeSwapBuffers.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-X11", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092527",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "fa2d75ad714629abe348b3a6e1918144c99d46eb"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b109619884e59f5730b0ad61e4a9d2cca6c54d24d5836a921e109e33ca4511d2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "42dfb57d1a414650fcba99cf7c127a96"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/multibuf.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092584",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "30b48a13b176b797f172db4d26355823"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "434b3c7e02deb8a95973a424170901cecad5c7cf"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "65d6309c6cd44d7effaed103014c4b5c2f88f2919319da4ad8e94a3e312ef92c"
+    } ],
+    "copyrightText" : "Copyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DPMSQueryExtension.man",
+    "licenseConcluded" : "(LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331 AND LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092580",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f1e101084e985ec2546591b5d6ec49936d08a12c"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8175e81c4c34006e540f4735238d028e372abd488278738aa8cde4eb872a67b1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ac5d5ba60d96078a4405ee47563c8c43"
+    } ],
+    "copyrightText" : "Copyright (c) 1989, 1994 X Consortium",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShape.man",
+    "licenseConcluded" : "LicenseRef-X11-0abaa28e42fa00c55135c26caff4bbf3",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092552",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "18845aad94b9244c38127675688b18aac1f0c07e5fc9c1b78054c744ca8dd6d6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "777aaf330b14d155ae38f9299388238f"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0b067580d855e0a79f4a5b50b42f8e77ee024158"
+    } ],
+    "copyrightText" : "Copyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DPMSEnable.man",
+    "licenseConcluded" : "(LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331 AND LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092546",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "3da3ae1a96b06294a764f84006ddff4ccd3095837dbf9f66d3fc9af5605952b4"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "0a6e553754f75b863c694e96f180f77b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1028925899b3aee80e39e54e437c695a5644b9bb"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/specs/.gitignore",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092547",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7439c95513682f537d2e43f915a82b76373182f6"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b24da562c950d87918cd4fe4eea6c8909cfcd178484c26798af95a4b512881e1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ace430b4444b2a6749993bc2b46cdf1a"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/specs/Makefile.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092555",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c48567293b8f83307bbd2ac27e2c5bc67a36bd27"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "173cb368faa7a0afd55ddd16fbbff087063df8bb190d67c8cfb0e8bad14308ab"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "873271a47daa972f1d728dd7b04f1e2e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XeviQueryVersion.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092545",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d700a363a572a23d50ebc89289cbe5230aed06e89a0414e74b421acd4828c714"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "f25524b1743f3608e685f5ca12406c23"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ea6f110e100168ec30342fbc93037c6b92680119"
+    } ],
+    "copyrightText" : "copyright 1991 Olivetti Research Limited, Cambridge England, Digital Equipment Corporation, Maynard, Massachusetts\nCopyright 1991 X Consortium, Inc.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/specs/synclib.xml",
+    "licenseConcluded" : "(LicenseRef-HPND-doc-095a4b81e4f3c061858b78e430b25d86 AND LicenseRef-X11-b07e786585d23697df0f3e66c48c4d6c)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-X11", "LicenseRef-MIT", "LicenseRef-HPND-doc" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092543",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ee50eecaabc0c3eb2497b16099c9b829606fc1bb"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "9f66489c74899023976a5655b8cbbcc8839436bb4a57ac2932f845a2308665ff"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a78c062773e6bd8ab34622412277869c"
+    } ],
+    "copyrightText" : "copyright 1993 X Consortium",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/specs/xtest1.xml",
+    "licenseConcluded" : "LicenseRef-X11-5c4dd76e3a861cfdefd071cdc1ab68e1",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092544",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b5b874ce1bd55f5a0455c44533ae353846c512ed"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "29a44ac7827d0a405086c4e7f12fa78cb3eb9b6b3be4e5d22c43f2bb60efda6f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "5d8c4ae83bfec875ac834cc9ee19a862"
+    } ],
+    "copyrightText" : "copyright 1996 Digital Equipment Corporation",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/specs/dpmslib.xml",
+    "licenseConcluded" : "LicenseRef-HPND-doc-sell-e10f2f5e2a5b675ee7b6b2cd9b943f6f",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT-style" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092541",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "13020c45e9025ad16a11dfceed6e44a369035bbeb7192347874369f3948c3236"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d61e91611aa43a05eb11215dc6621ed9"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "513819c5c26053cada18ae0dddddde87146f8877"
+    } ],
+    "copyrightText" : "copyright 1989 X Consortium Inc Digital Equipment Corporation\ncopyright 1992 X Consortium Inc., Intergraph Corporation\ncopyright 1993 X Consortium Inc, Silicon Graphics, Inc.\ncopyright 1994 1995 X Consortium Inc, Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/specs/dbelib.xml",
+    "licenseConcluded" : "LicenseRef-HPND-doc-376081b2880af68e89917b5d1b050d8e",
+    "licenseInfoInFiles" : [ "LicenseRef-X11-style", "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092542",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "06a2fc89b9e7856506c97a69f82e4d965457770c1c95c5e68a3fefab24de64bd"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "87094d15eab487ad817f0e5aef36c5db"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8e0178bac66078f388e6aba3c97e6b693f8115c7"
+    } ],
+    "copyrightText" : "copyright 1989 X Consortium",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/specs/shapelib.xml",
+    "licenseConcluded" : "LicenseRef-X11-3c6649b78354c643f42adae0717e5564",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092553",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeInputSelected.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092554",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufChangeBufferAttributes.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092578",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "173cb368faa7a0afd55ddd16fbbff087063df8bb190d67c8cfb0e8bad14308ab"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "873271a47daa972f1d728dd7b04f1e2e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c48567293b8f83307bbd2ac27e2c5bc67a36bd27"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XeviGetVisualInfo.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092579",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmPixmapFormat.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092572",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmCreatePixmap.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092573",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c67d0bdcd735f2a1610f7bbbab2ff0e4ca2c26e4"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b3020eb68bee8b5d42f68f3176a119d33de91b3de7d49d0a2ad262a79a8c7118"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "83179eb9eb4bb13a5cd25c907eb8781c"
+    } ],
+    "copyrightText" : "Copyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DPMSSetTimeouts.man",
+    "licenseConcluded" : "(LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331 AND LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092614",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1ede8506e24448e3e17c0140681d7d35e7321af26f2202ac7920baddc8743c83"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "67e1c2e1ebab5ef05e1ed1b6dfeffa69"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "add28ea129b6f8d473d0453843beccc96d632c93"
+    } ],
+    "copyrightText" : "Copyright (c) 1996 Digital Equipment Corporation, Maynard, Massachusetts.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/DPMS.c",
+    "licenseConcluded" : "LicenseRef-X11-distribute-modifications-variant-4e8b4715072fedb621c8eb5016321e1c",
+    "licenseInfoInFiles" : [ "LicenseRef-X11-distribute-modifications-variant", "LicenseRef-X11", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092612",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "65b961855eff9ac6221cc4f4ffbec8781ed0832f"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "76f3784d65843cacf3f34aaa06224160fd323a27059818fe4f68a595417f63dd"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3c20ac1ed354b3d689bb766f1e462239"
+    } ],
+    "copyrightText" : "Copyright (c) 1994, 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/Xdbe.c",
+    "licenseConcluded" : "LicenseRef-X11-distribute-modifications-variant-547e123eaa2f161a556f367eeb748d2d",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-X11", "LicenseRef-X11-distribute-modifications-variant", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092613",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "94dcf1aac58f8290cb4efa875fa191f89455d53b"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8275bd9fb33b8c20addd8d4447081ce7bf3fc697ae4e61cd483faed72e29ab6a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d60dbe7e72b105bec986c3a6bb5c6b9f"
+    } ],
+    "copyrightText" : "Copyright 1987, 1988, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/Xcup.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092570",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "7fb767c49033f95a9fdcdd4ad18a4d9a131c1914d8a19efac5c737c1d07a26b2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "27697dcc31efb1a9db2d55361ed0e96c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "05d10b28c491a8beba07ee70091a796a50594839"
+    } ],
+    "copyrightText" : "Copyright 1986-1997 The Open Group All Rights Reserved\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XcupGetReservedColormapEntries.man",
+    "licenseConcluded" : "LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092536",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "90de96f5f9c7ed9b7cb83267c3ff6cabc95d5302"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4f263d12cc368b3aac724cbf30c5d11b6f3f7c3654a3a3b3f8f81037a4fbcc0d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b899e6f954ad37e91a76eb44072d2a2c"
+    } ],
+    "copyrightText" : "Copyright 1991, 1993, 1994, 1998 The Open Group\nCopyright 1991,1993 by Digital Equipment Corporation, Maynard, Massachusetts, and Olivetti Research Limited, Cambridge, England.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/sync.h",
+    "licenseConcluded" : "(LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde AND LicenseRef-HPND-896563f5821c5b352560de618c67a5b7)",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-HPND", "LicenseRef-scancode-x11-dec1", "LicenseRef-MIT-CMU-style", "LicenseRef-X11", "LicenseRef-HPND-Pbmplus" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092571",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "6e52ed1567425a6ad4958420461ed980daeca27afedd9a9c69b5f1ee0d87ffcf"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "5efb551bff9e975a3dce94d5d3e948cb"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ba8942b487bfb906c4b68adaf623159b123c4bcf"
+    } ],
+    "copyrightText" : "Copyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DPMSInfo.man",
+    "licenseConcluded" : "(LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331 AND LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092537",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a9029c6187b06e37f3d284af661cb075c815623c"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "bfdfa15e01049db30f0377aa080ba0a24da0ad713b3bb9689bd3557944119be8"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "e632e818b53849464468e4b2c4a4be3e"
+    } ],
+    "copyrightText" : "Copyright 1987, 1988, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/Xcup.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092534",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "08f56cd5b19120009953d410a3007d28687a73c166efdfd660e75e0a62acb6e4"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "46762e197a151a897b5980a2549fb1c2"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5f25fd07d0109abdd9008d8289253ecc87f6764e"
+    } ],
+    "copyrightText" : "Copyright 1992 Network Computing Devices",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/XLbx.h",
+    "licenseConcluded" : "LicenseRef-HPND-sell-variant-ab6ff87bb86b8e6a6d7bdc368af9d310",
+    "licenseInfoInFiles" : [ "LicenseRef-HPND-sell-variant" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092549",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b02277358b000f9396fb5dbf4a56e0696e2bb300"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fd2fbbb16e14f9d85082f31f05760cb203d64691a85942d7330b50fc6e936304"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "33a25411ae7d26ce78852eb106ec9196"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XdbeQueryExtension.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-X11", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092535",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "c72797538304fb64536e60d5a4fbc607"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5cadd0055c9eaeea5ee086939ecf9f04ddc8686f"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c2cb03ed6efa6ec8a13d3cc0b5bad707c6b2997735335687084521915d352005"
+    } ],
+    "copyrightText" : "Copyright (c) 1996 Digital Equipment Corporation, Maynard, Massachusetts.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/include/X11/extensions/dpms.h",
+    "licenseConcluded" : "LicenseRef-X11-distribute-modifications-variant-4e8b4715072fedb621c8eb5016321e1c",
+    "licenseInfoInFiles" : [ "LicenseRef-X11-distribute-modifications-variant", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092615",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "77f4c04dd52533986d1bb2616c4da821"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ada313ac6200cedcbd198f6c5c100accfb977f79"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "98057bf1d918c7de0b854387414ddd46abda6f48405c35cf6d24a1ed9ec77b4a"
+    } ],
+    "copyrightText" : "Copyright 1986, 1987, 1988, 1998 The Open Group\nCopyright 1986, 1987, 1988 by Hewlett-Packard Corporation",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/XTestExt1.c",
+    "licenseConcluded" : "(LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde AND LicenseRef-NTP-203c31bb7c177732da5a14b6d84f14a8)",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-MIT-CMU-style", "LicenseRef-X11", "LicenseRef-NTP", "LicenseRef-scancode-x11-x11r5" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092616",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d94116fb5cbc96979fb7ac133246b7edfe651237"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a21fe6a3efe4ca92453dc490b9750607"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "549a45997976e478500d3c49639c8ed53bec9750972a1cc13e5abc1f8e3ea32e"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/MITMisc.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092577",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "f6bacf1847b7e3505b5e23d9e5f6dd08"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8ccfdcf34332ca30f11ce35c41686e54bb150915"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c4916666f7d9700ec0d67e2456fcc106d48d72d0d6063005ed45772c0e5abe06"
+    } ],
+    "copyrightText" : "Copyright 1986-1997 The Open Group All Rights Reserved\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XcupStoreColors.man",
+    "licenseConcluded" : "LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092619",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "58014e6bdeeb150fbaad1dff64c467d5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6d4c9d3fa17ba1c9529fbac1b71bcfb3749a60d6"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "dc6fc036ff3f8d61f58d274e0181dcd6a09868df6e39e5f2ea133b16453581d5"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/XShm.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092617",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "fff360ef9922981fa783f3313bb1b790"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "065b132564c44d293de56557af05ca70941be08c"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b78ad47506c642fbedbf12a35858e363629e3ae4010fef1567ecafa940a56e2f"
+    } ],
+    "copyrightText" : "Copyright © 2007-2008 Peter Hutterer",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/extutilP.h",
+    "licenseConcluded" : "LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092618",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1073a25a8cfe4f63edd4f042002ddd688525589a"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "330da351a9fd229d6ad583990fff9ca63b577ab1e1e25bf6595e68f2166d70a8"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "6e8924817493bffbc2497d8bb393e1a7"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/extutil.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092576",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c48567293b8f83307bbd2ac27e2c5bc67a36bd27"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "173cb368faa7a0afd55ddd16fbbff087063df8bb190d67c8cfb0e8bad14308ab"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "873271a47daa972f1d728dd7b04f1e2e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XeviQueryExtension.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092610",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9fb86f3d6ee8eec4d49c3ed0e94a4b2ddd71bc29"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fc3fec748a8d6f9c3c98c69f24875151d87406c8761888be143c582a1f9e394c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "12f44f5cccac1022a1104efce336de3d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/Makefile.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092574",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "871dc450e65d47147179bf9563e319523619a87c"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2da0532997a2b58e4930c51e57c138cdd9d32e2a4edc72f83e59077f368eca91"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "5c43aba61f8b440701634f5b3f051684"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XdbeGetBackBufferAttributes.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092575",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeCombineMask.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092569",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufCreateStereoWindow.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092602",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "f6f5d771a3f3e7041884023733a202d3"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d2a8788e84eef070cd88917039a88832b68b1006a12c9339ef2feadbf8933ee1"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "bf51193c01208de7fe8bc0f23d6ec637b44179d8"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XdbeDeallocateBackBufferName.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092568",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeQueryVersion.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092601",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufDisplayBuffers.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092603",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeQueryExtension.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092560",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufDestroyBuffers.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092600",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeCombineRectangles.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092567",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fbbffc458000dc2a0f41c39893f8b1bf16ba71a470560570c23465e063dc192f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "1289ca3cc5e11565768295ea7a98db49"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "557da0221488c60a4aaa3688569612071315531f"
+    } ],
+    "copyrightText" : "Copyright (c) 1997 Silicon Graphics, Inc.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/Xevi.man",
+    "licenseConcluded" : "LicenseRef-SGI-B-2.0-32f6c49562038fdbe49546badd6bb19a",
+    "licenseInfoInFiles" : [ "LicenseRef-SGI-B-2.0", "LicenseRef-X11", "LicenseRef-MIT", "LicenseRef-X11-distribute-modifications-variant" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092561",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufGetBufferAttributes.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092562",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmAttach.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092606",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "15d107c47610694ee84a188bc8d51bfdd0d26bd226bf7076109dc5478951cedc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3d71a71aebe3f87a74414c391e90595d"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "fa91c965b2f1cb2a96d27c1c11e70f7445691e3e"
+    } ],
+    "copyrightText" : "Copyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DPMSDisable.man",
+    "licenseConcluded" : "(LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf AND LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092625",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "8b87fd25424c91e8132f9676011979f4"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e405d0a19fdf540a8cd8d7c5ef334ec5cbdf45c6"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "06f7f9679cc25e3b510967d211b57d638c4fc86d5befbadc7d1e4105b5823291"
+    } ],
+    "copyrightText" : "Copyright © 2007-2008 Peter Hutterer",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/Xge.c",
+    "licenseConcluded" : "LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092607",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufGetScreenInfo.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092585",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "6a29db3812c950d65599bd14d4a7a4a03fbe804e0f19f43d82b63402ac8a59bc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "790ec1da3a0619b343eb301bd359986e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f9a035b7d4e02a470e6b81587b373e9293c160fd"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XdbeFreeVisualInfo.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092604",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmPutImage.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092605",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "94f2157685ff51994afe60f5ceb412d3a7c3b67ccd179ada53461d994f79f2ba"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c6dca1a2d6182bb956a33900c53e2983"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f38d71ca04668667506ac7455dfc33fa86d3ae6f"
+    } ],
+    "copyrightText" : "Copyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DPMSForceLevel.man",
+    "licenseConcluded" : "(LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331 AND LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092624",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "479443892b41bfb7c38aa53bf91c630b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "efe89cf78ad34c2cf05cbac050747e157b8a0779"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1dcb0926e277273b1374fd444d419b7a044820a17833dfa010f1615d2151cccc"
+    } ],
+    "copyrightText" : "Copyright (c) 2008 Otto Moerbeek <otto@drijf.net>",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/reallocarray.c",
+    "licenseConcluded" : "LicenseRef-ISC-6351e788a19dc7f74fceaa08e0941365",
+    "licenseInfoInFiles" : [ "LicenseRef-0BSD", "LicenseRef-ISC" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092620",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "0278750562a995627b41a0dd646e10f4"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6f478e1c6118ebf66d51b9e8b871f669c8488ec8"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a1c8a8fd65dc3fc8007b1940ee23c2369a9a354e43db908717519ad6dd4f3f98"
+    } ],
+    "copyrightText" : "Copyright (c) 1997 by Silicon Graphics Computer Systems, Inc.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/XEVI.c",
+    "licenseConcluded" : "LicenseRef-HPND-a42476dc374540e94d1e4149e3b3bfae",
+    "licenseInfoInFiles" : [ "LicenseRef-HPND", "LicenseRef-MIT-CMU-style" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092621",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "51a65c18d766360071d70c909b326f26"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "395bb724445c753af339350d1777b25b07b7493a"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5bc5da44892b26a1ec45fcb59a9cd03c0bdced3460e55f9f7d50db21c6c9d4a8"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/XMultibuf.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092586",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufQueryExtension.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092587",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufGetVersion.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092563",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmCreateImage.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092564",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1df0c3ec2631d10b4d2db2dd66cafd81dc4a1b00"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "6ab95847f4bd4040c1c6732eb95136a7d54bf60e43eb28d9a297ac38e0a86631"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "8c674d8a1b4898ff87d3d7c50886b416"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XdbeGetVisualInfo.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-X11", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092608",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmQueryExtension.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092609",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeQueryExtents.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092565",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufChangeWindowAttributes.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092566",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "426d8e7b74d4f562535a4d7b7f9dfc06e98f0c1c5c9e202c645b0740e1039d03"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "eef398fd3110926e031ecf3c2062b30b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "156c06594224958a7d54f92f5c613444949565ee"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShapeCombineRegion.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092627",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9bdd64319870d7c996ba5985fe0abbab29e54090"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "171b8aec93976476239f8e43c51b04caea561121242614f7ea4ab9247f961a0f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "8b347adea417fb0010ade0d1545f7b44"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/XShape.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092588",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "748ecfbb46658287fcc80f8b63797970115fcc6c96edbad64d3aa0bc5de73ea6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b05aab2e49aa0b3173c496022234c4f7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2794d30e626cfa565af496817ec5c254f70375e6"
+    } ],
+    "copyrightText" : "Copyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DPMSCapable.man",
+    "licenseConcluded" : "(LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf AND LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092626",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "c1cbc8e74f7f5c2075493c43bc4f987c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "669249792c47115504d3a88ea13bdc1133c644c7"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f6e23ca032dfbe09117d3512c84902b0db9f72820e272afcea418cfa99c6ef1a"
+    } ],
+    "copyrightText" : "Copyright 1992 Network Computing Devices",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/XLbx.c",
+    "licenseConcluded" : "LicenseRef-HPND-sell-variant-ab6ff87bb86b8e6a6d7bdc368af9d310",
+    "licenseInfoInFiles" : [ "LicenseRef-HPND-sell-variant" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092514",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "3b80f747b2a60d03dedf84c294165c20e118e4fc443a73d711bf500b1e82d89e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "1e9b01e1ee95ec11d0337f9c5ba134dd"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "adef329f3eccf7b68e2f9433d6085eb6c1af9248"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/configure.ac",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092633",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "bbcce6323f59a69b636badcf9330615cc7e3e357"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "95344089cb56eae3077111639fea0fcea5c69e8970b88e5cdf6bdfedfab48ab2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b1877e4394e679f5ed5b945099c7891b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/Makefile.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092628",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f70b721fdfbe34631fad53ed99037bcc235b18f2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a3793eae199d10c7b59644d3774853b7"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e63a358ab6718ba222fa9d8eff2aa308fac1b315b644ff89df9c92245772b157"
+    } ],
+    "copyrightText" : "Copyright (c) 2015, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/reallocarray.h",
+    "licenseConcluded" : "LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092513",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "598f643c2c40adaa3ba6195b0b701376"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "688e04e04b36bb7dcb28deb44f5c87bd113259df"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d3172a98780ad914592ca44e078d01999746941d8ec97f5134664f267a4df783"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/README.md",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092629",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "27c28a203aa5b32fdbf37090a04e69dd"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "84eb4eef869b6e8f7e788fdf2a1654ad4cf5c825"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "849325f80d9ef54ec64bf440f5cf1d0321dae5ebb4df9093f8e0e740bb0692f2"
+    } ],
+    "copyrightText" : "Copyright 1996, 1998 The Open Group",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/src/XSecurity.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092593",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "d48565833691b8f5590877e3036c5046"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "19408a5946dbc2262ae527e65b96f8cdcc3edaa2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b733ef78784c127c5b3a7ec08cff02899539414e7fd1f337b2c9e8ab946cc631"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XdbeBeginIdiom.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092594",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "2e70698a8b4e913ff1be0f16aa6d08e5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "904453ee9c00206fccf54c52222bfde72f8dfc22"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "90e8981d368da7d37bb1227b3f207e5c33cc1209376f3cac8c1432e060e896f5"
+    } ],
+    "copyrightText" : "Copyright Digital Equipment Corporation, 1996\nCopyright (c) 1999, 2005, Oracle and/or its affiliates.",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DPMSGetTimeouts.man",
+    "licenseConcluded" : "(LicenseRef-MIT-4226a18f77f8bf965d3f8aa55a7db331 AND LicenseRef-HPND-doc-sell-f2c008eec350eece03201612a99c91bf)",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-x11-doc", "LicenseRef-HPND-doc-sell", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092592",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "388376bb1b0c98bd7680d80a63c1da89cdc63ad4e7e42470a2725282c86c0bc8"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "bf2f5704925d9f2b7a23bb26081b10d8"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9fe98afc662dba22bc31aff0eb477ba953fca97d"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/DBE.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092591",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "30eb0e486e014931eca7e829aafbf8c52a9acccf9c91cbb1ca55256ce14ef17c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9e0dd821d5111e020f6b75f9c5fc47e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eab8f2aa5adca06c16df6cb9d5e0203c56d0add2"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XmbufCreateBuffers.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092512",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0fec8da1b5c74ba9919d8f57ba27035f0dfbbd441b2994fbc537c631d3cda608"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "f991a6acd9e259742a36fde7e3d238ca"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "367c97c4184bbc5af4a0d1a63bf14fd790953acf"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/AUTHORS",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092595",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d458da9d8e2f13a5261a556f9d97503000679b8e617a5ad7448f58e2cf89daff"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2cea514306e0767153312617ecf667884f9cf506"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "dfe687c39b8edf14345d18205ad41ca7"
+    } ],
+    "copyrightText" : "Copyright (c) 1995 Hewlett-Packard Company",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XdbeAllocateBackBufferName.man",
+    "licenseConcluded" : "LicenseRef-X11-59eca58ac381509c9a1f2538679d0183",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-MIT", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item12092590",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "473b754c7d302e6ac6579ff6a90f7ba36800079d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b105e3a6842f1c753f87df6b134829c3"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61a4b377bd3c8c4e7d0b928a2e2012908e43436efa9774bba904108755545dbc"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxext-libXext-1.3.6.tar.gz/libxext-libXext-1.3.6.tar/libxext-libXext-1.3.6/man/XShmQueryVersion.man",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-upload2583"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092545"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092555"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092560"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092593"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092578"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092603"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092629"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092576"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092554"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092547"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092598"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092600"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092631"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092579"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092599"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092618"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092546"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092617"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092542"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092552"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092568"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092628"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092619"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092580"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092633"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092511"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092596"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092553"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092601"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092513"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092530"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092632"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092577"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092626"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092616"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092569"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092584"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092587"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092575"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092527"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092551"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092533"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092514"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092550"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092602"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092586"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092615"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092589"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092622"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092621"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092517"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092627"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092610"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092535"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092581"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092620"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092566"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092549"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092520"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092526"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092588"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092574"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092538"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092525"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092624"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092534"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092537"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092609"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092571"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092583"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092605"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092524"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092519"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092565"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092531"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092516"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092604"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092557"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092585"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092563"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092536"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092556"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092607"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092570"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092608"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092582"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092564"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092532"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092515"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092590"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092612"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092558"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092595"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092614"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092541"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092606"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092512"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092613"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092559"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092625"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092630"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092597"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092544"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092562"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092591"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092543"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092592"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092528"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092573"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092561"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092594"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092623"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092572"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092567"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092539"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2583",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item12092529"
+  } ]
+}
