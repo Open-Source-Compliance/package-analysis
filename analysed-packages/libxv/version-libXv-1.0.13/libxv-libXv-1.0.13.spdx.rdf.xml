@@ -1,0 +1,2043 @@
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <spdx:SpdxDocument rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-DOCUMENT">
+    <spdx:relationship>
+      <spdx:Relationship>
+        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
+        <spdx:relatedSpdxElement>
+          <spdx:Package rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-upload2601">
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111678">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/src/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>744f570442a56bc3f1cf68974c10bc50abc8faef</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>32541ec0fbfebab8b62dba1459de0b9a4891164aff9856d491a11c027a4a114e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>0489671d4bd4cde2ea184391b4756dc9</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:licenseComments>licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+- scancode ("4.4.0.51".1e52cb)</spdx:licenseComments>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111644">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/include/X11/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f95a29a65ed871a8a1ec360f9c77279801a7bb6d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>66435228ca345ac97816260f71678dc999f361ff63389082c86c10caf5d7bc8c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4acbf0250e40ce5ae0b92376178bce0d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111650">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvPortNotify.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>a1d4487e659d3f984724a33a49d2cbdf63b5796ddb7ee06322147fc8abdf543e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>051c5c6cf34dd331c33d9e2e51339941</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4a2eec8f44d0f930e428ec0a4872029732470f49</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111656">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvGetPortAttribute.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>779944f1dd47d308afe8b5de5b5460617fb48705f19145396114d8b2059fcf24</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>76059759ad30e32e383f16611610d013</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>386d3859f5bfda615cae9f06f55f079eacc8864b</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111659">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvListImageFormats.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9e87bccf97ca59fbdf253693c36ec1d0b5ee45b7</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>6c1cc0db93a4b6c7353421e7cd67db9b115a4be5c86c6bbbdf2a9576596834a3</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>14932f483858765b22bb6c85d335cce5</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111643">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/include/X11/extensions/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>df2d9efb645108f861872fa0a2b11e58a1457198</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>70d01b7de4661fc0d04bb20ce25bfb0333c762630094cf1c3450906318d84771</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f2a064b740934833e9216529b5dc1e62</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111662">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvQueryExtension.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d68db89fdabe928541890e33c1b67aba2b5d375c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>30c588059c3f7ad5156dda3347c61240c24b3585f39fda9705d9825e9be768a6</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7844d502bd410ec29016ba6f005c1590</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111652">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvPutImage.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>5e6a312066eeced508a1fe6e0764c401</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>3fa7f9715b8a3668a833e25eda6c85ef374620c9</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>6e96b9874631649cf53dc48e9b6469bea535a23094685329119eab3f47ff5e86</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111664">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvSelectVideoNotify.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>df134e92b02f959d8f9d690c8b45f8e6ac46bcfdb5038c08bf2ccc810c5541b4</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>491c1bcefe05f672ecbc628bac6d921c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>b0160c9df3383c03edf6c72caebb3e501e83424f</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:externalRef>
+              <spdx:ExternalRef>
+                <spdx:referenceLocator>pkg:generic/libxv@libXv-1.0.13?download_url=https://gitlab.freedesktop.org/xorg/lib/libxv/-/archive/libXv-1.0.13/libxv-libXv-1.0.13.tar.gz</spdx:referenceLocator>
+                <spdx:referenceCategory rdf:resource="http://spdx.org/rdf/terms#referenceCategory_packageManager"/>
+                <spdx:referenceType rdf:resource="http://spdx.org/rdf/references/purl"/>
+              </spdx:ExternalRef>
+            </spdx:externalRef>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111653">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvPutVideo.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>17f39da558c73478dbf13ec7ba1c60530bb2dfa1</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>582985298c612d527e0008080cc4fb71</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9351924228b1ffb9f145ee77a7a9ccfc2f36c28d06c1f35ca267619fe86ab705</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111681">
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-sell-variant">
+                        <spdx:licenseId>LicenseRef-HPND-sell-variant</spdx:licenseId>
+                        <spdx:name>Historical Permission Notice and Disclaimer - sell variant</spdx:name>
+                        <spdx:extractedText>Copyright 1993 by OpenVision Technologies, Inc.
+
+Permission to use, copy, modify, distribute, and sell this software
+and its documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice appears in all copies and
+that both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of OpenVision not be used
+in advertising or publicity pertaining to distribution of the software
+without specific, written prior permission. OpenVision makes no
+representations about the suitability of this software for any
+purpose.  It is provided "as is" without express or implied warranty.
+
+OPENVISION DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+EVENT SHALL OPENVISION BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24">
+                        <spdx:licenseId>LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24</spdx:licenseId>
+                        <spdx:name>Historical Permission Notice and Disclaimer - sell variant</spdx:name>
+                        <spdx:extractedText>Permission to use, copy, modify, distribute, and sell this software and its
+documentation for any purpose is hereby granted without fee, provided that
+the above copyright notice appear in all copies and that both that
+copyright notice and this permission notice appear in supporting
+documentation, and that the name of Red Hat not be used in
+advertising or publicity pertaining to distribution of the software without
+specific, written prior permission. Red Hat makes no
+representations about the suitability of this software for any purpose. It
+is provided "as is" without express or implied warranty.
+
+RED HAT DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+EVENT SHALL RED HAT BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseConcluded>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>5f4a408f65f123766bba07d59a678f725df8d9ff</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>65653898a83fa1809cf79ffb2ccc7814a5849eb3d7593d6e641ccb8d265bf37e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d6126c667e71fe527e4db432a79f8c2f</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright 2005 Red Hat, Inc.</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111651">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvCreateImage.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f3a835a8949cf347f27443d25f134f8563755bee</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>271a78967b1fc730b6055bfec738fca0a432d629f1d226e3f3dd1e012632c69f</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>038ff33f8a7b46058ba80edb3690726e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:filesAnalyzed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:filesAnalyzed>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111655">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvStopVideo.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>fc47cc4e18b95d05206b8c14b335dc012b22c3076568153c518327f33c6bc1a8</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>c848164150bc32c3887b58c635ca3e56</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7882ad4a5bfedda5d7328c816d263d31987ad7c5</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111680">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/xv.pc.in</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>e3e0c176ad55ea3c00f868c21bd6d0da</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ea0008490a29574b420eaa6869af205b91bde8d5</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>58f2ef3591f8cd9a3268623d5bbcd410a8a415a58218dbb6d5157084c95cbe12</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111665">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvShmPutImage.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>2d5680bb5fd7ee0a055441a0bbe2b83d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>3d05d566eeb8985b36fa9524e486f30a5ec01511</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>b3622c60b3dad165239f648c9935c1d1b4c708d9d69783dd1360a6a4b937df50</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111669">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvQueryPortAttributes.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f2e68b29898da2cfeb2c0cd8c376c36fc2ed9b16</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d325861250881c2d6ed7fb00610265f43899a399e1c1dd701057e27dcc8e4a71</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>48a1ea4ec55f2d77183ce7688856447d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>688cb0c7854612358e7f619cb9f5dc5afc083de9</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111673">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvSetPortAttribute.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d454028e0defb799a07996d4be4cc557dac73ff94313d290545ad53d9bc58688</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>5b1b3fd231954ba65a3e310104e94e4e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d48867d178852a7ee0025b8995a348df9c0c12be</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111663">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvPutStill.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>32773125d8b2368a75a2ca68864f5ef3</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>358aff543bcd5a58ef69971641543170ac24c679</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f7e8f9405a61ab1d3507eea49a386b449db85f38c3a9e8a789aa353bcd9f2402</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111648">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/xv-library-v2.2.txt</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>18f99dd5d89886279470a4b315230b5009e97efb6456c90ac43dd2a26dcfe99a</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7941431a4f7a6f842f18b0451f233b24</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>25baaebe1a1c839b5bd987797a437c001ca7db38</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111660">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/Xv.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>b26abb4c166e1e443b4a1c644ebcb7fcdeb68164</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>bf1b2f4fe857e63fa34c146f2386c09559a06dd2a858264a118450c360d6c829</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>6c0ce60726ff65e55b8923f6875e2138</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:downloadLocation>https://gitlab.freedesktop.org/xorg/lib/libxv/-/archive/libXv-1.0.13/libxv-libXv-1.0.13.tar.gz</spdx:downloadLocation>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111654">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvUngrabPort.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d87948c05261d808f3abed72ac9ff9e57a7ffb96</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>2131cc675e35c2ca9ff1b9d45cc13c0ae9cec640c48a2fc05fb5016e64506daa</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d8cfd66b251e843ceb43dcb908e0d20d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111670">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvSelectPortNotify.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ed56a7e5399323e94c4da9cdad14c02c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>529b0f720b6ed2825e77f99aabc4eb120f09f2be</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>042a0a891cc1a2e0ca099c085bae9b1b440c2d62f006b505a356b92412b85176</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111668">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvQueryAdaptors.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>327379d65192985098f0187b282a358f6fca417a</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>35c3af5ef424280edf0fd0643a2dcbe24209fb43f7f6c33044c2d16becdaa5cc</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>959587e71d7ef0048994ae4e10eba6ef</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111676">
+                    <spdx:copyrightText>Copyright 1987 by Digital Equipment Corporation, Maynard, Massachusetts, and the Massachusetts Institute of Technology, Cambridge, Massachusetts.</spdx:copyrightText>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>91958b23c3091a6537cd54161b4fe360</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseConcluded>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-c396610a342fb19f962b74c73238fa4f">
+                        <spdx:licenseId>LicenseRef-HPND-c396610a342fb19f962b74c73238fa4f</spdx:licenseId>
+                        <spdx:name>Historical Permission Notice and Disclaimer</spdx:name>
+                        <spdx:extractedText>Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation, and that the names of Digital or MIT not be
+used in advertising or publicity pertaining to distribution of the
+software without specific, written prior permission.
+
+DIGITAL DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING
+ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL
+DIGITAL BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR
+ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+SOFTWARE.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseConcluded>
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-scancode-x11-dec1">
+                        <spdx:licenseId>LicenseRef-scancode-x11-dec1</spdx:licenseId>
+                        <spdx:name>X11-Style (DEC 1)</spdx:name>
+                        <spdx:extractedText>License by Scancode.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>59afb3b8feb8e0bcd1e35bdf9030c1017ce6a5db</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>70c1a7ec41e7facb481e094682be8623842ecf26fae7f39fdc25b5d5fdcb00c9</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/src/Xvlibint.h</spdx:fileName>
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-MIT-CMU-style">
+                        <spdx:licenseId>LicenseRef-MIT-CMU-style</spdx:licenseId>
+                        <spdx:name>MIT-CMU-style</spdx:name>
+                        <spdx:extractedText>License by Nomos.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND">
+                        <spdx:licenseId>LicenseRef-HPND</spdx:licenseId>
+                        <spdx:name>Historical Permission Notice and Disclaimer</spdx:name>
+                        <spdx:extractedText>Historical Permission Notice and Disclaimer
+
+&lt;copyright notice&gt;
+
+Permission to use, copy, modify and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies, and that both that the copyright notice and this permission notice appear in supporting documentation, and that the name of &lt;copyright holder&gt; or &lt;related entities&gt; not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. &lt;copyright holder&gt; makes no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
+
+&lt;copyright holder&gt; DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS,. IN NO EVENT SHALL &lt;copyright holder&gt; BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111633">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/.gitlab-ci.yml</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9a895f5230a9511c6d8f24d286f291cd2cd7e4d6af06d93522d0e6963edffcd2</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>3cab9fc8f790cd767d885045070bc459</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>254e04d0e6ebd4fff5d61a8b2d3ecbd55d1b2c5b</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>a710d17a9eba0689f8e95354bddd1e308485381729a073f73148b6a28e1b6d11</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111634">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/AUTHORS</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ed8f8e90a975c3d55458d9a8e07edd493466b0fb</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f1d257b274f65bdf7eea662be52a4d55daa75e169bf78aaf79072f1089eccf0c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>02d097cb88a9f052a3c90ee1624fec58</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111649">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvGetStill.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>b36d6e6c005eb95c318a2569403d46b45fc2d39cd3ca09238ef74ed363c998a2</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>b0c458be9ff388851241d3c71fd3191c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>0419f26a1ad9af15b900c88d11222e6dd2a71a58</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111666">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvFreeEncodingInfo.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>6921b1e3d5deb29ee4e471750fb25f754297da10</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>252be4423cb8615dab5dd82bf9142bd6b5ab05c2bb7b744c909a652669659359</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d3157406cf531578639b9fd2376b6188</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111671">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvGetVideo.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d243cf21f30e1b9707b64586b91dae91e4cfd3e5083a3e479bd03e4cc34c39e3</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1ad0612965509bf584a62bf1314c29f1</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ff967e6fe4253c95b1befbf10111146dd2287bfd</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111658">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvShmCreateImage.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>328f57d63f2e47a3f356ff98ede1d44a487bbb54</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7bdcd28f695cf35453be04ab2fde401b8ea61947cc634557f65e90bd776efb3d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1c68575d9b501611272f8b1b2d836173</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111645">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/include/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ca9e246fd71fc12ced0cd4bc189aa16c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>afdedd8100fb2ac90208bdafcc03aa098bc3e456</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>c257401fd0640ad0e48fd9f401c9a66f7fa581a2d11bbfed10e7cbe06974a912</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:packageFileName>libxv-libXv-1.0.13.tar.gz</spdx:packageFileName>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111677">
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>26cf6f49855a43f2dd9b17ae45b71e98cfd8fac8028c3da189e0031df26df676</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/src/Xv.c</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-c396610a342fb19f962b74c73238fa4f"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-scancode-x11-dec1"/>
+                    <spdx:copyrightText>Copyright 1991 by Digital Equipment Corporation, Maynard, Massachusetts, and the Massachusetts Institute of Technology, Cambridge, Massachusetts.</spdx:copyrightText>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>2da7a87f3ba499cb09eb2c05dde13d37</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>6991e0f2bd61895f856c07868f70cdffdb424d71</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-MIT-CMU-style"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND"/>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111667">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvFreeAdaptorInfo.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4e6dfac9bed52f162cd4c1dc62137195c3ae96d86cba9826ce8b0ce29d892f71</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>50fc5211946644b8fdcb28c2f95f0b5b6fb20f68</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4bedc050f0f4d52e767457a12b861432</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:name>libxv-libXv-1.0.13.tar.gz</spdx:name>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111637">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/autogen.sh</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>53bc1eb040c8073a9ead95034558ccad</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>6f0b23531d1f1e72d73784a4eb117f2c8e0df576</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>167af4e3e235307b77768735e43711c392561857bbbb367d944b098191ee158e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111642">
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/include/X11/extensions/Xvlib.h</spdx:fileName>
+                    <spdx:copyrightText>Copyright 1991 by Digital Equipment Corporation, Maynard, Massachusetts, and the Massachusetts Institute of Technology, Cambridge, Massachusetts.</spdx:copyrightText>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>550c9dfd41ce4c5b060e527f368b7e91d4233f59</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>5cd4d7664497c59be8f6728712ec6897</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-MIT-CMU-style"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-scancode-x11-dec1"/>
+                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-c396610a342fb19f962b74c73238fa4f"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>c926b8f1bcdbb1684a5e7199e7d94de46427a2c5f756102f378f2ee79966f835</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:licenseDeclared>
+              <spdx:ConjunctiveLicenseSet>
+                <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24"/>
+                <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-c396610a342fb19f962b74c73238fa4f"/>
+              </spdx:ConjunctiveLicenseSet>
+            </spdx:licenseDeclared>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111636">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-sell-variant"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/configure.ac</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>139a02d55dce0826075277d8fd0bdb48a62c1dc46dabe14a8f1ba5b922643ab6</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f612b1585ff386e4a4342bd592ded5b1</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ff36b85f5e5141e2ff2e6e66fab876b3a47eff3e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright 2005 Red Hat, Inc.</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:packageVerificationCode>
+              <spdx:PackageVerificationCode>
+                <spdx:packageVerificationCodeValue>b6bd9efc20911a912dc2705d8bce715bc7618b14</spdx:packageVerificationCodeValue>
+              </spdx:PackageVerificationCode>
+            </spdx:packageVerificationCode>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111661">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvGrabPort.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ca6a8a5391d1ebfdf28e67179b0f6024cf3888a0</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>b3cf2de29c006b1f19bc6e08e852c2fcada69d24e338639801e83467c8bdb490</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>466ab631703f3b6bc885d410572cc103</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111657">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvQueryBestSize.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>33a48b320c92f3614edbc59b62cc1da3</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f4a1030487ca8313f6912027c34a01f9b6874ad3</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>aa198704525c4ad424d9cfeda19eeebc8823366965f5086413e5ca2710ad66b1</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111674">
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-MIT">
+                        <spdx:licenseId>LicenseRef-MIT</spdx:licenseId>
+                        <spdx:name>MIT License</spdx:name>
+                        <spdx:extractedText>MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>8709783490ec7212e8886837f05eebb3f70666bc</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>71f36e459dc31c5d3e6976108ee5401e6afab57e9458cdf4b7a25c28c06a7f34</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7542da84b39262c821e0462122e8a63f</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright (c) 2005, Oracle and/or its affiliates.</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111635">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/README.md</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>23b7735c9259a27ccc65390e203d75f9</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>59bb6ab41c03b75b5b6bab43c7da09dfc95c12f8</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>e86ea36d52ef1c4642061deb4b6e19e2b98c9ca2567eefcc22157b762800accf</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111672">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvQueryEncodings.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f7bf1ed76e49a33cee3f9739536cc0e7</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>5a5c670000b1146035a5d9731252dbab18428ffa</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>6db31baa4337a9fb1687d81dc11d4976e591b3b886ba919c6fb20e9f274ee401</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111638">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-sell-variant"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-MIT-CMU-style"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>827da9afab1f727f2a66574629e0f39c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright 1991 by Digital Equipment Corporation, Maynard, Massachusetts, and the Massachusetts Institute of Technology, Cambridge, Massachusetts.
+Copyright 2005 Red Hat, Inc.</spdx:copyrightText>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4fac4d581d00f11c459d68b7cb970f3d4e5a5bbfb53784d85f59a90076280301</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/COPYING</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d1845ff7fcb2cdc1f5713dd18140e89de2ab0204</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-scancode-x11-dec1"/>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111647">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/man/XvVideoNotify.man</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f5ff64e55807e273b477f1131075ac198db036a7</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>844efc99d52fece7ef12b9f3eb9c6407e13b5dc5c7cb29930f83a7a74e6e78d2</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7e11eb5e7ebc75e80bf7e824d587cbf7</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#SPDXRef-item12111679">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxv-libXv-1.0.13.tar.gz/libxv-libXv-1.0.13.tar/libxv-libXv-1.0.13/.gitignore</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>bdd2b17766066084e0eac1726592d26bf6f9c4d52f65fc8c44f3f23ad698b04d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7705a289b869d748f3e4a0c97be9c405</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>96b33a2a3df35c54b00eb230ee86d516e986d044</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>0ccc59f9b13ab84edaae1c4fc75114d5</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+          </spdx:Package>
+        </spdx:relatedSpdxElement>
+      </spdx:Relationship>
+    </spdx:relationship>
+    <spdx:dataLicense>
+      <spdx:ListedLicense rdf:about="http://spdx.org/licenses/CC0-1.0">
+        <spdx:licenseTextHtml>
+      &lt;div class="optional-license-text"&gt; 
+         &lt;div class="optional-license-text"&gt; 
+            &lt;p&gt;Creative Commons&lt;var class="optional-license-text"&gt;  Legal Code&lt;/var&gt;&lt;/p&gt;
+
+         &lt;/div&gt;
+         &lt;p&gt;CC0 1.0 Universal&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;div class="optional-license-text"&gt; 
+         &lt;p&gt;CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS
+         DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION
+         ON AN &amp;quot;AS-IS&amp;quot; BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT
+         OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE
+         USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.&lt;/p&gt;
+
+      &lt;/div&gt;
+
+      &lt;p&gt;Statement of Purpose&lt;/p&gt;
+
+      &lt;p&gt;The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related
+         Rights (defined below) upon the creator and subsequent owner(s) (each and all, an &amp;quot;owner&amp;quot;)
+         of an original work of authorship and/or a database (each, a &amp;quot;Work&amp;quot;).&lt;/p&gt;
+
+      &lt;p&gt;Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a
+         commons of creative, cultural and scientific works (&amp;quot;Commons&amp;quot;) that the public can reliably
+         and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse
+         and redistribute as freely as possible in any form whatsoever and for any purposes, including without
+         limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a
+         free culture and the further production of creative, cultural and scientific works, or to gain
+         reputation or greater distribution for their Work in part through the use and efforts of others.&lt;/p&gt;
+
+      &lt;p&gt;For these and/or other purposes and motivations, and without any expectation of additional consideration
+         or compensation, the person associating CC0 with a Work (the &amp;quot;Affirmer&amp;quot;), to the extent that
+         he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to
+         the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and
+         Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.&lt;/p&gt;
+
+&lt;ul style="list-style:none"&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 1.&lt;/span&gt;&lt;/var&gt;
+          Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and
+             related or neighboring rights (&amp;quot;Copyright and Related Rights&amp;quot;). Copyright and
+             Related Rights include, but are not limited to, the following:
+          
+&lt;ul style="list-style:none"&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; i.&lt;/span&gt;&lt;/var&gt;
+              the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; ii.&lt;/span&gt;&lt;/var&gt;
+              moral rights retained by the original author(s) and/or performer(s);
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; iii.&lt;/span&gt;&lt;/var&gt;
+              publicity and privacy rights pertaining to a person&amp;apos;s image or likeness depicted in a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; iv.&lt;/span&gt;&lt;/var&gt;
+              rights protecting against unfair competition in regards to a Work, subject to the limitations
+                 in paragraph 4(a), below;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; v.&lt;/span&gt;&lt;/var&gt;
+              rights protecting the extraction, dissemination, use and reuse of data in a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; vi.&lt;/span&gt;&lt;/var&gt;
+              database rights (such as those arising under Directive 96/9/EC of the European Parliament and
+                 of the Council of 11 March 1996 on the legal protection of databases, and under any
+                 national implementation thereof, including any amended or successor version of such
+                 directive); and
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; vii.&lt;/span&gt;&lt;/var&gt;
+              other similar, equivalent or corresponding rights throughout the world based on applicable
+                 law or treaty, and any national implementations thereof.
+            &lt;/li&gt;
+            
+&lt;/ul&gt;
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 2.&lt;/span&gt;&lt;/var&gt;
+          Waiver. To the greatest extent permitted by, but not in contravention of, applicable law,
+             Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons,
+             and surrenders all of Affirmer&amp;apos;s Copyright and Related Rights and associated claims and
+             causes of action, whether now known or unknown (including existing as well as future claims
+             and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum
+             duration provided by applicable law or treaty (including future time extensions), (iii) in any
+             current or future medium and for any number of copies, and (iv) for any purpose whatsoever,
+             including without limitation commercial, advertising or promotional purposes (the
+             &amp;quot;Waiver&amp;quot;). Affirmer makes the Waiver for the benefit of each member of the public at
+             large and to the detriment of Affirmer&amp;apos;s heirs and successors, fully intending that such
+             Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other
+             legal or equitable action to disrupt the quiet enjoyment of the Work by the public as
+             contemplated by Affirmer&amp;apos;s express Statement of Purpose.
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 3.&lt;/span&gt;&lt;/var&gt;
+          Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid
+             or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent
+             permitted taking into account Affirmer&amp;apos;s express Statement of Purpose. In addition, to
+             the extent the Waiver is so judged Affirmer hereby grants to each affected person a
+             royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and
+             unconditional license to exercise Affirmer&amp;apos;s Copyright and Related Rights in the Work (i)
+             in all territories worldwide, (ii) for the maximum duration provided by applicable law or
+             treaty (including future time extensions), (iii) in any current or future medium and for any
+             number of copies, and (iv) for any purpose whatsoever, including without limitation
+             commercial, advertising or promotional purposes (the &amp;quot;License&amp;quot;). The License shall
+             be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of
+             the License for any reason be judged legally invalid or ineffective under applicable law, such
+             partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and
+             in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her
+             remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and
+             causes of action with respect to the Work, in either case contrary to Affirmer&amp;apos;s express
+             Statement of Purpose.
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 4.&lt;/span&gt;&lt;/var&gt;
+          Limitations and Disclaimers.
+          
+&lt;ul style="list-style:none"&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; a.&lt;/span&gt;&lt;/var&gt;
+              No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed
+                 or otherwise affected by this document.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; b.&lt;/span&gt;&lt;/var&gt;
+              Affirmer offers the Work as-is and makes no representations or warranties of any kind
+                 concerning the Work, express, implied, statutory or otherwise, including without
+                 limitation warranties of title, merchantability, fitness for a particular purpose, non
+                 infringement, or the absence of latent or other defects, accuracy, or the present or
+                 absence of errors, whether or not discoverable, all to the greatest extent permissible
+                 under applicable law.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; c.&lt;/span&gt;&lt;/var&gt;
+              Affirmer disclaims responsibility for clearing rights of other persons that may apply to the
+                 Work or any use thereof, including without limitation any person&amp;apos;s Copyright and
+                 Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any
+                 necessary consents, permissions or other rights required for any use of the Work.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; d.&lt;/span&gt;&lt;/var&gt;
+              Affirmer understands and acknowledges that Creative Commons is not a party to this document
+                 and has no duty or obligation with respect to this CC0 or use of the Work.
+            &lt;/li&gt;
+            
+&lt;/ul&gt;
+        &lt;/li&gt;
+      
+&lt;/ul&gt;
+      &lt;var class="optional-license-text"&gt; &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt; &lt;/span&gt;&lt;/var&gt;&lt;/var&gt;
+    </spdx:licenseTextHtml>
+        <spdx:licenseId>CC0-1.0</spdx:licenseId>
+        <rdfs:seeAlso>https://creativecommons.org/publicdomain/zero/1.0/legalcode</rdfs:seeAlso>
+        <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isDeprecatedLicenseId>
+        <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt;Creative Commons&lt;&lt;beginOptional&gt;&gt; Legal Code&lt;&lt;endOptional&gt;&gt;
+
+&lt;&lt;endOptional&gt;&gt;
+CC0 1.0 Universal
+
+&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.
+
+&lt;&lt;endOptional&gt;&gt;
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.
+
+   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following:
+      &lt;&lt;var;name="bullet";original="i.";match=".{0,20}"&gt;&gt; the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+      &lt;&lt;var;name="bullet";original="ii.";match=".{0,20}"&gt;&gt; moral rights retained by the original author(s) and/or performer(s);
+      &lt;&lt;var;name="bullet";original="iii.";match=".{0,20}"&gt;&gt; publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
+      &lt;&lt;var;name="bullet";original="iv.";match=".{0,20}"&gt;&gt; rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;
+      &lt;&lt;var;name="bullet";original="v.";match=".{0,20}"&gt;&gt; rights protecting the extraction, dissemination, use and reuse of data in a Work;
+      &lt;&lt;var;name="bullet";original="vi.";match=".{0,20}"&gt;&gt; database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
+      &lt;&lt;var;name="bullet";original="vii.";match=".{0,20}"&gt;&gt; other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
+   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose.
+   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
+   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; Limitations and Disclaimers.
+      &lt;&lt;var;name="bullet";original="a.";match=".{0,20}"&gt;&gt; No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
+      &lt;&lt;var;name="bullet";original="b.";match=".{0,20}"&gt;&gt; Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
+      &lt;&lt;var;name="bullet";original="c.";match=".{0,20}"&gt;&gt; Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
+      &lt;&lt;var;name="bullet";original="d.";match=".{0,20}"&gt;&gt; Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.&lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name="upstreamLink";original="";match="For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt;&gt;&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+        <spdx:licenseName>Creative Commons Zero v1.0 Universal</spdx:licenseName>
+        <spdx:crossRef>
+          <spdx:CrossRef>
+            <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</spdx:isWayBackLink>
+            <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:isValid>
+            <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:isLive>
+            <spdx:url>https://creativecommons.org/publicdomain/zero/1.0/legalcode</spdx:url>
+            <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</spdx:order>
+            <spdx:timestamp>2024-12-30T17:55:19Z</spdx:timestamp>
+            <spdx:match>true</spdx:match>
+          </spdx:CrossRef>
+        </spdx:crossRef>
+        <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isOsiApproved>
+        <spdx:licenseText>Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+</spdx:licenseText>
+        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
+        <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isFsfLibre>
+      </spdx:ListedLicense>
+    </spdx:dataLicense>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-sell-variant"/>
+    <spdx:creationInfo>
+      <spdx:CreationInfo>
+        <spdx:created>2025-01-31T10:24:59Z</spdx:created>
+        <spdx:licenseListVersion>3.22</spdx:licenseListVersion>
+        <rdfs:comment>This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of libxv libXv-1.0.13
+Please check "LicenseComments" for explanations of concluded licenses</rdfs:comment>
+        <spdx:creator>Person: Oliver Fendt</spdx:creator>
+        <spdx:creator>Tool: fossology-4.4.0.51</spdx:creator>
+      </spdx:CreationInfo>
+    </spdx:creationInfo>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-MIT-CMU-style"/>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND"/>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-MIT"/>
+    <spdx:name>/srv/fossology/repository/report</spdx:name>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-CC0-1.0">
+        <spdx:licenseId>LicenseRef-CC0-1.0</spdx:licenseId>
+        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
+        <spdx:extractedText>Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-scancode-x11-dec1"/>
+    <spdx:specVersion>SPDX-2.3</spdx:specVersion>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24"/>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxv-libXv-1.0.13.tar.gz_1738319099.spdx#LicenseRef-HPND-c396610a342fb19f962b74c73238fa4f"/>
+  </spdx:SpdxDocument>
+</rdf:RDF>
