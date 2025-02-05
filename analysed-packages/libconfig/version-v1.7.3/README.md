@@ -1,6 +1,6 @@
 ## Download Location
 
-https://github.com/hyperrealm/libconfig/releases/tag/v1.7.3
+https://github.com/hyperrealm/libconfig/archive/refs/tags/v1.7.3.tar.gz
 
 ## Package URL (purl)
 
