@@ -1,0 +1,2917 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_highway-1.1.0.tar.gz_1739722756.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of highway 1.1.0
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2025-02-16T16:19:17Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: highway-1.1.0.tar.gz
+PackageFileName: highway-1.1.0.tar.gz
+SPDXID: SPDXRef-upload2658
+PackageDownloadLocation: https://github.com/google/highway/archive/refs/tags/1.1.0.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/google/highway@1.1.0
+FilesAnalyzed: true
+PackageVerificationCode: 46944194f99cb4043b722518f246d38ce230793e
+PackageChecksum: SHA1: a40d29117fcb5dcb56125ce560b348a1b993b5f0
+PackageChecksum: SHA256: 354a8b4539b588e70b98ec70844273e3f2741302c4c377bcc4e81b3d1866f7c9
+PackageChecksum: MD5: 6a5d433b66626afbd3fcc5884d2f270a
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-Apache-2.0 OR LicenseRef-BSD-3-Clause-5ecdef164f497dec4c91ca46a5423b02
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) 
+********************************************************************************
+Additional information found in: README.md
+Previously licensed under Apache 2, now dual-licensed as Apache 2 / BSD-3.
+Please note that although this information is in the README.md and the project uses SPDX-License-identifier none of the source files contain the expression Apache-2.0 OR BSD-3-Clause and almost all files carry onle the reference to Apache-2.0
+</text>
+PackageAttributionText: <text> To the extend files may be licensed under Apache-2.0 or BSD-3-Clause, in this context BSD-3-Clause has been chosen. This shall not restrict the freedom of other users to choose either Apache-2.0 or BSD-3-Clause. For convenience all license texts are provided. </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2658
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/README.md
+SPDXID: SPDXRef-item12225671
+FileChecksum: SHA1: b8a13c61dbef8da7c204e088638635f2fb237be6
+FileChecksum: SHA256: 70422da9a3b9760b62bb8736023e4dbf9f6ab43ed0cfc6dd5933f511be6185ee
+FileChecksum: MD5: 96c5aa9d7e73f33bb3e1a1cc2f09631d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> To the extend files may be licensed under Apache-2.0 or BSD-3-Clause, in this context BSD-3-Clause has been chosen. This shall not restrict the freedom of other users to choose either Apache-2.0 or BSD-3-Clause. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/preamble.js.lds
+SPDXID: SPDXRef-item12225686
+FileChecksum: SHA1: 0ca546482c16f3670b46d7e686957f4bb9beb970
+FileChecksum: SHA256: d93215f2196de888e3b762daf4bc1bf43a20529114a7700532fb581ab07967b8
+FileChecksum: MD5: 4b40f82f87c62d9839a10819febb7064
+LicenseConcluded: LicenseRef-BSD-3-Clause-5ecdef164f497dec4c91ca46a5423b02
+LicenseComments: <text> The information in file is:
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree.
+We Checked the root directory The LICENSE file contains the text of the Apache-2.0 license. Thre is a LICENSE-BSD3 file in the root directory. We took this text and concluded BSD-3-Clause as license of this file. There is a small risk that this is not the correct license text </text>
+LicenseInfoInFile: LicenseRef-BSD-style
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/thread_pool/thread_pool_test.cc
+SPDXID: SPDXRef-item12225742
+FileChecksum: SHA1: 0a2f9628df014a11f43491acfe9c60e54d70af4e
+FileChecksum: SHA256: 3ef5deaf444939c61680017047d7ce0f9224e6ab3141310300e9aeb0bc535e02
+FileChecksum: MD5: 1f11f30d344b4a0850d3032364c55294
+LicenseConcluded: LicenseRef-Apache-2.0 AND LicenseRef-BSD-3-Clause-2dcb63884ce21fc3a121e85d8d38fead
+LicenseComments: <text> Additionally the information in the file is:
+Modified from BSD-licensed code
+Copyright (c) the JPEG XL Project Authors. All rights reserved.
+See https://github.com/libjxl/libjxl/blob/main/LICENSE.
+We checked the given link, it displays the text of a BSD-3-Clause license which we took and concluded BSD-3-Clause additionally.
+The information was retreived on 16th of Feb 2025 </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC
+Copyright (c) the JPEG XL Project Authors. All rights reserved. </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/thread_pool/thread_pool.h
+SPDXID: SPDXRef-item12225743
+FileChecksum: SHA1: 9103c1d5f1e9578760a174a9b44a5d9f7430465b
+FileChecksum: SHA256: 44546e4960334f1c7f5b5cfa89058d9650fa8952b2f028d9f7b411e2a3838973
+FileChecksum: MD5: 9124f84fae7427b1aa73ec6c25143b2f
+LicenseConcluded: LicenseRef-Apache-2.0 AND LicenseRef-BSD-3-Clause-2dcb63884ce21fc3a121e85d8d38fead
+LicenseComments: <text> Additionally the information in the file is:
+Modified from BSD-licensed code
+Copyright (c) the JPEG XL Project Authors. All rights reserved.
+See https://github.com/libjxl/libjxl/blob/main/LICENSE.
+We checked the given link, it displays the text of a BSD-3-Clause license which we took and concluded BSD-3-Clause additionally.
+The information was retreived on 16th of Feb 2025 </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC
+Copyright (c) the JPEG XL Project Authors. All rights reserved. </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort-inl.h
+SPDXID: SPDXRef-item12225781
+FileChecksum: SHA1: ec129ca98da5dbd01b6005c444b4cc0a0d3be5fa
+FileChecksum: SHA256: c0f92e4eae0f988967a7d938763f153284cbca4f5177c9d604d110db3db7d77f
+FileChecksum: MD5: 79929b6deee59df8c203221a66d07ad4
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/generic_ops-inl.h
+SPDXID: SPDXRef-item12225881
+FileChecksum: SHA1: a8c09e08d96a8bc2edd13d88fc1563bf38d6a62e
+FileChecksum: SHA256: 8ebb89cc9e7af1515be61d5aea9cecf098a04c97340fae76d6a03fae51c85c53
+FileChecksum: MD5: 54e1d6c30f44a118cc845d56be50a836
+LicenseConcluded: LicenseRef-Apache-2.0 AND LicenseRef-BSD-3-Clause-5ecdef164f497dec4c91ca46a5423b02
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC
+Copyright 2023 Arm Limited and/or its affiliates <open-source-office@arm.com> </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/mask_mem_test.cc
+SPDXID: SPDXRef-item12225849
+FileChecksum: SHA1: c920106fa9dc257542932bec7b3274f871f7c3b3
+FileChecksum: SHA256: cf63c20500e5755a62209aa49bfd57aa90527f8d04bd121b7ee30b405fabcb07
+FileChecksum: MD5: 821f79177b5d6314a5b6bf418b39c689
+LicenseConcluded: LicenseRef-Apache-2.0 AND LicenseRef-BSD-3-Clause-5ecdef164f497dec4c91ca46a5423b02
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC
+Copyright 2023 Arm Limited and/or its affiliates <open-source-office@arm.com> </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/wasm_128-inl.h
+SPDXID: SPDXRef-item12225870
+FileChecksum: SHA1: 2b330a796f38eb916953e856eda5fb9f80d4a566
+FileChecksum: SHA256: 92d774b5024815eba07ee3001418889e8274195ce70847bccd2a94ad7e70ca6f
+FileChecksum: MD5: 627d50c768fa95a7d14aeb44d3f844a2
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/crypto_test.cc
+SPDXID: SPDXRef-item12225829
+FileChecksum: SHA1: b54efc33fa9325eb4077dc2003b158eebd7d65bf
+FileChecksum: SHA256: 303b6b01827ff50240cabe67f9c887a025d41ec4d313e33f0f7246af063f5c0f
+FileChecksum: MD5: ffff8dde2c579e5fef02d790f383543c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.github/workflows/build_test.yml
+SPDXID: SPDXRef-item12225693
+FileChecksum: SHA1: 5f42abb55e008a8b5dbce46e65c5f85792d26569
+FileChecksum: SHA256: 4971344b6b9889034f14b754e81a2a751d5e648e7ffea8bae15e81585cb304a4
+FileChecksum: MD5: 3fa3e455d14421c6abf72139cd5d4252
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/reverse_test.cc
+SPDXID: SPDXRef-item12225856
+FileChecksum: SHA1: 12f4eccdbc1307705eb9db9d82f9cf1888f49c73
+FileChecksum: SHA256: 6458270f9d096dc0d14517a82a1a73a2f847d92606e12446050622274aa3e93b
+FileChecksum: MD5: 1a90713c24f51d1e91ee5377f3150b89
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/expand_test.cc
+SPDXID: SPDXRef-item12225823
+FileChecksum: SHA1: 057ff74185769aeb7d7651852889fac5ef18dc94
+FileChecksum: SHA256: 7ddb0186d64db493c082f28aec15f0c67de4743c28557d74344b19d8994358bc
+FileChecksum: MD5: de46f4227ca4471dc84239b372bf7082
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_u32d.cc
+SPDXID: SPDXRef-item12225762
+FileChecksum: SHA1: 09de80e9c8411d77f7817f6bdeeaaf68a0c9b40c
+FileChecksum: SHA256: 7edcc22f4f1c20d10463764a50b37222c22250db9d9e61d23b8e47ed7e81097a
+FileChecksum: MD5: 18caa122978da53172b3aa3b62af518b
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/table_test.cc
+SPDXID: SPDXRef-item12225854
+FileChecksum: SHA1: 1eca446c1c710cdc46c61307833b201d24c82785
+FileChecksum: SHA256: 306b30e22a86256b6a0cdc86b68403080a21280a330f9626d92d8147d56ebf23
+FileChecksum: MD5: 349b498eac81342918bc9f8ab2319911
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/masked_arithmetic_test.cc
+SPDXID: SPDXRef-item12225822
+FileChecksum: SHA1: ccc08fc2c566dd029f4958b893fef6953d23078c
+FileChecksum: SHA256: 77b30137bc1c40e326a3c39d3321b88c2a71824619d6c75980ecce52d15603b9
+FileChecksum: MD5: c5f22937ca09d0cd07c07d359fedcf11
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/math/math-inl.h
+SPDXID: SPDXRef-item12225753
+FileChecksum: SHA1: c8e397a3bce899e262761cff3bbe42fc558d2c3c
+FileChecksum: SHA256: c526dccae8bc00546a5fafb49396b5e687d628c23efdb6d600ea6120648a6c5e
+FileChecksum: MD5: 5477c4f382a13c5a71872b8b99db585e
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/logical_test.cc
+SPDXID: SPDXRef-item12225853
+FileChecksum: SHA1: ab51fbd9cb4eaf03cca2bd3f6e7a74a81c27c317
+FileChecksum: SHA256: fe4bf7aa9383e35ad38bdbf498165f6efeeec973de790a1d261a37d36dbaf873
+FileChecksum: MD5: d0bf6373b1608073b36727d929820ead
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/blockwise_shift_test.cc
+SPDXID: SPDXRef-item12225815
+FileChecksum: SHA1: 89900e6030fa8f7745282a5239152f4b5c10c399
+FileChecksum: SHA256: 1cb5df1367f5db470cc232190559a946f0b80eeddd7ada9a1d39661b205a47fb
+FileChecksum: MD5: 70811acfe7209e693f492a2d986dea34
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/unroller/unroller_test.cc
+SPDXID: SPDXRef-item12225748
+FileChecksum: SHA1: abbefe80ac1d6fc04266e293b783e3b2b6f9b101
+FileChecksum: SHA256: 488f67a4b0d0d4e47194d129d2e9c9e4637cf8785f18c794ccf7a1f06196a06d
+FileChecksum: MD5: 610fc4a6811eed19f79d313e79eed0e9
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright Google LLC 2021 Matthew Kolbe </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/wasm_256-inl.h
+SPDXID: SPDXRef-item12225868
+FileChecksum: SHA1: d6db220e73c379d7b75f4bc1fce10bf64012a6b3
+FileChecksum: SHA256: 47e0b14ad8262e0b984528322c07a6a9c4e202927608c3a6c261d8fee3d89c58
+FileChecksum: MD5: b94b5f50fb54a53236d046c117854470
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/highway_test.cc
+SPDXID: SPDXRef-item12225810
+FileChecksum: SHA1: be9985c00c51ea6f9dd0c6dd876ec93c37a66344
+FileChecksum: SHA256: 20296e968b3022e0c720efd7776ffbc4f346f6028598c9d299484777093b7bd5
+FileChecksum: MD5: dcf40bb1502de7912d243cef808a36e5
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/nanobenchmark.h
+SPDXID: SPDXRef-item12225883
+FileChecksum: SHA1: a73aba755d236720f655ea0c8216b2991e11030e
+FileChecksum: SHA256: 1c9f13ec8359b3488964d315e589e029f691c27f981fbcc4eafe3deb39a1c547
+FileChecksum: MD5: 7f199f9e92f33b7a0f887f9e27fea362
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/mask_test.cc
+SPDXID: SPDXRef-item12225850
+FileChecksum: SHA1: 5fb0b8cf7aa1cf06562e0f581a1a5c55a894ed48
+FileChecksum: SHA256: 144cd1067182ad9ca75989f0b20a91dfd5014e3e1d206a94bc4f004df0e61277
+FileChecksum: MD5: dbda4611a961df87c4f3bdaa460a6dde
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/highway.h
+SPDXID: SPDXRef-item12225807
+FileChecksum: SHA1: cf476ef5d575c3e994d7f29fe4667414848aac61
+FileChecksum: SHA256: d154386c2de879ac1a8316d483533e7b3344f28e8ee617b4d38ef0ad5a65579c
+FileChecksum: MD5: 1e85e457d425119319c8f4836e21210c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/float_test.cc
+SPDXID: SPDXRef-item12225846
+FileChecksum: SHA1: 5a921c3150fd88cba7d58fc8529fa59dc3195e10
+FileChecksum: SHA256: de4abb2374145d77189284632f0305d70a1e673b98faa2b510b63295728463bf
+FileChecksum: MD5: 3538a27107e042c94570545935058263
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/matvec/matvec_test.cc
+SPDXID: SPDXRef-item12225797
+FileChecksum: SHA1: 619b6c0b122663c04b8014f4e53f540734041a24
+FileChecksum: SHA256: 787061156f5611c313278ec9b41b671006d4d2cbd0fea207675163997cfee570
+FileChecksum: MD5: 7d359cc5d118b9885b46af3721d3153d
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/arm_sve-inl.h
+SPDXID: SPDXRef-item12225873
+FileChecksum: SHA1: 651d0ebc72d2e0230ef6c93cc35a11e363fc166f
+FileChecksum: SHA256: 8924c8b3965137bd5892b3670225ab1f18a6a47563e0583246caf6990a400bca
+FileChecksum: MD5: 5095374da6ff2b3ac4709097b33364e6
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/reduction_test.cc
+SPDXID: SPDXRef-item12225819
+FileChecksum: SHA1: 1874e7791ad43d0d00031d41d1a81405019ae88f
+FileChecksum: SHA256: 255ba461b844ceb9d312340db0ad3f8b335b6fb281a22014774e822c98ef2c7d
+FileChecksum: MD5: 8f04c2dbd01cd5eb8402078fbaeb73af
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_kv128a.cc
+SPDXID: SPDXRef-item12225791
+FileChecksum: SHA1: ca0c9b43af5fe70d35343c41cc36c3ffdc7afa02
+FileChecksum: SHA256: f94b4d58253cbfa7a06e9eeeeb13e9842ef6311c8739c0474a23d96c5fd0efa2
+FileChecksum: MD5: 6cf14d9dfd957c1a1790a90e8acde07a
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/math/math_test.cc
+SPDXID: SPDXRef-item12225752
+FileChecksum: SHA1: 5adbedfd9ee5d40055cf08561b083f4b2cabd429
+FileChecksum: SHA256: 06bb476f0d2d4eb048f37e80f8007ebced07e13854ce091a3809beb4d47d4a07
+FileChecksum: MD5: 98678c1968dbed119f711d60d3f798ce
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/targets.h
+SPDXID: SPDXRef-item12225866
+FileChecksum: SHA1: 99c36efa7d437ccbb1f8e5e61ad520b672d76538
+FileChecksum: SHA256: 40a6a149915b15afab39f9dd185d95b414e025660067e4d5256dccd315f4076a
+FileChecksum: MD5: 4a1926eb1eeb06bbc43f143679b229b5
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/mask_convert_test.cc
+SPDXID: SPDXRef-item12225820
+FileChecksum: SHA1: e12dc3818c9888b71d316cf8c6d2029d0baa1906
+FileChecksum: SHA256: 905843a493cdf3c5771d2a137a96f53867fca7b1a56c33d0d630a3a8f6a91045
+FileChecksum: MD5: 3f8b328ffe7b3228ec7a8793e9cd4f1a
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_u64d.cc
+SPDXID: SPDXRef-item12225788
+FileChecksum: SHA1: 7c191e14f8bade0da7f596a27e6bb8930e400c93
+FileChecksum: SHA256: 1bc3523fbf7c42a80fed94513589c5209d451da36d38309e6a7b2f906a2a3697
+FileChecksum: MD5: bb8ac5e698660a8ccbd9fa1635f2b16f
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/algo/transform_test.cc
+SPDXID: SPDXRef-item12225739
+FileChecksum: SHA1: 0f284cddedb977d0ba35901567ff44abaa1c18f9
+FileChecksum: SHA256: c22148503fd9dac64105872d3b1a2dd0b4d124a54d0cbb413d8b91bfa5413da7
+FileChecksum: MD5: 59becdd617441023a0ccf6ac6e7f6b98
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/widen_mul_test.cc
+SPDXID: SPDXRef-item12225855
+FileChecksum: SHA1: e0cb382fa28802894338eeb65d960b08932bf43e
+FileChecksum: SHA256: 7c1180ab64a0b626acb5cc5182c4fb4ba8a47f02366bff54257e5a16db4aaff8
+FileChecksum: MD5: b5654e5c667ea59ff8b7f2c23e93431d
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/memory_test.cc
+SPDXID: SPDXRef-item12225836
+FileChecksum: SHA1: 7221babd2f6bdb5b29324c76e1854e2591af1a29
+FileChecksum: SHA256: 168c22644ca0881831fa496b97c6d14a3dedf5cd31415a94f3287844566bbf53
+FileChecksum: MD5: f9d6986bccc434be9cfd59688b62f29c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_i64a.cc
+SPDXID: SPDXRef-item12225786
+FileChecksum: SHA1: 7b36dccb676e91ab526e2438ea6e52b1022e2201
+FileChecksum: SHA256: f68e178f0c90d17706f11474b82bb24d303c2037f946f7c5dbb74cf2c31ab199
+FileChecksum: MD5: cfc19e60c8dd1a96b447215866ff6130
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/detect_targets.h
+SPDXID: SPDXRef-item12225717
+FileChecksum: SHA1: d21b75ba9d1801022ae4d38ead3f3123375c9189
+FileChecksum: SHA256: fa2270b73c769720316490cf76412802d28d057fd34689fbb633c856ce961091
+FileChecksum: MD5: cce97c0f3739fe0339c229f180766150
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/count_test.cc
+SPDXID: SPDXRef-item12225859
+FileChecksum: SHA1: 562de96f8913c23a1e67c71d0ca5898e2f7bf1e1
+FileChecksum: SHA256: 02d0210979a7c221758190055388b6a08c8f373ecbc3107bafc16b47d0890139
+FileChecksum: MD5: b7835983ae2f35799d0d8eeac2916aa4
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/combine_test.cc
+SPDXID: SPDXRef-item12225828
+FileChecksum: SHA1: fff37619ac9f7938a28320dcc40910e996e5cf21
+FileChecksum: SHA256: ff9fd0dee6eb78b1daa9e18418773e5ea6b3d1a29f02d322806bbf79ec2fff79
+FileChecksum: MD5: e6558439109e524270484727c1b3f870
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_kv64a.cc
+SPDXID: SPDXRef-item12225782
+FileChecksum: SHA1: 5c9854114a5f952ddbf47ccad369f407fe0f780c
+FileChecksum: SHA256: 381091a53e5cb14e7a2d6c541dee42681b9ab7cf7b6c926a6cdc06c1022e2664
+FileChecksum: MD5: 9ed83c9172a3536654848fbd7c4fc579
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/traits-inl.h
+SPDXID: SPDXRef-item12225785
+FileChecksum: SHA1: 4eef0666a7f0ea3a58808ce5e0aeac1b434bb933
+FileChecksum: SHA256: fe4f7336b59cfbfbd6a27dd88d789c6c3ed6c2aee09167183fe13dc377988a28
+FileChecksum: MD5: 20a0b68473ba55d073f1c482a55e7af8
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/interleaved_test.cc
+SPDXID: SPDXRef-item12225848
+FileChecksum: SHA1: 8462697762c2add98c20093f5a5b58a1681bb4d5
+FileChecksum: SHA256: ff747373a183b618b44311869725f59ed4daa508870c12f32b64be814198e204
+FileChecksum: MD5: 6618b746475a9f62a758b96d632ff97f
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/blockwise_test.cc
+SPDXID: SPDXRef-item12225818
+FileChecksum: SHA1: 9f6961d792f3725e341bdd9788e040584c740c27
+FileChecksum: SHA256: 77f9ea167b0a8ce5f1aa129f834a98784d997dee2916ec176cd74c169f0d52be
+FileChecksum: MD5: b78cb0d5aa5b15a505cd40b88874ed4d
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_f16d.cc
+SPDXID: SPDXRef-item12225777
+FileChecksum: SHA1: 52758561b22412243a2aac29daa4c544ac2d07be
+FileChecksum: SHA256: 72e558ee5cc17d2c135a4f45dd53c349b738698e53256266d02e14fb212d3114
+FileChecksum: MD5: 0ad24cfc360fbe21ecee283b104b0647
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/examples/skeleton.h
+SPDXID: SPDXRef-item12225724
+FileChecksum: SHA1: ba45188dd824cd75d6afb1640aea61b9e5341ee8
+FileChecksum: SHA256: c1e505a2a405e0ffc170aff96499135ad4f1ff9c3a2a84dafeefc13fe31aaa8c
+FileChecksum: MD5: e082dff08d6abee2537ccd53ac8ccf70
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/shift_test.cc
+SPDXID: SPDXRef-item12225857
+FileChecksum: SHA1: b2bf7ba7cd98a0307e2d25cdf770122088ce6aad
+FileChecksum: SHA256: 3dbbd52a25ab2ac200a06fed1ffc132ed1c701151cc1069647e726535200a77a
+FileChecksum: MD5: 2bab298589573fb233fcdc23c84e8400
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/targets.cc
+SPDXID: SPDXRef-item12225811
+FileChecksum: SHA1: 982dad500cf36745ad7af4c945f3a0b5d176f9e6
+FileChecksum: SHA256: f0ea33f4bb2b27ec5c09a93a365314a837f3d80f09fad5e88b872dd8e9556342
+FileChecksum: MD5: 1dbefcb40780e7da7534ffefc9091597
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_i32a.cc
+SPDXID: SPDXRef-item12225779
+FileChecksum: SHA1: 8c2b1abde7bd9629f580c68a5c08080ad3dfb41c
+FileChecksum: SHA256: 4fea59657300a2800b3327efa60875fbc5e56d36594b7ae0d6db84ed1c33dcd8
+FileChecksum: MD5: d80313ede73b02c96b3b0f869e175cd4
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/image/image.h
+SPDXID: SPDXRef-item12225800
+FileChecksum: SHA1: b13a5c9fcc0abdcbc482de6f51726c130679dda6
+FileChecksum: SHA256: 067762b8ce1bc072fb5a72599ebdccf93e1992c2fae1be5d87370a219d112dd2
+FileChecksum: MD5: b78babc6cadb4655c9b45aab5cf5a227
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/test_util.h
+SPDXID: SPDXRef-item12225844
+FileChecksum: SHA1: 00696ae7c11df392ed86149facebe03e78dc8ae0
+FileChecksum: SHA256: 20923d2467ffa08783d5079b24af8c4163024d35a9755d7319e291f720b118d9
+FileChecksum: MD5: 30647da3287e4e8a19ccf70993584d46
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/minmax_test.cc
+SPDXID: SPDXRef-item12225816
+FileChecksum: SHA1: 55ee70a33e5368e6d2a877a972a66af793c9bedc
+FileChecksum: SHA256: 294959be47c6732f6d137a02b0c09096092011d92dae6709df525e7b56868892
+FileChecksum: MD5: 16de1b3e1e89860bd49997031e510f86
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/result-inl.h
+SPDXID: SPDXRef-item12225778
+FileChecksum: SHA1: fc6e0c62c3ed016fed1eb40ab948f1fde5848f6f
+FileChecksum: SHA256: 511e8f8d6208dfb8871d0c0eeb2d7bce7d7ddfe11813b91055d51c177ecfc55a
+FileChecksum: MD5: 177f5d33fd19d5af2aa86c78ded97e9f
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/algo/copy_test.cc
+SPDXID: SPDXRef-item12225736
+FileChecksum: SHA1: 2c97d77bdf2c1979fe1bcb7b21c0fecff1259e17
+FileChecksum: SHA256: 976a901b370a6771cbe5e8dae1e7533ad566cc403f4343d69a434cef774bc8d7
+FileChecksum: MD5: 9f112d30b6d59b86c3afad205252a4af
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/convert_test.cc
+SPDXID: SPDXRef-item12225851
+FileChecksum: SHA1: 96307a3aed749121c12e02bb8374571c3000f74b
+FileChecksum: SHA256: f36196602244ccc4818c7607604e2afb3f3154b2af0755f1d17a22eff0bfc5e7
+FileChecksum: MD5: 38aa135ad44598790daac885dba27d87
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/if_test.cc
+SPDXID: SPDXRef-item12225821
+FileChecksum: SHA1: d76052d2969671f4c9e104e8c61a4fc02e76b294
+FileChecksum: SHA256: 7ce3be9dc0db1012aa34098bd9457a9f49469cb1ca17605add231db04c03fae5
+FileChecksum: MD5: c340e0167cd4d1bb90c90e4f4c49b938
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_f64a.cc
+SPDXID: SPDXRef-item12225773
+FileChecksum: SHA1: 2ca5a69794495f814d2ad8bf7e4a951268cbf7e7
+FileChecksum: SHA256: 27fc8126dda09303b9778d96744e682fc243ae529619db62bed734a57b518a08
+FileChecksum: MD5: fd3706819a114a154ffffe6c58a2f7e0
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/dot/dot-inl.h
+SPDXID: SPDXRef-item12225732
+FileChecksum: SHA1: 72ffc45d1d3ef9c8c6016b0e393e1cfd2c9babf1
+FileChecksum: SHA256: 31552f8e644e5e8d51f85041bf0fc644c5a2ce5573840ab9b0470735fa2e4768
+FileChecksum: MD5: adb4ad3422942bb9d121f360b9e03b0c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/set_macros-inl.h
+SPDXID: SPDXRef-item12225876
+FileChecksum: SHA1: 712c2a631420bf9c7fbea96a5430f868cc9603d2
+FileChecksum: SHA256: 06a82ab391051d79f376c3710375e03927490d9f63e9458464daff445befa86f
+FileChecksum: MD5: 56ff2747d82a7c9a56fc0aa6fbadf045
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/test_util_test.cc
+SPDXID: SPDXRef-item12225825
+FileChecksum: SHA1: 2e232655809f21d466a2335252893a555c5e0adf
+FileChecksum: SHA256: c93f6b2accf60ead2e12ee98650461a146d01e3b3cc82ef2cfbe9a564b109183
+FileChecksum: MD5: 1546ff6a37a8f13be1e6e74ef502f29b
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_f32d.cc
+SPDXID: SPDXRef-item12225771
+FileChecksum: SHA1: ff69658987f03b2f05b28f3098ecc8e61e8ad060
+FileChecksum: SHA256: 0981aa94965fa0cfdfbdf33beb2ac42e771f65fcc49cde111de34cc84641cc6a
+FileChecksum: MD5: f69177a711dfb695b921857da91af74f
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/print_network.cc
+SPDXID: SPDXRef-item12225764
+FileChecksum: SHA1: e71209bde617eb58c32ceaae02040cea0cbf9469
+FileChecksum: SHA256: 8d72b2e82006ad225d03d5897125b01c6f9c65712117e9ebbc48ffdb506b9c99
+FileChecksum: MD5: ee5d539a575d34c0bde8b71ede1f8f2d
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/hwy_gtest.h
+SPDXID: SPDXRef-item12225858
+FileChecksum: SHA1: 78c77a52831275f1c10e750ac5867f4f0be45bb3
+FileChecksum: SHA256: de8d5611c0bf16115d20da2700b5256b1c6763540a3288d37bec645a8a3b1430
+FileChecksum: MD5: ced335de1ffa4be4071e394b046fd188
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/targets_test.cc
+SPDXID: SPDXRef-item12225813
+FileChecksum: SHA1: c57f6e70e3304b32b649c0abd2958cfa51e8c05e
+FileChecksum: SHA256: 7fc43a42bf0200b4e5e02da42fcbdecfd45a44aacbead6965952b762b8cf027d
+FileChecksum: MD5: f700d3c6650699cb2318f65c8d406b5c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_i32d.cc
+SPDXID: SPDXRef-item12225769
+FileChecksum: SHA1: 3778262f5c2297ce85793ed8b0aba41dfee0f8a6
+FileChecksum: SHA256: 25968585e6098a2c2dcecd7445fc0bf1c3f76273307fa532cae6b03abd15a855
+FileChecksum: MD5: 0053eb310af79263a83e270f7a88b3cd
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/unroller/unroller-inl.h
+SPDXID: SPDXRef-item12225750
+FileChecksum: SHA1: c8bf4b724eaedaef4c14b6f64edb363df6cd04c6
+FileChecksum: SHA256: d5ad04fc95a0a6ae16ee9d3302cf1d66ece5ac32be42524bdc75c14c97bf0477
+FileChecksum: MD5: 3009a99bc708813fc80352a274efe42d
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Matthew Kolbe </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/base_test.cc
+SPDXID: SPDXRef-item12225862
+FileChecksum: SHA1: 17c6201bf844c45ae347f52d975a4d485ef6ca74
+FileChecksum: SHA256: 81a259d938c2fcb8718a26fbc3997892ec4c1f1630ddfec33d5b03131bea637d
+FileChecksum: MD5: a32d1ca57c454ff2ad70c77e2a127997
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/resize_test.cc
+SPDXID: SPDXRef-item12225817
+FileChecksum: SHA1: 43b92a4af8937ff2c58ed7794fe0bfea55e14742
+FileChecksum: SHA256: 3c753917dd8d512585b752f5ece614f125dd46ff3dccfd6f8fc01d617b1eed0d
+FileChecksum: MD5: ea27731d3cd7bc6ef381d0dba918569c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_f32a.cc
+SPDXID: SPDXRef-item12225768
+FileChecksum: SHA1: f0a59efede4a10dd7ab58fb63d98700e14cb7f5e
+FileChecksum: SHA256: 9357f9141c8fedb3fcae56bd89d35454de45513385880dc9ba8ba96b7fe677b1
+FileChecksum: MD5: 9ef2ac1d87f9d2ae62b960b8b00ef089
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/image/image.cc
+SPDXID: SPDXRef-item12225801
+FileChecksum: SHA1: 8f1830446d7196f2286a2cc254851fa1b15227d7
+FileChecksum: SHA256: b86827b57abb6b888b722b04d47595c66f6046d942ba419c44c435ecab6a4cba
+FileChecksum: MD5: e6c059f99502d8d6c8e65d4dd5c6b6db
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/ppc_vsx-inl.h
+SPDXID: SPDXRef-item12225875
+FileChecksum: SHA1: 78447f3866a552da8ce457e131715d9c2f7ccb82
+FileChecksum: SHA256: df5c8f9cc0bcbc771d28f054107728f739ffa5c57ae8622d79bf9dfd5bcfdb5d
+FileChecksum: MD5: f1ada672508391a0cd53864c1ecd6d6c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/arithmetic_test.cc
+SPDXID: SPDXRef-item12225841
+FileChecksum: SHA1: 624ffdf67fef57a1905ff8968fd4e5aa0a601f2d
+FileChecksum: SHA256: a62cc9e9261fcc2e517991ee2b98c82d12efd5c3fa7a77111d3df6664bb39d83
+FileChecksum: MD5: 0b678229e7e6a1285d92e819dcedd2b8
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/matvec/matvec-inl.h
+SPDXID: SPDXRef-item12225796
+FileChecksum: SHA1: bbb297b43c85b8b583a698465649a4d58ba42f7c
+FileChecksum: SHA256: 32d61869ad1da58f7981cb81a4c03e78cf36524908649cb6179421ff57194da2
+FileChecksum: MD5: 6a8d7d3bc2667c41e330fca5c8da54e4
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_f64d.cc
+SPDXID: SPDXRef-item12225765
+FileChecksum: SHA1: 9d805449fe5c999057fc8604c9f0a58ba10a522b
+FileChecksum: SHA256: fec6272b5da6b887371ba766870a5ff3daa3279cdd0230a72b9ae16ca8d85f55
+FileChecksum: MD5: e50fe6b80c00401db7bc58efe3f8abee
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/aligned_allocator_test.cc
+SPDXID: SPDXRef-item12225720
+FileChecksum: SHA1: 20a5892b56b4a1a24743dfb2cf2d54f5c9f38e69
+FileChecksum: SHA256: 6f446246cfadabecf5af3a37a4566929dbef284681aa2b8a54a91d0e15af7189
+FileChecksum: MD5: c94d26a60c75a5eef240211df80c19a5
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/tuple-inl.h
+SPDXID: SPDXRef-item12225879
+FileChecksum: SHA1: 6088fee66f03dcad3b012b06ffee06edb0859e2a
+FileChecksum: SHA256: fac389d4ebda9e4cc7c058647f04193aa9c5f3cc4851e817a7f5c103af869c1d
+FileChecksum: MD5: 0db7aa8bffae00ee58c5f33a1ae56d6a
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/shuffle4_test.cc
+SPDXID: SPDXRef-item12225840
+FileChecksum: SHA1: 92967507c677c89b19b59e04468e25e2075a80b3
+FileChecksum: SHA256: aed5a875e57050ee9982f59262187c1855ab61c1285d4755245ffda108808d4e
+FileChecksum: MD5: 32eda003e76a2a4d779afd72cfe31df8
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/image/image_test.cc
+SPDXID: SPDXRef-item12225799
+FileChecksum: SHA1: 6d475e5c9bcd7cfec6865f476f71d85e259d1f5d
+FileChecksum: SHA256: 2993f76babbd6a188b0f782ab274f7102863d0a3a53c48e8a1cc486bb34993f9
+FileChecksum: MD5: 5bf708bdfc600a25a980af3cd1869f79
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright (c) the JPEG XL </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort.cc
+SPDXID: SPDXRef-item12225761
+FileChecksum: SHA1: 2e8d23f4f82ccab6a515bfc02e185d24e773307a
+FileChecksum: SHA256: be5afef7ed4cf7ed46360dfc1a4671114393d83d41f3277ae6e6bf66b0204fc5
+FileChecksum: MD5: 1342f1290eb65f8504a9eea45ca76446
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/sorting_networks-inl.h
+SPDXID: SPDXRef-item12225776
+FileChecksum: SHA1: fb3356bb7d730d848a7ffdad49522118f11baf1b
+FileChecksum: SHA256: dfebf92bc4570391d53b2b69598d8c2901c646cbc81e15e745043547787c85ff
+FileChecksum: MD5: 3bcefd907050f3a041cc237d5df59a8a
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/demote_test.cc
+SPDXID: SPDXRef-item12225847
+FileChecksum: SHA1: 2ee6074b5b469e59cb84262b354750b9391d7505
+FileChecksum: SHA256: c75c5491155a48f4e280b02a0e0633b870f37a59c447da553ac368900c09bfb8
+FileChecksum: MD5: 14e660664cff7de2ad9760dad50c6d8b
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/swizzle_block_test.cc
+SPDXID: SPDXRef-item12225824
+FileChecksum: SHA1: 45b45588dd235df8ab2fa7b14cbf36edf55417f4
+FileChecksum: SHA256: 7a88af593125a3217d9c28179020cb1afed99d30f26d4e53ac7aa10b38cddce7
+FileChecksum: MD5: 5b28d171cd11412f7d1dbe7b8639ed3a
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/bench_sort.cc
+SPDXID: SPDXRef-item12225789
+FileChecksum: SHA1: c2acbc52f3a1059c811d59d2954e5cf86acc60b6
+FileChecksum: SHA256: b57ba66b80f8973b32ec115d52aa43559e5910f0f4d6a91bb3c6a902cf33fae2
+FileChecksum: MD5: a28e896539b8f709878ca47e228f8883
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/sort_test.cc
+SPDXID: SPDXRef-item12225760
+FileChecksum: SHA1: 98f2688e74a1bc4d7a56d0847b7a753f204000ef
+FileChecksum: SHA256: 44508aa5e4946b306a17e35c111890be8f3ebf20ed6d51d987ab9e1f24acfed4
+FileChecksum: MD5: 22e0df2855892145d3da15e9978bb282
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/list_targets.cc
+SPDXID: SPDXRef-item12225845
+FileChecksum: SHA1: f265940b2d29667b8068ba128ce73f460f5163b9
+FileChecksum: SHA256: 07431002d092628637dc679ef1fe5a9a922975af811e59083cb24ca302a983a7
+FileChecksum: MD5: 0c05fe3cf212885d4fa69fab60e3ef6f
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/x86_512-inl.h
+SPDXID: SPDXRef-item12225872
+FileChecksum: SHA1: 9d76635a280e128c7c595b1e42c66caa29ebee83
+FileChecksum: SHA256: 35c59377caf3089b2d230d039eb81838775fedb6077eaf8fa9c30620ed65ff36
+FileChecksum: MD5: 91b94f6afd9f583d27c8a368b9f2a288
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/compare_test.cc
+SPDXID: SPDXRef-item12225826
+FileChecksum: SHA1: 96135e5b46ea2c394e9ab579bf7354056c43846a
+FileChecksum: SHA256: 0ae953f5d4e11ad1bb6bb683f37f2990749c239255697671b1ddd9161e1f2fb0
+FileChecksum: MD5: 1da141c3d27a3f8ea3a3a6e135ec000f
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_i16a.cc
+SPDXID: SPDXRef-item12225783
+FileChecksum: SHA1: b2345c586bfae9e9d801803dcfe747826954eb90
+FileChecksum: SHA256: bc3006e61e73ce77957402558e393211c0d90682f3a76b7945c039b28d4ab1ca
+FileChecksum: MD5: 68ac04b9f60db01b2f9dcc515f343779
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_128a.cc
+SPDXID: SPDXRef-item12225757
+FileChecksum: SHA1: 3569a5cd1cc6d04edeba6d32747021af6f7d50e4
+FileChecksum: SHA256: 814b42c3430789f6dd6af18fd1e888edd28e81dd51d1379359496e7c167d7248
+FileChecksum: MD5: 7962fb2ef6e3dc0a6e3bced0388e13a3
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/examples/skeleton-inl.h
+SPDXID: SPDXRef-item12225723
+FileChecksum: SHA1: c9104321391c77421f15844ede5308f2e41abfbd
+FileChecksum: SHA256: 9008dfd18348f9ea4c662caed87c726a58149b09807bb657a3899f73def01248
+FileChecksum: MD5: 0a33dd74b9cf744366ec68fbf3331445
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/dup128_vec_test.cc
+SPDXID: SPDXRef-item12225834
+FileChecksum: SHA1: 1cae66fa168c248d66292f6de71aed2867ed923e
+FileChecksum: SHA256: 76428483416e456a92fc792de4b8da3eb43fddda092c965bcbcdaccf9c378b55
+FileChecksum: MD5: 13b4f541e7e45d9c8595b65310d9119b
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_i64d.cc
+SPDXID: SPDXRef-item12225792
+FileChecksum: SHA1: bbf93cf0504007774629d2a96ba04c60a4c4df04
+FileChecksum: SHA256: ec49c049e475fb3ba048f954b02ea371af64dcdfb5881008e72eaf2cfd0c1a1a
+FileChecksum: MD5: 56f278b5cc8a42d48ce838da9ab0f369
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort.h
+SPDXID: SPDXRef-item12225759
+FileChecksum: SHA1: f804c7867db2c547f3f39694bc7b98aba57795ee
+FileChecksum: SHA256: 4806a633282da14305423819325d2628c9d2f9f15c43e4b1e746950e6cf80aba
+FileChecksum: MD5: 369559f5de69e447e23deb813b21d9d0
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/examples/skeleton_test.cc
+SPDXID: SPDXRef-item12225726
+FileChecksum: SHA1: 6bda62074c97dd9f369c0d207aeb2ae5ff56992b
+FileChecksum: SHA256: dc2a9f2da29a1d1a79146e34bbf0ee5a8396e902b02772485d47e4c6c82b0e7c
+FileChecksum: MD5: 70716c02a540a4dee0fee54e418f4706
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/timer-inl.h
+SPDXID: SPDXRef-item12225884
+FileChecksum: SHA1: 5aa07c61ad3dcac3264611aaa4a0fddf96c703e5
+FileChecksum: SHA256: 7bf525dbd04b4664b7d773b30eb80fae34c18e6eb90641a647e603528d05d3f9
+FileChecksum: MD5: e12925cd8b94e56e99d81fb79d843556
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/timer.h
+SPDXID: SPDXRef-item12225864
+FileChecksum: SHA1: ec0ca9834d536cd0d158d2fe2754d62c81dfa1dd
+FileChecksum: SHA256: a78809dfbc970cb9382fcff597286c98efbba45a4fe552202646af3ee1bf7703
+FileChecksum: MD5: 40071b9bf4eeac748ceb70cdbcce132b
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/cast_test.cc
+SPDXID: SPDXRef-item12225838
+FileChecksum: SHA1: 3b0162a95c95abb9b75a1d041337c8fb65a0195b
+FileChecksum: SHA256: 0e9f04692624818e028718d3baa21bf48b553cff62f217628b31dc443b2369a1
+FileChecksum: MD5: 505ff0759e1707a0fd8f06e9700f213b
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_i16d.cc
+SPDXID: SPDXRef-item12225793
+FileChecksum: SHA1: 1349a593226bf59ad5928d9cfcf87b556928fde2
+FileChecksum: SHA256: 71d907a44fffacf92c171e1aeb893b7a4492faf8919cbac13b0b1791f0b54d1e
+FileChecksum: MD5: a50054b002240f5fe8fcad06d7ef6a0e
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/bench_parallel.cc
+SPDXID: SPDXRef-item12225758
+FileChecksum: SHA1: e9c28e14566e0f4b45e9ad6cfdc883b849178012
+FileChecksum: SHA256: da25765ed341dc29e306f4da9f8f0667b18f6349d33030b83e04927bb0cc35f5
+FileChecksum: MD5: f5095648fc054df4698d874a2310c49c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/print.cc
+SPDXID: SPDXRef-item12225804
+FileChecksum: SHA1: 7b13ba9b2aefa9fcd4dd81ceb8858a7fb1c5d992
+FileChecksum: SHA256: 7b903fce125f472c142fee0052f29e15824408e02016a8b961c9debdc602de62
+FileChecksum: MD5: 1897f6be069de18e2895cebf14ec0f87
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/compress_test.cc
+SPDXID: SPDXRef-item12225852
+FileChecksum: SHA1: adc0e19d40735a59c88305a8627fc75f3aed22f4
+FileChecksum: SHA256: ec134eaf46a07e931d4f31a757d1d79bebea259faaddaa7a0b57d8a5492492f0
+FileChecksum: MD5: 74c08e588cc1274fe4d79d33da56c490
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/timer.cc
+SPDXID: SPDXRef-item12225809
+FileChecksum: SHA1: 1907dfb8a31e2b8eafe1fc90659540cf8fb3197f
+FileChecksum: SHA256: 2ffc5dc0fe5b00a0a26315fcf01e1c811dae615b193cf2f572892f7d3312e342
+FileChecksum: MD5: 827e74614f2d5a9b144df052c1469813
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/shared-inl.h
+SPDXID: SPDXRef-item12225756
+FileChecksum: SHA1: 409067a6d929ed445fcd7843f130062135b505cc
+FileChecksum: SHA256: 2dc6833da9b7abce0d50d03100b9c8aba7a5ccd18f014190817ede9e7482fdac
+FileChecksum: MD5: 609fdf9cf555e88629e5ca2d70ca9669
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/print-inl.h
+SPDXID: SPDXRef-item12225728
+FileChecksum: SHA1: ce984aa9967325b27a54ba1e701977067fe33168
+FileChecksum: SHA256: 9a99cdbee5b85302725e982d5d4b67c0cd29e1a0b43d6cfa1e1542eae69ba6e6
+FileChecksum: MD5: 4c20643af11d7a0ce187722aee009221
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/x86_256-inl.h
+SPDXID: SPDXRef-item12225878
+FileChecksum: SHA1: 8f63562cf49630b1b423e0ceaac47d92a9360c74
+FileChecksum: SHA256: 56e6586fc9b04444032e5acf6912c9853d7586a5956ca6feb1e24429f9e73c77
+FileChecksum: MD5: 004fbbd7c2a735e1de38ce48cf990e1e
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/tuple_test.cc
+SPDXID: SPDXRef-item12225842
+FileChecksum: SHA1: 87b949819da3cc093553a023d45bac5b9e5ddefc
+FileChecksum: SHA256: df2d5f9843d022df9ffc84ce4c75601d9799544f4b81d00a8ca580098db55825
+FileChecksum: MD5: e3fc8f62ac29dc2e72eb495786bdb878
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_u16d.cc
+SPDXID: SPDXRef-item12225794
+FileChecksum: SHA1: 9c480e7e53e115a49dd19805e4e77f3c51520aba
+FileChecksum: SHA256: 2a007344d46e52ef59036a2cc354dfebe105a2bcc51d5fef8e59b5df05b1b475
+FileChecksum: MD5: 8b4022dca4e3e6c16228810b2c090e76
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_128d.cc
+SPDXID: SPDXRef-item12225755
+FileChecksum: SHA1: 0c63cfada79234288429cc471468cf5473a65032
+FileChecksum: SHA256: c2d59a58ae956a8f67d10d3e3042fdf249ee3f31c1a185baa3246074ff47a47f
+FileChecksum: MD5: ee7e0f41f3d275dfe9824e0c7a54c473
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/traits128-inl.h
+SPDXID: SPDXRef-item12225772
+FileChecksum: SHA1: aeab6087794fc23ba985e49287471d388b604aa7
+FileChecksum: SHA256: 20a6a242c1ec4e43bd7b7ce9686e97cf8823856edea960ce3c86c30ee7b60569
+FileChecksum: MD5: b74004021bc4eacbbed3e62cc2ab907d
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/scalar-inl.h
+SPDXID: SPDXRef-item12225882
+FileChecksum: SHA1: ba7859ce811f5db749f10aae031213a06e3a8eba
+FileChecksum: SHA256: 83bbad2c798cd08e588b3fc95c452342c833fca037109e5e1f95c0c30c89e742
+FileChecksum: MD5: 93c875eb3521675849a7bedd81b129e4
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/sums_abs_diff_test.cc
+SPDXID: SPDXRef-item12225835
+FileChecksum: SHA1: e108a6fffba5fe12e3a5753922f94cd19e703d59
+FileChecksum: SHA256: a7a39098de48367a5d251dc0e6901d0a29f5c5da6d651bf909b6b8cee4288aa3
+FileChecksum: MD5: 344206062f6a846482f8a0f87e5f782a
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_u16a.cc
+SPDXID: SPDXRef-item12225763
+FileChecksum: SHA1: 72750928cc906b31792aa95dbcf7a5c769411e53
+FileChecksum: SHA256: cda6815a85245e3050d79f9c7286542586d3831d60c0490b2c57a1e7196816bf
+FileChecksum: MD5: 5c8407b96633d1700fd94897fcc1b813
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/algo/find_test.cc
+SPDXID: SPDXRef-item12225738
+FileChecksum: SHA1: 7b8a4d6bd30c27daca30715daac90c9485ee3b2a
+FileChecksum: SHA256: 928e68417174ae3eb6e47a9fbb7f5d509b6ec4587b8162226206e1ee03cb9bfe
+FileChecksum: MD5: e129699cb87757bd2234e5184e5a6ed6
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/LICENSE
+SPDXID: SPDXRef-item12225666
+FileChecksum: SHA1: 58853eb8199b5afe72a73a25fd8cf8c94285174b
+FileChecksum: SHA256: 43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1
+FileChecksum: MD5: 2b42edef8fa55315f34f2370b4715ca9
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/shared-inl.h
+SPDXID: SPDXRef-item12225869
+FileChecksum: SHA1: 8608458d515f03a70f79b23f08a9172b767a8524
+FileChecksum: SHA256: 0d6c216c8dac571fd6cb1f00397bf261a42945fe6edd7e867b68bcdc3bf360b7
+FileChecksum: MD5: 7fd8e2ed6a9fd3db4ed341b0b77016de
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/base.h
+SPDXID: SPDXRef-item12225803
+FileChecksum: SHA1: b50362c9572fd0db378a23b9886c3c5046a188f8
+FileChecksum: SHA256: d0fca9263206467c1f18b17f40fea5a80d9eb6bfcd5a055abf24ff5163a4d74b
+FileChecksum: MD5: f879e8c0fb940f551faf2276bd1cdb7d
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/bit_pack/bit_pack-inl.h
+SPDXID: SPDXRef-item12225745
+FileChecksum: SHA1: cc1d44820eb2e5b7b0c602ca32ed29882b694caa
+FileChecksum: SHA256: 4454fd5b78ac30cfa0aa8f2a7ff25b423eeeec9d68b2a7bcc59c3382ec405a66
+FileChecksum: MD5: 9a2caef3b4c62805a3443390b71630c2
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/algo/find-inl.h
+SPDXID: SPDXRef-item12225735
+FileChecksum: SHA1: f7fe0e5b24d6ee536727abf5211168a23b6cd79d
+FileChecksum: SHA256: 00d5ac776c5244851029879de019d7e6acf7040c6ebb422ded077030a5b4c73d
+FileChecksum: MD5: 63b9e9fd2651682d5e4a9d87b03a88e3
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/examples/profiler_example.cc
+SPDXID: SPDXRef-item12225727
+FileChecksum: SHA1: 447186743a2545647dd39eb803df8342f546658d
+FileChecksum: SHA256: 2232e326254150532c79f5cea744183a776b45d25ffc3367ba94d60ed6979382
+FileChecksum: MD5: 7199679bda0e86d91e48a93b458507b7
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2017 Google Inc. All Rights Reserved. </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/rvv-inl.h
+SPDXID: SPDXRef-item12225871
+FileChecksum: SHA1: 13415c4f114abc876ee9518ed7b555886450eb87
+FileChecksum: SHA256: f4735dc25e3b698db84306b019b4cdfa0f3667d4ef7b21c6d605ce6e1a288df6
+FileChecksum: MD5: f1acbbc91e771a6015194819775ecbbf
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/mask_combine_test.cc
+SPDXID: SPDXRef-item12225831
+FileChecksum: SHA1: 5eb4cdb5d49fcf330d98367c5dce70851c7dfd22
+FileChecksum: SHA256: e442003922ddb62fddecc18067ea6a5563dde8c841638f59806475bf2c461a4c
+FileChecksum: MD5: f88296d686a25f0f7fbf0d2829995b02
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_u64a.cc
+SPDXID: SPDXRef-item12225775
+FileChecksum: SHA1: 3c5afa95fa0ea27dae1f202c4a8940e1ee4544c9
+FileChecksum: SHA256: 4435c19ead5abf4617c8f89b005913f3e842714ea02866ee5cdd9b56f8746355
+FileChecksum: MD5: d1bc0ce61e987df65384355d8b77a7e8
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/dot/dot_test.cc
+SPDXID: SPDXRef-item12225731
+FileChecksum: SHA1: 25415d5755ecc150db5516eb2721c922f5810d9f
+FileChecksum: SHA256: 1dd299d737e323227a2ad6c8f076be368baf5284319d9cfe5ad2683b5124fff9
+FileChecksum: MD5: a06629d31581723f2d6467e34e756c17
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/algo/copy-inl.h
+SPDXID: SPDXRef-item12225737
+FileChecksum: SHA1: 6d05a4a30cd58a5e0cff89ecbec0e75548685818
+FileChecksum: SHA256: 076c6feae94d57fb667bbb755fb9efc1ce22fb6f3f9ed89cfc70fd72c1919da2
+FileChecksum: MD5: df89347ea0934b6bd0c563cf6c533457
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/aligned_allocator.cc
+SPDXID: SPDXRef-item12225861
+FileChecksum: SHA1: 7daafd8914036aa92350bd006c0fd180c0609a19
+FileChecksum: SHA256: 4179de68fbebbe8f094978a166b448d340b68232601f9b1d678c4623de7a6253
+FileChecksum: MD5: 5bc370b12c6bd135bd2fc0228a1cc3b3
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/swizzle_test.cc
+SPDXID: SPDXRef-item12225833
+FileChecksum: SHA1: fefca45b24dac58ef59d2ad38a19306815fe6e2a
+FileChecksum: SHA256: 31b3734907a97153c2ca3af266d4107048ebdf57dc5b4edd5c67b8cfb6d5a0de
+FileChecksum: MD5: 90ac8f43f8cca4433c27433f8df75923
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_kv64d.cc
+SPDXID: SPDXRef-item12225784
+FileChecksum: SHA1: 73fd40512ec053f0d86719fcc48db047fc1c0de1
+FileChecksum: SHA256: b0e484f48f04b77ebafa357d38ec94d772ead4068514ae9b32a8a849c9fd6dda
+FileChecksum: MD5: 5442515a6bbf8010f6c5aa8aafd64145
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/thread_pool/futex.h
+SPDXID: SPDXRef-item12225741
+FileChecksum: SHA1: d627a6960cfefbc2f0e74274dedc9c92d8208da5
+FileChecksum: SHA256: 9f3953e559aa5ce3f6e52631f9e61b75d56684241a32be428c43f3219e19d3ec
+FileChecksum: MD5: 851dd391e9ef0984f286561e15b776ee
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2024 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/nanobenchmark_test.cc
+SPDXID: SPDXRef-item12225719
+FileChecksum: SHA1: 0d273381cb670a6fa82e1e8620bc212935376125
+FileChecksum: SHA256: 6b1d363d51825ee03b81e34d12534097194262659b260ea2618424c8fe81ede9
+FileChecksum: MD5: 99aac6b695950d93a594ef69e9c009a5
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/algo/transform-inl.h
+SPDXID: SPDXRef-item12225734
+FileChecksum: SHA1: 7e3961b852afe34bb21fbf176922478ace53a1cb
+FileChecksum: SHA256: 19dde250bc003fd91afc1194f35b1594b54bf018faed8d43b2f5925591c85a54
+FileChecksum: MD5: b73eff66a963604f31fc93a3c6e70d06
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/emu128-inl.h
+SPDXID: SPDXRef-item12225880
+FileChecksum: SHA1: c827ea0a46e01027d76954a3ad712eaabbb13dc7
+FileChecksum: SHA256: 5253f945fe9aa2d5ec4d669a31a669d32421c9779643866db34f53efa9cf4c14
+FileChecksum: MD5: 39564e28d42787530154b89f567b1abf
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/mul_test.cc
+SPDXID: SPDXRef-item12225843
+FileChecksum: SHA1: 6df2e28fa6513feb741a476612f03aef5a47e32d
+FileChecksum: SHA256: dabf4263bad9f2a0d74e26ca765789578dc7edcbf0db7f911948378b5109722f
+FileChecksum: MD5: a94b15cd7407a843620312dd08d986c1
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/examples/skeleton.cc
+SPDXID: SPDXRef-item12225725
+FileChecksum: SHA1: 6572cb732cc543c531b84e58a44be8d39c42ee03
+FileChecksum: SHA256: 4a34e54c218fd98bf9cd542996360b5cfc0b30b8e9484eb00ad924ffcb7fef4a
+FileChecksum: MD5: ef4b5aa92227fac341cf8a6bc9b25de1
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/foreach_target.h
+SPDXID: SPDXRef-item12225860
+FileChecksum: SHA1: 4a7840b0feb948b598afd2b0401126cc3c63b575
+FileChecksum: SHA256: 7ab662ac90e5a5f099ddd0973fa76005b36d7531952a41c914f018476b8b75b6
+FileChecksum: MD5: 497a1e499e2ed001d7fefb47a26782f1
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/slide_up_down_test.cc
+SPDXID: SPDXRef-item12225832
+FileChecksum: SHA1: 607e1b8913491b2415d3da1aa1b9a87c8b62a28f
+FileChecksum: SHA256: 9e030157a91fb4876630ece7383dc77d069bbf888b67ce7f6ba96cfe04bbf7e6
+FileChecksum: MD5: 9b1a0409edcd83b8637a575e9f819878
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_u32a.cc
+SPDXID: SPDXRef-item12225787
+FileChecksum: SHA1: c5a794136a3f814715179b2f320ac2bcb0f7700e
+FileChecksum: SHA256: fa26dd25cb3ce136d473655cecaa461324416aa8f4dbea64e785b4d385958823
+FileChecksum: MD5: 0e00947575d2157de19c5817bd93aba3
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/bit_pack/bit_pack_test.cc
+SPDXID: SPDXRef-item12225746
+FileChecksum: SHA1: 1e60a7bb2faf94a38e70acc32887421955e542c2
+FileChecksum: SHA256: 1b34762168c2a2b50fbd47b357b3dbe9037e555be91f978aa1f7d316d39aa4e6
+FileChecksum: MD5: b74f5fc04d77784f81630e3f3577d50e
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/cache_control.h
+SPDXID: SPDXRef-item12225863
+FileChecksum: SHA1: 0a422bb09ee0205428d86cfd2f2a2383e8447458
+FileChecksum: SHA256: 43b6f7cc9a925bac8f33288b42157f8ba8b27b628a5609d44322b0edb61fcd92
+FileChecksum: MD5: 90180256c236b539a2415df3082b0b94
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/per_target.h
+SPDXID: SPDXRef-item12225715
+FileChecksum: SHA1: aeca9711a87ab0472e5334eb0524201e0ff8e7dc
+FileChecksum: SHA256: 2afe4848b54b2418f9e37f807be98128a2a74109ea14a853eb1e23a374a2312b
+FileChecksum: MD5: 5b302a3e90f86f8114fe21e6124646f1
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/arm_neon-inl.h
+SPDXID: SPDXRef-item12225877
+FileChecksum: SHA1: 1f82f62993444e55ad95b8591070d8b86760bee9
+FileChecksum: SHA256: b3dca19e35a99a0423dbf93725ca180cdd02dc75113dd857e7c4d648fc1e88f9
+FileChecksum: MD5: 440a645c602ed426c87e6e6f89ca179b
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/foreach_vec_test.cc
+SPDXID: SPDXRef-item12225837
+FileChecksum: SHA1: 00c4220e6151532fa47b669887b168f44c0484a7
+FileChecksum: SHA256: 207b8716bfde3b9c664969f9aa0981af0ff84ea3015e0c9d8c0c7a23612f514e
+FileChecksum: MD5: e438fbb49a57806609b4ac44fb8fed5c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/algo-inl.h
+SPDXID: SPDXRef-item12225774
+FileChecksum: SHA1: 2439525abd434e570ab47d846a4f11106be62751
+FileChecksum: SHA256: 9ac2f80488a07986cd2af1e7086bec7c679403e864de03622ec1cb7f6c5e82ba
+FileChecksum: MD5: 4dbb913d3441ec22c958006376609463
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/test_util.cc
+SPDXID: SPDXRef-item12225827
+FileChecksum: SHA1: d2aa5d8414a5de85afa0e9275ff571e29ae84b4f
+FileChecksum: SHA256: cbcf2155f4d45d730060a6f370e3c71f033ea6fa774056b4630a317433f5f3e5
+FileChecksum: MD5: ace2bc1118a67670c95eb9bc9c207833
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/examples/benchmark.cc
+SPDXID: SPDXRef-item12225722
+FileChecksum: SHA1: 1f52d345a4c20a27c0324c2930bc06e0ff94a6fc
+FileChecksum: SHA256: 708daa46d28ef58ce152d8573651fca03667d8e08091bc99560b1721191c935f
+FileChecksum: MD5: 7e90ec65f46de3ca507c6c5f87e1610b
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/detect_compiler_arch.h
+SPDXID: SPDXRef-item12225865
+FileChecksum: SHA1: 15222fc1c3d259c42bde2f168964a67c6363c535
+FileChecksum: SHA256: 2ac9ab20fad40ad693ff3bd4a6a6d3c41c8116767cd25d5e65113639c3cf588e
+FileChecksum: MD5: c25e27e2bd179c08f8a57bb2a6f6489b
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/truncate_test.cc
+SPDXID: SPDXRef-item12225839
+FileChecksum: SHA1: 498f89045c8b3a861abba34898ec4576d7f71819
+FileChecksum: SHA256: 200acdd641db3ce072f747679981a4a9f4acba42dd8d67d399933853186cb03a
+FileChecksum: MD5: 352bf060a93f383f8586f018f8e44cba
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/aligned_allocator.h
+SPDXID: SPDXRef-item12225808
+FileChecksum: SHA1: 99ab09c7460b567c5564f2d2f584dcfa2966c240
+FileChecksum: SHA256: 425e5d51b0c9cf92556dab4e06bb61f6c7984bbd0f37a19ee90e944915add76a
+FileChecksum: MD5: 8c7bad7abc38a9a202d014e337b5ada6
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_f16a.cc
+SPDXID: SPDXRef-item12225767
+FileChecksum: SHA1: 654af1ff26eff3d420068846c502d769cef4fb13
+FileChecksum: SHA256: 8d7a33ae788d2f5f69f4735dc85af9c769990db4d53c3e331d237c01f18fc14e
+FileChecksum: MD5: 6cfd259bcb249adec9ae1be84467f0c1
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/robust_statistics.h
+SPDXID: SPDXRef-item12225806
+FileChecksum: SHA1: 3bcc8c8bd5a47c14fde1108bcc1153dd9ce096df
+FileChecksum: SHA256: 4b933415346ecdbd1de393b982adfbc4da08ee5910356296b1580dec1e807c26
+FileChecksum: MD5: ad8ee329bf3caedc90400b2cf377d63c
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/profiler.h
+SPDXID: SPDXRef-item12225714
+FileChecksum: SHA1: ac52e99f4d74b8131c380aef6505d14e895db4a4
+FileChecksum: SHA256: cb7f6b70be76db79639a316790367a329f94827890262a8123e2bbf92cb7b9e6
+FileChecksum: MD5: ad061c5021024c0425b4dbc3002ec3e9
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2017 Google Inc. All Rights Reserved. </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/tests/test_util-inl.h
+SPDXID: SPDXRef-item12225830
+FileChecksum: SHA1: 6d89b5130b8886c1c9f7973007e9976eae8f4e16
+FileChecksum: SHA256: 220053a2eb4998e827c07674d606eb6be20583e297decafd59204576ffbde567
+FileChecksum: MD5: 6c8fe6e23e8386f95ec77b903a9f8b60
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/vqsort_kv128d.cc
+SPDXID: SPDXRef-item12225770
+FileChecksum: SHA1: 91639f9e79a1324d3bf63319922d8a3970c5a241
+FileChecksum: SHA256: 244da4c7fc8131b80cfed066fef68d54cbbaf87600a03053c97a050ad52055e9
+FileChecksum: MD5: 0217f2cfad2165ce093c4c76ddd50ce8
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2021 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/per_target.cc
+SPDXID: SPDXRef-item12225802
+FileChecksum: SHA1: ff6c5623d9d6b4116519bee98f7c20b6801eacbc
+FileChecksum: SHA256: 8cbd5e4b725ea0e9afa2c7ccc307cf136ebd5adcd0545e7d54c054d1ffff7fa9
+FileChecksum: MD5: b85c1b96edb4044666842c81aaf35b5d
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/print.h
+SPDXID: SPDXRef-item12225716
+FileChecksum: SHA1: 113494d609ddac3daea6e5bace335a097adddc86
+FileChecksum: SHA256: 56b755654ac1e40f6fda306f95811770ac9c4802ef6840019f479ad09a6880b3
+FileChecksum: MD5: 4e2c47c316221a896cb4d20c208657ab
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2022 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/ops/x86_128-inl.h
+SPDXID: SPDXRef-item12225874
+FileChecksum: SHA1: f2bc0aaabb3e03b7758c9abe47532ff2c704873a
+FileChecksum: SHA256: b369e49525ad1a3d34e4f6c470291d807fe850c357eea822322090c6dc655556
+FileChecksum: MD5: 281b1b498c1b7222cede1967baa2f415
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/CMakeLists.txt
+SPDXID: SPDXRef-item12225707
+FileChecksum: SHA1: 7d6f5591bc9160a55b5fb225b60f16e2165d05c2
+FileChecksum: SHA256: 34e3b7999c0dad8bc2cfcd7c81a61d95e97c6e39237d656d0046dc9fd7eda34d
+FileChecksum: MD5: 888aed2186943485a5027e84e891b3e1
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/order.h
+SPDXID: SPDXRef-item12225790
+FileChecksum: SHA1: 531b6ab64e9b6cc0343a17d6dc94a08a857060f3
+FileChecksum: SHA256: 9b207228f5291bd0aeb6f7d6111d5e2f37ca3e311c1b49ace5b964cc58e3f57f
+FileChecksum: MD5: fd0e7e49123d33d47dbfd1e8b6b5a552
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2023 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/nanobenchmark.cc
+SPDXID: SPDXRef-item12225718
+FileChecksum: SHA1: 5f69e3d190e85f66c25fb00c0756822240465899
+FileChecksum: SHA256: 5bfdff0c6a83cd8e2a4094ba6d0f88e7a2ff16aead8cbf3120551808f6d1ab95
+FileChecksum: MD5: 00c07f014193759f31825d550c517551
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2019 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/make.bat
+SPDXID: SPDXRef-item12225904
+FileChecksum: SHA1: f72c4dc479344275c2644bf578418dde9cba8eb9
+FileChecksum: SHA256: b593cd1da19314a43db9a0854f6f92f2c59217571502da3321f9498c02fa16c8
+FileChecksum: MD5: c0d3dd97c33fb8cd9d395542307fd10c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/debian/changelog
+SPDXID: SPDXRef-item12225700
+FileChecksum: SHA1: 113256f4d163331201efb7c9cca4e2e4d46686c8
+FileChecksum: SHA256: b4eb102380d8a5e82cf14a83f0404539153109db5816390d25e4982a633707e6
+FileChecksum: MD5: 7ec3767fca2dbdb1be5578063b56500b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-possibility
+LicenseInfoInFile: LicenseRef-Apache-possibility
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/debian/rules
+SPDXID: SPDXRef-item12225702
+FileChecksum: SHA1: 274e890514d751994768df712be1dafb6415d9ae
+FileChecksum: SHA256: a0a0c3d990549f069f7bd1977e9d7f7fc5c2d912876ddccf236e11e73a9435e9
+FileChecksum: MD5: e7acc95fa5f1379aaf146feacf8779f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/g3doc/faq.md
+SPDXID: SPDXRef-item12225679
+FileChecksum: SHA1: 84a97d6ae872106cdea902e904968b06fe8164e5
+FileChecksum: SHA256: 3c19314fe655abe2fac45e63b844b9f8040beeb42b88358b04a0222ef1807e05
+FileChecksum: MD5: c4e1949f966c7ba4da06fe201b0fd096
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/mm-converter.py
+SPDXID: SPDXRef-item12225887
+FileChecksum: SHA1: 38f152b2de197e79ac7b9d9d7ff80c3e7f3e58ab
+FileChecksum: SHA256: 0c3cc97afa31c157c6a2cc92721fefefb817fd1b989d7dc95819806e48ce1611
+FileChecksum: MD5: 9f3f46f9a575b0d711c6112c8870088b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/g3doc/design_philosophy.md
+SPDXID: SPDXRef-item12225678
+FileChecksum: SHA1: 6b0a2f89c6b88b0e71b50f612f196a1a5c014e7f
+FileChecksum: SHA256: d945121c5e82cb196e4ff3fa4f623def3d92db7fc90c344a0d6199bceb380ba4
+FileChecksum: MD5: bdfea850b0d22d2ac133ef0816b5bb20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/highway_export.h
+SPDXID: SPDXRef-item12225805
+FileChecksum: SHA1: 8b30a5c561ba253ccb2ff4c75e385c5c0e005b37
+FileChecksum: SHA256: 8a883413b083c721f879163780630aa3ec741b386b3db6d05ac042292b904d45
+FileChecksum: MD5: b217a328fdea8dd734467108fde6e1e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/README.md
+SPDXID: SPDXRef-item12225766
+FileChecksum: SHA1: 80ad8bc2c1a3a1a80e60600f5c64a0b24f60c83b
+FileChecksum: SHA256: a2db03e52b2a1b64d92f12f84c66af8cc7aab1df159eb93dcf65849b8c082cb4
+FileChecksum: MD5: bb90df740a050ee696cc8d8f1a48f680
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/debian/compat
+SPDXID: SPDXRef-item12225704
+FileChecksum: SHA1: 4143d3a341877154d6e95211464e1df1015b74bd
+FileChecksum: SHA256: 917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469
+FileChecksum: MD5: 31d30eea8d0968d6458e0ad0027c9f80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/conf.py
+SPDXID: SPDXRef-item12225906
+FileChecksum: SHA1: 537ee73e9df7e57633b59ab29ea7a1ad6b4a3605
+FileChecksum: SHA256: cf9f8ebeaaa9bac4a308bcff070f9952bc3236aa0ecac452b531895e70a00ad8
+FileChecksum: MD5: cd6b8dd85df1608bd9ec8ebc86d69be9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/BUILD
+SPDXID: SPDXRef-item12225705
+FileChecksum: SHA1: 8e10012d519d85d791736bd645ede7be3b76ff69
+FileChecksum: SHA256: ed9ce64d2862426b858b82dc87c2ec0ef4697bc9857e9bb98fffdb6e13667a29
+FileChecksum: MD5: c874ada0ebd512a80e3fa362f193c58f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Dual-license
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/CMakeLists.txt.in
+SPDXID: SPDXRef-item12225706
+FileChecksum: SHA1: e725cf306c8b8486d88e7b66e453cc1b30f29c62
+FileChecksum: SHA256: cde784060fcad0c5ce108536456e409e77da3464d6654a6ebff0e7bd342f76fa
+FileChecksum: MD5: cff02e54571c4caad31a950c0f5716f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/unroller/README.md
+SPDXID: SPDXRef-item12225749
+FileChecksum: SHA1: da2767cc3d2285231affac44bce73a3fc34b23be
+FileChecksum: SHA256: 6721306ebb6e59e13dc5b8cd10dc65d8aeed5a90e8c845ef77c3f0fb5ca3a774
+FileChecksum: MD5: f9febdcbe6ee1358137c34f413418e40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/buildDocs.sh
+SPDXID: SPDXRef-item12225888
+FileChecksum: SHA1: d0d44ab78d18368e77244ab6f67d9edb2ed49c60
+FileChecksum: SHA256: ec70929235c546577606bb846a055a0e7efdcd9c4214fb386dfe79e783d956e6
+FileChecksum: MD5: 6b78eeb05cf365ec1be1562e3825b00c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/index.rst
+SPDXID: SPDXRef-item12225907
+FileChecksum: SHA1: 942892f6d9d6bc1e54e4a7c8db91ef2d9c57f64a
+FileChecksum: SHA256: 1ceb159fe2ade517d776d89ff669078bfe3cec8e5ad51a31231daae2b12b27cb
+FileChecksum: MD5: 121ee4e9d2ebbc8519e99566670fffb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/_templates/versions.html
+SPDXID: SPDXRef-item12225903
+FileChecksum: SHA1: f45f82815f487f1401b2ff5e31e6ca70bd8beb20
+FileChecksum: SHA256: 16b048366f1dd9da0f34d74db362bfabe80a4e4398b3ce520dd0cbef88f52253
+FileChecksum: MD5: 62cde2b9c02dce4407d51ac7db79bac3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/debian/control
+SPDXID: SPDXRef-item12225701
+FileChecksum: SHA1: 79369516a6c9ace7280b38db0ab3de5d639e7d3d
+FileChecksum: SHA256: 34289fbf341ae5864d51e3ebcc13d12c13009a6124d5dd297057c299585b945f
+FileChecksum: MD5: f4dfd01b7b06dea75112a06e24e47969
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/_static/css/dark.css
+SPDXID: SPDXRef-item12225893
+FileChecksum: SHA1: 9ae0b3e5883a7b6f2b0356cf6d17d1c598457a7c
+FileChecksum: SHA256: 1a8f730719ed2031f40daf089f9e6f1d0040e1593aea5d48725585d5514ad60f
+FileChecksum: MD5: 49d508115d2ae5b5989f3eb7a1232858
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/libhwy-contrib.pc.in
+SPDXID: SPDXRef-item12225672
+FileChecksum: SHA1: 129a9b9c019dd8d01659a1fbe56f328fe1d41db7
+FileChecksum: SHA256: 6a5a4e08a0cfc248420ea22e05563c1d1c213f00e43c8a54c351dc1eebf94463
+FileChecksum: MD5: 93cfdf9dcc6763a92bea852d461e832e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/images/logo.png
+SPDXID: SPDXRef-item12225900
+FileChecksum: SHA1: 37380a3b23359a59df8e5e94c09cbe5baaae4346
+FileChecksum: SHA256: 53676e0399632e54432bb28430fc2d2e8681d4ad1290e84ed2861a58366372f3
+FileChecksum: MD5: f3dcf50a556c917177adbc109cc42040
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/.gitignore
+SPDXID: SPDXRef-item12225908
+FileChecksum: SHA1: 71683d32ff456772212653e2e836b217c3b7fb73
+FileChecksum: SHA256: 8c11f8d56ab1dcafdf33fc42bcf8f8d39542554029b5c2ed74237371223c0799
+FileChecksum: MD5: e80739345e570775c8d868377a3a7418
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/run_tests.bat
+SPDXID: SPDXRef-item12225687
+FileChecksum: SHA1: 5dcd8654d583b6bde2e8b27629a629bdbed38da1
+FileChecksum: SHA256: 1eeb7072238d057c2115c83b87fc1d7758c785ba17086bd38682d6e77e8803bd
+FileChecksum: MD5: 4c042373fa7fd718a3bf624c36f92341
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy.gni
+SPDXID: SPDXRef-item12225669
+FileChecksum: SHA1: daf446dc54a162fecd66a75591c144325f59a47c
+FileChecksum: SHA256: 828c70d5b69c0662db010eaedb7c9adc4870318a500acca5bb543db923070b2f
+FileChecksum: MD5: a6d2296fc5ddc4a004feba2b73a4527e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.clang-format
+SPDXID: SPDXRef-item12225712
+FileChecksum: SHA1: 4a3b3879fa771d4e347ef0dab9f79d6fd31496a6
+FileChecksum: SHA256: 51977317b1771c3789febc994d1072092996de145e0f588a9ed6fe8deac2cbea
+FileChecksum: MD5: 79feda2b67e65a20aaab1479dba51b8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.github/workflows/codeql.yml
+SPDXID: SPDXRef-item12225690
+FileChecksum: SHA1: 0f9d9c3da8539256222d4df832701b4442e1b0b0
+FileChecksum: SHA256: 631ca1be219ef913d39dead0f3a5c9c2f8bafa3b1deff0af1a58da823e0d4774
+FileChecksum: MD5: 63e05afd115e6260578120941560b53c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/Makefile
+SPDXID: SPDXRef-item12225905
+FileChecksum: SHA1: 68862891a97494124717a08c1836d78513646022
+FileChecksum: SHA256: 8b6587b859607f200f116e2cb043fc358e1c3a26c326b563bf348453cfc68307
+FileChecksum: MD5: ef4f00c423089323edef1d3cff31a4a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/hwy.version
+SPDXID: SPDXRef-item12225812
+FileChecksum: SHA1: 16277de375796196ce58812267047363a8659a69
+FileChecksum: SHA256: 0d1137ca245238584199a0967109ed155e3c09d785b75ad51d231a6d34adb8e6
+FileChecksum: MD5: 3e916bce08c1a2d6ffa896e5eee656cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/hwy/contrib/sort/BUILD
+SPDXID: SPDXRef-item12225780
+FileChecksum: SHA1: 9efcde3909b3def21259a25de63dde36be2d791d
+FileChecksum: SHA256: 8ddd7eddd48070896f39b1cf2980aacd92517a8afa1a94065618601000229f89
+FileChecksum: MD5: cc862e2ee2c6298d1ba93f1f72282c31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/g3doc/instruction_matrix.pdf/instruction_matrix
+SPDXID: SPDXRef-item12225677
+FileChecksum: SHA1: e4daf67d2da878f664a2b57ab06e5244b76441ce
+FileChecksum: SHA256: f21736d4ea8b65cda81f157149c6262364c31632e6e963ff51db6200809dbb4e
+FileChecksum: MD5: fe6a77955c88e5fb1c482725c3a3e617
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/g3doc/quick_reference.md
+SPDXID: SPDXRef-item12225681
+FileChecksum: SHA1: 92ed1736abcacb22903e54ac39eaea50fbf22aa7
+FileChecksum: SHA256: 34f85a3df7de886495252e021f9096aba3e63ac61d2eec89e1c90614633f0653
+FileChecksum: MD5: 51de1fc8a61046d45b1b79b5d91a9962
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/run_tests.sh
+SPDXID: SPDXRef-item12225909
+FileChecksum: SHA1: b8840e7e24cdbe394e997fb2831407838ac8a6b2
+FileChecksum: SHA256: 58d1f79c9cc572110c34050728c4a440288f48ecaa81153248a18d19c2c05d91
+FileChecksum: MD5: 3cd9105222229410771d546d282f2ce9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/g3doc/impl_details.md
+SPDXID: SPDXRef-item12225682
+FileChecksum: SHA1: ef8ae339d961628197d891323bdf866bf7e140d0
+FileChecksum: SHA256: 09b0ed684d14f9fa8e6b2f34ef8747be4e0f8b3e28541ec7323dbc0702fd9c7d
+FileChecksum: MD5: 39fe4ab5c9f5a7a69e0eceb7f1a847d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.bcr/presubmit.yml
+SPDXID: SPDXRef-item12225711
+FileChecksum: SHA1: 91e2cea15c96b5a1a837635cf8e013cfb9a5feb1
+FileChecksum: SHA256: 0320905ca83465836f0066294644d3f6a1ef5d5f89772a61e9e874f864f54015
+FileChecksum: MD5: 935f04d52e9c2be03d8cfc23381f0e09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.bcr/metadata.template.json
+SPDXID: SPDXRef-item12225709
+FileChecksum: SHA1: e3d83c3f645f6abd482da5e8b068dc4298c28c34
+FileChecksum: SHA256: 5004340a30822693e77c2f461518b18eb6a43ece50896bd9d2e7c2a8a1d9186c
+FileChecksum: MD5: 719bfa3d936a9112f21d38891ba7e344
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/WORKSPACE
+SPDXID: SPDXRef-item12225667
+FileChecksum: SHA1: 4b3b0ba4e148649e76444a62c87cacfa73b546ec
+FileChecksum: SHA256: 3b182d8886f684d7bef50fd014ed2deeb61c26d199090e3e072b0ad272e827c7
+FileChecksum: MD5: 9f086d855cdcd8a53541e797b2eecd48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.github/dependabot.yml
+SPDXID: SPDXRef-item12225694
+FileChecksum: SHA1: df80969165dfd3fd2036c0e041062f315e4d4f90
+FileChecksum: SHA256: b1c42a1255cb51d92121704818f2c2284dc1ababc73790c1b324ad5cd0c7f18f
+FileChecksum: MD5: 528a31c3d21a34b159ec9b7c4df0d0b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/libhwy.pc.in
+SPDXID: SPDXRef-item12225912
+FileChecksum: SHA1: 55fafe3bd0aff198a9e0b43f312ccf2df80c4f62
+FileChecksum: SHA256: 181bcb570630c57c9dd2d3b6f8d86eac687dc32e15705a631dcca4ed0c170705
+FileChecksum: MD5: 59f0d147eeb73f756b7f8a1212c24052
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/LICENSE-BSD3
+SPDXID: SPDXRef-item12225670
+FileChecksum: SHA1: 8ef530850989072e75f6f743a03e377de4392a68
+FileChecksum: SHA256: d25e82e26acd42ca3ccc9993622631163425b869b9e16284226d534cff6470f2
+FileChecksum: MD5: 49e2bc6d0ce3f529d933e788d2be5493
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) The Highway Project Authors. All rights reserved. </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/debian/copyright
+SPDXID: SPDXRef-item12225703
+FileChecksum: SHA1: 7363889d9c7364f41a37d3efa2ec375bc836d916
+FileChecksum: SHA256: 6e4ecf1cae052b678ea3178dd4b3652d581ee66a82d58db8800dd7d80dd6de76
+FileChecksum: MD5: 0090ea7383ac2a23a7e6b5532e4ae5c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright 2020 Google LLC </text>
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.bcr/source.template.json
+SPDXID: SPDXRef-item12225710
+FileChecksum: SHA1: 40260c3638f8e3ee8a1e87b52e8f7749bc3f2083
+FileChecksum: SHA256: aacfba347aecebe3575fc40e1a919a6c3097c9eb96dfab77c192e683e0774a1b
+FileChecksum: MD5: ea0ca87cf1cdaeaf4444291dd1b82684
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/_templates/layout.html
+SPDXID: SPDXRef-item12225902
+FileChecksum: SHA1: 753b6dc9ca97e41cd50106541dbe58f60b8552ac
+FileChecksum: SHA256: 478eb941cde917370ecc70d40553b51a1b03db5c1186896f88a82194f7549171
+FileChecksum: MD5: 2eb8bb2ef7bbd3480b6d62645f147e10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/CONTRIBUTING
+SPDXID: SPDXRef-item12225911
+FileChecksum: SHA1: c8ba161ed65ccdafaaadc73cf55dce835dd08c36
+FileChecksum: SHA256: 45df2631dee4dea973027987d65324b948d299d04491da454f14da57b7731e9e
+FileChecksum: MD5: 3fdd795ed9111e315adbe49cb136d5d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-generic-cla
+LicenseInfoInFile: LicenseRef-UnclassifiedLicense
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/images/logo-32x32.ico
+SPDXID: SPDXRef-item12225899
+FileChecksum: SHA1: 4623a416a48463703d2d329ae6c1522f3a6f2d9e
+FileChecksum: SHA256: a58e471369195073591cca02cdb62d668b0149f15b971ab81905351501ad979f
+FileChecksum: MD5: 82ac632362f32eff9d4773dfc7c380fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/locales/zh/index.rst
+SPDXID: SPDXRef-item12225897
+FileChecksum: SHA1: 12a2fdaa884f40ea152a2ccfee8af2147c3ea387
+FileChecksum: SHA256: 35fd457c1f8202e26d3337dd8316d85e8a4211b0b8f0dda050703e4b32f48a54
+FileChecksum: MD5: 27eb984a32eb508526448cb2210791df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/cmake/FindAtomics.cmake
+SPDXID: SPDXRef-item12225696
+FileChecksum: SHA1: 3850d0a56619442aea90c7a0cb3436dce3ab0b50
+FileChecksum: SHA256: 35f86b9832bff2cb8226c92c9c7d1c640e937a181088d19387a38729b6b6f382
+FileChecksum: MD5: f48237f75fbd6f0f6beb7c6a868656ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/g3doc/release_testing_process.md
+SPDXID: SPDXRef-item12225680
+FileChecksum: SHA1: df9b0e25ccf07ec32b95cfa787230f3cfb386454
+FileChecksum: SHA256: 6b46e75595345ecce91569e666baf2415d6b5cdb1d374e03c99a8a531e9c9639
+FileChecksum: MD5: e8bb3110cadaabd49c5bcf8a8461dfc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/g3doc/highway_intro.pdf/highway_intro
+SPDXID: SPDXRef-item12225685
+FileChecksum: SHA1: 9ee598c952e8c4b238c14f4b556bbd99edcfb437
+FileChecksum: SHA256: e19ef115f85ed6f9a0fc02e3bbf728a23a48009fbb050e94ee3489ca78b547e4
+FileChecksum: MD5: f890cf28ac8858ca14ed1c6a54677f57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/debian/source/format
+SPDXID: SPDXRef-item12225699
+FileChecksum: SHA1: 1064dc0ce263680c076a1005f35ec906a5cf5a32
+FileChecksum: SHA256: 1be7080d72e6b566df3e236ce2c55efdfbbb8fa1c972d825e5b672ff8773be1a
+FileChecksum: MD5: d3a10140af54ec7371d3b9b084b07c14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/_static/js/toggle.js
+SPDXID: SPDXRef-item12225891
+FileChecksum: SHA1: 27d04d1af0317ee228d1c8913d90263775de82e1
+FileChecksum: SHA256: dac9876427181e46e37b96ed1981ef459659a9e691bc2aef751b2f77fbe54fa4
+FileChecksum: MD5: 1a064755468416874116923f5fe1d697
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/g3doc/op_wishlist.md
+SPDXID: SPDXRef-item12225674
+FileChecksum: SHA1: 9bc76b74e92ea056149d3476a3ecee6c96e2d6fa
+FileChecksum: SHA256: bc5fb9183e2b4ab0ed3e0c1681863d6ff1e6a89438631056cf8a4727d8c2a8d2
+FileChecksum: MD5: 4c60ce5ea6847206dbd6c0a197345639
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/docs/_static/css/toggle.css
+SPDXID: SPDXRef-item12225894
+FileChecksum: SHA1: fe86525f3e7b15572d5c61215fea96eaba570f9c
+FileChecksum: SHA256: 3641fe06debc9f2eb129bbae53f188c0e08634261b609f3d2c56ca300e575274
+FileChecksum: MD5: e0980e47880f25871d8676b18fc6a3ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.github/workflows/multiarch.yml
+SPDXID: SPDXRef-item12225691
+FileChecksum: SHA1: 50e4c7e6bcb8222759918a7ce162ffd04e0c9d33
+FileChecksum: SHA256: 762293619e281b797151cc783982e3f6adb77b1048a7012eea50078d7ed69d2d
+FileChecksum: MD5: 58220b5e1eb7f226e62111116fb335e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/MODULE.bazel
+SPDXID: SPDXRef-item12225885
+FileChecksum: SHA1: 958dfa034981ef5e79acd3cfe9749181444405e7
+FileChecksum: SHA256: 1ed4b18748a1968bb243142649d4148c778115c7cd0800510d5e01c5e1201119
+FileChecksum: MD5: 6e808563cff22bf8c5b2c14ee6e3e17a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/libhwy-test.pc.in
+SPDXID: SPDXRef-item12225668
+FileChecksum: SHA1: 46aed63ed6b6e4305a0ac34323e45a3559cf4029
+FileChecksum: SHA256: 6598eab339cee358314970c4a73100262bea8be3af1f5a2e166f226faffc1b13
+FileChecksum: MD5: 718ee35a548a3573409c856589a04e38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.github/workflows/docs_pages_workflow.yml
+SPDXID: SPDXRef-item12225692
+FileChecksum: SHA1: 0f3e14427214cdd69ded2777ecb2670fe042d3de
+FileChecksum: SHA256: 625e4cc21de5c53cec8bc22ad87ee44325a628a5377732bfa3794f262799627f
+FileChecksum: MD5: 78042a8831e14962c2114bb3b804d341
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: highway-1.1.0.tar.gz/highway-1.1.0.tar/highway-1.1.0/.gitignore
+SPDXID: SPDXRef-item12225910
+FileChecksum: SHA1: a82348c9006e99c7ecef347d19d3948e8fe7224c
+FileChecksum: SHA256: 46f722c1efb76348720fb444297e81379255e1ca95be68e069976e879c722080
+FileChecksum: MD5: 3389aec9a9d3ed8c3dde91881a0f2d3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+
+  
+LicenseID: LicenseRef-Apache-2.0
+LicenseName: Apache License 2.0
+ExtractedText: <text> Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright {yyyy} {name of copyright owner}
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       https://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License. </text>
+
+  
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-5ecdef164f497dec4c91ca46a5423b02
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-2dcb63884ce21fc3a121e85d8d38fead
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+LicenseID: LicenseRef-BSD-possibility
+LicenseName: BSD-possibility
+ExtractedText: <text> License by Nomos. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+ExtractedText: <text> License by Scancode. </text>
+
+
+
+LicenseID: LicenseRef-See-doc.OTHER
+LicenseName: See-doc.OTHER
+ExtractedText: <text> License by Nomos. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+
+LicenseID: LicenseRef-Apache-possibility
+LicenseName: Apache-possibility
+ExtractedText: <text> License by Nomos. </text>
+
+
+
+LicenseID: LicenseRef-BSD-style
+LicenseName: BSD-style
+ExtractedText: <text> According to BSD license, add some modifications </text>
+
+
+
+LicenseID: LicenseRef-Dual-license
+LicenseName: Dual-license
+ExtractedText: <text> Multi-licensing is the practice of distributing software under two or more different sets of terms and conditions. This may mean multiple different software licenses or sets of licenses. Prefixes may be used to indicate the number of licenses used, e.g. dual-licensed for software licensed under two different licenses.
+When software is multi-licensed, recipients can choose which terms under which they want to use or distribute the software. The distributor may or may not apply a fee to either option. The two usual motivations for multi-licensing are license compatibility and market segregation based business models. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-generic-cla
+LicenseName: Prior Generic Contributor License Agreement
+ExtractedText: <text> License by Scancode. </text>
+
+
+
+LicenseID: LicenseRef-UnclassifiedLicense
+LicenseName: UnclassifiedLicense
+ExtractedText: <text> An unclassified license reference looks like a license (it contains common license terminology) but we don't recognize a specific license. </text>
+
