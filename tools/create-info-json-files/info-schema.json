@@ -1,0 +1,142 @@
+{
+    "$id": "",
+    "$schema": "",
+    "description": "Description for license clearing information on a package",
+    "title": "License clearing object",
+    "type": "object",
+    "version": "1.0.0",
+    "properties": {
+        "schema_version": {
+            "type": "string",
+            "description": "The version of the schema being used."
+        },
+        "name": {
+            "type": "string",
+            "description": "The name of the package."
+        },
+        "version": {
+            "type": "string",
+            "description": "The version of the package."
+        },
+        "description": {
+            "type": "string",
+            "description": "A brief description of the package."
+        },
+        "comment": {
+            "type": "string",
+            "description": "Additional comments about the package."
+        },
+        "src": {
+            "type": "object",
+            "description": "Source information of the package, either from git or tarball.",
+            "oneOf": [
+                {
+                    "properties": {
+                        "git": {
+                            "type": "object",
+                            "description": "Git repository information.",
+                            "properties": {
+                                "url": {
+                                    "type": "string",
+                                    "format": "uri",
+                                    "description": "The URL of the git repository."
+                                },
+                                "versionTag": {
+                                    "type": "string",
+                                    "description": "The version tag of the repository."
+                                },
+                                "subdir": {
+                                    "type": "string",
+                                    "description": "The subdirectory within the repository."
+                                }
+                            },
+                            "required": [
+                                "url"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "git"
+                    ]
+                },
+                {
+                    "properties": {
+                        "tarball": {
+                            "type": "object",
+                            "description": "Tarball file information.",
+                            "properties": {
+                                "url": {
+                                    "type": "string",
+                                    "format": "uri",
+                                    "description": "The URL of the tarball file."
+                                }
+                            },
+                            "required": [
+                                "url"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "tarball"
+                    ]
+                }
+            ]
+        },
+        "clearingFiles": {
+            "type": "array",
+            "description": "Array of clearing files associated with the package.",
+            "items": {
+                "$ref": "#/$defs/clearingFile"
+            }
+        }
+    },
+    "required": [
+        "schema_version",
+        "name",
+        "version",
+        "src"
+    ],
+    "$defs": {
+        "clearingFile": {
+            "type": "object",
+            "description": "Details of a clearing file.",
+            "properties": {
+                "fileName": {
+                    "type": "string",
+                    "description": "The file name of '.rdf.xml' file if it exists."
+                },
+                "priority": {
+                    "type": [
+                        "integer",
+                        "string"
+                    ],
+                    "description": "The priority of the clearing file (default n/a). Can be used for prioritizing the clearing files for import, if multiple exist."
+                },
+                "author": {
+                    "type": "string",
+                    "description": "The author of the clearing file."
+                },
+                "reviewer": {
+                    "type": "array",
+                    "description": "List of reviewers for the clearing file.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "alternate_files": {
+                    "type": "array",
+                    "description": "List of alternate clearing files.",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "fileName": {
+                                "type": "string",
+                                "description": "The name of the alternate file."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
