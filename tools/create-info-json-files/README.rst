@@ -43,7 +43,12 @@ Options
 
 - `--overwrite`, `-o`: Overwrite existing `info.json` files if the flag is set.
 - `--packages`, `-p`: Filter packages for which an `info.json` file should be created. (e.g., `--packages a*` will create it for all packages beginning with 'a').
-- `--packages-dir`, `-d`: The directory containing the packages to analyze. Default is `../../analysed-packages`.
+- `--packages-dir`, `-d`: Path to the general directory containing the analysed packages. Default is `../../analysed-packages`.
+
+.. note::
+
+    The path for `--packages-dir` must point to the general `analysed-packages` directory, not to a subdirectory.
+    Individual packages can be specified using `--packages` like `--packages libssh2`.
 
 Example
 ~~~~~~~
@@ -54,7 +59,11 @@ To generate `info.json` files for all packages in the default directory::
 
 To generate `info.json` files for packages starting with 'a' and overwrite existing files::
 
-    python create_info_json.py --packages a* --overwrite
+    python create_info_json.py --packages 'a*' --overwrite
+
+To generate `info.json` files for a specific package like `libssh2`::
+
+    python create_info_json.py --packages libssh2 --packages-dir ../../analysed-packages
 
 Logging
 -------
