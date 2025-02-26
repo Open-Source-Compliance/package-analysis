@@ -1,0 +1,1295 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_libdeflate-1.23.tar.gz_1740592831.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of libdeflate v1.23
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2025-02-26T18:00:31Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: libdeflate-1.23.tar.gz
+PackageFileName: libdeflate-1.23.tar.gz
+SPDXID: SPDXRef-upload2717
+PackageDownloadLocation: https://github.com/ebiggers/libdeflate/archive/refs/tags/v1.23.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ebiggers/libdeflate@v1.23
+FilesAnalyzed: true
+PackageVerificationCode: 102bd215e144a3848a693ab23bc98f07e6deb508
+PackageChecksum: SHA1: 13dfd968e1d3dd8600d688330d195feae7e2afa8
+PackageChecksum: SHA256: 1ab18349b9fb0ce8a0ca4116bded725be7dcbfa709e19f6f983d99df1fb8b25f
+PackageChecksum: MD5: 9815bc968d0f97b5188f1f00e333da71
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2717
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/deflate_compress.c
+SPDXID: SPDXRef-item12423846
+FileChecksum: SHA1: a51239ebd9c514eb93bf69e5840a19fd7d76e19a
+FileChecksum: SHA256: 4d074af19199793a0696c8e732d9f016fd9851e37eccdc8069444614555dad9c
+FileChecksum: MD5: b72b78b548bb47c22982fd3a69fe3c51
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd AND LicenseRef-Public-domain
+LicenseComments: <text> Additionally the information in the file is:
+Many of these optimizations are based on the implementation in 7-Zip (source
+file: C/HuffEnc.c), which was placed in the public domain by Igor Pavlov.
+Thus we concluded additionally Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/benchmark.c
+SPDXID: SPDXRef-item12423825
+FileChecksum: SHA1: 539286a485ee307dd33b7c2047532dbd3b49a0c3
+FileChecksum: SHA256: 595345116350deda1f8cd7513dc983149d8febab577a7fe4fe3443f2d937183e
+FileChecksum: MD5: 682e8f137af10872408751faf02c9ee8
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
+FileCopyrightText: <text> Copyright 2016 Eric Biggers
+Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/gzip.c
+SPDXID: SPDXRef-item12423820
+FileChecksum: SHA1: a841a5ef0c8d1a9d98b2e776812eb0880f7e9f21
+FileChecksum: SHA256: 79a972f8c36364e1ae1da9b708c29fb5fc51261db9435f2eabfaf4adf7267a48
+FileChecksum: MD5: 160ed31c2c74d23683205b157c8073cf
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers
+Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/hc_matchfinder.h
+SPDXID: SPDXRef-item12423879
+FileChecksum: SHA1: a68042f800f43872b4cb3f40e9ebc6c9d264c6dc
+FileChecksum: SHA256: b37e8c48957f8d7773a847a1d5a5fe5343b85e0f9c43ddce2e55eb24d58a1704
+FileChecksum: MD5: 76479b70cbfd02d134cd640c4b01dce6
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/COPYING
+SPDXID: SPDXRef-item12423887
+FileChecksum: SHA1: f0ecb0e6acb04b6de9c2ee08d125cdda2884affd
+FileChecksum: SHA256: 4ad69099cb4374836fd27583d9991e2838cd86b6e4666ab26b2d32582c91e73a
+FileChecksum: MD5: 89f8c510215440fe2f208fba4afe07e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers
+Copyright 2024 Google LLC </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/ht_matchfinder.h
+SPDXID: SPDXRef-item12423880
+FileChecksum: SHA1: 097c6c939c96362c58c7d9ce7c24b091900f381c
+FileChecksum: SHA256: a682872f0d05919e13d53b49df42039062c177c65d19095da958162425883c0c
+FileChecksum: MD5: 6afa3a73a61f22aad4daa4777441b274
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2022 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/deflate_decompress.c
+SPDXID: SPDXRef-item12423873
+FileChecksum: SHA1: bcd247be762778f25870ed83a91117419eb51818
+FileChecksum: SHA256: bc16ab65325ce4ac14af830b2cf6c805770beab01fd2f09226dca3dfa3f8bb47
+FileChecksum: MD5: 54928b7dbc1cc5ccd1b255cdade3de19
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/x86/crc32_pclmul_template.h
+SPDXID: SPDXRef-item12423862
+FileChecksum: SHA1: 3701b23c8abe545e05ae1e4fc746b9c9e11b7136
+FileChecksum: SHA256: 074095f1c356b572893e36f29807736a3fc68326278d16c04a1ff984cffcd0ac
+FileChecksum: MD5: 1725b981eb8a8f5f66ef514180dc1619
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/x86/adler32_impl.h
+SPDXID: SPDXRef-item12423863
+FileChecksum: SHA1: 6b669f10dc4f311b0778ce18eab99edc12da23ef
+FileChecksum: SHA256: cd882f9386b2b226d255b1531ec171edc6f6fb0b70f62058b4850f61fa690316
+FileChecksum: MD5: 5633a6677adba710193e5bb35a60ed45
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/x86/crc32_impl.h
+SPDXID: SPDXRef-item12423865
+FileChecksum: SHA1: 7a15347ba2c422c19f58a8eabf4e229379f6b5e7
+FileChecksum: SHA256: 8dc43c22139bccbccd6de0faffc30189c174c942db20b698b8f6b4dbed38f547
+FileChecksum: MD5: efff84f7ad103eb04b10fa40d759ff67
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/riscv/matchfinder_impl.h
+SPDXID: SPDXRef-item12423871
+FileChecksum: SHA1: c833645a656370f920066181c39050b901595295
+FileChecksum: SHA256: e487458fdc957ba59f9f6d27d6f8997900446df08880018b00d5535a7fc5edc2
+FileChecksum: MD5: 258e96f9c27a64e0881b9a2a2a1b3a87
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2024 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/x86/cpu_features.c
+SPDXID: SPDXRef-item12423864
+FileChecksum: SHA1: a4e1050d56215f97d19802dee1db902259228b37
+FileChecksum: SHA256: ae2d52f6fe174889456f1e70d0e46daada91ad17b60e19f88459945a9f418464
+FileChecksum: MD5: 1a3c3d0f7e80919edcf1be8cdb158aa7
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/adler32.c
+SPDXID: SPDXRef-item12423866
+FileChecksum: SHA1: e957f1e6f9298bef11fc97eb43cfc8081d32cccf
+FileChecksum: SHA256: 63099826db3ddf84c15bfba30940f9689917185df8c30ff27a2bc2b7cb6a19f2
+FileChecksum: MD5: 0bfa2e322c197a77ac2a41f67020d70b
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/gzip_decompress.c
+SPDXID: SPDXRef-item12423867
+FileChecksum: SHA1: 338d9bdf1125b85b24dcc19effe21b887b000a25
+FileChecksum: SHA256: f853b8802a1b7e79f6626f0a2c104d005958288c2a37ea24df758ee54f714304
+FileChecksum: MD5: f2b52976b3cded91a6af2481fcbbf480
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/zlib_decompress.c
+SPDXID: SPDXRef-item12423878
+FileChecksum: SHA1: 8b1e7d7e1321a978bc0139d26c91f7991b6f0f25
+FileChecksum: SHA256: 704a57fb91c36c1c88b04a3482694de08c794ca0cb3904ac247a206802aa6ee0
+FileChecksum: MD5: 7c657de7cf3828b329fb6b8602cd0d03
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/x86/cpu_features.h
+SPDXID: SPDXRef-item12423861
+FileChecksum: SHA1: bd71e26efde0b81730198a0d1d87acc5c310088d
+FileChecksum: SHA256: 96cdc97b502bf0af7f313cbca1094d4f42d96742fc672928d2f400fc401d4fcb
+FileChecksum: MD5: 111b872ac39eb743a7d4ee91ac092582
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/gzip_compress.c
+SPDXID: SPDXRef-item12423869
+FileChecksum: SHA1: 5b6b5eea460c40df8c8914f74eb95a15088afd4c
+FileChecksum: SHA256: b92016cf6a5ce34b48e6950d7de68923d2e5e0475bbe4c71297360818deafb08
+FileChecksum: MD5: 9880ab6a5acb77312102e3dac9d1e296
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/decompress_template.h
+SPDXID: SPDXRef-item12423872
+FileChecksum: SHA1: e8b066db489c7e3af308e388fac48f76f0353818
+FileChecksum: SHA256: ade3034c1d5c840cb31bd9738a015be804862a8dfce03c14ac2f5b3a826792b8
+FileChecksum: MD5: a11e4fe21ac9d473a93200d728b39cc1
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/x86/adler32_template.h
+SPDXID: SPDXRef-item12423859
+FileChecksum: SHA1: 295dfd18661724cf8823054e66009a6780c08ff4
+FileChecksum: SHA256: 8e5d14f8e596bd54bea188b6ff5c96649329beeebd9acdd59307a5202206d11e
+FileChecksum: MD5: 463c7456bb05721f9ff8de8dbda53fbc
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/arm/crc32_pmull_helpers.h
+SPDXID: SPDXRef-item12423850
+FileChecksum: SHA1: af080615cff2c6864698115cd035a874fd126c46
+FileChecksum: SHA256: e469001ad29607cab992ae29c9eaac331427d6b103d11d58d37158b3aa0be95c
+FileChecksum: MD5: 34029894880fea05293025d3c131870c
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2022 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/crc32.c
+SPDXID: SPDXRef-item12423848
+FileChecksum: SHA1: ac426a97698bf6e0def8b9b0eefb6a0a8553c6d6
+FileChecksum: SHA256: 91d0155e5e879527f9a5dbc53f01ea2400fbb80a75b9dda71d867cdd53d18cca
+FileChecksum: MD5: bdde547ea28cfb08c0bc100fd9677d5d
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/arm/crc32_impl.h
+SPDXID: SPDXRef-item12423856
+FileChecksum: SHA1: f962acc184fa41df9195306dae22ec8bf0275ba7
+FileChecksum: SHA256: a07129f419c881ac408c1430564bd7357c96624ff512b8d7bb225e8dc566b6dd
+FileChecksum: MD5: fe6963e8e554b600beb9a95aff854a38
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2022 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/x86/matchfinder_impl.h
+SPDXID: SPDXRef-item12423860
+FileChecksum: SHA1: 4bfe36dcf5d029cf60d5a3e6105ba045f78d519e
+FileChecksum: SHA256: 3322b5195e11dc08575ea26431d8d16514cb53bf25e6a9b6935b6cec7a678a27
+FileChecksum: MD5: d0a35f85bb0a7754aab568a2b3c1675c
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/bt_matchfinder.h
+SPDXID: SPDXRef-item12423843
+FileChecksum: SHA1: 4f5f3c82e440130646c65837fca3cc40fd4c1d1b
+FileChecksum: SHA256: 6e3834eb2de5c759479bbdab9471f3569f8aa2bcbba81f4f917c84ebff0050ad
+FileChecksum: MD5: 1b4ee345bde73336be89adeb45bcaf93
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/arm/matchfinder_impl.h
+SPDXID: SPDXRef-item12423852
+FileChecksum: SHA1: bdcff4ced41e6bd07b7fb387145012eb8e54c898
+FileChecksum: SHA256: 11cd6a9c47d2dadf746f7a944c72c672b40bc83b2ffb43356e0b7ced6b6b8038
+FileChecksum: MD5: 0853df80fb8f51043dd0b1ae9d71d3d9
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/arm/cpu_features.h
+SPDXID: SPDXRef-item12423853
+FileChecksum: SHA1: 2df8b68362131bacef10b38e3630137ade33d7ca
+FileChecksum: SHA256: 0cff5c0110021dc8b18511e328f913f1bad21f31ad927497d1f428db4e6ed239
+FileChecksum: MD5: db4a834599047f89f0993c2f6927a17b
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2018 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/zlib_compress.c
+SPDXID: SPDXRef-item12423876
+FileChecksum: SHA1: 4e8dcfd4acdf24877100da08b8cfed2836b64b16
+FileChecksum: SHA256: b5ca0c9af0346fd656871441b08b73b3512601ceec8edc6cc81e8a93929081d4
+FileChecksum: MD5: 22157e026f733c8f82bb307a67af946d
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/arm/crc32_pmull_wide.h
+SPDXID: SPDXRef-item12423851
+FileChecksum: SHA1: 7a990da7910e8c44836632072bf4f2dbb4fa2cd3
+FileChecksum: SHA256: c53a58d1e3dc5e75d23c1338fed6cc431ee6fbdfcd4ac94f576579258ac34a88
+FileChecksum: MD5: bc597217bd457797d5d2729b4d56a5ce
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2022 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/arm/adler32_impl.h
+SPDXID: SPDXRef-item12423854
+FileChecksum: SHA1: a5803ceea1e200fa86802defbbed32ebee25c688
+FileChecksum: SHA256: b7e43d7b91db98d774243cf29ee41941edf93e71b5a3f5cc3ede34d8b70a93d9
+FileChecksum: MD5: 73cca25d58027d501aad889ca3d1aaa1
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_util.c
+SPDXID: SPDXRef-item12423833
+FileChecksum: SHA1: aeddd59938254efe59ef0e10792abf4650b72488
+FileChecksum: SHA256: f27d8e0b0000a054fb58be4347cded39bf536a073b50f518c83f4f7264a1c88d
+FileChecksum: MD5: 5307bc0f0f9032223154d5bedb5235b9
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/utils.c
+SPDXID: SPDXRef-item12423844
+FileChecksum: SHA1: 6bac5b24a6930f3c06ede1680859dc6ae31d96a2
+FileChecksum: SHA256: 3d4c9f6d488610d4d9ff314b2dc783e24079325b78af13d3ee37b18fcc0b0d8a
+FileChecksum: MD5: 8e3d74a639f4f25652204704f6ac00c1
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/arm/cpu_features.c
+SPDXID: SPDXRef-item12423855
+FileChecksum: SHA1: 771e63ca0e82929703fc0a3c902c89d2d75bf78f
+FileChecksum: SHA256: c75efd51385cb7f5aa729d95a8f5b3888920fd3fc7e198554f69d1e0dad2f62c
+FileChecksum: MD5: 55417d44fc866b26809c23acdc0e82a6
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2018 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/prog_util.h
+SPDXID: SPDXRef-item12423822
+FileChecksum: SHA1: 42f97dc60d49dd7b956af56a8cc2d60d8e983ba8
+FileChecksum: SHA256: 5dc30a416c1223c854a9b90cc1a6fdbf38ef31fc9cee956bfd22639d6d60f14e
+FileChecksum: MD5: b04dd0ed71df5bfb6d42b5fb51c1397e
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_util.h
+SPDXID: SPDXRef-item12423832
+FileChecksum: SHA1: 1aa91d127be6825d5196ee842ebf50cc3b3aa698
+FileChecksum: SHA256: 9d7492a76621d2ae3c5715dbf9c2459ad5953d00f3b0a1f78b22932d3cb8404f
+FileChecksum: MD5: 095dda4481d084b0260d558ac12b9c47
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/checksum.c
+SPDXID: SPDXRef-item12423831
+FileChecksum: SHA1: acb0405d46db02d956ead4e87632c703396bb4d0
+FileChecksum: SHA256: b88efcc45a6780eab5077c8d895ff0404317ceb66e67b95ee5a55fa17e3202f2
+FileChecksum: MD5: d50769b9fef063876bbbf38e538672cc
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/prog_util.c
+SPDXID: SPDXRef-item12423824
+FileChecksum: SHA1: 5fdbe353d862bbb5cfa4f52136649039cf1011b8
+FileChecksum: SHA256: 4e6d1b1f3774e9b45b8819d70343aa3846eb7228fe333938ec0c9e9c83654081
+FileChecksum: MD5: 12578c760b2782be34df9e764a2e45a7
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/common_defs.h
+SPDXID: SPDXRef-item12423818
+FileChecksum: SHA1: bc219633ff849abfdb11bd79fda6a9eb6aaae5ec
+FileChecksum: SHA256: 1b5d97f1eb70e23050f3555b4a27218194cba6419dbaeac0b5ef937bcd9471e6
+FileChecksum: MD5: fc723188d12342deb368d2753ccc084a
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/tgetopt.c
+SPDXID: SPDXRef-item12423821
+FileChecksum: SHA1: 95d1e10cd513b2bee715254f055142a3eee32b00
+FileChecksum: SHA256: 8580298e6f7d116d5dee93838511fa0982d277d2b820191ccd249d0931116cee
+FileChecksum: MD5: 7b4789f909eaf28515915f9b2b80faa4
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2016 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/cpu_features_common.h
+SPDXID: SPDXRef-item12423875
+FileChecksum: SHA1: ecddae073d374a0917850bdbae9742b7d7659135
+FileChecksum: SHA256: f4eb0800558e9116dd14446ccfb9b1896f970aec6de42c18366a29bde73fd0da
+FileChecksum: MD5: 907229b68110330775a90e26251f606f
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2020 Eric Biggers </text>
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/zlib_constants.h
+SPDXID: SPDXRef-item12423840
+FileChecksum: SHA1: 57c65e6c9efb10697a0c714b6c4017432e94b619
+FileChecksum: SHA256: 562e16b83ac33ac6d351cdfdf1962750576080d65c22ab66cad0aaa33695bebb
+FileChecksum: MD5: b7d77b9b3be7bdae28eaf2b2c561e95e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/checksum.sh
+SPDXID: SPDXRef-item12423919
+FileChecksum: SHA1: b9c24fd9d091014a08e19f2cf829ca1e04628681
+FileChecksum: SHA256: f524e4b835248018c9348eebcfbac4a3d3ab17577f1416feb8c037dcc8a7f532
+FileChecksum: MD5: 42c67380905cd0a15720e6a16bbe74b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/deflate_decompress/corpus/0
+SPDXID: SPDXRef-item12423906
+FileChecksum: SHA1: 9c853b5996f02eb1a9ba96d51546b6a83899365c
+FileChecksum: SHA256: 3ef7e53fc825722b2fca0d1f3a2ec22aba5ae4774ada0844ee35278348f0cf38
+FileChecksum: MD5: 1f18eca905c37ee352d8bbdcbc48d51b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/gen_bitreverse_tab.py
+SPDXID: SPDXRef-item12423893
+FileChecksum: SHA1: 495d0c3f3992c4cf96ad82da94d3d70cfd9fbb1e
+FileChecksum: SHA256: 730058ac596053565c9d1a8d855c5ea191f9e39df72f2f1fc86d0a835e6dff3a
+FileChecksum: MD5: 86cfd9cf52d7027dad0e5c213e868a0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/gzip_decompress/corpus/0/0
+SPDXID: SPDXRef-item12423912
+FileChecksum: SHA1: 3f95881fc24de369e17c85b713af1599708be1fb
+FileChecksum: SHA256: be4cb2cd8e61eb0ff1d65fbd5adc8c5c237891413c3963dc9428a0de3eb4abe3
+FileChecksum: MD5: c4164b0baab4847775c7f0bcecd1e690
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/crc32_tables.h
+SPDXID: SPDXRef-item12423877
+FileChecksum: SHA1: e3b2544823cac9055ab4058a9de2ffd5032ba75e
+FileChecksum: SHA256: 2aa0c8590795ab7d2722bdcd1be816d4808b6e7d301b52bd5ed4c5c1c72b996e
+FileChecksum: MD5: 489a69f5bf594839c31a5b6b67b90555
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/gzip_tests.sh
+SPDXID: SPDXRef-item12423918
+FileChecksum: SHA1: ea5c9fcd46518011666424144a24909be42a74a5
+FileChecksum: SHA256: 0bbbae7e8010cc75031d0d70370a93ecacda703bf22770a4c4d64b3c36a2d930
+FileChecksum: MD5: d0fd04ba9d31b651c2273c66472a7014
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/deflate_decompress/fuzz.c
+SPDXID: SPDXRef-item12423907
+FileChecksum: SHA1: de04fb44ff056af23b7c4073392b691d0e5a8474
+FileChecksum: SHA256: 4dc1ecedeaff66e79ff9eb7674578568a02c85571f343efbd0e0acbbe27158b1
+FileChecksum: MD5: 66bbdaeb6c6950081ddde141f974b575
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_overread.c
+SPDXID: SPDXRef-item12423826
+FileChecksum: SHA1: 36677dd74c88708840c163110b792e2a3236c7ee
+FileChecksum: SHA256: 334ec984480acc11fc287f1a29521af03f4e96103c4b195b5f4879115a2025d8
+FileChecksum: MD5: 223d46651a7fd54af15e32327e1b3dbe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/lib_common.h
+SPDXID: SPDXRef-item12423841
+FileChecksum: SHA1: b148a15c6036b16d7c2548d960496c7e591fa0b9
+FileChecksum: SHA256: e7aa1f2750434e1019ffabda577dab0fdf5b95f010f6f20aa7e21323b3bcceea
+FileChecksum: MD5: 675f042aff0d173ed30b700b2894f760
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/.github/workflows/ci.yml
+SPDXID: SPDXRef-item12423883
+FileChecksum: SHA1: 3c81a7820427a922009cd6767888d11435a6322c
+FileChecksum: SHA256: 9c52b7b059f5f1e3b4cd7899051c3665c35880263e5554d81ecdc9b86e57bc27
+FileChecksum: MD5: 976cfdac615e8184f4043276415d204b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/gen_offset_slot_map.py
+SPDXID: SPDXRef-item12423922
+FileChecksum: SHA1: 9bdf7e61850f40b00a2e8877173fb27a50cc4241
+FileChecksum: SHA256: 2ea6b296c7022089b8367fd7f3bd96ef2f18750f569ca1de6e1bcf0a80bbb197
+FileChecksum: MD5: c40165b6aa6fbfe88c31ebcaece714bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/checksum_benchmarks.sh
+SPDXID: SPDXRef-item12423916
+FileChecksum: SHA1: f93099badbde3dcbe43cab224b7301a38b44bd48
+FileChecksum: SHA256: 40aff1623da514690b4067a26e788e38f4c8e3f83e81ae433168185079382cf8
+FileChecksum: MD5: 02a05027232de88966d3a6e4e06f99cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/libdeflate.pc.in
+SPDXID: SPDXRef-item12423888
+FileChecksum: SHA1: 5673ef50151683145620d811a35bdd4d180dd2eb
+FileChecksum: SHA256: 76861afb5bc1b0c33d511e9467402d7bb4f1ccd9e7064d8fa7c19bf852968c20
+FileChecksum: MD5: e48c55972446cb6d0c2e92abe73d8deb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/.gitignore
+SPDXID: SPDXRef-item12423915
+FileChecksum: SHA1: f6a86c35c1fe2a3a4298cc83f86498deddf5b58d
+FileChecksum: SHA256: 8165b18a5d4bb332a9c36851a2971719c58a5aac3991eab6584d1329fd690123
+FileChecksum: MD5: 44b1a12274b827e4e78d2ad1d2a78c08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_checksums.c
+SPDXID: SPDXRef-item12423836
+FileChecksum: SHA1: f5fe388a5849e876f4097bf636bcea06b44ebfa5
+FileChecksum: SHA256: 19c7643a2690276694875b966f59a1bde46d581c14d25289c4652046e8ee33f4
+FileChecksum: MD5: 626442e569281910d595ead5f6f1c7f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/crc32_multipliers.h
+SPDXID: SPDXRef-item12423868
+FileChecksum: SHA1: b450fa4c49f1491dffb247c662303478a4140ea6
+FileChecksum: SHA256: 4685f86b4035627d81c802627d8148ac17861ede15d2af741f06c66022a4c4d0
+FileChecksum: MD5: 4f2ad97c201df4222eac642fee85c4d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/toolchain-i686-w64-mingw32.cmake
+SPDXID: SPDXRef-item12423923
+FileChecksum: SHA1: 97a4b47b4fee9971dca0cceb0bf803e4089d8b10
+FileChecksum: SHA256: 13925cc86394de8890656980b977b4225e74026162fe0ed207192830461a68aa
+FileChecksum: MD5: 98835da4e4c081ab2a6252315c5fcff9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/gzip_constants.h
+SPDXID: SPDXRef-item12423842
+FileChecksum: SHA1: 71f4ca66645bc76ff8e6400f696b21d5b7e24887
+FileChecksum: SHA256: 135661faa24f45407517f9f73380cf89890613aeba27b3a4f5cfba0e74e85ae0
+FileChecksum: MD5: 953018ae1bb9217824c038d2b28a0a55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/README.md
+SPDXID: SPDXRef-item12423838
+FileChecksum: SHA1: c08a24382cde840d10d010aa2b58c1a7c74cc825
+FileChecksum: SHA256: 1239c529b92021e501189e27dde435059b5ba462610bac31b8d2b7505725d8a8
+FileChecksum: MD5: bc9341259d1be200237d46ec9b45d42e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_invalid_streams.c
+SPDXID: SPDXRef-item12423828
+FileChecksum: SHA1: c5492162483c7724a27a300e71c5b3dad33240eb
+FileChecksum: SHA256: 5efdd78a010b7eeb747eccdf2425785f2091b20679022c5800270bf6efe1dd77
+FileChecksum: MD5: bd4b8989b0b33f30b0c599709276a8fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_incomplete_codes.c
+SPDXID: SPDXRef-item12423837
+FileChecksum: SHA1: 5044f27e51f184183fa17c5cda67b1a711193b54
+FileChecksum: SHA256: e2c048cfe67b7ec54dc3c76327275734502853826fac66db5a3f81346afa32ca
+FileChecksum: MD5: 67c40b05851e2eb60b6619730375ff7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_litrunlen_overflow.c
+SPDXID: SPDXRef-item12423827
+FileChecksum: SHA1: b4b0e2c59290992b12afb9898dc954d9c5978069
+FileChecksum: SHA256: 5253a0031b57abc3ec20d26df900495a274169467703ef60b39ebde7645d1a9f
+FileChecksum: MD5: 43fe1c0faa96e8e46546ad72f67f8146
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/deflate_compress/corpus/0
+SPDXID: SPDXRef-item12423902
+FileChecksum: SHA1: 3f95881fc24de369e17c85b713af1599708be1fb
+FileChecksum: SHA256: be4cb2cd8e61eb0ff1d65fbd5adc8c5c237891413c3963dc9428a0de3eb4abe3
+FileChecksum: MD5: c4164b0baab4847775c7f0bcecd1e690
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/deflate_compress/fuzz.c
+SPDXID: SPDXRef-item12423903
+FileChecksum: SHA1: 82b93a678d9ca6e6927ae73bc6c72c9e5984a06e
+FileChecksum: SHA256: 8e102da541fd208d55bb6399695fc9869a167354c8bc8ebc83e2ded44a4b2ac0
+FileChecksum: MD5: 8bbc5157665d9e55578b017a1c52b78b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/.cirrus.yml
+SPDXID: SPDXRef-item12423928
+FileChecksum: SHA1: 52d90eea059cb44e1e4d0aca24bb9c8a7af21a73
+FileChecksum: SHA256: ed28a53957ea101455ad6d4d174f98bc8cfe101bbd40707fe575ca55e519a509
+FileChecksum: MD5: 386a9660aa8ad2b340f9f3c82cfb2dc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/gen-release-archives.sh
+SPDXID: SPDXRef-item12423927
+FileChecksum: SHA1: e70c7278a65592f1e695da94a483befb70c8021e
+FileChecksum: SHA256: 46d5bd24634ad60f3780cb06c7409aece01f41924674a5554f9bddabc7bb22a2
+FileChecksum: MD5: 87d172c2557fa03c84bcbff2029c3b52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/deflate_benchmarks.sh
+SPDXID: SPDXRef-item12423891
+FileChecksum: SHA1: ead94c389aee96990fc8862ad8d65a8b61f71df3
+FileChecksum: SHA256: 827480fec0d37158a10d074d338da8b7f486e36ca3a791b4123f544642649309
+FileChecksum: MD5: 33f12e03334651966460956f445862a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/toolchain-x86_64-w64-mingw32.cmake
+SPDXID: SPDXRef-item12423921
+FileChecksum: SHA1: ced197fa1400fcf0725a819ede75ee97c11093c8
+FileChecksum: SHA256: 6b79085ef16672715c1439f66a4cfd6e0fc970352775d00eff9878995d763c74
+FileChecksum: MD5: c79fd3ef4affe1fc98a0cf950b3a1078
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_custom_malloc.c
+SPDXID: SPDXRef-item12423823
+FileChecksum: SHA1: 60f2da50426e5bbc0af77571a8802117055e56c8
+FileChecksum: SHA256: c5e76e15a2eeb70cac1b0d61b858dce52ef92751f0ebba059dff2c214df8c80f
+FileChecksum: MD5: 43e8c30bb619349d22bcee9b34d98107
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/deflate_compress.h
+SPDXID: SPDXRef-item12423874
+FileChecksum: SHA1: fbcf7dd41a28a2118e13a2423142a63612574201
+FileChecksum: SHA256: cd3a74bb22e5358e9571184294b1f3600e2a72bde483485eda242a92bb7124b0
+FileChecksum: MD5: 6077f783c10ee30d71f28d00b28b24cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/CMakeLists.txt
+SPDXID: SPDXRef-item12423834
+FileChecksum: SHA1: af8c75710df0f8e36ba264ced24124a7b5622b2a
+FileChecksum: SHA256: aa0441fa065ba1e1a0ed9c7f63f77b309603136de77774716fa809d31f1047af
+FileChecksum: MD5: 40825f02e1c28cd91a15863cf371c2ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/NEWS.md
+SPDXID: SPDXRef-item12423884
+FileChecksum: SHA1: 956836c11baaf9585ee11689aa41f3d768da7fa7
+FileChecksum: SHA256: 897648d4065dfcbcbd00ba91f30f64af44eae2859294faabcadd33c4d410adb2
+FileChecksum: MD5: d0ffed469e62a0f79a46dbb2c166869c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-possibility
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/zlib_decompress/fuzz.c
+SPDXID: SPDXRef-item12423899
+FileChecksum: SHA1: c57d062df6105b7b27989f5d9fbce9304620cb9a
+FileChecksum: SHA256: 30d6eae5044df480d3a2e33d2e526333b0677fb7b652ea2752fa71e70415560f
+FileChecksum: MD5: 623f2779213b0dd905ddd9bee46084c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/matchfinder_common.h
+SPDXID: SPDXRef-item12423847
+FileChecksum: SHA1: 3f3875a7039f1c10344681f9ff8c5da3dfe21a6b
+FileChecksum: SHA256: 98728237b0537b164ea8e44d3a7c70a64ab17debdc8f418697a8e0acfc9e096f
+FileChecksum: MD5: 2b6beaf4b872d01a28ce94a14ad881e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/fuzz.sh
+SPDXID: SPDXRef-item12423914
+FileChecksum: SHA1: 0e3f1b372aabbfdd0f9e60d3355a29853bb113e3
+FileChecksum: SHA256: da1683fc02f34ffee380c7f2b2facb78bbb5ebdcd1f2933131d5669a0df6bef0
+FileChecksum: MD5: e32f3080932990e1901807638716c2cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/android_tests.sh
+SPDXID: SPDXRef-item12423924
+FileChecksum: SHA1: f8ffb37b4fc230302686d53a224af67787fe19af
+FileChecksum: SHA256: e52f24db8be9806707542af87951d1bb05aaf3de910cc0d61233c195a6c5fd98
+FileChecksum: MD5: 8e71debd7ed8840a217ff4d307a7dc9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/exec_tests.sh
+SPDXID: SPDXRef-item12423925
+FileChecksum: SHA1: b6076d9ee6c8680f61d2d379ffdf854ad91942ba
+FileChecksum: SHA256: eed8b2d759c0985e0a5acfc64f9cf8a1b0c112368852a0fad3d4eeec0c14986b
+FileChecksum: MD5: 249d655456e92b6d6a2c0da81a676183
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/.gitignore
+SPDXID: SPDXRef-item12423929
+FileChecksum: SHA1: 54a074360ec3a1bb2a0e72c5424dd32675844429
+FileChecksum: SHA256: 419a091fc8544a33928304b123628aad2a123d9bce97e036d0a8bb805b6dbc59
+FileChecksum: MD5: d860a7971880b33b8a60e3d6f36fb831
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/libdeflate-config.cmake.in
+SPDXID: SPDXRef-item12423885
+FileChecksum: SHA1: a9942c6ea53f1fd339462959495d82c000c1d71d
+FileChecksum: SHA256: 141301e112b10d565b06286b9cca2f1fa0e962899e2b9ae0749ac1287ce3ca4f
+FileChecksum: MD5: 4b72d5797e783431d47a6829884e9b2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/run_tests.sh
+SPDXID: SPDXRef-item12423926
+FileChecksum: SHA1: 4b117827c9227e994826d3051da74e8d2f3ad185
+FileChecksum: SHA256: 46d0eecd6eac84a2426d21feb696a3bbc45d20a1e262316ed09f48967520c3d7
+FileChecksum: MD5: a38b1808d12de6d536596c22c8cf63e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/config.h.in
+SPDXID: SPDXRef-item12423829
+FileChecksum: SHA1: c176e0db2214795e0f5ce468a4ac6372c8711baa
+FileChecksum: SHA256: 7bcdf09c18b3b96ca58c03f25ace30d8b86cd81a6866b233b626733d991e34d3
+FileChecksum: MD5: 6583491841a6a3e189b757d103e39fe9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_slow_decompression.c
+SPDXID: SPDXRef-item12423830
+FileChecksum: SHA1: 76b9e0575a4b502d9750a1bc8ef15860a2ee788c
+FileChecksum: SHA256: cf4ed95d9e679814d104745599b630436cac26292debe79d84c8efa61f596013
+FileChecksum: MD5: 2f32f2c97e83c3518ba9dc600f4a6be7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/benchmark.sh
+SPDXID: SPDXRef-item12423917
+FileChecksum: SHA1: f40505209b96b3836c9c45cf7125a0c4d646b4b2
+FileChecksum: SHA256: 0d84aa84c9cbefc60f3ae63a96c9de9a860998c708cdb8ee298a7a5883a0ed2f
+FileChecksum: MD5: f4718ae1969d2eaa84f1ad016be06098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/gen_default_litlen_costs.py
+SPDXID: SPDXRef-item12423920
+FileChecksum: SHA1: daff6ba427b1945e63a46578bb786325e736c048
+FileChecksum: SHA256: 663bc89f98bfc5dea209b5c91a89d76a041ba25e48bbe5bbaa5f8f0d90cb48cd
+FileChecksum: MD5: 7ce9b72ca29a144bb1b8f6f6e1960168
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/android_build.sh
+SPDXID: SPDXRef-item12423894
+FileChecksum: SHA1: 74c622ccf9c2acdb99edbe7d06a19f1d982a4b44
+FileChecksum: SHA256: a3a1d7f0deaf112c8515ec433987f07f1f004e0b2ed14f392dd01488d67bbe98
+FileChecksum: MD5: e285a1255196d8afdcf675720530c8e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/CMakeLists.txt
+SPDXID: SPDXRef-item12423886
+FileChecksum: SHA1: 2c912b37fbc33233ad64d3dbe6e3b0cf6c1e4c5f
+FileChecksum: SHA256: d2101c1716097d229559b713a50b458f46dfff1f02c81c5297fe8554f35d12c4
+FileChecksum: MD5: e3e9e7d445674f782a91e6efd8497f9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/cmake-helper.sh
+SPDXID: SPDXRef-item12423892
+FileChecksum: SHA1: 8c1211b56969b1b5eec9627697716d4ed3bd9988
+FileChecksum: SHA256: a07ffaf93bb6baa3341a5d98a4b843f411bb1d51a1a2c89c38858d53f0bf6c6e
+FileChecksum: MD5: 0869bad27b02049c0264b73089969e2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/libdeflate.h
+SPDXID: SPDXRef-item12423817
+FileChecksum: SHA1: 12cde7a3b26dabd82d1dc3ef32b307d6b4bb60ce
+FileChecksum: SHA256: 99ac9fbc9be6c75411af36c318e7232156d0ae95eb037e1e93e73c8bd5997320
+FileChecksum: MD5: 522fd7e566287f902d66b30704ee0603
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/zlib_decompress/corpus/0
+SPDXID: SPDXRef-item12423898
+FileChecksum: SHA1: 29ac960addaf96b6dca01b77d4b87baedc04223d
+FileChecksum: SHA256: 5e9c0d008b82914b27d26a0eef65b94c1c8396ddb3e531dd35b0859ffcf529e9
+FileChecksum: MD5: cfc10fb4f9ad03ed52d8470b4a78884c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/gen-crc32-consts.py
+SPDXID: SPDXRef-item12423890
+FileChecksum: SHA1: 6542deca340dd50b77ac97eefae43619755cd2e0
+FileChecksum: SHA256: ff34acc31a980c6e954c0ddf0358137539f89c7a24553a9b2b49aff7afb539a2
+FileChecksum: MD5: 20340d3c90d0e8444e7762f57963f031
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/x86/decompress_impl.h
+SPDXID: SPDXRef-item12423858
+FileChecksum: SHA1: 26aa348a292f2dd9a1523473da66c17642ec69e6
+FileChecksum: SHA256: 81ab9fd7d4723fdc7ae81dca82f817bcecb7baf5bdfffde0ccfbba70569ac2f1
+FileChecksum: MD5: 931fafd6f3cab5fb73a51b26cb343d89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/scripts/libFuzzer/gzip_decompress/fuzz.c
+SPDXID: SPDXRef-item12423913
+FileChecksum: SHA1: 21e64e6450bb833e181005c4bc6967f4fd69f057
+FileChecksum: SHA256: ca864c4b3569a455df6cd878760fd918f4d2bd3b23531a3b655f7f149eaee4c9
+FileChecksum: MD5: 02d9ba1056950487db471accb435574b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/programs/test_trailing_bytes.c
+SPDXID: SPDXRef-item12423835
+FileChecksum: SHA1: fc9a0f0781097f087ee60102b36be4ed96668f5d
+FileChecksum: SHA256: 6e61e70ad214f9533a5e120ed4483e146b850e4ec9d1b913692d72304439b06e
+FileChecksum: MD5: a8cb7b362e77d1e9ca333e7659413278
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libdeflate-1.23.tar.gz/libdeflate-1.23.tar/libdeflate-1.23/lib/deflate_constants.h
+SPDXID: SPDXRef-item12423845
+FileChecksum: SHA1: 1f048b7eae9a31c4f724224c8ebdb9a0ebad3747
+FileChecksum: SHA256: 72ea6e5f0abe53e781203e3f383603a765a768b860a09b3356be36bfd87c8af3
+FileChecksum: MD5: 2d7dea29967dc47a32cefee2dfbe3b37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+LicenseID: LicenseRef-MIT-possibility
+LicenseName: MIT-possibility
+ExtractedText: <text> License by Nomos. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+ExtractedText: <text> License by Scancode. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-warranty-disclaimer
+LicenseName: Generic Bare Warranty Disclaimer
+ExtractedText: <text> License by Scancode. </text>
+
