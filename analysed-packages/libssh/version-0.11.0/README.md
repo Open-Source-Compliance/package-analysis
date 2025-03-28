@@ -18,3 +18,4 @@ The information was reviewed by:
 
 ## Comment
 
+The COPYING file in the root directory contains the text of the LGPL-2.1 and the slightly changed cryptsetup-OpenSSL-exception. But all the files except one GPL-2.0 licensed file do not contain the exception
