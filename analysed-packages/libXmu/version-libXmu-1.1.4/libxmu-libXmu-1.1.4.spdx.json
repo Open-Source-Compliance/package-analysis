@@ -1,0 +1,1886 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "comment" : "This document was created using license information and a generator from Fossology.\nIt contains the license and copyright analysis of libxmu libXmu-1.1.4\nPlease check \"LicenseComments\" for explanations of concluded licenses",
+    "created" : "2025-04-08T17:56:51Z",
+    "creators" : [ "Tool: fossology-4.4.0.51", "Person: Oliver Fendt" ],
+    "licenseListVersion" : "3.22"
+  },
+  "name" : "/srv/fossology/repository/report",
+  "dataLicense" : "CC0-1.0",
+  "hasExtractedLicensingInfos" : [ {
+    "licenseId" : "LicenseRef-0BSD",
+    "extractedText" : "Copyright (C) YEAR by AUTHOR EMAIL\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "BSD Zero Clause License"
+  }, {
+    "licenseId" : "LicenseRef-CC0-1.0",
+    "extractedText" : "Creative Commons Legal Code\n\nCC0 1.0 Universal\n\n    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE\n    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN\n    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS\n    INFORMATION ON AN \"AS-IS\" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES\n    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS\n    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM\n    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED\n    HEREUNDER.\n\nStatement of Purpose\n\nThe laws of most jurisdictions throughout the world automatically confer\nexclusive Copyright and Related Rights (defined below) upon the creator\nand subsequent owner(s) (each and all, an \"owner\") of an original work of\nauthorship and/or a database (each, a \"Work\").\n\nCertain owners wish to permanently relinquish those rights to a Work for\nthe purpose of contributing to a commons of creative, cultural and\nscientific works (\"Commons\") that the public can reliably and without fear\nof later claims of infringement build upon, modify, incorporate in other\nworks, reuse and redistribute as freely as possible in any form whatsoever\nand for any purposes, including without limitation commercial purposes.\nThese owners may contribute to the Commons to promote the ideal of a free\nculture and the further production of creative, cultural and scientific\nworks, or to gain reputation or greater distribution for their Work in\npart through the use and efforts of others.\n\nFor these and/or other purposes and motivations, and without any\nexpectation of additional consideration or compensation, the person\nassociating CC0 with a Work (the \"Affirmer\"), to the extent that he or she\nis an owner of Copyright and Related Rights in the Work, voluntarily\nelects to apply CC0 to the Work and publicly distribute the Work under its\nterms, with knowledge of his or her Copyright and Related Rights in the\nWork and the meaning and intended legal effect of CC0 on those rights.\n\n1. Copyright and Related Rights. A Work made available under CC0 may be\nprotected by copyright and related or neighboring rights (\"Copyright and\nRelated Rights\"). Copyright and Related Rights include, but are not\nlimited to, the following:\n\n  i. the right to reproduce, adapt, distribute, perform, display,\n     communicate, and translate a Work;\n ii. moral rights retained by the original author(s) and/or performer(s);\niii. publicity and privacy rights pertaining to a person's image or\n     likeness depicted in a Work;\n iv. rights protecting against unfair competition in regards to a Work,\n     subject to the limitations in paragraph 4(a), below;\n  v. rights protecting the extraction, dissemination, use and reuse of data\n     in a Work;\n vi. database rights (such as those arising under Directive 96/9/EC of the\n     European Parliament and of the Council of 11 March 1996 on the legal\n     protection of databases, and under any national implementation\n     thereof, including any amended or successor version of such\n     directive); and\nvii. other similar, equivalent or corresponding rights throughout the\n     world based on applicable law or treaty, and any national\n     implementations thereof.\n\n2. Waiver. To the greatest extent permitted by, but not in contravention\nof, applicable law, Affirmer hereby overtly, fully, permanently,\nirrevocably and unconditionally waives, abandons, and surrenders all of\nAffirmer's Copyright and Related Rights and associated claims and causes\nof action, whether now known or unknown (including existing as well as\nfuture claims and causes of action), in the Work (i) in all territories\nworldwide, (ii) for the maximum duration provided by applicable law or\ntreaty (including future time extensions), (iii) in any current or future\nmedium and for any number of copies, and (iv) for any purpose whatsoever,\nincluding without limitation commercial, advertising or promotional\npurposes (the \"Waiver\"). Affirmer makes the Waiver for the benefit of each\nmember of the public at large and to the detriment of Affirmer's heirs and\nsuccessors, fully intending that such Waiver shall not be subject to\nrevocation, rescission, cancellation, termination, or any other legal or\nequitable action to disrupt the quiet enjoyment of the Work by the public\nas contemplated by Affirmer's express Statement of Purpose.\n\n3. Public License Fallback. Should any part of the Waiver for any reason\nbe judged legally invalid or ineffective under applicable law, then the\nWaiver shall be preserved to the maximum extent permitted taking into\naccount Affirmer's express Statement of Purpose. In addition, to the\nextent the Waiver is so judged Affirmer hereby grants to each affected\nperson a royalty-free, non transferable, non sublicensable, non exclusive,\nirrevocable and unconditional license to exercise Affirmer's Copyright and\nRelated Rights in the Work (i) in all territories worldwide, (ii) for the\nmaximum duration provided by applicable law or treaty (including future\ntime extensions), (iii) in any current or future medium and for any number\nof copies, and (iv) for any purpose whatsoever, including without\nlimitation commercial, advertising or promotional purposes (the\n\"License\"). The License shall be deemed effective as of the date CC0 was\napplied by Affirmer to the Work. Should any part of the License for any\nreason be judged legally invalid or ineffective under applicable law, such\npartial invalidity or ineffectiveness shall not invalidate the remainder\nof the License, and in such case Affirmer hereby affirms that he or she\nwill not (i) exercise any of his or her remaining Copyright and Related\nRights in the Work or (ii) assert any associated claims and causes of\naction with respect to the Work, in either case contrary to Affirmer's\nexpress Statement of Purpose.\n\n4. Limitations and Disclaimers.\n\n a. No trademark or patent rights held by Affirmer are waived, abandoned,\n    surrendered, licensed or otherwise affected by this document.\n b. Affirmer offers the Work as-is and makes no representations or\n    warranties of any kind concerning the Work, express, implied,\n    statutory or otherwise, including without limitation warranties of\n    title, merchantability, fitness for a particular purpose, non\n    infringement, or the absence of latent or other defects, accuracy, or\n    the present or absence of errors, whether or not discoverable, all to\n    the greatest extent permissible under applicable law.\n c. Affirmer disclaims responsibility for clearing rights of other persons\n    that may apply to the Work or any use thereof, including without\n    limitation any person's Copyright and Related Rights in the Work.\n    Further, Affirmer disclaims responsibility for obtaining any necessary\n    consents, permissions or other rights required for any use of the\n    Work.\n d. Affirmer understands and acknowledges that Creative Commons is not a\n    party to this document and has no duty or obligation with respect to\n    this CC0 or use of the Work.",
+    "name" : "Creative Commons Zero v1.0 Universal"
+  }, {
+    "licenseId" : "LicenseRef-HPND",
+    "extractedText" : "Historical Permission Notice and Disclaimer\n\n<copyright notice>\n\nPermission to use, copy, modify and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies, and that both that the copyright notice and this permission notice appear in supporting documentation, and that the name of <copyright holder> or <related entities> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. <copyright holder> makes no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\n<copyright holder> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS,. IN NO EVENT SHALL <copyright holder> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "Historical Permission Notice and Disclaimer"
+  }, {
+    "licenseId" : "LicenseRef-HPND-a5bdf226f9387659e54124bc21efcd99",
+    "extractedText" : "Permission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation, and that the name of Digital not be\nused in advertising or publicity pertaining to distribution of the\nsoftware without specific, written prior permission.\n\nDIGITAL DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING\nALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL\nDIGITAL BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR\nANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,\nWHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,\nARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS\nSOFTWARE.",
+    "name" : "Historical Permission Notice and Disclaimer"
+  }, {
+    "licenseId" : "LicenseRef-ISC",
+    "extractedText" : "ISC License:\n\nCopyright (c) 2004-2010 by Internet Systems Consortium, Inc. (\"ISC\")\nCopyright (c) 1995-2003 by Internet Software Consortium\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "ISC License"
+  }, {
+    "licenseId" : "LicenseRef-ISC-6351e788a19dc7f74fceaa08e0941365",
+    "extractedText" : "Permission to use, copy, modify, and distribute this software for any\npurpose with or without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "name" : "ISC License"
+  }, {
+    "licenseId" : "LicenseRef-MIT",
+    "extractedText" : "MIT License\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the \"Software\"),\nto deal in the Software without restriction, including without limitation\nthe rights to use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice (including the next\nparagraph) shall be included in all copies or substantial portions of the\nSoftware.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\nTHE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\nDEALINGS IN THE SOFTWARE.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-MIT-CMU-style",
+    "extractedText" : "License by Nomos.",
+    "name" : "MIT-CMU-style"
+  }, {
+    "licenseId" : "LicenseRef-MIT-open-group",
+    "extractedText" : "Copyright <yyyy, yyyy> The Open Group\n\nPermission to use, copy, modify, distribute, and sell this software and\nits documentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation.\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL BE LIABLE FOR ANY CLAIM, DAMAGES\nOR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of The Open Group\nshall not be used in advertising or otherwise to promote the sale, use\nor other dealings in this Software without prior written authorization\nfrom The Open Group.",
+    "name" : "MIT Open Group variant"
+  }, {
+    "licenseId" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "extractedText" : "Permission to use, copy, modify, distribute, and sell this software and its\ndocumentation for any purpose is hereby granted without fee, provided that\nthe above copyright notice appear in all copies and that both that\ncopyright notice and this permission notice appear in supporting\ndocumentation.\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nOPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN\nAN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of The Open Group shall not be\nused in advertising or otherwise to promote the sale, use or other dealings\nin this Software without prior written authorization from The Open Group.",
+    "name" : "MIT Open Group variant"
+  }, {
+    "licenseId" : "LicenseRef-X11",
+    "extractedText" : "X11 License\n\nCopyright (C) 1996 X Consortium\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.\n\nX Window System is a trademark of X Consortium, Inc.",
+    "name" : "X11 License"
+  }, {
+    "licenseId" : "LicenseRef-X11-6c8a686508eed682cba204b77282012a",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the &ldquo;Software&rdquo;), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nX CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN\nAN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of the X Consortium shall not be\nused in advertising or otherwise to promote the sale, use or other dealings\nin this Software without prior written authorization from the X Consortium.\n\nX Window System is a trademark of The Open Group.",
+    "name" : "X11 License"
+  }, {
+    "licenseId" : "LicenseRef-X11-distribute-modifications-variant",
+    "extractedText" : "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, distribute with modifications, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.",
+    "name" : "X11 License Distribution Modification Variant"
+  }, {
+    "licenseId" : "LicenseRef-X11-distribute-modifications-variant-e0ba0ee48fb138e7f16d045f82fc7975",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE LISTED COPYRIGHT HOLDER(S) BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.",
+    "name" : "X11 License Distribution Modification Variant"
+  }, {
+    "licenseId" : "LicenseRef-X11-fe541d8b5456db4c41efdb9a89ca1738",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the \"Software\"),\nto deal in the Software without restriction, including without limitation\nthe rights to use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\nTHE XFREE86 PROJECT BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF\nOR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nExcept as contained in this notice, the name of the XFree86 Project shall\nnot be used in advertising or otherwise to promote the sale, use or other\ndealings in this Software without prior written authorization from the\nXFree86 Project.",
+    "name" : "X11 License"
+  }, {
+    "licenseId" : "LicenseRef-XFree86",
+    "extractedText" : "XFree86 is referenced without a version number. Please look up XFree86 in the License Admin to view the different versions.",
+    "name" : "XFree86"
+  }, {
+    "licenseId" : "LicenseRef-scancode-warranty-disclaimer",
+    "extractedText" : "License by Scancode.",
+    "name" : "Generic Bare Warranty Disclaimer"
+  }, {
+    "licenseId" : "LicenseRef-scancode-xfree86-1.0",
+    "extractedText" : "License by Scancode.",
+    "name" : "XFree86 License 1.0"
+  } ],
+  "documentNamespace" : "http://fossy.osadl.org/repo/SPDX2TV_libxmu-libXmu-1.1.4.tar.gz_1744135011.spdx",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-upload2859",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "a49433d060c8e45e8614869a40aee066"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9715b143227fe11f814a714a609870104c590088"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "97d2eaadd04a48e477571ad66f7e87cc36e17ba3264594aa4f3324db39522f95"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "https://gitlab.freedesktop.org/xorg/lib/libxmu/-/archive/libXmu-1.1.4/libxmu-libXmu-1.1.4.tar.gz",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:generic/libxmu@libXmu-1.1.4?download_url=https://gitlab.freedesktop.org/xorg/lib/libxmu/-/archive/libXmu-1.1.4/libxmu-libXmu-1.1.4.tar.gz",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : true,
+    "licenseComments" : "licenseInfoInFile determined by Scanners:\n - nomos (\"4.4.0.51\".1e52cb)\n - monk (\"4.4.0.51\".1e52cb)\n - ojo (\"4.4.0.51\".1e52cb)\n- scancode (\"4.4.0.51\".1e52cb)",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "(LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44 AND LicenseRef-ISC-6351e788a19dc7f74fceaa08e0941365 AND LicenseRef-X11-fe541d8b5456db4c41efdb9a89ca1738 AND LicenseRef-HPND-a5bdf226f9387659e54124bc21efcd99)",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "libxmu-libXmu-1.1.4.tar.gz",
+    "packageFileName" : "libxmu-libXmu-1.1.4.tar.gz",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "52fe92dc1f9908c6aaf9a5f36125a8b0e1274714"
+    }
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-item13291627",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "126c6f5a23e57b1cf2452ffac3bab5e41231ab1cc455be4ec3828178acbad7cd"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "0bca7ec7896f8a267a8bafc0e4ea7a46"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "35d935913edfa24f434b309b55e169d2c04203b3"
+    } ],
+    "copyrightText" : "Copyright 1991, 1994, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/WhitePoint.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291645",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "fde2f6a5dc4581d40ae9502111d91b1d"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "31086394c1f6539ae47a86d48c23e0af148fb39d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d9582f0341e38d4f2ab65b2e243043446b8b7773458822ebcb6c67c9640744c2"
+    } ],
+    "copyrightText" : "Copyright 1991, 1994, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Editres.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291660",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "f9158d0a4758569c09f5edb3020c253c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6e9f5175304b0a10861f6b6c5da42f1f73e663eb"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b87692d1ea6371ff9fb327864ec2e9e76270a59b43f7a0c56d5f5426876e67f0"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/WidgetNode.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291689",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "9cdb7b3c59f4e6f9c16b7d3e3bf1d21f"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e0db423732fa415e1ce5db667aadc4f58481840a"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c4335a19eeef88149cbf3924ca573300b4dd8250fa35953d5b4f1ca924a5187c"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/ClientWin.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291623",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4d86650a422846cbe72f522752c6b96164d74389"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "6ee6862316c239f33ab86d51545d4cd03c1473b85c068cb9c1eeb59ce472e2c3"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "054cd2c9cc6bde3c4227a09857030dfe"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/SysUtil.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291683",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f0a9cd874ef7fb31704e6fe23e7d714fb4d303b6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "924b4173d3b441c51a63dea960c014c1"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "9d1a37e0cf05e41287cbc645364eb0b0fa400f99fa83c253a84922ab51bf9fad"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StrToJust.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291628",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5e41a29e410d3c3e88a20e6e8f4c2fa1c82e1a59"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5e9848499d9fbe58d8955bb5c0cc1e5291cd1112f697f86e9734cda778150cc1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "e2f88234988476fda1c75eac4d6d544d"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Drawing.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291682",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "17f577335f68d139df01950d3f431ce27fe6bc9443ea963d524be29fa29bb7c5"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3b1d99196a32911a078d5e7c0f0b72f2"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "feafec03885a6619943b9c5541fc7db9eb432523"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/Lower.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291661",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "5f276b51675b38a44cd445615c3cdc5e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "fcec725fbe8f00041f2b1ff0ea58512c899ddaba"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4e0e7ef83e5b89824b54d45acfe177ac10a303a68ed578dd97bb459f7fb879bf"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/DrRndRect.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291625",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7154a00d61fb4389217fa7509498829d2bbd2e63"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "61e692f2b0b69ae4473dd23e5f3a2803fb56d4809bcf079693cf72fdaf898653"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "922a0e4ff6191aa221a58886d664510b"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/WinUtil.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291669",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "5057a637b7cf4ce671f417c4f6b7cff3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8be59290edf6b8fe666641ff96ad8b55bc4746bd"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "27105e87b66dfb4236733300ceb7b7ef474d3d21b52757769503a95fda13f913"
+    } ],
+    "copyrightText" : "Copyright 1994, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/ExtAgent.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291667",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d896e491fdf584244b0607255124e0a26e5c63ec1bbaa4388dc3165035ed2108"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b0f09663310d126bb2c0c5d427a4c618"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b201fce0490f801caadc4a91421e92adee7903da"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/ShapeWidg.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291666",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e89ea99418cbe3ff4fbd46059ef450308dadd9ce"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c06017fc8608e45289c79ede3ee6a04970417698641a967b516cbe063fe868c2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ae47941273e6088028d9e581058cbad0"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StrToGrav.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291604",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2a66b0e1eb5a80a2a61f1caca1ae68fdf98bebbf"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "de4bec12b247754b22d8b5d0640573ac9895f7a70518a453534bc6a541622404"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "16df2db1a6bc551338fd8f6eeb6c2b4c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/.git-blame-ignore-revs",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291648",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e78576c928cfc942e9101f0fc36fd6ebf17de4db"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "562bfcf8e488a60857d617d55dc01c4e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a5d62b0ec7e6be94e5c4dfe62fa7770f518e86b6e3ff55e818f9734a161eb0c6"
+    } ],
+    "copyrightText" : "Copyright 1987, 1988, 1998 The Open Group\nCopyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts.",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StrToCurs.c",
+    "licenseConcluded" : "(LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44 AND LicenseRef-HPND-a5bdf226f9387659e54124bc21efcd99)",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11", "LicenseRef-MIT-CMU-style", "LicenseRef-HPND" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291681",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "6e293d65ff76b5ad868f73613ab5af90"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "766f3a76b781f6bf22d286f39ab5b80c1c8e3c2e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "60dea2cd83387a18c918820ec517646dd0d621283fb67804430bf93bf8de925a"
+    } ],
+    "copyrightText" : "Copyright 1990, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/Distinct.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291626",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "946f7a0be546a8e68c5bc7d5744b0e6925156190"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "85aead0681c9da272d61dbadb9b9493d5343c1b7197020d271e6e1eabcd4d1cb"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "1201098e5a24f0f35c1b441857d4e6e1"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/CloseHook.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291680",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2ec853578af951a4f5649953bfe2e19b77d94ea5"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c6eb3671d530b2c59e0e3745de2cbeec48afef8fd271640ff21c292f074e3f39"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ac8769dd7e00f5290b3a40bda2b40911"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StrToOrnt.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291629",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "0affd884d9fe7be4a7547b45887086e0"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f195ed738c9b569fe4029ae94ee58b7921d797bd"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2398343a5aea8366637189db834183bf478c43e3b8cb6910e386133db5466466"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/CurUtil.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291607",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "076720e5d889d27fa5ea2e9daf83afd39c701ad93452e6d30ee2dd044a5f4189"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a13e4ee38d707368969bcf029b857a66"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2b0c8f907450d8888d5988338f0e84942938f8fa"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/configure.ac",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291606",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "4f2e3564cd8d64f3d3f3ebb9aec47cb1"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "14d08bf7ed0d4ac90b0aaac62bcc4768fce3a971"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "157e4beefd49f251337ae8dead6989463c5cd1a0fb1b01fe619eb9c801ed6315"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/README.md",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291643",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "cab498c9487abef183b532078af3898b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "256af85581ddda2c0214fe140f1452aef5e682dd"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "63c3b3e86d948f598d40937b469e72dbf0c5655729d45aaa919709f4b131c815"
+    } ],
+    "copyrightText" : "Copyright 1994,1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/ExtAgent.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291664",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "55704ee46338b49c6cf92a4905bbf2cbde474cc629fd538073641fcae5cc7285"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "514fdf1dcb7633343c587ce1433cdd8d"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "884f5b6597e354780970675c20a22862f52c524b"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/CrCmap.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11", "LicenseRef-scancode-warranty-disclaimer" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291638",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4435b9806c0706cdb5f37af08b0c18968691b5086c89cfde3977e6d22edb6b4a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "7e532dbf53a9a433f2cc0c61a248a3dc"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "16a9e20e6349069c12fe80546ecc085c65c5576c"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Xmu.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291684",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a891ff495c0dd2263deb3d753c64e19d786da676"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "81626a58b1262e6e98f283e46075cae35df76bf5f15c500c54f13398d36ceaf6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "4494689494c0610ae9e2eacf3fcfa8ec"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/Xct.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291662",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "70f209374dcfecd0a69631e70620da067dfcf654cb1fc33cf01e10ef24ced9d6"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "980353379933f7e2bc8e30ad2d8b4d6057db00e9"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "aae43b8707a7077c7131f8176b1d4b03"
+    } ],
+    "copyrightText" : "Copyright 1988,1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/FToCback.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291687",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "38803e41b49f00ef3e0760dcea5a4339"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ff0cee613daf3a6aab259cfdafc6e9c010c09738"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "bbce663ac3b3c56b4c3c362ec5960babd5145cd8b9346d3c56dd7768f9b69652"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/LocBitmap.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291665",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "b0568fdae1cd537c9c53b59995c5b9e7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ef4b1f9253d1bd10d6f579292aa69c9e2b9aca13"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4fdf0734fcb103382ba5c85fab2388a445828a6fec7e469cc4576b5e51c173ef"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/DefErrMsg.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291670",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "09fc28c40d0344b5d51db138a233be4ccb35efa23502392353cb03c73de0bec6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "11726f91ae893e27d6991171bc81443f"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "899296ec2248fa4fe5e65677d750007c0ed307bc"
+    } ],
+    "copyrightText" : "Copyright (c) 1998 by The XFree86 Project, Inc.",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/Clip.c",
+    "licenseConcluded" : "LicenseRef-X11-fe541d8b5456db4c41efdb9a89ca1738",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-xfree86-1.0", "LicenseRef-XFree86", "LicenseRef-MIT", "LicenseRef-X11-distribute-modifications-variant", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291616",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b06a53676b5d1f1371caee4d339d32ed6d61d08f4921162fc0333539d498b514"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "dd92ad9d1fe99d6399e68d84581f8d60"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "863925b8d369da493863b3d6a7bb600b0f723efd"
+    } ],
+    "copyrightText" : "copyright 1989 X Consortium",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/doc/Xmu.xml",
+    "licenseConcluded" : "LicenseRef-X11-6c8a686508eed682cba204b77282012a",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT", "LicenseRef-scancode-warranty-disclaimer", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291615",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "5f3e51d5741c55566cf4fedccf16f3d7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "df690f3ac9f4baf801256e87ba4ce9680aade8e7"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "29699e2ce0ce574e89a757d1292802a34b7e0749d5f2666888c6ff42dca38b82"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/doc/xlogo.svg",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291637",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "b4273ddf8b1169e35daeb958d0e26f87"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1f31c21ffb5193d175001b267d01d3dbd0d2b372"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "01f1acbabe8f4c3ea44a95aa27de37f86317d8c0f408718a496aeae4fe72a5be"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/StdCmap.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291639",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "3d53acf04b0a9cee479710cec5240147"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6fb4ce5a20699ebbb15fb76e4436a3192e2215a1"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fd9fb6dad11ddb2e97996fc546da7c5ed47d1a92f8b14e5d15f13e4deb2d3cb7"
+    } ],
+    "copyrightText" : "Copyright 1994, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/DisplayQue.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291619",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a0e09a5a7029b42c7cb5d43f71b3d2d981234810"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8f0f2ca7a05cfd10bf9e307a272182de7cb52d7a603feaf17b9943c2c9a4838e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "e79ad4fcc53b9bfe0fc38507a56446b9"
+    } ],
+    "copyrightText" : "Copyright 1988, 1989, 1990, 1991, 1994, 1998 The Open Group\nCopyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts.\nCopyright (c) 1998 by The XFree86 Project, Inc.\nCopyright 1999 by Thomas E. Dickey <dickey@clark.net>\nCopyright (c) 2008 Otto Moerbeek <otto@drijf.net>",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/COPYING",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-scancode-xfree86-1.0", "LicenseRef-XFree86", "LicenseRef-0BSD", "LicenseRef-MIT", "LicenseRef-X11", "LicenseRef-ISC", "LicenseRef-X11-distribute-modifications-variant", "LicenseRef-MIT-CMU-style", "LicenseRef-HPND" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291688",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "66919d15878e82a064cf1f287d6ce528"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "dc8a77faa66261bc0e92c6fdd344200948ec0a8e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "79d8a0750a4ca1178548e27076bbb1cf2cfecfcf07aeb2d85f169f089a6ce933"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StrToBS.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291603",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0c4b381dbdd714e364f133c69c40d942ba4b8a29"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "2d8fbd4d8bfb3393604e2f63458609df"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8672f4c852fecef0a7ad043848cd080419372dfb6837f4b0c6bc94989bd5f467"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/.gitlab-ci.yml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291644",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fb789c9c1053a2fe38a000ada34dd08bbb9eba0eba5fe603ec5d1bed6d09d120"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "14f7bfeea1ec00cc99237630e5ecd0ab"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ee776bd1dd1e9273edaca343312b85332e6d9378"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/EditresP.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291641",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "9db7801733d64e4340cf7893252cb994300a072c07159a3fd75f4856cb10437c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1f9b0f473e413234bcbfae38a10e953327d3e578"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3059974572ea10ed5b783ca22db806e8"
+    } ],
+    "copyrightText" : "Copyright 1999 by Thomas E. Dickey <dickey@clark.net>",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Lookup.h",
+    "licenseConcluded" : "LicenseRef-X11-distribute-modifications-variant-e0ba0ee48fb138e7f16d045f82fc7975",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT", "LicenseRef-X11-distribute-modifications-variant" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291668",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "4e1305fabb9430522d6008fac5c3eb53"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9e26275caade07b8f1bc02e265198b8a04d5f603"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "cb34b5f0540f2c6183d3bfbee28f42f2d0dded4241a3d439f39226c007c59972"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/CvtStdSel.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291640",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e82ee482edcd2cc81763303c7af990507e3da7853b5e772c2ac1faaea22d7233"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "53feaf9ee9f7ed78b350b6ec7fab46d7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2c702884e0dbd7b86e56d421436e3b3d68494092"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Error.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291663",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d948083b2c1c91d798fa6f28d8f84ee710779c14"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2a38e1a3941e59df952091cf6be7488d358a337d382b4e20617c6d15c64f0598"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ea17426cf08854b34e58903880714167"
+    } ],
+    "copyrightText" : "Copyright 1987, 1988, 1998 The Open Group\nCopyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts.",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/GrayPixmap.c",
+    "licenseConcluded" : "(LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44 AND LicenseRef-HPND-a5bdf226f9387659e54124bc21efcd99)",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11", "LicenseRef-MIT-CMU-style", "LicenseRef-HPND" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291646",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "9be39ca7c489be6c8ed1310c92607fe0"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6942d123739b361db2faee4d65834782112b5854"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "3f80e6ca3dfb881730803e51ad9f617dc485dad34c8c24c71a8d6f33e890f853"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/Makefile.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291685",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "accade6cbbbe650a138d247178b5e1f9"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "893d16cc5b30ee7ff2c39ccc2c0fbc6782a762e3"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d7ff5e974d6e3bc2e45c1c76248252bc2b95bee386396109f87ec9f788587747"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StrToShap.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291624",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a19c8d69e3e7ae555cc53845ae8c2dfe195e09b41e8aac157c4321f0f87c297d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "7756b779744a6fad164b9cdf0f824a02"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "007ab195edb601c18b6ba4cda57b1bde2e340eb2"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Atoms.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291617",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "940ea8a9345f987dfc4894b8f267b7119a2ff36d7eae95c92a71bf783dd3fa2a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d541a6f6f5157accbbb0b76c54f73e3b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b76d91b84a5d22145b751e5041a030d92d42daf6"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/doc/.gitignore",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291659",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "c742415736d0e81bed65978931fb619e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "008483baa44496e2a9a07099595df717e7a4682c"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "88a2f7bdc64284dd72803b841d442cfbc2f4d5319da11a40cadd5a7578af20f5"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/AllCmap.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291618",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "dacc8b88d35fabb2300a422c264d427f"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "89536ebf44794af5ead309452049c1c6185a62b9"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "facf7c8d3f9d6846349a0fb7d70ec3cbff027ee25f42126c082fff4f52f13890"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/doc/Makefile.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291636",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a234f01a992b1253ba735c1971585ace3bbee378"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "84a5087cc9a910408e3c379a63d09d2e967d975eedccb243fa516fb929631b54"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "df2587c664c26bc492ad28d9d1432044"
+    } ],
+    "copyrightText" : "Copyright 1987, 1988, 1998 The Open Group\nCopyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts.",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Misc.h",
+    "licenseConcluded" : "(LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44 AND LicenseRef-HPND-a5bdf226f9387659e54124bc21efcd99)",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11", "LicenseRef-MIT-CMU-style", "LicenseRef-HPND" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291694",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "68e0d478b6b7e20719f4468d81188934801642f4"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "633f8dab7ae56221f1906b95d76517c1066f065ba99ba8abb00796966c4c7d44"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "1baee5f66323e4be7b18a01bceb276fe"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/Makefile.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291642",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "996e24838f26df676d883dc566d1f84c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e73d5c75dfdc725c13c1c7610af4f3aeb8959a7b"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "32010c41a4dc63b7ecc0d36fcad5acd7702ed23fa21005be57618221d74b030f"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/CharSet.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291635",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "823fd50aebed0630427ec3579f6b96ef79a5a206"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fa018d3b0f21a4700709cfbe230979d598f665cd5426de49fdf1cced259314b1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "6444e3e520465691ad2e434485475d8e"
+    } ],
+    "copyrightText" : "Copyright 1990, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/WidgetNode.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291650",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "06d05494fabe7e10d9d31c73390c225950d176c9"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0a2b52a91322af4c98fd7a8c285a67644d0a6bf72602c92d2a5947746a764ab2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d9505c8d06393026e55cec7db4346724"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/DisplayQue.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291633",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8ff45c82e94e248b79269b0b02e67a162451495d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "8969564719bc3417b0c5778828d1f432"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c3d33c12b481a8fce41c3dfba3b6f9226bfcdf8b9e89dd89bc0119ef9d82ce9f"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Initer.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291692",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a77210c2b7b8d17beddf28e052117c81ce66a393044a8afd0ea68483c51d9475"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e043d7021d5e963cc7a67e6bee91a387345a6a6e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "5da10311778a06731c58268fcf62dbc5"
+    } ],
+    "copyrightText" : "Copyright 1989, 1994, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/CmapAlloc.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291677",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "eb2984a1b8caf8423a1bd54564c9593fde14ca65969ca52f41922eec39c42ae5"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b56c13336bbb231384ceb1c6d43bdaa5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4b2e1c025ba7ea02a519cad44f7f0faa3fc92881"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/CvtCache.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291691",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "48ab2620f551c048e3214c956f223fd6b46245f1"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fb97119dc8c8a2dbdcaed4617c601d6865946afadb64674c23043d58da7a90e4"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "9e1cb9dcf22b294a05603a3050eb779c"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/DelCmap.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291656",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fdbf4b0e1c4300c343cebbce9dd2c9b0c20d2e944146f6b6349403985082ba6f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3f89582e29426c117826c431ba4d6ff3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a4d67f0b773cbbc64ca5ba898630cfc7166da732"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StrToLong.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291612",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "84564bbaf7e38340817f7af31da4927c32af05ac086a03d64a4295cb13fb920b"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "1aa9e01ce339e2eb7d646a7b6400a88d"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7f5f1a2cd54a65be73ed299e7750cf497d436b8c"
+    } ],
+    "copyrightText" : "Copyright (c) 2022, Oracle and/or its affiliates.",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/test/Makefile.am",
+    "licenseConcluded" : "LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291686",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "7ed135de0b78b02ac8d9bcbde987fc45"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a622c3260d39190ea529538f376ccadfd8e557b8"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "90f3c9ef84928137192baff9f18900d9320c5b9ba3d1be2032f4e9545df57b12"
+    } ],
+    "copyrightText" : "Copyright (c) 2022, Oracle and/or its affiliates.",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/Xmuint.h",
+    "licenseConcluded" : "LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291679",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "a120376bb60073ac235880a902e770b2"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c4c892940562ccaf9a4c32600c4b1d0d5d8c9ef6"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "67f263e8735b0fa916d68f2c6031c0a96d2c69acd1241a645e002d273ccaf9cc"
+    } ],
+    "copyrightText" : "Copyright 1988, 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/Initer.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291693",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a3d33d14cbb79df2c11b99ab321b9e453435b3b6"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "9bcbee50b935bd0792deeafb68f0a408afabf00cbc710f327ca3c908e4594be2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "7f153c1552d7909b3483dd9456b6956c"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/ScrOfWin.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291674",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "afad15cfa10cd696b1584648284ada0fab8debb1341f2a566ac930746cd08999"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b59ba0e46c0162622a58f6c428ef2624"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "cce90420efa45c94813fe63e143bd91f27396fcb"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StdCmap.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291690",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "7fa2b3fe0e079d59454ebbd926ccd503"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "bc871906c169e8f74a21308d077e165e07940bb88bb2168acaff3980a22ca3b5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9d39c1e1678b1e885d24d2e5f2e33ad1a9e23728"
+    } ],
+    "copyrightText" : "Copyright 1987, 1988, 1998 The Open Group\nCopyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts.",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StrToBmap.c",
+    "licenseConcluded" : "(LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44 AND LicenseRef-HPND-a5bdf226f9387659e54124bc21efcd99)",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11", "LicenseRef-MIT-CMU-style", "LicenseRef-HPND" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291634",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "ac7750531c2e94e75b48d1611bbea186"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2b16ff8438c360803194f4495e4b98c64dd69974"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "56ae80e9c2233eaae0426d90fa1ec7ef833e1f927cc8f0fc18f63c5d913f5436"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/CvtCache.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291678",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2febbbe1b9e81bafd4b8b1ee7abd9f002a52bddc8addd4fa5b72ebdb6198210c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a05c7f8fb99a4c93486008c91cf514ed0280706e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a8c4d4be348f23166251e05694a04e78"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/Atoms.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291672",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0f39a518bc7abe0cc383da17584888ccea947260"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "9453e5f288a40d9eb5a9e0c952e85c82c0e8072d3466bd5354b62439e16d8d57"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "49d93587a9ec8b963955c0b22bbf6084"
+    } ],
+    "copyrightText" : "Copyright (c) 2008 Otto Moerbeek <otto@drijf.net>",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/reallocarray.c",
+    "licenseConcluded" : "LicenseRef-ISC-6351e788a19dc7f74fceaa08e0941365",
+    "licenseInfoInFiles" : [ "LicenseRef-0BSD", "LicenseRef-ISC" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291671",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "ea67fe06e755dbf2d3f2f0a40e68e736"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "84cbf2fcd0fdbd37cf451ce73727cadcb963fb7b6bb0f50aa3f6689f8e2d6b1b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "19fcb0fe6ceadc444f2dd67d13d7b14d1739ddb3"
+    } ],
+    "copyrightText" : "Copyright 1994, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/StrToWidg.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291655",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "d248408fc77c66a006825e0d192f8021"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3f072f34b075feb7dc7fc2c2bacf9ef849fde4a9"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "93320df07ba7cd8bb155ec3a133521394709dc403002df56ad1d05785753e27c"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/VisCmap.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291611",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4f0141a4889a48e4bd9f7610e210c80b014b8af856abd97f7615e8dfc621ddca"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "617502d99897efe21f0fbbc28f6e788e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "454bb98e5b38f9a33a3d01d383f77d5173fabc29"
+    } ],
+    "copyrightText" : "Copyright (c) 2022, Oracle and/or its affiliates.",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/test/EditResStream.c",
+    "licenseConcluded" : "LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291608",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "b7504a7a0ff58abcb4cbadf7e0000a18"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e70349af537a9ddb8fe695b586abe879d38e89ce"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c5542fb117f4714b507e5576ab253b0c2c9e5d43eb6565a0293df6a4982fdcd8"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/docbook.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291696",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ed852c1c5b79e0d186bf77216c4c2f0e1504a7d9f94348040f8a0238bce33358"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "644565900fab0e160655338acbddf3e4"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "45155ea515776c45d747fc4cd751a16b36d0925c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/Makefile.am",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291605",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2fc18a50d6a33c52158a23def034513f7cfef3b99cd96d932ec4701b9d3e426c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "495cf981d01f680a5b6a9c0d1d09af79350d1ea4"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "248e8e39be1199963f3fcd29f527b484"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/xmu.pc.in",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291652",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "3fc1a1e274f594eb2e2e760a1a9dff2b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b1fb39036901e271515a2c6d7606348ae4ed0fc8"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "4644336517cda9254a5b29acfe664221bda1f88b30f3e0f4efc33af1bafb03e5"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/CloseHook.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291675",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "4cfe565dd3ba3889c340f7218d087f29"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "953c8f8e7f5eae467dfa2abd406bb196648e56a9d1f7b1f0a6ba560009e84c3b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "447de14877ed418c4d823c5d53a04ece4ca7abf3"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/DrawLogo.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291613",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2a269e102c29fdf4d574403ed14076f9f2f9e7ab"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1f3b95ea4ae44045cd059b13003bcefeacded681de5a789f19b28ed35d6580d5"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "590e539a6db2822c5a41898b0b936032"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/autogen.sh",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291609",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "3bff35960db05a0366172e2bbdc30934"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "791abbb5451f65c8754adcbd256c3abb03185990"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e47fe010cc2a1b69feac4484330c06c6dcf7f1aecf046ef51d6056d3744cbcdf"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/xmuu.pc.in",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291657",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "645373d42c116be8572f37555bc8bfd5d70fef31"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b34bc1849116ec8dafa195ace78b552a00efc9d54a32d0ba598ecd3ec08e72cc"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "9e7d5ce122f9f014bcc8e074bf90c39a"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/CursorName.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291654",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ef0b7e1551e7d00087f21e20a945a61c3aa2d7e6"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "87db080fcbc8b94ff912caf6eaa5c016367786158f865dad3f9f1afa7e484308"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "99a7559a54bf3e097c7f22aadbd5c6ec"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/RdBitF.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291653",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a86f9601cd05296d95a74cdf8aee31438bfd351c138c798f28557d313326c451"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "bb6c211e62e57f2e6abbe887276bff6c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "44a14882a9e246c0a674334586b2209f0b771f96"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/CrPixFBit.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291649",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "ccaef055e689dca7a64fffec9ecec8b8"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "58373483e1c8d3bb5fa960d8551cd6a82674a538"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "92dc319fa5ee844518afe9a54702a862c9c72d2c6ec5f7075ed7597306243a32"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/EditresCom.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291695",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ec827c10a16e4739759a0618b90eca71e1da30de7fa38e06737617bf3add6eec"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b5dfd188442129ab7eeb7fac6983cf52"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b9f69e85d234e6c2f2ccede8643d9b190cd69956"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/.gitignore",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291651",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "cae5d0804c338b7d6a617a7ea7610fb1870aae7edebf266b9623ed4ccc82efe2"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a9176ee2c14050dae7ed20080a683c08"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b4c181ae32490fabdab398e7c417890c39ebdb08"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/LookupCmap.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291630",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d1d15a0a1c68b7a5aced32bdb1715840c0ce42c9"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8c0e1299a8007f7ee0126c40d5420ecd9eabfe0d2e89cef5786f84516e04ed5f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3ae1aeb33b5b2a20b2a4471376d1a4d9"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Converters.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291632",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d8ae57cfb537b529d7a27566cb08325d01fe7141"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "74607b507c3bebeab1d4926d5d95c905a55e7a427f332e0395f21c2852c04ed3"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b1638955211b78308ccc7f98570499e1"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/Xct.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291631",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "8710818016a8c394b231376889a5fdfb"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2405a8a8bca21a456e3da32fa377255054539581"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f4f8a1a5bc200706aeff71d9cae00e63ce9c6e0e1cf6cd578f4e3f5c507f5e10"
+    } ],
+    "copyrightText" : "Copyright 1988, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/include/X11/Xmu/StdSel.h",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291658",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "e079326811a3e5a942d21028cccdf8a8"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8025118ec782ad3d1310bb9c49c8d10ccc5f3274"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "60272372bc95d0b2a64f81aae050639a3cf2141b4f655b07994018af04b116fc"
+    } ],
+    "copyrightText" : "Copyright 1988, 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/Lookup.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291673",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "9c2b2e18c377539f664876d9b3f87cf7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a7b97dbd77595031e3708b9e8ac60d9195d67ec7"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "41d3ff8ffba91b06d986576cddad9c4c8cf3f0149d778e6792ca0b337e420bf4"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/GetHost.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13291676",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "e095a7c1cf650d8b6be0ee5bcf94669e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1ec478941f144aa4db13c2df6acb2c989025d934"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1293f33d76a9735de2f4b800eef215d90f7c5d693d7fd88f2de05d9f83c73cb2"
+    } ],
+    "copyrightText" : "Copyright 1989, 1998 The Open Group",
+    "fileName" : "libxmu-libXmu-1.1.4.tar.gz/libxmu-libXmu-1.1.4.tar/libxmu-libXmu-1.1.4/src/UpdMapHint.c",
+    "licenseConcluded" : "LicenseRef-MIT-open-group-bc2363e93a3186eca6722775f4b0fe44",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT-open-group", "LicenseRef-X11" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-upload2859"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291661"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291682"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291617"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291619"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291624"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291639"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291650"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291690"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291651"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291637"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291652"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291685"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291635"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291674"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291695"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291628"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291680"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291626"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291633"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291630"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291683"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291681"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291623"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291605"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291646"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291693"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291696"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291694"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291679"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291653"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291616"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291663"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291686"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291670"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291640"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291608"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291648"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291642"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291649"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291615"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291689"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291660"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291604"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291668"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291611"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291627"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291655"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291656"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291609"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291673"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291665"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291671"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291636"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291691"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291658"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291687"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291641"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291664"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291654"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291666"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291645"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291643"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291612"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291657"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291676"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291667"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291669"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291672"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291618"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291644"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291678"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291629"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291677"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291675"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291631"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291684"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291603"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291634"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291659"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291692"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291632"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291638"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291688"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291606"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291625"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291607"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291613"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2859",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13291662"
+  } ]
+}
