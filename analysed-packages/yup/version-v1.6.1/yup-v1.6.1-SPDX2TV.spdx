@@ -1,0 +1,1044 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_yup-1.6.1.tar.gz_1745138256.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of yup v1.6.1
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2025-04-20T08:37:37Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: yup-1.6.1.tar.gz
+PackageFileName: yup-1.6.1.tar.gz
+SPDXID: SPDXRef-upload2874
+PackageDownloadLocation: https://github.com/jquense/yup/archive/refs/tags/v1.6.1.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/jquense/yup@v1.6.1
+FilesAnalyzed: true
+PackageVerificationCode: 94f7b3f8e078e2087147518313a8ac53769497b0
+PackageChecksum: SHA1: 3cdbf5d057027bf0b67b1c80e943992bec714190
+PackageChecksum: SHA256: b7e394d94560ece01e5aa3204750845fec124a452238197e6409f32f1b77e172
+PackageChecksum: MD5: 281f59f752b129eb67956e1f97cdd659
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2874
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/LICENSE.md
+SPDXID: SPDXRef-item13370206
+FileChecksum: SHA1: 192a1e7151f511dfc1f17e8302ca48c70082490b
+FileChecksum: SHA256: 89ae1a9d73f2eb3948e37c810309ccc04e5c2c81cb83618df6bb6429d73d9fc1
+FileChecksum: MD5: 229f05540d2758193231934e7a56e52c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2014 Jason Quense </text>
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/cloneDeep.ts
+SPDXID: SPDXRef-item13370275
+FileChecksum: SHA1: 87212f2f6e6ae525da9dad489bdc2efd3f8c7cc5
+FileChecksum: SHA256: 052e43501d08a67d3b0acb53f69b95628e32b9bc5be9d16f8c9f955e4f567a4a
+FileChecksum: MD5: dadae69f98fc35fa997ece1de9ae1f1a
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The infornation in the file is:
+tweaked from https://github.com/Kelin2025/nanoclone/blob/0abeb7635bda9b68ef2277093f76dbe3bf3948e1/src/index.js
+MIT licensed
+We checked the given link, the displayed file does not contain any license information, the LICENSE file contains the text of the MIT license. We took the license text and concluded MIT as license of this file.
+The information was retrieved on 7th of Dec 2024 </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/util/parseIsoDate.ts
+SPDXID: SPDXRef-item13370229
+FileChecksum: SHA1: b0d66fd12054eb0009fe93b7d18c15123a91a25a
+FileChecksum: SHA256: 3189c43b8e990f29a8edc6ac769f65a4276b82343acc7c8c53fd2aa8e092fa48
+FileChecksum: MD5: 0fe50c5d2c7ee50dacb687a1c5a5db3d
+LicenseConcluded: LicenseRef-MIT-cf197bd5d4094c2d8f76ed82f4786aef
+LicenseComments: <text> The infornation in the file is:
+Date.parse with progressive enhancement for ISO 8601 <https://github.com/csnover/js-iso8601>
+NON-CONFORMANT EDITION.
+© 2011 Colin Snover <http://zetafleet.com>
+Released under MIT license.
+We checked the given link, the displayed file does not contain any license information, the README.md file contain the statment MIT licensed. The term MIT licensed is a link which leads to https://opensource.org/license/mit . We took the license text and concluded MIT as license of this file.
+The information was retrieved on 7th of Dec 2024 </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> © 2011 Colin Snover <http://zetafleet.com> </text>
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/parseIsoDate.ts
+SPDXID: SPDXRef-item13370272
+FileChecksum: SHA1: be0da52ed82dd4bc7b5d3ce15041368c2a4ff96a
+FileChecksum: SHA256: 617d4d45c78373a3e2b38e6519c54e0249aa1a4afdf2eb6dc3bb5f19340056ec
+FileChecksum: MD5: ba43423b3c53486d8a984f149021fa8d
+LicenseConcluded: LicenseRef-MIT-cf197bd5d4094c2d8f76ed82f4786aef
+LicenseComments: <text> The infornation in the file is:
+Date.parse with progressive enhancement for ISO 8601 <https://github.com/csnover/js-iso8601>
+NON-CONFORMANT EDITION.
+© 2011 Colin Snover <http://zetafleet.com>
+Released under MIT license.
+We checked the given link, the displayed file does not contain any license information, the README.md file contain the statment MIT licensed. The term MIT licensed is a link which leads to https://opensource.org/license/mit . We took the license text and concluded MIT as license of this file.
+The information was retrieved on 7th of Dec 2024 </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> © 2011 Colin Snover <http://zetafleet.com> </text>
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.github/ISSUE_TEMPLATE/question.md
+SPDXID: SPDXRef-item13370236
+FileChecksum: SHA1: 1e7a43e390cca92f9260238ef9177e0830792549
+FileChecksum: SHA256: 61de8693497bbb0340328f7774d4496ee3dc9af7f6f4baa4578c8618a9a12367
+FileChecksum: MD5: b8de4892357a39829da9cbe36278e035
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.nvmrc
+SPDXID: SPDXRef-item13370205
+FileChecksum: SHA1: a66ca4290ebaf525721fc670ea53476a15957f9e
+FileChecksum: SHA256: f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56
+FileChecksum: MD5: 2fc57d6f63a9ee7e2f21a26fa522e3b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/string.ts
+SPDXID: SPDXRef-item13370220
+FileChecksum: SHA1: 8bd3273faae75fe04e9944e38997732db1a9980e
+FileChecksum: SHA256: a34f53605dd43fac15694658b3538a60048889202b32492707554cc1a836e173
+FileChecksum: MD5: a20da7b08f73402358c2be66052fad11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/parseJson.ts
+SPDXID: SPDXRef-item13370278
+FileChecksum: SHA1: 4c92d1115964b12cfd770a55cec20bc84f65b30c
+FileChecksum: SHA256: b755b4ce86a07532d4b5779b74d1632dd75b2453d4ddb872960a3939a4766b42
+FileChecksum: MD5: f2c8f39754993bfd82784b3b0c1ef945
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/objectTypes.ts
+SPDXID: SPDXRef-item13370269
+FileChecksum: SHA1: 239afe15e21c422d4fb7ee3e71e81400262f9ab4
+FileChecksum: SHA256: 8ac38502e71237f70f5877e3e792e9b5b7b2888e483781cca96bc25c731db258
+FileChecksum: MD5: 60224518f5fd88212235d3443cfa0be9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.babelrc.js
+SPDXID: SPDXRef-item13370281
+FileChecksum: SHA1: ccb91213e98c54023bce0c7c816d1c481bc4cd62
+FileChecksum: SHA256: 92efd6da90616043eba36d4fcbb104ee069e649621e6b785c3f30b15e4d8fc96
+FileChecksum: MD5: 57c1fb13612c294b66a944a92d41f354
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.yarnrc.yml
+SPDXID: SPDXRef-item13370203
+FileChecksum: SHA1: 14eed46b26ae4643497c7613ee870099e93f736f
+FileChecksum: SHA256: 473e6def86fc03638120e0c01d0c8bbab095677256460fa4ea763e5d4697f270
+FileChecksum: MD5: 59c80d1857cbce1ec413c62bdf5210e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/globals.d.ts
+SPDXID: SPDXRef-item13370251
+FileChecksum: SHA1: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+FileChecksum: SHA256: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+FileChecksum: MD5: 68b329da9893e34099c7d8ad5cb9c940
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/CHANGELOG.md
+SPDXID: SPDXRef-item13370244
+FileChecksum: SHA1: be92f5dd28f30281f13961b2f0f3775b50a85170
+FileChecksum: SHA256: 0d32bfaba4381fb96d470bbcaeb060628c0c645fab9bd723f0289b4b7010f0df
+FileChecksum: MD5: a5fbfcbf2e7db400e2bfb8076f099dc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/setLocale.ts
+SPDXID: SPDXRef-item13370216
+FileChecksum: SHA1: 5db1e746a3a6d6fe232d5dd8f9566508c5a16238
+FileChecksum: SHA256: 5a6739730216608d7dca6e759c5687ce0813baf7332dcd91336225af6f685180
+FileChecksum: MD5: 1e8e773de7bd4269ba2494b2af913080
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/index.ts
+SPDXID: SPDXRef-item13370249
+FileChecksum: SHA1: 4bb0fbe6099dcecffa37bc1e258f630d6f1f75d1
+FileChecksum: SHA256: d58be747d349b2d49bb905a0fe9d658d1f57c3d3fc954d4d6914ce8d0e04aa18
+FileChecksum: MD5: 8a8f81820f13edf7c6203ec36525a40a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/locale.ts
+SPDXID: SPDXRef-item13370248
+FileChecksum: SHA1: 601dad66428a4cb439b4a828fdc16dfd291d136c
+FileChecksum: SHA256: 4bc7b12e2e8f621cac199576a7c3a80d86b8904cb696ad0ac76530f4cf1a5e22
+FileChecksum: MD5: 840c76db844e11e24d22d4f4589eb711
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/setLocale.ts
+SPDXID: SPDXRef-item13370255
+FileChecksum: SHA1: 326d8b764187306b326e7e88d4f65b5aae74626a
+FileChecksum: SHA256: daff789cf21ba77f36dfd61a909e15a79763f1e0c75b9786ffd53ae343c24b60
+FileChecksum: MD5: ccc8d89ff54130d3cdbed06079248ecc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/sortFields.ts
+SPDXID: SPDXRef-item13370270
+FileChecksum: SHA1: 57e81361edc77cf5a3939eb922a7afa3f807f9a4
+FileChecksum: SHA256: aac7f83ab2b358ba1426468ec6f5737472a85ae3368270bc5c3b71c3749ac03a
+FileChecksum: MD5: 2802b2390cead6570acb80c6978940b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/Lazy.ts
+SPDXID: SPDXRef-item13370252
+FileChecksum: SHA1: 065fc2df1f3baa07c61a2476627416a7e239b525
+FileChecksum: SHA256: 8afc9565903ee9a17bd6a837f102fe74545222fdcc1f67c4c6dad2eb65b77b0a
+FileChecksum: MD5: b196e8dcb8cf0b9fb7e1fbcfa739dd00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.github/ISSUE_TEMPLATE/bug_report.md
+SPDXID: SPDXRef-item13370237
+FileChecksum: SHA1: 1d90eb9e69495f2e9ee9132c071f15368a4e902b
+FileChecksum: SHA256: e1db5cd90923a8478b7e1e19ff0260cafec3e54248caaf601187116ae4f318c9
+FileChecksum: MD5: a014181ae853cce0f1217c68e8d4bd34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/types/.eslintrc.js
+SPDXID: SPDXRef-item13370214
+FileChecksum: SHA1: 6f50bc6a1672f006283a131ad89ada3587125f48
+FileChecksum: SHA256: 791af4e3102699a7ac63dded07683f4555f3b74998beeb77fa42373fa620d266
+FileChecksum: MD5: 8d29822a7ab211e35627306976e8f7d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/docs/extending.md
+SPDXID: SPDXRef-item13370246
+FileChecksum: SHA1: fce79890f5add537f924ad4595ba5711d4b97279
+FileChecksum: SHA256: bdbb93d61ba29f139371990354432ad13e094e6b3c2a93605840b90ea806317d
+FileChecksum: MD5: b42b90d2ce73874b3223457cb7c25d4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/ValidationError.ts
+SPDXID: SPDXRef-item13370261
+FileChecksum: SHA1: d6f4d1f145d525c463d445b9e8dfa2c96bdd9991
+FileChecksum: SHA256: 58bac107dd218403186eee2d356947970b2841450fdd86a677b550cb05df54b3
+FileChecksum: MD5: 7c9a36a3dc30e34d568aee6b86d9863b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.gitattributes
+SPDXID: SPDXRef-item13370238
+FileChecksum: SHA1: 082442a106c29adb09669f321f984c1bf606f780
+FileChecksum: SHA256: dcc4e04a9952ff446b9d78c624d80379b0f20f5817a89b9b2b1ab8b55b82fd52
+FileChecksum: MD5: c4f364b364a2ac980a1dbf9d9a73a0e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/renovate.json
+SPDXID: SPDXRef-item13370208
+FileChecksum: SHA1: 345998bc08af4af0125672c25ef906c246fcafde
+FileChecksum: SHA256: 7ee7fea50616cab2509f17ad96d2c34b7b62132b2b7b1e788067619d45165bd4
+FileChecksum: MD5: a7b940e060ffc919deea27a1b19c90bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/jest-sync.config.json
+SPDXID: SPDXRef-item13370241
+FileChecksum: SHA1: fd5174f7291b217c33d3d5900ce2f01079997c4a
+FileChecksum: SHA256: 6024504a643a6ea31aca4cc2c7e56bfc8de26c9e81241d5c58dcf7e89675f108
+FileChecksum: MD5: b81103220cf5eb6e80de68950dcbaa1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/rollup.config.js
+SPDXID: SPDXRef-item13370204
+FileChecksum: SHA1: 64cf7d81fdac8ab942660f0e142882db15adb3d1
+FileChecksum: SHA256: be3e025ffd6eeaa64a604c1e9b122828d3a987bdfcc8cfc426ffeea0de5e71bf
+FileChecksum: MD5: 5d2a41adcfbafa9c150807f5bdc7968e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/string.ts
+SPDXID: SPDXRef-item13370257
+FileChecksum: SHA1: e5950abed5a08dba07c8225870fbad139e561e5f
+FileChecksum: SHA256: 061fcfca382aaeaad28eb7fa874a16d8cd872905109910b83a0087f7390a96ff
+FileChecksum: MD5: 7ea36e4a5a51ee26fcb729eebbba6093
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/.eslintignore
+SPDXID: SPDXRef-item13370223
+FileChecksum: SHA1: 2f4409846248a1c12c690552d134601fdca37e79
+FileChecksum: SHA256: dd230eb182028514cada6ef3fe3575f712ff23ed1f4684f4adf7b2ddcb0775fa
+FileChecksum: MD5: 2c883dafa72691c66c6ed5eb31509f53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.eslintrc
+SPDXID: SPDXRef-item13370231
+FileChecksum: SHA1: 261304f1df1de21a10ddffe5b8c5391d8003a4d2
+FileChecksum: SHA256: f4e79e5342bedd42613c206a34494a9e94d259516343e7726c857c9c74fe5927
+FileChecksum: MD5: c45ece9784b8b31b8897b2d64470c262
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/reach.ts
+SPDXID: SPDXRef-item13370274
+FileChecksum: SHA1: 3d37ff995500237deac2bb40c7977d48ecdb1373
+FileChecksum: SHA256: fe981687c981c8c3e60ab19ac238e81abe228f4783c2ce782532bdb03169df80
+FileChecksum: MD5: bf431e7750c9db75bbf23aecc28bc075
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/tsconfig.json
+SPDXID: SPDXRef-item13370209
+FileChecksum: SHA1: ec49492396382ba4d2427731d1e73521cf57c138
+FileChecksum: SHA256: 9fe564edfa45fc823b91bd9ab9b5eddb1a7d32384d53f6405df1b7a7ff471269
+FileChecksum: MD5: f1f78046cff37bdf25f214adb730ec22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/printValue.ts
+SPDXID: SPDXRef-item13370273
+FileChecksum: SHA1: 7955e6bb29a89d304e872223b24e7ddc43f56ed9
+FileChecksum: SHA256: 3623660cf4b0860b93074249df005502bbcaaa260bfe1f2f07bc88c832f8017c
+FileChecksum: MD5: 66251e091cf61b6279f1b60bda1b92a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/sortByKeyOrder.ts
+SPDXID: SPDXRef-item13370268
+FileChecksum: SHA1: cfa522ca8625408379e2b6deb153f45b1176dcaa
+FileChecksum: SHA256: 3e9a21dad9f257e7c3a1d45cbda71f5795463572f65fe40030573b1ec002ecd9
+FileChecksum: MD5: b29ff57736c1b1e6b716d4b8b505b654
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/README.md
+SPDXID: SPDXRef-item13370207
+FileChecksum: SHA1: bea3f0ca63fda6d8b6f4dcf3db75dce6a159ac3e
+FileChecksum: SHA256: c868e5f7ad63e69ea985acb7f2520f83ee22a546cc9e826e33e36a0f9bed9ec9
+FileChecksum: MD5: 265453dea352367f7ba821fe61d992ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/types.ts
+SPDXID: SPDXRef-item13370262
+FileChecksum: SHA1: 9575824657895f0597136eb658e046957cba8812
+FileChecksum: SHA256: 57c612d13de9039451cb1f538bfdd56c4e79289cb840493a3d3f79d4db529997
+FileChecksum: MD5: 4eabdc1f62eb31a7e0da725136dde916
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/date.ts
+SPDXID: SPDXRef-item13370259
+FileChecksum: SHA1: 26f21c379cbab11976ca5d1156cc12e0aef759b7
+FileChecksum: SHA256: 5109857f8ae9d80dee25092cc7579131a38abdc241de00309f956b1a87909959
+FileChecksum: MD5: a4bb788e5aa0be95f32b8c6196a2f50a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/yup.js
+SPDXID: SPDXRef-item13370219
+FileChecksum: SHA1: a85d254882f7ff9ba108cf013b4c897f480460a1
+FileChecksum: SHA256: 6e5d175ce6efcf6b75478a8ff33fe197ca73648fa85cd5080e46c5d7b765d329
+FileChecksum: MD5: e52ac1a1106fadd4bc6382e777b5a4a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/mixed.ts
+SPDXID: SPDXRef-item13370263
+FileChecksum: SHA1: b9cd6dbfcc32b1e834d2742fdd37c4d07f8b4abe
+FileChecksum: SHA256: ca87333c3deb8181536e60789b378e4516f117dacb678a795912cd3061aede79
+FileChecksum: MD5: 8765d890c25c00fd2c5f2ad4e398e2b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/toArray.ts
+SPDXID: SPDXRef-item13370265
+FileChecksum: SHA1: 3a5fc229c79a98647630a2c60873ad0a1a43b5fa
+FileChecksum: SHA256: a59d1b3fa771911a4d680d36bc3b054f6a68559fad485ce6621e51f5cb0f5d94
+FileChecksum: MD5: 4bd077f5e52b9133e95636e2261edbcd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/number.ts
+SPDXID: SPDXRef-item13370211
+FileChecksum: SHA1: 714b1e39044e300ed63f46961439400c20246904
+FileChecksum: SHA256: d8f39d3a919032b191ac7bdc3f6681e6a9c561e8ac17908053a9e4eb86d25ea8
+FileChecksum: MD5: 7dd35b482296bfd0ad7ab887dc2fa38b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/number.ts
+SPDXID: SPDXRef-item13370253
+FileChecksum: SHA1: 13443b9dfda9e8acd81a99774512acb4f60d94c6
+FileChecksum: SHA256: c5565d5564fa7d5ceaab7c05dab81e09231e07a364c45c870575919539bb28bf
+FileChecksum: MD5: c9652bc101a176fb5842661e5a47c1b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.github/workflows/ci.yml
+SPDXID: SPDXRef-item13370234
+FileChecksum: SHA1: 08b03f7d319f031eafb80327f4ae78e6d834a91a
+FileChecksum: SHA256: cd52eee5517ef0674d56a8489cdd5dbad72a2aad3f69028a8d044032b63fe1b1
+FileChecksum: MD5: d26ad4c5d601523852beb426d12be21d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/ReferenceSet.ts
+SPDXID: SPDXRef-item13370277
+FileChecksum: SHA1: fe6a40f66876a94257f9aa1193cf11942d115191
+FileChecksum: SHA256: f0771908d7ef9e82b11fcac2ffcc8949ea14c60f3c864741bc4c0d8811ae5660
+FileChecksum: MD5: e29c18ad298910142ea30159bf7db529
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/tuple.ts
+SPDXID: SPDXRef-item13370221
+FileChecksum: SHA1: de966fe40719f7b29a74be01b8a2fa987de47912
+FileChecksum: SHA256: cf332f27eac69825e145b7ebdaa325a206b1e7260965755ac323a1cbb99a6545
+FileChecksum: MD5: 14546c62fd1546113457d8042dd4d74e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/boolean.ts
+SPDXID: SPDXRef-item13370280
+FileChecksum: SHA1: 83b1775beb41162ca767239d1a577480089e1db8
+FileChecksum: SHA256: 08acb0a2d0390fd2fc9e2afa6cd67dd5ac2c963a13f6bba9ba8d68691dbbb808
+FileChecksum: MD5: 4c27cc1e6b82a29d449ce1c452a6f683
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test-setup.js
+SPDXID: SPDXRef-item13370243
+FileChecksum: SHA1: c53d422b601ca90a26e0dfb38fd108f44b5baab0
+FileChecksum: SHA256: 9a28c19f6c2195a5b78468d6ea6edb16adf221ab196eee33d7da24a63b44b30c
+FileChecksum: MD5: 5e6764b389ab830b6d0e84ae151a1042
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/tsconfig.json
+SPDXID: SPDXRef-item13370218
+FileChecksum: SHA1: fc8a56e83f2f9a2818640a25c30fbf38add8381a
+FileChecksum: SHA256: 5e343225bed06d9cba7b5b055e5fbdbfdafe1073b90b661b71c68a43cac0f5cd
+FileChecksum: MD5: 0ce2b7a8db602d21954249903ea65f74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/runkit-example.js
+SPDXID: SPDXRef-item13370239
+FileChecksum: SHA1: 3850299af937adf1aa8cfedfa8e31b1b69ac61a4
+FileChecksum: SHA256: 8937704be204c84f94be013f721a37463ef6e3d9bf08e2b07fc3f6c062846721
+FileChecksum: MD5: 721206499de7962cf239a88b2ef6c626
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/Reference.ts
+SPDXID: SPDXRef-item13370256
+FileChecksum: SHA1: 6bd7aa5e2f94b666f5526e215d68b0e11c43f8e6
+FileChecksum: SHA256: f5acd92d623efb42ff0c559dc80b9a121a3dfcebf5e4920a022ad7ccf13c7181
+FileChecksum: MD5: eaa953afc670e43030d97a58ef8ae1e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/types/types.ts
+SPDXID: SPDXRef-item13370215
+FileChecksum: SHA1: fc67933e53a62365a08d20d7bd8ebc248b37ddc4
+FileChecksum: SHA256: f6011ceb7e9d7534471f80d5f8f4c69c44f8698d5e013ce824c1568d9402b2e8
+FileChecksum: MD5: d5f6ba1de892c57ee466a02fc473d989
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/array.ts
+SPDXID: SPDXRef-item13370212
+FileChecksum: SHA1: 2951b873e1cb10f830f6b8688d9db2ce11459ec6
+FileChecksum: SHA256: 6bebe957f4eda72c518c21acad67d083dcb34c485ad474b6c1a30f0d42983be5
+FileChecksum: MD5: 8416daf002c0034db7d9934c24d5ae86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/isSchema.ts
+SPDXID: SPDXRef-item13370266
+FileChecksum: SHA1: 573202315a097780255e39176c08f4f02b572e5c
+FileChecksum: SHA256: bb11a0ca8e2596e7f03c86ad716ad87914385f631f15c4c2bc2f1a24747c7b13
+FileChecksum: MD5: d461492765818cde57979dc255d22706
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.eslintignore
+SPDXID: SPDXRef-item13370242
+FileChecksum: SHA1: 2f4409846248a1c12c690552d134601fdca37e79
+FileChecksum: SHA256: dd230eb182028514cada6ef3fe3575f712ff23ed1f4684f4adf7b2ddcb0775fa
+FileChecksum: MD5: 2c883dafa72691c66c6ed5eb31509f53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/tuple.ts
+SPDXID: SPDXRef-item13370258
+FileChecksum: SHA1: 73ab25b3bf629ac0249c355b0984fd4ae9baeca4
+FileChecksum: SHA256: ff96046d5bda2580b6d581a6631713d4b7610d0e97a00e76ac1cbf1ca7168743
+FileChecksum: MD5: bc6d595a6eb7a49cfe19955c35748806
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/yarn.lock
+SPDXID: SPDXRef-item13370283
+FileChecksum: SHA1: 9ac015b9988ce6fc1321fbd70aa8427ca3a06028
+FileChecksum: SHA256: 8c87a337a55dca626e071c544f193bf363a425176dc1aecd9d6b5dffe68fda00
+FileChecksum: MD5: 5c0b145675d615f6d04a2c9b1b98f831
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/date.ts
+SPDXID: SPDXRef-item13370222
+FileChecksum: SHA1: 5ef37029713352a2168ae40368d2c96582c153f0
+FileChecksum: SHA256: f5e20eae6a90d15ed3a068c84cde3288404b52e34acad01e92d4343ce7d6dddf
+FileChecksum: MD5: 47a6e7229f4455610a631ec1a250dc5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/bool.ts
+SPDXID: SPDXRef-item13370217
+FileChecksum: SHA1: b5d8140ae640a4298a7375b3a4cee1380a7d171d
+FileChecksum: SHA256: d156c15a7f71b223cc9c5efa66c761756ff992541a1794249cadb8df541f4024
+FileChecksum: MD5: 3b358fb6bec25edcdded5efd31852a2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/.gitignore
+SPDXID: SPDXRef-item13370282
+FileChecksum: SHA1: 4d298f0da4bf78a048c1a6871a90324cd4096573
+FileChecksum: SHA256: 7904e4b473ca2710c9fe81f6ddeb35fe3e9feb19fa04e9759bd7087711a92348
+FileChecksum: MD5: 46408026c4d8dfbe4551fcaa99f35c6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/types.ts
+SPDXID: SPDXRef-item13370276
+FileChecksum: SHA1: a6cc13448b13f1c8bab5d65651d9b3aee87093b1
+FileChecksum: SHA256: bd5210ee52600dbfac11e200c7d95b7508bd0a632eeb87d4a14eee16e2be0e9e
+FileChecksum: MD5: 0be2661eb47c29dd4dad8b27bec1f5a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/lazy.ts
+SPDXID: SPDXRef-item13370227
+FileChecksum: SHA1: 1100b99f273e6ce9af91ca1507e37fd4a3848451
+FileChecksum: SHA256: ab7a8a91248c494755926f689ec2c940e4ec0f8100e9be09253c60ea4a8f2aeb
+FileChecksum: MD5: bd9444268141c68ee213da19f9f9ce29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/array.ts
+SPDXID: SPDXRef-item13370254
+FileChecksum: SHA1: 971ea32a611b52eec84a1c14d02d376901856bf6
+FileChecksum: SHA256: 7599445d9f5698ca3c460b98841f9d36379e26c2c990a759b4db6267d86e3080
+FileChecksum: MD5: 969716996ff5bfb2bbb3da96f4d4df3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/createValidation.ts
+SPDXID: SPDXRef-item13370271
+FileChecksum: SHA1: dec25ccbc85336f1e84ea491a06378d54149f640
+FileChecksum: SHA256: 430b8de24cfd71a9a6c55a7a3ef6d4c8726faa120ba51692266641b2bc9be402
+FileChecksum: MD5: b5c61e3a7e1cae20f1ffda3feb03877f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/helpers.ts
+SPDXID: SPDXRef-item13370225
+FileChecksum: SHA1: 68344fb351b5ca2b7cf35188572ef213491b66ee
+FileChecksum: SHA256: 4680b961af6626644aa86c2760c745d1a5401267852a0c0066209f6851301149
+FileChecksum: MD5: 2561639357a27c12d5a70816c9d18b76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/util/isAbsent.ts
+SPDXID: SPDXRef-item13370267
+FileChecksum: SHA1: 214c1bc1bda50452383f6932209af83513bc88aa
+FileChecksum: SHA256: 35df1574a47acfb9020db033c9e14894d0a7f6bc9de37b78a04bc91b150f9cd4
+FileChecksum: MD5: c56ec350862e4ed702779574b67cdb89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/ValidationError.ts
+SPDXID: SPDXRef-item13370224
+FileChecksum: SHA1: f55fca656addf3a977a91e9f28a0b6d07f894841
+FileChecksum: SHA256: 055f03dc6bac36f0564565863d047490f8223c0cddaeb74b569e9de340e63f9a
+FileChecksum: MD5: a37c4adc4eeff15cc7b458e8558e79ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/schema.ts
+SPDXID: SPDXRef-item13370260
+FileChecksum: SHA1: 8591b335d0b52199ba0788a8dc3c78c68ccd3412
+FileChecksum: SHA256: 39ad0af6b4bdbe54054caf5d31de4d65ac185d7ae6a12ebd066f04ebf8208ca5
+FileChecksum: MD5: 60b36a58fb05d8d4465aaa4ebac48f2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/mixed.ts
+SPDXID: SPDXRef-item13370226
+FileChecksum: SHA1: 1f0d8a0263be91cee55ce22605c808df9a4984de
+FileChecksum: SHA256: 18da6ad6ea31eac7eedbc9fc4203704954140cfe3bbc1640bfa33a641c937d17
+FileChecksum: MD5: a69f7715f1f9ab8bc027823f9d4bbaf1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/test/object.ts
+SPDXID: SPDXRef-item13370230
+FileChecksum: SHA1: ef58b325812070d822acb3ec8db2959924bbbd7e
+FileChecksum: SHA256: 25d0d08e29db5589778565799371daadca675d69ca55703710de9949a6bf62d4
+FileChecksum: MD5: 821fec1bcf925007c6c460969aa2f46a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/package.json
+SPDXID: SPDXRef-item13370240
+FileChecksum: SHA1: 58a16e6d3794113ff2c56d637e5da84820f5fcdf
+FileChecksum: SHA256: 0d0b119a3b8833898ad04754ee227f5dae8156fab35a909bd95dd418a015c29e
+FileChecksum: MD5: c04c328e902c6f658bba2c2e2de4d30e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/Condition.ts
+SPDXID: SPDXRef-item13370250
+FileChecksum: SHA1: 7fd13f1861dd1288f4d43de4b2ee0c0f6a613743
+FileChecksum: SHA256: 6c71b7bd98fb1d998ab4c1465649ebf45a6e2b2a8f76336b4bf64da36271437b
+FileChecksum: MD5: fc6c40d978dcd6fec77b991fd89bdf03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: yup-1.6.1.tar.gz/yup-1.6.1.tar/yup-1.6.1/src/object.ts
+SPDXID: SPDXRef-item13370279
+FileChecksum: SHA1: 6d468faff9e05b39058d4b4184498f5920be93bf
+FileChecksum: SHA256: 6fe3557f4777a35f6aee43385f9cbc4e931b793fb8a2456abee331e294ed5da7
+FileChecksum: MD5: dbb7d3f5094cfbed7ebc568642e99c99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-cf197bd5d4094c2d8f76ed82f4786aef
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
