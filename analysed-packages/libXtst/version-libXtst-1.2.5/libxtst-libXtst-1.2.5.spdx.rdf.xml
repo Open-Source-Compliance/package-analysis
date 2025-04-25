@@ -1,0 +1,1641 @@
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <spdx:SpdxDocument rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-DOCUMENT">
+    <spdx:dataLicense>
+      <spdx:ListedLicense rdf:about="http://spdx.org/licenses/CC0-1.0">
+        <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt;Creative Commons&lt;&lt;beginOptional&gt;&gt; Legal Code&lt;&lt;endOptional&gt;&gt;
+
+&lt;&lt;endOptional&gt;&gt;
+CC0 1.0 Universal
+
+&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.
+
+&lt;&lt;endOptional&gt;&gt;
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.
+
+   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following:
+      &lt;&lt;var;name="bullet";original="i.";match=".{0,20}"&gt;&gt; the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+      &lt;&lt;var;name="bullet";original="ii.";match=".{0,20}"&gt;&gt; moral rights retained by the original author(s) and/or performer(s);
+      &lt;&lt;var;name="bullet";original="iii.";match=".{0,20}"&gt;&gt; publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
+      &lt;&lt;var;name="bullet";original="iv.";match=".{0,20}"&gt;&gt; rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;
+      &lt;&lt;var;name="bullet";original="v.";match=".{0,20}"&gt;&gt; rights protecting the extraction, dissemination, use and reuse of data in a Work;
+      &lt;&lt;var;name="bullet";original="vi.";match=".{0,20}"&gt;&gt; database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
+      &lt;&lt;var;name="bullet";original="vii.";match=".{0,20}"&gt;&gt; other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
+   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose.
+   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
+   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; Limitations and Disclaimers.
+      &lt;&lt;var;name="bullet";original="a.";match=".{0,20}"&gt;&gt; No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
+      &lt;&lt;var;name="bullet";original="b.";match=".{0,20}"&gt;&gt; Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
+      &lt;&lt;var;name="bullet";original="c.";match=".{0,20}"&gt;&gt; Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
+      &lt;&lt;var;name="bullet";original="d.";match=".{0,20}"&gt;&gt; Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.&lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name="upstreamLink";original="";match="For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt;&gt;&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
+        <spdx:licenseTextHtml>
+      &lt;div class="optional-license-text"&gt; 
+         &lt;div class="optional-license-text"&gt; 
+            &lt;p&gt;Creative Commons&lt;var class="optional-license-text"&gt;  Legal Code&lt;/var&gt;&lt;/p&gt;
+
+         &lt;/div&gt;
+         &lt;p&gt;CC0 1.0 Universal&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;div class="optional-license-text"&gt; 
+         &lt;p&gt;CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS
+         DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION
+         ON AN &amp;quot;AS-IS&amp;quot; BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT
+         OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE
+         USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.&lt;/p&gt;
+
+      &lt;/div&gt;
+
+      &lt;p&gt;Statement of Purpose&lt;/p&gt;
+
+      &lt;p&gt;The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related
+         Rights (defined below) upon the creator and subsequent owner(s) (each and all, an &amp;quot;owner&amp;quot;)
+         of an original work of authorship and/or a database (each, a &amp;quot;Work&amp;quot;).&lt;/p&gt;
+
+      &lt;p&gt;Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a
+         commons of creative, cultural and scientific works (&amp;quot;Commons&amp;quot;) that the public can reliably
+         and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse
+         and redistribute as freely as possible in any form whatsoever and for any purposes, including without
+         limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a
+         free culture and the further production of creative, cultural and scientific works, or to gain
+         reputation or greater distribution for their Work in part through the use and efforts of others.&lt;/p&gt;
+
+      &lt;p&gt;For these and/or other purposes and motivations, and without any expectation of additional consideration
+         or compensation, the person associating CC0 with a Work (the &amp;quot;Affirmer&amp;quot;), to the extent that
+         he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to
+         the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and
+         Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.&lt;/p&gt;
+
+&lt;ul style="list-style:none"&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 1.&lt;/span&gt;&lt;/var&gt;
+          Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and
+             related or neighboring rights (&amp;quot;Copyright and Related Rights&amp;quot;). Copyright and
+             Related Rights include, but are not limited to, the following:
+          
+&lt;ul style="list-style:none"&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; i.&lt;/span&gt;&lt;/var&gt;
+              the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; ii.&lt;/span&gt;&lt;/var&gt;
+              moral rights retained by the original author(s) and/or performer(s);
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; iii.&lt;/span&gt;&lt;/var&gt;
+              publicity and privacy rights pertaining to a person&amp;apos;s image or likeness depicted in a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; iv.&lt;/span&gt;&lt;/var&gt;
+              rights protecting against unfair competition in regards to a Work, subject to the limitations
+                 in paragraph 4(a), below;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; v.&lt;/span&gt;&lt;/var&gt;
+              rights protecting the extraction, dissemination, use and reuse of data in a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; vi.&lt;/span&gt;&lt;/var&gt;
+              database rights (such as those arising under Directive 96/9/EC of the European Parliament and
+                 of the Council of 11 March 1996 on the legal protection of databases, and under any
+                 national implementation thereof, including any amended or successor version of such
+                 directive); and
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; vii.&lt;/span&gt;&lt;/var&gt;
+              other similar, equivalent or corresponding rights throughout the world based on applicable
+                 law or treaty, and any national implementations thereof.
+            &lt;/li&gt;
+            
+&lt;/ul&gt;
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 2.&lt;/span&gt;&lt;/var&gt;
+          Waiver. To the greatest extent permitted by, but not in contravention of, applicable law,
+             Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons,
+             and surrenders all of Affirmer&amp;apos;s Copyright and Related Rights and associated claims and
+             causes of action, whether now known or unknown (including existing as well as future claims
+             and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum
+             duration provided by applicable law or treaty (including future time extensions), (iii) in any
+             current or future medium and for any number of copies, and (iv) for any purpose whatsoever,
+             including without limitation commercial, advertising or promotional purposes (the
+             &amp;quot;Waiver&amp;quot;). Affirmer makes the Waiver for the benefit of each member of the public at
+             large and to the detriment of Affirmer&amp;apos;s heirs and successors, fully intending that such
+             Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other
+             legal or equitable action to disrupt the quiet enjoyment of the Work by the public as
+             contemplated by Affirmer&amp;apos;s express Statement of Purpose.
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 3.&lt;/span&gt;&lt;/var&gt;
+          Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid
+             or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent
+             permitted taking into account Affirmer&amp;apos;s express Statement of Purpose. In addition, to
+             the extent the Waiver is so judged Affirmer hereby grants to each affected person a
+             royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and
+             unconditional license to exercise Affirmer&amp;apos;s Copyright and Related Rights in the Work (i)
+             in all territories worldwide, (ii) for the maximum duration provided by applicable law or
+             treaty (including future time extensions), (iii) in any current or future medium and for any
+             number of copies, and (iv) for any purpose whatsoever, including without limitation
+             commercial, advertising or promotional purposes (the &amp;quot;License&amp;quot;). The License shall
+             be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of
+             the License for any reason be judged legally invalid or ineffective under applicable law, such
+             partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and
+             in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her
+             remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and
+             causes of action with respect to the Work, in either case contrary to Affirmer&amp;apos;s express
+             Statement of Purpose.
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 4.&lt;/span&gt;&lt;/var&gt;
+          Limitations and Disclaimers.
+          
+&lt;ul style="list-style:none"&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; a.&lt;/span&gt;&lt;/var&gt;
+              No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed
+                 or otherwise affected by this document.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; b.&lt;/span&gt;&lt;/var&gt;
+              Affirmer offers the Work as-is and makes no representations or warranties of any kind
+                 concerning the Work, express, implied, statutory or otherwise, including without
+                 limitation warranties of title, merchantability, fitness for a particular purpose, non
+                 infringement, or the absence of latent or other defects, accuracy, or the present or
+                 absence of errors, whether or not discoverable, all to the greatest extent permissible
+                 under applicable law.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; c.&lt;/span&gt;&lt;/var&gt;
+              Affirmer disclaims responsibility for clearing rights of other persons that may apply to the
+                 Work or any use thereof, including without limitation any person&amp;apos;s Copyright and
+                 Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any
+                 necessary consents, permissions or other rights required for any use of the Work.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; d.&lt;/span&gt;&lt;/var&gt;
+              Affirmer understands and acknowledges that Creative Commons is not a party to this document
+                 and has no duty or obligation with respect to this CC0 or use of the Work.
+            &lt;/li&gt;
+            
+&lt;/ul&gt;
+        &lt;/li&gt;
+      
+&lt;/ul&gt;
+      &lt;var class="optional-license-text"&gt; &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt; &lt;/span&gt;&lt;/var&gt;&lt;/var&gt;
+    </spdx:licenseTextHtml>
+        <spdx:crossRef>
+          <spdx:CrossRef>
+            <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</spdx:isWayBackLink>
+            <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:isValid>
+            <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:isLive>
+            <spdx:url>https://creativecommons.org/publicdomain/zero/1.0/legalcode</spdx:url>
+            <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</spdx:order>
+            <spdx:timestamp>2024-12-30T17:55:19Z</spdx:timestamp>
+            <spdx:match>true</spdx:match>
+          </spdx:CrossRef>
+        </spdx:crossRef>
+        <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isDeprecatedLicenseId>
+        <spdx:licenseId>CC0-1.0</spdx:licenseId>
+        <spdx:licenseText>Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+</spdx:licenseText>
+        <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isOsiApproved>
+        <rdfs:seeAlso>https://creativecommons.org/publicdomain/zero/1.0/legalcode</rdfs:seeAlso>
+        <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isFsfLibre>
+        <spdx:licenseName>Creative Commons Zero v1.0 Universal</spdx:licenseName>
+      </spdx:ListedLicense>
+    </spdx:dataLicense>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24">
+        <spdx:licenseId>LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24</spdx:licenseId>
+        <spdx:name>Historical Permission Notice and Disclaimer - sell variant</spdx:name>
+        <spdx:extractedText>Permission to use, copy, modify, distribute, and sell this software and its
+documentation for any purpose is hereby granted without fee, provided that
+the above copyright notice appear in all copies and that both that
+copyright notice and this permission notice appear in supporting
+documentation, and that the name of Red Hat not be used in
+advertising or publicity pertaining to distribution of the software without
+specific, written prior permission. Red Hat makes no
+representations about the suitability of this software for any purpose. It
+is provided "as is" without express or implied warranty.
+
+RED HAT DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+EVENT SHALL RED HAT BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11">
+        <spdx:licenseId>LicenseRef-X11</spdx:licenseId>
+        <spdx:name>X11 License</spdx:name>
+        <spdx:extractedText>X11 License
+
+Copyright (C) 1996 X Consortium
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
+
+X Window System is a trademark of X Consortium, Inc.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT">
+        <spdx:licenseId>LicenseRef-MIT</spdx:licenseId>
+        <spdx:name>MIT License</spdx:name>
+        <spdx:extractedText>MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde">
+        <spdx:licenseId>LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde</spdx:licenseId>
+        <spdx:name>MIT Open Group variant</spdx:name>
+        <spdx:extractedText>Permission to use, copy, modify, distribute, and sell this software and its
+documentation for any purpose is hereby granted without fee, provided that
+the above copyright notice appear in all copies and that both that
+copyright notice and this permission notice appear in supporting
+documentation.
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of The Open Group shall
+not be used in advertising or otherwise to promote the sale, use or
+other dealings in this Software without prior written authorization
+from The Open Group.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant-fd4fe4d26fa637db2438c988e922bdce">
+        <spdx:licenseId>LicenseRef-HPND-sell-variant-fd4fe4d26fa637db2438c988e922bdce</spdx:licenseId>
+        <spdx:name>Historical Permission Notice and Disclaimer - sell variant</spdx:name>
+        <spdx:extractedText>Permission to use, copy, modify, distribute, and sell this software and
+its documentation for any purpose is hereby granted without fee, provided
+that the above copyright notice appear in all copies and that both that
+copyright notice and this permission notice appear in supporting
+documentation, and that the name of Network Computing Devices
+not be used in advertising or publicity pertaining to distribution
+of the software without specific, written prior permission.
+
+NETWORK COMPUTING DEVICES DISCLAIMs ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS, IN NO EVENT SHALL NETWORK COMPUTING DEVICES BE LIABLE
+FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc">
+        <spdx:licenseId>LicenseRef-HPND-doc</spdx:licenseId>
+        <spdx:name>Historical Permission Notice and Disclaimer - documentation variant</spdx:name>
+        <spdx:extractedText>Copyright &lt;year&gt; &lt;copyright holder&gt;
+
+Permission to use, copy, modify, and distribute this documentation for
+any purpose and without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+&lt;copyright holder&gt; makes no representations about the suitability for
+any purpose of the information in this document.  This documentation is
+provided ``as is'' without express or implied warranty.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-0ffd10cb12b25ff6c1357f72e7d7a199">
+        <spdx:licenseId>LicenseRef-HPND-doc-0ffd10cb12b25ff6c1357f72e7d7a199</spdx:licenseId>
+        <spdx:name>Historical Permission Notice and Disclaimer - documentation variant</spdx:name>
+        <spdx:extractedText>Permission to use, copy, modify, and distribute this documentation for
+any purpose and without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+UniSoft makes no representations about the suitability for any purpose of
+the information in this document. This documentation is provided "as is"
+without express or implied warranty.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11-32a2ccf452a7324035a33b8059976571">
+        <spdx:licenseId>LicenseRef-X11-32a2ccf452a7324035a33b8059976571</spdx:licenseId>
+        <spdx:name>X11 License</spdx:name>
+        <spdx:extractedText>Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not
+be used in advertising or otherwise to promote the sale, use or other
+dealings in this Software without prior written authorization from the
+X Consortium.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-scancode-x11-doc">
+        <spdx:licenseId>LicenseRef-scancode-x11-doc</spdx:licenseId>
+        <spdx:name>X11 Documentation License</spdx:name>
+        <spdx:extractedText>License by Scancode.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-sell-b8a094c189abfa97ff4b07088012d756">
+        <spdx:licenseId>LicenseRef-HPND-doc-sell-b8a094c189abfa97ff4b07088012d756</spdx:licenseId>
+        <spdx:name>Historical Permission Notice and Disclaimer - documentation sell variant</spdx:name>
+        <spdx:extractedText>Permission to use, copy, modify, distribute, and sell this
+documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice and this permission
+notice appear in all copies. Network Computing Devices, Inc.
+makes no representations about the suitability for any purpose
+of the information in this document. This documentation is
+provided "as is" without express or implied warranty.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11-20dbe75dd69188bd03f172f10678e217">
+        <spdx:licenseId>LicenseRef-X11-20dbe75dd69188bd03f172f10678e217</spdx:licenseId>
+        <spdx:name>X11 License</spdx:name>
+        <spdx:extractedText>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files
+(the “Software”), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+Except as contained in this notice, the name of the X Consortium shall not
+be used in advertising or otherwise to promote the sale, use or other dealings
+in this Software without prior written authorization from the X Consortium.
+X Window System is a trademark of The Open Group.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-CMU-style">
+        <spdx:licenseId>LicenseRef-MIT-CMU-style</spdx:licenseId>
+        <spdx:name>MIT-CMU-style</spdx:name>
+        <spdx:extractedText>License by Nomos.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:name>/srv/fossology/repository/report</spdx:name>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11-42baf2b5663a77a8578af30017482ef1">
+        <spdx:licenseId>LicenseRef-X11-42baf2b5663a77a8578af30017482ef1</spdx:licenseId>
+        <spdx:name>X11 License</spdx:name>
+        <spdx:extractedText>Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files
+(the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall
+not be used in advertising or otherwise to promote the sale, use or other
+dealings in this Software without prior written authorization from the
+X Consortium.
+X Window System is a trademark of The Open Group.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:creationInfo>
+      <spdx:CreationInfo>
+        <spdx:created>2025-04-24T17:51:41Z</spdx:created>
+        <spdx:licenseListVersion>3.22</spdx:licenseListVersion>
+        <rdfs:comment>This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of libxtst libXtst-1.2.5
+Please check "LicenseComments" for explanations of concluded licenses</rdfs:comment>
+        <spdx:creator>Person: Oliver Fendt</spdx:creator>
+        <spdx:creator>Tool: fossology-4.4.0.51</spdx:creator>
+      </spdx:CreationInfo>
+    </spdx:creationInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant">
+        <spdx:licenseId>LicenseRef-HPND-sell-variant</spdx:licenseId>
+        <spdx:name>Historical Permission Notice and Disclaimer - sell variant</spdx:name>
+        <spdx:extractedText>Copyright 1993 by OpenVision Technologies, Inc.
+
+Permission to use, copy, modify, distribute, and sell this software
+and its documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice appears in all copies and
+that both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of OpenVision not be used
+in advertising or publicity pertaining to distribution of the software
+without specific, written prior permission. OpenVision makes no
+representations about the suitability of this software for any
+purpose.  It is provided "as is" without express or implied warranty.
+
+OPENVISION DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+EVENT SHALL OPENVISION BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-CC0-1.0">
+        <spdx:licenseId>LicenseRef-CC0-1.0</spdx:licenseId>
+        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
+        <spdx:extractedText>Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group">
+        <spdx:licenseId>LicenseRef-MIT-open-group</spdx:licenseId>
+        <spdx:name>MIT Open Group variant</spdx:name>
+        <spdx:extractedText>Copyright &lt;yyyy, yyyy&gt; The Open Group
+
+Permission to use, copy, modify, distribute, and sell this software and
+its documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation.
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of The Open Group
+shall not be used in advertising or otherwise to promote the sale, use
+or other dealings in this Software without prior written authorization
+from The Open Group.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-0">
+        <spdx:licenseId>LicenseRef-MIT-0</spdx:licenseId>
+        <spdx:name>MIT No Attribution</spdx:name>
+        <spdx:extractedText>MIT No Attribution
+
+Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to deal in the Software
+without restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb">
+        <spdx:licenseId>LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb</spdx:licenseId>
+        <spdx:name>MIT License</spdx:name>
+        <spdx:extractedText>Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:specVersion>SPDX-2.3</spdx:specVersion>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-scancode-mit-old-style">
+        <spdx:licenseId>LicenseRef-scancode-mit-old-style</spdx:licenseId>
+        <spdx:name>MIT Old Style</spdx:name>
+        <spdx:extractedText>License by Scancode.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:relationship>
+      <spdx:Relationship>
+        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
+        <spdx:relatedSpdxElement>
+          <spdx:Package rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-upload2878">
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370533">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-scancode-x11-doc"/>
+                    <spdx:copyrightText>Copyright1992 by UniSoft Group Ltd.
+Copyright 1992, 1994 X Consortium</spdx:copyrightText>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>435637f146e2d880b3f7a9368ba9134af45c3a28</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d0b213380694549aa7b149274bd7afd9</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/man/XTest.xml</spdx:fileName>
+                    <spdx:licenseConcluded>
+                      <spdx:ConjunctiveLicenseSet>
+                        <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11-32a2ccf452a7324035a33b8059976571"/>
+                        <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-0ffd10cb12b25ff6c1357f72e7d7a199"/>
+                      </spdx:ConjunctiveLicenseSet>
+                    </spdx:licenseConcluded>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>c770d78de3a951aff0186de9231e685cd60f7c2ac24f7b4edf103632fd1c6167</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc"/>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>08740c9246fc87b17098fe745d2535b8</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>df40471202bb02cca1bd83c559da45a0b4e6d4eddfad5d2bdf8e9d16141c9f7f</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:packageVerificationCode>
+              <spdx:PackageVerificationCode>
+                <spdx:packageVerificationCodeValue>91ae5590752baf5a6ea772c0ae33ebb9cff4b7df</spdx:packageVerificationCodeValue>
+              </spdx:PackageVerificationCode>
+            </spdx:packageVerificationCode>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370516">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/xtst.pc.in</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7a3038d522572ef448c47f989ccf7f53</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>02c7d273134ec598ae5ed2143c5cbb96701f9576</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1bbea38f280884fc13730adc43a10f4000e0560d7cb9aa4e64456f83461467f8</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:licenseDeclared>
+              <spdx:ConjunctiveLicenseSet>
+                <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11-32a2ccf452a7324035a33b8059976571"/>
+                <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-0ffd10cb12b25ff6c1357f72e7d7a199"/>
+                <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant-fd4fe4d26fa637db2438c988e922bdce"/>
+                <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-sell-b8a094c189abfa97ff4b07088012d756"/>
+                <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde"/>
+              </spdx:ConjunctiveLicenseSet>
+            </spdx:licenseDeclared>
+            <spdx:downloadLocation>https://gitlab.freedesktop.org/xorg/lib/libxtst/-/archive/libXtst-1.2.5/libxtst-libXtst-1.2.5.tar.gz</spdx:downloadLocation>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370537">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/src/XTest.c</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1da8e399cfe9a0001a48db69d337ecd6</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>de6696ac6267cc91782a9cd149416c261c3cf90e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>65e9be4ca8dc574ec715ddf02ea5a0cbfeb366b632ae69e469e38da0b7aa1557</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright 1990, 1991 by UniSoft Group Limited
+Copyright 1992, 1993, 1998 The Open Group</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370519">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/docbook.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>e70349af537a9ddb8fe695b586abe879d38e89ce</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>c5542fb117f4714b507e5576ab253b0c2c9e5d43eb6565a0293df6a4982fdcd8</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>b7504a7a0ff58abcb4cbadf7e0000a18</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:filesAnalyzed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:filesAnalyzed>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370530">
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>c8cacc7f91722f10ae89ca8e2dcf5537</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc"/>
+                    <spdx:licenseConcluded>
+                      <spdx:ConjunctiveLicenseSet>
+                        <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11-20dbe75dd69188bd03f172f10678e217"/>
+                        <spdx:member>
+                          <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-b851bfb712e4cd43b4a75a513772db86">
+                            <spdx:licenseId>LicenseRef-HPND-doc-b851bfb712e4cd43b4a75a513772db86</spdx:licenseId>
+                            <spdx:name>Historical Permission Notice and Disclaimer - documentation variant</spdx:name>
+                            <spdx:extractedText>Permission to use, copy, modify, and distribute this documentation for
+any purpose and without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies. UniSoft
+makes no representations about the suitability for any purpose of the
+information in this document. This documentation is provided
+“as is” without express or implied warranty.</spdx:extractedText>
+                          </spdx:ExtractedLicensingInfo>
+                        </spdx:member>
+                      </spdx:ConjunctiveLicenseSet>
+                    </spdx:licenseConcluded>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d7c531341f758fb226f9993f22b7bac9d9a7d0cd</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-scancode-x11-doc"/>
+                    <spdx:copyrightText>copyright 1992 UniSoft Group Ltd.
+Copyright © 1992,1994 X Consortium</spdx:copyrightText>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>5c3d3b3f5d7b6a84080adcb3f5eed7bfa63518c7b719b98152da43644c0ce5ac</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/specs/xtestlib.xml</spdx:fileName>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370531">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/specs/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>2d3a08f58b8d69f7db83d31aedee4fe88cf332725d68a74dafbeb7b94b90d90f</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>12b9a76eac308e514d3f8de98522526f</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>79ccddb53434d7b8e220f8e409e27b42a105d80d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370528">
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-sell">
+                        <spdx:licenseId>LicenseRef-HPND-doc-sell</spdx:licenseId>
+                        <spdx:name>Historical Permission Notice and Disclaimer - documentation sell variant</spdx:name>
+                        <spdx:extractedText>Copyright &lt;year&gt; &lt;copyright holder&gt;
+
+Permission to use, copy, modify, distribute, and sell this
+documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice and this permission
+notice appear in all copies. &lt;copyright holder&gt;
+makes no representations about the suitability for any purpose
+of the information in this document. This documentation
+is provided "as is" without express or implied warranty.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>76b91eeb06485a8640074b51d0701fa66ef3438d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-scancode-mit-old-style"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>69e23eecd778b24c4cf2f7bc24c05ea5dc93a34e7753a653646e91ed24334493</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseConcluded>
+                      <spdx:ConjunctiveLicenseSet>
+                        <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-sell-b8a094c189abfa97ff4b07088012d756"/>
+                        <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11-42baf2b5663a77a8578af30017482ef1"/>
+                      </spdx:ConjunctiveLicenseSet>
+                    </spdx:licenseConcluded>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ade6185eaf5632209a058533f09cb59a</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>copyright 1994 Network Computing Devices, Inc.
+Copyright © 1995 X Consortium</spdx:copyrightText>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-0"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/specs/recordlib.xml</spdx:fileName>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11"/>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370520">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/autogen.sh</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>2d02cb87435e790864e8f5132b61b3f5</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ef3ab75880cf0caf1949861309fb4bd8e7f17ad2</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>fd43453de777663b2c90f5c44db4dfa5f55c231ef3045f49e2056feea342444d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370538">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>32414561f9cff322e9378a37569d133a9ce35ff25450c09f9fdea5f153a3a889</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseConcluded>
+                      <spdx:ConjunctiveLicenseSet>
+                        <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant-fd4fe4d26fa637db2438c988e922bdce"/>
+                        <spdx:member rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde"/>
+                      </spdx:ConjunctiveLicenseSet>
+                    </spdx:licenseConcluded>
+                    <spdx:copyrightText>Copyright 1995, 1998 The Open Group
+Copyright 1995 Network Computing Devices</spdx:copyrightText>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/src/XRecord.c</spdx:fileName>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9aa9127dfc89c98e034ab2510d221d14</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>3991175fd80ef3558c5c103aa26e66a8983ca862</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group"/>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370541">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>c3e6ab9cf26d7c0a6770a781f7c51cb583317b74c09d9de19466e89bc4a6d3fa</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>29465fe202aa1a2949a1620a5f35fb88</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>8702b4fe0a092fd0d726697d876bf4bb8507e56e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright 2005 Red Hat, Inc.</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>b3d7e19dd79714519ef764235292a3ea68bf2099</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370540">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/.gitignore</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1aff2faae6d9bf8a8c037f18decb33491fbdfa46c864c87647629576266aae93</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>8c5f8ac1487414ac9e31e5bee5ebf82a</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1a6828bb8981bd17a2a661ba049f3b790f86fb4a</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370525">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-CMU-style"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/include/X11/extensions/record.h</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant-fd4fe4d26fa637db2438c988e922bdce"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>97055a8dcdedccd11ce1ae75f08b3ad42cb637ed</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>744232d2fa7c64d158ef3bd535fe723c0f55d9cb1bebf65408d385002efc391c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>bf4307ca11adabd494cd8546def4efa7</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright 1995 Network Computing Devices</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370515">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/.gitlab-ci.yml</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>8721dc575897ca370355fb06b6e1af1e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>8729f5262e36465ac71bde0efc3a862e9924237f</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>646d08f071ead025b54cb24ecd789be6c31361ea753466815c40e7a30e3f0c4c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370518">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/configure.ac</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>8ee0ef99ddff624d692ed9ec11df7e503a302dd74f5fb02309f18f7b3786d150</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1e1611106f2c504a3cfa429d32c1e462</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1893a5a4a2a47b2fcc50f6b0bb03f82dee3528c8</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright 2005 Red Hat, Inc.</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:name>libxtst-libXtst-1.2.5.tar.gz</spdx:name>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370539">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/src/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f0c631246cb62c6999c67b4ec6f212e4dbb7828e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1a473dc45a3fcc41dab71c74ca3be65bf9676fa784d0b306c7b42dececb66ffa</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d17b6a4534d2cf120b31b223788d4ad0</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370517">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/README.md</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>461ae27956d3eaea22c5d155f40a744a63dab638</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>80aa6b549b673f17cb82764b73f31f7f</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7ce317d918be1cd9a2440445e77e339a1c7289cedd4f3a0eca362e3c4691475c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370526">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/include/X11/extensions/XTest.h</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>a414a0c6932131e6a128c8b74d293c7be396b51ca89419d040f4ac17cb31b925</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>6870ababd6c7442db582704ae724f69a</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>3bce24e54b55a1f7152f78acbf3019baa409bb7f</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright 1992, 1998 The Open Group</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:licenseComments>licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+- scancode ("4.4.0.51".1e52cb)</spdx:licenseComments>
+            <spdx:packageFileName>libxtst-libXtst-1.2.5.tar.gz</spdx:packageFileName>
+            <spdx:externalRef>
+              <spdx:ExternalRef>
+                <spdx:referenceLocator>pkg:generic/libxtst@libXtst-1.2.5?download_url=https://gitlab.freedesktop.org/xorg/lib/libxtst/-/archive/libXtst-1.2.5/libxtst-libXtst-1.2.5.tar.gz</spdx:referenceLocator>
+                <spdx:referenceCategory rdf:resource="http://spdx.org/rdf/terms#referenceCategory_packageManager"/>
+                <spdx:referenceType rdf:resource="http://spdx.org/rdf/references/purl"/>
+              </spdx:ExternalRef>
+            </spdx:externalRef>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370534">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/man/.gitignore</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>caf6a1651efd20ad5a3d53e3343afdcd36d55a630714513e66ff3004b82ae8b2</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>fa0e9e8bb7c696f3b6beba967b9175ec</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f81eac8bf8833f990e4f2d84bfa97b754d0ca85d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370535">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/man/Makefile.am</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>e8a61977af2aa86fdbc87b2d8e25180381db06b959132d28b5f92f53a02e53a8</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>37c20abc897f7ad815de7c3cdc13c5a5</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1ff382004c3257f329e92555af09b1700be6c5a8</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright (c) 2007, Oracle and/or its affiliates.</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370521">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-sell"/>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/COPYING</spdx:fileName>
+                    <spdx:copyrightText>Copyright 1990, 1991 by UniSoft Group Limited
+Copyright 1992, 1993, 1995, 1998 The Open Group
+Copyright 1995 Network Computing Devices
+Copyright 2005 Red Hat, Inc.
+Copyright © 1992 by UniSoft Group Ltd.
+Copyright © 1992, 1994, 1995 X Consortium
+Copyright 1994 Network Computing Devices, Inc.</spdx:copyrightText>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-MIT-open-group"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-sell-variant"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-scancode-x11-doc"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-X11"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>ec811ee8aeff17803ce1179fdd028aa91267002b</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>bb4f89972c3869f617f61c1a79ad1952</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>940190489c7a0e5ae3d83fc4fcbd79e0cd1b765bf1a4efd408293c1ee0332ceb</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#SPDXRef-item13370529">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/specs/.gitignore</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>0a6e553754f75b863c694e96f180f77b</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1028925899b3aee80e39e54e437c695a5644b9bb</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>3da3ae1a96b06294a764f84006ddff4ccd3095837dbf9f66d3fc9af5605952b4</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+          </spdx:Package>
+        </spdx:relatedSpdxElement>
+      </spdx:Relationship>
+    </spdx:relationship>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-sell"/>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx#LicenseRef-HPND-doc-b851bfb712e4cd43b4a75a513772db86"/>
+  </spdx:SpdxDocument>
+</rdf:RDF>
