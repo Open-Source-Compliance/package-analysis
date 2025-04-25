@@ -1,0 +1,814 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_libxtst-libXtst-1.2.5.tar.gz_1745517101.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of libxtst libXtst-1.2.5
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2025-04-24T17:51:41Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: libxtst-libXtst-1.2.5.tar.gz
+PackageFileName: libxtst-libXtst-1.2.5.tar.gz
+SPDXID: SPDXRef-upload2878
+PackageDownloadLocation: https://gitlab.freedesktop.org/xorg/lib/libxtst/-/archive/libXtst-1.2.5/libxtst-libXtst-1.2.5.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/libxtst@libXtst-1.2.5?download_url=https://gitlab.freedesktop.org/xorg/lib/libxtst/-/archive/libXtst-1.2.5/libxtst-libXtst-1.2.5.tar.gz
+FilesAnalyzed: true
+PackageVerificationCode: 91ae5590752baf5a6ea772c0ae33ebb9cff4b7df
+PackageChecksum: SHA1: b3d7e19dd79714519ef764235292a3ea68bf2099
+PackageChecksum: SHA256: df40471202bb02cca1bd83c559da45a0b4e6d4eddfad5d2bdf8e9d16141c9f7f
+PackageChecksum: MD5: 08740c9246fc87b17098fe745d2535b8
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-HPND-doc-0ffd10cb12b25ff6c1357f72e7d7a199 AND LicenseRef-HPND-doc-sell-b8a094c189abfa97ff4b07088012d756 AND LicenseRef-HPND-sell-variant-fd4fe4d26fa637db2438c988e922bdce AND LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde AND LicenseRef-X11-32a2ccf452a7324035a33b8059976571
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2878
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/specs/xtestlib.xml
+SPDXID: SPDXRef-item13370530
+FileChecksum: SHA1: d7c531341f758fb226f9993f22b7bac9d9a7d0cd
+FileChecksum: SHA256: 5c3d3b3f5d7b6a84080adcb3f5eed7bfa63518c7b719b98152da43644c0ce5ac
+FileChecksum: MD5: c8cacc7f91722f10ae89ca8e2dcf5537
+LicenseConcluded: LicenseRef-HPND-doc-b851bfb712e4cd43b4a75a513772db86 AND LicenseRef-X11-20dbe75dd69188bd03f172f10678e217
+LicenseInfoInFile: LicenseRef-scancode-x11-doc
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-HPND-doc
+LicenseInfoInFile: LicenseRef-X11
+FileCopyrightText: <text> copyright 1992 UniSoft Group Ltd.
+Copyright © 1992,1994 X Consortium </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/src/XRecord.c
+SPDXID: SPDXRef-item13370538
+FileChecksum: SHA1: 3991175fd80ef3558c5c103aa26e66a8983ca862
+FileChecksum: SHA256: 32414561f9cff322e9378a37569d133a9ce35ff25450c09f9fdea5f153a3a889
+FileChecksum: MD5: 9aa9127dfc89c98e034ab2510d221d14
+LicenseConcluded: LicenseRef-HPND-sell-variant-fd4fe4d26fa637db2438c988e922bdce AND LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde
+LicenseInfoInFile: LicenseRef-MIT-open-group
+LicenseInfoInFile: LicenseRef-HPND-sell-variant
+LicenseInfoInFile: LicenseRef-X11
+FileCopyrightText: <text> Copyright 1995, 1998 The Open Group
+Copyright 1995 Network Computing Devices </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/include/X11/extensions/record.h
+SPDXID: SPDXRef-item13370525
+FileChecksum: SHA1: 97055a8dcdedccd11ce1ae75f08b3ad42cb637ed
+FileChecksum: SHA256: 744232d2fa7c64d158ef3bd535fe723c0f55d9cb1bebf65408d385002efc391c
+FileChecksum: MD5: bf4307ca11adabd494cd8546def4efa7
+LicenseConcluded: LicenseRef-HPND-sell-variant-fd4fe4d26fa637db2438c988e922bdce
+LicenseInfoInFile: LicenseRef-MIT-CMU-style
+LicenseInfoInFile: LicenseRef-HPND-sell-variant
+FileCopyrightText: <text> Copyright 1995 Network Computing Devices </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/COPYING
+SPDXID: SPDXRef-item13370521
+FileChecksum: SHA1: ec811ee8aeff17803ce1179fdd028aa91267002b
+FileChecksum: SHA256: 940190489c7a0e5ae3d83fc4fcbd79e0cd1b765bf1a4efd408293c1ee0332ceb
+FileChecksum: MD5: bb4f89972c3869f617f61c1a79ad1952
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-X11
+LicenseInfoInFile: LicenseRef-HPND-doc-sell
+LicenseInfoInFile: LicenseRef-scancode-x11-doc
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-HPND-doc
+LicenseInfoInFile: LicenseRef-MIT-open-group
+LicenseInfoInFile: LicenseRef-HPND-sell-variant
+FileCopyrightText: <text> Copyright 1990, 1991 by UniSoft Group Limited
+Copyright 1992, 1993, 1995, 1998 The Open Group
+Copyright 1995 Network Computing Devices
+Copyright 2005 Red Hat, Inc.
+Copyright © 1992 by UniSoft Group Ltd.
+Copyright © 1992, 1994, 1995 X Consortium
+Copyright 1994 Network Computing Devices, Inc. </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/man/Makefile.am
+SPDXID: SPDXRef-item13370535
+FileChecksum: SHA1: 1ff382004c3257f329e92555af09b1700be6c5a8
+FileChecksum: SHA256: e8a61977af2aa86fdbc87b2d8e25180381db06b959132d28b5f92f53a02e53a8
+FileChecksum: MD5: 37c20abc897f7ad815de7c3cdc13c5a5
+LicenseConcluded: LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007, Oracle and/or its affiliates. </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/man/XTest.xml
+SPDXID: SPDXRef-item13370533
+FileChecksum: SHA1: 435637f146e2d880b3f7a9368ba9134af45c3a28
+FileChecksum: SHA256: c770d78de3a951aff0186de9231e685cd60f7c2ac24f7b4edf103632fd1c6167
+FileChecksum: MD5: d0b213380694549aa7b149274bd7afd9
+LicenseConcluded: LicenseRef-HPND-doc-0ffd10cb12b25ff6c1357f72e7d7a199 AND LicenseRef-X11-32a2ccf452a7324035a33b8059976571
+LicenseInfoInFile: LicenseRef-X11
+LicenseInfoInFile: LicenseRef-HPND-doc
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-x11-doc
+FileCopyrightText: <text> Copyright1992 by UniSoft Group Ltd.
+Copyright 1992, 1994 X Consortium </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/specs/recordlib.xml
+SPDXID: SPDXRef-item13370528
+FileChecksum: SHA1: 76b91eeb06485a8640074b51d0701fa66ef3438d
+FileChecksum: SHA256: 69e23eecd778b24c4cf2f7bc24c05ea5dc93a34e7753a653646e91ed24334493
+FileChecksum: MD5: ade6185eaf5632209a058533f09cb59a
+LicenseConcluded: LicenseRef-HPND-doc-sell-b8a094c189abfa97ff4b07088012d756 AND LicenseRef-X11-42baf2b5663a77a8578af30017482ef1
+LicenseInfoInFile: LicenseRef-MIT-0
+LicenseInfoInFile: LicenseRef-scancode-mit-old-style
+LicenseInfoInFile: LicenseRef-HPND-doc-sell
+LicenseInfoInFile: LicenseRef-X11
+FileCopyrightText: <text> copyright 1994 Network Computing Devices, Inc.
+Copyright © 1995 X Consortium </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/src/XTest.c
+SPDXID: SPDXRef-item13370537
+FileChecksum: SHA1: de6696ac6267cc91782a9cd149416c261c3cf90e
+FileChecksum: SHA256: 65e9be4ca8dc574ec715ddf02ea5a0cbfeb366b632ae69e469e38da0b7aa1557
+FileChecksum: MD5: 1da8e399cfe9a0001a48db69d337ecd6
+LicenseConcluded: LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde
+LicenseInfoInFile: LicenseRef-X11
+LicenseInfoInFile: LicenseRef-MIT-open-group
+FileCopyrightText: <text> Copyright 1990, 1991 by UniSoft Group Limited
+Copyright 1992, 1993, 1998 The Open Group </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/include/X11/extensions/XTest.h
+SPDXID: SPDXRef-item13370526
+FileChecksum: SHA1: 3bce24e54b55a1f7152f78acbf3019baa409bb7f
+FileChecksum: SHA256: a414a0c6932131e6a128c8b74d293c7be396b51ca89419d040f4ac17cb31b925
+FileChecksum: MD5: 6870ababd6c7442db582704ae724f69a
+LicenseConcluded: LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde
+LicenseInfoInFile: LicenseRef-X11
+LicenseInfoInFile: LicenseRef-MIT-open-group
+FileCopyrightText: <text> Copyright 1992, 1998 The Open Group </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/Makefile.am
+SPDXID: SPDXRef-item13370541
+FileChecksum: SHA1: 8702b4fe0a092fd0d726697d876bf4bb8507e56e
+FileChecksum: SHA256: c3e6ab9cf26d7c0a6770a781f7c51cb583317b74c09d9de19466e89bc4a6d3fa
+FileChecksum: MD5: 29465fe202aa1a2949a1620a5f35fb88
+LicenseConcluded: LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24
+LicenseInfoInFile: LicenseRef-HPND-sell-variant
+FileCopyrightText: <text> Copyright 2005 Red Hat, Inc. </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/configure.ac
+SPDXID: SPDXRef-item13370518
+FileChecksum: SHA1: 1893a5a4a2a47b2fcc50f6b0bb03f82dee3528c8
+FileChecksum: SHA256: 8ee0ef99ddff624d692ed9ec11df7e503a302dd74f5fb02309f18f7b3786d150
+FileChecksum: MD5: 1e1611106f2c504a3cfa429d32c1e462
+LicenseConcluded: LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24
+LicenseInfoInFile: LicenseRef-HPND-sell-variant
+FileCopyrightText: <text> Copyright 2005 Red Hat, Inc. </text>
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/src/Makefile.am
+SPDXID: SPDXRef-item13370539
+FileChecksum: SHA1: f0c631246cb62c6999c67b4ec6f212e4dbb7828e
+FileChecksum: SHA256: 1a473dc45a3fcc41dab71c74ca3be65bf9676fa784d0b306c7b42dececb66ffa
+FileChecksum: MD5: d17b6a4534d2cf120b31b223788d4ad0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/.gitlab-ci.yml
+SPDXID: SPDXRef-item13370515
+FileChecksum: SHA1: 8729f5262e36465ac71bde0efc3a862e9924237f
+FileChecksum: SHA256: 646d08f071ead025b54cb24ecd789be6c31361ea753466815c40e7a30e3f0c4c
+FileChecksum: MD5: 8721dc575897ca370355fb06b6e1af1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/docbook.am
+SPDXID: SPDXRef-item13370519
+FileChecksum: SHA1: e70349af537a9ddb8fe695b586abe879d38e89ce
+FileChecksum: SHA256: c5542fb117f4714b507e5576ab253b0c2c9e5d43eb6565a0293df6a4982fdcd8
+FileChecksum: MD5: b7504a7a0ff58abcb4cbadf7e0000a18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/specs/.gitignore
+SPDXID: SPDXRef-item13370529
+FileChecksum: SHA1: 1028925899b3aee80e39e54e437c695a5644b9bb
+FileChecksum: SHA256: 3da3ae1a96b06294a764f84006ddff4ccd3095837dbf9f66d3fc9af5605952b4
+FileChecksum: MD5: 0a6e553754f75b863c694e96f180f77b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/xtst.pc.in
+SPDXID: SPDXRef-item13370516
+FileChecksum: SHA1: 02c7d273134ec598ae5ed2143c5cbb96701f9576
+FileChecksum: SHA256: 1bbea38f280884fc13730adc43a10f4000e0560d7cb9aa4e64456f83461467f8
+FileChecksum: MD5: 7a3038d522572ef448c47f989ccf7f53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/specs/Makefile.am
+SPDXID: SPDXRef-item13370531
+FileChecksum: SHA1: 79ccddb53434d7b8e220f8e409e27b42a105d80d
+FileChecksum: SHA256: 2d3a08f58b8d69f7db83d31aedee4fe88cf332725d68a74dafbeb7b94b90d90f
+FileChecksum: MD5: 12b9a76eac308e514d3f8de98522526f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/.gitignore
+SPDXID: SPDXRef-item13370540
+FileChecksum: SHA1: 1a6828bb8981bd17a2a661ba049f3b790f86fb4a
+FileChecksum: SHA256: 1aff2faae6d9bf8a8c037f18decb33491fbdfa46c864c87647629576266aae93
+FileChecksum: MD5: 8c5f8ac1487414ac9e31e5bee5ebf82a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/man/.gitignore
+SPDXID: SPDXRef-item13370534
+FileChecksum: SHA1: f81eac8bf8833f990e4f2d84bfa97b754d0ca85d
+FileChecksum: SHA256: caf6a1651efd20ad5a3d53e3343afdcd36d55a630714513e66ff3004b82ae8b2
+FileChecksum: MD5: fa0e9e8bb7c696f3b6beba967b9175ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/README.md
+SPDXID: SPDXRef-item13370517
+FileChecksum: SHA1: 461ae27956d3eaea22c5d155f40a744a63dab638
+FileChecksum: SHA256: 7ce317d918be1cd9a2440445e77e339a1c7289cedd4f3a0eca362e3c4691475c
+FileChecksum: MD5: 80aa6b549b673f17cb82764b73f31f7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libxtst-libXtst-1.2.5.tar.gz/libxtst-libXtst-1.2.5.tar/libxtst-libXtst-1.2.5/autogen.sh
+SPDXID: SPDXRef-item13370520
+FileChecksum: SHA1: ef3ab75880cf0caf1949861309fb4bd8e7f17ad2
+FileChecksum: SHA256: fd43453de777663b2c90f5c44db4dfa5f55c231ef3045f49e2056feea342444d
+FileChecksum: MD5: 2d02cb87435e790864e8f5132b61b3f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-HPND-doc-b851bfb712e4cd43b4a75a513772db86
+LicenseName: Historical Permission Notice and Disclaimer - documentation variant
+ExtractedText: <text> Permission to use, copy, modify, and distribute this documentation for
+any purpose and without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies. UniSoft
+makes no representations about the suitability for any purpose of the
+information in this document. This documentation is provided
+“as is” without express or implied warranty. </text>
+
+  
+
+LicenseID: LicenseRef-X11-20dbe75dd69188bd03f172f10678e217
+LicenseName: X11 License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files
+(the “Software”), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+Except as contained in this notice, the name of the X Consortium shall not
+be used in advertising or otherwise to promote the sale, use or other dealings
+in this Software without prior written authorization from the X Consortium.
+X Window System is a trademark of The Open Group. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-open-group-66829d814a53ca71b9408db1dcee9cde
+LicenseName: MIT Open Group variant
+ExtractedText: <text> Permission to use, copy, modify, distribute, and sell this software and its
+documentation for any purpose is hereby granted without fee, provided that
+the above copyright notice appear in all copies and that both that
+copyright notice and this permission notice appear in supporting
+documentation.
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of The Open Group shall
+not be used in advertising or otherwise to promote the sale, use or
+other dealings in this Software without prior written authorization
+from The Open Group. </text>
+
+  
+
+LicenseID: LicenseRef-HPND-sell-variant-fd4fe4d26fa637db2438c988e922bdce
+LicenseName: Historical Permission Notice and Disclaimer - sell variant
+ExtractedText: <text> Permission to use, copy, modify, distribute, and sell this software and
+its documentation for any purpose is hereby granted without fee, provided
+that the above copyright notice appear in all copies and that both that
+copyright notice and this permission notice appear in supporting
+documentation, and that the name of Network Computing Devices
+not be used in advertising or publicity pertaining to distribution
+of the software without specific, written prior permission.
+
+NETWORK COMPUTING DEVICES DISCLAIMs ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS, IN NO EVENT SHALL NETWORK COMPUTING DEVICES BE LIABLE
+FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-HPND-doc-sell-b8a094c189abfa97ff4b07088012d756
+LicenseName: Historical Permission Notice and Disclaimer - documentation sell variant
+ExtractedText: <text> Permission to use, copy, modify, distribute, and sell this
+documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice and this permission
+notice appear in all copies. Network Computing Devices, Inc.
+makes no representations about the suitability for any purpose
+of the information in this document. This documentation is
+provided "as is" without express or implied warranty. </text>
+
+  
+
+LicenseID: LicenseRef-X11-32a2ccf452a7324035a33b8059976571
+LicenseName: X11 License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not
+be used in advertising or otherwise to promote the sale, use or other
+dealings in this Software without prior written authorization from the
+X Consortium. </text>
+
+  
+
+LicenseID: LicenseRef-HPND-doc-0ffd10cb12b25ff6c1357f72e7d7a199
+LicenseName: Historical Permission Notice and Disclaimer - documentation variant
+ExtractedText: <text> Permission to use, copy, modify, and distribute this documentation for
+any purpose and without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+UniSoft makes no representations about the suitability for any purpose of
+the information in this document. This documentation is provided "as is"
+without express or implied warranty. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-99db7cd1d38ca65ee94c318d11ba74fb
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-X11-42baf2b5663a77a8578af30017482ef1
+LicenseName: X11 License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files
+(the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall
+not be used in advertising or otherwise to promote the sale, use or other
+dealings in this Software without prior written authorization from the
+X Consortium.
+X Window System is a trademark of The Open Group. </text>
+
+  
+
+LicenseID: LicenseRef-HPND-sell-variant-0b820e94cfa6f74c097d614b45c47f24
+LicenseName: Historical Permission Notice and Disclaimer - sell variant
+ExtractedText: <text> Permission to use, copy, modify, distribute, and sell this software and its
+documentation for any purpose is hereby granted without fee, provided that
+the above copyright notice appear in all copies and that both that
+copyright notice and this permission notice appear in supporting
+documentation, and that the name of Red Hat not be used in
+advertising or publicity pertaining to distribution of the software without
+specific, written prior permission. Red Hat makes no
+representations about the suitability of this software for any purpose. It
+is provided "as is" without express or implied warranty.
+
+RED HAT DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+EVENT SHALL RED HAT BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-HPND-sell-variant
+LicenseName: Historical Permission Notice and Disclaimer - sell variant
+ExtractedText: <text> Copyright 1993 by OpenVision Technologies, Inc.
+
+Permission to use, copy, modify, distribute, and sell this software
+and its documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice appears in all copies and
+that both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of OpenVision not be used
+in advertising or publicity pertaining to distribution of the software
+without specific, written prior permission. OpenVision makes no
+representations about the suitability of this software for any
+purpose.  It is provided "as is" without express or implied warranty.
+
+OPENVISION DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+EVENT SHALL OPENVISION BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+ </text>
+
+
+  
+LicenseID: LicenseRef-MIT-0
+LicenseName: MIT No Attribution
+ExtractedText: <text> MIT No Attribution
+
+Copyright <YEAR> <COPYRIGHT HOLDER>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to deal in the Software
+without restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ </text>
+
+
+
+LicenseID: LicenseRef-MIT-CMU-style
+LicenseName: MIT-CMU-style
+ExtractedText: <text> License by Nomos. </text>
+
+
+  
+LicenseID: LicenseRef-X11
+LicenseName: X11 License
+ExtractedText: <text> X11 License
+
+Copyright (C) 1996 X Consortium
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
+
+X Window System is a trademark of X Consortium, Inc.
+ </text>
+
+
+
+LicenseID: LicenseRef-scancode-mit-old-style
+LicenseName: MIT Old Style
+ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-MIT-open-group
+LicenseName: MIT Open Group variant
+ExtractedText: <text> Copyright <yyyy, yyyy> The Open Group
+
+Permission to use, copy, modify, distribute, and sell this software and
+its documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation.
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of The Open Group
+shall not be used in advertising or otherwise to promote the sale, use
+or other dealings in this Software without prior written authorization
+from The Open Group.
+ </text>
+
+
+  
+LicenseID: LicenseRef-HPND-doc-sell
+LicenseName: Historical Permission Notice and Disclaimer - documentation sell variant
+ExtractedText: <text> Copyright <year> <copyright holder>
+
+Permission to use, copy, modify, distribute, and sell this
+documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice and this permission
+notice appear in all copies. <copyright holder>
+makes no representations about the suitability for any purpose
+of the information in this document. This documentation
+is provided "as is" without express or implied warranty.
+ </text>
+
+  
+
+LicenseID: LicenseRef-scancode-x11-doc
+LicenseName: X11 Documentation License
+ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-HPND-doc
+LicenseName: Historical Permission Notice and Disclaimer - documentation variant
+ExtractedText: <text> Copyright <year> <copyright holder>
+
+Permission to use, copy, modify, and distribute this documentation for
+any purpose and without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+<copyright holder> makes no representations about the suitability for
+any purpose of the information in this document.  This documentation is
+provided ``as is'' without express or implied warranty.
+ </text>
+
