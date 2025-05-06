@@ -1,10 +1,10 @@
 ## Download Location
 
-http://deb.debian.org/debian/pool/main/b/base-files/base-files_12.4+deb12u7.dsc
+https://snapshot.debian.org/archive/debian/20240825T205544Z/pool/main/b/base-files/base-files_12.4%2Bdeb12u7.tar.xz
 
 ## Package URL (purl)
 
-pkg:debian.org/base-files@12.4+deb12u7
+pkg:generic/base-files@12.4+deb12u7?download_url=https://snapshot.debian.org/archive/debian/20240825T205544Z/pool/main/b/base-files/base-files_12.4%2Bdeb12u7.tar.xz
 
 ## Creator
 
