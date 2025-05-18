@@ -1,0 +1,1406 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "comment" : "This document was created using license information and a generator from Fossology.\nIt contains the license and copyright analysis of libepoxy 1.5.10\nPlease check \"LicenseComments\" for explanations of concluded licenses",
+    "created" : "2025-05-18T12:32:16Z",
+    "creators" : [ "Tool: fossology-4.4.0.51", "Person: Oliver Fendt" ],
+    "licenseListVersion" : "3.22"
+  },
+  "name" : "/srv/fossology/repository/report",
+  "dataLicense" : "CC0-1.0",
+  "hasExtractedLicensingInfos" : [ {
+    "licenseId" : "LicenseRef-Apache-2.0",
+    "extractedText" : "Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"{}\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright {yyyy} {name of copyright owner}\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       https://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\nlimitations under the License.",
+    "name" : "Apache License 2.0"
+  }, {
+    "licenseId" : "LicenseRef-BSD-2-Clause",
+    "extractedText" : "Copyright (c) <year> <owner>\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "name" : "BSD 2-Clause \"Simplified\" License"
+  }, {
+    "licenseId" : "LicenseRef-BSD-2-Clause-e55688bc6aa77464e12446931350c4ac",
+    "extractedText" : "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\nthis list of conditions and the following disclaimer in the documentation\nand/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "name" : "BSD 2-Clause \"Simplified\" License"
+  }, {
+    "licenseId" : "LicenseRef-CC0-1.0",
+    "extractedText" : "Creative Commons Legal Code\n\nCC0 1.0 Universal\n\n    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE\n    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN\n    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS\n    INFORMATION ON AN \"AS-IS\" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES\n    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS\n    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM\n    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED\n    HEREUNDER.\n\nStatement of Purpose\n\nThe laws of most jurisdictions throughout the world automatically confer\nexclusive Copyright and Related Rights (defined below) upon the creator\nand subsequent owner(s) (each and all, an \"owner\") of an original work of\nauthorship and/or a database (each, a \"Work\").\n\nCertain owners wish to permanently relinquish those rights to a Work for\nthe purpose of contributing to a commons of creative, cultural and\nscientific works (\"Commons\") that the public can reliably and without fear\nof later claims of infringement build upon, modify, incorporate in other\nworks, reuse and redistribute as freely as possible in any form whatsoever\nand for any purposes, including without limitation commercial purposes.\nThese owners may contribute to the Commons to promote the ideal of a free\nculture and the further production of creative, cultural and scientific\nworks, or to gain reputation or greater distribution for their Work in\npart through the use and efforts of others.\n\nFor these and/or other purposes and motivations, and without any\nexpectation of additional consideration or compensation, the person\nassociating CC0 with a Work (the \"Affirmer\"), to the extent that he or she\nis an owner of Copyright and Related Rights in the Work, voluntarily\nelects to apply CC0 to the Work and publicly distribute the Work under its\nterms, with knowledge of his or her Copyright and Related Rights in the\nWork and the meaning and intended legal effect of CC0 on those rights.\n\n1. Copyright and Related Rights. A Work made available under CC0 may be\nprotected by copyright and related or neighboring rights (\"Copyright and\nRelated Rights\"). Copyright and Related Rights include, but are not\nlimited to, the following:\n\n  i. the right to reproduce, adapt, distribute, perform, display,\n     communicate, and translate a Work;\n ii. moral rights retained by the original author(s) and/or performer(s);\niii. publicity and privacy rights pertaining to a person's image or\n     likeness depicted in a Work;\n iv. rights protecting against unfair competition in regards to a Work,\n     subject to the limitations in paragraph 4(a), below;\n  v. rights protecting the extraction, dissemination, use and reuse of data\n     in a Work;\n vi. database rights (such as those arising under Directive 96/9/EC of the\n     European Parliament and of the Council of 11 March 1996 on the legal\n     protection of databases, and under any national implementation\n     thereof, including any amended or successor version of such\n     directive); and\nvii. other similar, equivalent or corresponding rights throughout the\n     world based on applicable law or treaty, and any national\n     implementations thereof.\n\n2. Waiver. To the greatest extent permitted by, but not in contravention\nof, applicable law, Affirmer hereby overtly, fully, permanently,\nirrevocably and unconditionally waives, abandons, and surrenders all of\nAffirmer's Copyright and Related Rights and associated claims and causes\nof action, whether now known or unknown (including existing as well as\nfuture claims and causes of action), in the Work (i) in all territories\nworldwide, (ii) for the maximum duration provided by applicable law or\ntreaty (including future time extensions), (iii) in any current or future\nmedium and for any number of copies, and (iv) for any purpose whatsoever,\nincluding without limitation commercial, advertising or promotional\npurposes (the \"Waiver\"). Affirmer makes the Waiver for the benefit of each\nmember of the public at large and to the detriment of Affirmer's heirs and\nsuccessors, fully intending that such Waiver shall not be subject to\nrevocation, rescission, cancellation, termination, or any other legal or\nequitable action to disrupt the quiet enjoyment of the Work by the public\nas contemplated by Affirmer's express Statement of Purpose.\n\n3. Public License Fallback. Should any part of the Waiver for any reason\nbe judged legally invalid or ineffective under applicable law, then the\nWaiver shall be preserved to the maximum extent permitted taking into\naccount Affirmer's express Statement of Purpose. In addition, to the\nextent the Waiver is so judged Affirmer hereby grants to each affected\nperson a royalty-free, non transferable, non sublicensable, non exclusive,\nirrevocable and unconditional license to exercise Affirmer's Copyright and\nRelated Rights in the Work (i) in all territories worldwide, (ii) for the\nmaximum duration provided by applicable law or treaty (including future\ntime extensions), (iii) in any current or future medium and for any number\nof copies, and (iv) for any purpose whatsoever, including without\nlimitation commercial, advertising or promotional purposes (the\n\"License\"). The License shall be deemed effective as of the date CC0 was\napplied by Affirmer to the Work. Should any part of the License for any\nreason be judged legally invalid or ineffective under applicable law, such\npartial invalidity or ineffectiveness shall not invalidate the remainder\nof the License, and in such case Affirmer hereby affirms that he or she\nwill not (i) exercise any of his or her remaining Copyright and Related\nRights in the Work or (ii) assert any associated claims and causes of\naction with respect to the Work, in either case contrary to Affirmer's\nexpress Statement of Purpose.\n\n4. Limitations and Disclaimers.\n\n a. No trademark or patent rights held by Affirmer are waived, abandoned,\n    surrendered, licensed or otherwise affected by this document.\n b. Affirmer offers the Work as-is and makes no representations or\n    warranties of any kind concerning the Work, express, implied,\n    statutory or otherwise, including without limitation warranties of\n    title, merchantability, fitness for a particular purpose, non\n    infringement, or the absence of latent or other defects, accuracy, or\n    the present or absence of errors, whether or not discoverable, all to\n    the greatest extent permissible under applicable law.\n c. Affirmer disclaims responsibility for clearing rights of other persons\n    that may apply to the Work or any use thereof, including without\n    limitation any person's Copyright and Related Rights in the Work.\n    Further, Affirmer disclaims responsibility for obtaining any necessary\n    consents, permissions or other rights required for any use of the\n    Work.\n d. Affirmer understands and acknowledges that Creative Commons is not a\n    party to this document and has no duty or obligation with respect to\n    this CC0 or use of the Work.",
+    "name" : "Creative Commons Zero v1.0 Universal"
+  }, {
+    "licenseId" : "LicenseRef-MIT",
+    "extractedText" : "MIT License\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-MIT-0e9c75d366e70632b59abdf9ebdb9efb",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and/or associated documentation files (the\n\"Materials\"), to deal in the Materials without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Materials, and to\npermit persons to whom the Materials are furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Materials.\n\nTHE MATERIALS ARE PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nMATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-MIT-5debb370f50e1dfd24ff5144233a2ef6",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "extractedText" : "Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the \"Software\"),\nto deal in the Software without restriction, including without limitation\nthe rights to use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice (including the next\nparagraph) shall be included in all copies or substantial portions of the\nSoftware.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\nTHE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\nIN THE SOFTWARE.",
+    "name" : "MIT License"
+  }, {
+    "licenseId" : "LicenseRef-scancode-khronos",
+    "extractedText" : "License by Scancode.",
+    "name" : "Khronos License"
+  } ],
+  "documentNamespace" : "http://fossy.osadl.org/repo/SPDX2TV_libepoxy-1.5.10.tar.gz_1747571536.spdx",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-upload2901",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "f0730aad115c952e77591fcc805b1dc1"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f86e817b293eb30ca1e26d159de3a5903ee92f54"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a7ced37f4102b745ac86d6a70a9da399cc139ff168ba6b8002b4d8d43c900c15"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "https://github.com/anholt/libepoxy/archive/refs/tags/1.5.10.tar.gz",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:github/anholt/libepoxy@1.5.10",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : true,
+    "licenseComments" : "licenseInfoInFile determined by Scanners:\n - nomos (\"4.4.0.51\".1e52cb)\n - monk (\"4.4.0.51\".1e52cb)\n - ojo (\"4.4.0.51\".1e52cb)\n- scancode (\"4.4.0.51\".1e52cb)",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "(LicenseRef-MIT-5debb370f50e1dfd24ff5144233a2ef6 AND LicenseRef-MIT-0e9c75d366e70632b59abdf9ebdb9efb)",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "libepoxy-1.5.10.tar.gz",
+    "packageFileName" : "libepoxy-1.5.10.tar.gz",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "1a8438523147a31c05cc5bc5d194a008433c2011"
+    }
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-item13433705",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fbdfc6472ba08b0835e5f040beec8a55b9d6e19adf31f0d666c6737f74239c3e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3b7f473b0186ef8e784dd98a14efe8c3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "faa9be4c6c7abd8779a66c404ebec09c3a38f8a4"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/meson.build",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433748",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "56b503e79f65ac674bd5b62ca58065f72a08e261347819cd2a186077d03ebaeb"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a0b2c302302b3efb59e340a374494f11"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "947afc62d23984dacc6f1df86fd0851ac84b005a"
+    } ],
+    "copyrightText" : "Copyright © 2013-2014 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_common.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433706",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "9d992b37665a265c29486a473be9b8d4"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "dfc8cf87c7c0f04ef0ec90ee1dc6a6902030bdc6"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f8732ebd6afe76d19d15df2e61b99734e299013ac3d54303b6aee0427e523f15"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_alias_prefer_same_name.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433749",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fd7fa65b45441fe4bd9e73ec44fbe8e380a4db8bb4a514f916bc766164cf878d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "ee4fb66cdab187889c541e244188408d"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "94270e919b3d6b8b2112baf08ecddf1769548732"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/meson.build",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433703",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "fb26dc8214d849f6dc376b4c2fa5490e3c29f290"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e9b7d65ce693257e88121479cb2ef76b074a782581de6614ee0f2d9d1f35110d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "9025a87f872604cc4cf662cd0dd6a34f"
+    } ],
+    "copyrightText" : "Copyright © 2013, Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/dlwrap.c",
+    "licenseConcluded" : "LicenseRef-MIT-5debb370f50e1dfd24ff5144233a2ef6",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433694",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a61832ec19f3a66910f76b3062a59be11f008992"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "39d0c1e9418718b9d678a34b9183a46f53f97afd15e133a9b30003ddfb76fbb0"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "43106d6021e32242aab17d7ab94d860f"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_usefontbitmaps.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433693",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b724e71b6b3b1eefdac339c91424bd7d324e3d2d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8a26b889a879ba26dbf932ce9f229c688b3bf242027577bfe730c14e343da4e9"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b3c9c9e068427c875f5a755be0d9691d"
+    } ],
+    "copyrightText" : "Copyright © 2014 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/khronos_typedefs.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433704",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "532634e5b31690d59fcac691af161431"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4853acdde9ccabeb0d9c0b812a4525554faa9094"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fcc4cf3d05f839b490afd4e8c0dd504dd33cc489f2aa34f5d316dde76ed5e843"
+    } ],
+    "copyrightText" : "Copyright 2018 Emmanuele Bassi",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_epoxy_api.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433696",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "614aea6318299960b98fcbc078d3f675"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c5e434c6ea964c6e89c6c4f4ce342f0f7b53b486"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c5e8b5916f62bcd73f923c59405d11b52d65c91d22c91963dd92a005a133b746"
+    } ],
+    "copyrightText" : "Copyright © 2014 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/khronos_typedefs_nonepoxy.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433747",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "18447c9106523202d304d992fc9f67ba"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "837ccb30447a03be7ab27bf19d66b21e67859c43"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "81668db93a601ca7b4250095a2480216f345f8a7610f481f6aa5cec239c0d253"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/gen_dispatch.py",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433695",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ec0bb8158fc1838ad28c0152704a27d162825fa5b932376a40f19e17804734f9"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "45ad49e7477412b06150fdb18f1fdd19"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d44a38830cafb37447358887ee6186fc5a09c708"
+    } ],
+    "copyrightText" : "Copyright © 2009, 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_common.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433708",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "92cc04244dc9134db9ade9279191f360d1e71c725ea4b3f84fb54606694d73a9"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "6c9bfe7b41a27fbdf34b127e4d00562c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "48d0b535b85ffc9cb6d813f2f39a12c2a2e35462"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_has_extension_nocontext.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433707",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "585db28658a64ca6bc120df44280febd99c7e97b65545a2ff0756021bcd3a6e3"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "f71df539210504bc9c4e2c2d755408be"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6b4c8ef573a3629363af91428ad8f56acc774006"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_common.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433709",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "835f69cf9c7e36eb33694f268ed5a07e42a5582e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f177cefa10b7afdf1bfba43349bda50683ad43ac0885fb1c56222db666288fe7"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "665d409c51c0aceacd183a5c0ec8c8cb"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_public_api.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433690",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "212630a1a94fadeee9d97b22b11542811a30348d7b12c4c89e3c012a0bd70e41"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3aab42cede18b1f7317c408f13377c61"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "46bdd903c66419ab46ef0b36f85a61be781e4d4e"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_gles2.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433692",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c30c33d33de7f94810b4fd124e08978df8a4d9513eb41a4fdbb6c0cca3ce136d"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "04f2323794e23f5b4aee69d25ea424b480df0375"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "75a7cbeb1e8d4d0b6c42db8046f48c16"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_common.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433691",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9b19421fdbb5f0996892a3ab19433493aca0e90e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a0a5699972a7f13544795a678e373d17ee97812244bdd2887018ae03d369c89b"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "0339f9f417136893dd916bcc3888b397"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/headerguards.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433742",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "9e709fe85e9450308e5de5fdc3dc6c8a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e2ca6b4ef42078977e6f40d59e0712a8d2051721"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fa2e262d69bb424a4f12bbee5de898fd2bf497af5c6450d83605121d981ffe87"
+    } ],
+    "copyrightText" : "Copyright (c) 2013-2017 The Khronos Group Inc.",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/egl.xml",
+    "licenseConcluded" : "LicenseRef-MIT-0e9c75d366e70632b59abdf9ebdb9efb",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-khronos", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433727",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "bb48aca4da8a52012ac5830bfd51a440371f1764a423111dfa3a50fe5b67006c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "981cf152f07882c662f2c2f122956675"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3fe48c4304ea55e2244d163d3759c222e1ef76fb"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/doc/Doxyfile.in",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433741",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f65cb936d38031881967a77a3d2cb082687f3d17"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "65b0e7490247280bcded30d59f55b2aa11eb869a27e4b055eeb91dd545087cd1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "8a9af4a06f300b1d8040e96c24a2e1da"
+    } ],
+    "copyrightText" : "Copyright (c) 2013-2018 The Khronos Group Inc.",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/wgl.xml",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433725",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "53f5f7e09926b60deba7af4d804c05cc771b6945"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fd65cb3ac94480956191020a5f624ee4d1144b09b4adc2e422ad1c210f33fbb3"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d28dcc478cb277756666146f54b0b909"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/meson.build",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433700",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "29842ca137eadac8dd9bdb27e9b1572de26bd911"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "641808d6f747ff5296549c8be7bf61819bf8466be267934cc636c1e129c7487b"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "83b611fab15051c40b130f5554d6ba9d"
+    } ],
+    "copyrightText" : "Copyright © 2014 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_without_glx.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433729",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "00f34512740377ad1f155eaa15936e472661c5e3"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8d5144666f9c4df9bbd69b8900086d5979259152a1060421cdcc0fb9061a1c12"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "58ef4c80d401e07bd9ee8b6b58cf464b"
+    } ],
+    "copyrightText" : "Copyright © 2013-2014 Intel Corporation\nCopyright (c) 2013 The Khronos Group Inc.",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/COPYING",
+    "licenseConcluded" : "LicenseRef-MIT-0e9c75d366e70632b59abdf9ebdb9efb",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-khronos", "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433743",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9865fa037a877492d730b108632682b49b6357af"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b0c759902920659a9104c61acf4973d7823a7a4121eba58a3e606e06a7bbf16a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "e897728ac59270b3d8fd48d799b0f2d1"
+    } ],
+    "copyrightText" : "Copyright (c) 2013-2018 The Khronos Group Inc.",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/glx.xml",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433728",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5b6497d978e9930675520abfc6cff2083087abe47a7a53a36b8404628a02640e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "786cf968fd4beea874ec20f20c2caf9c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2ee80b103be62507dea638be25f853a9f7a38fb7"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/doc/meson.build",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433689",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "39373ceeb57a78b6bed4f9e3a5d122a6bd706c31"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "7c0ca251ec0eaebfea2cb8583630873c59fb92a3c2f82e11702ac43c579aa19e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "2227ff7cab0c2e4ed645022fc68c23dd"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_glxgetprocaddress_nocontext.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433721",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "916ec429116bd334b86ea04569bb69d3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ca7ca583e6f51533d5de5a7da10c6bd8017a2b4c"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "043b607eeca6c4b32e0a1590e68436ec3e43d9b22cd358025c18b3543bbb996a"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/workflows/macos.yml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433740",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "853b88a523aa356aff292c8d6120c316da086a1ff9d5cf92870f3d2a142338fb"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "17d749345b61e8d99a04613e97d9afc0"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "15280523e58d4fa990c51ecf8ac4a3e5aa2f387b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/README.md",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433724",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2f7b297042ae6282a099e8af30bd129055323501bdc9ee8afe91183e94485206"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3fc983462940661f50bd10f8259ec34b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2e4d4d19e5499d5884c715d1a828c76be5c767eb"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/scripts/epoxy-ci-linux.sh",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433739",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b540624cd79895736b7a165d0d5f24caa76b631d1b99a3ef4f0ba039970342da"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "27b4af6f2286230bba1b5d8fd5117843"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c87a9f4f289ac164b78535564584bd36f2f9fd21"
+    } ],
+    "copyrightText" : "Copyright (c) 2013-2018 The Khronos Group Inc.",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/gl.xml",
+    "licenseConcluded" : "LicenseRef-Apache-2.0",
+    "licenseInfoInFiles" : [ "LicenseRef-Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433723",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1381ada5fc281a9ead31dce4581d108ce20bf85bb208079f34b83d3bfb559e22"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "bc9f46278ccd49ab33597bb96125d260"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "09baccf5993fec276dc7c5f306fc31998137cb8c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/scripts/epoxy-ci-osx.sh",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433745",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "140aa8ca0f24f81c44751418cd43ec0553160908"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "9768c4270336c36dc53f1720c87eb66e78369c507a8d772fd640ae37b8e56105"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "e67fc25bc45b250f93dd8f5af4a868b3"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_common.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433701",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ff672bcd01249a6c649342f988f06a707f80bd06796e368864e9c293720a7167"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3ae140dc5c5dc4a34e0fb172d4057088"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a9bfd1ba17df4a406f6ae9ec49c9a9d17d7fd9cf"
+    } ],
+    "copyrightText" : "Copyright © 2014 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_gl.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433746",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4b3a85ddc338b734c2cee6a3a462dd3b32b07ea5"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e665412b12b9b9549278057b6f9c16ef156ba28fa342ace851b02242bc6fb922"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3fa0faa98659fdf2ee4dc2a056180b64"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_wgl.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433702",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "95b68037f04421183f28408486babcc58cea1192"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "967dbc130ed3402918cd08eacfe1330b204edf26cb15d6488f0bac5479d1b3b1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "76a77dbc4c89db21c5211aa7062a0afb"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_common.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433688",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "7d3748076d72dc2eb6b9fb81c48ff4d6"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "05208b6398e1289085b49155958be8477605f5a1"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "18204ea6c1cf11750ea92160a90468889282371a36ce52b8bd30821c9cebc910"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/miscdefines.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433720",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "58d6d936b5db47db131be289eb1983fa"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3285d744a4265136be55cb6f7601a52f84499df0"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "52bf3c730abfb154a6a6cef272f1645a0840e34473be49b9e81cbd14c0a6ca70"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/workflows/linux.yml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433698",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e9a4767bbf5743a19db45da7009103b99d79b14a"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0654803e63eaab67ab923c75f17a80772f236e01e73851fdbc995d7ab7c1863a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "8f17572f5d91e834ea52e12985ca1e3d"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_core_and_exts.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433684",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "38cdc316ac1f279e9374ff19e481617aebc93cf45171f9accda69f03809d1974"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "f758f74e47aa5ccd46c3e67669292d2b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "513f786a759c9b86208d182c9cf0ea619003f926"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_static.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433697",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "f41dce2047ace1316e0e289fd04cb1e0"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "af6a0c39f7989dabeb402adf869445aa66973888"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "9cbe49455777001c5ce2b65bd15649dbabe6f5100125dfc2f32e754ccc3dd28d"
+    } ],
+    "copyrightText" : "Copyright © 2018 Broadcom",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/gl_version.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433682",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "83f163f2344f00a365ad1b48c4ecce0bcdb3ee43"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f0398914a161bd15379a99b694fa488ae730dc8ad8d7645b3eb0b7df6bd77b7d"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "df377e5338144a135c2ec408b1a70330"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/meson_options.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433732",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "2c4f5154d8d924a0cbba5e1f781075ea"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d0cca5f142c20faf92b0f936752588d0dd2de306"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "7afe6701e87e83744229e2c1de7648af54c450cc863aff65e394d465f48cc68d"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/glx.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433686",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "7c745ac367c48cc6a6a65f469efea6cf"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6b7d642ca886f00cf5f2e8e792a268bd59650063"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ea2f098cb76a48f00f4c1e9f3650845f09b2aad873f50c3a20e5db40e6854ee9"
+    } ],
+    "copyrightText" : "Copyright 2018 Emmanuele Bassi",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/cgl_epoxy_api.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433699",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "3d5cf90a3c2d30ceb53a4c6bc2032af0"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "7b415f5a86c7a0cb0c2268408bae3873bbeb77232cd88cd6baff2cc2e69f9759"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2a608862359f6a718b0de8302de9d33b285fe356"
+    } ],
+    "copyrightText" : "Copyright (c) 2009-present, Homebrew contributors All rights reserved.",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/cgl_core.c",
+    "licenseConcluded" : "LicenseRef-BSD-2-Clause-e55688bc6aa77464e12446931350c4ac",
+    "licenseInfoInFiles" : [ "LicenseRef-BSD-2-Clause" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433685",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8bc628f9a7200a3c3bbf2376346afb763a1bb427075b9a6163aae179c2ce4da4"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b4750ca8fea8961ef79c46bb07771477"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c084c371dbae9c1e46b8b324f620c10a0ad1a6ed"
+    } ],
+    "copyrightText" : "Copyright © 2013, Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/dlwrap.h",
+    "licenseConcluded" : "LicenseRef-MIT-5debb370f50e1dfd24ff5144233a2ef6",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433719",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ce953f68d20cc86e9ec3c1409aa2bf3e0691fb26a3b2fee62213dabb2d5773b3"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "f8c0e1d20efc4e4938edb2f866851ab8"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4d78d21e5cf5bb70512d1f70c6b262f0062dc76f"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/workflows/msys2.yml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433718",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d25b03482b2841c8c645ba1d42d448bef3928f1d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0ff2be9c00eb61d7d3855fcabd81c612052652822897346515dccfafcc77ffa6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b67c166adf5980ca577fffce0e169eb8"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/workflows/msvc-env.yml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433681",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "08ecaab4ea9a7742e05e70974b73c0b22d2ca401"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2d89f2d0fee485d1ceab8bf768dbc35d041ab711e72f74c4c17546f429b53307"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "77d23f0efd9c8cbb0efdf389a5f73824"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/README.md",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433680",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "46e022b7a17adf54c81e21e686611b0b1e353f33e60c95a6bda9a0a7c01ad25a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "873d47cac00d9982eddb8147d78f105e"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c93c7792107bb71b636e8110d90d54a7d3e1afa7"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/cross/fedora-mingw64.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433737",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "c1e5eaa0f159f20ab2422777db6cc4f5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7aafd3bb071c2c09419c359910703a73828d9d7b"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "85e54fa79a3c2142077400df87fdcd33e437d74df92bce4e830239111beedaa0"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/gl.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433734",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "3dd0220bcf8d479e71d09eddf9871b59"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "6df974ee1ab45b8580eb4111a5b00ac28535646c17c9d5c34f964f03ef4b8869"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c79c226fdd4cd2251aa9057f95554f1421d3e490"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/meson.build",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433733",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "29c01316343c97b646e2b34b0ffc4b0be99d2586d0a69ab93dc37a3a8acfe5ce"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "8269f65094e86ffdffd5cf4c06b4f2c9"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a90a215bc710500a7463f024fd64514d8a20efd3"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/egl.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433687",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0c4a9ef313de73f61eadd2a3a59bcaa5833183f7"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fcac3db2492d718dcf5acd311986a84990517fd888973e8c647a888385a25e09"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d9b6539a40e38288b20db99a51042420"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_has_extension_nocontext.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433736",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4aeb6e95cb08b7b244d05b39440ce0eeece448fe"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "6ca081490cf1f40806a2369a017da5e1db309bb7494e286aae61a5b8e5c48ca5"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "6d020ac3be51bfa578f65af07d6cd32b"
+    } ],
+    "copyrightText" : "Copyright 2017 Emmanuele Bassi",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/common.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433735",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "48761b22e8f8d3188366b57ed31760443a60baff"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "befb3dd5b3fa0ce6bf523bdf9d02ee8eb5c41eb1aa092c97ea32794e099ae149"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "dd3044fd8086f61c6f8c60910ccb9084"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/wgl.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433715",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "25962e73d0aae2fd534edf45221726d8"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "da06a772a8b98a903f54d72aa2e52f4144c0d11f2e297035ec5a899854098495"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "689597bfa91974899dfe802a7624db052c2a652c"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_public_api_core.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433711",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0285364da4bedd717abcc25b9d1bdc8e879f6bce"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "31835d69de44fa76cb3666f66bdd2cbebfeae1f312af1e0def3ece63904f875c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "d304e823d53695aa889f200475acfe31"
+    } ],
+    "copyrightText" : "Copyright © 2014 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/khronos_typedefs.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433710",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "ded36fe1053b10da87bd2295504c357a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4e2b3dc9ef9c34cc3ea069258a73f8de37025e8e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "3d77e22e369c25513f3e77be88c276fcb84d41c2f1100f81e829e36b286a0ef0"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_common.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433712",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "82bd3bb66810bc90942d146c71b6a27c8b91af38"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "89d7681d026efbc0e37ca454f0a685a517f00678af9f53a7a8dcbc08148e3ee1"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "3d53676205187d1845845fb4e88c9840"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_per_context_funcptrs.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433678",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "809600675a99d187afb5c95472ecc6ebc81651f5"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5e8f987a1278ec7513ca38eaf839fca4fc4d958386d897c75273ec2f246b301a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "aa54fdb6ff5487e3cb9eef4c7ded35a6"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.dir-locals.el",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433751",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "22e03dd84022afd4b58dd62bd090026b9a8b6f7b982e3a5cc4ce2f1a6e8ac587"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "27fac6ca9d3d8a0a4ef703891abbb2e2"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4ff2c38be578cd2811bbeff93e819e71475d7570"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_glx.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433750",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e4fbca61218cee8fbbda5ecd6c307d64c30dd8b4"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "444df7c8a6bf86004be58aea7370006441b356b2e966d64784fea390223bf813"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "7a4986076b7a3cc8cbcc50766c477f3e"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_egl.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433753",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "8df16ee8bc4dc62b9a0b549f99df2d9c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "97e1c011e555472052e39794abf8f02281d68a55"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c8313a07e5380436e77bf9a25acc8e403c7785c9bbd15e37f7dbe245f8c2c24a"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.gitignore",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433752",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "72b3cc69a0c0ae4c544c83a4ceb5d07af80214e1"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "3f5511b8223583228fa0917215a416260d0cb1f17e9800632be1f946dcaa994b"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c7f95006af5aa45008604b50556204ae"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.editorconfig",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433714",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "9748dd6302e5bd45276cf8355fef84c09ea9b8f9888f30721a111364ecf953de"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "92f18d4e63ee822ddf3e20ef40a9c75b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3df521545811d8ce75cf1ee888e4c5c71a303b09"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_beginend.c",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  }, {
+    "SPDXID" : "SPDXRef-item13433713",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "cdeb6a9a4fe7293642eeea2f02b32f8f011ea2bc77b3ecb3ff28ef293c12d1d7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5b781dcfd458eb5dfb31d7081146951e16fc993f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b1f8bd8913c4ee434207d3e40e2c0be9"
+    } ],
+    "copyrightText" : "Copyright © 2013 Intel Corporation",
+    "fileName" : "libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_common.h",
+    "licenseConcluded" : "LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b",
+    "licenseInfoInFiles" : [ "LicenseRef-MIT" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-upload2901"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433696"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433704"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433727"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433685"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433701"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433699"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433687"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433752"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433745"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433686"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433733"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433753"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433693"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433742"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433691"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433746"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433736"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433694"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433703"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433692"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433732"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433750"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433723"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433737"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433751"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433739"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433682"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433678"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433690"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433734"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433749"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433706"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433709"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433697"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433705"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433710"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433700"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433740"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433684"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433711"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433721"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433698"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433680"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433748"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433707"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433743"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433712"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433708"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433729"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433724"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433695"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433720"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433681"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433718"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433728"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433688"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433735"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433713"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433702"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433719"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433714"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433747"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433725"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433689"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433715"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2901",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item13433741"
+  } ]
+}
