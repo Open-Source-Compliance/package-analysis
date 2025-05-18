@@ -1,0 +1,1251 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_libepoxy-1.5.10.tar.gz_1747571536.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of libepoxy 1.5.10
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2025-05-18T12:32:16Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: libepoxy-1.5.10.tar.gz
+PackageFileName: libepoxy-1.5.10.tar.gz
+SPDXID: SPDXRef-upload2901
+PackageDownloadLocation: https://github.com/anholt/libepoxy/archive/refs/tags/1.5.10.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/anholt/libepoxy@1.5.10
+FilesAnalyzed: true
+PackageVerificationCode: 1a8438523147a31c05cc5bc5d194a008433c2011
+PackageChecksum: SHA1: f86e817b293eb30ca1e26d159de3a5903ee92f54
+PackageChecksum: SHA256: a7ced37f4102b745ac86d6a70a9da399cc139ff168ba6b8002b4d8d43c900c15
+PackageChecksum: MD5: f0730aad115c952e77591fcc805b1dc1
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-MIT-5debb370f50e1dfd24ff5144233a2ef6 AND LicenseRef-MIT-0e9c75d366e70632b59abdf9ebdb9efb
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2901
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/COPYING
+SPDXID: SPDXRef-item13433729
+FileChecksum: SHA1: 00f34512740377ad1f155eaa15936e472661c5e3
+FileChecksum: SHA256: 8d5144666f9c4df9bbd69b8900086d5979259152a1060421cdcc0fb9061a1c12
+FileChecksum: MD5: 58ef4c80d401e07bd9ee8b6b58cf464b
+LicenseConcluded: LicenseRef-MIT-0e9c75d366e70632b59abdf9ebdb9efb
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-khronos
+FileCopyrightText: <text> Copyright © 2013-2014 Intel Corporation
+Copyright (c) 2013 The Khronos Group Inc. </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/egl.xml
+SPDXID: SPDXRef-item13433742
+FileChecksum: SHA1: e2ca6b4ef42078977e6f40d59e0712a8d2051721
+FileChecksum: SHA256: fa2e262d69bb424a4f12bbee5de898fd2bf497af5c6450d83605121d981ffe87
+FileChecksum: MD5: 9e709fe85e9450308e5de5fdc3dc6c8a
+LicenseConcluded: LicenseRef-MIT-0e9c75d366e70632b59abdf9ebdb9efb
+LicenseInfoInFile: LicenseRef-scancode-khronos
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2013-2017 The Khronos Group Inc. </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/dlwrap.c
+SPDXID: SPDXRef-item13433703
+FileChecksum: SHA1: fb26dc8214d849f6dc376b4c2fa5490e3c29f290
+FileChecksum: SHA256: e9b7d65ce693257e88121479cb2ef76b074a782581de6614ee0f2d9d1f35110d
+FileChecksum: MD5: 9025a87f872604cc4cf662cd0dd6a34f
+LicenseConcluded: LicenseRef-MIT-5debb370f50e1dfd24ff5144233a2ef6
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013, Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/dlwrap.h
+SPDXID: SPDXRef-item13433685
+FileChecksum: SHA1: c084c371dbae9c1e46b8b324f620c10a0ad1a6ed
+FileChecksum: SHA256: 8bc628f9a7200a3c3bbf2376346afb763a1bb427075b9a6163aae179c2ce4da4
+FileChecksum: MD5: b4750ca8fea8961ef79c46bb07771477
+LicenseConcluded: LicenseRef-MIT-5debb370f50e1dfd24ff5144233a2ef6
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013, Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/cgl_core.c
+SPDXID: SPDXRef-item13433699
+FileChecksum: SHA1: 2a608862359f6a718b0de8302de9d33b285fe356
+FileChecksum: SHA256: 7b415f5a86c7a0cb0c2268408bae3873bbeb77232cd88cd6baff2cc2e69f9759
+FileChecksum: MD5: 3d5cf90a3c2d30ceb53a4c6bc2032af0
+LicenseConcluded: LicenseRef-BSD-2-Clause-e55688bc6aa77464e12446931350c4ac
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright (c) 2009-present, Homebrew contributors All rights reserved. </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/gl.xml
+SPDXID: SPDXRef-item13433739
+FileChecksum: SHA1: c87a9f4f289ac164b78535564584bd36f2f9fd21
+FileChecksum: SHA256: b540624cd79895736b7a165d0d5f24caa76b631d1b99a3ef4f0ba039970342da
+FileChecksum: MD5: 27b4af6f2286230bba1b5d8fd5117843
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright (c) 2013-2018 The Khronos Group Inc. </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/wgl.xml
+SPDXID: SPDXRef-item13433741
+FileChecksum: SHA1: f65cb936d38031881967a77a3d2cb082687f3d17
+FileChecksum: SHA256: 65b0e7490247280bcded30d59f55b2aa11eb869a27e4b055eeb91dd545087cd1
+FileChecksum: MD5: 8a9af4a06f300b1d8040e96c24a2e1da
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright (c) 2013-2018 The Khronos Group Inc. </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/glx.xml
+SPDXID: SPDXRef-item13433743
+FileChecksum: SHA1: 9865fa037a877492d730b108632682b49b6357af
+FileChecksum: SHA256: b0c759902920659a9104c61acf4973d7823a7a4121eba58a3e606e06a7bbf16a
+FileChecksum: MD5: e897728ac59270b3d8fd48d799b0f2d1
+LicenseConcluded: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-Apache-2.0
+FileCopyrightText: <text> Copyright (c) 2013-2018 The Khronos Group Inc. </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_common.h
+SPDXID: SPDXRef-item13433702
+FileChecksum: SHA1: 95b68037f04421183f28408486babcc58cea1192
+FileChecksum: SHA256: 967dbc130ed3402918cd08eacfe1330b204edf26cb15d6488f0bac5479d1b3b1
+FileChecksum: MD5: 76a77dbc4c89db21c5211aa7062a0afb
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_beginend.c
+SPDXID: SPDXRef-item13433714
+FileChecksum: SHA1: 3df521545811d8ce75cf1ee888e4c5c71a303b09
+FileChecksum: SHA256: 9748dd6302e5bd45276cf8355fef84c09ea9b8f9888f30721a111364ecf953de
+FileChecksum: MD5: 92f18d4e63ee822ddf3e20ef40a9c75b
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_epoxy_api.c
+SPDXID: SPDXRef-item13433704
+FileChecksum: SHA1: 4853acdde9ccabeb0d9c0b812a4525554faa9094
+FileChecksum: SHA256: fcc4cf3d05f839b490afd4e8c0dd504dd33cc489f2aa34f5d316dde76ed5e843
+FileChecksum: MD5: 532634e5b31690d59fcac691af161431
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2018 Emmanuele Bassi </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_public_api_core.c
+SPDXID: SPDXRef-item13433715
+FileChecksum: SHA1: 689597bfa91974899dfe802a7624db052c2a652c
+FileChecksum: SHA256: da06a772a8b98a903f54d72aa2e52f4144c0d11f2e297035ec5a899854098495
+FileChecksum: MD5: 25962e73d0aae2fd534edf45221726d8
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/wgl.h
+SPDXID: SPDXRef-item13433735
+FileChecksum: SHA1: 48761b22e8f8d3188366b57ed31760443a60baff
+FileChecksum: SHA256: befb3dd5b3fa0ce6bf523bdf9d02ee8eb5c41eb1aa092c97ea32794e099ae149
+FileChecksum: MD5: dd3044fd8086f61c6f8c60910ccb9084
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_common.c
+SPDXID: SPDXRef-item13433710
+FileChecksum: SHA1: 4e2b3dc9ef9c34cc3ea069258a73f8de37025e8e
+FileChecksum: SHA256: 3d77e22e369c25513f3e77be88c276fcb84d41c2f1100f81e829e36b286a0ef0
+FileChecksum: MD5: ded36fe1053b10da87bd2295504c357a
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_usefontbitmaps.c
+SPDXID: SPDXRef-item13433694
+FileChecksum: SHA1: a61832ec19f3a66910f76b3062a59be11f008992
+FileChecksum: SHA256: 39d0c1e9418718b9d678a34b9183a46f53f97afd15e133a9b30003ddfb76fbb0
+FileChecksum: MD5: 43106d6021e32242aab17d7ab94d860f
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/glx.h
+SPDXID: SPDXRef-item13433732
+FileChecksum: SHA1: d0cca5f142c20faf92b0f936752588d0dd2de306
+FileChecksum: SHA256: 7afe6701e87e83744229e2c1de7648af54c450cc863aff65e394d465f48cc68d
+FileChecksum: MD5: 2c4f5154d8d924a0cbba5e1f781075ea
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_core_and_exts.c
+SPDXID: SPDXRef-item13433698
+FileChecksum: SHA1: e9a4767bbf5743a19db45da7009103b99d79b14a
+FileChecksum: SHA256: 0654803e63eaab67ab923c75f17a80772f236e01e73851fdbc995d7ab7c1863a
+FileChecksum: MD5: 8f17572f5d91e834ea52e12985ca1e3d
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_alias_prefer_same_name.c
+SPDXID: SPDXRef-item13433706
+FileChecksum: SHA1: dfc8cf87c7c0f04ef0ec90ee1dc6a6902030bdc6
+FileChecksum: SHA256: f8732ebd6afe76d19d15df2e61b99734e299013ac3d54303b6aee0427e523f15
+FileChecksum: MD5: 9d992b37665a265c29486a473be9b8d4
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_common.c
+SPDXID: SPDXRef-item13433707
+FileChecksum: SHA1: 6b4c8ef573a3629363af91428ad8f56acc774006
+FileChecksum: SHA256: 585db28658a64ca6bc120df44280febd99c7e97b65545a2ff0756021bcd3a6e3
+FileChecksum: MD5: f71df539210504bc9c4e2c2d755408be
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_per_context_funcptrs.c
+SPDXID: SPDXRef-item13433712
+FileChecksum: SHA1: 82bd3bb66810bc90942d146c71b6a27c8b91af38
+FileChecksum: SHA256: 89d7681d026efbc0e37ca454f0a685a517f00678af9f53a7a8dcbc08148e3ee1
+FileChecksum: MD5: 3d53676205187d1845845fb4e88c9840
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_glx.c
+SPDXID: SPDXRef-item13433751
+FileChecksum: SHA1: 4ff2c38be578cd2811bbeff93e819e71475d7570
+FileChecksum: SHA256: 22e03dd84022afd4b58dd62bd090026b9a8b6f7b982e3a5cc4ce2f1a6e8ac587
+FileChecksum: MD5: 27fac6ca9d3d8a0a4ef703891abbb2e2
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_gl.c
+SPDXID: SPDXRef-item13433701
+FileChecksum: SHA1: a9bfd1ba17df4a406f6ae9ec49c9a9d17d7fd9cf
+FileChecksum: SHA256: ff672bcd01249a6c649342f988f06a707f80bd06796e368864e9c293720a7167
+FileChecksum: MD5: 3ae140dc5c5dc4a34e0fb172d4057088
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2014 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/khronos_typedefs.c
+SPDXID: SPDXRef-item13433711
+FileChecksum: SHA1: 0285364da4bedd717abcc25b9d1bdc8e879f6bce
+FileChecksum: SHA256: 31835d69de44fa76cb3666f66bdd2cbebfeae1f312af1e0def3ece63904f875c
+FileChecksum: MD5: d304e823d53695aa889f200475acfe31
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2014 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_without_glx.c
+SPDXID: SPDXRef-item13433700
+FileChecksum: SHA1: 29842ca137eadac8dd9bdb27e9b1572de26bd911
+FileChecksum: SHA256: 641808d6f747ff5296549c8be7bf61819bf8466be267934cc636c1e129c7487b
+FileChecksum: MD5: 83b611fab15051c40b130f5554d6ba9d
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2014 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_has_extension_nocontext.c
+SPDXID: SPDXRef-item13433708
+FileChecksum: SHA1: 48d0b535b85ffc9cb6d813f2f39a12c2a2e35462
+FileChecksum: SHA256: 92cc04244dc9134db9ade9279191f360d1e71c725ea4b3f84fb54606694d73a9
+FileChecksum: MD5: 6c9bfe7b41a27fbdf34b127e4d00562c
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_common.c
+SPDXID: SPDXRef-item13433695
+FileChecksum: SHA1: d44a38830cafb37447358887ee6186fc5a09c708
+FileChecksum: SHA256: ec0bb8158fc1838ad28c0152704a27d162825fa5b932376a40f19e17804734f9
+FileChecksum: MD5: 45ad49e7477412b06150fdb18f1fdd19
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2009, 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_public_api.c
+SPDXID: SPDXRef-item13433709
+FileChecksum: SHA1: 835f69cf9c7e36eb33694f268ed5a07e42a5582e
+FileChecksum: SHA256: f177cefa10b7afdf1bfba43349bda50683ad43ac0885fb1c56222db666288fe7
+FileChecksum: MD5: 665d409c51c0aceacd183a5c0ec8c8cb
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_egl.c
+SPDXID: SPDXRef-item13433750
+FileChecksum: SHA1: e4fbca61218cee8fbbda5ecd6c307d64c30dd8b4
+FileChecksum: SHA256: 444df7c8a6bf86004be58aea7370006441b356b2e966d64784fea390223bf813
+FileChecksum: MD5: 7a4986076b7a3cc8cbcc50766c477f3e
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/gen_dispatch.py
+SPDXID: SPDXRef-item13433747
+FileChecksum: SHA1: 837ccb30447a03be7ab27bf19d66b21e67859c43
+FileChecksum: SHA256: 81668db93a601ca7b4250095a2480216f345f8a7610f481f6aa5cec239c0d253
+FileChecksum: MD5: 18447c9106523202d304d992fc9f67ba
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_common.c
+SPDXID: SPDXRef-item13433748
+FileChecksum: SHA1: 947afc62d23984dacc6f1df86fd0851ac84b005a
+FileChecksum: SHA256: 56b503e79f65ac674bd5b62ca58065f72a08e261347819cd2a186077d03ebaeb
+FileChecksum: MD5: a0b2c302302b3efb59e340a374494f11
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013-2014 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/common.h
+SPDXID: SPDXRef-item13433736
+FileChecksum: SHA1: 4aeb6e95cb08b7b244d05b39440ce0eeece448fe
+FileChecksum: SHA256: 6ca081490cf1f40806a2369a017da5e1db309bb7494e286aae61a5b8e5c48ca5
+FileChecksum: MD5: 6d020ac3be51bfa578f65af07d6cd32b
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2017 Emmanuele Bassi </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_common.h
+SPDXID: SPDXRef-item13433745
+FileChecksum: SHA1: 140aa8ca0f24f81c44751418cd43ec0553160908
+FileChecksum: SHA256: 9768c4270336c36dc53f1720c87eb66e78369c507a8d772fd640ae37b8e56105
+FileChecksum: MD5: e67fc25bc45b250f93dd8f5af4a868b3
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/dispatch_wgl.c
+SPDXID: SPDXRef-item13433746
+FileChecksum: SHA1: 4b3a85ddc338b734c2cee6a3a462dd3b32b07ea5
+FileChecksum: SHA256: e665412b12b9b9549278057b6f9c16ef156ba28fa342ace851b02242bc6fb922
+FileChecksum: MD5: 3fa0faa98659fdf2ee4dc2a056180b64
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/egl.h
+SPDXID: SPDXRef-item13433733
+FileChecksum: SHA1: a90a215bc710500a7463f024fd64514d8a20efd3
+FileChecksum: SHA256: 29c01316343c97b646e2b34b0ffc4b0be99d2586d0a69ab93dc37a3a8acfe5ce
+FileChecksum: MD5: 8269f65094e86ffdffd5cf4c06b4f2c9
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/khronos_typedefs_nonepoxy.c
+SPDXID: SPDXRef-item13433696
+FileChecksum: SHA1: c5e434c6ea964c6e89c6c4f4ce342f0f7b53b486
+FileChecksum: SHA256: c5e8b5916f62bcd73f923c59405d11b52d65c91d22c91963dd92a005a133b746
+FileChecksum: MD5: 614aea6318299960b98fcbc078d3f675
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2014 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/gl.h
+SPDXID: SPDXRef-item13433737
+FileChecksum: SHA1: 7aafd3bb071c2c09419c359910703a73828d9d7b
+FileChecksum: SHA256: 85e54fa79a3c2142077400df87fdcd33e437d74df92bce4e830239111beedaa0
+FileChecksum: MD5: c1e5eaa0f159f20ab2422777db6cc4f5
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/headerguards.c
+SPDXID: SPDXRef-item13433691
+FileChecksum: SHA1: 9b19421fdbb5f0996892a3ab19433493aca0e90e
+FileChecksum: SHA256: a0a5699972a7f13544795a678e373d17ee97812244bdd2887018ae03d369c89b
+FileChecksum: MD5: 0339f9f417136893dd916bcc3888b397
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/wgl_common.h
+SPDXID: SPDXRef-item13433713
+FileChecksum: SHA1: 5b781dcfd458eb5dfb31d7081146951e16fc993f
+FileChecksum: SHA256: cdeb6a9a4fe7293642eeea2f02b32f8f011ea2bc77b3ecb3ff28ef293c12d1d7
+FileChecksum: MD5: b1f8bd8913c4ee434207d3e40e2c0be9
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_gles2.c
+SPDXID: SPDXRef-item13433690
+FileChecksum: SHA1: 46bdd903c66419ab46ef0b36f85a61be781e4d4e
+FileChecksum: SHA256: 212630a1a94fadeee9d97b22b11542811a30348d7b12c4c89e3c012a0bd70e41
+FileChecksum: MD5: 3aab42cede18b1f7317c408f13377c61
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_common.h
+SPDXID: SPDXRef-item13433692
+FileChecksum: SHA1: 04f2323794e23f5b4aee69d25ea424b480df0375
+FileChecksum: SHA256: c30c33d33de7f94810b4fd124e08978df8a4d9513eb41a4fdbb6c0cca3ce136d
+FileChecksum: MD5: 75a7cbeb1e8d4d0b6c42db8046f48c16
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/gl_version.c
+SPDXID: SPDXRef-item13433697
+FileChecksum: SHA1: af6a0c39f7989dabeb402adf869445aa66973888
+FileChecksum: SHA256: 9cbe49455777001c5ce2b65bd15649dbabe6f5100125dfc2f32e754ccc3dd28d
+FileChecksum: MD5: f41dce2047ace1316e0e289fd04cb1e0
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2018 Broadcom </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/miscdefines.c
+SPDXID: SPDXRef-item13433688
+FileChecksum: SHA1: 05208b6398e1289085b49155958be8477605f5a1
+FileChecksum: SHA256: 18204ea6c1cf11750ea92160a90468889282371a36ce52b8bd30821c9cebc910
+FileChecksum: MD5: 7d3748076d72dc2eb6b9fb81c48ff4d6
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/khronos_typedefs.h
+SPDXID: SPDXRef-item13433693
+FileChecksum: SHA1: b724e71b6b3b1eefdac339c91424bd7d324e3d2d
+FileChecksum: SHA256: 8a26b889a879ba26dbf932ce9f229c688b3bf242027577bfe730c14e343da4e9
+FileChecksum: MD5: b3c9c9e068427c875f5a755be0d9691d
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2014 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_static.c
+SPDXID: SPDXRef-item13433684
+FileChecksum: SHA1: 513f786a759c9b86208d182c9cf0ea619003f926
+FileChecksum: SHA256: 38cdc316ac1f279e9374ff19e481617aebc93cf45171f9accda69f03809d1974
+FileChecksum: MD5: f758f74e47aa5ccd46c3e67669292d2b
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/egl_has_extension_nocontext.c
+SPDXID: SPDXRef-item13433687
+FileChecksum: SHA1: 0c4a9ef313de73f61eadd2a3a59bcaa5833183f7
+FileChecksum: SHA256: fcac3db2492d718dcf5acd311986a84990517fd888973e8c647a888385a25e09
+FileChecksum: MD5: d9b6539a40e38288b20db99a51042420
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/glx_glxgetprocaddress_nocontext.c
+SPDXID: SPDXRef-item13433689
+FileChecksum: SHA1: 39373ceeb57a78b6bed4f9e3a5d122a6bd706c31
+FileChecksum: SHA256: 7c0ca251ec0eaebfea2cb8583630873c59fb92a3c2f82e11702ac43c579aa19e
+FileChecksum: MD5: 2227ff7cab0c2e4ed645022fc68c23dd
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2013 Intel Corporation </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/cgl_epoxy_api.c
+SPDXID: SPDXRef-item13433686
+FileChecksum: SHA1: 6b7d642ca886f00cf5f2e8e792a268bd59650063
+FileChecksum: SHA256: ea2f098cb76a48f00f4c1e9f3650845f09b2aad873f50c3a20e5db40e6854ee9
+FileChecksum: MD5: 7c745ac367c48cc6a6a65f469efea6cf
+LicenseConcluded: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2018 Emmanuele Bassi </text>
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/scripts/epoxy-ci-linux.sh
+SPDXID: SPDXRef-item13433724
+FileChecksum: SHA1: 2e4d4d19e5499d5884c715d1a828c76be5c767eb
+FileChecksum: SHA256: 2f7b297042ae6282a099e8af30bd129055323501bdc9ee8afe91183e94485206
+FileChecksum: MD5: 3fc983462940661f50bd10f8259ec34b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/cross/fedora-mingw64.txt
+SPDXID: SPDXRef-item13433680
+FileChecksum: SHA1: c93c7792107bb71b636e8110d90d54a7d3e1afa7
+FileChecksum: SHA256: 46e022b7a17adf54c81e21e686611b0b1e353f33e60c95a6bda9a0a7c01ad25a
+FileChecksum: MD5: 873d47cac00d9982eddb8147d78f105e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/workflows/macos.yml
+SPDXID: SPDXRef-item13433721
+FileChecksum: SHA1: ca7ca583e6f51533d5de5a7da10c6bd8017a2b4c
+FileChecksum: SHA256: 043b607eeca6c4b32e0a1590e68436ec3e43d9b22cd358025c18b3543bbb996a
+FileChecksum: MD5: 916ec429116bd334b86ea04569bb69d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/workflows/msys2.yml
+SPDXID: SPDXRef-item13433719
+FileChecksum: SHA1: 4d78d21e5cf5bb70512d1f70c6b262f0062dc76f
+FileChecksum: SHA256: ce953f68d20cc86e9ec3c1409aa2bf3e0691fb26a3b2fee62213dabb2d5773b3
+FileChecksum: MD5: f8c0e1d20efc4e4938edb2f866851ab8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/scripts/epoxy-ci-osx.sh
+SPDXID: SPDXRef-item13433723
+FileChecksum: SHA1: 09baccf5993fec276dc7c5f306fc31998137cb8c
+FileChecksum: SHA256: 1381ada5fc281a9ead31dce4581d108ce20bf85bb208079f34b83d3bfb559e22
+FileChecksum: MD5: bc9f46278ccd49ab33597bb96125d260
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/workflows/linux.yml
+SPDXID: SPDXRef-item13433720
+FileChecksum: SHA1: 3285d744a4265136be55cb6f7601a52f84499df0
+FileChecksum: SHA256: 52bf3c730abfb154a6a6cef272f1645a0840e34473be49b9e81cbd14c0a6ca70
+FileChecksum: MD5: 58d6d936b5db47db131be289eb1983fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/doc/Doxyfile.in
+SPDXID: SPDXRef-item13433727
+FileChecksum: SHA1: 3fe48c4304ea55e2244d163d3759c222e1ef76fb
+FileChecksum: SHA256: bb48aca4da8a52012ac5830bfd51a440371f1764a423111dfa3a50fe5b67006c
+FileChecksum: MD5: 981cf152f07882c662f2c2f122956675
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/test/meson.build
+SPDXID: SPDXRef-item13433705
+FileChecksum: SHA1: faa9be4c6c7abd8779a66c404ebec09c3a38f8a4
+FileChecksum: SHA256: fbdfc6472ba08b0835e5f040beec8a55b9d6e19adf31f0d666c6737f74239c3e
+FileChecksum: MD5: 3b7f473b0186ef8e784dd98a14efe8c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.gitignore
+SPDXID: SPDXRef-item13433753
+FileChecksum: SHA1: 97e1c011e555472052e39794abf8f02281d68a55
+FileChecksum: SHA256: c8313a07e5380436e77bf9a25acc8e403c7785c9bbd15e37f7dbe245f8c2c24a
+FileChecksum: MD5: 8df16ee8bc4dc62b9a0b549f99df2d9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/README.md
+SPDXID: SPDXRef-item13433681
+FileChecksum: SHA1: 08ecaab4ea9a7742e05e70974b73c0b22d2ca401
+FileChecksum: SHA256: 2d89f2d0fee485d1ceab8bf768dbc35d041ab711e72f74c4c17546f429b53307
+FileChecksum: MD5: 77d23f0efd9c8cbb0efdf389a5f73824
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/include/epoxy/meson.build
+SPDXID: SPDXRef-item13433734
+FileChecksum: SHA1: c79c226fdd4cd2251aa9057f95554f1421d3e490
+FileChecksum: SHA256: 6df974ee1ab45b8580eb4111a5b00ac28535646c17c9d5c34f964f03ef4b8869
+FileChecksum: MD5: 3dd0220bcf8d479e71d09eddf9871b59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/meson.build
+SPDXID: SPDXRef-item13433725
+FileChecksum: SHA1: 53f5f7e09926b60deba7af4d804c05cc771b6945
+FileChecksum: SHA256: fd65cb3ac94480956191020a5f624ee4d1144b09b4adc2e422ad1c210f33fbb3
+FileChecksum: MD5: d28dcc478cb277756666146f54b0b909
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/src/meson.build
+SPDXID: SPDXRef-item13433749
+FileChecksum: SHA1: 94270e919b3d6b8b2112baf08ecddf1769548732
+FileChecksum: SHA256: fd7fa65b45441fe4bd9e73ec44fbe8e380a4db8bb4a514f916bc766164cf878d
+FileChecksum: MD5: ee4fb66cdab187889c541e244188408d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.github/workflows/msvc-env.yml
+SPDXID: SPDXRef-item13433718
+FileChecksum: SHA1: d25b03482b2841c8c645ba1d42d448bef3928f1d
+FileChecksum: SHA256: 0ff2be9c00eb61d7d3855fcabd81c612052652822897346515dccfafcc77ffa6
+FileChecksum: MD5: b67c166adf5980ca577fffce0e169eb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.editorconfig
+SPDXID: SPDXRef-item13433752
+FileChecksum: SHA1: 72b3cc69a0c0ae4c544c83a4ceb5d07af80214e1
+FileChecksum: SHA256: 3f5511b8223583228fa0917215a416260d0cb1f17e9800632be1f946dcaa994b
+FileChecksum: MD5: c7f95006af5aa45008604b50556204ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/meson_options.txt
+SPDXID: SPDXRef-item13433682
+FileChecksum: SHA1: 83f163f2344f00a365ad1b48c4ecce0bcdb3ee43
+FileChecksum: SHA256: f0398914a161bd15379a99b694fa488ae730dc8ad8d7645b3eb0b7df6bd77b7d
+FileChecksum: MD5: df377e5338144a135c2ec408b1a70330
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/.dir-locals.el
+SPDXID: SPDXRef-item13433678
+FileChecksum: SHA1: 809600675a99d187afb5c95472ecc6ebc81651f5
+FileChecksum: SHA256: 5e8f987a1278ec7513ca38eaf839fca4fc4d958386d897c75273ec2f246b301a
+FileChecksum: MD5: aa54fdb6ff5487e3cb9eef4c7ded35a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/registry/README.md
+SPDXID: SPDXRef-item13433740
+FileChecksum: SHA1: 15280523e58d4fa990c51ecf8ac4a3e5aa2f387b
+FileChecksum: SHA256: 853b88a523aa356aff292c8d6120c316da086a1ff9d5cf92870f3d2a142338fb
+FileChecksum: MD5: 17d749345b61e8d99a04613e97d9afc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libepoxy-1.5.10.tar.gz/libepoxy-1.5.10.tar/libepoxy-1.5.10/doc/meson.build
+SPDXID: SPDXRef-item13433728
+FileChecksum: SHA1: 2ee80b103be62507dea638be25f853a9f7a38fb7
+FileChecksum: SHA256: 5b6497d978e9930675520abfc6cff2083087abe47a7a53a36b8404628a02640e
+FileChecksum: MD5: 786cf968fd4beea874ec20f20c2caf9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-MIT-0e9c75d366e70632b59abdf9ebdb9efb
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and/or associated documentation files (the
+"Materials"), to deal in the Materials without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Materials, and to
+permit persons to whom the Materials are furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Materials.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-5debb370f50e1dfd24ff5144233a2ef6
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-2-Clause-e55688bc6aa77464e12446931350c4ac
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+  
+LicenseID: LicenseRef-Apache-2.0
+LicenseName: Apache License 2.0
+ExtractedText: <text> Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright {yyyy} {name of copyright owner}
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       https://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-bc13755cfb0e82fcf84fdd2e28e19a0b
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-khronos
+LicenseName: Khronos License
+ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-2-Clause
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Copyright (c) <year> <owner> 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
