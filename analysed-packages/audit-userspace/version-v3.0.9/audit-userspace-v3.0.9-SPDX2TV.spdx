@@ -2507,7 +2507,29 @@ SPDXID: SPDXRef-item8670497
 FileChecksum: SHA1: 678f5a1357a274409416bfaae058844fc633f487
 FileChecksum: SHA256: bd37e2afbfd6f653390b5fa6c1f5a0f77af485051246a569bc06daf13b9206bc
 FileChecksum: MD5: dfa81aaa7c9ad6d2c6f82399ae2a9d01
-LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseConcluded: LicenseRef-LGPL-2.1-or-later
+LicenseComments: <text>The information in the file is
+"This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA".
+When it was decided to use this file not only exclusively for auditd but also
+for the library, it was forgotten to adapt the licensing. This was done later
+(see commit https://github.com/linux-audit/audit-userspace/commit/e63a8b1628170151016470075396e3697dd57a9b),
+but does not automatically apply to earlier files. However, the copyright
+holder has authorized us to make the license change retroactively (personal
+email communication with Steve Grubb <sgrubb@redhat.com> on May 12, 2025 in
+file "Email-from-Steve-Grubb-on-license-change-of-audit-fgets.c-2025-05-12.eml").
+Therefore, LGPL-2.1-or-later was concluded as applicable license for this file.</text>
 LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
 FileCopyrightText: <text> Copyright 2011 Red Hat Inc., Durham, North Carolina. All Rights Reserved. </text>
 
