@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/python-attrs/attrs/archive/refs/tags/23.1.0.tar.gz
 

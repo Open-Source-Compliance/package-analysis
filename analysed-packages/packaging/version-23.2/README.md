@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/pypa/packaging/archive/refs/tags/23.2.tar.gz
 

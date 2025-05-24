@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/gweis/isodate/archive/refs/tags/0.6.1.tar.gz
 

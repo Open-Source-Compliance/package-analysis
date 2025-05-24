@@ -1,0 +1,123 @@
+Return-Path: <sgrubb@redhat.com>
+Received: from www.osadl.org (www.osadl.org [62.245.132.105])
+	by toro.web-alm.net (8.12.11.20060308/8.12.11/Web-Alm-2003112001) with ESMTP id 54CLAu8F026765
+	for <ce@ceek.de>; Mon, 12 May 2025 23:10:56 +0200
+Received: from us-smtp-delivery-124.mimecast.com (us-smtp-delivery-124.mimecast.com [170.10.129.124])
+	by www.osadl.org (8.13.8/8.13.8/OSADL-2007092901) with ESMTP id 54CLAqFL026137
+	for <c.emde@osadl.org>; Mon, 12 May 2025 23:10:53 +0200
+DKIM-Filter: OpenDKIM Filter v2.11.0 www.osadl.org 54CLAqFL026137
+Authentication-Results: www.osadl.org;
+	dkim=pass (1024-bit key) header.d=redhat.com header.i=@redhat.com header.b="C/yb5xbL"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=redhat.com;
+	s=mimecast20190719; t=1747084251;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:
+	 in-reply-to:in-reply-to:references:references;
+	bh=LCRkjnkBSelN3GVG8QjqPCw33hLEt17Llz8Ht6cXreQ=;
+	b=C/yb5xbLS1uRDgC8PcvKrTTxe9wwAyhmqfZONni0IH49VbTurDpZsVTzK/UxtaEaehPTFH
+	tUs4Iuvz99aoWK/ebXT+GJBCDCTOozsL3xjq8ejeXeSzmnHyT55OQwUyvDdLJs9WnpohYN
+	5c6Wz3o2qDfIFsTCM1tCSs7qTSTF7W0=
+Received: from mx-prod-mc-08.mail-002.prod.us-west-2.aws.redhat.com
+ (ec2-35-165-154-97.us-west-2.compute.amazonaws.com [35.165.154.97]) by
+ relay.mimecast.com with ESMTP with STARTTLS (version=TLSv1.3,
+ cipher=TLS_AES_256_GCM_SHA384) id us-mta-29-KlHYfi1nMtuP3fChwbsxjA-1; Mon,
+ 12 May 2025 17:10:49 -0400
+X-MC-Unique: KlHYfi1nMtuP3fChwbsxjA-1
+X-Mimecast-MFC-AGG-ID: KlHYfi1nMtuP3fChwbsxjA_1747084249
+Received: from mx-prod-int-06.mail-002.prod.us-west-2.aws.redhat.com (mx-prod-int-06.mail-002.prod.us-west-2.aws.redhat.com [10.30.177.93])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx-prod-mc-08.mail-002.prod.us-west-2.aws.redhat.com (Postfix) with ESMTPS id 87C4F1800370
+	for <C.Emde@osadl.org>; Mon, 12 May 2025 21:10:48 +0000 (UTC)
+Received: from x2.localnet (unknown [10.22.82.95])
+	by mx-prod-int-06.mail-002.prod.us-west-2.aws.redhat.com (Postfix) with ESMTPS id 1FCBD1801482
+	for <C.Emde@osadl.org>; Mon, 12 May 2025 21:10:47 +0000 (UTC)
+From: Steve Grubb <sgrubb@redhat.com>
+To: Carsten Emde <C.Emde@osadl.org>
+Subject: Re: Licensing issue with a source code file of the libaudit library
+Date: Mon, 12 May 2025 17:10:46 -0400
+Message-ID: <26992549.1r3eYUQgxm@x2>
+Organization: Red Hat
+In-Reply-To: <bed8c336-1465-44d8-8881-aa3ac6c8b292@osadl.org>
+References: <158fa1bc-c91e-4514-b68d-6b2d2756b5e2@osadl.org> <26935262.1r3eYUQgxm@x2>
+ <bed8c336-1465-44d8-8881-aa3ac6c8b292@osadl.org>
+MIME-Version: 1.0
+X-Scanned-By: MIMEDefang 3.4.1 on 10.30.177.93
+X-Mimecast-Spam-Score: 0
+X-Mimecast-MFC-PROC-ID: S9XZPc0Gwh1ia5RStI7gYIKtawS1WHqSChvKvktD8T4_1747084249
+X-Mimecast-Originator: redhat.com
+Content-Type: text/plain; charset="utf-8"
+X-Spam-Status: No, score=-1.9 required=5.0 tests=BAYES_00,
+	RCVD_IN_DNSWL_BLOCKED,RCVD_IN_VALIDITY_RPBL_BLOCKED,
+	RCVD_IN_VALIDITY_SAFE_BLOCKED,SPF_HELO_NONE autolearn=ham version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on rack3slot8.osadl.org
+X-Virus-Scanned: ClamAV version 0.94.2, clamav-milter version 0.94.2 on rack3slot8.osadl.org
+X-Virus-Status: Clean
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by rack3slot8.osadl.org id 54CLB6pl030247
+
+On Sunday, May 11, 2025 6:17:26 PM Eastern Daylight Time Carsten Emde wrote:
+> Steve,
+>
+>>> [..]
+>>> And while compiling the Linux audit package for OSSelot, we discovered
+>>> that although the other direct files, libaudit.c, message.c, netlink.c,
+>>> lookup_table.c, audit_logging.c, deprecated.c, strsplit. c and the 1857
+>>> indirect files used to create the libaudit library are licensed under a
+>>> license that allows linking with differently licensed software, the file
+>>> "audit-fgets.c" requires the use of GPL-2.0-or-later and thus mandates
+>>> this license for the entire library and other software linked to it.
+>>> This significantly restricts the use of the libaudit library by other
+>>> software. Since the libaudit library is integrated into many other
+>>> projects such as libvirt, pam, and systemd, and here as well is the only
+>>> file among many thousands that uses a license with unrestricted
+>>> copyleft, the above limitation also applies here. Since we can hardly
+>>> imagine that this is intentional, we would like to contact the copyright
+>>> holder, Red Hat Inc., whose contact details we found in the header of
+>>> the file "audit-fgets.c" through you. Could you assist us in asking your
+>>> employer whether it would be possible to relicense or dual-license the
+>>> file, for example under LGPL-2.1-or-later? This would certainly be very
+>>> helpful in ensuring that software linked to the libaudit library can be
+>>> licensed in a compliant manner.
+>>
+>> Yes, that was a mistake. Originally it was part of auditd but it's use
+>> was applicable beyond just auditd. So, it was split out and the necessary
+>> license change was forgotten. It was corrected on Jan 31, 2023 with this
+>> commit: https://github.com/linux-audit/audit-userspace/commit/
+>> e63a8b1628170151016470075396e3697dd57a9b
+>>
+>> The license intended to cover all aspects of any audit library component
+>> is COPYING.LIB (in the top level directory), which is LGPL.
+>
+> Thanks a lot for the clarification and the resolution of the problem with
+> the mentioned patch.
+>
+>> Hopefully this clears things up. Let me know if you have any other
+>> questions.
+> What remains are the leftovers in our curation database. Since we can use
+> the SPDX format to comment on an otherwise incomprehensible decision, we
+> could leave the entry in the source code as GPL-2.0-or-later, but specify
+> LGPL-2.1-or-later as LicenseConcluded and write in the comment:
+>
+> "When it was decided to use this file not only exclusively for auditd but
+> also for the library, it was forgotten to adapt the licensing. This was
+> done later (see commit
+> https://github.com/linux-audit/audit-userspace/commit/e63a8b16281701510164
+> 70075396e3697dd57a9b), but does not automatically apply to earlier files.
+> However, the copyright holder has authorized us to make the license change
+> retroactively."
+>
+> Could you help us obtain such (or similar) authorization?
+
+Yes, you have my permission to make the changes. It was a mistake. I was more
+concerned at the time about making things work and overlooked the license
+change detail. It looks like audit 3.0 through 3.0.9 are the only releases
+with this issue. Also, audit_fgets is not a public API so there are no
+external users of the API. It is used by other applications that are part of
+the auditd plugins.
+
+HTH...
+
+-Steve

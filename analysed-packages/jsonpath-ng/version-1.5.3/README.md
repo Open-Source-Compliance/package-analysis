@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/h2non/jsonpath-ng/archive/refs/tags/1.5.3.tar.gz
 
