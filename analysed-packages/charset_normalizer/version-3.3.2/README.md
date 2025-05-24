@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/jawah/charset_normalizer/releases/download/3.3.2/charset-normalizer-3.3.2.tar.gz
 

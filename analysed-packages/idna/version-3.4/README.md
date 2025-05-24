@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/kjd/idna/archive/refs/tags/v3.4.tar.gz
 
