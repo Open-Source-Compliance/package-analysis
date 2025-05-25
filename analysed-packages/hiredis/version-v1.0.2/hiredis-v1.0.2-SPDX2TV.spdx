@@ -1,0 +1,1018 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_hiredis-1.0.2.tar.gz_1748093033.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of hiredis v1.0.2
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2025-05-24T13:23:53Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: hiredis-1.0.2.tar.gz
+PackageFileName: hiredis-1.0.2.tar.gz
+SPDXID: SPDXRef-upload2925
+PackageDownloadLocation: https://github.com/redis/hiredis/archive/refs/tags/v1.0.2.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/redis/hiredis@v1.0.2
+FilesAnalyzed: true
+PackageVerificationCode: aa1a89971a866a18c8b02f9a30ef3ae5dfc8585f
+PackageChecksum: SHA1: c5e1bad2ebc1a8e630416fef59e58359ef438734
+PackageChecksum: SHA256: e0ab696e2f07deb4252dda45b703d09854e53b9703c7d52182ce5a22616c3819
+PackageChecksum: MD5: 58e8313188f66ed1be1c220d14a7752e
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2925
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/adapters/qt.h
+SPDXID: SPDXRef-item13589053
+FileChecksum: SHA1: e9a4f8f116120e2369b35ee960285d42a2aa14bc
+FileChecksum: SHA256: d6a1f8b35717d1febb5b9715e1fc7ab3de09b2ca7703684dc0a84e68f06fb23b
+FileChecksum: MD5: 7dc569047d3ff49ada71809461068c7b
+LicenseConcluded: LicenseRef-BSD-2-Clause-c91da7fa6fc7de48c5e9b0395b97a6aa
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> Copyright (C) 2014 Pietro Cerutti <gahr@gahr.ch> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/Makefile
+SPDXID: SPDXRef-item13589080
+FileChecksum: SHA1: 38e14b91c264e270b56619bb8dfc75b00b0cac3f
+FileChecksum: SHA256: 9a0153975734bb5effd4567752b20f99a191e656c899049be5f61954a24a03ec
+FileChecksum: MD5: 77cd5a7fb6a23708b1ef765606a38a87
+LicenseConcluded: LicenseRef-BSD-3-Clause-1fedeff455fd1b8f21bb695a9b52d17f
+LicenseComments: <text> The information in the file is:
+This file is released under the BSD license, see the COPYING file
+We checked the COPYING file in the root directory it contains the text of a BSD-3-Clause license, which we took and concluded BSD-3-Clauseas license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (C) 2010-2011 Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (C) 2010-2011 Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/async.c
+SPDXID: SPDXRef-item13589047
+FileChecksum: SHA1: 27f6de502b47e36c02d73a9d40452630c09aad2a
+FileChecksum: SHA256: e4926330a3adc77ef1b4379b9d0d14ddade25f4c6c1489b0b6bf17c2adc779f8
+FileChecksum: MD5: f59cdf3f1c0d5716c977b62d418295ee
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/hiredis.c
+SPDXID: SPDXRef-item13589081
+FileChecksum: SHA1: 8db5e99997105c84c01345a373f1429d8f42cd2a
+FileChecksum: SHA256: f9c3647f326ef9f81cfee03bc77c51b64374439e2524c15d9ccc1b5c23db4fe0
+FileChecksum: MD5: 3737cebce0ec91b9b532e017ac9cc5d8
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2014, Pieter Noordhuis <pcnoordhuis at gmail dot com>
+Copyright (c) 2015, Matt Stancliff <matt at genges dot com>, Jan-Erik Rediger <janerik at fnordig dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/async_private.h
+SPDXID: SPDXRef-item13589084
+FileChecksum: SHA1: 0d65b8c9262e6e44189018f3ff29e16e339043b3
+FileChecksum: SHA256: 51f46271efd35e29a8705607049b51ffc02153d96fa35d98659f7388c3bebc8b
+FileChecksum: MD5: 662ed4000be4bdc68e8257c8e97b3d19
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/ssl.c
+SPDXID: SPDXRef-item13589079
+FileChecksum: SHA1: b233e536ceebe06f5ee0623f042171eacdf95cbc
+FileChecksum: SHA256: 628070af7768ba590753f9b592a5ae906f1e7d8c05c82b78024fcc932b3bd6b4
+FileChecksum: MD5: 9f3771676164f3ad3c2ac8779bfe294e
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com>
+Copyright (c) 2019, Redis Labs </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/hiredis.h
+SPDXID: SPDXRef-item13589048
+FileChecksum: SHA1: 2e7c894dee223589984b108346139f7a36c0fd62
+FileChecksum: SHA256: d46053cde3df33f191263b29367629795780a4cd4e38a7f1894cac387047e02e
+FileChecksum: MD5: 7a796f6682bd94f38d30e5175a274b40
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2014, Pieter Noordhuis <pcnoordhuis at gmail dot com>
+Copyright (c) 2015, Matt Stancliff <matt at genges dot com>, Jan-Erik Rediger <janerik at fnordig dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/alloc.h
+SPDXID: SPDXRef-item13589091
+FileChecksum: SHA1: 14189d4fdf116b06b401ff9a84040ce5d4fbdb0b
+FileChecksum: SHA256: aaae3c9ea9b14b0ef530f5a7f11257bac7c3d89a7f07d28db6a96680a8caa063
+FileChecksum: MD5: dc4e5fe0f4c95b813708db4b9aab57bc
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2020, Michael Grunder <michael dot grunder at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/read.c
+SPDXID: SPDXRef-item13589085
+FileChecksum: SHA1: fbaf2d0a27dfce19460164c2591e11e65df557df
+FileChecksum: SHA256: 5443689f8c9ac914c9ec9766584108549dbe6c985fcde41b0730ac3ecae277d0
+FileChecksum: MD5: b041cef0a5250ca2042d876ebc8c83c8
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/alloc.c
+SPDXID: SPDXRef-item13589094
+FileChecksum: SHA1: a2905b138f2ffb5bc4de14963ed190ac11c6c32f
+FileChecksum: SHA256: 4e5f529f915bcfab5384ab0b003d858f454a8ca41ea15618da4c0fa1f602a9a1
+FileChecksum: MD5: b80cd642692ee45cf2926c8c30f0574b
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2020, Michael Grunder <michael dot grunder at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/sds.h
+SPDXID: SPDXRef-item13589095
+FileChecksum: SHA1: 788b690c94182a65ddbaecfbaae11c055b091b73
+FileChecksum: SHA256: f2558aaceb80a659180770f45b594150693e4858e2a3bfa61a32a8c6235f48f4
+FileChecksum: MD5: b9a6b643ac169b37ea830a71f2c32970
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2006-2015, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2015, Oran Agra
+Copyright (c) 2015, Redis Labs, Inc All rights reserved. </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/dict.h
+SPDXID: SPDXRef-item13589042
+FileChecksum: SHA1: 9e97e1b8b9ac557e3d23216d715c7d9384911f6d
+FileChecksum: SHA256: 310ec563c94252e6d560b6c1dbb7b6f0d55553aed3c408b289a26a08e2225459
+FileChecksum: MD5: bfdea14f6e7017da2a6a55b6d4680212
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2006-2010, Salvatore Sanfilippo <antirez at gmail dot com> All rights reserved. </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/COPYING
+SPDXID: SPDXRef-item13589088
+FileChecksum: SHA1: e9c1298de98016808910005a33de3a5f25dce05e
+FileChecksum: SHA256: dca05ce8fc87a8261783b4aed0deef8becc9350b6aa770bc714d0c1833b896eb
+FileChecksum: MD5: d84d659a35c666d23233e54503aaea51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-push.c
+SPDXID: SPDXRef-item13589070
+FileChecksum: SHA1: a6721e30cc8be7e3c8d09004f77ff45e865d01da
+FileChecksum: SHA256: bf83afc103498e15b631c1d45a38a9a4aee96b80a3e0fddc86206b9cb57b993a
+FileChecksum: MD5: ade2d82526c45da8969b0270a13eaf30
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2020, Michael Grunder <michael dot grunder at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/sockcompat.h
+SPDXID: SPDXRef-item13589083
+FileChecksum: SHA1: 57873e13f2feba43fd814fb374164bb058ed9cbc
+FileChecksum: SHA256: 473230a9783a63dea8609cecf8c8896e385524981cde0136270b9236d9ffa193
+FileChecksum: MD5: 7d6a151b692d5c37a7f3cbf7d2bb84ad
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2019, Marcus Geelnard <m at bitsnbites dot eu> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/sockcompat.c
+SPDXID: SPDXRef-item13589043
+FileChecksum: SHA1: e6508e28384f44eb6986432cf55128637991a73e
+FileChecksum: SHA256: 80b36d6547db518cef0b5788d7ad121ad45ee1a8462c8b272e5ba15e0445f213
+FileChecksum: MD5: 6cab050ac18a1e48a9d9b9b7d54777c3
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2019, Marcus Geelnard <m at bitsnbites dot eu> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/read.h
+SPDXID: SPDXRef-item13589093
+FileChecksum: SHA1: 34c355e7a9799bbacf1dff53bb7f3fd9718d2a2b
+FileChecksum: SHA256: bf55c9af96d2cc5afb40baae4d8e796eb382ec08741ce7750035dba61c0d18a6
+FileChecksum: MD5: 4d986b4d52aa5630fd02cd0e2fa1007b
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/sds.c
+SPDXID: SPDXRef-item13589078
+FileChecksum: SHA1: c64cc2f7717ef5a2a49d7275f112e75d4e298477
+FileChecksum: SHA256: 1bb613dc2bb1a49008a070b454275d3bb162c5ab4dd4d36c9c977217ad9538c3
+FileChecksum: MD5: b994e65023d99dd619ae3e5fe3c05c60
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2006-2015, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2015, Oran Agra
+Copyright (c) 2015, Redis Labs, Inc All rights reserved. </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/dict.c
+SPDXID: SPDXRef-item13589039
+FileChecksum: SHA1: e067be861d27f186b0e9f0ecb76b7e551b86633f
+FileChecksum: SHA256: de585d37b663c7fd7123b866b0ac667a5abc4bcda928a2d28546b6f4d5d9c42f
+FileChecksum: MD5: 97fa85951a07aa2df8a165d30d084bbc
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2006-2010, Salvatore Sanfilippo <antirez at gmail dot com> All rights reserved. </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/net.c
+SPDXID: SPDXRef-item13589049
+FileChecksum: SHA1: 810652023635ca03faa8466f3f55080880bd2ce7
+FileChecksum: SHA256: 2b0da84f6096eb5fcdba07e6618d62b082075ae8bc8a4cfc3fbdb67fb5742a0d
+FileChecksum: MD5: 16d78097c04109215f7e214e40ad1b2a
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2014, Pieter Noordhuis <pcnoordhuis at gmail dot com>
+Copyright (c) 2015, Matt Stancliff <matt at genges dot com>, Jan-Erik Rediger <janerik at fnordig dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/adapters/libev.h
+SPDXID: SPDXRef-item13589058
+FileChecksum: SHA1: f369ce75295dc8af942b9ee592d9237ab00cfa7e
+FileChecksum: SHA256: 8807a36c9c638cf71087ca804d3dd3ea2443ceae6b46b266294c4b86adf152bd
+FileChecksum: MD5: bd1b60b8289d8dc51aa9befa6ed5c070
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/adapters/libevent.h
+SPDXID: SPDXRef-item13589055
+FileChecksum: SHA1: 9e40be67d384dd4d34392fa7b30aaa9263be915c
+FileChecksum: SHA256: e94b4160f053f4707d76ef9e7006d8ce25425231eca363a8d78617c498d4e8ec
+FileChecksum: MD5: 7cae41c2771d66c367392a74558af083
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/adapters/ae.h
+SPDXID: SPDXRef-item13589059
+FileChecksum: SHA1: d5939303bed442fc9ef516a58eb8800dab6782b5
+FileChecksum: SHA256: a1bb52f34d1a17317a79e8f61395a01dc66db26c3585577c9c6492e9dd4637bc
+FileChecksum: MD5: 24db15cf7664f6ee61630544c9898209
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/hiredis_ssl.h
+SPDXID: SPDXRef-item13589089
+FileChecksum: SHA1: d9c98cf822c5ee6fed0fb23d6fd182353fe6a9ef
+FileChecksum: SHA256: 0797f119a5fc3f2c84441d0ae2cc1d311019ceb1556e7fb6896f263dc1f1c2a6
+FileChecksum: MD5: 7c097c3bd4d82df73a01f13318404e24
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2019, Redis Labs </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/async.h
+SPDXID: SPDXRef-item13589086
+FileChecksum: SHA1: 132ff723309eb036b37712699fcdf01ac0cd4c89
+FileChecksum: SHA256: 99c8c72bb515743ff270d66877ea1fb2b9d42727072e9aca129ad7ae2c91ba43
+FileChecksum: MD5: d9b35edd2f497dc7b9e11d5271eac911
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2011, Pieter Noordhuis <pcnoordhuis at gmail dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/net.h
+SPDXID: SPDXRef-item13589061
+FileChecksum: SHA1: a340e2f2bbededd256cab988c50553150e33730d
+FileChecksum: SHA256: b7880411f7dfc55e546b6af8aaf6736d430c2585f7078f5e88ee4186c7e7adac
+FileChecksum: MD5: a75ec4b31fb9cd5f1d967b2f71404200
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-WebM
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2009-2011, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2010-2014, Pieter Noordhuis <pcnoordhuis at gmail dot com>
+Copyright (c) 2015, Matt Stancliff <matt at genges dot com>, Jan-Erik Rediger <janerik at fnordig dot com> </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/sdsalloc.h
+SPDXID: SPDXRef-item13589041
+FileChecksum: SHA1: cbf47072a75541a110c2b6d55e9aae7f17b6efdc
+FileChecksum: SHA256: 894bc4ed039c744bf701e7eb9d5954e21b4633a15bf3258a0d6231e5b12071f1
+FileChecksum: MD5: 116c5c5b67ce61a7df49946b1b60e35d
+LicenseConcluded: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-WebM
+FileCopyrightText: <text> Copyright (c) 2006-2015, Salvatore Sanfilippo <antirez at gmail dot com>
+Copyright (c) 2015, Oran Agra
+Copyright (c) 2015, Redis Labs, Inc All rights reserved. </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/fmacros.h
+SPDXID: SPDXRef-item13589044
+FileChecksum: SHA1: 90f4063814dcedf02df6f191ff827f0dea35fed0
+FileChecksum: SHA256: e0ada297533dd2698090b8d14b3b843de884770e35a90bdddb317276e30fdbb6
+FileChecksum: MD5: 579969becb769fb21352b31bcf7d1700
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/test.sh
+SPDXID: SPDXRef-item13589046
+FileChecksum: SHA1: 88c0889620a8c21cbddab76b6d39e7ee787629e5
+FileChecksum: SHA256: 0de0342abf4665140c55ddbb919df191f9eabac3ef3f0678ddeb875a84dbfce6
+FileChecksum: MD5: 7d22413ad3980ec31528c00dd68ccd73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-libev.c
+SPDXID: SPDXRef-item13589068
+FileChecksum: SHA1: 1d5599ae457f71a2a17cb84b78d416dd09e11c65
+FileChecksum: SHA256: e125b81fde716795a9a6ce055e47bb9a9a73f1ae6926b23b9adc843879d4bbbb
+FileChecksum: MD5: e9e4c6677ae5da1a5162ab3a4bc15b43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-ssl.c
+SPDXID: SPDXRef-item13589074
+FileChecksum: SHA1: b8d9012e42723e6a317d57368f5412456c4b3e2e
+FileChecksum: SHA256: f42987309718a03af263623a83872409775dcae04d60864ecb03bde120c5ab66
+FileChecksum: MD5: 5d3e6631182f7ff1e1c8ffd6550204e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/adapters/ivykis.h
+SPDXID: SPDXRef-item13589057
+FileChecksum: SHA1: 3ff6438642057c907c76e9a16ca29ab63b962615
+FileChecksum: SHA256: b26530d821e7eeecc2db08d5f69aeaf30d5ea499d36736d796d594bd78955ab0
+FileChecksum: MD5: c607c9249170b9198af62c38b2be6015
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-libevent-ssl.c
+SPDXID: SPDXRef-item13589072
+FileChecksum: SHA1: 065d6c588e4259e55d753128aaf1bf25125a4fca
+FileChecksum: SHA256: 5ed5bbf2daf4ce9e9d2bfe4355890b409937f921581626020a987f62f55402b7
+FileChecksum: MD5: 55c4cc685ff53ec8f74490bd12528ae5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/CMakeLists.txt
+SPDXID: SPDXRef-item13589071
+FileChecksum: SHA1: ae474f833a00a6f4b4a853597c7b9a69c8b2f810
+FileChecksum: SHA256: 8fca0b38b602b0b05202e9cdaf05c202353899e6674c51cbf07b00dc0d93cb86
+FileChecksum: MD5: b39ef9055b19df6bb93489fbb0d5472c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/.gitignore
+SPDXID: SPDXRef-item13589098
+FileChecksum: SHA1: 2a3672312cf2313148125e993a20cfacf8b98f2d
+FileChecksum: SHA256: 56af02b98f306abdf009866f163fc0aa902f85cfed8c2f51a3daf059af6e8894
+FileChecksum: MD5: 7e5f762f751934e59646f271b0b1a5e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/hiredis-config.cmake.in
+SPDXID: SPDXRef-item13589077
+FileChecksum: SHA1: 63ce49e379c6714452210859f03fdca5802b4a04
+FileChecksum: SHA256: fe5f60cce12bda9d09369516306942d32194166930922565ce5558b4b3592b38
+FileChecksum: MD5: 9f17cf20457d3f3910754b0524de86f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/adapters/libuv.h
+SPDXID: SPDXRef-item13589056
+FileChecksum: SHA1: 78ede9430109d194edfed6ba16919f375cb9730a
+FileChecksum: SHA256: cc0f8febbb7004f6b8811c90fffd964dd4f8814bc6b79a09d21860cbb0634d79
+FileChecksum: MD5: 7dd8b7f425bc9f004e96d0fb072d8fb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-ae.c
+SPDXID: SPDXRef-item13589076
+FileChecksum: SHA1: 1087aabe7a90ff16d1d8f337a3114787cd9b06f1
+FileChecksum: SHA256: 3538e8565e8962b4682df29e85272851730997bb7bf37e3848622b5597c4fafc
+FileChecksum: MD5: c14db99fdd21e9f708182a7863f076bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/README.md
+SPDXID: SPDXRef-item13589050
+FileChecksum: SHA1: 4c8c8fcfab24381b9ce8d522b95bb99582e0f13f
+FileChecksum: SHA256: 6a9f888d71dddd4688b9356015c030ab6e932a681e04adcfe9eba1fc51746dd9
+FileChecksum: MD5: 9690e5b0734a043707cea7e647668089
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-qt.cpp
+SPDXID: SPDXRef-item13589066
+FileChecksum: SHA1: 942d57dc74cc28dcfcb4f09754b3a8db07b591f3
+FileChecksum: SHA256: c9d6f1e097c8bafff309a452525581391ca92a67f758c0346bd7c43754181c27
+FileChecksum: MD5: 5e7a35cae527714687007e24bf855712
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-glib.c
+SPDXID: SPDXRef-item13589073
+FileChecksum: SHA1: 1dd42570a4a6bfe813398239efc72e7248d76032
+FileChecksum: SHA256: bc7ef5fc2b042e5c0a4fd8fdb1c8de12734b8de540fbeea304a7d57669d193c1
+FileChecksum: MD5: 1f621951f2a5f277770cbb5898e68cb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/appveyor.yml
+SPDXID: SPDXRef-item13589040
+FileChecksum: SHA1: ecbf1b5c5d62e1f31d484dae4073364595c6e7c8
+FileChecksum: SHA256: dc220aa4f66a852ec35c3b3fabd7b665235af5d4b4879f36d665068cd1f872a3
+FileChecksum: MD5: b59a03092677a1a9eb23e9a2a512c339
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/test.c
+SPDXID: SPDXRef-item13589097
+FileChecksum: SHA1: 6ab87a7579a13299e836092b0a9970e5e572a620
+FileChecksum: SHA256: 688d3575a023c647e9fa50ea018e74e61f2ed1ea264f1832713587ca42e66282
+FileChecksum: MD5: 26a0e4dcfbde0429c41031cc31ec705c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/hiredis.pc.in
+SPDXID: SPDXRef-item13589092
+FileChecksum: SHA1: d44ea06d718b254d5084ae98029e32b7d4b288d6
+FileChecksum: SHA256: 992f20408156702665fd09b92999ccec568d06ed3be2c8656e423544b99c8e08
+FileChecksum: MD5: 00e4de2711964cce4055ebfc81b1603a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/adapters/macosx.h
+SPDXID: SPDXRef-item13589052
+FileChecksum: SHA1: 56cea70110aa0fc9ce1ca9bf2c4d112ae9050397
+FileChecksum: SHA256: fc70cbbab64c9dcdc241967108b9d5fff1d604e0cd49e7c0b8beceb526fc0db9
+FileChecksum: MD5: edc426d2d5921faf083413fdf12f0275
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2015 Dmitry Bakhvalov. All rights reserved. </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/win32.h
+SPDXID: SPDXRef-item13589090
+FileChecksum: SHA1: 0a20a537c87716413cdfd7d9bd44eb8656bfa6d0
+FileChecksum: SHA256: 6c6708013b7368b1033db694169ed3235a357314b09bde08771aa80231221211
+FileChecksum: MD5: 2e013ef8b2febab3aba02cfb85623e9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-macosx.c
+SPDXID: SPDXRef-item13589063
+FileChecksum: SHA1: 2870e6c273d7969167ec99cbb45574a6d52d449c
+FileChecksum: SHA256: db14aad6b8c45a11bc667bc8346085eb2dcb3ac764fbff63210ceca3a7051863
+FileChecksum: MD5: c63431f75a911fbacc7f5687675ffff8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2015 Dmitry Bakhvalov. All rights reserved. </text>
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/CHANGELOG.md
+SPDXID: SPDXRef-item13589096
+FileChecksum: SHA1: d24a7f575ebc54bfc3fb8cc567615e4e59076657
+FileChecksum: SHA256: 9097d561876c108dd4b0a7b513ef2c1ac9073d40c72a1ec380b27dcc2c8f9f60
+FileChecksum: MD5: 6631f4943c45f0b1ccc82d4d1ba6d0f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/hiredis_ssl-config.cmake.in
+SPDXID: SPDXRef-item13589060
+FileChecksum: SHA1: 41b582a4f4b85a03e4cb411a599a57128e262d08
+FileChecksum: SHA256: 86917cd245dc095bd23a75420beb77d3f029305315d3450201793e703f091e25
+FileChecksum: MD5: d5a4fe5fabe03afd5bead735f8018dc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-libevent.c
+SPDXID: SPDXRef-item13589075
+FileChecksum: SHA1: 8c91f7b97a78b07c9bd6789feb3a836f561b8b3f
+FileChecksum: SHA256: d743b8b6cf54edc89a95ec86da622251ec393a206012d482e0d756e9967eaa95
+FileChecksum: MD5: bf0f519ca47bed4b375a22666fec8c41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/hiredis_ssl.pc.in
+SPDXID: SPDXRef-item13589082
+FileChecksum: SHA1: 4c3bb1428ed8d86df1c96669c8d1bde87804b55c
+FileChecksum: SHA256: 904fe05f519688d271ddc52f5512b84fc7c0d083b41eaf44713e6d8ed9d41979
+FileChecksum: MD5: e51d2eca27f268456db3c58036c08702
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-libuv.c
+SPDXID: SPDXRef-item13589067
+FileChecksum: SHA1: daa3230a14a82a01c7ec5f2b4eb068b85c46cefa
+FileChecksum: SHA256: bdeaad06e46a24b8b5a5bbe04ed8de9dd4c0ae843490180d2996a596ef728b9c
+FileChecksum: MD5: baa3efd9703dd866751af7175d699137
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example.c
+SPDXID: SPDXRef-item13589069
+FileChecksum: SHA1: f6b7bd61aa491dc304b70c7471d988598c8779c1
+FileChecksum: SHA256: 80d93f438a4763729c31495a92c19008c603bd9435b073509a8e59c9caba37a5
+FileChecksum: MD5: f50cc6c9ef1513d24334ee3f149369e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/adapters/glib.h
+SPDXID: SPDXRef-item13589054
+FileChecksum: SHA1: 8da9e044f36689a3233d1ee5c4652e2c98694202
+FileChecksum: SHA256: d0045cf32ec349f6553c19467ca367ef994ee5f649ee9382cbe02fc294a6a4ae
+FileChecksum: MD5: 926b76ada14496847c42411dc4e47de5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-ivykis.c
+SPDXID: SPDXRef-item13589064
+FileChecksum: SHA1: 54babaeacc5f2b7fb5e9074bda1be30e16e30a76
+FileChecksum: SHA256: 1e2ce6496c3b8bcf6c13c8db181815061dbf138cec9de2764fd1d36c6a7a38ae
+FileChecksum: MD5: 5d7310ad14e1e7392efa8273e5c788d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/CMakeLists.txt
+SPDXID: SPDXRef-item13589087
+FileChecksum: SHA1: 48c15c76edd3576977e64e1afe9d359eb731b589
+FileChecksum: SHA256: 1fb23319b0dc6ec1d3b4d830de1b40455ac86d629fd6b4f0b5092a9dcf081b95
+FileChecksum: MD5: a64f60684b5716ad9d51655fa4fe6c79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/.travis.yml
+SPDXID: SPDXRef-item13589045
+FileChecksum: SHA1: 16e98328ffae9b52693699ac19aa4fe3424d2e26
+FileChecksum: SHA256: b8000b05e4ffd49970c2524d512732dde30442b3ba5d3cfbe127cfe42b0d84c1
+FileChecksum: MD5: dc6fda9a0babdfcb2332d167592e9388
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: hiredis-1.0.2.tar.gz/hiredis-1.0.2.tar/hiredis-1.0.2/examples/example-qt.h
+SPDXID: SPDXRef-item13589065
+FileChecksum: SHA1: 61a03a260a1196a3d843c6701579f86bf963002a
+FileChecksum: SHA256: 3cf4c90f773a625decb183b0b10419a8a7834244812a7d30412219c885df6f16
+FileChecksum: MD5: 336f4c7e07fc937193ed9d5e6629c5b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-2-Clause-c91da7fa6fc7de48c5e9b0395b97a6aa
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-1fedeff455fd1b8f21bb695a9b52d17f
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+* Neither the name of Redis nor the names of its contributors may be used
+to endorse or promote products derived from this software without specific
+prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-d95e00e7c660fff56c1ce4626f0ad1c7
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+Neither the name of Redis nor the names of its contributors may be used
+to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+
+LicenseID: LicenseRef-WebM
+LicenseName: WebM Software License
+ExtractedText: <text> Software License
+Copyright (c) 2010, Google Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of Google nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+
+LicenseID: LicenseRef-BSD
+LicenseName: BSD
+ExtractedText: <text> BSD is referenced without a version number. Please look up BSD in the License Admin to view the different versions. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-2-Clause
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Copyright (c) <year> <owner> 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
