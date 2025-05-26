@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/atlassian-api/atlassian-python-api/archive/refs/tags/3.41.3.tar.gz
 

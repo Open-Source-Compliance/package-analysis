@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/dabeaz/ply/archive/refs/tags/3.11.tar.gz
 

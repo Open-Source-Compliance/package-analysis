@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/tartley/colorama/archive/refs/tags/0.4.6.tar.gz
 

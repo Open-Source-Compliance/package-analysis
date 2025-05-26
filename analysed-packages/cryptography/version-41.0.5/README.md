@@ -1,4 +1,4 @@
-﻿## Download Location
+## Download Location
 
 https://github.com/pyca/cryptography/archive/refs/tags/41.0.5.tar.gz
 
