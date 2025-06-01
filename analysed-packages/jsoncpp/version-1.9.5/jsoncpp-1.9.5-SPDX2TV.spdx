@@ -1,0 +1,3317 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_jsoncpp-1.9.5.tar.gz_1748801466.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of jsoncpp 1.9.5
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2025-06-01T18:11:07Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: jsoncpp-1.9.5.tar.gz
+PackageFileName: jsoncpp-1.9.5.tar.gz
+SPDXID: SPDXRef-upload2945
+PackageDownloadLocation: https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.6.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/open-source-parsers/jsoncpp@1.9.6
+FilesAnalyzed: true
+PackageVerificationCode: 884648a1cbb087f1f3c6fe631d837786c1762b99
+PackageChecksum: SHA1: 5c0c95ff3dd6b5dc18644e90f21b7b0e252e5de9
+PackageChecksum: SHA256: f409856e5920c18d0c2fb85276e24ee607d2a09b5e7d5f0a371368903c275da2
+PackageChecksum: MD5: d6c8c609f2162eff373db62b90a051c7
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageAttributionText: <text> 
+To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. 
+</text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2945
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/lib_json/json_value.cpp
+SPDXID: SPDXRef-item13598017
+FileChecksum: SHA1: c43db984536fe25d215d845ed856762ca078798c
+FileChecksum: SHA256: 140d9f2ed741d87d9492c0429c771209340461dad88d19f57a59026b2e2e4a33
+FileChecksum: MD5: 90a9ed3e1981c0c497d6ba741b7ae288
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2011 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/json.h
+SPDXID: SPDXRef-item13597984
+FileChecksum: SHA1: 0155d8f90f1d24bab4593d71966a40d5394a6de9
+FileChecksum: SHA256: 05ccb35afa55a068f8cc2a195db46d89a7f6a458d1943ae009465834c6404a67
+FileChecksum: MD5: 4f5d70ded9fdb62205531c4969876073
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/value.h
+SPDXID: SPDXRef-item13597991
+FileChecksum: SHA1: 7919046d207a4e1a4834f251b1ceedb876d1666b
+FileChecksum: SHA256: 4b57ba49499c04de03f5df848f8714ea8b34578d089ae56c1a5aefa0df3c5ffa
+FileChecksum: MD5: 3ff38d5a15c325fd6d2c759bfe9ec1c6
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/cleantests.py
+SPDXID: SPDXRef-item13597785
+FileChecksum: SHA1: 833e6d99e46860571619fa7cefb534490a7766c1
+FileChecksum: SHA256: 3aff20afa032dec4c7ab831c055bcf1d3a4ae930970898050f1710dd27f60fba
+FileChecksum: MD5: 57d45080795bca65af3230c6e640e9a3
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/lib_json/json_valueiterator.inl
+SPDXID: SPDXRef-item13598019
+FileChecksum: SHA1: f2d630ae7b02aa05c047a8df333bcdc17d6cd643
+FileChecksum: SHA256: 5b37b47184f65f7a01ea9dbdc454a5be0eee472eff47829f3ffd06de798deaa4
+FileChecksum: MD5: 20655dd6783383f0802e37a26ac02572
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/forwards.h
+SPDXID: SPDXRef-item13597988
+FileChecksum: SHA1: a281af8f1b24935c44d7996d0a33fb14205dd591
+FileChecksum: SHA256: 4e5144062f296c821107af272c39df31b7ac6fcfefbeb66637958738fc09a117
+FileChecksum: MD5: 68cafd5ef203a84ca68015baeca367df
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/test_lib_json/jsontest.h
+SPDXID: SPDXRef-item13598011
+FileChecksum: SHA1: ca81a9cdf239e514d4b2cc2ccd281873ed50a045
+FileChecksum: SHA256: 84f1aae3ef4a01266a4d1688c8d8d4ce7c522ea3a0a01a644ab0f005752aa6df
+FileChecksum: MD5: f84bb324b893729f02949684ccc3b141
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/devtools/__init__.py
+SPDXID: SPDXRef-item13597961
+FileChecksum: SHA1: 810040d284fa1b699962b58340ba3fd10af36707
+FileChecksum: SHA256: 50d44eee1449fd56cf5843a260c2146e91e2239ab0b7c49579b3159580dbbf9e
+FileChecksum: MD5: 9f2c851a0ce258834a638bdcfa85aaa2
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/test_lib_json/jsontest.cpp
+SPDXID: SPDXRef-item13598015
+FileChecksum: SHA1: 6f9adac3d4e37dfd351c52d7f85287597a03d31d
+FileChecksum: SHA256: f187dcf45d3cc0ad08b7b4632e560aaaf3a9a84318ea92e989d86460703cb2e1
+FileChecksum: MD5: 7fab7cbce1fe6af40a598cac12c3b92d
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/devtools/antglob.py
+SPDXID: SPDXRef-item13597959
+FileChecksum: SHA1: 5ecebdd5fbbf4b102321cc11f17753f4e89e8982
+FileChecksum: SHA256: 28c64608546d58f3beb2fabbbb21477ebb26709759514d14f7339f691c48dbe3
+FileChecksum: MD5: a5e7b873b6f28d3e0488a57e44da4023
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2009 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/config.h
+SPDXID: SPDXRef-item13597993
+FileChecksum: SHA1: 819b736e54488dda07f3046c2f9ca7a0c0fb067c
+FileChecksum: SHA256: a607e32e34497e2c51df1c61e6627760618d7d6964d9f47dfa8165ad305063b9
+FileChecksum: MD5: 43f71f88dd8558f62a589b6473c18229
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/devtools/fixeol.py
+SPDXID: SPDXRef-item13597957
+FileChecksum: SHA1: eff7dc2c94aacac7f9d4d3d1c2b639fa467edbb7
+FileChecksum: SHA256: deba2388311419989636db6c7f12afb8665839a52e322826002d33a9cdd9079d
+FileChecksum: MD5: 026043cfd574da91770ee622c783f6c6
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/writer.h
+SPDXID: SPDXRef-item13597990
+FileChecksum: SHA1: b1d5550d3003d9b9a8e1836ba6d3ab065b63d801
+FileChecksum: SHA256: 55aca7f7eaf0adedf5a1f2aa8006dbaa277dfe7a659b0491304b1043d9091a6b
+FileChecksum: MD5: 53776475d6a2a9b4389f057013053617
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/lib_json/json_tool.h
+SPDXID: SPDXRef-item13598021
+FileChecksum: SHA1: 89eeb541f0059228ab363b586853819abb69755e
+FileChecksum: SHA256: dd86b80bad3a960b34589b97047c63be63a34db1fcdd51a93dbc6aef150cfaf8
+FileChecksum: MD5: e6e2316ed5225eeb6cdb54f8835df749
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/jsontestrunner/main.cpp
+SPDXID: SPDXRef-item13598007
+FileChecksum: SHA1: 1487b133e9e74deab398937068b27d941ccbd3b6
+FileChecksum: SHA256: 326619f075f14e410c641d36ff989aba9d79a13a91a0646d12bbe6748b483099
+FileChecksum: MD5: cbcf2edb907db0cbdf14ec87ae1f4f46
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/runjsontests.py
+SPDXID: SPDXRef-item13597787
+FileChecksum: SHA1: 65501b9f18248bc7fd0c423ab3a689f7bee58ac6
+FileChecksum: SHA256: 790db7feff280e04f9b84937c04bb17e09a858bca781741d27ee020287e88140
+FileChecksum: MD5: 6ed91b5a7c139f4489418f37afde60d5
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2007 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/lib_json/json_writer.cpp
+SPDXID: SPDXRef-item13598020
+FileChecksum: SHA1: 77dcd06e833d53752e91f50d6e8ef3375f40d663
+FileChecksum: SHA256: 967106ec558fad2c02b28ec632013d9d5a839d466ad2dbb76ebb0e71721866d0
+FileChecksum: MD5: 3208c1a244e1c4cb14d7a3b10032e16a
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright 2011 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/devtools/tarball.py
+SPDXID: SPDXRef-item13597962
+FileChecksum: SHA1: 5e739b770dae6061ffe49f04290140b18624fa87
+FileChecksum: SHA256: d393421db48cd31738bdbb064bf1b9cf42e3d8a6f4c7bbf40a9ca9343e173ad6
+FileChecksum: MD5: 0d5332c6eb2d7f7f08c22129bca06502
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/test_lib_json/fuzz.cpp
+SPDXID: SPDXRef-item13598009
+FileChecksum: SHA1: 8bc872c291fc949df5f6c5e4c216e60e39523112
+FileChecksum: SHA256: 36a83cd83959213b02e261f2287f1ad7d46990e3e4731b8e30da4a2a15d5cc3b
+FileChecksum: MD5: 6cb5beaccac1026874a6a7d45bec3c1f
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright 2007-2019 The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/assertions.h
+SPDXID: SPDXRef-item13597986
+FileChecksum: SHA1: c86916548a4f76bae5e9d9ccafc1e1b2518ea5c4
+FileChecksum: SHA256: ea30b8fb30ef70a52a6435f6e6efbc37de03555fa192b33832e65cbd159b68bb
+FileChecksum: MD5: d542dfb73cafbe41637eede9bd393556
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/generate_expected.py
+SPDXID: SPDXRef-item13597786
+FileChecksum: SHA1: baae7dc6890ec36d81979440dc4dc46c2dae6124
+FileChecksum: SHA256: 4c3669361e35bf8d4544e0631f73567f2e0185282a149dcaddaafc516db89c4a
+FileChecksum: MD5: 1b4ce37398d5b88b3fcf3b383965a7ac
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/allocator.h
+SPDXID: SPDXRef-item13597992
+FileChecksum: SHA1: be3fa74ad2feb488ec729ca546473af8eef248a5
+FileChecksum: SHA256: e286b3621b0f260fb634fe7c2cf7591ce983ab8e590b9705981295b4c4509fd6
+FileChecksum: MD5: cafc54af0fdf4d77be7813f3ec22501e
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/json_features.h
+SPDXID: SPDXRef-item13597985
+FileChecksum: SHA1: 2721177999ee381139410b6ef451c6e2f2bae4ff
+FileChecksum: SHA256: 5a08a4c1e4afc047915a01dce28bbba69feeb2f452e0871c02d6f90f2d30cd68
+FileChecksum: MD5: 5824fc27b4c3d90b7ca03eb65d533e3c
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/rununittests.py
+SPDXID: SPDXRef-item13597949
+FileChecksum: SHA1: add2b694ae9698ed2482f8278c78ef1cdf3c8c5e
+FileChecksum: SHA256: ab719a1a40aed60ad6e4a7f99eafc839f3e8136711fd65b704857b8602f3a8d0
+FileChecksum: MD5: 9e14c991a92ed6ef202296eb10175693
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright 2009 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/test_lib_json/fuzz.h
+SPDXID: SPDXRef-item13598014
+FileChecksum: SHA1: 21d256402185c4fa8cd0849bdbaa485a4894914c
+FileChecksum: SHA256: 61af29b33af2ebd56bd3e38b7d4296c4c6b9c777bf55cf441c677cb805af71dd
+FileChecksum: MD5: 08695fd12c85881c0b7d22cf038bd927
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright 2007-2010 The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/reader.h
+SPDXID: SPDXRef-item13597987
+FileChecksum: SHA1: eddeafa1a0febdd6ef1854b83a1b7b488fe92cae
+FileChecksum: SHA256: 37f48bcffdb29ef6374b894956956627cfedf106b2ace90bfd26e6f0dfb25577
+FileChecksum: MD5: d3b1d3490790241ae617d102a609af06
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/test_lib_json/main.cpp
+SPDXID: SPDXRef-item13598013
+FileChecksum: SHA1: 0554ce1340e16d3cea29f5585cd3f9c63afbde45
+FileChecksum: SHA256: 328b84519687e17fad55df7ddaca90ce22f461ef74a59d812179c519e01c3b56
+FileChecksum: MD5: f9e68d3d339d45bdcaff971758b56967
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/pyjsontestrunner.py
+SPDXID: SPDXRef-item13597826
+FileChecksum: SHA1: 15c76051afa7a65e4a38d53d6d7c4ba0cd1e4989
+FileChecksum: SHA256: 76f2665704d19d5aa6e174022dded0a0bd9ad19f6b77faeff67516f4e3a69007
+FileChecksum: MD5: 370b65e8f20edb782d1ff62c8abaaef8
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright 2007 Baptiste Lepilleur and The JsonCpp Authors </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/lib_json/json_reader.cpp
+SPDXID: SPDXRef-item13598018
+FileChecksum: SHA1: c47c4db821c8e8ff5baf85fa238335dee6c7eae7
+FileChecksum: SHA256: 77daa7541281ddfdda8cf664acf7e4a4f6d682d931d1e208020f330fbfda1851
+FileChecksum: MD5: 43ec806f527d2f1386c4ce268832927f
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: <text> Copyright 2007-2011 Baptiste Lepilleur and The JsonCpp Authors
+Copyright (C) 2016 InfoTeCS JSC. All rights reserved. </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/devtools/licenseupdater.py
+SPDXID: SPDXRef-item13597956
+FileChecksum: SHA1: 3a67e881712c92deedf5b6c5a1dcc9b1a7dd37cc
+FileChecksum: SHA256: 81d0fc4498e695444090a0ba9a74398f8738cd1ae18c788734be93fec2dc3515
+FileChecksum: MD5: a4fb8ef5dfc946c6be9adfb2c160eed0
+LicenseConcluded: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f OR LicenseRef-Public-domain
+LicenseComments: <text> The information in the file is:
+Distributed under MIT license, or public domain if desired and
+recognized in your jurisdiction.
+Thus we concluded MIT OR Public-domain as license of this file </text>
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: NOASSERTION
+FileAttributionText: <text> To the extend files may be licensed under MIT or Public-domain, in this context MIT has been chosen. This shall not restrict the freedom of other users to choose either MIT or Public-domain. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/cmake/JoinPaths.cmake
+SPDXID: SPDXRef-item13597967
+FileChecksum: SHA1: 838a641fb3b0bfaf6db29b800b02f343a35227ae
+FileChecksum: SHA256: 861e8bba5577de156ccc23f8b128717648a774e1cefb88897a09105c11d38cc0
+FileChecksum: MD5: e1bbd302ec5388c7aa290c9709288800
+LicenseConcluded: LicenseRef-CC0-1.0 OR LicenseRef-MIT-cc4734e8a01f740811ac41130a40cf90
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: (MIT OR CC0-1.0)
+...
+https://github.com/jtojnar/cmake-snips
+We checked the given link, it leads to the corresponding GitHub repo. The README.md file contains the following information:
+The source code is dual-licensed under MIT and CC0 1.0.
+The LICENSE file contains the text of the MIT license, which we took.
+We concluded MIT OR CC0 1.0 as license of this file </text>
+LicenseInfoInFile: LicenseRef-CC0-1.0
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Dual-license
+FileCopyrightText: <text> Copyright 2020 Jan Tojnar https://github.com/jtojnar/cmake-snips </text>
+FileAttributionText: <text> To the extend files may be licensed under MIT or CC0-1.0, in this context CC0-1.0 has been chosen. This shall not restrict the freedom of other users to choose either MIT or CC0-1.0. For convenience all license texts are provided. </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.travis_scripts/run-clang-format.py
+SPDXID: SPDXRef-item13597765
+FileChecksum: SHA1: d9669598f90acf28623bdb51d9fe3534fb553020
+FileChecksum: SHA256: 1e3a39e9acb1bef8fb7e679903c629189f99ec55abbbe67cc7e49b5d0d7436dc
+FileChecksum: MD5: 18e6f56e19e7511f22b9c795ce9dbec7
+LicenseConcluded: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseComments: <text> The information in the file is:
+NOTE: pulled from https://github.com/Sarcasm/run-clang-format, which is
+licensed under the MIT license.
+We checked the given link, it leads to the corresponding GitHub repo. The LICENSE file contains the text of the MIT license, which we took and concluded MIT as license of this file
+Teh information was retrieved on 1st of June 2025 </text>
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/example/readFromString/readFromString.cpp
+SPDXID: SPDXRef-item13597776
+FileChecksum: SHA1: f7d4155ce3cd79c49f5a0e642d2f050d1a51a2b5
+FileChecksum: SHA256: 9b7186a4a0ca977216db066a07838729c9ff43269af7466c3d52d55cb55a6c8e
+FileChecksum: MD5: d45d6b54a1dde698bf4aebd4fea8b70c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail7.json
+SPDXID: SPDXRef-item13597823
+FileChecksum: SHA1: 195f52e867d83ea304574c86556b486e45ad8f31
+FileChecksum: SHA256: d9b01bb868ba4a6156085744bddf7acf119125aaf40e19e404b284e99b1973e0
+FileChecksum: MD5: c72ce188fc9a8a12414cf991b72ec3de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_01.expected
+SPDXID: SPDXRef-item13597940
+FileChecksum: SHA1: a5a1194df78a8dd1456c81007271fc73d2883033
+FileChecksum: SHA256: cf12e1b6f19cdd9d2a91ee0dd308ed7b64e4ec5bfcc32754318b5421ffbe9af3
+FileChecksum: MD5: 3d795cdec9ec854a2f37ec5f4e624064
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.gitattributes
+SPDXID: SPDXRef-item13597965
+FileChecksum: SHA1: 3e7eb1a745f8ae81f602735106346295d9406bc7
+FileChecksum: SHA256: 42b2be87f57cd0e4d54db154f6e2ac801b4aede45ecff607cab489c8a69687ed
+FileChecksum: MD5: a30ced1c89c1b41038107174efa3b184
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_01.expected
+SPDXID: SPDXRef-item13597887
+FileChecksum: SHA1: e02e77f370222d6fc5167fa63d1ca925a183583f
+FileChecksum: SHA256: 3ee77d9360068fb6e94d6386667eb2eb5651f42a262440aa1226278cbe733e83
+FileChecksum: MD5: 07c57c1026f6250c00588c3e87398833
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/get_version.pl
+SPDXID: SPDXRef-item13598001
+FileChecksum: SHA1: 42db04fb2c66cc80bcbceee4e166c51cc237fbd0
+FileChecksum: SHA256: 1393ec18dab992ae0056e1ca1c48aaeefcafb10f16737bbe1472f50b162a5e35
+FileChecksum: MD5: 62a1396c85453bc74ce36e6290da25cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/lib_json/CMakeLists.txt
+SPDXID: SPDXRef-item13598022
+FileChecksum: SHA1: bb78ef44c31d9e5d34999e82fbd0ac9d8e794125
+FileChecksum: SHA256: 72c5705139ca458061502e51f5dc8b0c87b846b2c634d8544765b046ed136eb8
+FileChecksum: MD5: 9194e395272ff1a270de617368110d67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_05.json
+SPDXID: SPDXRef-item13597880
+FileChecksum: SHA1: 379afec0d6895ec67e61f810e82170f60b7a4d02
+FileChecksum: SHA256: 15e28797a68120e90e101d0d5b56b2b935ce234d491819709b47fa0c67655465
+FileChecksum: MD5: 99a0621d63c06eba78b686b1cdda7882
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail21.json
+SPDXID: SPDXRef-item13597805
+FileChecksum: SHA1: 4286da59fe0e3fd41f1d3e126a93b21e108dcdc8
+FileChecksum: SHA256: d786f4c34fc330006cfd6ef9a855d4233ce7ea4ffdce19a1aeb6498ae0341edc
+FileChecksum: MD5: bb3c20f765fcb22d9340986f1f9bae05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/README.md
+SPDXID: SPDXRef-item13597781
+FileChecksum: SHA1: 183ac4f713e365986980a7b98779c8fd7d565a07
+FileChecksum: SHA256: eb5684ec592cae818da5fcfdedc72eb3a258aab1aa6be42b93239b74a510083e
+FileChecksum: MD5: 21454a9a46c843590e849777c13aa698
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/doc/doxyfile.in
+SPDXID: SPDXRef-item13597971
+FileChecksum: SHA1: 39f55fa3e3ddf30d19c5b949ef02953c9872d1f5
+FileChecksum: SHA256: 5c9259c15342d244595dd0e08851b167d4ed7b7e632d08b7e059eeb01679b251
+FileChecksum: MD5: ba521ccd62529f3f13a7bff267ce260e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/doc/roadmap.dox
+SPDXID: SPDXRef-item13597977
+FileChecksum: SHA1: 7bdb2ae6acb5a950b147b2112f99aa2c272c9b8f
+FileChecksum: SHA256: 448aa510f07ade61d496d3830ba1dc46fa5a685604889d12cab26289d20d6466
+FileChecksum: MD5: a0eaf010c8007bf2cd454825d134e057
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_01.json
+SPDXID: SPDXRef-item13597904
+FileChecksum: SHA1: 0c2e9817ee526f4dc774a09be0af97b0b3b4eb4b
+FileChecksum: SHA256: 1f14615c12c9fb4a0dcc691daf2f6207c264147f838723a916d710a4b0fdecaf
+FileChecksum: MD5: 698deb915b4cd66c46d5db93144723fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_object_01.json
+SPDXID: SPDXRef-item13597868
+FileChecksum: SHA1: 5f36b2ea290645ee34d943220a14b54ee5ea5be5
+FileChecksum: SHA256: ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356
+FileChecksum: MD5: 8a80554c91d9fca8acb82f023de02f11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/fail_test_array_02.json
+SPDXID: SPDXRef-item13597834
+FileChecksum: SHA1: ed4dffdc7e39ebadb6c48dc7c56167921aff5968
+FileChecksum: SHA256: 56690a7eea18d8e9a9208655b9fb924660c3a5f1ec22c713315b18c132b02ac4
+FileChecksum: MD5: 3db329816cad94ea6fc510d5bdd2c707
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_object_03.expected
+SPDXID: SPDXRef-item13597840
+FileChecksum: SHA1: b2a2bed1bc7081df63fee6f050526cadbeb1660a
+FileChecksum: SHA256: cbf39bf70ee89de01d8dd4d58f2bc130843165ddce8d86c3aa43ba336890a408
+FileChecksum: MD5: 9d18ab2d320afe8d9629db2fbc5e65e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_08.expected
+SPDXID: SPDXRef-item13597917
+FileChecksum: SHA1: 612fdd984f958d4d00444e93e9df4fa3f51a3fa2
+FileChecksum: SHA256: 72c91e63378d089f84f2e21b1b26a18d2df19a280d5bc1924e07025979bc33de
+FileChecksum: MD5: 7872b464f1558a09b57440508947ec5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_comment_01.expected
+SPDXID: SPDXRef-item13597888
+FileChecksum: SHA1: cebc4d26ee965db6a5568c3f8181066546924f8d
+FileChecksum: SHA256: d3c59292d0335afe7c551794aeecd3e4dca63a839bde7e40fa9759c14ed92d46
+FileChecksum: MD5: 4f47aba976b8cc1a027161b292b0e368
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/fail_invalid_quote.json
+SPDXID: SPDXRef-item13597844
+FileChecksum: SHA1: b0e112c701021ed4046b680d05262dfdf4d687f3
+FileChecksum: SHA256: 3455f41de9c8437dec9e64208884f198b2416bfbfb8188d809b033a2c7b3452f
+FileChecksum: MD5: d71f519105bbc111cf12cb10607e6b59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_03.json
+SPDXID: SPDXRef-item13597835
+FileChecksum: SHA1: 99e89933bdfff8cfbb0caa2735ec63b0b25324a4
+FileChecksum: SHA256: a0f28c147988c26a7b0321e06f0c32b70cf6dfe5d9c7b0f4c02512b9f3370bac
+FileChecksum: MD5: 81a5372cde249c83fa1af3939eadcc24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/CMakeLists.txt
+SPDXID: SPDXRef-item13597978
+FileChecksum: SHA1: 46f323a4d19e5fa944a0eb036fd7a1d4d0a16a90
+FileChecksum: SHA256: 2aeb3aa20d41057e30acb66fbe0b8bf273c4c14125b8e4e4be4dd4bbd4e3c6f1
+FileChecksum: MD5: 6519de3809584add4adbc96cca6458a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_06.expected
+SPDXID: SPDXRef-item13597938
+FileChecksum: SHA1: e172bc2b88a1aad22e055e7022086c4850da7641
+FileChecksum: SHA256: 29669020f23f4ee10c830567d162cf4c7f88d18762a8789f5f573cb47e136c64
+FileChecksum: MD5: 9f7460941c4ab2c5a9fd6ccc98dec8e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/LICENSE
+SPDXID: SPDXRef-item13597755
+FileChecksum: SHA1: db16de9f0016978749716482a56ddec474b7d0b7
+FileChecksum: SHA256: cec0db5f6d7ed6b3a72647bd50aed02e13c3377fd44382b96dc2915534c042ad
+FileChecksum: MD5: 5d73c165a0f9e86a1342f32d19ec5926
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-unknown-license-reference
+LicenseInfoInFile: LicenseRef-X11-distribute-modifications-variant
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2007-2010 by Baptiste Lepilleur and The JsonCpp Authors,
+Copyright (c) 2007-2010 Baptiste Lepilleur and The JsonCpp Authors </text>
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/pass3.json
+SPDXID: SPDXRef-item13597825
+FileChecksum: SHA1: 3e8bacbb5365e71e13dd2d81b913e83de718b1df
+FileChecksum: SHA256: 45aaef317f170e5490aa4a18cc301f6d5e03ee617980dec1b15403abf6c537f4
+FileChecksum: MD5: b8fda1c2266f683b51d1a7e3fabc8875
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_complex_01.json
+SPDXID: SPDXRef-item13597882
+FileChecksum: SHA1: c12be1b07c16daf825c7e9b601e5072d09f8d0b8
+FileChecksum: SHA256: f72fd6dfc8b0f441bf32759f0b7875803633c2a4e14dc580ae465ab1dd37f9f7
+FileChecksum: MD5: fe68609fa84d038e47ac7ebd0dd23efb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_comment_00.json
+SPDXID: SPDXRef-item13597891
+FileChecksum: SHA1: 773fb3a8d835f863294fadea510d4f75c7b94de9
+FileChecksum: SHA256: 20f9d769ce8699c2da5ffefb11e76779486450990383b099c7e1ba3f276cc67e
+FileChecksum: MD5: e94460e5d010635ee55f0dd28e300f07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.github/ISSUE_TEMPLATE/bug_report.md
+SPDXID: SPDXRef-item13597954
+FileChecksum: SHA1: 35bbae4dfb4198270153cdabb6aa92a50442a9b6
+FileChecksum: SHA256: 559951936498209cc84ba6d9e4d2f12ca4a517dd5e30cb25107ef1bb4ec27141
+FileChecksum: MD5: cbfefba7472aab681b7e7beb599f5ec5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/fail_test_array_01.json
+SPDXID: SPDXRef-item13597838
+FileChecksum: SHA1: 758ee6d5961393d488ba1c6525b430fef569c161
+FileChecksum: SHA256: ba632e3b0e558d4a4ddd6d94f7e8ee54531de7a906ecced62fcc8556d160b0a1
+FileChecksum: MD5: ed87becf3e06dac07c2f5f4c90443c8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/example/readFromStream/errorFormat.json
+SPDXID: SPDXRef-item13597778
+FileChecksum: SHA1: c2b880d882091a5e7b9363ed7e4576688d892ee4
+FileChecksum: SHA256: 602bb28d233f16341b7c919f193c1e8fa5aa1a8805d04359c51cf7d80ed0a9ef
+FileChecksum: MD5: 2528d93198ec1b174c84c9506eca963b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_05.json
+SPDXID: SPDXRef-item13597856
+FileChecksum: SHA1: c8532c6628aa967782923c44b146094c46541d10
+FileChecksum: SHA256: d08e54f6aa60dc061aad4c6f0ba7b19961b7762c35ea199fa23632b753241db4
+FileChecksum: MD5: ec41de1fa134681d7c46f72538f26d12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail13.json
+SPDXID: SPDXRef-item13597799
+FileChecksum: SHA1: accf6292f64ffde5056887aace56c219b4a1f15c
+FileChecksum: SHA256: a9235f6b3a47a700d45a8cba0c0b01b62ed4b2fd8a0f10cfe7964bde5e8cc1e0
+FileChecksum: MD5: 8eb5f1e84eec9f1ca21b98bfc6457215
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_03.expected
+SPDXID: SPDXRef-item13597831
+FileChecksum: SHA1: f3187bc8e69391c0c0f092a72412819931fd87ca
+FileChecksum: SHA256: 4a8bc326ef8589201da7be8cc0fcb6d1e6f26df74b1fbcd49700c0f82c533963
+FileChecksum: MD5: e86979031a65a8e6469939007ae73ab3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_complex_01.expected
+SPDXID: SPDXRef-item13597897
+FileChecksum: SHA1: f95f9c4888837907654654fcb0a6458d90df264a
+FileChecksum: SHA256: b23d99779e167fc193acb933016804dcdbb9d072ccee446dd6b1b283d397745f
+FileChecksum: MD5: 0121784908abeadf320d8b81fcf21104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/doc/header.html
+SPDXID: SPDXRef-item13597975
+FileChecksum: SHA1: 6f9a70b01187f4a648c236125080f3430ede3c40
+FileChecksum: SHA256: ab20d7418cd41642d08702a9c3b8182ef22dbed574367e6414670367f3d12524
+FileChecksum: MD5: f144877c16e233383b1cdb326b5e8955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail19.json
+SPDXID: SPDXRef-item13597813
+FileChecksum: SHA1: e1a097a7456e1c4557b9e16bc8ceb1f3457361ac
+FileChecksum: SHA256: f262f8944e9f4346e80ccab07d2cc74f95928193210bc7a95c634f665f105b03
+FileChecksum: MD5: 3a93f1d8bfdf2f8b7dc8f7fd7c58787d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail31.json
+SPDXID: SPDXRef-item13597801
+FileChecksum: SHA1: eca7e126cc9c9796bc8fc8f23ec1b43534e6b78b
+FileChecksum: SHA256: 25981c42fdd25646ab17d57bfaa65e4b2d7b791fdf13840e75c5a9e8f66dec70
+FileChecksum: MD5: e8e67ebbbad29d6248aba51f4b346862
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_08.expected
+SPDXID: SPDXRef-item13597901
+FileChecksum: SHA1: 6eb1a366f0ba37b4292a8dcdf28ecc2f603577be
+FileChecksum: SHA256: a607df4de7b2d5f5ecce55dbc5e9ae7b7d944050beb4ed9e5886ee23b1e48c50
+FileChecksum: MD5: caf400359fce499c6b875374e5ee2715
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/PreventInSourceBuilds.cmake
+SPDXID: SPDXRef-item13597982
+FileChecksum: SHA1: fa1a913f231110a1306040314e64087a5aed76e5
+FileChecksum: SHA256: b1a4f5b374294ac9adb719e197eec93298040b4f144ee85fde87f34a81ce5a58
+FileChecksum: MD5: cd5e98d92a5471c26917840790745612
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_08_64bits.json
+SPDXID: SPDXRef-item13597894
+FileChecksum: SHA1: 8a7aca1c0528dbae014e2c6eebd0700730df0c56
+FileChecksum: SHA256: 17dc9f57ff8954fd708b04653004b281f2feb1678fe6c90aa159a60cccb61e77
+FileChecksum: MD5: 832842954b5c939ed6fcd8c137884dbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/jsoncpp-namespaced-targets.cmake
+SPDXID: SPDXRef-item13598024
+FileChecksum: SHA1: 4de205c7828287f6627c69e83514bba9ceb1f5c8
+FileChecksum: SHA256: e85287799c83f067153877225a3c985d81a749ddfab40fa1fce5b437482f49ca
+FileChecksum: MD5: 4d6ac13a3ef5ec407c09587655f4aed6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_02.json
+SPDXID: SPDXRef-item13597849
+FileChecksum: SHA1: 4e0cf62d42870f07b37ade20b2e54c6a9f92dcc4
+FileChecksum: SHA256: ef4e4e90bc547008c323b3ccbd54c01ff1e0a10f4691c23f96f405e1a2f64039
+FileChecksum: MD5: 90f6b24f58ba12c95fa96c111a78cd66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/test_array_08.expected
+SPDXID: SPDXRef-item13597943
+FileChecksum: SHA1: 78d996d054f48051852487bd42518ed06a62fcc6
+FileChecksum: SHA256: daa5e6d09e5bdb2cb999971f3973013229ed8248967e6ce1db9c417a2b4800c1
+FileChecksum: MD5: a7e2524eb37461d8d05a51782560e179
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/AUTHORS
+SPDXID: SPDXRef-item13597757
+FileChecksum: SHA1: 2701105b3e580ed26205ba185ec2e65caea66f12
+FileChecksum: SHA256: 0b21b1d9c90421380d30e8b55a02204949cd737535d98bf56076d661816deec4
+FileChecksum: MD5: f1b785da6663f500907f1b30bce405a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail26.json
+SPDXID: SPDXRef-item13597824
+FileChecksum: SHA1: 0a1a2796e3db4f4f2acb05f7d5d415212207a403
+FileChecksum: SHA256: 032ff03c5b7bf611b5015000312a290b6fa7878ccb508c5ed5cc73cb2b649179
+FileChecksum: MD5: e732685a5d4a6a21b2a03da7564de675
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_03.expected
+SPDXID: SPDXRef-item13597937
+FileChecksum: SHA1: 6d4125549438f6d9cc20c8aca3952932fe69e99f
+FileChecksum: SHA256: 96f1d95dabfae3e3a4c458a1282f7f8a893421bf71de38c7e593280ea4a2383b
+FileChecksum: MD5: 12b1a4cc869c8e018d661e5278efcac2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/example/readFromStream/withComment.json
+SPDXID: SPDXRef-item13597780
+FileChecksum: SHA1: f11994e2dfedfcb7001280789a589db6ce24a591
+FileChecksum: SHA256: 75425128ff68f45c1d3114ffa180b8a774727903147aef296ca581bb60b3c840
+FileChecksum: MD5: 0a8b9a4ce5e7768013c093b68e2ec5cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_01.json
+SPDXID: SPDXRef-item13597857
+FileChecksum: SHA1: 15529979c8d64472a5ec4c9a794fc353ecc812fa
+FileChecksum: SHA256: 0aeb95f62766e68469af9ce64f77530be1109235683599a36a2186b9584cbf53
+FileChecksum: MD5: 7a68f42c883741be8f90460e9c243ee3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail30.json
+SPDXID: SPDXRef-item13597808
+FileChecksum: SHA1: aeee5db1207a3b3c5e0176bbfaab4c3a7bcbd652
+FileChecksum: SHA256: 3f54bdbbd4e3ad547fa457b5810df7c96f2d2c3bc6985e11202ffd1d42116889
+FileChecksum: MD5: 6866178af9153f080f0256f63dd651b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail33.json
+SPDXID: SPDXRef-item13597809
+FileChecksum: SHA1: 096a91815ab5830e13e4f733fc5ea4ea52c56c1b
+FileChecksum: SHA256: df72f007b029ebe06bffcd6083deff92aae557aa172eaf7e2504a3222dc73b60
+FileChecksum: MD5: 835bf3bb717a92a97e1b7e00d5bfb270
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_10.expected
+SPDXID: SPDXRef-item13597921
+FileChecksum: SHA1: 79fe139a1c5c27244da8ad1ac6dd6c0b7168ba44
+FileChecksum: SHA256: ebbd15bb46373ce28ae02dda0b47eaf515d07b82f2f47e175f9dc69682976748
+FileChecksum: MD5: 3b2671a57687f87f4cacb50e82bb9562
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail4.json
+SPDXID: SPDXRef-item13597792
+FileChecksum: SHA1: 79963e569b1a98866c84ccb4a50ab28649e24e67
+FileChecksum: SHA256: 15836776fdc7d0473f68c35c1295e473d57c215af1232b439b28120f674be45f
+FileChecksum: MD5: 0b9a4474e4e7afce836a6db639c4ae35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_09.expected
+SPDXID: SPDXRef-item13597899
+FileChecksum: SHA1: 36f171dec5db47ae436b34e40b9fe440abdd0555
+FileChecksum: SHA256: f33535e448b9b5d158959a74a130aa451303c450742a5e091426045ef44d960c
+FileChecksum: MD5: c68ba108d47ab31785900cec3e009976
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_06_64bits.expected
+SPDXID: SPDXRef-item13597947
+FileChecksum: SHA1: a79d93655174a4b92e6db9839b00d5b2ab3727b3
+FileChecksum: SHA256: dacadeaaee2257f0aa890190b9740b9e7b4b30d91209e369ba4d14b97be9dd4e
+FileChecksum: MD5: d1ec3196a203b9ca54ff1169e186dd2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail6.json
+SPDXID: SPDXRef-item13597817
+FileChecksum: SHA1: b496d81dcc2c11af1dd8f6dd37c06f43995a7f92
+FileChecksum: SHA256: 9cac15bfc3db16d965b9074329f4b7b26443fd4ccbf21cc545cc718114cbda20
+FileChecksum: MD5: b762ff8acc8ebd677505c4257a732b4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_comment_02.expected
+SPDXID: SPDXRef-item13597916
+FileChecksum: SHA1: e7e247abe566c58baffb0faee2966939057694e7
+FileChecksum: SHA256: 3793eae3b775e877b883a0ad9ac636332e3d19003ef520dd0f3f2f5275afad77
+FileChecksum: MD5: 2997024d0602177d55116a779cf95fb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.travis_scripts/travis.before_install.linux.sh
+SPDXID: SPDXRef-item13597761
+FileChecksum: SHA1: 2cacf2af3ab26f0659b3bcf860c701b7026d1b80
+FileChecksum: SHA256: 7a591e41bf49b75242236b58a6d871a75a024722ed84ba4cbf9373953bdd931d
+FileChecksum: MD5: 9d209a65e77af33dac20e20186c76b91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/pkg-config/jsoncpp.pc.in
+SPDXID: SPDXRef-item13597999
+FileChecksum: SHA1: bed572e91ec3041f6a166f6490c0544a1559b1c6
+FileChecksum: SHA256: f2e4b18953c7b9cb33d0a5c043d329aad8151fff12283671be05561202239ac5
+FileChecksum: MD5: d63d218dd896ea0bfcf0ec738d4d3c25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.travis_scripts/run-clang-format.sh
+SPDXID: SPDXRef-item13597767
+FileChecksum: SHA1: 640727bd9bf1a9791e6f01e536348fe7ff52388e
+FileChecksum: SHA256: 8577c73a702a3b935bc1d8fc39581ee64cdd7140c509a4a6318a4fa1dfc71eef
+FileChecksum: MD5: 14c05b339a6249a03787686507d0d749
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail22.json
+SPDXID: SPDXRef-item13597795
+FileChecksum: SHA1: d8715038d579ab570b2d5051a7c7a9d7d7651b98
+FileChecksum: SHA256: dd22ed47b00f7977a8fd058adbf448e7af9b4cf7299c8a11f21298ded07b9e03
+FileChecksum: MD5: 0b8e21b578783bcf9b91b7254b0229e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/example/README.md
+SPDXID: SPDXRef-item13597769
+FileChecksum: SHA1: 6a77bf1c1eb8001fcdb72a8c34556902900c56a2
+FileChecksum: SHA256: a7e5ef904b7f617658d8580aabd6fb15f8ce9247d44ab974e99c0c3af58ef381
+FileChecksum: MD5: 055e425cf276ba2f2ea6c7bd87ba9bca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_10.json
+SPDXID: SPDXRef-item13597845
+FileChecksum: SHA1: 89b6b60e471a2402a45e820dbdd18876cf1f3f80
+FileChecksum: SHA256: 2b8911292f66af818397099b4f802fc14810dd63d3ec69bd7c15bd6012fb81e4
+FileChecksum: MD5: 3b6b982dd598d4aaf326fd625973a2a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/fail_test_stack_limit.json
+SPDXID: SPDXRef-item13597871
+FileChecksum: SHA1: 4e6469bfb261b60d3bba9e0afdc9234a91d3f185
+FileChecksum: SHA256: 8447d235e9eb6f1b9ba359ce9f459d2ec26353dd1165e09ba7ae91d3caf1e84e
+FileChecksum: MD5: 6c715790def2d6a0adc6806096a1e455
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/jsontestrunner/CMakeLists.txt
+SPDXID: SPDXRef-item13598006
+FileChecksum: SHA1: 2174f99b03eba1b4c22533eccd9b6be4f2fc8c66
+FileChecksum: SHA256: ae062d2e2dabe14bebb60ba8d55a73b022b55eca164e824dd708ae26770218ff
+FileChecksum: MD5: 8c42fd6c6c3f181f455cf9c7c918db81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.travis.yml
+SPDXID: SPDXRef-item13597758
+FileChecksum: SHA1: d631e94363a5bc0f334d680072ef866003d21929
+FileChecksum: SHA256: 1c96d4d151646baf14abd836b9ed7aa35fda276d0df19be4e1b3cd6d504b1272
+FileChecksum: MD5: 97ecfb3ac7aa7cc88dc7c1d461ee00f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail24.json
+SPDXID: SPDXRef-item13597807
+FileChecksum: SHA1: 7b2952e86e777300b985c2bcb13f6864ee64c74e
+FileChecksum: SHA256: 0389d0d5920ee2996811974bdcbfe05c9ca0ed79af909704b8485bc86f6eaf25
+FileChecksum: MD5: 54237290d463816171e5f3df5a7dca88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_03.json
+SPDXID: SPDXRef-item13597934
+FileChecksum: SHA1: 616435f70f9aa24316dc1a9076e6c2579bd86a4a
+FileChecksum: SHA256: accd6692206fb310c1b5fda680196e29b41d6bc02c2f39eeca61a886fdf4f82b
+FileChecksum: MD5: 87a14515e2a6ddf5ca81f56baa4852e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/doc/jsoncpp.dox
+SPDXID: SPDXRef-item13597974
+FileChecksum: SHA1: 177463f2d28d378abf2778e3abcc4fd43075358c
+FileChecksum: SHA256: 25a4c4a882c5c627604cea8755d6a5816795a9eaef0babf5ecf4a62c83819373
+FileChecksum: MD5: 1fb0d940615c5b74f1c80e68cc432c50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail29.json
+SPDXID: SPDXRef-item13597797
+FileChecksum: SHA1: 771a1b4f77d751080bb9c653ef6e9b622908b0ec
+FileChecksum: SHA256: cd279aa777afca083b346dbc2b62a1847c24f1556b619b7564842457f8949c93
+FileChecksum: MD5: a23fe576a1ce62365c6246a7ad7dd497
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_02.json
+SPDXID: SPDXRef-item13597898
+FileChecksum: SHA1: 3f904335a2ac14b12902b16c66a87f143dbad9a0
+FileChecksum: SHA256: 630cc3905a54938bf8d355a0afce2cb9cf06d9b07abe7828c89f47e181da01a6
+FileChecksum: MD5: 0c123b832813f6dc5b86b45431140627
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/test_object_05.json
+SPDXID: SPDXRef-item13597860
+FileChecksum: SHA1: 30489c66066143373ffdd524a1601c4902524c31
+FileChecksum: SHA256: 5c31a0d435dab114aee9c9119b19d9407a9cccd723b6def6277a35b792b05a1d
+FileChecksum: MD5: 748b2ef2e0eb5063b0ba780aa2efe4c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_object_02.expected
+SPDXID: SPDXRef-item13597911
+FileChecksum: SHA1: 6e232a3bb30bd0e62792cea40059cfad20db41ad
+FileChecksum: SHA256: 9e98db473e4d8b210281f8453e0a3131f5cfa1cca7b19f549ee0aac7de5af01f
+FileChecksum: MD5: ee102125e7f0f4d270562a33bcd3ec90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/doc/footer.html
+SPDXID: SPDXRef-item13597973
+FileChecksum: SHA1: 3cdd6f251d875cd946d8afa318f0d78416479fad
+FileChecksum: SHA256: 69eb40e1906db07c9a521dfc0bf5f4b094748cafad71117e2a4fd39df49a39d4
+FileChecksum: MD5: ed634e99a37378a8f7172c313c791d4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/pass2.json
+SPDXID: SPDXRef-item13597804
+FileChecksum: SHA1: 354f78b3b4d0fe3ce01e06af68c7a21083146c98
+FileChecksum: SHA256: 7f9deff2652df58a02ca676ff9494de3d93f18db64c7f20f9596dffb8c92f187
+FileChecksum: MD5: 5cf1df8b4bbaef4766168b573c13ce40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_preserve_comment_01.expected
+SPDXID: SPDXRef-item13597858
+FileChecksum: SHA1: ac6aed4e334ef20ea7403f3e4a4a45e00e8f6ffc
+FileChecksum: SHA256: 9884760f3fbac5f461bd0da52d5a26e69d522cf476f2f30b4c4871fc0e50a27f
+FileChecksum: MD5: 9f30fe9f23829cf0b8b52ab6f3932e92
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.gitignore
+SPDXID: SPDXRef-item13598023
+FileChecksum: SHA1: 8f9c77b178a2f33e637a99359872f77816807e4d
+FileChecksum: SHA256: 039cefe58e1c2423b2b849770e8ab3cc2ac50323c5c8e9de190b8f16478c1c13
+FileChecksum: MD5: eb38ce2970ac979ac114fcecd4d8ebe4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_03.json
+SPDXID: SPDXRef-item13597889
+FileChecksum: SHA1: 712d1c5c812d0396cc413d37b7a559382ca56fa0
+FileChecksum: SHA256: 4e633466c855196e49ebc0ad737fdbb24eefb7eeb1fc871d28b571974fe77f4a
+FileChecksum: MD5: 5f81d20614ce93d24ba3580a40a43e9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_04.expected
+SPDXID: SPDXRef-item13597841
+FileChecksum: SHA1: ce25788c2018d964777ca3d3fb2978336e0d4a43
+FileChecksum: SHA256: bbbc431c0408043d41127d6fa5a86deab73ca3da16fd6058beb953f4996a7fa8
+FileChecksum: MD5: 1986ea6823f6827bc066460472e10aa7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/fail_test_object_01.json
+SPDXID: SPDXRef-item13597929
+FileChecksum: SHA1: 4a4791951da3dd6ec4435d862ef2a5e6664802c4
+FileChecksum: SHA256: 114ab302726bc520e41b6d6b295a347a63996cc91e725cb4232c44e47ac1f042
+FileChecksum: MD5: 7d651dd8c796e06632cbc870bb53e7ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_04.expected
+SPDXID: SPDXRef-item13597830
+FileChecksum: SHA1: bda5075d77c66fd733692d8d185ea8bff13d9c91
+FileChecksum: SHA256: 4879bd2723faf1f3fbf651f871a0bc70484e04a8e4719a5e27a757f43661468e
+FileChecksum: MD5: fa89d9e7bedfc26ea41e452f1061c25d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/test_object_05.expected
+SPDXID: SPDXRef-item13597865
+FileChecksum: SHA1: 6e232a3bb30bd0e62792cea40059cfad20db41ad
+FileChecksum: SHA256: 9e98db473e4d8b210281f8453e0a3131f5cfa1cca7b19f549ee0aac7de5af01f
+FileChecksum: MD5: ee102125e7f0f4d270562a33bcd3ec90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_07_64bits.expected
+SPDXID: SPDXRef-item13597883
+FileChecksum: SHA1: def181b8cba95db60bc814c5d5f821acb6df9299
+FileChecksum: SHA256: b79e26262565797854d099c59c1ffb8366ecc84e0c25a2a96daa6a215579901a
+FileChecksum: MD5: de096c087f8138129584c5a8faf4e580
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_04.json
+SPDXID: SPDXRef-item13597930
+FileChecksum: SHA1: ba29980e38ba005ee1ca60549cfe55f93eee1afc
+FileChecksum: SHA256: 338f311848ce83e287b918930c5bfecaa6c0048e28447cdce593b9cc0760fc01
+FileChecksum: MD5: 4944dd5cda40378b452aa685ca71ae57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_09.json
+SPDXID: SPDXRef-item13597852
+FileChecksum: SHA1: 909ade0762e9fade9273f25584df5c5d44449873
+FileChecksum: SHA256: 13711768f7473d1dbee93d1b847627899a39263b03a87b41bfc7b0a4e0c4a386
+FileChecksum: MD5: f8caedd1478dfca4cadd49bb11e4cec4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_comment_02.json
+SPDXID: SPDXRef-item13597884
+FileChecksum: SHA1: 66f0d2918f2174fd0e5fdadac1b6d87078735e04
+FileChecksum: SHA256: d3515ae647f4a263788f609585335f977ad9e83ae63997d38ef4fc3536d0bd61
+FileChecksum: MD5: f8eeeff5b1230df6630478fe9b7b6a4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/appveyor.yml
+SPDXID: SPDXRef-item13597754
+FileChecksum: SHA1: 9238ea121e535ae63226a77d0ba4b048afd68c77
+FileChecksum: SHA256: 2989857f863160b8a57d77129bb8e809ee5fd10fd303e4b4fbfa88b5b3ec22ad
+FileChecksum: MD5: 42830d1a3a4800fe9e772f2b2cb534b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_07.expected
+SPDXID: SPDXRef-item13597851
+FileChecksum: SHA1: 3747dae7a14ff97fa1f6dd569bd6b098fed4be58
+FileChecksum: SHA256: 31fad8dcdd7f246e6988c32b4c62b99571e59f10a8a544c817d8906e5e0efcbc
+FileChecksum: MD5: 99e291169c1a3d6ce61c516932f77959
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_05.expected
+SPDXID: SPDXRef-item13597862
+FileChecksum: SHA1: 03efe350c0a0ed292a885d45c7f71f620fa6e1c7
+FileChecksum: SHA256: e76ff0e208a0410f89fd27e73df52c8a615174c0d14ac8f4d145bff66739f909
+FileChecksum: MD5: b10877e896945919d2e2f764df385cc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/PreventInBuildInstalls.cmake
+SPDXID: SPDXRef-item13597980
+FileChecksum: SHA1: ffee56ea6bd7dab4a8fa94427d46a1ec0d84d8f3
+FileChecksum: SHA256: e9a62c62a516bd07cb765edec6c35cedba14b03cb7c5e3d221ac10cfa1d2bdf0
+FileChecksum: MD5: 2a57d419e774ee9fa15c0ecb8d2eaf5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_02.expected
+SPDXID: SPDXRef-item13597893
+FileChecksum: SHA1: f48f938d26d5fa58ff649fd6642fded0613c623c
+FileChecksum: SHA256: e65f0ddcc4124dbfc99a29318b6de9425eda09b28b997394f39f5d6e83f47861
+FileChecksum: MD5: 121b7a22bd7d51ef2eebbd165b53427f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/devtools/agent_vmw7.json
+SPDXID: SPDXRef-item13597963
+FileChecksum: SHA1: 01c94a73880af3de39549606db23778690df9d8f
+FileChecksum: SHA256: 441984c5c22c40c27e0e54ec2068143cd400edd5dc60689419b75d73e446ae2c
+FileChecksum: MD5: c07d26f92cb610cea2edb56f93185ac0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_05.json
+SPDXID: SPDXRef-item13597926
+FileChecksum: SHA1: 75ce5fb4148490d04a252642bb51224d85aaf625
+FileChecksum: SHA256: 72b7af314741f7fa270965170ea838465f33666290da26b42064929f61953ffd
+FileChecksum: MD5: f031924cabb009e11e232303f4de9f9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_02.expected
+SPDXID: SPDXRef-item13597896
+FileChecksum: SHA1: 24f73efc24d86eeb7175eab507c687e519fbded5
+FileChecksum: SHA256: 5c0bc69112c7193027799513f934f6d2c2907ce09576bbc7c87f4d611a239202
+FileChecksum: MD5: 53b41833683ec79bc8cdf5cfe4ee8f4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_07.expected
+SPDXID: SPDXRef-item13597932
+FileChecksum: SHA1: e8e3b538065f07b9251c9348b6c23610358db0b1
+FileChecksum: SHA256: 9b4d9d3f5e4905353bb9447c237608d061825b79658b827d82ed5f7173a8524d
+FileChecksum: MD5: d429e737bdece54971178c7cb7930682
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_04.json
+SPDXID: SPDXRef-item13597866
+FileChecksum: SHA1: 09fa4838b4414f4eecd609582cd4752bd275da9d
+FileChecksum: SHA256: 9d231df813d5c2c9ba7043e768d78043eb27262ebdaab8c00ec82ba3bed7124d
+FileChecksum: MD5: 4cf7465289eaa7aee4e4f11848b92afa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_03.expected
+SPDXID: SPDXRef-item13597920
+FileChecksum: SHA1: 2bd38b8f820cb5ca981841456ca2366e293070e3
+FileChecksum: SHA256: e6a6aaea446f3f17abc401b173e11dfce9a8a5efebe02ae284835ba3c7a72e11
+FileChecksum: MD5: ddc356e5388633cecd6e925b218fff08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_08.json
+SPDXID: SPDXRef-item13597847
+FileChecksum: SHA1: f1e9bd24961aedfad91102230f209b6615b15024
+FileChecksum: SHA256: 8394ecaba3468a9102f6803c2287778f797ccb8a4a15289fb56a118cc7ae0c03
+FileChecksum: MD5: d7030289637acfaaac2517454332d379
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_02.json
+SPDXID: SPDXRef-item13597853
+FileChecksum: SHA1: 6d7e0100a388d5914d5a530b405235ce85fea122
+FileChecksum: SHA256: acc07b62f23f458923737c4cd4a66bd05d1e71eb4f384003baaf2dcc760d6349
+FileChecksum: MD5: b151744959edb9caf948032b98eda517
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/meson_options.txt
+SPDXID: SPDXRef-item13597782
+FileChecksum: SHA1: 7ff3253d9e13ee2d3418d3e78605248af3aface0
+FileChecksum: SHA256: 327545202c4a99cbeff1240afb08eb7cf49e0869d3bcf3738d9bdef354706132
+FileChecksum: MD5: 77f15e14d5095a6f5db4f3fcea1ef3dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/dev.makefile
+SPDXID: SPDXRef-item13598002
+FileChecksum: SHA1: d3655c13b9de81a67956cc42910e5a118374d122
+FileChecksum: SHA256: cfe0a8bd103a84f2eb794201522a37ce74d17517060a56f5a176c2cc8fb78183
+FileChecksum: MD5: d44e64b96a43a2add738cac67ea32046
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_comment_01.json
+SPDXID: SPDXRef-item13597850
+FileChecksum: SHA1: 03d0724a484f43e10769607967ab58779d153511
+FileChecksum: SHA256: 88a34b209436dba7183a769db3471f828b6ab5efb15b4364c59c2c39bb050444
+FileChecksum: MD5: a4ffefe780ec9b96564613784b30b91a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail14.json
+SPDXID: SPDXRef-item13597790
+FileChecksum: SHA1: afec9f495586dfa2481c3b49bc6d99e2499ff3b6
+FileChecksum: SHA256: 4c353586a59fd208964f41f12547ef9e403520b87e9d9fe73c0bd6951de36933
+FileChecksum: MD5: 0a6084ef38ee7ada66fef9b9f59417e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_02.json
+SPDXID: SPDXRef-item13597837
+FileChecksum: SHA1: d6a41990ad86ddef979f73c0e9db6aaf6523fc71
+FileChecksum: SHA256: 3cae2cb030fac7e4c7d573ad1c1da8e467080edab25c6fa6bfffc6428acce859
+FileChecksum: MD5: 08ee1f54e752c080e937abad7e0c105a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/doxybuild.py
+SPDXID: SPDXRef-item13597996
+FileChecksum: SHA1: 99fb39dfd91cf707becaaa78da20b87c2268083c
+FileChecksum: SHA256: 15618dabe099d751533683566ef5af6243ec04327e5d399c212b2ef5453885e4
+FileChecksum: MD5: 1b2965a3a87d37f7db6d55229cbba68b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_06.json
+SPDXID: SPDXRef-item13597832
+FileChecksum: SHA1: 446f4bd42951230f138ead2574639a3620d6b48c
+FileChecksum: SHA256: ae921d86c6deef54bc06469d3ff706817643cc6888dd95b37c716ba55ffa45e0
+FileChecksum: MD5: 85332fcd7b9763547c757ed00b7e0a8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_02.json
+SPDXID: SPDXRef-item13597927
+FileChecksum: SHA1: 99e89933bdfff8cfbb0caa2735ec63b0b25324a4
+FileChecksum: SHA256: a0f28c147988c26a7b0321e06f0c32b70cf6dfe5d9c7b0f4c02512b9f3370bac
+FileChecksum: MD5: 81a5372cde249c83fa1af3939eadcc24
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_07_64bits.json
+SPDXID: SPDXRef-item13597854
+FileChecksum: SHA1: a55f9716b6e58681dc1b10b79e7ce609d1621e14
+FileChecksum: SHA256: 821072bb7399748137189a9f5d032a6a7c8f3568cb3cd487064b8e9c0e4ee9c9
+FileChecksum: MD5: a4d9e5b0c047086dfeaf62442ea53c31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_07.json
+SPDXID: SPDXRef-item13597919
+FileChecksum: SHA1: b0d7b6d5ce0b9aa35e2db5164f61a9ae09a62f73
+FileChecksum: SHA256: 5b5a6b2a05743ee353da7088fde6c169eb181bb69e722ab2a6d277d4af493fc0
+FileChecksum: MD5: 6356a70d38ab5ec62c1a4ef6189b11db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail23.json
+SPDXID: SPDXRef-item13597819
+FileChecksum: SHA1: 80716da97473e0c15671fe9904589427fa0e48e0
+FileChecksum: SHA256: 5b746985dd2a3406e0d457dc38583b5ed26c2691950a10e1e50049a93c924a78
+FileChecksum: MD5: e42ae0624e6ef2a76a702f304ec69537
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail15.json
+SPDXID: SPDXRef-item13597818
+FileChecksum: SHA1: 49c2425a7696be608318caee18065c1b8e14520c
+FileChecksum: SHA256: 656c4510d2ae41d28f3bb5498a7df7e87652bbbb35a7c7ef7c28d4a3d1d59eae
+FileChecksum: MD5: ef67c8110cca5bcfff5c070a7c071d3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_08_64bits.expected
+SPDXID: SPDXRef-item13597846
+FileChecksum: SHA1: 60183d52ddee4bf04f411fe81968e7f9dd1ad7bd
+FileChecksum: SHA256: e09f147729c35ad1fe34ea862e5fbe703aaa562e5fa2290d6c10a068dfd20012
+FileChecksum: MD5: c84757b255d2e2ab8856d23fbc7ddcf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_06.json
+SPDXID: SPDXRef-item13597881
+FileChecksum: SHA1: 9cb06359301e0a398417033bbffce42282e8a617
+FileChecksum: SHA256: e3949a4b725d800a0fe4abecf0429f8f90154826911cca138b05e47bdc683bd2
+FileChecksum: MD5: b9954ca3991dc73aeb299df7246828bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/BUILD.bazel
+SPDXID: SPDXRef-item13597997
+FileChecksum: SHA1: 430412402c19f90790e382f43893525f71a435d7
+FileChecksum: SHA256: e4b2fef217340b177175146cdccb8a2d0b8f14f70fc52f4d983d0d3cb2b9a512
+FileChecksum: MD5: d94211b73d1151ec3bb8c6402105c20a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/pass1.json
+SPDXID: SPDXRef-item13597812
+FileChecksum: SHA1: 45ba3a40ed8e1b4a4049921e39983e5037bb122b
+FileChecksum: SHA256: a46f670e9676dd3d5a22ccbd44be74391cd57867f0a20ee9c5bba2c1e9742239
+FileChecksum: MD5: a15c0039ca490d6058a6f7b96191c5eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_05.expected
+SPDXID: SPDXRef-item13597948
+FileChecksum: SHA1: 570bbab3b3fad708c146b9a8756c142f932cf448
+FileChecksum: SHA256: 8e9e07d5e1606d7f1c827ac2883c7b9a9d6b95954532c4acbc2a78741cd03215
+FileChecksum: MD5: c3d11ad55cd4ee6dd68db9581fea193f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/reformat.sh
+SPDXID: SPDXRef-item13597783
+FileChecksum: SHA1: 5221862b4e40382c4f16f12bf30c7a304ecc4eb3
+FileChecksum: SHA256: 013bed653fdd9a4e126478a72e2e75b05e679fb629df0ac6697c1287630bb7fc
+FileChecksum: MD5: eeaec60234138c27d14f9762f52e6ebe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_comment_00.expected
+SPDXID: SPDXRef-item13597931
+FileChecksum: SHA1: c0593f6df3787f77519bd681723148f8b70cd14d
+FileChecksum: SHA256: f8782f22360dd7abc4b1936b29f54ac88a8b92341e35f7aa6a927c53b1ed6928
+FileChecksum: MD5: 24cff1c48b4f25ac44e1cc82ed6b0efe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail2.json
+SPDXID: SPDXRef-item13597802
+FileChecksum: SHA1: 19f3b6327c01cda200f1113631fae30b9e21cd74
+FileChecksum: SHA256: 9dbe48572aa40ff5e44b7b0e691e1b487d37cd4cfb34cf5bb506a5b6e965ec3b
+FileChecksum: MD5: bb8eeb1abcd03416630c46453afdf9d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_05.expected
+SPDXID: SPDXRef-item13597945
+FileChecksum: SHA1: 656f44203d1e4ca8863e904316cd0e77dd72978a
+FileChecksum: SHA256: bfa9d003e3a9b262ef4bc5db4bfb409ccc6b12de9a0894187204ed709fcc147f
+FileChecksum: MD5: 98038d4ab1afb06586aa4a62cb1045c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_04.json
+SPDXID: SPDXRef-item13597912
+FileChecksum: SHA1: 1bc897908de5acd1d2b9f75b95c4c26969504b00
+FileChecksum: SHA256: ef980df0c86fd16af296ad4a7f4198cc694105f3d018a15895ac86f5fceac11e
+FileChecksum: MD5: 573c9f88402309605b8e59a2193e738a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/json/version.h
+SPDXID: SPDXRef-item13597989
+FileChecksum: SHA1: dc2a8eff623218d69587bd3813b165fea52e1f9c
+FileChecksum: SHA256: 752cdd61cb97aca4dcbb6d83d5b91849fcfe01e94bdf3048d543baa7a17fa001
+FileChecksum: MD5: 900c001da893aae4f3bcfbb2b9317dfd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/include/CMakeLists.txt
+SPDXID: SPDXRef-item13597981
+FileChecksum: SHA1: 9b9c06eb30ccbfe67f11a5f3db0aff97d82bbbb4
+FileChecksum: SHA256: ffa38de116275d748f250553c0459fb6b085fc89b9582bf519192959c1de221c
+FileChecksum: MD5: 8f17ac335977a5d4e0d0229b121f5d5c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_04.json
+SPDXID: SPDXRef-item13597875
+FileChecksum: SHA1: 0a6a9b2ed494c8382546c21b9143b4bd7e6d893f
+FileChecksum: SHA256: 71b9d8d6ca48ad274a199467213caa8cc67afdb142a1ec346366505825e63293
+FileChecksum: MD5: 5cf10387ec7062c5f5c3d3d487e9f431
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail12.json
+SPDXID: SPDXRef-item13597815
+FileChecksum: SHA1: 7b6e707f33baa415151a6d70cc0a688dd6902719
+FileChecksum: SHA256: 8033711342b67e573d96916fd820730a0a12ee291bd2e4ae324df3455c3f825f
+FileChecksum: MD5: 48cd28fa8137d02cf00eec5e0b0cc911
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/devtools/agent_vmxp.json
+SPDXID: SPDXRef-item13597958
+FileChecksum: SHA1: 1a546266f751f6886d779bc34d6cfff08ebbcc35
+FileChecksum: SHA256: a6f6aa0490cc2298a5d0ee16bb844d8b56ca23f88ee6dc81212891f96422535a
+FileChecksum: MD5: db0d71e868424b4a34670a5dc906b407
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_02.expected
+SPDXID: SPDXRef-item13597892
+FileChecksum: SHA1: b6206163191afd99d066320a91b11f8c31866072
+FileChecksum: SHA256: 367808997cd9800ed8f8c1ea674a5f39029fefc8b755b45ed9b3bed1d101a556
+FileChecksum: MD5: 1788dfc813f4ee8290b76937524d887f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/CONTRIBUTING.md
+SPDXID: SPDXRef-item13597950
+FileChecksum: SHA1: 0bca68f61032cdcdc9d5ef561c7c06a0301110ea
+FileChecksum: SHA256: 0d7fdef3b969a88c9726ec43ab549637d477cc2ac763b29a3877ee0a610ad8ad
+FileChecksum: MD5: ca1500a6fddf414f99c89cda474ea854
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_01.expected
+SPDXID: SPDXRef-item13597870
+FileChecksum: SHA1: 1a98b3a56e395430ca535130effe30bff7bc8108
+FileChecksum: SHA256: 3dc781528b800233837fac0f93b13e5d8959535e5a8cd5128e86e2d0e3995ed7
+FileChecksum: MD5: 9ac64d3dbdc87f086d463a6841817979
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail17.json
+SPDXID: SPDXRef-item13597794
+FileChecksum: SHA1: 3c8d5e81e3b6278e328b4d06dfb616292e497adc
+FileChecksum: SHA256: a806d560ae63698f5082c7e51189395be458d1709db63244d26846f5a1e1a91d
+FileChecksum: MD5: 028280cca3cfd3bbf13f99d1eef74132
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_06.json
+SPDXID: SPDXRef-item13597941
+FileChecksum: SHA1: 63ae8c12b827ee22a5dae0ed09307998039a97b0
+FileChecksum: SHA256: 34614569b1c815a5580c49cf9bcabb8aa12b9483ec520d302d8a39185eb740eb
+FileChecksum: MD5: 62ef1c0c248e3b8dc4d29233a00389f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_object_03.json
+SPDXID: SPDXRef-item13597910
+FileChecksum: SHA1: 374d1af65ed004ec33504f68c879c23047fe9a9f
+FileChecksum: SHA256: 322cbc879ebbe3fb77f9448e78fef6f8c54fd79f096b5dcc8c22cb1683a71f30
+FileChecksum: MD5: 95af86dd8709cb3e02e3dfdcbc21f539
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail1.json
+SPDXID: SPDXRef-item13597821
+FileChecksum: SHA1: 0b0262946e5245eef3b5481c90a13b294967e6b7
+FileChecksum: SHA256: 438b1027386f69e8ff72306d162bba30745cfc3ad99522c06b77093f6b2868b1
+FileChecksum: MD5: 400e3d2393f7797cf5dbc738ccfc2228
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_02.expected
+SPDXID: SPDXRef-item13597869
+FileChecksum: SHA1: 2bd38b8f820cb5ca981841456ca2366e293070e3
+FileChecksum: SHA256: e6a6aaea446f3f17abc401b173e11dfce9a8a5efebe02ae284835ba3c7a72e11
+FileChecksum: MD5: ddc356e5388633cecd6e925b218fff08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_01.json
+SPDXID: SPDXRef-item13597848
+FileChecksum: SHA1: 0511e0a36213d7a1b3088a1bb2897a7a5065f590
+FileChecksum: SHA256: c53c6bd2e0da0a4c79c98a6b6eb16fbd6b8470d01141a2337c3dced1e64b5a56
+FileChecksum: MD5: 99a0609766e2d2ecf70752fd0cafea61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_01.expected
+SPDXID: SPDXRef-item13597833
+FileChecksum: SHA1: 1dddeb248ddf5bbe221a99bd52d6cce3cc9bdba1
+FileChecksum: SHA256: 77f07f05766c910ff299e454d73e1c08927574e88a478d8f7c39310c8160c095
+FileChecksum: MD5: 3dce130ac99d0ff65c6b352dae4a5b0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/test_array_08.json
+SPDXID: SPDXRef-item13597877
+FileChecksum: SHA1: adfa8573405e147a00412afcba1aa68dbcae33ab
+FileChecksum: SHA256: b7573fde0a44ae5f41e83b2a28dbbaf6964f021285c83d8ea7d003a2cd241e91
+FileChecksum: MD5: cbae78a6a3732486ac33ba1fe470aed4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/readme.txt
+SPDXID: SPDXRef-item13597796
+FileChecksum: SHA1: cefbd183b333bc8838f420402ea1eccb0cd0dbdd
+FileChecksum: SHA256: c328f63bf745f377cc79490a3eafaab4e0482a97e4a8cd85b5f381c30304f253
+FileChecksum: MD5: 313356804f70758e79638fa13cb18e3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_03.json
+SPDXID: SPDXRef-item13597913
+FileChecksum: SHA1: 497f88c2ae5f945b8adc51c5569c8357d7911482
+FileChecksum: SHA256: 83e1254d394a1b14bf2812775e1aa589fff45fbcec0d4ab60e9ac3c32da4fb91
+FileChecksum: MD5: f697f744b02a24d381155eb1c3c534c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_03.json
+SPDXID: SPDXRef-item13597872
+FileChecksum: SHA1: ee2de40ab209b1d1cc604e99d4c690e506f945ff
+FileChecksum: SHA256: cc10ec5ead443b571fd21e0656911b177e5bf8b8780f66eb49178701bb6b97e1
+FileChecksum: MD5: 69ac408db9b132d2a6d46bf4d534632b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail11.json
+SPDXID: SPDXRef-item13597793
+FileChecksum: SHA1: 43f3f4b8cebe2bafbd221b4285059228358f4b70
+FileChecksum: SHA256: ba669b02c583cdc66458f9318ec64f2787e1edded69cee94361d9d04bf87b591
+FileChecksum: MD5: c5c9388094c23469158d3172d433d139
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/doc/web_doxyfile.in
+SPDXID: SPDXRef-item13597976
+FileChecksum: SHA1: 6dd418b7374fd980910faf78c38b2e8bb004e249
+FileChecksum: SHA256: a1a8ecac246779d1a8d93b0d931bc3ab8affcfe29d871dd4e08de0be9679517b
+FileChecksum: MD5: 00034fff3bfea98eb9763a55253bec7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/test_lib_json/CMakeLists.txt
+SPDXID: SPDXRef-item13598012
+FileChecksum: SHA1: 65d795e2917ff4141941169a7c7143c90c9e4636
+FileChecksum: SHA256: 57c3bf53b09ab0f9c6a4e14660d524110a7369400806bee6ad4ddcf129fd2794
+FileChecksum: MD5: cb63129831ada4b2495e21d264388731
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/test_lib_json/fuzz.dict
+SPDXID: SPDXRef-item13598010
+FileChecksum: SHA1: 94f248d04fcfb5ab885e52e01b18424f2720ec90
+FileChecksum: SHA256: 93219cb07c502247f422b036c17f0f3babdc04fa473d01f2ec93320a870be173
+FileChecksum: MD5: f72f24a1c96f0f257bcddd360cb871c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.travis_scripts/travis.before_install.osx.sh
+SPDXID: SPDXRef-item13597763
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.travis_scripts/travis.install.linux.sh
+SPDXID: SPDXRef-item13597766
+FileChecksum: SHA1: 5ec139f6850064b754485eb72f115e7c9b12c977
+FileChecksum: SHA256: 4bd20894d14627784af5ee4490247472f1275af6abcd1a9e2d70b16ca9623abc
+FileChecksum: MD5: 88d64c2a0f3b45b08ca4cbf5472eb172
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail9.json
+SPDXID: SPDXRef-item13597820
+FileChecksum: SHA1: ea46b78734d92bc2b476e8a1a20b1024279d95af
+FileChecksum: SHA256: a3a4796b5ddb6c80e894113c690a75e5290ef109601dee2e277f652bc6d6a163
+FileChecksum: MD5: 4553de7b614ab47bd79700be31e138bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_09.json
+SPDXID: SPDXRef-item13597939
+FileChecksum: SHA1: 6c12153e225665adaa05384b89737ed20d6ee741
+FileChecksum: SHA256: ad7894b09e8b267f055d37a66795dd9ac2d26d663baa7d6dbe2b8f6f598f77cc
+FileChecksum: MD5: 952ebde0ba72339e52506822ab27c363
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail16.json
+SPDXID: SPDXRef-item13597810
+FileChecksum: SHA1: 72fb4cbc8ec96b9f52eb105bc6eca271866b42aa
+FileChecksum: SHA256: 4514053448b28818d0d23041242b0e1705ea0bbf9f2ee84694d4e0100bd90cc4
+FileChecksum: MD5: b4e9c2c3d88bc98112a37fa45d07553b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail32.json
+SPDXID: SPDXRef-item13597811
+FileChecksum: SHA1: 7438ec5e56d578d9172d48e477763d25bc9d8dd3
+FileChecksum: SHA256: 15388c40b8b3920b49a317f303140234fecaa37d6adc8056f54b8d7d79cfba87
+FileChecksum: MD5: bfce0ff7b72aee39f7cce40df3c64213
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_11.json
+SPDXID: SPDXRef-item13597867
+FileChecksum: SHA1: cfdbf5497ccb337ba8079d5d8bdf91dd7db2581c
+FileChecksum: SHA256: e876c96179bb9e7ebf0a44b196867e39d1aa50723f74fccd4c215a70a5d70169
+FileChecksum: MD5: 1fe60fc9a19fe5f5003cb99d083d7e85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_object_01.expected
+SPDXID: SPDXRef-item13597922
+FileChecksum: SHA1: b150651284fec6d7968eb929356486362eb280d8
+FileChecksum: SHA256: 44c7db60db7e621734900132c421d27de0824539cdc94435b66aa4eaf7a32f63
+FileChecksum: MD5: 23fa0870e64fcdd860241feb36b32083
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/CTestConfig.cmake
+SPDXID: SPDXRef-item13597994
+FileChecksum: SHA1: ca1cd9aa66795e92a8dbf2f2b14262e38a9bf7bc
+FileChecksum: SHA256: 754be28d2e0742e88c9087cc09500204004f9883432e0df3ec4c92b84672c920
+FileChecksum: MD5: 50fed25e42e6a19c1521a975861a39e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_07.json
+SPDXID: SPDXRef-item13597903
+FileChecksum: SHA1: 50ec45b496c6b1a2f41d5ad358fdf9737e565c1d
+FileChecksum: SHA256: 6a1b6c94b811b12562d66c6e2d26cf4f23f4e2ab0568c4366a0b3a217328dff5
+FileChecksum: MD5: f420accc4e0d36bfc0da085d00f2c8a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_03.expected
+SPDXID: SPDXRef-item13597914
+FileChecksum: SHA1: 47a9e62a359309e2baf8bf99f7801d090903c60c
+FileChecksum: SHA256: 3a6800d4a108fb8281732ff5e6c7e6d4d0b653f6a73f8340e8f448eb820bf3e7
+FileChecksum: MD5: 6208115f00cbd3f1a8254907aeac7e75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/version.in
+SPDXID: SPDXRef-item13597756
+FileChecksum: SHA1: e9ab1f102faf92fa5f16cf1cb6aae62d0cec3a3d
+FileChecksum: SHA256: 72bde516ea1048f065568f467cb76ffbd42ad6fee2eb32632bedcb814c4a1bfd
+FileChecksum: MD5: e130d25b08bdeb5248702da8f0f1e83d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_06_64bits.json
+SPDXID: SPDXRef-item13597864
+FileChecksum: SHA1: cf35159c2e4c03ae4542269fc0795492959a5946
+FileChecksum: SHA256: 76f153aeaae282d8ef11dd18c8c0e90a525f20936c206cd144e8961591e45575
+FileChecksum: MD5: 12c10e840dbc50ab1ad5841d57b067ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_01.expected
+SPDXID: SPDXRef-item13597861
+FileChecksum: SHA1: 94fe24af8602280d1e17586ca3d734449ac8bbf9
+FileChecksum: SHA256: c33823c6a96a0886ad71d087b7b3025eef6dd88616397ed763273f273c5f092d
+FileChecksum: MD5: fec9159270869c80608ae43e28da43d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_01.expected
+SPDXID: SPDXRef-item13597925
+FileChecksum: SHA1: c48b8700c8507bf3b2247267f8de5b0547fca5ab
+FileChecksum: SHA256: 4744d5115a02d86016756ec92d3c59ce287fa05ab097bc4aaeee37264d881066
+FileChecksum: MD5: 1b6aaea989bfe4e63d12992b6b575afa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/amalgamate.py
+SPDXID: SPDXRef-item13597969
+FileChecksum: SHA1: 01bab091c22f40000bfadf2ffb04ffe871cb8068
+FileChecksum: SHA256: 03f3e6b0f61dbd1fc2857d99a9daee14a622b2c888aa08fe0d4262cb1b072479
+FileChecksum: MD5: 0c071bd4cf13d6ca9fd9c6222321bcf0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/example/stringWrite/stringWrite.cpp
+SPDXID: SPDXRef-item13597773
+FileChecksum: SHA1: 8900e3c72c1f870fb61b7d1846580408f9948e34
+FileChecksum: SHA256: 5e8ad4597d3638a14d4bbbe1929d126d9a207d199493f78332248709346bfd7f
+FileChecksum: MD5: 3e488044a12d65cb2ea8c5d22d32814e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_04.json
+SPDXID: SPDXRef-item13597855
+FileChecksum: SHA1: f7b578585658dceec3fb5a7258fbb0ce20fba34f
+FileChecksum: SHA256: 5172719d4d5763da959e68d0da6bcad22103e7f2f7ba6414d81e84bf0bf663ef
+FileChecksum: MD5: 9ecb359e0e190a278c441a4cac687ab3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_object_04.json
+SPDXID: SPDXRef-item13597908
+FileChecksum: SHA1: f64faf509d77c27f417bd6601eb9adc0ad3d0424
+FileChecksum: SHA256: 6efafe060156ec04d91efd4883b4fe0ce05bca94afc0e7d0b33e53222c89f9a7
+FileChecksum: MD5: 14ed7d426db8738c12e04ff81906a0d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_07.json
+SPDXID: SPDXRef-item13597859
+FileChecksum: SHA1: 87dd312894fc383e31ab053cd721376b5c942760
+FileChecksum: SHA256: da196295d91bb5ab20dcf850735c3442a8bd08ced3f501e57e848e3f2d830ea8
+FileChecksum: MD5: 8bf669b9476ad694d0a3cdf1d1edf97d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/example/readFromStream/readFromStream.cpp
+SPDXID: SPDXRef-item13597779
+FileChecksum: SHA1: 72d14dfb080bc14f204f7b46231564cfc700c237
+FileChecksum: SHA256: 4217f3c797691e1fe92df9777b1c13b0e1dd158b60536ac30fa4188b8960b846
+FileChecksum: MD5: 38c5d819b6b2dd898d098a5efe567929
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_large_01.json
+SPDXID: SPDXRef-item13597885
+FileChecksum: SHA1: 87dd312894fc383e31ab053cd721376b5c942760
+FileChecksum: SHA256: da196295d91bb5ab20dcf850735c3442a8bd08ced3f501e57e848e3f2d830ea8
+FileChecksum: MD5: 8bf669b9476ad694d0a3cdf1d1edf97d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_02.expected
+SPDXID: SPDXRef-item13597890
+FileChecksum: SHA1: 78d996d054f48051852487bd42518ed06a62fcc6
+FileChecksum: SHA256: daa5e6d09e5bdb2cb999971f3973013229ed8248967e6ce1db9c417a2b4800c1
+FileChecksum: MD5: a7e2524eb37461d8d05a51782560e179
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_05.expected
+SPDXID: SPDXRef-item13597895
+FileChecksum: SHA1: 8382f82fd39e890227487b261ff96d7d0ecbfac2
+FileChecksum: SHA256: 58e71e874b2648384e117692cc3a53c34bff05a852957a66a5226cbc1ae49e03
+FileChecksum: MD5: 00765de2c7acec69cb4634a092a73b8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_object_04.expected
+SPDXID: SPDXRef-item13597839
+FileChecksum: SHA1: ba4162ffa3baba5309812de6e1ebbd7f56520253
+FileChecksum: SHA256: 2c91a528d6d022191cf6ac2f000885ec730f285d19ce47545f45e18ace8247ae
+FileChecksum: MD5: 5c94f8578ff0155ceffb61b299c88667
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.github/ISSUE_TEMPLATE/feature_request.md
+SPDXID: SPDXRef-item13597953
+FileChecksum: SHA1: f6867a2f0417fe89a0f2008730ee19dd38422021
+FileChecksum: SHA256: 1f48c52f209a971b8e7eae4120144d28fcf8ee38a7778a7b4d8cf1ab356617d2
+FileChecksum: MD5: 174545e1d9daff8020525fdd1e020411
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_04.expected
+SPDXID: SPDXRef-item13597936
+FileChecksum: SHA1: afcb34c0d922aed4bf4d2acf4c82a9cb697d3967
+FileChecksum: SHA256: 6e976c00b4d56ff0eec449c80e9d45426e64acd82c2f0da9072e33d74cb55f3b
+FileChecksum: MD5: 83cac753be8024162fd30fe027f7cffc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_01.json
+SPDXID: SPDXRef-item13597923
+FileChecksum: SHA1: 3a30948f8cd5655fede389d73b5fecd91251df4a
+FileChecksum: SHA256: c67c199595622dfbdc9e415c4a0ad6166eb49cbf74c6aac7bb3e958604d5ecb8
+FileChecksum: MD5: 3749f52bb326ae96782b42dc0a97b4c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_05.json
+SPDXID: SPDXRef-item13597902
+FileChecksum: SHA1: 971555ab39d1dfe8dff8b78c2b20e85e01c06595
+FileChecksum: SHA256: 5a0a2b76858bf8cc147613f783d84cd22c0047d142ba0d9ce13fcedf953b57ed
+FileChecksum: MD5: 091b1055538afa15681edcdbf0e721c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_05.expected
+SPDXID: SPDXRef-item13597933
+FileChecksum: SHA1: 71d7831ec851857a0047c60e0b3440d30e7e8111
+FileChecksum: SHA256: 42829ac5ecae4d0d470777bfb32a0da3701c698e95068e551aa10a1da635516d
+FileChecksum: MD5: a16cc02a5d59611921b9ced4d7b6e922
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_object_02.json
+SPDXID: SPDXRef-item13597942
+FileChecksum: SHA1: 3c6afcde49bbbc30693c98933c91c62acde1bf14
+FileChecksum: SHA256: 4d5d2e1fd2450cdb62865ab6ad4cda075f8e87e18903cf50476cab4e364ccb1f
+FileChecksum: MD5: 2457f3849dcd09568e4970475004d34c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_12.json
+SPDXID: SPDXRef-item13597924
+FileChecksum: SHA1: 4150b0fe2fdbd42f448cb5c92c9c3e85fe7cf109
+FileChecksum: SHA256: dd50fc1100f45737991dcd7a9224dc751be141467762b5f62d8cd63c6f57dad0
+FileChecksum: MD5: 953fdd03c16ce288f91c2027ad21b5e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_05.json
+SPDXID: SPDXRef-item13597909
+FileChecksum: SHA1: 623b55461f3cd8d23248414fe847d3b6b97334b4
+FileChecksum: SHA256: 5c4a29014638603583793d3ad484a368fd6e3e438fe80659cf1a6d75ae4f8c4f
+FileChecksum: MD5: 145a15243aa86055d60619bae9d10d91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail5.json
+SPDXID: SPDXRef-item13597798
+FileChecksum: SHA1: 99d41efd61b097bedd707d3f3245665d3aa724fa
+FileChecksum: SHA256: 40b23c469b617b09914010ee5c5aa0faa706061f77b4a96b374742c18bb17d42
+FileChecksum: MD5: 804fc4558802e256c1eceb108df960e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_05.expected
+SPDXID: SPDXRef-item13597900
+FileChecksum: SHA1: 7d0b324863add6863456dd0edd9dde232954f841
+FileChecksum: SHA256: c402707058a3207c42cc64a3f756ba4b5ba29f7f8d93e709cc63fce65a2a7b95
+FileChecksum: MD5: d7af2c0cd481a3a1338145b6af4fdc69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/devtools/batchbuild.py
+SPDXID: SPDXRef-item13597960
+FileChecksum: SHA1: 85da8093ce562d02733a04bc2f95a57c4cb0aa43
+FileChecksum: SHA256: 3e0b3917aed17cc0cafd5f341532e9f1a36158f7513ea6f0675856ca5f5c4fae
+FileChecksum: MD5: d1fd6596dc14f9ede9ad2093f127196d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail25.json
+SPDXID: SPDXRef-item13597803
+FileChecksum: SHA1: 3e99ef7619db6a91c5095825f46e4d0b362745ca
+FileChecksum: SHA256: 8305373703e9a50e767c42929d22bb69b377cf62a5aeba4dc60bfbf28939411d
+FileChecksum: MD5: b9a20d69a70dc40f92f13d29b7d1bac5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_large_01.expected
+SPDXID: SPDXRef-item13597935
+FileChecksum: SHA1: e8e3b538065f07b9251c9348b6c23610358db0b1
+FileChecksum: SHA256: 9b4d9d3f5e4905353bb9447c237608d061825b79658b827d82ed5f7173a8524d
+FileChecksum: MD5: d429e737bdece54971178c7cb7930682
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_04.expected
+SPDXID: SPDXRef-item13597828
+FileChecksum: SHA1: b65869b900a6329c7ae394bf9974d88416d2d989
+FileChecksum: SHA256: 44b2db505e6054cc288902d345bbd33150b06c005f5e371d636f1e383ec59bd8
+FileChecksum: MD5: f5a733d459c8b2dc1161f058bfeaad8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.travis_scripts/travis.install.osx.sh
+SPDXID: SPDXRef-item13597764
+FileChecksum: SHA1: dd11ceb0e52c50e3ada4a27506402e9d4d262762
+FileChecksum: SHA256: f518744cd47c6fe22e3139024543d3426fe55c6590a8e134ee975bbf71aa406a
+FileChecksum: MD5: e5376b6fe36ff0e27f538e529c6b6a1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_03.json
+SPDXID: SPDXRef-item13597842
+FileChecksum: SHA1: 84d7ea254768e14be06c357a1efbf2817e2aebc3
+FileChecksum: SHA256: 8f25aa9a5ab78e1d2ecfe9363201fa103ee046c3010124dda178a2a6e41662b7
+FileChecksum: MD5: 0a1a1696d9f6403a9da325b3d0ad5336
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_11.expected
+SPDXID: SPDXRef-item13597905
+FileChecksum: SHA1: fbd463fb92b438b066164cde1a58470c82652663
+FileChecksum: SHA256: bb5a3e1ad73d90f8c88a8a5e11901f8921ed8377e97f2671c782a87e89cf8f5e
+FileChecksum: MD5: 311f7239586deb1326c1624e0e281040
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/example/CMakeLists.txt
+SPDXID: SPDXRef-item13597774
+FileChecksum: SHA1: b0c76b3921f17ad217c96088a9a1ecf83f4c4aae
+FileChecksum: SHA256: 8ebed60313751cb047ae56a80abb2b2dabcfb6bdb8fe0dac42358541c1fe59b7
+FileChecksum: MD5: 44009aa92d49d4a491833fb04285337d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.clang-format
+SPDXID: SPDXRef-item13597995
+FileChecksum: SHA1: 2476aaf3bd048241761577682f3b8fa003b16ea0
+FileChecksum: SHA256: 4afcc7d8a7bb41a2668f03994b75cc34c4529de047323821099d2ee63d5e6757
+FileChecksum: MD5: 0f50df4d03e04fddba2cdfc60606e233
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/jsoncppConfig.cmake.in
+SPDXID: SPDXRef-item13597964
+FileChecksum: SHA1: 7bfba4b943cdb8e1b1a01a80453401ea777e63aa
+FileChecksum: SHA256: 9eb2d038022333a8815ba31bad154a924007f52c5e25d218bb0263f2edf987e5
+FileChecksum: MD5: 744a795a563c59b2a8bbb653800b3f31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_04.expected
+SPDXID: SPDXRef-item13597873
+FileChecksum: SHA1: 7129049e79a8951b86bc022a5226f7410a58bc5b
+FileChecksum: SHA256: f22f2a5ebfee7e6e544496d2fcd774a91de3f3330a1e269003fafe015e1af9eb
+FileChecksum: MD5: 15d2ca48689eba2cd74116546b30dfd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/src/CMakeLists.txt
+SPDXID: SPDXRef-item13598004
+FileChecksum: SHA1: 8f410a5ee8299cddc264594fec115c92612b2226
+FileChecksum: SHA256: 086c09ab7a410f40db8964d0e29ed2120ad110f78958b079468df70b39bf7e3b
+FileChecksum: MD5: 6edd8bc943cabc8bdbe8e2379964c21e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/doc/readme.txt
+SPDXID: SPDXRef-item13597972
+FileChecksum: SHA1: 919f59465818a56d593d957d60a193c635cd29c0
+FileChecksum: SHA256: 557140d25a4213b1c64ae7663a11a98258f36f4b9c8fca44b710f9359ca36a82
+FileChecksum: MD5: 59c26d9ac196436939a78633f31388b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/meson.build
+SPDXID: SPDXRef-item13597968
+FileChecksum: SHA1: e6eb594d88fead7a91940b009556b32d10382c13
+FileChecksum: SHA256: 57260f3fc916d15c1ce4e4f54b4903f9c49f0381804ace550a18718cbdffec4f
+FileChecksum: MD5: d147d4dfd77090f692ca1f7827d351d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+LicenseInfoInFile: LicenseRef-Public-domain
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_02.expected
+SPDXID: SPDXRef-item13597879
+FileChecksum: SHA1: 1996ffb577a7bc4b6d271b4d97094ff2474e8e77
+FileChecksum: SHA256: d7b1b8569b3c98ffe79e322ab2088ec6482f9a8f4f2c4df5a6b48939b073c8ce
+FileChecksum: MD5: f3534ae0a69d4a27f0036b7306113f0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail3.json
+SPDXID: SPDXRef-item13597789
+FileChecksum: SHA1: 663952d3c06bd67449d7c9a0375adaab1ea384f9
+FileChecksum: SHA256: 6903daf61af5b38e0bc66d8da4f13631e2c2d03598169fe2d7c45d2504d310b9
+FileChecksum: MD5: 698e2c9d2334b79969ccd29695e93d08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_12.expected
+SPDXID: SPDXRef-item13597906
+FileChecksum: SHA1: af7d86331b2c5e7889f92eef40fe0fda9b099b25
+FileChecksum: SHA256: a2a25aee2c3be39ea97b7060dcdedb5c67a86738b956bd74bc434b01bc7cda57
+FileChecksum: MD5: ba96ea2878989bd96b95edf702352db9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_03.expected
+SPDXID: SPDXRef-item13597946
+FileChecksum: SHA1: 3faf42802c1ed9b77c3c88476d573ad5cc59fd65
+FileChecksum: SHA256: 7042bf2980acf79f7976fb955f9794927e155306ce452920ddb68b08aebaade6
+FileChecksum: MD5: 8181a4294589e285661302061cfde4ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/example/streamWrite/streamWrite.cpp
+SPDXID: SPDXRef-item13597771
+FileChecksum: SHA1: 962bd45c862c77d956707bbf2cd624cde29f69df
+FileChecksum: SHA256: e7472e895586c5c743153efb87a518f8fcbceaefc60ad5d4dd54534b0e2efae3
+FileChecksum: MD5: 7880ac2b82a515cf96f7876dd0bd5520
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail27.json
+SPDXID: SPDXRef-item13597814
+FileChecksum: SHA1: 3b673cb808d42a44a3128150e41005f1332b8294
+FileChecksum: SHA256: 4a6ce093f89d76306dc76ccb5f6e468fb95c189eaa16d6b6c80954c21b3be635
+FileChecksum: MD5: 69041a5973c6d43ede3891b01d28fa48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_02.json
+SPDXID: SPDXRef-item13597878
+FileChecksum: SHA1: 72de3974d607797f0d7253d4948cc5bcf53ca16e
+FileChecksum: SHA256: 9dff52fa9c14255abd41292e881a4655655731888c35ffe6720653e881cd1d09
+FileChecksum: MD5: 3e955f528a0a9f1dc112bfd2c4cc764f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_01.json
+SPDXID: SPDXRef-item13597876
+FileChecksum: SHA1: cd0d4cc32346750408f7d4f5e78ec9a6e5b79a0d
+FileChecksum: SHA256: 37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570
+FileChecksum: MD5: 58e0494c51d30eb3494f7c9198986bb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail18.json
+SPDXID: SPDXRef-item13597791
+FileChecksum: SHA1: e0c632b02b243872d46819dd777bc310708bd55f
+FileChecksum: SHA256: e663fb0874bda154424bc35b9aff5f61d73d1a8cb926ccf41311827f30456997
+FileChecksum: MD5: 3f3e994f98e3bdf16417df8fae837690
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_integer_04.json
+SPDXID: SPDXRef-item13597836
+FileChecksum: SHA1: 7aadf5c7c203e33ecf00b9b62a7dead53043e6e2
+FileChecksum: SHA256: 511736047f8e03c33917976cf63a442218a273b6e40df63b7f6772eadba46300
+FileChecksum: MD5: 86189989ee3bc9123c97a471bb20ba89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail10.json
+SPDXID: SPDXRef-item13597816
+FileChecksum: SHA1: 679a71a2e28bde7d65e74971f55b4eeaa43555de
+FileChecksum: SHA256: ffea57a589f965c41b8778f1f0b69a1f4b7a14f072b868389cd6e2d249a33246
+FileChecksum: MD5: 1afcc97c783efda1b05803aa411647c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail20.json
+SPDXID: SPDXRef-item13597800
+FileChecksum: SHA1: 53b8a7f2396711811d8aecde828168924e21e7b4
+FileChecksum: SHA256: beff780d4797749a6180792d96de68b52eafbe3558578e2486b51c0fc384d3f0
+FileChecksum: MD5: 6480149c5c6d7c9fe662869fd90c75f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.clang-tidy
+SPDXID: SPDXRef-item13598000
+FileChecksum: SHA1: 8220c840f29416fdd19744f0697f1486b19efc09
+FileChecksum: SHA256: 3f43f43c9e077e3b88dcd5dcaf14ace79fc72460ac5c69484b7d8b4786b60b8d
+FileChecksum: MD5: a36d05b5c70007efc6fd908d7fe47ef9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_preserve_comment_01.json
+SPDXID: SPDXRef-item13597886
+FileChecksum: SHA1: 6c9c24a2d4c2b8d7a52e7902c2434c91975fccaa
+FileChecksum: SHA256: bb1826b49e0bf2a5da0e2a9725c804f35da0b32396b09390f684751e5e916079
+FileChecksum: MD5: 9f6e2b385c0039dffd4a1d7a5aff277c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_string_unicode_03.expected
+SPDXID: SPDXRef-item13597874
+FileChecksum: SHA1: 1c6c7945abe1be1fa29a9109f7361c81c50445ac
+FileChecksum: SHA256: dec185493a5059bc9fdf6df325b1b33cfb29995a0855f8380674ece80a8b2070
+FileChecksum: MD5: 002753b122b1b7d1404667466b86a269
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_05.json
+SPDXID: SPDXRef-item13597944
+FileChecksum: SHA1: 55d0965c75a1419672bb9512892ccabe2b27e6e9
+FileChecksum: SHA256: 734df1383d838a9c24b5a435c018272ac4e855460aa44a892a94f3c7fc6986f3
+FileChecksum: MD5: 71d1898a6cdd6be6460792a913b4fd73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_04.expected
+SPDXID: SPDXRef-item13597915
+FileChecksum: SHA1: b9e71b46482e872a3a6568acc08a49de5d8b4035
+FileChecksum: SHA256: 42b73678b9a915eab2931bc2ed4cea8edc0eb92c55a6270ba7a6cf6183cf4725
+FileChecksum: MD5: 7bc26bd2c2a1a19d14b1ba79ce7a9158
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_08.json
+SPDXID: SPDXRef-item13597928
+FileChecksum: SHA1: 6d6179e70edec3e49a2eb8957d607519888c9d9a
+FileChecksum: SHA256: 3379d484baf5ce8037d032ae46f30af9e84ab1d47db010221317295945a1a0c5
+FileChecksum: MD5: d794cbeb7a4af1f66eeff8b03baaeed5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail8.json
+SPDXID: SPDXRef-item13597822
+FileChecksum: SHA1: fd72cd0e95adc278fd95b421bd79160d99aa3aea
+FileChecksum: SHA256: fbb0928ebab6b0f1aa7b5a7f10453bf89cc7ed56185bd783836ceedeec248ea8
+FileChecksum: MD5: ce51ef5504fa4acba5a497ace5d4649a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_01.json
+SPDXID: SPDXRef-item13597907
+FileChecksum: SHA1: 0685ff3d65f402e33f3893b21df6c6b1985fc1c7
+FileChecksum: SHA256: bf19a6c513b665d94f3fa521a36e7248d6c7e39f1b04989435962bfc6f2fef3b
+FileChecksum: MD5: b65b9955f8a15197a427db1374c92a0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_array_06.expected
+SPDXID: SPDXRef-item13597829
+FileChecksum: SHA1: 14c43c0d5b2db7594233125274a4f8ccc43289ea
+FileChecksum: SHA256: d1232ec1eee85314c13212348cbc107ef9e67358c0e53e358720437e2cb00a92
+FileChecksum: MD5: c28a2a403915e86016dada7707fbdb64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_basic_09.expected
+SPDXID: SPDXRef-item13597918
+FileChecksum: SHA1: 00f2f4fb513ae748ed4771c46148ffcd807cdcc0
+FileChecksum: SHA256: 1364b3db582818e17cf4fc5ab6da2f27a05123bf935be43282412d6d865c325c
+FileChecksum: MD5: 3c73275b3ba5a3a7cef07c2d6a135009
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.travis_scripts/cmake_builder.sh
+SPDXID: SPDXRef-item13597762
+FileChecksum: SHA1: 4e06b997c758eb0caa7d951fe41515ba7be91a98
+FileChecksum: SHA256: 6906ec9acf50b4960d7f291c8874165bb1889d7eebf79ffa1e8c1e4e8c330e31
+FileChecksum: MD5: 06b867bcb64a68807eeda011ca3fa169
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/jsonchecker/fail28.json
+SPDXID: SPDXRef-item13597806
+FileChecksum: SHA1: 64f46767e1f77127334716f2de8be4443ae90c6b
+FileChecksum: SHA256: a4a310e88adb621126f6e044f7919728d6fdf1df6a7d5a445e7215539f2ac264
+FileChecksum: MD5: 6d4a7b1b49ff2f89bdfd9d42ebc238c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_06.expected
+SPDXID: SPDXRef-item13597843
+FileChecksum: SHA1: e0dc22202d494328382427b49c73d8a5513a7125
+FileChecksum: SHA256: f8d2bf0e46f4ab0c958c68e1bb95e75fb58c98e923ccdc2e30508978b1beca6d
+FileChecksum: MD5: 71f4fa8e37b9eeb6bdfd9ab52da5c0e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/test/data/legacy_test_real_07.expected
+SPDXID: SPDXRef-item13597863
+FileChecksum: SHA1: 0b9a4fa4d0025eccb7d7ebaf101c1f6c27591fbf
+FileChecksum: SHA256: abdaa6db44c0bb870170d40406bda1ac9a514b2624af8e0f753613aad4406ded
+FileChecksum: MD5: 8c1361f1547a01bd970bda3f09312aa5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: jsoncpp-1.9.5.tar.gz/jsoncpp-1.9.5.tar/jsoncpp-1.9.5/.travis_scripts/meson_builder.sh
+SPDXID: SPDXRef-item13597760
+FileChecksum: SHA1: f11a6bac83a47e22f2ff10cd57fff52dabac001a
+FileChecksum: SHA256: da3cd60b25296acd80a372ad2bc1ed6c91cc10dbcb4fbf69c4be3f7feb388c00
+FileChecksum: MD5: de77519f71e525d5e0c58d65db36ae9f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+
+
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
+
+  
+
+  
+
+LicenseID: LicenseRef-MIT-85d8e4d4e50109a7d0c07fa8ee8c200f
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-cc4734e8a01f740811ac41130a40cf90
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+  
+
+  
+
+LicenseID: LicenseRef-MIT-54575e81a786e9aa7d98337ec2e1ebb0
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-public-domain
+LicenseName: Public Domain
+ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+
+LicenseID: LicenseRef-See-doc.OTHER
+LicenseName: See-doc.OTHER
+ExtractedText: <text> License by Nomos. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-unknown-license-reference
+LicenseName: Unknown License file reference
+ExtractedText: <text> License by Scancode. </text>
+
+
+
+LicenseID: LicenseRef-Dual-license
+LicenseName: Dual-license
+ExtractedText: <text> Multi-licensing is the practice of distributing software under two or more different sets of terms and conditions. This may mean multiple different software licenses or sets of licenses. Prefixes may be used to indicate the number of licenses used, e.g. dual-licensed for software licensed under two different licenses.
+When software is multi-licensed, recipients can choose which terms under which they want to use or distribute the software. The distributor may or may not apply a fee to either option. The two usual motivations for multi-licensing are license compatibility and market segregation based business models. </text>
+
+
+  
+LicenseID: LicenseRef-X11-distribute-modifications-variant
+LicenseName: X11 License Distribution Modification Variant
+ExtractedText: <text> Copyright (c) <year> <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, distribute with modifications, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name(s) of the above copyright
+holders shall not be used in advertising or otherwise to promote the
+sale, use or other dealings in this Software without prior written
+authorization.
+ </text>
+
