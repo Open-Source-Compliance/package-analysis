@@ -27,7 +27,8 @@ We also provide the following SPDX files in different formats:
 Please note that providing the json, YAML, rdf is a background task, thus they are currently not available for all analysed packages. But we are working on it to provide all of those files.
 
 ## File Formats
-As already described we provide different formats. In some cases the files are to big to be uploadable to GitHub, in this case we provide the file compressed in gz.
+As already described, we offer various file formats. In some cases, however, the files are too large to be uploaded to GitHub. In this case, we provide the file compressed in gzip format with suffix ".gz".
+When accessing the files via programs or scripts, this means that if an access error occurs, a second attempt should be made, adding the suffix ".gz" to the file name and decompressing the file after downloading. Example Python scripts are given [here](https://wiki.osselot.org/index.php/Retrieve_files_from_the_repository).
 
 ## Improving the Artifacts
 Since all files are text files, they can easily be reviewed. In case you detect an error or have doubts please file an issue against the specific file.
