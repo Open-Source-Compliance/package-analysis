@@ -8,7 +8,7 @@ pkg:generic/libcap2@1%252.66-4?download_url=https://salsa.debian.org/debian/libc
 
 ## Creator
 
-Astrid Spura (aspura@osadl.org)
+Astrid Spura
 
 ## Reviewers
 
