@@ -1,0 +1,835 @@
+================================================================================
+
+speexdsp-SpeexDSP-1.2.1
+
+--------------------------------------------------------------------------------
+
+================================================================================
+
+LICENSES 
+
+--------------------------------------------------------------------------------
+
+Trust-Legal-Provisions-1.0
+                                             IETF TRUST
+                        Legal Provisions Relating to IETF Documents
+                                    Approved November 6, 2008
+                               Effective Date: November 10, 2008
+1. Background
+The IETF Trust was formed on December 15, 2005, for, among other things, the
+purpose
+of acquiring, holding, maintaining and licensing certain existing and future
+intellectual property
+used in connection with the Internet standards process and its administration,
+for the
+advancement of science and technology associated with the Internet and related
+technology.
+Accordingly, pursuant to RFC 5378, Contributors to the IETF Standards Process
+grant the IETF
+Trust certain licenses with respect to their IETF Contributions. In RFC 5377,
+the IETF
+Community has provided the IETF Trust with guidance regarding licenses that the
+IETF Trust
+should grant to others with respect to such IETF Contributions and IETF
+Documents. These
+Legal Provisions describe the rights and licenses that the IETF Trust grants to
+others with respect
+to such IETF Contributions and IETF Documents; as well as certain restrictions,
+limitations and
+notices relating to IETF Documents. Capitalized terms used in these Legal
+Provisions that are
+not otherwise defined have the meanings set forth in RFC 5378.
+2. Applicability of these Legal Provisions.
+a. These Legal Provisions are effective as of November 10, 2008 (the “Effective
+Date”).
+b. The licenses granted by the IETF Trust pursuant to these Legal Provisions
+apply
+only with respect to (i) IETF Contributions (including Internet-Drafts) that are
+submitted to the
+IETF following the Effective Date, and (ii) IETF RFCs and other IETF Documents
+that are
+published after the Effective Date.
+c. IETF Contributions made, and IETF Documents published, prior to the Effective
+Date (“Pre-Existing IETF Documents”) remain subject to the licensing provisions
+of the IETF
+copyright policy document in effect at the time of their publication, including
+RFCs 1310, 1602,
+2026, 3978 and 4748.
+d. In most cases, rights to Pre-Existing IETF Documents that are not expressly
+granted under these RFCs can only be obtained by requesting such rights directly
+from the
+document authors. The IETF Trust and the Internet Society do not become involved
+in making
+such requests to document authors.
+e. These Legal Provisions may be amended from time to time by the IETF Trust in
+a
+manner consistent with the guidance provided by the IETF community and its own
+operating
+procedures. Any amendment to these Legal Provisions shall be posted for review
+at
+http://trustee.ietf.org/policyandprocedures.html and shall become effective on a
+date specified
+by the IETF Trust, but no earlier than thirty (30) days following its posting.
+Such amendment
+shall apply with respect to all IETF Contributions made and IETF Documents
+published
+following the effective date of such amendment. All prior versions of these
+Legal Provisions
+shall continue to be posted at http://trustee.ietf.org/policyandprocedures.html
+for reference with
+respect to IETF Contributions and IETF Documents as to which they may apply.
+3. Licenses to IETF Documents and IETF Contributions.
+a. License For Use Within the IETF Standards Process. The IETF Trust hereby
+grants to each participant in the IETF Standards Process, to the greatest extent
+that it is permitted
+to do so, a non-exclusive, royalty-free, worldwide right and license under all
+copyrights and
+rights of authors:
+i. to copy, publish, display and distribute IETF Contributions and IETF
+Documents, in whole or in part, as part of the IETF Standards Process, and
+ii. to translate IETF Contributions and IETF Documents, in whole or part,
+into languages other than English as part of the IETF Standards Process, and
+iii. unless explicitly disallowed in the notices contained in an IETF
+Contribution or IETF Document (as specified in Section 6.b below), to modify or
+prepare
+derivative works of such IETF Contributions or IETF Documents, in whole or in
+part, as part of
+the IETF Standards Process.
+ b. IETF Standards Process. The term IETF Standards Process has the meaning
+assigned to it in RFC 5378. In addition, the IETF Trust interprets the IETF
+Standards Process to
+include the archiving of IETF Documents in perpetuity for reference in support
+of IETF activities
+and the implementation of IETF standards and specifications.
+ c. Licenses For Use Outside the IETF Standards Process. In addition to the
+rights
+granted with respect to Code Components described in Section 4 below, the IETF
+Trust hereby
+grants to each person who wishes to exercise such rights, to the greatest extent
+that it is permitted
+to do so, a non-exclusive, royalty-free, worldwide right and license under all
+copyrights and
+rights of authors:
+i. to copy, publish, display and distribute IETF Contributions and IETF
+Documents in full and without modification,
+ii. to translate IETF Contributions and IETF Documents into languages other
+than English, and to copy, publish, display and distribute such translated IETF
+Contributions and
+IETF Documents in full and without modification,
+iii. to copy, publish, display and distribute unmodified portions of IETF
+Contributions and IETF Documents and translations thereof, provided that:
+(x) each such portion is clearly attributed to IETF and identifies the
+RFC or other IETF Document or IETF Contribution from which it is taken, 
+(y) all IETF legends, legal notices and indications of authorship
+contained in the original IETF RFC must also be included where any substantial
+portion of the
+text of an IETF RFC, and in any event where more than one-fifth of such text, is
+reproduced in a
+single document or series of related documents.
+ d. Licenses that are not Granted. The following licenses are not granted
+pursuant to
+these Legal Provisions:
+i. any license to modify IETF Contributions or IETF Documents, or portions
+thereof (other than to make translations or to extract, use and modify Code
+Components as
+permitted under the licenses granted under Section 4 of these Legal Provisions)
+in any context
+outside the IETF Standards Process, or
+ii. any license to publish, display or distribute IETF Contributions or IETF
+Documents, or portions thereof, without the required legends and notices
+described in these
+Legal Provisions.
+ e. Requesting Additional Rights. Anyone who wishes to request license rights
+from
+the IETF Trust in addition to those granted under these Legal Provisions may
+submit such
+request to trustees@ietf.org. Such request will be considered by the IETF Trust,
+which will
+make a decision regarding the request in its sole discretion and inform the
+requester of its
+disposition. In addition, individual Contributors may be contacted regarding
+licenses to their
+IETF Contributions. The IETF Trust does not limit the ability of IETF
+Contributors to license
+their Contributions, so long as those licenses do not affect the rights granted
+to the IETF Trust
+under RFC 5378.
+4. License to Code Components.
+a. Definition. IETF Contributions and IETF Documents often include components
+intended to be directly processed by a computer (“Code Components”). A list of
+common Code
+Components can be found at http://trustee.ietf.org/policyandprocedures.html .
+b. Identification. Text in IETF Contributions and IETF Documents of the types
+identified in Section 4.a above shall constitute “Code Components”. In addition,
+any text found
+between the markers <CODE BEGINS> and <CODE ENDS>, or otherwise clearly labeled
+as a
+Code Component, shall be considered a “Code Component”.
+ c. License. In addition to the licenses granted under Section 3, Code
+Components
+are also licensed to each person who wishes to receive such a license on the
+terms of the "BSD
+License", as described below. If a licensee elects to apply the BSD License to a
+Code
+Component, then the additional licenses and restrictions set forth in Section 3
+and elsewhere in
+these Legal Provisions shall not apply thereto.
+BSD License:
+Copyright (c) [insert year] IETF Trust and the persons identified as the
+document authors. All rights
+reserved. 
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided
+that the following conditions are met:
+• Redistributions of source code must retain the above copyright notice, this
+list of conditions and the
+following disclaimer.
+• Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and
+the following disclaimer in the documentation and/or other materials provided
+with the distribution.
+• Neither the name of Internet Society, IETF or IETF Trust, nor the names of
+specific contributors, may
+be used to endorse or promote products derived from this software without
+specific prior written
+permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+The above BSD License is intended to be compatible with the BSD License template
+published
+at http://opensource.org/licenses/bsd-license.php .
+d. Attribution. Those who use Code Components under the license granted under
+Section 4.c above are requested to attribute each such Code Component to IETF
+and identify the
+RFC or other IETF Document or IETF Contribution from which it is taken. Such
+attribution
+may be placed in the code itself (e.g., “This code was derived from IETF RFC
+[insert RFC
+number]. Please reproduce this note if possible.”) or any other reasonable
+location.
+5. License Limitations.
+a. No Patent License. The licenses granted under these Legal Provisions shall
+not be
+deemed to grant any right under any patent, patent application or similar
+intellectual property
+right.
+ b. Supersedure. The terms of any license granted under these Legal Provisions
+may
+be superseded by a written agreement between the IETF Trust and the licensee
+that specifically
+references and supersedes the relevant provisions of these Legal Provisions,
+except that (i) the
+IETF Trust shall in no event be authorized to grant rights with respect to any
+Contribution in
+excess of those which it has been granted by the Contributor, and (ii) the
+rights granted shall not
+be less than those otherwise granted under these Legal Provisions.
+6. Text To Be Included in IETF Documents. The following text must be included on
+the
+first page of each IETF Document as specified below:
+ a. Submission Compliance for Internet-Drafts. In each Internet-Draft: 
+This Internet-Draft is submitted to IETF in full conformance with the provisions
+of BCP 78 and
+BCP 79.
+ b. Copyright and License Notice. In each IETF Document (including RFCs and
+Internet-Drafts):
+Copyright (c) [insert year] IETF Trust and the persons identified as the
+document authors. All
+rights reserved.
+This document is subject to BCP 78 and the IETF Trust’s Legal Provisions
+Relating to IETF
+Documents (http://trustee.ietf.org/license-info) in effect on the date of
+publication of this
+document. Please review these documents carefully, as they describe your rights
+and restrictions
+with respect to this document.
+ c. Derivative Works and Publication Limitations. If a Contributor desires to
+limit
+the right to make modifications and derivative works of an IETF Contribution, or
+to limit its
+publication, one of the following notices must be included. These notices may
+not be used with
+any standards-track document, nor with most working group documents.
+i. If the Contributor does not wish to allow modifications, but does wish to
+allow publication as an RFC:
+This document may not be modified, and derivative works of it may not be
+created, except to
+format it for publication as an RFC and to translate it into languages other
+than English.
+ii. If the Contributor does not wish to allow modifications nor to allow
+publication as an RFC:
+This document may not be modified, and derivative works of it may not be
+created, and it may not
+be published except as an Internet-Draft.
+7. Terms Applicable to All IETF Documents. The following legal terms apply to
+all IETF
+Documents:
+a. All IETF Documents and the information contained therein are provided on an
+"AS IS" basis and THE CONTRIBUTOR, THE ORGANIZATION HE/SHE REPRESENTS
+OR IS SPONSORED BY (IF ANY), THE INTERNET SOCIETY, THE IETF TRUST AND
+THE INTERNET ENGINEERING TASK FORCE DISCLAIM ALL WARRANTIES,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT
+THE USE OF THE INFORMATION THEREIN WILL NOT INFRINGE ANY RIGHTS OR
+ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
+PARTICULAR PURPOSE.
+b. The IETF Trust takes no position regarding the validity or scope of any
+Intellectual Property Rights or other rights that might be claimed to pertain to
+the implementation
+or use of the technology described in any IETF Document or the extent to which
+any license
+under such rights might or might not be available; nor does it represent that it
+has made any
+independent effort to identify any such rights. 
+c. Copies of Intellectual Property disclosures made to the IETF Secretariat and
+any assurances of licenses to be made available, or the result of an attempt
+made to obtain a
+general license or permission for the use of such proprietary rights by
+implementers or users of
+this specification can be obtained from the IETF on-line IPR repository at
+http://www.ietf.org/ipr
+.
+d. The IETF invites any interested party to bring to its attention any
+copyrights,
+patents or patent applications, or other proprietary rights that may cover
+technology that may be
+required to implement any standard or specification contained in an IETF
+Document. Please
+address the information to the IETF at ietf-ipr@ietf.org.
+e. The definitive version of an IETF Document is that published by, or under the
+auspices of, the IETF. Versions of IETF Documents that are published by third
+parties,
+including those that are translated into other languages, should not be
+considered to be definitive
+versions of IETF Documents. The definitive version of these Legal Provisions is
+that published
+by, or under the auspices of, the IETF. Versions of these Legal Provisions that
+are published by
+third parties, including those that are translated into other languages, should
+not be considered to
+be definitive versions of these Legal Provisions.
+f. For the avoidance of doubt, each Contributor to the IETF Standards Process
+licenses each Contribution that he or she makes as part of the IETF Standards
+Process to the
+IETF Trust pursuant to the provisions of RFC 5378. No language to the contrary,
+or terms,
+conditions or rights that differ from or are inconsistent with the rights and
+licenses granted under
+RFC 5378, shall have any effect and shall be null and void, whether published or
+posted by such
+Contributor, or included with or in such Contribution. 
+--------------------------------------------------------------------------------
+
+License-of-GNU-Licenses
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+--------------------------------------------------------------------------------
+
+GFDL-1.1-no-invariants-or-later
+GNU Free Documentation License
+Version 1.1, March 2000
+
+Copyright (C) 2000 Free Software Foundation, Inc. 51 Franklin St, Fifth Floor,
+Boston, MA 02110-1301 USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license
+document, but changing it is not allowed.
+
+0. PREAMBLE
+The purpose of this License is to make a manual, textbook, or other written
+document "free" in the sense of freedom: to assure everyone the effective
+freedom to copy and redistribute it, with or without modifying it, either
+commercially or noncommercially. Secondarily, this License preserves for the
+author and publisher a way to get credit for their work, while not being
+considered responsible for modifications made by others.
+
+This License is a kind of "copyleft", which means that derivative works of the
+document must themselves be free in the same sense. It complements the GNU
+General Public License, which is a copyleft license designed for free software.
+
+We have designed this License in order to use it for manuals for free software,
+because free software needs free documentation: a free program should come with
+manuals providing the same freedoms that the software does. But this License is
+not limited to software manuals; it can be used for any textual work, regardless
+of subject matter or whether it is published as a printed book. We recommend
+this License principally for works whose purpose is instruction or reference.
+
+1. APPLICABILITY AND DEFINITIONS
+This License applies to any manual or other work that contains a notice placed
+by the copyright holder saying it can be distributed under the terms of this
+License. The "Document", below, refers to any such manual or work. Any member of
+the public is a licensee, and is addressed as "you".
+
+A "Modified Version" of the Document means any work containing the Document or a
+portion of it, either copied verbatim, or with modifications and/or translated
+into another language.
+
+A "Secondary Section" is a named appendix or a front-matter section of the
+Document that deals exclusively with the relationship of the publishers or
+authors of the Document to the Document's overall subject (or to related
+matters) and contains nothing that could fall directly within that overall
+subject. (For example, if the Document is in part a textbook of mathematics, a
+Secondary Section may not explain any mathematics.) The relationship could be a
+matter of historical connection with the subject or with related matters, or of
+legal, commercial, philosophical, ethical or political position regarding them.
+
+The "Invariant Sections" are certain Secondary Sections whose titles are
+designated, as being those of Invariant Sections, in the notice that says that
+the Document is released under this License.
+
+The "Cover Texts" are certain short passages of text that are listed, as Front-
+Cover Texts or Back-Cover Texts, in the notice that says that the Document is
+released under this License.
+
+A "Transparent" copy of the Document means a machine-readable copy, represented
+in a format whose specification is available to the general public, whose
+contents can be viewed and edited directly and straightforwardly with generic
+text editors or (for images composed of pixels) generic paint programs or (for
+drawings) some widely available drawing editor, and that is suitable for input
+to text formatters or for automatic translation to a variety of formats suitable
+for input to text formatters. A copy made in an otherwise Transparent file
+format whose markup has been designed to thwart or discourage subsequent
+modification by readers is not Transparent. A copy that is not "Transparent" is
+called "Opaque".
+
+Examples of suitable formats for Transparent copies include plain ASCII without
+markup, Texinfo input format, LaTeX input format, SGML or XML using a publicly
+available DTD, and standard-conforming simple HTML designed for human
+modification. Opaque formats include PostScript, PDF, proprietary formats that
+can be read and edited only by proprietary word processors, SGML or XML for
+which the DTD and/or processing tools are not generally available, and the
+machine-generated HTML produced by some word processors for output purposes
+only.
+
+The "Title Page" means, for a printed book, the title page itself, plus such
+following pages as are needed to hold, legibly, the material this License
+requires to appear in the title page. For works in formats which do not have any
+title page as such, "Title Page" means the text near the most prominent
+appearance of the work's title, preceding the beginning of the body of the text.
+
+2. VERBATIM COPYING
+You may copy and distribute the Document in any medium, either commercially or
+noncommercially, provided that this License, the copyright notices, and the
+license notice saying this License applies to the Document are reproduced in all
+copies, and that you add no other conditions whatsoever to those of this
+License. You may not use technical measures to obstruct or control the reading
+or further copying of the copies you make or distribute. However, you may accept
+compensation in exchange for copies. If you distribute a large enough number of
+copies you must also follow the conditions in section 3.
+
+You may also lend copies, under the same conditions stated above, and you may
+publicly display copies.
+
+3. COPYING IN QUANTITY
+If you publish printed copies of the Document numbering more than 100, and the
+Document's license notice requires Cover Texts, you must enclose the copies in
+covers that carry, clearly and legibly, all these Cover Texts: Front-Cover Texts
+on the front cover, and Back-Cover Texts on the back cover. Both covers must
+also clearly and legibly identify you as the publisher of these copies. The
+front cover must present the full title with all words of the title equally
+prominent and visible. You may add other material on the covers in addition.
+Copying with changes limited to the covers, as long as they preserve the title
+of the Document and satisfy these conditions, can be treated as verbatim copying
+in other respects.
+
+If the required texts for either cover are too voluminous to fit legibly, you
+should put the first ones listed (as many as fit reasonably) on the actual
+cover, and continue the rest onto adjacent pages.
+
+If you publish or distribute Opaque copies of the Document numbering more than
+100, you must either include a machine-readable Transparent copy along with each
+Opaque copy, or state in or with each Opaque copy a publicly-accessible
+computer-network location containing a complete Transparent copy of the
+Document, free of added material, which the general network-using public has
+access to download anonymously at no charge using public-standard network
+protocols. If you use the latter option, you must take reasonably prudent steps,
+when you begin distribution of Opaque copies in quantity, to ensure that this
+Transparent copy will remain thus accessible at the stated location until at
+least one year after the last time you distribute an Opaque copy (directly or
+through your agents or retailers) of that edition to the public.
+
+It is requested, but not required, that you contact the authors of the Document
+well before redistributing any large number of copies, to give them a chance to
+provide you with an updated version of the Document.
+
+4. MODIFICATIONS
+You may copy and distribute a Modified Version of the Document under the
+conditions of sections 2 and 3 above, provided that you release the Modified
+Version under precisely this License, with the Modified Version filling the role
+of the Document, thus licensing distribution and modification of the Modified
+Version to whoever possesses a copy of it. In addition, you must do these things
+in the Modified Version:
+
+A. Use in the Title Page (and on the covers, if any) a title distinct from that
+of the Document, and from those of previous versions (which should, if there
+were any, be listed in the History section of the Document). You may use the
+same title as a previous version if the original publisher of that version gives
+permission.
+B. List on the Title Page, as authors, one or more persons or entities
+responsible for authorship of the modifications in the Modified Version,
+together with at least five of the principal authors of the Document (all of its
+principal authors, if it has less than five).
+C. State on the Title page the name of the publisher of the Modified Version, as
+the publisher.
+D. Preserve all the copyright notices of the Document.
+E. Add an appropriate copyright notice for your modifications adjacent to the
+other copyright notices.
+F. Include, immediately after the copyright notices, a license notice giving the
+public permission to use the Modified Version under the terms of this License,
+in the form shown in the Addendum below.
+G. Preserve in that license notice the full lists of Invariant Sections and
+required Cover Texts given in the Document's license notice.
+H. Include an unaltered copy of this License.
+I. Preserve the section entitled "History", and its title, and add to it an item
+stating at least the title, year, new authors, and publisher of the Modified
+Version as given on the Title Page. If there is no section entitled "History" in
+the Document, create one stating the title, year, authors, and publisher of the
+Document as given on its Title Page, then add an item describing the Modified
+Version as stated in the previous sentence.
+J. Preserve the network location, if any, given in the Document for public
+access to a Transparent copy of the Document, and likewise the network locations
+given in the Document for previous versions it was based on. These may be placed
+in the "History" section. You may omit a network location for a work that was
+published at least four years before the Document itself, or if the original
+publisher of the version it refers to gives permission.
+K. In any section entitled "Acknowledgements" or "Dedications", preserve the
+section's title, and preserve in the section all the substance and tone of each
+of the contributor acknowledgements and/or dedications given therein.
+L. Preserve all the Invariant Sections of the Document, unaltered in their text
+and in their titles. Section numbers or the equivalent are not considered part
+of the section titles.
+M. Delete any section entitled "Endorsements". Such a section may not be
+included in the Modified Version.
+N. Do not retitle any existing section as "Endorsements" or to conflict in title
+with any Invariant Section.
+If the Modified Version includes new front-matter sections or appendices that
+qualify as Secondary Sections and contain no material copied from the Document,
+you may at your option designate some or all of these sections as invariant. To
+do this, add their titles to the list of Invariant Sections in the Modified
+Version's license notice. These titles must be distinct from any other section
+titles.
+
+You may add a section entitled "Endorsements", provided it contains nothing but
+endorsements of your Modified Version by various parties--for example,
+statements of peer review or that the text has been approved by an organization
+as the authoritative definition of a standard.
+
+You may add a passage of up to five words as a Front-Cover Text, and a passage
+of up to 25 words as a Back-Cover Text, to the end of the list of Cover Texts in
+the Modified Version. Only one passage of Front-Cover Text and one of Back-Cover
+Text may be added by (or through arrangements made by) any one entity. If the
+Document already includes a cover text for the same cover, previously added by
+you or by arrangement made by the same entity you are acting on behalf of, you
+may not add another; but you may replace the old one, on explicit permission
+from the previous publisher that added the old one.
+
+The author(s) and publisher(s) of the Document do not by this License give
+permission to use their names for publicity for or to assert or imply
+endorsement of any Modified Version.
+
+5. COMBINING DOCUMENTS
+You may combine the Document with other documents released under this License,
+under the terms defined in section 4 above for modified versions, provided that
+you include in the combination all of the Invariant Sections of all of the
+original documents, unmodified, and list them all as Invariant Sections of your
+combined work in its license notice.
+
+The combined work need only contain one copy of this License, and multiple
+identical Invariant Sections may be replaced with a single copy. If there are
+multiple Invariant Sections with the same name but different contents, make the
+title of each such section unique by adding at the end of it, in parentheses,
+the name of the original author or publisher of that section if known, or else a
+unique number. Make the same adjustment to the section titles in the list of
+Invariant Sections in the license notice of the combined work.
+
+In the combination, you must combine any sections entitled "History" in the
+various original documents, forming one section entitled "History"; likewise
+combine any sections entitled "Acknowledgements", and any sections entitled
+"Dedications". You must delete all sections entitled "Endorsements."
+
+6. COLLECTIONS OF DOCUMENTS
+You may make a collection consisting of the Document and other documents
+released under this License, and replace the individual copies of this License
+in the various documents with a single copy that is included in the collection,
+provided that you follow the rules of this License for verbatim copying of each
+of the documents in all other respects.
+
+You may extract a single document from such a collection, and distribute it
+individually under this License, provided you insert a copy of this License into
+the extracted document, and follow this License in all other respects regarding
+verbatim copying of that document.
+
+7. AGGREGATION WITH INDEPENDENT WORKS
+A compilation of the Document or its derivatives with other separate and
+independent documents or works, in or on a volume of a storage or distribution
+medium, does not as a whole count as a Modified Version of the Document,
+provided no compilation copyright is claimed for the compilation. Such a
+compilation is called an "aggregate", and this License does not apply to the
+other self-contained works thus compiled with the Document, on account of their
+being thus compiled, if they are not themselves derivative works of the
+Document.
+
+If the Cover Text requirement of section 3 is applicable to these copies of the
+Document, then if the Document is less than one quarter of the entire aggregate,
+the Document's Cover Texts may be placed on covers that surround only the
+Document within the aggregate. Otherwise they must appear on covers around the
+whole aggregate.
+
+8. TRANSLATION
+Translation is considered a kind of modification, so you may distribute
+translations of the Document under the terms of section 4. Replacing Invariant
+Sections with translations requires special permission from their copyright
+holders, but you may include translations of some or all Invariant Sections in
+addition to the original versions of these Invariant Sections. You may include a
+translation of this License provided that you also include the original English
+version of this License. In case of a disagreement between the translation and
+the original English version of this License, the original English version will
+prevail.
+
+9. TERMINATION
+You may not copy, modify, sublicense, or distribute the Document except as
+expressly provided for under this License. Any other attempt to copy, modify,
+sublicense or distribute the Document is void, and will automatically terminate
+your rights under this License. However, parties who have received copies, or
+rights, from you under this License will not have their licenses terminated so
+long as such parties remain in full compliance.
+
+10. FUTURE REVISIONS OF THIS LICENSE
+The Free Software Foundation may publish new, revised versions of the GNU Free
+Documentation License from time to time. Such new versions will be similar in
+spirit to the present version, but may differ in detail to address new problems
+or concerns. See http://www.gnu.org/copyleft/.
+
+Each version of the License is given a distinguishing version number. If the
+Document specifies that a particular numbered version of this License "or any
+later version" applies to it, you have the option of following the terms and
+conditions either of that specified version or of any later version that has
+been published (not as a draft) by the Free Software Foundation. If the Document
+does not specify a version number of this License, you may choose any version
+ever published (not as a draft) by the Free Software Foundation.
+
+ADDENDUM: How to use this License for your documents
+
+To use this License in a document you have written, include a copy of the
+License in the document and put the following copyright and license notices just
+after the title page:
+
+Copyright (c) YEAR YOUR NAME. Permission is granted to copy, distribute and/or
+modify this document under the terms of the GNU Free Documentation License,
+Version 1.1 or any later version published by the Free Software Foundation; with
+the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts being
+LIST, and with the Back-Cover Texts being LIST. A copy of the license is
+included in the section entitled "GNU Free Documentation License".
+
+If you have no Invariant Sections, write "with no Invariant Sections" instead of
+saying which ones are invariant. If you have no Front-Cover Texts, write "no
+Front-Cover Texts" instead of "Front-Cover Texts being LIST"; likewise for Back-
+Cover Texts.
+
+If your document contains nontrivial examples of program code, we recommend
+releasing these examples in parallel under your choice of free software license,
+such as the GNU General Public License, to permit their use in free software.
+--------------------------------------------------------------------------------
+
+BSD-3-Clause
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+* Neither the author nor the names of any contributors may be used to endorse or
+promote products derived from this software without specific prior written
+permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+BSD-3-Clause
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+3. The name of the author may not be used to endorse or promote products
+derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+BSD-3-Clause
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+- Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+- Neither the name of the Xiph.org Foundation nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+BSD-3-Clause
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+- Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+- Neither the name of the Xiph.org Foundation nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+BSD-3-Clause
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+- Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+- Neither the name of CSIRO Australia nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE ORGANISATION OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+Copyright notices
+
+Copyright © 2002-2006 Xiph.Org Foundation
+Copyright c 2002-2007 Jean-Marc Valin/Xiph.org Foundation
+Copyright 2005-2008     Commonwealth Scientific and Industrial Research
+Organisation (CSIRO)
+Copyright 2005-2007	Analog Devices Inc.
+Copyright 2003 EpicGames
+Copyright 2002-2008 Xiph.org Foundation
+Copyright 2002-2008 Jean-Marc Valin
+Copyright 1993, 2002, 2006 David Rowe
+Copyright 1992-1994 Jutta Degener, Carsten Bormann
+Copyright 1992-1994	Jutta Degener, Carsten Bormann
+Copyright (c) 2005-2007, Jean-Marc Valin
+Copyright (c) 2003-2004, Mark Borgerding
+Copyright (C) The Internet Society (2007).
+Copyright (C) Jean-Marc Valin
+Copyright (C) 2011 Texas Instruments author Jyri Sarha
+Copyright (C) 2008 Thorvald Natvig
+Copyright (C) 2007-2008 Jean-Marc Valin
+Copyright (C) 2007 Psi Systems, Inc. Author: Jean-Marc Valin
+Copyright (C) 2007 Jean-Marc Valin
+Copyright (C) 2007 Hong Zhiqian
+Copyright (C) 2006-2008 CSIRO, Jean-Marc Valin, Xiph.Org Foundation
+Copyright (C) 2006 Jean-Marc Valin
+Copyright (C) 2005-2009 Analog Devices
+Copyright (C) 2005-2006 Jean-Marc Valin
+Copyright (C) 2005 Psi Systems, Inc.
+Copyright (C) 2005 Jean-Marc Valin, CSIRO, Christopher Montgomery
+Copyright (C) 2005 Jean-Marc Valin
+Copyright (C) 2005 Analog Devices Author: Jean-Marc Valin
+Copyright (C) 2005 Analog Devices
+Copyright (C) 2004-2006 Epic Games
+Copyright (C) 2004 Jean-Marc Valin
+Copyright (C) 2003-2008 Jean-Marc Valin
+Copyright (C) 2003 Jean-Marc Valin
+Copyright (C) 2003 Epic Games Written by Jean-Marc Valin
+Copyright (C) 2003 Epic Games (written by Jean-Marc Valin)
+Copyright (C) 2003 Commonwealth Scientific and Industrial Research Organisation
+(CSIRO) Australia
+Copyright (C) 2002 Jean-Marc Valin
+Copyright (C) 2000 Free Software Foundation, Inc.
+(C) COPYRIGHT 1994-2002 by the Xiph.Org Foundation http://www.xiph.org/
+(C) COPYRIGHT 1994-2001 by the XIPHOPHORUS Company http://www.xiph.org/
