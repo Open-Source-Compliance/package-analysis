@@ -1,10 +1,10 @@
 ## Download Location
 
-https://download-mirror.savannah.gnu.org/releases/lzip/lzip-1.15.tar.gz
+https://download-mirror.savannah.gnu.org/releases/lzip/lzlib/lzlib-1.15.tar.gz
 
 ## Package URL (purl)
 
-pkg:generic/lzip@1.15?download_url=https://download-mirror.savannah.gnu.org/releases/lzip/lzip-1.15.tar.gz
+pkg:generic/lzlib@1.15?download_url=https://download-mirror.savannah.gnu.org/releases/lzip/lzlib/lzlib-1.15.tar.gz
 
 ## Creator
 
