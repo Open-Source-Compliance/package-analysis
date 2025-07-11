@@ -4,7 +4,7 @@ https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/archive/2.42.0/gdk-pixbuf-2.42.0.tar
 
 ## Package URL (purl)
 
-pkg:generic/gdk?download_url=https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/archive/2.42.0/gdk-pixbuf-2.42.0.tar.gz
+pkg:generic/gdk-pixbuf@2.42.0?download_url=https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/archive/2.42.0/gdk-pixbuf-2.42.0.tar.gz
 
 ## Creator
 
