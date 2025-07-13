@@ -173,7 +173,7 @@ für die Herstellung einer binären Komponente verwendet wurden. Letzteres
 wird [Quellcode-Provenienz](#quellcode-provenienz) genannt und ist für
 die exakte Ermittlung der anzuwendenden Lizenzen von Bedeutung.
 
-![](bluetoothd.svg)Abbildung 1: Beispiel eines Callgraph des
+![](media/bluetoothd.svg)Abbildung 1: Beispiel eines Callgraph des
 Server-Programms \"bluetoothd\"
 
 ## Copyleft
