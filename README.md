@@ -252,6 +252,8 @@ The value of "LicenseConcluded" is in this example "LicenseRef-MIT". The SPDX2TV
 
 As one can see, having the path and the name of the files used in the build it is very easy to extract the necessary license and copyright information from the SPDX2TV files. If file and path is cannot be used the given file hashes can be used alternatively.
 
+## Glossary
+The quality and, above all, the consistency of the curated material depend on a jointly held perspective and general understanding among the maintainer and contributors with respect to the legal and technical background of Open Source software licensing. In order to make their common approach transparent and provide a platform for further discussion, a working group of lawyers and software developers involved in the project has compiled a [glossary](/Glossary-English-version.md) of terms and concepts. Comments, additions, and changes are of course always welcome.
 
 ## Further Work
 The following tasks are on the todo list:

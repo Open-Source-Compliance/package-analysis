@@ -81,7 +81,7 @@ source code files used to produce a binary component. The latter is
 called [source code provenance](#source-code-provenance) and is important
 for the exact determination of the applicable licenses.
 
-![](bluetoothd.svg)Figure 1: Example of a callgraph of the server
+![](media/bluetoothd.svg)Figure 1: Example of a callgraph of the server
 program \"bluetoothd\"
 
 ## Combined work
