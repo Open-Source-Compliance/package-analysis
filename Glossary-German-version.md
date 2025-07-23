@@ -32,6 +32,10 @@ abgeleiteten Werk. Diese Unterscheidung ist besonders im Zusammenhang
 mit [Copyleft](#copyleft) relevant. In speziellen Fällen kann eine
 individuelle Betrachtung notwendig sein.
 
+## Ableitung
+
+[Abgeleitetes Werk](#abgeleitetes-werk)
+
 ## Abhängigkeit
 
 Es gibt unterschiedliche Arten von Abhängigkeiten von

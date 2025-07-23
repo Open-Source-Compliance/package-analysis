@@ -18,8 +18,8 @@ applications or libraries after which the package is named are included
 in the package; in individual cases, however, other special libraries,
 configuration files as well as logos, images, audio/video files and
 fonts may also be included. These files do not necessarily have any
-copyright relationship with each other in the sense of a [combined
-work](#combined-work). Additional applications or libraries that are
+copyright relationship with each other in the sense of a [derivative
+work](#derivative-work). Additional applications or libraries that are
 not only required by the special applications or libraries contained in
 the package, but also by other applications or libraries and that can be
 assumed in the respective system, are not included in the package.
@@ -36,8 +36,8 @@ or less carefully by the respective package maintainers, this
 information does not necessarily have to be correct. Furthermore, this
 information refers to the entirety of the included software and not to
 each individual component. In any case, the existence of [copyleft
-licenses](#copyleft) cannot be interpreted to mean that a [combined
-work](#combined-work) of software components exists. Instead, this
+licenses](#copyleft) cannot be interpreted to mean that a [derivative
+work](#derivative-work) of software components exists. Instead, this
 requires the individual recording of the
 [source code provenance](#source-code-provenance) of the individual
 binary components.
@@ -94,9 +94,9 @@ When creating a [derivative work](#derivative-work), there are
 generally no restrictions on the choice of license terms for the
 adaptation. However, it can happen that the license conditions of the
 original work and the adaptation contradict each other and, as a result,
-the derived work can no longer be licensed in accordance with the law.
-However, the license terms of the original work may contain a clause
-according to which the derivative work may only be copied and
+the derivative work can no longer be licensed in accordance with the
+law. However, the license terms of the original work may contain a
+clause according to which the derivative work may only be copied and
 distributed if the original license is used for the adaptation. Such a
 license clause is called a \"copyleft\", such a license is called a
 \"copyleft license\" and software licensed in this way is called
@@ -135,6 +135,10 @@ differentiated as follows and described in the respective places:
 -   [Build dependency](#build-dependency)
 -   [Link dependency](#link-dependency)
 
+## Derivation
+
+[Derivative work](#derivative-work)
+
 ## Derivative work
 
 If an existing work is modified or extended with permission, a
@@ -152,8 +156,8 @@ dynamic or static [linking](#linking) with the other components. This
 creates a derivative work in terms of copyright law. Connections other
 than through such a function call, for example via a network interface,
 via UNIX sockets, via pipes, via shared memory, through interpretation
-or compilation, on the other hand, do not lead to a derived work. This
-distinction is particularly relevant in connection with
+or compilation, on the other hand, do not lead to a derivative work.
+This distinction is particularly relevant in connection with
 [copyleft](#copyleft). In special cases, individual consideration may be
 necessary.
 
@@ -177,9 +181,9 @@ components in source code or binary form, which are referred to as
 [repositories](#repository). Repositories often not only contain
 individual components, but also offer a version control system and a
 development platform (e.g. GitHub). These repositories are regarded as
-primary hosts for open source software projects, and the names and
-version numbers archived there are decisive for referencing a specific
-software release in an SBOM, for example.
+primary hosts for [FOSS](#foss) projects, and the names and version
+numbers archived there are decisive for referencing a specific software
+release in an SBOM, for example.
 
 ## Dynamic linking
 
@@ -212,8 +216,8 @@ The abbreviation FOSS stands for \"Free and Open Source Software\" and
 is used for software whose license meets the requirements defined for
 it. Essentially, such a license must permit the unrestricted use,
 modification and analysis of the software as well as its distribution
-under free and non-discriminatory conditions. The two terms \"free
-software\" and \"open source software\", which are also sometimes used,
+under free and non-discriminatory conditions. The two terms \"Free
+software\" and \"Open Source software\", which are also sometimes used,
 are legally identical, but originate from different ideologies. They are
 combined as FOSS in order to acknowledge both ideologies without
 emphasizing one in particular.
@@ -322,7 +326,7 @@ program to access the individual hardware of a computer. Each [Linux
 distribution](#linux-distribution) contains a specific version of the
 Linux kernel and provides suitable auxiliary programs for it.
 
-## Open source software
+## Open Source software
 
 [FOSS](#foss)
 
