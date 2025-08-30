@@ -1,6 +1,6 @@
 ## Download Location
 
-https://gitlab.com/procps-ng/procps/-/archive/v4.0.4/procps-v4.0.4.tar.gz?ref_type=tags
+https://gitlab.com/procps-ng/procps/-/archive/v4.0.4/procps-v4.0.4.tar.gz
 
 ## Package URL (purl)
 
