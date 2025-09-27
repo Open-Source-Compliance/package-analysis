@@ -1,0 +1,95 @@
+openapi: 3.0.0
+info:
+  title: OSSelot REST API
+  description: Retrieve SBOM from OSSelot in given format of given package at given version.
+  contact:
+    name: OSADL Office
+    email: office@osadl.org
+  license:
+    name: 'CC0-1.0'
+    url: 'https://creativecommons.org/publicdomain/zero/1.0/'
+  version: 1.0.0
+servers:
+  - url: '{protocol}://rest.osselot.org'
+    variables:
+      protocol:
+        default: https
+        enum:
+          - http
+          - https
+paths:
+  /json/{package}:
+    get:
+      summary: Return a group of OSSelot SBOMs in JSON format.
+      parameters:
+      - name: package
+        in: path
+        required: true
+        description: The name of the requested package.
+        schema:
+          type: string
+      responses:
+        '200':
+          description: All available SBOMs in JSON format of the given package.
+          content:
+            application/json:
+              schema:
+                $ref: 'https://rest.osselot.org/schemata/spdx-schemata.json'
+              examples:
+                jsonObject:
+                  summary: A sample array of SPDX SBOMs of all available versions of libsm
+                  externalValue: 'https://rest.osselot.org/json/libsm'
+  /json/{package}/{version}:
+    get:
+      summary: Return an OSSelot SBOM in JSON format.
+      parameters:
+      - name: package
+        in: path
+        required: true
+        description: The name of the requested package.
+        schema:
+          type: string
+      - name: version
+        in: path
+        required: true
+        description: The version of the requested package.
+        schema:
+          type: string
+      responses:
+        '200':
+          description: The SBOM in JSON format of the given package at given version.
+          content:
+            application/json:
+              schema:
+                $ref: 'https://rest.osselot.org/schemata/spdx-schema.json'
+              examples:
+                jsonObject:
+                  summary: A sample SPDX SBOM of bash-5.1.16
+                  externalValue: 'https://rest.osselot.org/json/bash/5.1.16'
+  /yaml/{package}/{version}:
+    get:
+      summary: Return an OSSelot SBOM in YAML format.
+      parameters:
+      - name: package
+        in: path
+        required: true
+        description: The name of the requested package.
+        schema:
+          type: string
+      - name: version
+        in: path
+        required: true
+        description: The version of the requested package.
+        schema:
+          type: string
+      responses:
+        '200':
+          description: The SBOM in YAML format of the given package at given version.
+          content:
+            application/yaml:
+              schema:
+                $ref: 'https://rest.osselot.org/schemata/spdx-schema.yaml'
+              examples:
+                jsonObject:
+                  summary: A sample SPDX SBOM of bash-5.1.16
+                  externalValue: 'https://rest.osselot.org/yaml/bash/5.1.16'
