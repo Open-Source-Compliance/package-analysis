@@ -1,7 +1,7 @@
 # FOSS-Glossar
 
 Dieses Glossar wurde im Rahmen eines OSADL-Mitgliederprojekts von einer
-Arbeitsgruppe aus Rechtsanwälten und Software-Entwicklern erstell
+Arbeitsgruppe aus Rechtsanwälten und Software-Entwicklern erstellt
 und wird unter der CC0-1.0 lizenziert. In keinem Fall handelt es sich
 um eine individuelle Rechtsberatung.
 
