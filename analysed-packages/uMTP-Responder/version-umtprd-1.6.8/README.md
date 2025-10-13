@@ -4,7 +4,7 @@ https://github.com/viveris/uMTP-Responder/archive/refs/tags/umtprd-1.6.8.tar.gz
 
 ## Package URL (purl)
 
-pkg:github/viveris/umtp-responder@umtprd-1.6.8
+pkg:github/viveris/uMTP-Responder@umtprd-1.6.8
 
 ## Creator
 
