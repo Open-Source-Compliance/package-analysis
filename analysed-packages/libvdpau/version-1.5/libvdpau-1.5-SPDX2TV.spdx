@@ -1,0 +1,597 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_libvdpau-1.5.tar.gz_1760359176.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of libvdpau 1.5
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2025-10-13T12:39:37Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: libvdpau-1.5.tar.gz
+PackageFileName: libvdpau-1.5.tar.gz
+SPDXID: SPDXRef-upload3542
+PackageDownloadLocation: https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.5/libvdpau-1.5.tar.gz?ref_type=tags
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/libvdpau@1.5?download_url=https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.5/libvdpau-1.5.tar.gz%3Fref_type%3Dtags
+FilesAnalyzed: true
+PackageVerificationCode: b65669368ac2b6189ba9b6d61fff6e7d2c4260d0
+PackageChecksum: SHA1: bc3de698ef46390d3464c99ea03347ecf8ea11ac
+PackageChecksum: SHA256: 66490802f30426d30ff9e8af35263bbbbaa23b52d0a2d797d06959c3d19638fd
+PackageChecksum: MD5: 665b9dd49440ed48b08e0ab053ad9ede
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-MIT-6d0bc1d1fa2d01ae2646c45679fa985f
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload3542
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/src/mesa_dri2.h
+SPDXID: SPDXRef-item16202257
+FileChecksum: SHA1: 9b454e6ea7384299b7c4c73a6fec58d2083d0d3e
+FileChecksum: SHA256: 9afc06ed67771ec660787723fc32a04060e2f1011a4468835b79b9180f793508
+FileChecksum: MD5: f7d9581af291a713874c49554a51d437
+LicenseConcluded: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-ICU
+LicenseInfoInFile: LicenseRef-Clips
+FileCopyrightText: <text> Copyright © 2007,2008 Red Hat, Inc.
+Copyright © 2010 NVIDIA Corporation </text>
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/src/mesa_dri2.c
+SPDXID: SPDXRef-item16202256
+FileChecksum: SHA1: 64300f6a4e1100d63722f51deb598030c59d1224
+FileChecksum: SHA256: 1ec1b6d545271b7a775086e0da89551080c81e0e562b8404127a8e4958c0bd19
+FileChecksum: MD5: dfdfaad7961134078f0f098afe826fb8
+LicenseConcluded: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseInfoInFile: LicenseRef-MIT-style
+LicenseInfoInFile: LicenseRef-ICU
+LicenseInfoInFile: LicenseRef-Clips
+FileCopyrightText: <text> Copyright © 2008 Red Hat, Inc.
+Copyright © 2010-2015 NVIDIA Corporation </text>
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/include/vdpau/vdpau.h
+SPDXID: SPDXRef-item16202250
+FileChecksum: SHA1: 00ac88ae920512f9a5f07c6d4588964030de0ff9
+FileChecksum: SHA256: d2c2f9210e8f0e73544a38f1158a5167449827b6764d9bece54ae5d7351d5b8d
+FileChecksum: MD5: f6b83a6086eb28dff8af0d5e516f304b
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-scancode-proprietary-license
+FileCopyrightText: <text> Copyright (c) 2008-2015 NVIDIA Corporation </text>
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/include/vdpau/vdpau_x11.h
+SPDXID: SPDXRef-item16202249
+FileChecksum: SHA1: 22908cd7aa5a7b435d19f2bced70b6ea9187ccd1
+FileChecksum: SHA256: 393b485715d404135563203f8ff3c0d9f6c6cb31aeac2e83ef823f5644ab5161
+FileChecksum: MD5: 54fe6893c6bd3b34ff65e905b7e249f4
+LicenseConcluded: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2008-2009 NVIDIA Corporation </text>
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/src/vdpau_wrapper.c
+SPDXID: SPDXRef-item16202259
+FileChecksum: SHA1: 791727e634cdd413c66afcefb64b41655d768624
+FileChecksum: SHA256: 27c67f9212fc58251f5c2ff47422ddb4a856baa50a98d12e80eb9081b18e8026
+FileChecksum: MD5: 20652a31d8134c2bda230d110126a662
+LicenseConcluded: LicenseRef-MIT-6d0bc1d1fa2d01ae2646c45679fa985f
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2008-2015 NVIDIA Corporation </text>
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/COPYING
+SPDXID: SPDXRef-item16202246
+FileChecksum: SHA1: aedf533f647d97c8bb8f7374844d959e18cf8fe6
+FileChecksum: SHA256: ce4af7294872ff07f6e82ae5f1f5eba926215b1e2fb6d55d64759de082458d61
+FileChecksum: MD5: 83af8811a28727a13f04132cc33b7f58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright © 2008-2010 NVIDIA Corporation
+Copyright © 2008 Red Hat, Inc. </text>
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/src/util.h
+SPDXID: SPDXRef-item16202254
+FileChecksum: SHA1: f241feb4418e8f885175576bf0ccfc8dc9e58fe5
+FileChecksum: SHA256: 17e7f157409d49a8650c809397c4e6fe647a21e477dd2f19bdf267072f0fca75
+FileChecksum: MD5: 4bd1130be117bfd44479e4e647f6bd69
+LicenseConcluded: LicenseRef-MIT-6d0bc1d1fa2d01ae2646c45679fa985f
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2015 NVIDIA Corporation </text>
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/trace/vdpau_trace.cpp
+SPDXID: SPDXRef-item16202232
+FileChecksum: SHA1: 9f5279f20a35f7ffdd691052d80004e75b5fd5da
+FileChecksum: SHA256: 4062856cbe733b942df30599ed85435c177dc7ddfac0b571933ea0443e2a73a9
+FileChecksum: MD5: 91b4244091942a85b89b40a9e2b7071a
+LicenseConcluded: LicenseRef-MIT-6d0bc1d1fa2d01ae2646c45679fa985f
+LicenseInfoInFile: LicenseRef-MIT
+FileCopyrightText: <text> Copyright (c) 2008-2015 NVIDIA Corporation </text>
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/trace/meson.build
+SPDXID: SPDXRef-item16202233
+FileChecksum: SHA1: 747c83f51b652c254980aec7e80e855da271b24b
+FileChecksum: SHA256: dbb3d3576a66c500bc925b6fcfa27a425d5ef713261933aeef86f867aab21d53
+FileChecksum: MD5: e0d1ac9e5f28d756c1fa24f3f9d65cd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/.gitlab-ci.yml
+SPDXID: SPDXRef-item16202234
+FileChecksum: SHA1: c6dca848608cbee09908f9cfaaa3415fa89e7b23
+FileChecksum: SHA256: 2185ef6f504cc7d7d60fc7b102641d6c6f512d59316245c658f47bd4372cf0ba
+FileChecksum: MD5: 637dbbb7786bfa407ca690d8fa14a048
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/AUTHORS
+SPDXID: SPDXRef-item16202235
+FileChecksum: SHA1: a6f8ebfdab44406ee8b5583e69c4599a8cd8270e
+FileChecksum: SHA256: b87044b4a6f0f7b26858a63f643c66330e9781a445dca2556a7844c0c79abf12
+FileChecksum: MD5: fd0e6d9aab41b6393bd4ec1a6a360a6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/meson_options.txt
+SPDXID: SPDXRef-item16202236
+FileChecksum: SHA1: 90b7a97df4691594d216fbac0c25ed2bedfb48e8
+FileChecksum: SHA256: 8b58f1f3ea6169ac57bb92aca7a64a5659986bc9e4abfa166c5f86ef78963bf8
+FileChecksum: MD5: 10df3c9acdd173ad975addd41e3a0296
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/test/dlclose.c
+SPDXID: SPDXRef-item16202238
+FileChecksum: SHA1: befa62298e15e984628e7dc1364b2904e8964316
+FileChecksum: SHA256: 0b7ba32f89ec4af149bb53aef526918d544b7ba9952f2a3c5f1a44334650b2ea
+FileChecksum: MD5: f6e6b5bf1132a34ad33c6ca17f86c3b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/test/gitlab-ci.sh
+SPDXID: SPDXRef-item16202239
+FileChecksum: SHA1: 9fcf0047105bb75b5100bfb153dcb549fa939c60
+FileChecksum: SHA256: e566edd9575b8d16e70463f01f075058802a987223294612d5c28f24afd7da9d
+FileChecksum: MD5: 4513e79f6781518e34874797febe5d37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/test/meson.build
+SPDXID: SPDXRef-item16202240
+FileChecksum: SHA1: a50ada099d7c77dba1d4115eef081081866b3757
+FileChecksum: SHA256: b35d2a67b9b748316c852b6ce93136d96dadaa722d00957ad156a2c0d717c7e2
+FileChecksum: MD5: 28a27582242a5951ebe08dd65bdaf5bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/meson.build
+SPDXID: SPDXRef-item16202241
+FileChecksum: SHA1: 794b9e834f8886fd01ff0fe32ed5f2b5b16b6a73
+FileChecksum: SHA256: 2f1455e008244f3ca7be406dbcabe46fafb7faf6c2e925e2c6312f4466a60f15
+FileChecksum: MD5: 218b23225cb23c9f41f1d32bfdb58977
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/doc/vdpau_data_flow.png
+SPDXID: SPDXRef-item16202243
+FileChecksum: SHA1: 5f8aae03a906d96086f159f0c432079c614f98f6
+FileChecksum: SHA256: d38be567ba8683908447e6a0820728912968488f4db44addfed09a506e3afaa9
+FileChecksum: MD5: a96e23b6ed331650569c0ef245890590
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/doc/Doxyfile.in
+SPDXID: SPDXRef-item16202244
+FileChecksum: SHA1: 43c204e722cf735915aaf5df4587ff51ba3cffc6
+FileChecksum: SHA256: 68c105a7691ab73801e9e249f5f7d142090962b7d708981d877a86a7762bd7c7
+FileChecksum: MD5: 377f28eda4d69f8ec9598c56a9550afb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/doc/meson.build
+SPDXID: SPDXRef-item16202245
+FileChecksum: SHA1: 96a99cd8e1f40c2659bfd55652fe47c34f321026
+FileChecksum: SHA256: 40d1bcfc357443443636aa55b769e07cdf016062416e2e6aa959b660555de5d4
+FileChecksum: MD5: f6bbe7a3507824527f4c495684914f5c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/include/vdpau/meson.build
+SPDXID: SPDXRef-item16202251
+FileChecksum: SHA1: e869fdaedb3cb737ad45bc641b3655483a8f7c29
+FileChecksum: SHA256: acd3dd7abd207a32a36dfe375ac58c7672531d5d05dbc87a3ca3d46b60f5e9c7
+FileChecksum: MD5: 1940e761f3f9add2087af9544d743cb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/include/meson.build
+SPDXID: SPDXRef-item16202252
+FileChecksum: SHA1: 0cc24420be0f64826e9f07b5e5457cc4e08a5d0d
+FileChecksum: SHA256: 1d9d9972a8795f54f826859c971c0fde3d1f68377ffcdb05bd91abccc301dac6
+FileChecksum: MD5: 69f16fd5fb7101dfd75237736285cf06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/src/vdpau_wrapper.cfg
+SPDXID: SPDXRef-item16202255
+FileChecksum: SHA1: c9f86b06c99353d23f05fb63917d9e88b3518fba
+FileChecksum: SHA256: 938aa62078aef1bced7b85a3dc0d10de6df631b06d23244531553f93b5966378
+FileChecksum: MD5: bc89239208609c5d031b74c99a45747d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: libvdpau-1.5.tar.gz/libvdpau-1.5.tar/libvdpau-1.5/src/meson.build
+SPDXID: SPDXRef-item16202258
+FileChecksum: SHA1: d68fb35a9a2f012de17efce4cd56d6c959d43edf
+FileChecksum: SHA256: c59dc510ce4e8c3c861d7d68bf3eb35b7cd4998f313e603f355f958f6755a301
+FileChecksum: MD5: 9ea2cfa1d5d61b784d255a36e13dda1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-ICU-b6c8e8b02a4c6629a0de918cc50c737a
+LicenseName: ICU License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Soft-
+ware"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, provided that the above copyright
+notice(s) and this permission notice appear in all copies of the Soft-
+ware and that both the above copyright notice(s) and this permission
+notice appear in supporting documentation.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABIL-
+ITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY
+RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN
+THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSE-
+QUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFOR-
+MANCE OF THIS SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall
+not be used in advertising or otherwise to promote the sale, use or
+other dealings in this Software without prior written authorization of
+the copyright holder. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-c44ec98f08524b2b7a3cbf7075dc91fd
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-6d0bc1d1fa2d01ae2646c45679fa985f
+LicenseName: MIT License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
+
+
+LicenseID: LicenseRef-See-doc.OTHER
+LicenseName: See-doc.OTHER
+ExtractedText: <text> License by Nomos. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-proprietary-license
+LicenseName: Proprietary License
+ExtractedText: <text> License by Scancode. </text>
+
+
+
+LicenseID: LicenseRef-MIT-style
+LicenseName: MIT-style
+ExtractedText: <text> According to MIT license, add some modifications </text>
+
+
+  
+LicenseID: LicenseRef-ICU
+LicenseName: ICU License
+ExtractedText: <text> ICU License - ICU 1.8.1 and later
+
+COPYRIGHT AND PERMISSION NOTICE
+
+Copyright (c) 1995-2014 International Business Machines Corporation and others
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, provided that the above copyright notice(s) and this permission notice appear in all copies of the Software and that both the above copyright notice(s) and this permission notice appear in supporting documentation.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder.
+ </text>
+
+
+  
+LicenseID: LicenseRef-Clips
+LicenseName: Clips License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, and/or sell copies of the Software, and to permit persons 
+to whom the Software is furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT 
+OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
+CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN 
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF 
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ </text>
+
