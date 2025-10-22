@@ -325,9 +325,6 @@ hasExtractedLicensingInfos:
     \ may or may not apply a fee to either option. The two usual motivations for multi-licensing\
     \ are license compatibility and market segregation based business models."
   name: "Dual-license"
-- licenseId: "LicenseRef-No_license_found"
-  extractedText: "Not find any license in the scanned file"
-  name: "No_license_found"
 - licenseId: "LicenseRef-Python"
   extractedText: "License by Nomos."
   name: "Python"
@@ -355,7 +352,7 @@ packages:
     .1e52cb)\n - monk (\"4.4.0.51\".1e52cb)\n - ojo (\"4.4.0.51\".1e52cb)\n- scancode\
     \ (\"4.4.0.51\".1e52cb)"
   licenseConcluded: "NOASSERTION"
-  licenseDeclared: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR LicenseRef-Apache-2.0)"
+  licenseDeclared: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoFromFiles:
   - "NOASSERTION"
   name: "packaging-23.2.tar.gz"
@@ -363,360 +360,301 @@ packages:
   packageVerificationCode:
     packageVerificationCodeValue: "a56363524820421b12ddc77e9c17461e83ddee56"
 files:
-- SPDXID: "SPDXRef-item9594819"
+- SPDXID: "SPDXRef-item9594786"
   checksums:
-  - algorithm: "SHA256"
-    checksumValue: "57dca6651be6c3977755336a3533c633c22e4ff6bd99f21f313517e2e0433d68"
   - algorithm: "MD5"
-    checksumValue: "301397859993999ce6cf95f6fb052bc4"
+    checksumValue: "faadaedca9251a90b205c9167578ce91"
+  - algorithm: "SHA256"
+    checksumValue: "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
   - algorithm: "SHA1"
-    checksumValue: "862db0e06f96abf069f8254199136dd8c771d9c8"
+    checksumValue: "ed1fcaba1dbbf55113abb419a484f3df63e7ecfc"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-too-short"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/LICENSE"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+- SPDXID: "SPDXRef-item9594787"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "8aa697292b79e7757e064f7ecd6c15cf"
+  - algorithm: "SHA1"
+    checksumValue: "f780d255426448884eed58d2df35b445e01c6182"
+  - algorithm: "SHA256"
+    checksumValue: "ac3e94b9f72b3937c785378721425c79c353ef0b5b6ad916fe8a8f5b45484e1a"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/CONTRIBUTING.rst"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594856"
+- SPDXID: "SPDXRef-item9594788"
   checksums:
-  - algorithm: "MD5"
-    checksumValue: "5310f5f3d948cf8d2f15263852ed607e"
   - algorithm: "SHA1"
-    checksumValue: "171f16bada83eaa367015c2d715925a7a7e5e8c9"
+    checksumValue: "29959c31b236c653a3f05540bb09f3ae9454dd99"
   - algorithm: "SHA256"
-    checksumValue: "b6f621d9bb96b44b27b3f1de185e0beb15cc8dd0c143fdb39c521f1cefada360"
+    checksumValue: "e1ad931f430790ac088ba013cf29f7a53dce5051d3d37d425ddca231ecc5d5f9"
+  - algorithm: "MD5"
+    checksumValue: "8cd395a40216b1effe843da7347e57a8"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/specifiers.rst"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/noxfile.py"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594817"
+- SPDXID: "SPDXRef-item9594789"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "0da16bb3007322a9f7e97d29f15969cb"
+  - algorithm: "SHA1"
+    checksumValue: "47e71239a80db1ed47d3c8ec2fe059aaf422c4b1"
+  - algorithm: "SHA256"
+    checksumValue: "e9726d5b11c2e318fe4f9252dad32654b82cc37826f8371e91ac1eeba2986936"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/CHANGELOG.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-2-Clause"
+- SPDXID: "SPDXRef-item9594791"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
   checksums:
   - algorithm: "SHA1"
-    checksumValue: "931750396b10dd59ea83000ddbd81e57d96f86d3"
+    checksumValue: "8fddeee7b88d2ee34be764d4b82e4c1267e4e5d2"
   - algorithm: "SHA256"
-    checksumValue: "f6930bfb34d37f7753987d55113cff4454f80cce7762911cfa3f420d6856ac0a"
+    checksumValue: "0056ad4ade924b9a503a59e9f7ad176420ad6ef4458a5cc6908ad08236f9dab6"
   - algorithm: "MD5"
-    checksumValue: "61c13a2df7733cf0f82570205c26cc5b"
+    checksumValue: "ee27e927522c5df14168289d4125484d"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/build.sh"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tasks/__init__.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594792"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a70b379ff69422d2b9f4c5e57540826188f1de64"
+  - algorithm: "SHA256"
+    checksumValue: "4ddc954151271d7d2a49619a015ad4945116f998eaa2aa9ae799bcdf5bd5d4de"
+  - algorithm: "MD5"
+    checksumValue: "52f86f684d18f937300ef911fdf2b705"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tasks/check.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594793"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "f91e5b6b02fcb31fab1ec9a0f82e7a9f"
+  - algorithm: "SHA1"
+    checksumValue: "3be905404225b248f4f1212b00474a36872e4f5f"
+  - algorithm: "SHA256"
+    checksumValue: "62ebe3b944dee42b38eec94079ac1f4aeb494f3092e3660ea298e50f745699fa"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tasks/requirements.txt"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594818"
+- SPDXID: "SPDXRef-item9594794"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
   checksums:
-  - algorithm: "SHA256"
-    checksumValue: "1ae2af7c78f88a20d4cd69e3d0daaa91444caa0dc9d18c6cc313931524f4b00c"
-  - algorithm: "MD5"
-    checksumValue: "9b37577f785bb39a5c7bcdea360c7f66"
   - algorithm: "SHA1"
-    checksumValue: "a2a2b1aed9fd2332e888c5d4e587110e4e6f0612"
+    checksumValue: "7cdc5e29ce5ebaa14b4c210b4d0aa7b76dd6805f"
+  - algorithm: "MD5"
+    checksumValue: "5edf2fb0b903171c48a9a397bf5bf5ef"
+  - algorithm: "SHA256"
+    checksumValue: "2048afe6c8505347d3d216a14cd713c7283593b92f9644895c056b83deb75e42"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-invalid-class"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tasks/paths.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594795"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "2ee41112a44fe7014dce33e26468ba93"
+  - algorithm: "SHA1"
+    checksumValue: "598f87f072f66e2269dd6919292b2934dbb20492"
+  - algorithm: "SHA256"
+    checksumValue: "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/LICENSE.APACHE"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594857"
+  - "LicenseRef-Apache-2.0"
+- SPDXID: "SPDXRef-item9594796"
   checksums:
   - algorithm: "SHA1"
-    checksumValue: "a42061733e64b7b15dae90a8cf1a2986dc740c95"
+    checksumValue: "eeade915662b6a58f225021c5328d4217610f7a2"
   - algorithm: "SHA256"
-    checksumValue: "122f38c65aa95645dedf1645fe0eeb984ccf919d335c2a3ef154ab9f27555435"
+    checksumValue: "c1ac1376ae8e68e8efd317e878029ed81de6921e6eb93a290be017b2518db554"
   - algorithm: "MD5"
-    checksumValue: "b463a1df317d54523c5d391e1373621d"
+    checksumValue: "2d47f2ab0e35f28ea8b0c1c7f416920e"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/tags.rst"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.readthedocs.yml"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
 - SPDXID: "SPDXRef-item9594797"
   checksums:
-  - algorithm: "SHA1"
-    checksumValue: "af98ff418a1ed8484e4529c0522c8af039350e33"
   - algorithm: "SHA256"
     checksumValue: "998e83fdc87aee2e18cf6587ec0c8e23c867d5a15295c5eef4b7c2a3610b8df1"
   - algorithm: "MD5"
     checksumValue: "831e29682ab68ac838271bde79640a64"
+  - algorithm: "SHA1"
+    checksumValue: "af98ff418a1ed8484e4529c0522c8af039350e33"
   copyrightText: "NOASSERTION"
   fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.flake8"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594858"
+- SPDXID: "SPDXRef-item9594798"
   checksums:
-  - algorithm: "SHA256"
-    checksumValue: "7b85b501973e91a6ff0b9c6f54360ebb07e376e6474c5e2d689359ce94cdc790"
-  - algorithm: "MD5"
-    checksumValue: "ea7fcecca98802309d74ce80e723e780"
   - algorithm: "SHA1"
-    checksumValue: "0aa56217dcf89e3bbe6c462e71b89f30a867a9a2"
+    checksumValue: "894e9271a2dd11bfe35143b31a495565387fea4a"
+  - algorithm: "SHA256"
+    checksumValue: "c0b38449a13e697faf94f4a2dba16d8b8c663acbfb4a7f1dd5611666048ad73a"
+  - algorithm: "MD5"
+    checksumValue: "187647868827aaed737ff12af9a5489b"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/version.rst"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.pre-commit-config.yaml"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594875"
+- SPDXID: "SPDXRef-item9594799"
   checksums:
-  - algorithm: "SHA1"
-    checksumValue: "104d5ba6f890d480590917cd812d14e1be8d82c1"
-  - algorithm: "SHA256"
-    checksumValue: "46aea9a570311fc5c5b4d7fab42f81fb548abaf08e0cf06f702a12ba532d6ed9"
   - algorithm: "MD5"
-    checksumValue: "bbb19b79eee0d12c437a69d816ef253f"
+    checksumValue: "7bef9bf4a8e4263634d0597e7ba100b8"
+  - algorithm: "SHA1"
+    checksumValue: "fdc0e4eabc45522b079deff7d03d70528d775dc0"
+  - algorithm: "SHA256"
+    checksumValue: "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  copyrightText: "Copyright (c) Donald Stufft and individual contributors. All rights\
+    \ reserved."
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/LICENSE.BSD"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-BSD-2-Clause"
+- SPDXID: "SPDXRef-item9594802"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "d7103c13abf1a81e88a09a9075af03953055cdbe36f6159b118cd2889a0a909e"
+  - algorithm: "MD5"
+    checksumValue: "544feb523bc4aea5003f79d908cf03fe"
+  - algorithm: "SHA1"
+    checksumValue: "7dbd2f8414213da76080998457c29e319d7c0c45"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_manylinux.py"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.github/workflows/test.yml"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594874"
+- SPDXID: "SPDXRef-item9594803"
   checksums:
-  - algorithm: "SHA1"
-    checksumValue: "67c1b57820b6b3c50d7010e26a58f56dc60dc840"
-  - algorithm: "SHA256"
-    checksumValue: "92098118b1726e9cbceb4f7e293bf39addb30a108f598be1a790563f8257edd1"
   - algorithm: "MD5"
-    checksumValue: "530672880a6727ef0350b3fa7fd0ded6"
+    checksumValue: "9f6d3937e806a0ea7ea306ed0fe43123"
+  - algorithm: "SHA1"
+    checksumValue: "6c385aac4ae8308c8e844a113fa01130e05eff59"
+  - algorithm: "SHA256"
+    checksumValue: "b463139e40762db13eea962fd4b5803e205eb6be93380dacca1aebf929ca7d01"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_musllinux.py"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.github/workflows/docs.yml"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594812"
+- SPDXID: "SPDXRef-item9594804"
   checksums:
   - algorithm: "SHA1"
-    checksumValue: "d288e416214b909c2a06f3f0758f4e3133aff522"
+    checksumValue: "ab3378a2688798e518b49f2e3fa03ceef08d53e1"
   - algorithm: "SHA256"
-    checksumValue: "d2f746f760c010b1225914636628b90e9150b066b6128e3c0845b48a98d61cc2"
+    checksumValue: "8ea43d725c67277a8848cec89726aa6859ce94eba96deadda59cdde806185c0d"
   - algorithm: "MD5"
-    checksumValue: "7b59d15e69ce999d61d7c2b4cfff81cc"
+    checksumValue: "481906fc8d8fa257f5ba5456a6a8f349"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/hello-world.c"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.github/workflows/lint.yml"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594830"
+- SPDXID: "SPDXRef-item9594805"
   checksums:
-  - algorithm: "SHA1"
-    checksumValue: "c91b03454ca507edcb1c382ad3dd89fad0c83154"
-  - algorithm: "SHA256"
-    checksumValue: "296ef64fa17fe7a8ae48af17f45effd52e023653552435f9a6cc8159ad656e94"
   - algorithm: "MD5"
-    checksumValue: "f5880ecbbc2d642b3e8721536fa61e78"
+    checksumValue: "1695b30c05486ad0ffbba07699d4f9b4"
+  - algorithm: "SHA1"
+    checksumValue: "78a752d0bfa44dbf097378479333bf13ad25cc45"
+  - algorithm: "SHA256"
+    checksumValue: "d2b05405c542c262cfe74dadde4d4d58a9cdf615af7eab1b4c1534e7642070d1"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/musllinux/musl-aarch64"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/pyproject.toml"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594815"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "067d5848c26ac4b96777c4c93de34a3d2019f122"
-  - algorithm: "SHA256"
-    checksumValue: "67e5fd8dc9298c96b97aa42f68036f86e707077e4850c5112440fd79d890c560"
-  - algorithm: "MD5"
-    checksumValue: "34d1ed185183e1af58135393a9d6e733"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-armv7l-armhf"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594852"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "d963068c10bf3cd61f5eb9eb1929f4dd"
-  - algorithm: "SHA1"
-    checksumValue: "4178d2c1ca306db562cdf51ae2d168c1840849cc"
-  - algorithm: "SHA256"
-    checksumValue: "fb5097f81ef39ca8abb77a00fd65afc367a07526657e71cde4f6a30738ba3e3a"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/development/index.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594814"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "8735d4d2b961c29f9b23291ad160fe79"
-  - algorithm: "SHA1"
-    checksumValue: "0b787911ee0c582005a0ebb992cee95d5d4870dd"
-  - algorithm: "SHA256"
-    checksumValue: "bf76a3af4839959dce2f88862fafe0696cc05910d230afc2ea4845df8f8e1c21"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-x86_64-amd64"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594859"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "dd5a5db7c37ebf99beffacd9e3fc5f694fb1651e"
-  - algorithm: "SHA256"
-    checksumValue: "265a5ca3cdcaeec62049c3f144ac25dbe5c1d1f0c5be6aec96b04ed921a34d8a"
-  - algorithm: "MD5"
-    checksumValue: "3524a36e7ca3aff18102ec6e862529bf"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/requirements.txt"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594839"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "e7a8ba7b0833b9ed242f6f34974f58d8160de20a"
-  - algorithm: "SHA256"
-    checksumValue: "ced9f3561df19859356b5dbcbb337cf17164567bca9d41b92b99a608491a08bd"
-  - algorithm: "MD5"
-    checksumValue: "e6586c3c34bc79598ad551a4ef08aa10"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_requirements.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594878"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "e4384aff3609138538cb34a4804053e05eed4f6c59e8f931e204912b2bd79de4"
-  - algorithm: "MD5"
-    checksumValue: "fe6b29206a5c5f5f2c6a62df01755468"
-  - algorithm: "SHA1"
-    checksumValue: "5243ef9f318b195d1cc84a13cc2aaf03ee34ecd5"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_parser.py"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594835"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "899c2cfe46b4a941e0a4d87a094b80780d999912"
-  - algorithm: "SHA256"
-    checksumValue: "6820e76d82bc4587908a13eb5b68a0d29c118bb5066bfbf493f5a95b88f3c7e1"
-  - algorithm: "MD5"
-    checksumValue: "db0ecc72b976172030a94c4c91fe1fe9"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_manylinux.py"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594837"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "2c91e1a8871638e5ad22fde0e11ac71cb33cf5ad570f508a07489987770e0406"
-  - algorithm: "MD5"
-    checksumValue: "ec7cd3e2401f090302703935614f7746"
-  - algorithm: "SHA1"
-    checksumValue: "5959cd4f389c2db50952061701217b65745d1e91"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/metadata/everything.metadata"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594834"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "25da4fcd6a7dfb24a7a58be73878a30e"
-  - algorithm: "SHA1"
-    checksumValue: "655a41c8547e9c5b8e6054002cf12d7d8018628b"
-  - algorithm: "SHA256"
-    checksumValue: "082bbac677fcd08ad93f7d48a8d973b121a746f71a3fd1c07a075da039fc805e"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/requirements.txt"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594879"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "b0e4b78ef3c2060ddcf509ace8ca82de"
-  - algorithm: "SHA1"
-    checksumValue: "7e894dba389a70c4e5e3916705b5525788066a62"
-  - algorithm: "SHA256"
-    checksumValue: "6a50ad6f05e138502614667a050fb0093485a11009db3fb2b087fbfff31327f9"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_tokenizer.py"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594810"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "3220724db8965954c11735807a1e64c359676f09"
-  - algorithm: "SHA256"
-    checksumValue: "58d2a9339bdbe66206c57b451f0b6374315b25ee0b72269cf4f3969dad3769db"
-  - algorithm: "MD5"
-    checksumValue: "d8388ad09be09f016999b3000785fffd"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_utils.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
   - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594853"
+- SPDXID: "SPDXRef-item9594806"
   checksums:
-  - algorithm: "SHA1"
-    checksumValue: "df6f1ae5a6c7942b7b71b6b4304ec37bf4472624"
-  - algorithm: "SHA256"
-    checksumValue: "106b97582775ac23bbb8b1338e1fac4b53c1dd515fe584516452bba28d04d42f"
   - algorithm: "MD5"
-    checksumValue: "81139b91a8e0d97161393a5ab31914aa"
+    checksumValue: "43480ae2764caf5cca0ee45db8f6d506"
+  - algorithm: "SHA1"
+    checksumValue: "2d021ab1e5d6f92688c44af46f696479d3b84011"
+  - algorithm: "SHA256"
+    checksumValue: "1111b670f3b989bbcb2098a00db13b27e5f69b5e52c7c66e4520ef2cdfa37733"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/development/release-process.rst"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/README.rst"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594854"
+- SPDXID: "SPDXRef-item9594807"
   checksums:
-  - algorithm: "SHA256"
-    checksumValue: "fa00a62495826ebc2a20da0b06aeadf8ddc38014c91b1917cab0766fca7788c2"
   - algorithm: "MD5"
-    checksumValue: "51060c1b46da4a3de439b2d90d1a2b66"
+    checksumValue: "fe9ef3e62f8652a804b8d2a1c7820d5f"
   - algorithm: "SHA1"
-    checksumValue: "1e34e551778592b569bb290186a8ebceb904964d"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/Makefile"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594860"
-  checksums:
+    checksumValue: "7e855af6479eebd4e51d2e1983cc1ae9e3f40cf4"
   - algorithm: "SHA256"
-    checksumValue: "97965480bfd18832b3c6020dbf4c95d3f65896b46a5a977f1d4d4041a49c36a7"
-  - algorithm: "MD5"
-    checksumValue: "7194ff1a5e61ce7d99597c7b60e543d3"
-  - algorithm: "SHA1"
-    checksumValue: "3bd7250046e881219ba46f48ba22225a1f769f69"
+    checksumValue: "60654ddbe8516c46522a951df800d64ffa5b2a0d6a443a094cb51ef76d44be13"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/metadata.rst"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/SECURITY.md"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
@@ -733,21 +671,21 @@ files:
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594867"
+- SPDXID: "SPDXRef-item9594810"
   attributionTexts:
   - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
     \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
     \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
     \ license texts are provided."
   checksums:
-  - algorithm: "SHA1"
-    checksumValue: "da4da0034f760665fad5f8afd0d921e9e4974294"
   - algorithm: "SHA256"
-    checksumValue: "a641ba810dbc465852d3d573ca65615691ab585e5da075df2b55711bd71d8686"
+    checksumValue: "58d2a9339bdbe66206c57b451f0b6374315b25ee0b72269cf4f3969dad3769db"
   - algorithm: "MD5"
-    checksumValue: "fd76f146bee94703879100952710625e"
+    checksumValue: "d8388ad09be09f016999b3000785fffd"
+  - algorithm: "SHA1"
+    checksumValue: "3220724db8965954c11735807a1e64c359676f09"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/tags.py"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_utils.py"
   licenseComments: "The information in the file is:\nThis file is dual licensed under\
     \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
     \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
@@ -755,133 +693,152 @@ files:
     \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
     \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
     \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
   - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594861"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "f762d7970ac6dfe4644ca6c5be1d5388a7d73f95"
-  - algorithm: "SHA256"
-    checksumValue: "cf90da81ff9f869bd3e0e393a42cadf539760cc150a8e1be67eacb1a21c1875a"
-  - algorithm: "MD5"
-    checksumValue: "68aba2d829acbf06139c4c3f3cbe9df3"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/index.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594868"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "4e8c6320d3a64a7f266c479745254d32274426c3d46071181679cde0c6aabc7d"
-  - algorithm: "MD5"
-    checksumValue: "4361beed055b6e2b64620fd4bd154604"
-  - algorithm: "SHA1"
-    checksumValue: "6de04bc764ac93cca4f61aaad9fc8b727509cd20"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/metadata.py"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
 - SPDXID: "SPDXRef-item9594811"
   checksums:
+  - algorithm: "SHA256"
+    checksumValue: "fab9fc07161c9654feeb1406b93d052e7a443bd8d4c815b299889ed3b9b24564"
   - algorithm: "MD5"
     checksumValue: "8e1d09e3af147b2386483e5d2d973e8c"
   - algorithm: "SHA1"
     checksumValue: "8c74b51bd6afbcd1af8dd647bd46ffc78f0c21f7"
-  - algorithm: "SHA256"
-    checksumValue: "fab9fc07161c9654feeb1406b93d052e7a443bd8d4c815b299889ed3b9b24564"
   copyrightText: "NOASSERTION"
   fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_musllinux.py"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594840"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
+- SPDXID: "SPDXRef-item9594812"
   checksums:
   - algorithm: "MD5"
-    checksumValue: "edf65f5c009acb9dcd16b717f27c6e5f"
-  - algorithm: "SHA1"
-    checksumValue: "2f9abb253a224c99cf18d81779a28be04acfa210"
+    checksumValue: "7b59d15e69ce999d61d7c2b4cfff81cc"
   - algorithm: "SHA256"
-    checksumValue: "9c56c2b38654ace43a7329e3503d3e456afe37e0075ee8c8f67beebd04f708e7"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_tags.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594829"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "af74c4504c0f8c13e14d45374991ea4065687d53991473f8e017ec46a17e8b70"
-  - algorithm: "MD5"
-    checksumValue: "b32365153bb7d9d2d0996966707c90c1"
+    checksumValue: "d2f746f760c010b1225914636628b90e9150b066b6128e3c0845b48a98d61cc2"
   - algorithm: "SHA1"
-    checksumValue: "d9a17b3a5fdcc828911135ad2dfcd73b226e40ef"
+    checksumValue: "d288e416214b909c2a06f3f0758f4e3133aff522"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/musllinux/glibc-x86_64"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/hello-world.c"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594855"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
+- SPDXID: "SPDXRef-item9594814"
   checksums:
-  - algorithm: "SHA256"
-    checksumValue: "2a2912fefbca9bd92453d447d586e8698048538f0723b8b878f783e18587b5ea"
   - algorithm: "MD5"
-    checksumValue: "75e0051295ff740e08c4f4451a154896"
+    checksumValue: "8735d4d2b961c29f9b23291ad160fe79"
   - algorithm: "SHA1"
-    checksumValue: "39a550a663ed4d50927c3e7e3776211b7fbcb17e"
+    checksumValue: "0b787911ee0c582005a0ebb992cee95d5d4870dd"
+  - algorithm: "SHA256"
+    checksumValue: "bf76a3af4839959dce2f88862fafe0696cc05910d230afc2ea4845df8f8e1c21"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/conf.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-x86_64-amd64"
+  licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594880"
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594815"
   checksums:
   - algorithm: "SHA1"
-    checksumValue: "00745fe35f5ec712ebbe88c075d9db91e9c1f358"
+    checksumValue: "067d5848c26ac4b96777c4c93de34a3d2019f122"
   - algorithm: "SHA256"
-    checksumValue: "026f6aba7a057f58e6f70ee800b2d58416fbbc40984b45ce13cd23a8db6f450c"
+    checksumValue: "67e5fd8dc9298c96b97aa42f68036f86e707077e4850c5112440fd79d890c560"
   - algorithm: "MD5"
-    checksumValue: "84a17d2ac275e75c5b02355d3211504e"
+    checksumValue: "34d1ed185183e1af58135393a9d6e733"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.gitignore"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-armv7l-armhf"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594816"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "38e8650d05c6861e679f81088493c3e0"
+  - algorithm: "SHA1"
+    checksumValue: "4a99a74a0b8e49a79cc09f16f45a7ad4f01f33f6"
+  - algorithm: "SHA256"
+    checksumValue: "22e7fb680271534efb9f187ba7113e5f4ba93f4e9cda164891d88f1d958d02cf"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-invalid-data"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594817"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "f6930bfb34d37f7753987d55113cff4454f80cce7762911cfa3f420d6856ac0a"
+  - algorithm: "MD5"
+    checksumValue: "61c13a2df7733cf0f82570205c26cc5b"
+  - algorithm: "SHA1"
+    checksumValue: "931750396b10dd59ea83000ddbd81e57d96f86d3"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/build.sh"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594818"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "9b37577f785bb39a5c7bcdea360c7f66"
+  - algorithm: "SHA1"
+    checksumValue: "a2a2b1aed9fd2332e888c5d4e587110e4e6f0612"
+  - algorithm: "SHA256"
+    checksumValue: "1ae2af7c78f88a20d4cd69e3d0daaa91444caa0dc9d18c6cc313931524f4b00c"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-invalid-class"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594819"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "301397859993999ce6cf95f6fb052bc4"
+  - algorithm: "SHA1"
+    checksumValue: "862db0e06f96abf069f8254199136dd8c771d9c8"
+  - algorithm: "SHA256"
+    checksumValue: "57dca6651be6c3977755336a3533c633c22e4ff6bd99f21f313517e2e0433d68"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-too-short"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594820"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "8cd825040cd6e9b37400ed8c1797396d"
+  - algorithm: "SHA1"
+    checksumValue: "304a6d1adb4e74922f63a0a85c18799f0a81feaa"
+  - algorithm: "SHA256"
+    checksumValue: "3e9bbb13d68a7ac99a71e019b6b5ebfc296704bc01cc07475e8b9f088ee813ba"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-x86_64-x32"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594821"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "9c62fa176e3ade50bedf2f57e96c16a9ad7c3b541530f33944158e6001894572"
+  - algorithm: "MD5"
+    checksumValue: "51c721f37ebcd6f8c987e8f318e64af5"
+  - algorithm: "SHA1"
+    checksumValue: "a972fb5451c06fc9d02a8d3b6bfc80b1909c9960"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-s390x-s390x"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594822"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "fc47d8cfc646612f011a95f155602932"
+  - algorithm: "SHA1"
+    checksumValue: "071e4b2bae77589231aee02ded6f58252bfd2798"
+  - algorithm: "SHA256"
+    checksumValue: "d0946e4b30a9d67f5ee811dddf6227376b2e9e09ac1d7836c7fec9c4825fb7f3"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-armv7l-armel"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
@@ -898,6 +855,19 @@ files:
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594824"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "42427dfa2f1d30235406e465f280018a89fc5f2c"
+  - algorithm: "SHA256"
+    checksumValue: "7add6a4ffe6d82ee55c8fdbc76151298fa5750149f09d77862195507ecb66504"
+  - algorithm: "MD5"
+    checksumValue: "d480856809ffb5a55b45fa7ff898dec4"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-invalid-magic"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
 - SPDXID: "SPDXRef-item9594825"
   attributionTexts:
   - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
@@ -905,12 +875,12 @@ files:
     \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
     \ license texts are provided."
   checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c00c73d5fb997fc6a8e19904b909372824304c27"
   - algorithm: "SHA256"
     checksumValue: "b3da0a090db2705757a0445d4b58a669fb9e4a406c2fd92f6f27e085a6ae67d6"
   - algorithm: "MD5"
     checksumValue: "fce95ff49e7ad344d9381226ee6f5b90"
-  - algorithm: "SHA1"
-    checksumValue: "c00c73d5fb997fc6a8e19904b909372824304c27"
   copyrightText: "NOASSERTION"
   fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/__init__.py"
   licenseComments: "The information in the file is:\nThis file is dual licensed under\
@@ -920,143 +890,18 @@ files:
     \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
     \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
     \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
   - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594862"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "c39f3ff33c4d27bed60ca6bd828c81ed99be948e"
-  - algorithm: "SHA256"
-    checksumValue: "cd36c8a5ac0549f05a384bdb876619bc57ff2110cccaa1c5bfb9699f6e2b7d73"
-  - algorithm: "MD5"
-    checksumValue: "f83ebc9372ac48863939b5a2efa96cf4"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/requirements.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594824"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "7add6a4ffe6d82ee55c8fdbc76151298fa5750149f09d77862195507ecb66504"
-  - algorithm: "MD5"
-    checksumValue: "d480856809ffb5a55b45fa7ff898dec4"
-  - algorithm: "SHA1"
-    checksumValue: "42427dfa2f1d30235406e465f280018a89fc5f2c"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-invalid-magic"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594869"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "5e34412cd2b5ed430380b78ff141e7ab0898dd37528b4df1150511b5e736d750"
-  - algorithm: "MD5"
-    checksumValue: "7c3195aa2c7c90bdfcb1e43cdcfe4ab4"
-  - algorithm: "SHA1"
-    checksumValue: "2ee37518841d7283796cf5836d1b8868ed60c342"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/version.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
   - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
   - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594798"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "c0b38449a13e697faf94f4a2dba16d8b8c663acbfb4a7f1dd5611666048ad73a"
-  - algorithm: "MD5"
-    checksumValue: "187647868827aaed737ff12af9a5489b"
-  - algorithm: "SHA1"
-    checksumValue: "894e9271a2dd11bfe35143b31a495565387fea4a"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.pre-commit-config.yaml"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594799"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
-  - algorithm: "MD5"
-    checksumValue: "7bef9bf4a8e4263634d0597e7ba100b8"
-  - algorithm: "SHA1"
-    checksumValue: "fdc0e4eabc45522b079deff7d03d70528d775dc0"
-  copyrightText: "Copyright (c) Donald Stufft and individual contributors. All rights\
-    \ reserved."
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/LICENSE.BSD"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "LicenseRef-BSD-2-Clause"
-- SPDXID: "SPDXRef-item9594831"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "03c992f2c9a4aaaddb5aae577b6c69ab76975dd9ecda3f600492d8e9347ce5b3"
-  - algorithm: "MD5"
-    checksumValue: "693e1f809a3797ffa7b2335678f74cfe"
-  - algorithm: "SHA1"
-    checksumValue: "2f52c3b01047573069bcb75b32557d67f76c21ea"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/musllinux/musl-x86_64"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594833"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "99d30cc038dc229d1babfe3d7c857b32f3e7ce82"
-  - algorithm: "SHA256"
-    checksumValue: "179d4af97f51c83fd9d9bd111fb20b13fe9098e442eb580f1fb4f42dde5db583"
-  - algorithm: "MD5"
-    checksumValue: "27d27aa77bc30a1ed2a7512a34cc4643"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_specifiers.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
 - SPDXID: "SPDXRef-item9594827"
   checksums:
-  - algorithm: "SHA256"
-    checksumValue: "88eae04b8c1d59330117030af4ab083c98532bcb6bfcc2fef6bd75b0536dda03"
   - algorithm: "SHA1"
     checksumValue: "cddc4a5f6c87b1e0f060f696e12ca88d225dc748"
+  - algorithm: "SHA256"
+    checksumValue: "88eae04b8c1d59330117030af4ab083c98532bcb6bfcc2fef6bd75b0536dda03"
   - algorithm: "MD5"
     checksumValue: "9f40f685b85ac885c5ba3a5bd213b766"
   copyrightText: "NOASSERTION"
@@ -1064,45 +909,55 @@ files:
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594877"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "70c7db94ac7831495106624c839cd1d29f0884d7"
-  - algorithm: "SHA256"
-    checksumValue: "64ea6a2ffc3f2a3e9917f396765890533844c879436e2ebdf3d92bfac179187b"
-  - algorithm: "MD5"
-    checksumValue: "0828468dc424e0af0d6c54f97cb0b4e9"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/specifiers.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
 - SPDXID: "SPDXRef-item9594828"
   checksums:
-  - algorithm: "SHA256"
-    checksumValue: "762f5b4b06a2539f3bdcb43c674e68bfe183c36a0453b6c1aefed7ac7e36f060"
   - algorithm: "MD5"
     checksumValue: "46a890341aa1eb40673ebef5e1924878"
   - algorithm: "SHA1"
     checksumValue: "fd3727031ad12b44ae155b6fc8e22231df437acf"
+  - algorithm: "SHA256"
+    checksumValue: "762f5b4b06a2539f3bdcb43c674e68bfe183c36a0453b6c1aefed7ac7e36f060"
   copyrightText: "NOASSERTION"
   fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/musllinux/musl-i386"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594829"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d9a17b3a5fdcc828911135ad2dfcd73b226e40ef"
+  - algorithm: "SHA256"
+    checksumValue: "af74c4504c0f8c13e14d45374991ea4065687d53991473f8e017ec46a17e8b70"
+  - algorithm: "MD5"
+    checksumValue: "b32365153bb7d9d2d0996966707c90c1"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/musllinux/glibc-x86_64"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594830"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "296ef64fa17fe7a8ae48af17f45effd52e023653552435f9a6cc8159ad656e94"
+  - algorithm: "MD5"
+    checksumValue: "f5880ecbbc2d642b3e8721536fa61e78"
+  - algorithm: "SHA1"
+    checksumValue: "c91b03454ca507edcb1c382ad3dd89fad0c83154"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/musllinux/musl-aarch64"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594831"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "03c992f2c9a4aaaddb5aae577b6c69ab76975dd9ecda3f600492d8e9347ce5b3"
+  - algorithm: "SHA1"
+    checksumValue: "2f52c3b01047573069bcb75b32557d67f76c21ea"
+  - algorithm: "MD5"
+    checksumValue: "693e1f809a3797ffa7b2335678f74cfe"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/musllinux/musl-x86_64"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
@@ -1128,28 +983,27 @@ files:
     \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
     \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
     \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
   - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594876"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594833"
   attributionTexts:
   - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
     \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
     \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
     \ license texts are provided."
   checksums:
-  - algorithm: "SHA1"
-    checksumValue: "bbff1e2e446b8c2f30c89d5e7e62e9eb844ce8ee"
   - algorithm: "SHA256"
-    checksumValue: "787fadc52db3ab51dd3694ddf4b71951c548c1ec0088d53482b9aae708ca9ce9"
+    checksumValue: "179d4af97f51c83fd9d9bd111fb20b13fe9098e442eb580f1fb4f42dde5db583"
   - algorithm: "MD5"
-    checksumValue: "8b2845880a67d4d1934f095997f295d2"
+    checksumValue: "27d27aa77bc30a1ed2a7512a34cc4643"
+  - algorithm: "SHA1"
+    checksumValue: "99d30cc038dc229d1babfe3d7c857b32f3e7ce82"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/markers.py"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_specifiers.py"
   licenseComments: "The information in the file is:\nThis file is dual licensed under\
     \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
     \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
@@ -1157,278 +1011,120 @@ files:
     \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
     \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
     \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594834"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "25da4fcd6a7dfb24a7a58be73878a30e"
+  - algorithm: "SHA1"
+    checksumValue: "655a41c8547e9c5b8e6054002cf12d7d8018628b"
+  - algorithm: "SHA256"
+    checksumValue: "082bbac677fcd08ad93f7d48a8d973b121a746f71a3fd1c07a075da039fc805e"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/requirements.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594835"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "6820e76d82bc4587908a13eb5b68a0d29c118bb5066bfbf493f5a95b88f3c7e1"
+  - algorithm: "MD5"
+    checksumValue: "db0ecc72b976172030a94c4c91fe1fe9"
+  - algorithm: "SHA1"
+    checksumValue: "899c2cfe46b4a941e0a4d87a094b80780d999912"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_manylinux.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594837"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "ec7cd3e2401f090302703935614f7746"
+  - algorithm: "SHA256"
+    checksumValue: "2c91e1a8871638e5ad22fde0e11ac71cb33cf5ad570f508a07489987770e0406"
+  - algorithm: "SHA1"
+    checksumValue: "5959cd4f389c2db50952061701217b65745d1e91"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/metadata/everything.metadata"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594838"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "0269e0d7eee9bdcb83f3a8694d8ba104ae7f2f912b81927fbbd57083aa33e1d5"
+  - algorithm: "MD5"
+    checksumValue: "cf29188e6def1ef35f153139c0405da1"
+  - algorithm: "SHA1"
+    checksumValue: "789cbdf84e0f7aead7fed2092335bb7198b19d45"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_elffile.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594839"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "ced9f3561df19859356b5dbcbb337cf17164567bca9d41b92b99a608491a08bd"
+  - algorithm: "MD5"
+    checksumValue: "e6586c3c34bc79598ad551a4ef08aa10"
+  - algorithm: "SHA1"
+    checksumValue: "e7a8ba7b0833b9ed242f6f34974f58d8160de20a"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_requirements.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
   - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594866"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-  - algorithm: "MD5"
-    checksumValue: "d41d8cd98f00b204e9800998ecf8427e"
-  - algorithm: "SHA256"
-    checksumValue: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/py.typed"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594849"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "2c4f963ea44275e3e8cff5daf232d0af"
-  - algorithm: "SHA1"
-    checksumValue: "e0e81ebe2243656c6c9980a4e791a2865e1cff0b"
-  - algorithm: "SHA256"
-    checksumValue: "76de236951e4f9ed7d65a370fbb16f13fde4b6ee414126e90a9ac4db86cc8d3b"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/development/getting-started.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594822"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "fc47d8cfc646612f011a95f155602932"
-  - algorithm: "SHA1"
-    checksumValue: "071e4b2bae77589231aee02ded6f58252bfd2798"
-  - algorithm: "SHA256"
-    checksumValue: "d0946e4b30a9d67f5ee811dddf6227376b2e9e09ac1d7836c7fec9c4825fb7f3"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-armv7l-armel"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594821"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "9c62fa176e3ade50bedf2f57e96c16a9ad7c3b541530f33944158e6001894572"
-  - algorithm: "MD5"
-    checksumValue: "51c721f37ebcd6f8c987e8f318e64af5"
-  - algorithm: "SHA1"
-    checksumValue: "a972fb5451c06fc9d02a8d3b6bfc80b1909c9960"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-s390x-s390x"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594788"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "e1ad931f430790ac088ba013cf29f7a53dce5051d3d37d425ddca231ecc5d5f9"
-  - algorithm: "MD5"
-    checksumValue: "8cd395a40216b1effe843da7347e57a8"
-  - algorithm: "SHA1"
-    checksumValue: "29959c31b236c653a3f05540bb09f3ae9454dd99"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/noxfile.py"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594807"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "7e855af6479eebd4e51d2e1983cc1ae9e3f40cf4"
-  - algorithm: "SHA256"
-    checksumValue: "60654ddbe8516c46522a951df800d64ffa5b2a0d6a443a094cb51ef76d44be13"
-  - algorithm: "MD5"
-    checksumValue: "fe9ef3e62f8652a804b8d2a1c7820d5f"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/SECURITY.md"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594845"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "fc89e7ea93ec25272729932fab53a745a81eee50"
-  - algorithm: "SHA256"
-    checksumValue: "38e3f73d084b9f9230bcdc0c0820e4e758da9a2550ad11d03f9bf11bdaf66af0"
-  - algorithm: "MD5"
-    checksumValue: "dde804aaddafde62afbb829dd90e81d6"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/markers.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594805"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "78a752d0bfa44dbf097378479333bf13ad25cc45"
-  - algorithm: "SHA256"
-    checksumValue: "d2b05405c542c262cfe74dadde4d4d58a9cdf615af7eab1b4c1534e7642070d1"
-  - algorithm: "MD5"
-    checksumValue: "1695b30c05486ad0ffbba07699d4f9b4"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/pyproject.toml"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
   - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-- SPDXID: "SPDXRef-item9594789"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594840"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
   checksums:
-  - algorithm: "SHA1"
-    checksumValue: "47e71239a80db1ed47d3c8ec2fe059aaf422c4b1"
-  - algorithm: "SHA256"
-    checksumValue: "e9726d5b11c2e318fe4f9252dad32654b82cc37826f8371e91ac1eeba2986936"
   - algorithm: "MD5"
-    checksumValue: "0da16bb3007322a9f7e97d29f15969cb"
+    checksumValue: "edf65f5c009acb9dcd16b717f27c6e5f"
+  - algorithm: "SHA256"
+    checksumValue: "9c56c2b38654ace43a7329e3503d3e456afe37e0075ee8c8f67beebd04f708e7"
+  - algorithm: "SHA1"
+    checksumValue: "2f9abb253a224c99cf18d81779a28be04acfa210"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/CHANGELOG.rst"
-  licenseConcluded: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_tags.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoInFiles:
   - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD-2-Clause"
   - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594806"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "43480ae2764caf5cca0ee45db8f6d506"
-  - algorithm: "SHA1"
-    checksumValue: "2d021ab1e5d6f92688c44af46f696479d3b84011"
-  - algorithm: "SHA256"
-    checksumValue: "1111b670f3b989bbcb2098a00db13b27e5f69b5e52c7c66e4520ef2cdfa37733"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/README.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594793"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "3be905404225b248f4f1212b00474a36872e4f5f"
-  - algorithm: "SHA256"
-    checksumValue: "62ebe3b944dee42b38eec94079ac1f4aeb494f3092e3660ea298e50f745699fa"
-  - algorithm: "MD5"
-    checksumValue: "f91e5b6b02fcb31fab1ec9a0f82e7a9f"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tasks/requirements.txt"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594787"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "8aa697292b79e7757e064f7ecd6c15cf"
-  - algorithm: "SHA1"
-    checksumValue: "f780d255426448884eed58d2df35b445e01c6182"
-  - algorithm: "SHA256"
-    checksumValue: "ac3e94b9f72b3937c785378721425c79c353ef0b5b6ad916fe8a8f5b45484e1a"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/CONTRIBUTING.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594865"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "34190a771dc51364fc58f05326e0fed1f37eac61"
-  - algorithm: "SHA256"
-    checksumValue: "85b98af0e0fa67b7d8ea1c229c7114703d5bcbb73390688d62eed28671449369"
-  - algorithm: "MD5"
-    checksumValue: "8bfa9d7aa566d419f6c8a15e68935499"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_elffile.py"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594786"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "ed1fcaba1dbbf55113abb419a484f3df63e7ecfc"
-  - algorithm: "SHA256"
-    checksumValue: "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
-  - algorithm: "MD5"
-    checksumValue: "faadaedca9251a90b205c9167578ce91"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/LICENSE"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
   - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594820"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "8cd825040cd6e9b37400ed8c1797396d"
-  - algorithm: "SHA256"
-    checksumValue: "3e9bbb13d68a7ac99a71e019b6b5ebfc296704bc01cc07475e8b9f088ee813ba"
-  - algorithm: "SHA1"
-    checksumValue: "304a6d1adb4e74922f63a0a85c18799f0a81feaa"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-x86_64-x32"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594847"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "2af721ef47386c2ccd27d0a09cabca62"
-  - algorithm: "SHA1"
-    checksumValue: "91655fb8fd7d9081089d2df600fa3fcf6688df97"
-  - algorithm: "SHA256"
-    checksumValue: "57c8b6c681751e740ada0a69c4c820c71ff0121cd69708ced9d4f8f42edc89ea"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/security.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594803"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "b463139e40762db13eea962fd4b5803e205eb6be93380dacca1aebf929ca7d01"
-  - algorithm: "MD5"
-    checksumValue: "9f6d3937e806a0ea7ea306ed0fe43123"
-  - algorithm: "SHA1"
-    checksumValue: "6c385aac4ae8308c8e844a113fa01130e05eff59"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.github/workflows/docs.yml"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594846"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "11074750a4b9c216ad64d5d3606aba7b"
-  - algorithm: "SHA1"
-    checksumValue: "0018595248a3e1c8468fc7314aa0c706d8288199"
-  - algorithm: "SHA256"
-    checksumValue: "bd8b3e8b5551105b987eb3f26cc72889cf471457ed78d12d93870ab39e1ec311"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/changelog.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594802"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "d7103c13abf1a81e88a09a9075af03953055cdbe36f6159b118cd2889a0a909e"
-  - algorithm: "MD5"
-    checksumValue: "544feb523bc4aea5003f79d908cf03fe"
-  - algorithm: "SHA1"
-    checksumValue: "7dbd2f8414213da76080998457c29e319d7c0c45"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.github/workflows/test.yml"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594804"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "8ea43d725c67277a8848cec89726aa6859ce94eba96deadda59cdde806185c0d"
-  - algorithm: "SHA1"
-    checksumValue: "ab3378a2688798e518b49f2e3fa03ceef08d53e1"
-  - algorithm: "MD5"
-    checksumValue: "481906fc8d8fa257f5ba5456a6a8f349"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.github/workflows/lint.yml"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
+  - "LicenseRef-BSD"
 - SPDXID: "SPDXRef-item9594841"
   attributionTexts:
   - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
@@ -1451,42 +1147,12 @@ files:
     \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
     \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
     \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
   - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594791"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "ee27e927522c5df14168289d4125484d"
-  - algorithm: "SHA1"
-    checksumValue: "8fddeee7b88d2ee34be764d4b82e4c1267e4e5d2"
-  - algorithm: "SHA256"
-    checksumValue: "0056ad4ade924b9a503a59e9f7ad176420ad6ef4458a5cc6908ad08236f9dab6"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tasks/__init__.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
   - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
   - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
 - SPDXID: "SPDXRef-item9594842"
   attributionTexts:
   - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
@@ -1509,133 +1175,74 @@ files:
     \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
     \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
     \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
   - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594792"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "a70b379ff69422d2b9f4c5e57540826188f1de64"
-  - algorithm: "SHA256"
-    checksumValue: "4ddc954151271d7d2a49619a015ad4945116f998eaa2aa9ae799bcdf5bd5d4de"
-  - algorithm: "MD5"
-    checksumValue: "52f86f684d18f937300ef911fdf2b705"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tasks/check.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
   - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
   - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594796"
-  checksums:
-  - algorithm: "MD5"
-    checksumValue: "2d47f2ab0e35f28ea8b0c1c7f416920e"
-  - algorithm: "SHA1"
-    checksumValue: "eeade915662b6a58f225021c5328d4217610f7a2"
-  - algorithm: "SHA256"
-    checksumValue: "c1ac1376ae8e68e8efd317e878029ed81de6921e6eb93a290be017b2518db554"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.readthedocs.yml"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594873"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "832a86edb71c6c5e128f0a4172fd063de7858e71"
-  - algorithm: "SHA256"
-    checksumValue: "5e07663f7cb1f7ec101058ceecebcc8fd46311fe49951e4714547af6fed243d1"
-  - algorithm: "MD5"
-    checksumValue: "1ac0c32397b431699625a378f6c21ed2"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/utils.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594851"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "31c7c95ee9e04ec1d2efdff563743125eb0b576a"
-  - algorithm: "SHA256"
-    checksumValue: "da62db0cae8605759c446843edd694b10a8dc9a5aaf5e70cf45e3f14c34e2d6f"
-  - algorithm: "MD5"
-    checksumValue: "382563d17b9fcff128591c444042fd84"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/development/reviewing-patches.rst"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594816"
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "4a99a74a0b8e49a79cc09f16f45a7ad4f01f33f6"
-  - algorithm: "SHA256"
-    checksumValue: "22e7fb680271534efb9f187ba7113e5f4ba93f4e9cda164891d88f1d958d02cf"
-  - algorithm: "MD5"
-    checksumValue: "38e8650d05c6861e679f81088493c3e0"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/manylinux/hello-world-invalid-data"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "NOASSERTION"
 - SPDXID: "SPDXRef-item9594844"
   checksums:
-  - algorithm: "SHA256"
-    checksumValue: "3b276b6aa789447a95896bbce7826e1d1c9c1f927f3cd892334c600018882eb3"
-  - algorithm: "SHA1"
-    checksumValue: "99efaf484106fbee72fd61e72606a11d18791799"
   - algorithm: "MD5"
     checksumValue: "6ad3dab9303e6e1d3bef30dec0760fb2"
+  - algorithm: "SHA1"
+    checksumValue: "99efaf484106fbee72fd61e72606a11d18791799"
+  - algorithm: "SHA256"
+    checksumValue: "3b276b6aa789447a95896bbce7826e1d1c9c1f927f3cd892334c600018882eb3"
   copyrightText: "NOASSERTION"
   fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/utils.rst"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
-- SPDXID: "SPDXRef-item9594838"
+- SPDXID: "SPDXRef-item9594845"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "fc89e7ea93ec25272729932fab53a745a81eee50"
+  - algorithm: "SHA256"
+    checksumValue: "38e3f73d084b9f9230bcdc0c0820e4e758da9a2550ad11d03f9bf11bdaf66af0"
+  - algorithm: "MD5"
+    checksumValue: "dde804aaddafde62afbb829dd90e81d6"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/markers.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594846"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "0018595248a3e1c8468fc7314aa0c706d8288199"
+  - algorithm: "SHA256"
+    checksumValue: "bd8b3e8b5551105b987eb3f26cc72889cf471457ed78d12d93870ab39e1ec311"
+  - algorithm: "MD5"
+    checksumValue: "11074750a4b9c216ad64d5d3606aba7b"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/changelog.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594847"
   checksums:
   - algorithm: "SHA256"
-    checksumValue: "0269e0d7eee9bdcb83f3a8694d8ba104ae7f2f912b81927fbbd57083aa33e1d5"
+    checksumValue: "57c8b6c681751e740ada0a69c4c820c71ff0121cd69708ced9d4f8f42edc89ea"
   - algorithm: "MD5"
-    checksumValue: "cf29188e6def1ef35f153139c0405da1"
+    checksumValue: "2af721ef47386c2ccd27d0a09cabca62"
   - algorithm: "SHA1"
-    checksumValue: "789cbdf84e0f7aead7fed2092335bb7198b19d45"
+    checksumValue: "91655fb8fd7d9081089d2df600fa3fcf6688df97"
   copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tests/test_elffile.py"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/security.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594849"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "2c4f963ea44275e3e8cff5daf232d0af"
+  - algorithm: "SHA1"
+    checksumValue: "e0e81ebe2243656c6c9980a4e791a2865e1cff0b"
+  - algorithm: "SHA256"
+    checksumValue: "76de236951e4f9ed7d65a370fbb16f13fde4b6ee414126e90a9ac4db86cc8d3b"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/development/getting-started.rst"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
   - "NOASSERTION"
@@ -1651,11 +1258,277 @@ files:
   fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/development/submitting-patches.rst"
   licenseConcluded: "NOASSERTION"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
   - "LicenseRef-Python"
+  - "LicenseRef-Apache-2.0"
   - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594851"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "31c7c95ee9e04ec1d2efdff563743125eb0b576a"
+  - algorithm: "SHA256"
+    checksumValue: "da62db0cae8605759c446843edd694b10a8dc9a5aaf5e70cf45e3f14c34e2d6f"
+  - algorithm: "MD5"
+    checksumValue: "382563d17b9fcff128591c444042fd84"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/development/reviewing-patches.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594852"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "d963068c10bf3cd61f5eb9eb1929f4dd"
+  - algorithm: "SHA1"
+    checksumValue: "4178d2c1ca306db562cdf51ae2d168c1840849cc"
+  - algorithm: "SHA256"
+    checksumValue: "fb5097f81ef39ca8abb77a00fd65afc367a07526657e71cde4f6a30738ba3e3a"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/development/index.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594853"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "df6f1ae5a6c7942b7b71b6b4304ec37bf4472624"
+  - algorithm: "SHA256"
+    checksumValue: "106b97582775ac23bbb8b1338e1fac4b53c1dd515fe584516452bba28d04d42f"
+  - algorithm: "MD5"
+    checksumValue: "81139b91a8e0d97161393a5ab31914aa"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/development/release-process.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594854"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1e34e551778592b569bb290186a8ebceb904964d"
+  - algorithm: "SHA256"
+    checksumValue: "fa00a62495826ebc2a20da0b06aeadf8ddc38014c91b1917cab0766fca7788c2"
+  - algorithm: "MD5"
+    checksumValue: "51060c1b46da4a3de439b2d90d1a2b66"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/Makefile"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594855"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "75e0051295ff740e08c4f4451a154896"
+  - algorithm: "SHA1"
+    checksumValue: "39a550a663ed4d50927c3e7e3776211b7fbcb17e"
+  - algorithm: "SHA256"
+    checksumValue: "2a2912fefbca9bd92453d447d586e8698048538f0723b8b878f783e18587b5ea"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/conf.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594856"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "171f16bada83eaa367015c2d715925a7a7e5e8c9"
+  - algorithm: "SHA256"
+    checksumValue: "b6f621d9bb96b44b27b3f1de185e0beb15cc8dd0c143fdb39c521f1cefada360"
+  - algorithm: "MD5"
+    checksumValue: "5310f5f3d948cf8d2f15263852ed607e"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/specifiers.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594857"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a42061733e64b7b15dae90a8cf1a2986dc740c95"
+  - algorithm: "MD5"
+    checksumValue: "b463a1df317d54523c5d391e1373621d"
+  - algorithm: "SHA256"
+    checksumValue: "122f38c65aa95645dedf1645fe0eeb984ccf919d335c2a3ef154ab9f27555435"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/tags.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594858"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "0aa56217dcf89e3bbe6c462e71b89f30a867a9a2"
+  - algorithm: "SHA256"
+    checksumValue: "7b85b501973e91a6ff0b9c6f54360ebb07e376e6474c5e2d689359ce94cdc790"
+  - algorithm: "MD5"
+    checksumValue: "ea7fcecca98802309d74ce80e723e780"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/version.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594859"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "dd5a5db7c37ebf99beffacd9e3fc5f694fb1651e"
+  - algorithm: "SHA256"
+    checksumValue: "265a5ca3cdcaeec62049c3f144ac25dbe5c1d1f0c5be6aec96b04ed921a34d8a"
+  - algorithm: "MD5"
+    checksumValue: "3524a36e7ca3aff18102ec6e862529bf"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/requirements.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594860"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3bd7250046e881219ba46f48ba22225a1f769f69"
+  - algorithm: "SHA256"
+    checksumValue: "97965480bfd18832b3c6020dbf4c95d3f65896b46a5a977f1d4d4041a49c36a7"
+  - algorithm: "MD5"
+    checksumValue: "7194ff1a5e61ce7d99597c7b60e543d3"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/metadata.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594861"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "68aba2d829acbf06139c4c3f3cbe9df3"
+  - algorithm: "SHA1"
+    checksumValue: "f762d7970ac6dfe4644ca6c5be1d5388a7d73f95"
+  - algorithm: "SHA256"
+    checksumValue: "cf90da81ff9f869bd3e0e393a42cadf539760cc150a8e1be67eacb1a21c1875a"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/index.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594862"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "f83ebc9372ac48863939b5a2efa96cf4"
+  - algorithm: "SHA1"
+    checksumValue: "c39f3ff33c4d27bed60ca6bd828c81ed99be948e"
+  - algorithm: "SHA256"
+    checksumValue: "cd36c8a5ac0549f05a384bdb876619bc57ff2110cccaa1c5bfb9699f6e2b7d73"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/docs/requirements.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594865"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "34190a771dc51364fc58f05326e0fed1f37eac61"
+  - algorithm: "SHA256"
+    checksumValue: "85b98af0e0fa67b7d8ea1c229c7114703d5bcbb73390688d62eed28671449369"
+  - algorithm: "MD5"
+    checksumValue: "8bfa9d7aa566d419f6c8a15e68935499"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_elffile.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594866"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  - algorithm: "MD5"
+    checksumValue: "d41d8cd98f00b204e9800998ecf8427e"
+  - algorithm: "SHA256"
+    checksumValue: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/py.typed"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594867"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "da4da0034f760665fad5f8afd0d921e9e4974294"
+  - algorithm: "SHA256"
+    checksumValue: "a641ba810dbc465852d3d573ca65615691ab585e5da075df2b55711bd71d8686"
+  - algorithm: "MD5"
+    checksumValue: "fd76f146bee94703879100952710625e"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/tags.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594868"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "4e8c6320d3a64a7f266c479745254d32274426c3d46071181679cde0c6aabc7d"
+  - algorithm: "MD5"
+    checksumValue: "4361beed055b6e2b64620fd4bd154604"
+  - algorithm: "SHA1"
+    checksumValue: "6de04bc764ac93cca4f61aaad9fc8b727509cd20"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/metadata.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594869"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "5e34412cd2b5ed430380b78ff141e7ab0898dd37528b4df1150511b5e736d750"
+  - algorithm: "MD5"
+    checksumValue: "7c3195aa2c7c90bdfcb1e43cdcfe4ab4"
+  - algorithm: "SHA1"
+    checksumValue: "2ee37518841d7283796cf5836d1b8868ed60c342"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/version.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
 - SPDXID: "SPDXRef-item9594870"
   attributionTexts:
   - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
@@ -1678,84 +1551,12 @@ files:
     \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
     \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
     \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594795"
-  checksums:
-  - algorithm: "SHA256"
-    checksumValue: "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
-  - algorithm: "MD5"
-    checksumValue: "2ee41112a44fe7014dce33e26468ba93"
-  - algorithm: "SHA1"
-    checksumValue: "598f87f072f66e2269dd6919292b2934dbb20492"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/LICENSE.APACHE"
-  licenseConcluded: "NOASSERTION"
-  licenseInfoInFiles:
-  - "LicenseRef-Apache-2.0"
-- SPDXID: "SPDXRef-item9594872"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "538b209e6f1a9d37512bd40d89cca54cd8065859"
-  - algorithm: "SHA256"
-    checksumValue: "12108cb824b3eb4220409f776ffe302720281e953d27eb9d746e1068c4f43eee"
-  - algorithm: "MD5"
-    checksumValue: "97c1387ac95a8183ac52cca683295d6c"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/__init__.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD-2-Clause"
-  - "LicenseRef-Dual-license"
-- SPDXID: "SPDXRef-item9594794"
-  attributionTexts:
-  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
-    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
-    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
-    \ license texts are provided."
-  checksums:
-  - algorithm: "SHA1"
-    checksumValue: "7cdc5e29ce5ebaa14b4c210b4d0aa7b76dd6805f"
-  - algorithm: "SHA256"
-    checksumValue: "2048afe6c8505347d3d216a14cd713c7283593b92f9644895c056b83deb75e42"
-  - algorithm: "MD5"
-    checksumValue: "5edf2fb0b903171c48a9a397bf5bf5ef"
-  copyrightText: "NOASSERTION"
-  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/tasks/paths.py"
-  licenseComments: "The information in the file is:\nThis file is dual licensed under\
-    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
-    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
-    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
-    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
-    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
-    \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
-  licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
-  - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
-  - "LicenseRef-Dual-license"
 - SPDXID: "SPDXRef-item9594871"
   attributionTexts:
   - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
@@ -1763,12 +1564,12 @@ files:
     \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
     \ license texts are provided."
   checksums:
+  - algorithm: "SHA1"
+    checksumValue: "fe0c3747cf14e696276cb6806c6775503de002b8"
   - algorithm: "SHA256"
     checksumValue: "ab77953666d62461bf4b40e2b7f4b7028f2a42acffe4f6135c500a0597b9cabe"
   - algorithm: "MD5"
     checksumValue: "de664fedc083927d3d084f416190d876"
-  - algorithm: "SHA1"
-    checksumValue: "fe0c3747cf14e696276cb6806c6775503de002b8"
   copyrightText: "NOASSERTION"
   fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_structures.py"
   licenseComments: "The information in the file is:\nThis file is dual licensed under\
@@ -1778,155 +1579,343 @@ files:
     \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
     \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
     \ in the root directory"
-  licenseConcluded: "(LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7 OR\
-    \ LicenseRef-Apache-2.0)"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
   licenseInfoInFiles:
-  - "LicenseRef-BSD-3-Clause"
   - "LicenseRef-Apache-2.0"
-  - "LicenseRef-BSD"
   - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594872"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "12108cb824b3eb4220409f776ffe302720281e953d27eb9d746e1068c4f43eee"
+  - algorithm: "MD5"
+    checksumValue: "97c1387ac95a8183ac52cca683295d6c"
+  - algorithm: "SHA1"
+    checksumValue: "538b209e6f1a9d37512bd40d89cca54cd8065859"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/__init__.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-2-Clause"
+  - "LicenseRef-BSD-3-Clause"
+- SPDXID: "SPDXRef-item9594873"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "1ac0c32397b431699625a378f6c21ed2"
+  - algorithm: "SHA1"
+    checksumValue: "832a86edb71c6c5e128f0a4172fd063de7858e71"
+  - algorithm: "SHA256"
+    checksumValue: "5e07663f7cb1f7ec101058ceecebcc8fd46311fe49951e4714547af6fed243d1"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/utils.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594874"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "67c1b57820b6b3c50d7010e26a58f56dc60dc840"
+  - algorithm: "SHA256"
+    checksumValue: "92098118b1726e9cbceb4f7e293bf39addb30a108f598be1a790563f8257edd1"
+  - algorithm: "MD5"
+    checksumValue: "530672880a6727ef0350b3fa7fd0ded6"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_musllinux.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594875"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "104d5ba6f890d480590917cd812d14e1be8d82c1"
+  - algorithm: "SHA256"
+    checksumValue: "46aea9a570311fc5c5b4d7fab42f81fb548abaf08e0cf06f702a12ba532d6ed9"
+  - algorithm: "MD5"
+    checksumValue: "bbb19b79eee0d12c437a69d816ef253f"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_manylinux.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594876"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "bbff1e2e446b8c2f30c89d5e7e62e9eb844ce8ee"
+  - algorithm: "SHA256"
+    checksumValue: "787fadc52db3ab51dd3694ddf4b71951c548c1ec0088d53482b9aae708ca9ce9"
+  - algorithm: "MD5"
+    checksumValue: "8b2845880a67d4d1934f095997f295d2"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/markers.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594877"
+  attributionTexts:
+  - "To the extend files may be licensed under Apache-2.0 or BSD-2-Clause, in this\
+    \ context BSD-2-Clause has been chosen. This shall not restrict the freedom of\
+    \ other users to choose either Apache-2.0 or BSD-2-Clause. For convenience all\
+    \ license texts are provided."
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "70c7db94ac7831495106624c839cd1d29f0884d7"
+  - algorithm: "SHA256"
+    checksumValue: "64ea6a2ffc3f2a3e9917f396765890533844c879436e2ebdf3d92bfac179187b"
+  - algorithm: "MD5"
+    checksumValue: "0828468dc424e0af0d6c54f97cb0b4e9"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/specifiers.py"
+  licenseComments: "The information in the file is:\nThis file is dual licensed under\
+    \ the terms of the Apache License, Version\n2.0, and the BSD License. See the\
+    \ LICENSE file in the root of this repository\nfor complete details.\nThe file\
+    \ LICENSE.BSD contains the text of the BSD-2-Clause license, thus we concluded\
+    \ Apache-2.0 OR BSD-2-Clause as license of this file\nThe package contains no\
+    \ NOTICE file\nWe took the text of the BSD-2-Clause license from the file LICENSE.BSD\
+    \ in the root directory"
+  licenseConcluded: "(LicenseRef-Apache-2.0 OR LicenseRef-BSD-2-Clause-8eabb82dc0efb72d9a43a67c7c2746e7)"
+  licenseInfoInFiles:
+  - "LicenseRef-Apache-2.0"
+  - "LicenseRef-Dual-license"
+  - "LicenseRef-BSD-3-Clause"
+  - "LicenseRef-BSD"
+- SPDXID: "SPDXRef-item9594878"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "fe6b29206a5c5f5f2c6a62df01755468"
+  - algorithm: "SHA1"
+    checksumValue: "5243ef9f318b195d1cc84a13cc2aaf03ee34ecd5"
+  - algorithm: "SHA256"
+    checksumValue: "e4384aff3609138538cb34a4804053e05eed4f6c59e8f931e204912b2bd79de4"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_parser.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594879"
+  checksums:
+  - algorithm: "MD5"
+    checksumValue: "b0e4b78ef3c2060ddcf509ace8ca82de"
+  - algorithm: "SHA1"
+    checksumValue: "7e894dba389a70c4e5e3916705b5525788066a62"
+  - algorithm: "SHA256"
+    checksumValue: "6a50ad6f05e138502614667a050fb0093485a11009db3fb2b087fbfff31327f9"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/src/packaging/_tokenizer.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
+- SPDXID: "SPDXRef-item9594880"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "026f6aba7a057f58e6f70ee800b2d58416fbbc40984b45ce13cd23a8db6f450c"
+  - algorithm: "MD5"
+    checksumValue: "84a17d2ac275e75c5b02355d3211504e"
+  - algorithm: "SHA1"
+    checksumValue: "00745fe35f5ec712ebbe88c075d9db91e9c1f358"
+  copyrightText: "NOASSERTION"
+  fileName: "packaging-23.2.tar.gz/packaging-23.2.tar/packaging-23.2/.gitignore"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NOASSERTION"
 relationships:
-- spdxElementId: "SPDXRef-DOCUMENT"
-  relationshipType: "DESCRIBES"
-  relatedSpdxElement: "SPDXRef-upload2209"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594875"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594833"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594855"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594829"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594831"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594849"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594865"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594850"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594799"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594840"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594791"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594866"
+  relatedSpdxElement: "SPDXRef-item9594786"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
   relatedSpdxElement: "SPDXRef-item9594787"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594838"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594835"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594858"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594878"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594822"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594797"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594857"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594839"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594798"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594793"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594841"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594832"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594811"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594806"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594816"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594868"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594869"
+  relatedSpdxElement: "SPDXRef-item9594788"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
   relatedSpdxElement: "SPDXRef-item9594789"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594804"
+  relatedSpdxElement: "SPDXRef-item9594791"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594851"
+  relatedSpdxElement: "SPDXRef-item9594792"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594818"
+  relatedSpdxElement: "SPDXRef-item9594793"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594859"
+  relatedSpdxElement: "SPDXRef-item9594794"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594814"
+  relatedSpdxElement: "SPDXRef-item9594795"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594876"
+  relatedSpdxElement: "SPDXRef-item9594796"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594844"
+  relatedSpdxElement: "SPDXRef-item9594797"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594817"
+  relatedSpdxElement: "SPDXRef-item9594798"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594852"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594856"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594824"
+  relatedSpdxElement: "SPDXRef-item9594799"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
   relatedSpdxElement: "SPDXRef-item9594802"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594803"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594804"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594805"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594806"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594807"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594809"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594810"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594811"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594812"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594814"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594815"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594816"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594817"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594818"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
   relatedSpdxElement: "SPDXRef-item9594819"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594867"
+  relatedSpdxElement: "SPDXRef-item9594820"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594862"
+  relatedSpdxElement: "SPDXRef-item9594821"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594822"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594823"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594824"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594825"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594827"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594828"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594829"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594830"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594831"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594832"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594833"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594834"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594835"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594837"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594838"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594839"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594840"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594841"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594842"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594844"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
   relatedSpdxElement: "SPDXRef-item9594845"
@@ -1935,109 +1924,97 @@ relationships:
   relatedSpdxElement: "SPDXRef-item9594846"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594796"
+  relatedSpdxElement: "SPDXRef-item9594847"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594809"
+  relatedSpdxElement: "SPDXRef-item9594849"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594807"
+  relatedSpdxElement: "SPDXRef-item9594850"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594803"
+  relatedSpdxElement: "SPDXRef-item9594851"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594825"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594828"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594794"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594815"
+  relatedSpdxElement: "SPDXRef-item9594852"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
   relatedSpdxElement: "SPDXRef-item9594853"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594810"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594805"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594873"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594871"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594861"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594879"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594830"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594847"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594877"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594842"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594795"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
   relatedSpdxElement: "SPDXRef-item9594854"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594821"
+  relatedSpdxElement: "SPDXRef-item9594855"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594820"
+  relatedSpdxElement: "SPDXRef-item9594856"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594823"
+  relatedSpdxElement: "SPDXRef-item9594857"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594786"
+  relatedSpdxElement: "SPDXRef-item9594858"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594870"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594880"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594827"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594834"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594812"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594872"
-- spdxElementId: "SPDXRef-upload2209"
-  relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594837"
+  relatedSpdxElement: "SPDXRef-item9594859"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
   relatedSpdxElement: "SPDXRef-item9594860"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594788"
+  relatedSpdxElement: "SPDXRef-item9594861"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594862"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594865"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594866"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594867"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594868"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594869"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594870"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594871"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594872"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594873"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
   relatedSpdxElement: "SPDXRef-item9594874"
 - spdxElementId: "SPDXRef-upload2209"
   relationshipType: "CONTAINS"
-  relatedSpdxElement: "SPDXRef-item9594792"
+  relatedSpdxElement: "SPDXRef-item9594875"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594876"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594877"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594878"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594879"
+- spdxElementId: "SPDXRef-upload2209"
+  relationshipType: "CONTAINS"
+  relatedSpdxElement: "SPDXRef-item9594880"
+- spdxElementId: "SPDXRef-DOCUMENT"
+  relationshipType: "DESCRIBES"
+  relatedSpdxElement: "SPDXRef-upload2209"

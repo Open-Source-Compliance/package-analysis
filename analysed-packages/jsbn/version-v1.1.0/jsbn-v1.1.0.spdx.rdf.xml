@@ -4,42 +4,28 @@
     xmlns:doap="http://usefulinc.com/ns/doap#"
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-  <spdx:SpdxNoAssertionLicense rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#NOASSERTION_LICENSE_ID"/>
   <spdx:SpdxDocument rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-DOCUMENT">
+    <spdx:specVersion>SPDX-2.3</spdx:specVersion>
     <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT-Wu-fffab006e17886c65ec2c054f2024819">
-        <spdx:licenseId>LicenseRef-MIT-Wu-fffab006e17886c65ec2c054f2024819</spdx:licenseId>
-        <spdx:extractedText>Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-See-file">
+        <spdx:licenseId>LicenseRef-See-file</spdx:licenseId>
+        <spdx:name>See-file</spdx:name>
+        <spdx:extractedText>This license means that you can get copyright or license information through a reference file.
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
-EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
-WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
-
-IN NO EVENT SHALL TOM WU BE LIABLE FOR ANY SPECIAL, INCIDENTAL,
-INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER
-RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF
-THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT
-OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-In addition, the following condition applies:
-
-All redistributions must retain an intact copy of this copyright notice
-and disclaimer.</spdx:extractedText>
-        <spdx:name>MIT Tom Wu Variant</spdx:name>
+one example below:
+/* 
+ * Copyright (C) 2007  Olli Salonen &amp;lt;oasalonen@gmail.com&amp;gt;
+ * see btnx.c for detailed license information
+ * 
+ * revoco.c is under a different copyright. See that file for details.
+ * 
+*/</spdx:extractedText>
       </spdx:ExtractedLicensingInfo>
     </spdx:hasExtractedLicensingInfo>
     <spdx:hasExtractedLicensingInfo>
       <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT-Wu">
         <spdx:licenseId>LicenseRef-MIT-Wu</spdx:licenseId>
+        <spdx:name>MIT Tom Wu Variant</spdx:name>
         <spdx:extractedText>Copyright (c) 2003-2005  Tom Wu
 All Rights Reserved.
 
@@ -68,36 +54,12 @@ In addition, the following condition applies:
 
 All redistributions must retain an intact copy of this copyright notice
 and disclaimer.</spdx:extractedText>
-        <spdx:name>MIT Tom Wu Variant</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-unknown-license-reference">
-        <spdx:licenseId>LicenseRef-scancode-unknown-license-reference</spdx:licenseId>
-        <spdx:extractedText>License by Scancode.</spdx:extractedText>
-        <spdx:name>Unknown License file reference</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:specVersion>SPDX-2.3</spdx:specVersion>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-See-file">
-        <spdx:licenseId>LicenseRef-See-file</spdx:licenseId>
-        <spdx:extractedText>This license means that you can get copyright or license information through a reference file.
-
-one example below:
-/* 
- * Copyright (C) 2007  Olli Salonen &amp;lt;oasalonen@gmail.com&amp;gt;
- * see btnx.c for detailed license information
- * 
- * revoco.c is under a different copyright. See that file for details.
- * 
-*/</spdx:extractedText>
-        <spdx:name>See-file</spdx:name>
       </spdx:ExtractedLicensingInfo>
     </spdx:hasExtractedLicensingInfo>
     <spdx:hasExtractedLicensingInfo>
       <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT">
         <spdx:licenseId>LicenseRef-MIT</spdx:licenseId>
+        <spdx:name>MIT License</spdx:name>
         <spdx:extractedText>MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -105,45 +67,143 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</spdx:extractedText>
-        <spdx:name>MIT License</spdx:name>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:name>/srv/fossology/repository/report</spdx:name>
+    <spdx:hasExtractedLicensingInfo>
+      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-CC0-1.0">
+        <spdx:licenseId>LicenseRef-CC0-1.0</spdx:licenseId>
+        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
+        <spdx:extractedText>Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.</spdx:extractedText>
       </spdx:ExtractedLicensingInfo>
     </spdx:hasExtractedLicensingInfo>
     <spdx:relationship>
       <spdx:Relationship>
+        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
         <spdx:relatedSpdxElement>
           <spdx:Package rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-upload2109">
-            <spdx:name>jsbn-1.1.0.tar.gz</spdx:name>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126906">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>dda8f13d08c49677678a76a3657cd9b925378801122beb7074b04732fb491b90</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>dcc3162cd5839eaf58ade3c68ffcd7e4</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>5bbff4640c4871b28bd7389c5d4fdc5bd1a58792</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/example.html</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
+            <spdx:packageFileName>jsbn-1.1.0.tar.gz</spdx:packageFileName>
+            <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
             <spdx:packageVerificationCode>
               <spdx:PackageVerificationCode>
                 <spdx:packageVerificationCodeValue>87cb30fef36c513243dc17de7679d5a0229421e2</spdx:packageVerificationCodeValue>
@@ -151,250 +211,542 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
             </spdx:packageVerificationCode>
             <spdx:relationship>
               <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
                 <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126909">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>726b8f5826e87e0b86e50bb7c4a23cbae168868e</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>61b1ce212b2a9c73e5a571ead382e496aaf54288ad64586b258a571d642b43e9</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>f114eeda0b6c1f4c1d8446458f37a539</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126911">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/.gitignore</spdx:fileName>
                     <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT"/>
-                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/package.json</spdx:fileName>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>58caf761f07e5df9cdc21f7f19f0670fde41089b</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>282337904393421bb45c1f5a5bbb8cb1e317ba22390d12ec0686b92f097fc80b</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f52617261a55be4f6af09cc595272d66</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
                   </spdx:File>
                 </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
               </spdx:Relationship>
             </spdx:relationship>
             <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-            <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126910">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>8768acde8c3fac3fea768b6bcdab2dfe8ac4c31d2f811d4335bcdd1d3fd49f15</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>8bacf3fc7cedf3d5372a09e1134f0cd2</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>c2300e0f1acfd0e3dc477dcd7fb447f5faffdefd</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/example.js</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126908">
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>bb375fe109e8d0fed1fcdb1bb8570a69</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:copyrightText>Copyright (c) 2005 Tom Wu All Rights Reserved.
-Copyright (c) 2005-2009 Tom Wu All Rights Reserved.</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>d02b44c836eb4582fe69c15bc397936df43d7f49</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/index.js</spdx:fileName>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>4ef19ba8dbd0d68bf62c24cbc24e112ca4d0750b5ae4af80fed61bf74e299de1</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT-Wu-fffab006e17886c65ec2c054f2024819"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-unknown-license-reference"/>
-                    <spdx:licenseComments>The information in the file is:
-See "LICENSE" for details.
-The LICENSE file in the root directory contains the text of the MIT variant from Tom Wu, we took this text and concluded MIT-WU as license of this file</spdx:licenseComments>
-                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-See-file"/>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126911">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>58caf761f07e5df9cdc21f7f19f0670fde41089b</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>282337904393421bb45c1f5a5bbb8cb1e317ba22390d12ec0686b92f097fc80b</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>f52617261a55be4f6af09cc595272d66</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/.gitignore</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:filesAnalyzed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-            >true</spdx:filesAnalyzed>
-            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-            <spdx:checksum>
-              <spdx:Checksum>
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                <spdx:checksumValue>03d4e24f0329dfecf6dc04d77c441b50</spdx:checksumValue>
-              </spdx:Checksum>
-            </spdx:checksum>
-            <spdx:packageFileName>jsbn-1.1.0.tar.gz</spdx:packageFileName>
-            <spdx:downloadLocation>https://github.com/andyperlitch/jsbn/archive/refs/tags/v1.1.0.tar.gz</spdx:downloadLocation>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126907">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>5b24ad56010209d41fddea9fc645005438a03f13</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>9de69b09f455446dc1d6ff2a01656348118d9cf2b70276eb25c4f201e1944202</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>d9cb1e4b6f2dff62d63c8551eb5166ef</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/README.md</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126905">
-                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT-Wu"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT"/>
-                    <spdx:licenseInfoInFile>
-                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-mit-addition">
-                        <spdx:licenseId>LicenseRef-scancode-mit-addition</spdx:licenseId>
-                        <spdx:extractedText>License by Scancode.</spdx:extractedText>
-                        <spdx:name>MIT Addition License</spdx:name>
-                      </spdx:ExtractedLicensingInfo>
-                    </spdx:licenseInfoInFile>
-                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-unknown-license-reference"/>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/LICENSE</spdx:fileName>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>e0e396530fd1624126e9a7e0df94811e4062e03baeccb07bc33c934b0fd93a85</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:copyrightText>Copyright (c) 2003-2005 Tom Wu All Rights Reserved.</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>4f94910918b5e57f3e55c7387f43b0d6293a4319</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>32052d48bacabd1c02e56c6889082a27</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
             <spdx:externalRef>
               <spdx:ExternalRef>
+                <spdx:referenceLocator>pkg:github.com/andyperlitch/jsbn@v1.1.0</spdx:referenceLocator>
                 <spdx:referenceCategory rdf:resource="http://spdx.org/rdf/terms#referenceCategory_packageManager"/>
                 <spdx:referenceType rdf:resource="http://spdx.org/rdf/references/purl"/>
-                <spdx:referenceLocator>pkg:github.com/andyperlitch/jsbn@v1.1.0</spdx:referenceLocator>
               </spdx:ExternalRef>
             </spdx:externalRef>
-            <spdx:checksum>
-              <spdx:Checksum>
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                <spdx:checksumValue>95abc8bb938a357e6ba4f0dfd3778e73e45c973ba9de6befb596c175c1c14948</spdx:checksumValue>
-              </spdx:Checksum>
-            </spdx:checksum>
             <spdx:licenseComments>licenseInfoInFile determined by Scanners:
  - nomos ("4.4.0.51".1e52cb)
  - monk ("4.4.0.51".1e52cb)
  - ojo ("4.4.0.51".1e52cb)
 - scancode ("4.4.0.51".1e52cb)</spdx:licenseComments>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126908">
+                    <spdx:licenseComments>The information in the file is:
+See "LICENSE" for details.
+The LICENSE file in the root directory contains the text of the MIT variant from Tom Wu, we took this text and concluded MIT-WU as license of this file</spdx:licenseComments>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d02b44c836eb4582fe69c15bc397936df43d7f49</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4ef19ba8dbd0d68bf62c24cbc24e112ca4d0750b5ae4af80fed61bf74e299de1</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseConcluded>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT-Wu-fffab006e17886c65ec2c054f2024819">
+                        <spdx:licenseId>LicenseRef-MIT-Wu-fffab006e17886c65ec2c054f2024819</spdx:licenseId>
+                        <spdx:name>MIT Tom Wu Variant</spdx:name>
+                        <spdx:extractedText>Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
+EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
+WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+IN NO EVENT SHALL TOM WU BE LIABLE FOR ANY SPECIAL, INCIDENTAL,
+INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER
+RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF
+THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT
+OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+In addition, the following condition applies:
+
+All redistributions must retain an intact copy of this copyright notice
+and disclaimer.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseConcluded>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-See-file"/>
+                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/index.js</spdx:fileName>
+                    <spdx:copyrightText>Copyright (c) 2005 Tom Wu All Rights Reserved.
+Copyright (c) 2005-2009 Tom Wu All Rights Reserved.</spdx:copyrightText>
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-unknown-license-reference">
+                        <spdx:licenseId>LicenseRef-scancode-unknown-license-reference</spdx:licenseId>
+                        <spdx:name>Unknown License file reference</spdx:name>
+                        <spdx:extractedText>License by Scancode.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>bb375fe109e8d0fed1fcdb1bb8570a69</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126909">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT"/>
+                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/package.json</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>726b8f5826e87e0b86e50bb7c4a23cbae168868e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>61b1ce212b2a9c73e5a571ead382e496aaf54288ad64586b258a571d642b43e9</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f114eeda0b6c1f4c1d8446458f37a539</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:filesAnalyzed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:filesAnalyzed>
+            <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
             <spdx:checksum>
               <spdx:Checksum>
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                <spdx:checksumValue>c5570a9c679afc872d1090a81d6d8060cf9c8bcd</spdx:checksumValue>
+                <spdx:checksumValue>95abc8bb938a357e6ba4f0dfd3778e73e45c973ba9de6befb596c175c1c14948</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
               </spdx:Checksum>
             </spdx:checksum>
+            <spdx:downloadLocation>https://github.com/andyperlitch/jsbn/archive/refs/tags/v1.1.0.tar.gz</spdx:downloadLocation>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>c5570a9c679afc872d1090a81d6d8060cf9c8bcd</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126907">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/README.md</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d9cb1e4b6f2dff62d63c8551eb5166ef</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>5b24ad56010209d41fddea9fc645005438a03f13</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9de69b09f455446dc1d6ff2a01656348118d9cf2b70276eb25c4f201e1944202</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126906">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/example.html</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>5bbff4640c4871b28bd7389c5d4fdc5bd1a58792</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>dda8f13d08c49677678a76a3657cd9b925378801122beb7074b04732fb491b90</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>dcc3162cd5839eaf58ade3c68ffcd7e4</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:name>jsbn-1.1.0.tar.gz</spdx:name>
+            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>03d4e24f0329dfecf6dc04d77c441b50</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126905">
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-unknown-license-reference"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>e0e396530fd1624126e9a7e0df94811e4062e03baeccb07bc33c934b0fd93a85</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT-Wu"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>32052d48bacabd1c02e56c6889082a27</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT"/>
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-mit-addition">
+                        <spdx:licenseId>LicenseRef-scancode-mit-addition</spdx:licenseId>
+                        <spdx:name>MIT Addition License</spdx:name>
+                        <spdx:extractedText>License by Scancode.</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/LICENSE</spdx:fileName>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4f94910918b5e57f3e55c7387f43b0d6293a4319</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright (c) 2003-2005 Tom Wu All Rights Reserved.</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#SPDXRef-item9126910">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>jsbn-1.1.0.tar.gz/jsbn-1.1.0.tar/jsbn-1.1.0/example.js</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>8bacf3fc7cedf3d5372a09e1134f0cd2</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>c2300e0f1acfd0e3dc477dcd7fb447f5faffdefd</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>8768acde8c3fac3fea768b6bcdab2dfe8ac4c31d2f811d4335bcdd1d3fd49f15</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
           </spdx:Package>
         </spdx:relatedSpdxElement>
-        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
       </spdx:Relationship>
     </spdx:relationship>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-mit-addition"/>
     <spdx:dataLicense>
       <spdx:ListedLicense rdf:about="http://spdx.org/licenses/CC0-1.0">
+        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
+        <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isFsfLibre>
         <rdfs:seeAlso>https://creativecommons.org/publicdomain/zero/1.0/legalcode</rdfs:seeAlso>
+        <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isOsiApproved>
+        <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isDeprecatedLicenseId>
+        <spdx:crossRef>
+          <spdx:CrossRef>
+            <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</spdx:isWayBackLink>
+            <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:isValid>
+            <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:isLive>
+            <spdx:url>https://creativecommons.org/publicdomain/zero/1.0/legalcode</spdx:url>
+            <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</spdx:order>
+            <spdx:timestamp>2025-07-01T14:58:05Z</spdx:timestamp>
+            <spdx:match>true</spdx:match>
+          </spdx:CrossRef>
+        </spdx:crossRef>
+        <spdx:licenseName>Creative Commons Zero v1.0 Universal</spdx:licenseName>
+        <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt;Creative Commons&lt;&lt;beginOptional&gt;&gt; Legal Code&lt;&lt;endOptional&gt;&gt;
+
+&lt;&lt;endOptional&gt;&gt;
+CC0 1.0 Universal
+
+&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.
+
+&lt;&lt;endOptional&gt;&gt;
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.
+
+   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following:
+      &lt;&lt;var;name="bullet";original="i.";match=".{0,20}"&gt;&gt; the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+      &lt;&lt;var;name="bullet";original="ii.";match=".{0,20}"&gt;&gt; moral rights retained by the original author(s) and/or performer(s);
+      &lt;&lt;var;name="bullet";original="iii.";match=".{0,20}"&gt;&gt; publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
+      &lt;&lt;var;name="bullet";original="iv.";match=".{0,20}"&gt;&gt; rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;
+      &lt;&lt;var;name="bullet";original="v.";match=".{0,20}"&gt;&gt; rights protecting the extraction, dissemination, use and reuse of data in a Work;
+      &lt;&lt;var;name="bullet";original="vi.";match=".{0,20}"&gt;&gt; database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
+      &lt;&lt;var;name="bullet";original="vii.";match=".{0,20}"&gt;&gt; other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
+   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose.
+   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
+   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; Limitations and Disclaimers.
+      &lt;&lt;var;name="bullet";original="a.";match=".{0,20}"&gt;&gt; No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
+      &lt;&lt;var;name="bullet";original="b.";match=".{0,20}"&gt;&gt; Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
+      &lt;&lt;var;name="bullet";original="c.";match=".{0,20}"&gt;&gt; Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
+      &lt;&lt;var;name="bullet";original="d.";match=".{0,20}"&gt;&gt; Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.&lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name="upstreamLink";original="";match="For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt;&gt;&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+        <spdx:licenseId>CC0-1.0</spdx:licenseId>
+        <spdx:licenseTextHtml>
+      &lt;div class="optional-license-text"&gt; 
+         &lt;div class="optional-license-text"&gt; 
+            &lt;p&gt;Creative Commons&lt;var class="optional-license-text"&gt;  Legal Code&lt;/var&gt;&lt;/p&gt;
+
+         &lt;/div&gt;
+         &lt;p&gt;CC0 1.0 Universal&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;div class="optional-license-text"&gt; 
+         &lt;p&gt;CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS
+         DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION
+         ON AN &amp;quot;AS-IS&amp;quot; BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT
+         OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE
+         USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.&lt;/p&gt;
+
+      &lt;/div&gt;
+
+      &lt;p&gt;Statement of Purpose&lt;/p&gt;
+
+      &lt;p&gt;The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related
+         Rights (defined below) upon the creator and subsequent owner(s) (each and all, an &amp;quot;owner&amp;quot;)
+         of an original work of authorship and/or a database (each, a &amp;quot;Work&amp;quot;).&lt;/p&gt;
+
+      &lt;p&gt;Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a
+         commons of creative, cultural and scientific works (&amp;quot;Commons&amp;quot;) that the public can reliably
+         and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse
+         and redistribute as freely as possible in any form whatsoever and for any purposes, including without
+         limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a
+         free culture and the further production of creative, cultural and scientific works, or to gain
+         reputation or greater distribution for their Work in part through the use and efforts of others.&lt;/p&gt;
+
+      &lt;p&gt;For these and/or other purposes and motivations, and without any expectation of additional consideration
+         or compensation, the person associating CC0 with a Work (the &amp;quot;Affirmer&amp;quot;), to the extent that
+         he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to
+         the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and
+         Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.&lt;/p&gt;
+
+&lt;ul style="list-style:none"&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 1.&lt;/span&gt;&lt;/var&gt;
+          Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and
+             related or neighboring rights (&amp;quot;Copyright and Related Rights&amp;quot;). Copyright and
+             Related Rights include, but are not limited to, the following:
+          
+&lt;ul style="list-style:none"&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; i.&lt;/span&gt;&lt;/var&gt;
+              the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; ii.&lt;/span&gt;&lt;/var&gt;
+              moral rights retained by the original author(s) and/or performer(s);
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; iii.&lt;/span&gt;&lt;/var&gt;
+              publicity and privacy rights pertaining to a person&amp;apos;s image or likeness depicted in a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; iv.&lt;/span&gt;&lt;/var&gt;
+              rights protecting against unfair competition in regards to a Work, subject to the limitations
+                 in paragraph 4(a), below;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; v.&lt;/span&gt;&lt;/var&gt;
+              rights protecting the extraction, dissemination, use and reuse of data in a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; vi.&lt;/span&gt;&lt;/var&gt;
+              database rights (such as those arising under Directive 96/9/EC of the European Parliament and
+                 of the Council of 11 March 1996 on the legal protection of databases, and under any
+                 national implementation thereof, including any amended or successor version of such
+                 directive); and
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; vii.&lt;/span&gt;&lt;/var&gt;
+              other similar, equivalent or corresponding rights throughout the world based on applicable
+                 law or treaty, and any national implementations thereof.
+            &lt;/li&gt;
+            
+&lt;/ul&gt;
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 2.&lt;/span&gt;&lt;/var&gt;
+          Waiver. To the greatest extent permitted by, but not in contravention of, applicable law,
+             Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons,
+             and surrenders all of Affirmer&amp;apos;s Copyright and Related Rights and associated claims and
+             causes of action, whether now known or unknown (including existing as well as future claims
+             and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum
+             duration provided by applicable law or treaty (including future time extensions), (iii) in any
+             current or future medium and for any number of copies, and (iv) for any purpose whatsoever,
+             including without limitation commercial, advertising or promotional purposes (the
+             &amp;quot;Waiver&amp;quot;). Affirmer makes the Waiver for the benefit of each member of the public at
+             large and to the detriment of Affirmer&amp;apos;s heirs and successors, fully intending that such
+             Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other
+             legal or equitable action to disrupt the quiet enjoyment of the Work by the public as
+             contemplated by Affirmer&amp;apos;s express Statement of Purpose.
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 3.&lt;/span&gt;&lt;/var&gt;
+          Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid
+             or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent
+             permitted taking into account Affirmer&amp;apos;s express Statement of Purpose. In addition, to
+             the extent the Waiver is so judged Affirmer hereby grants to each affected person a
+             royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and
+             unconditional license to exercise Affirmer&amp;apos;s Copyright and Related Rights in the Work (i)
+             in all territories worldwide, (ii) for the maximum duration provided by applicable law or
+             treaty (including future time extensions), (iii) in any current or future medium and for any
+             number of copies, and (iv) for any purpose whatsoever, including without limitation
+             commercial, advertising or promotional purposes (the &amp;quot;License&amp;quot;). The License shall
+             be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of
+             the License for any reason be judged legally invalid or ineffective under applicable law, such
+             partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and
+             in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her
+             remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and
+             causes of action with respect to the Work, in either case contrary to Affirmer&amp;apos;s express
+             Statement of Purpose.
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 4.&lt;/span&gt;&lt;/var&gt;
+          Limitations and Disclaimers.
+          
+&lt;ul style="list-style:none"&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; a.&lt;/span&gt;&lt;/var&gt;
+              No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed
+                 or otherwise affected by this document.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; b.&lt;/span&gt;&lt;/var&gt;
+              Affirmer offers the Work as-is and makes no representations or warranties of any kind
+                 concerning the Work, express, implied, statutory or otherwise, including without
+                 limitation warranties of title, merchantability, fitness for a particular purpose, non
+                 infringement, or the absence of latent or other defects, accuracy, or the present or
+                 absence of errors, whether or not discoverable, all to the greatest extent permissible
+                 under applicable law.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; c.&lt;/span&gt;&lt;/var&gt;
+              Affirmer disclaims responsibility for clearing rights of other persons that may apply to the
+                 Work or any use thereof, including without limitation any person&amp;apos;s Copyright and
+                 Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any
+                 necessary consents, permissions or other rights required for any use of the Work.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; d.&lt;/span&gt;&lt;/var&gt;
+              Affirmer understands and acknowledges that Creative Commons is not a party to this document
+                 and has no duty or obligation with respect to this CC0 or use of the Work.
+            &lt;/li&gt;
+            
+&lt;/ul&gt;
+        &lt;/li&gt;
+      
+&lt;/ul&gt;
+      &lt;var class="optional-license-text"&gt; &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt; &lt;/span&gt;&lt;/var&gt;&lt;/var&gt;
+    </spdx:licenseTextHtml>
         <spdx:licenseText>Creative Commons Legal Code
 
 CC0 1.0 Universal
@@ -517,395 +869,20 @@ express Statement of Purpose.
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
 </spdx:licenseText>
-        <spdx:licenseId>CC0-1.0</spdx:licenseId>
-        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
-        <spdx:crossRef>
-          <spdx:CrossRef>
-            <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-            >0</spdx:order>
-            <spdx:timestamp>2024-08-19T17:43:57Z</spdx:timestamp>
-            <spdx:url>https://creativecommons.org/publicdomain/zero/1.0/legalcode</spdx:url>
-            <spdx:match>false</spdx:match>
-            <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-            >false</spdx:isWayBackLink>
-            <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-            >true</spdx:isValid>
-            <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-            >true</spdx:isLive>
-          </spdx:CrossRef>
-        </spdx:crossRef>
-        <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isDeprecatedLicenseId>
-        <spdx:licenseTextHtml>
-      &lt;div class="optional-license-text"&gt; 
-         &lt;div class="optional-license-text"&gt; 
-            &lt;p&gt;Creative Commons&lt;var class="optional-license-text"&gt;  Legal Code&lt;/var&gt;&lt;/p&gt;
-
-         &lt;/div&gt;
-         &lt;p&gt;CC0 1.0 Universal&lt;/p&gt;
-
-      &lt;/div&gt;
-      &lt;div class="optional-license-text"&gt; 
-         &lt;p&gt;CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS
-         DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION
-         ON AN &amp;quot;AS-IS&amp;quot; BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT
-         OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE
-         USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.&lt;/p&gt;
-
-      &lt;/div&gt;
-
-      &lt;p&gt;Statement of Purpose&lt;/p&gt;
-
-      &lt;p&gt;The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related
-         Rights (defined below) upon the creator and subsequent owner(s) (each and all, an &amp;quot;owner&amp;quot;)
-         of an original work of authorship and/or a database (each, a &amp;quot;Work&amp;quot;).&lt;/p&gt;
-
-      &lt;p&gt;Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a
-         commons of creative, cultural and scientific works (&amp;quot;Commons&amp;quot;) that the public can reliably
-         and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse
-         and redistribute as freely as possible in any form whatsoever and for any purposes, including without
-         limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a
-         free culture and the further production of creative, cultural and scientific works, or to gain
-         reputation or greater distribution for their Work in part through the use and efforts of others.&lt;/p&gt;
-
-      &lt;p&gt;For these and/or other purposes and motivations, and without any expectation of additional consideration
-         or compensation, the person associating CC0 with a Work (the &amp;quot;Affirmer&amp;quot;), to the extent that
-         he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to
-         the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and
-         Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.&lt;/p&gt;
-
-&lt;ul style="list-style:none"&gt;
-        
-&lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 1.&lt;/var&gt;
-          Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and
-             related or neighboring rights (&amp;quot;Copyright and Related Rights&amp;quot;). Copyright and
-             Related Rights include, but are not limited to, the following:
-          
-&lt;ul style="list-style:none"&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; i.&lt;/var&gt;
-              the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; ii.&lt;/var&gt;
-              moral rights retained by the original author(s) and/or performer(s);
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; iii.&lt;/var&gt;
-              publicity and privacy rights pertaining to a person&amp;apos;s image or likeness depicted in a Work;
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; iv.&lt;/var&gt;
-              rights protecting against unfair competition in regards to a Work, subject to the limitations
-                 in paragraph 4(a), below;
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; v.&lt;/var&gt;
-              rights protecting the extraction, dissemination, use and reuse of data in a Work;
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; vi.&lt;/var&gt;
-              database rights (such as those arising under Directive 96/9/EC of the European Parliament and
-                 of the Council of 11 March 1996 on the legal protection of databases, and under any
-                 national implementation thereof, including any amended or successor version of such
-                 directive); and
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; vii.&lt;/var&gt;
-              other similar, equivalent or corresponding rights throughout the world based on applicable
-                 law or treaty, and any national implementations thereof.
-            &lt;/li&gt;
-            
-&lt;/ul&gt;
-        &lt;/li&gt;
-        
-&lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 2.&lt;/var&gt;
-          Waiver. To the greatest extent permitted by, but not in contravention of, applicable law,
-             Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons,
-             and surrenders all of Affirmer&amp;apos;s Copyright and Related Rights and associated claims and
-             causes of action, whether now known or unknown (including existing as well as future claims
-             and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum
-             duration provided by applicable law or treaty (including future time extensions), (iii) in any
-             current or future medium and for any number of copies, and (iv) for any purpose whatsoever,
-             including without limitation commercial, advertising or promotional purposes (the
-             &amp;quot;Waiver&amp;quot;). Affirmer makes the Waiver for the benefit of each member of the public at
-             large and to the detriment of Affirmer&amp;apos;s heirs and successors, fully intending that such
-             Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other
-             legal or equitable action to disrupt the quiet enjoyment of the Work by the public as
-             contemplated by Affirmer&amp;apos;s express Statement of Purpose.
-        &lt;/li&gt;
-        
-&lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 3.&lt;/var&gt;
-          Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid
-             or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent
-             permitted taking into account Affirmer&amp;apos;s express Statement of Purpose. In addition, to
-             the extent the Waiver is so judged Affirmer hereby grants to each affected person a
-             royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and
-             unconditional license to exercise Affirmer&amp;apos;s Copyright and Related Rights in the Work (i)
-             in all territories worldwide, (ii) for the maximum duration provided by applicable law or
-             treaty (including future time extensions), (iii) in any current or future medium and for any
-             number of copies, and (iv) for any purpose whatsoever, including without limitation
-             commercial, advertising or promotional purposes (the &amp;quot;License&amp;quot;). The License shall
-             be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of
-             the License for any reason be judged legally invalid or ineffective under applicable law, such
-             partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and
-             in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her
-             remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and
-             causes of action with respect to the Work, in either case contrary to Affirmer&amp;apos;s express
-             Statement of Purpose.
-        &lt;/li&gt;
-        
-&lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 4.&lt;/var&gt;
-          Limitations and Disclaimers.
-          
-&lt;ul style="list-style:none"&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; a.&lt;/var&gt;
-              No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed
-                 or otherwise affected by this document.
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; b.&lt;/var&gt;
-              Affirmer offers the Work as-is and makes no representations or warranties of any kind
-                 concerning the Work, express, implied, statutory or otherwise, including without
-                 limitation warranties of title, merchantability, fitness for a particular purpose, non
-                 infringement, or the absence of latent or other defects, accuracy, or the present or
-                 absence of errors, whether or not discoverable, all to the greatest extent permissible
-                 under applicable law.
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; c.&lt;/var&gt;
-              Affirmer disclaims responsibility for clearing rights of other persons that may apply to the
-                 Work or any use thereof, including without limitation any person&amp;apos;s Copyright and
-                 Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any
-                 necessary consents, permissions or other rights required for any use of the Work.
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; d.&lt;/var&gt;
-              Affirmer understands and acknowledges that Creative Commons is not a party to this document
-                 and has no duty or obligation with respect to this CC0 or use of the Work.
-            &lt;/li&gt;
-            
-&lt;/ul&gt;
-        &lt;/li&gt;
-      
-&lt;/ul&gt;
-      &lt;var class="optional-license-text"&gt; &lt;var class="replaceable-license-text"&gt; &lt;/var&gt;&lt;/var&gt;
-    </spdx:licenseTextHtml>
-        <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt;Creative Commons&lt;&lt;beginOptional&gt;&gt; Legal Code&lt;&lt;endOptional&gt;&gt;
-
-&lt;&lt;endOptional&gt;&gt;
-
-CC0 1.0 Universal
-
-&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.
-
-&lt;&lt;endOptional&gt;&gt;
-
-Statement of Purpose
-
-The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work").
-
-Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others.
-
-For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.
-
-   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following:
-
-      &lt;&lt;var;name="bullet";original="i.";match=".{0,20}"&gt;&gt; the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
-
-      &lt;&lt;var;name="bullet";original="ii.";match=".{0,20}"&gt;&gt; moral rights retained by the original author(s) and/or performer(s);
-
-      &lt;&lt;var;name="bullet";original="iii.";match=".{0,20}"&gt;&gt; publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
-
-      &lt;&lt;var;name="bullet";original="iv.";match=".{0,20}"&gt;&gt; rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;
-
-      &lt;&lt;var;name="bullet";original="v.";match=".{0,20}"&gt;&gt; rights protecting the extraction, dissemination, use and reuse of data in a Work;
-
-      &lt;&lt;var;name="bullet";original="vi.";match=".{0,20}"&gt;&gt; database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
-
-      &lt;&lt;var;name="bullet";original="vii.";match=".{0,20}"&gt;&gt; other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
-
-   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose.
-
-   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
-
-   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; Limitations and Disclaimers.
-
-      &lt;&lt;var;name="bullet";original="a.";match=".{0,20}"&gt;&gt; No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
-
-      &lt;&lt;var;name="bullet";original="b.";match=".{0,20}"&gt;&gt; Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
-
-      &lt;&lt;var;name="bullet";original="c.";match=".{0,20}"&gt;&gt; Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
-
-      &lt;&lt;var;name="bullet";original="d.";match=".{0,20}"&gt;&gt; Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.&lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name="upstreamLink";original="";match="For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt;&gt;&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-        <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isFsfLibre>
-        <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isOsiApproved>
       </spdx:ListedLicense>
     </spdx:dataLicense>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-CC0-1.0">
-        <spdx:licenseId>LicenseRef-CC0-1.0</spdx:licenseId>
-        <spdx:extractedText>Creative Commons Legal Code
-
-CC0 1.0 Universal
-
-    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
-    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
-    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
-    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
-    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
-    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
-    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
-    HEREUNDER.
-
-Statement of Purpose
-
-The laws of most jurisdictions throughout the world automatically confer
-exclusive Copyright and Related Rights (defined below) upon the creator
-and subsequent owner(s) (each and all, an "owner") of an original work of
-authorship and/or a database (each, a "Work").
-
-Certain owners wish to permanently relinquish those rights to a Work for
-the purpose of contributing to a commons of creative, cultural and
-scientific works ("Commons") that the public can reliably and without fear
-of later claims of infringement build upon, modify, incorporate in other
-works, reuse and redistribute as freely as possible in any form whatsoever
-and for any purposes, including without limitation commercial purposes.
-These owners may contribute to the Commons to promote the ideal of a free
-culture and the further production of creative, cultural and scientific
-works, or to gain reputation or greater distribution for their Work in
-part through the use and efforts of others.
-
-For these and/or other purposes and motivations, and without any
-expectation of additional consideration or compensation, the person
-associating CC0 with a Work (the "Affirmer"), to the extent that he or she
-is an owner of Copyright and Related Rights in the Work, voluntarily
-elects to apply CC0 to the Work and publicly distribute the Work under its
-terms, with knowledge of his or her Copyright and Related Rights in the
-Work and the meaning and intended legal effect of CC0 on those rights.
-
-1. Copyright and Related Rights. A Work made available under CC0 may be
-protected by copyright and related or neighboring rights ("Copyright and
-Related Rights"). Copyright and Related Rights include, but are not
-limited to, the following:
-
-  i. the right to reproduce, adapt, distribute, perform, display,
-     communicate, and translate a Work;
- ii. moral rights retained by the original author(s) and/or performer(s);
-iii. publicity and privacy rights pertaining to a person's image or
-     likeness depicted in a Work;
- iv. rights protecting against unfair competition in regards to a Work,
-     subject to the limitations in paragraph 4(a), below;
-  v. rights protecting the extraction, dissemination, use and reuse of data
-     in a Work;
- vi. database rights (such as those arising under Directive 96/9/EC of the
-     European Parliament and of the Council of 11 March 1996 on the legal
-     protection of databases, and under any national implementation
-     thereof, including any amended or successor version of such
-     directive); and
-vii. other similar, equivalent or corresponding rights throughout the
-     world based on applicable law or treaty, and any national
-     implementations thereof.
-
-2. Waiver. To the greatest extent permitted by, but not in contravention
-of, applicable law, Affirmer hereby overtly, fully, permanently,
-irrevocably and unconditionally waives, abandons, and surrenders all of
-Affirmer's Copyright and Related Rights and associated claims and causes
-of action, whether now known or unknown (including existing as well as
-future claims and causes of action), in the Work (i) in all territories
-worldwide, (ii) for the maximum duration provided by applicable law or
-treaty (including future time extensions), (iii) in any current or future
-medium and for any number of copies, and (iv) for any purpose whatsoever,
-including without limitation commercial, advertising or promotional
-purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
-member of the public at large and to the detriment of Affirmer's heirs and
-successors, fully intending that such Waiver shall not be subject to
-revocation, rescission, cancellation, termination, or any other legal or
-equitable action to disrupt the quiet enjoyment of the Work by the public
-as contemplated by Affirmer's express Statement of Purpose.
-
-3. Public License Fallback. Should any part of the Waiver for any reason
-be judged legally invalid or ineffective under applicable law, then the
-Waiver shall be preserved to the maximum extent permitted taking into
-account Affirmer's express Statement of Purpose. In addition, to the
-extent the Waiver is so judged Affirmer hereby grants to each affected
-person a royalty-free, non transferable, non sublicensable, non exclusive,
-irrevocable and unconditional license to exercise Affirmer's Copyright and
-Related Rights in the Work (i) in all territories worldwide, (ii) for the
-maximum duration provided by applicable law or treaty (including future
-time extensions), (iii) in any current or future medium and for any number
-of copies, and (iv) for any purpose whatsoever, including without
-limitation commercial, advertising or promotional purposes (the
-"License"). The License shall be deemed effective as of the date CC0 was
-applied by Affirmer to the Work. Should any part of the License for any
-reason be judged legally invalid or ineffective under applicable law, such
-partial invalidity or ineffectiveness shall not invalidate the remainder
-of the License, and in such case Affirmer hereby affirms that he or she
-will not (i) exercise any of his or her remaining Copyright and Related
-Rights in the Work or (ii) assert any associated claims and causes of
-action with respect to the Work, in either case contrary to Affirmer's
-express Statement of Purpose.
-
-4. Limitations and Disclaimers.
-
- a. No trademark or patent rights held by Affirmer are waived, abandoned,
-    surrendered, licensed or otherwise affected by this document.
- b. Affirmer offers the Work as-is and makes no representations or
-    warranties of any kind concerning the Work, express, implied,
-    statutory or otherwise, including without limitation warranties of
-    title, merchantability, fitness for a particular purpose, non
-    infringement, or the absence of latent or other defects, accuracy, or
-    the present or absence of errors, whether or not discoverable, all to
-    the greatest extent permissible under applicable law.
- c. Affirmer disclaims responsibility for clearing rights of other persons
-    that may apply to the Work or any use thereof, including without
-    limitation any person's Copyright and Related Rights in the Work.
-    Further, Affirmer disclaims responsibility for obtaining any necessary
-    consents, permissions or other rights required for any use of the
-    Work.
- d. Affirmer understands and acknowledges that Creative Commons is not a
-    party to this document and has no duty or obligation with respect to
-    this CC0 or use of the Work.</spdx:extractedText>
-        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:name>/srv/fossology/repository/report</spdx:name>
     <spdx:creationInfo>
       <spdx:CreationInfo>
+        <spdx:created>2024-09-28T08:55:34Z</spdx:created>
+        <spdx:licenseListVersion>3.22</spdx:licenseListVersion>
         <rdfs:comment>This document was created using license information and a generator from Fossology.
 It contains the license and copyright analysis of jsbn v1.1.0
 Please check "LicenseComments" for explanations of concluded licenses</rdfs:comment>
-        <spdx:created>2024-09-28T08:55:34Z</spdx:created>
         <spdx:creator>Person: Oliver Fendt</spdx:creator>
         <spdx:creator>Tool: fossology-4.4.0.51</spdx:creator>
-        <spdx:licenseListVersion>3.22</spdx:licenseListVersion>
       </spdx:CreationInfo>
     </spdx:creationInfo>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-No_license_found">
-        <spdx:licenseId>LicenseRef-No_license_found</spdx:licenseId>
-        <spdx:extractedText>Not find any license in the scanned file</spdx:extractedText>
-        <spdx:name>No_license_found</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-mit-addition"/>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-scancode-unknown-license-reference"/>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://fossy.osadl.org/repo/SPDX2TV_jsbn-1.1.0.tar.gz_1727513734.spdx#LicenseRef-MIT-Wu-fffab006e17886c65ec2c054f2024819"/>
   </spdx:SpdxDocument>
 </rdf:RDF>
