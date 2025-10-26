@@ -94,10 +94,6 @@
     "extractedText" : "Everyone is permitted to copy and distribute verbatim copies\nof this license document, but changing it is not allowed.",
     "name" : "License-of-GNU-Licenses"
   }, {
-    "licenseId" : "LicenseRef-No_license_found",
-    "extractedText" : "Not find any license in the scanned file",
-    "name" : "No_license_found"
-  }, {
     "licenseId" : "LicenseRef-Permission-Notice-77c5f463fb50fd062af2b309560b6298",
     "extractedText" : "Permission is granted to anyone to make or distribute verbatim copies\nof this document as received, in any medium, provided that the\ncopyright notice and this permission notice are preserved,\nthus giving the recipient permission to redistribute in turn.\n\nPermission is granted to distribute modified versions\nof this document, or of portions of it,\nunder the above conditions, provided also that they\ncarry prominent notices stating who last changed them.",
     "name" : "Permission Notice from Adam Costello and Cosim Truta"
@@ -142,93 +138,109 @@
     }
   } ],
   "files" : [ {
-    "SPDXID" : "SPDXRef-item10206121",
+    "SPDXID" : "SPDXRef-item10206037",
     "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c2de468f1af2884741c087ca1ab8d9b60c9a82dfb1cd179f63177d6c8446d896"
+    }, {
       "algorithm" : "MD5",
-      "checksumValue" : "32ff8666db47ccdc708bae469710dc8a"
+      "checksumValue" : "1b640d276d2032d329ca6b15bc53550e"
     }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "e123f7938891c820bfc49a98a61c9405e040a252"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "84f6d4dc6ef40cde83509c54a6f8e058690c3a38562d09e16448a0a14b286b73"
+      "checksumValue" : "2cd75790c2f597069a97bae8639a30619538a619"
     } ],
     "copyrightText" : "NOASSERTION",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/.gitignore",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/AUTHORS",
     "licenseConcluded" : "NOASSERTION",
     "licenseInfoInFiles" : [ "NOASSERTION" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206088",
+    "SPDXID" : "SPDXRef-item10206039",
     "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "3292434d9f4a1011a831e41823ce5a1b865c880c"
-    }, {
       "algorithm" : "SHA256",
-      "checksumValue" : "41832bfe77a77839dffb103c4bb63f5fc96b3186d8645948fef2a0a2694a9147"
+      "checksumValue" : "d8e34fd2cdcf104b34a5914f999d3824cf0b9525f7e603ae274c3d70040780ad"
     }, {
       "algorithm" : "MD5",
-      "checksumValue" : "7fd1eb0ba2b310114653b87dfe429757"
+      "checksumValue" : "a7c3e6fd118f7229f97aa254445ad50a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "289c930b656824a78db4cfd31877de3f71bd6a87"
+    } ],
+    "copyrightText" : "Copyright (C) 2016 Free Software Foundation",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/quoting.m4",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206040",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a099a3ed02dcd26330213a96af0aa79b2e433d82"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b3fedb30527a7c72e15b34cf4fcbd3bdeeb8efbc3834c8a7f1eb72de20994ef8"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a137b03bc20227b624b418cb1371b99c"
+    } ],
+    "copyrightText" : "Copyright (c) 2008 Kaveh Ghazi <ghazi@caip.rutgers.edu>\nCopyright (c) 2017 Reini Urban <rurban@cpan.org>\nCopyright (c) 2019 Sergey Poznyakoff <gray@gnu.org>",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/ax_compile_check_rettype.m4",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later-WITH-Autoconf-exception-50e639853b13670b8f87edced70503ef",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later", "LicenseRef-Autoconf-exception-macro", "LicenseRef-Autoconf-exception-2.0", "LicenseRef-Autoconf-exception" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206041",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8b7999c00ece963d2f8978cbc35cbe2776fac7aa"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ee9046090a8a2a4c0473d4d4e961b8f82f37c73aef81684d57416543cd1e88c6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "c9c6a59a025d7e9e5af7ee3128cfec29"
+    } ],
+    "copyrightText" : "Copyright (C) 2009-2023 Free Software Foundation",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/pack.m4",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206042",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "885ed03be853a48f78dbb678d7e92c4c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6b17442d2e32c9fb2afbb564899c05b3f2630b62"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f9f2b1894b8a967515d98f30d4cb5b7a7e5efd83d818c410da359886cc6c70bc"
+    } ],
+    "copyrightText" : "Copyright (C) 2009 Free Software Foundation",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/flushleft.m4",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206043",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "aa232d648ed63e06791c2286becda42fe338a0c4"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5966fd3b985dbbd1e026423bc508b568e74f84219b6709e84c049fc0bdd90266"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "498be33a1b674e62206acb437d112b4d"
     } ],
     "copyrightText" : "NOASSERTION",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/.gitignore",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/.gitignore",
     "licenseConcluded" : "NOASSERTION",
     "licenseInfoInFiles" : [ "NOASSERTION" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206087",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "b970ee099a6cd5332559a682167213e144cf751e"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "467ed6874d072462504774eda10c81dbfb38cd56590d24e6e6df55698a81c601"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "e80eb0ecfd248480eb0fb53cf5a0eda3"
-    } ],
-    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/version.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206120",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "95ee67d9c869f3756f8191643df2659be9a2ecd2da9a6c6bb206aebbf13e0a95"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "d1fc17309c83709aad1eb59faf3d1c6d"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "8673aec8eae81f6817d0a2ea08fb501b76bff8da"
-    } ],
-    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/Makefile.am",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206109",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "dbf2fba8c29074bcc60e17321b06cb2aed18ae57fb4f8cd678a88f2621c52a66"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "2385824f6ac848f65f0ccba847062c32"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "61931cbcadd5bc720179102d6d5e97729a58c895"
-    } ],
-    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/tarhdr.h",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
     "SPDXID" : "SPDXRef-item10206045",
     "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "386e115aa834fe3a4fec00257757543dda4ef2a4"
-    }, {
       "algorithm" : "MD5",
       "checksumValue" : "8a6f91845a4352283c7b0c6e77b8e4d2"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "386e115aa834fe3a4fec00257757543dda4ef2a4"
     }, {
       "algorithm" : "SHA256",
       "checksumValue" : "acd7be77dec366f3bfd593fad56844d335634fd175b9dee33539bdae13c798b5"
@@ -238,439 +250,37 @@
     "licenseConcluded" : "NOASSERTION",
     "licenseInfoInFiles" : [ "NOASSERTION" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206102",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "06bd6849111ec0fe36bea9e54d2b7175bce91509"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "d5f18852c30da812a4af809d1d1382debe3b8a055a6d99de4063da24c012e652"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "cc01cbc2985dd1f80ed869a0f82656af"
-    } ],
-    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/main.c",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206122",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "c60717205902e68077acba3262733f1374f19098"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "0c1e2db0815019760dde0c457d7ddc5e0fef0bf50988b792f403544a9d9d3aed"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "3d57e78da8490a8aab9afb32c35dd39f"
-    } ],
-    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/Makefile.am",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206107",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "1e64af9b7c1eb943dc2976b6743f81ef90b0dc68f4e1c7db66e96aa4053fa665"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "5bbe8ae7375b296b6b4b9d2d68dd49e6"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "6379995e5bd6dda21e233727121288252085355c"
-    } ],
-    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/dstring.h",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206108",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "996b3361c1ad48d81f7fffcf7cf54e31f8edc17133d156c5d893feb629cb97d9"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "a9d351b1c1a929c52a34fc314c5c5d02"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "9db426f4b614d6a83d7e72e06f4de69dcddd9b91"
-    } ],
-    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/cpiohdr.h",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206089",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "bcb07b27bcd7356d3080288ca5d64fb3b848efc1b54904ba86e2d4e9e91f0ed7"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "aa8ab0db8ad6ca8f489c39eb66c0ab6f"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "eb83aeae54e6dc3be9a18e5e42de3becb04dcce4"
-    } ],
-    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/atlocal.in",
-    "licenseConcluded" : "NOASSERTION",
-    "licenseInfoInFiles" : [ "NOASSERTION" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206105",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "db27936ead6879b9c4f517f25814d7270ff0ecb1b5e65638fc429b4a08d89f68"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "2d7a8bfac7372a538de799a4e6b74db7"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "476a65c42d3b96ae20cff0985f0afe9925f6e0d1"
-    } ],
-    "copyrightText" : "Copyright (C) 1989-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/userspec.c",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206083",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "88903d4b0e357dc9c0eda4b8443eaa88"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "9f59901ea1a9103a7ec55b0c5976f7133475491d"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "6f1018658aa107dd5f5fb6b41ac96cbe0411a08e93250522c2cbc7938734e93d"
-    } ],
-    "copyrightText" : "Copyright (C) 2006-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/symlink-to-stdout.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206084",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "f49e4a0ad137d3ac0bfb95652e6c15c7a35acd612c3a115001542f3100bd056e"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "0f6adf37724c27b9889d4fc5deeadfd9"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "0213579e20d57fa8bd5c3c708b39b8c024da4ee7"
-    } ],
-    "copyrightText" : "Copyright (C) 2007-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/interdir.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206103",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "cf25b3acd9e7a84880e75b9d6bbffc3d"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "b5494a35e2faf288777c0c8cdc8b88987fa8b693"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "2b9ab0b5f0df1ea5531694cb5238e71759b6f5b95be9a5df01e98c22e33973fb"
-    } ],
-    "copyrightText" : "Copyright (C) 1985-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/idcache.c",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206123",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "45e5794f8b293df234dd1dbf1c2c88747e832fb554192750cf1c1e6fd336946a"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "2f2e41a47006e4ae7ce36bf2cdd32b949a5ccf3f"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "214732266cad8ca9568804fc7c2a9af1"
-    } ],
-    "copyrightText" : "NOASSERTION",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/ChangeLog.cvs",
-    "licenseConcluded" : "NOASSERTION",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-2.0-only", "LicenseRef-GPL-3.0-only", "LicenseRef-GPL-1.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206104",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "947df8105c712acc897bc4a300e9f0f1c44427c501da2e77f3915ffe2f06ae3f"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "fa607219344b1a3d27b8e51d3860fa40"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "af6b1eb01fb8b8c3ebc66d6bbac7ecee3bad9aab"
-    } ],
-    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/extern.h",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
     "SPDXID" : "SPDXRef-item10206046",
     "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "3309356082bacef246d42bcbf7677ccc"
+    }, {
       "algorithm" : "SHA1",
       "checksumValue" : "3eb7026fe4c5a7031bd4a2730eec315cb5d00aa1"
     }, {
       "algorithm" : "SHA256",
       "checksumValue" : "815d4bf9dfa832bf08fec19d5ec4a022ee24773c58febb39909a14a75461a74c"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "3309356082bacef246d42bcbf7677ccc"
     } ],
     "copyrightText" : "Copyright (C) 2008-2024 Free Software Foundation, Inc.",
     "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/po/POTFILES.in",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206064",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "410ca25757e2d7155025e4b58042598f77aa8224"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "1786556057d5f4d2f3e96aba2f4bb48d12d4b245308c52b9d1e8406236e29eca"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "7ec2807f96aa0c824be426a6ea6870da"
-    } ],
-    "copyrightText" : "Copyright 2003-2024 Free Software Foundation, Inc.\nCopyright 2021 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/gendocs.sh",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-1.0-or-later", "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206106",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "218eb9a11abd27e99c6d9b8e7d81bce5c5762105"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "f2a911bcfb281da11ac1faaacf7254c636e49277db9ce36145653124bab1ad41"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "d907b714df0b6b9606d83b2ef0abf24c"
-    } ],
-    "copyrightText" : "Copyright (C) 1993-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/defer.h",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206063",
-    "attributionTexts" : [ "This software contains material copyrighted by the Free Software Foundation, Inc. and licensed under Creative Commons Attribution-NoDerivs 3.0 United States License The license text can be found in this document and/or at https://creativecommons.org/licenses/by-nd/3.0/us/legalcode\n\nDisclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You." ],
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "4b86931662dcb00b92dc4f10c3d1f7a45cf45bc7"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "de0c5897f00bb8be07ca343d7bf4a989d045e533cfbc81799871d67c392642d6"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "0ecb3ffd49f7d6d16bad5d0d0d5e24c6"
-    } ],
-    "copyrightText" : "Copyright (C) 2006-2024 Free Software Foundation, Inc.\nCopyright 2020 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/gendocs_template",
-    "licenseComments" : "Besides the FSFAP notice there is the following information in the file:\nThis page is licensed under a <a rel=\"license\"\nhref=\"https://creativecommons.org/licenses/by-nd/3.0/us/\">Creative\nCommons Attribution-NoDerivs 3.0 United States License\nThus we cocnluded additionally CC-BY-ND-3.0-US as license of this file",
-    "licenseConcluded" : "(LicenseRef-CC-BY-ND-3.0-US AND LicenseRef-FSFAP-1de59ea2af4c99a14cf5d5a27e9e2b3d)",
-    "licenseInfoInFiles" : [ "LicenseRef-FSFAP", "LicenseRef-CC-BY-ND-3.0" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206041",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "c9c6a59a025d7e9e5af7ee3128cfec29"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "8b7999c00ece963d2f8978cbc35cbe2776fac7aa"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "ee9046090a8a2a4c0473d4d4e961b8f82f37c73aef81684d57416543cd1e88c6"
-    } ],
-    "copyrightText" : "Copyright (C) 2009-2023 Free Software Foundation",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/pack.m4",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206040",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "a137b03bc20227b624b418cb1371b99c"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "a099a3ed02dcd26330213a96af0aa79b2e433d82"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "b3fedb30527a7c72e15b34cf4fcbd3bdeeb8efbc3834c8a7f1eb72de20994ef8"
-    } ],
-    "copyrightText" : "Copyright (c) 2008 Kaveh Ghazi <ghazi@caip.rutgers.edu>\nCopyright (c) 2017 Reini Urban <rurban@cpan.org>\nCopyright (c) 2019 Sergey Poznyakoff <gray@gnu.org>",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/ax_compile_check_rettype.m4",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later-WITH-Autoconf-exception-50e639853b13670b8f87edced70503ef",
-    "licenseInfoInFiles" : [ "LicenseRef-Autoconf-exception-2.0", "LicenseRef-GPL-3.0-or-later", "LicenseRef-Autoconf-exception", "LicenseRef-Autoconf-exception-macro" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206085",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "76ab274ccb2b5ecdde8096b174c88085"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "d4300403e4e60cb6aa382675a5fa5f3535dc523b"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "c1e65430067cee694a1026014ebc4e7a9ee99eff24edcb0205611ec110e78f18"
-    } ],
-    "copyrightText" : "Copyright (C) 2014-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/symlink-long.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
     "SPDXID" : "SPDXRef-item10206047",
     "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "30040276e7a1cb1e8b2e6a19da3c5772"
+    }, {
       "algorithm" : "SHA1",
       "checksumValue" : "7f95b042c3cb031a030e691c277ae2b6d18116d4"
     }, {
       "algorithm" : "SHA256",
       "checksumValue" : "28129993c39aa16d1502731e62a58a4308c215557769bf4dfd9d2709373e6e8a"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "30040276e7a1cb1e8b2e6a19da3c5772"
     } ],
     "copyrightText" : "NOASSERTION",
     "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/TODO",
     "licenseConcluded" : "NOASSERTION",
     "licenseInfoInFiles" : [ "NOASSERTION" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206072",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "c6460f2e74da6660087804d12179c80457394f34b01b951802b0f8a52b74f6a4"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "e234cf5db0b9ce80556354ee48d9c0214f588ff6"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "28014f456b9647f0ae4c6edb06dd8026"
-    } ],
-    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat05.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206124",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "3d538ca4651c6c452a0fc229fb2c22b3"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "7cdab391d1e01a14133f166e7e81a25970841f94"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "a97be7764688a17bfdd5527fac8f42b81a117c27c4cef28301fbf09f80cc2853"
-    } ],
-    "copyrightText" : "Copyright (C) 2007-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/sysdep.m4",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206042",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "f9f2b1894b8a967515d98f30d4cb5b7a7e5efd83d818c410da359886cc6c70bc"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "885ed03be853a48f78dbb678d7e92c4c"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "6b17442d2e32c9fb2afbb564899c05b3f2630b62"
-    } ],
-    "copyrightText" : "Copyright (C) 2009 Free Software Foundation",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/flushleft.m4",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206079",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "e61a967bfe4f637546bcdefaea6bb2b1acda2418a6bd3849bfca2b68be62f6e0"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "b19673665d225cdc11f6171023e84caa"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "af67e8d09d30c767acc63454eb179e9a1dba3554"
-    } ],
-    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/inout.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206086",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "5d74b84b4f2076dc078ed06e281b9480d9ddd433"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "f69930d3e2167e3122f40529476440877f46382ef811b7016fd479452e873838"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "41c3368a37f6ff452fd4566b01d6dd0b"
-    } ],
-    "copyrightText" : "Copyright (C) 2023-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/linktime01.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206112",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "633866f1b3f8d83c5e83c9206591d46a"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "0fd159eab9c2fe193884086d2472abfbbb953430"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "2cac8803418226c3f4969eb932211be5a0a1bbf9ebfca431e232bc67ab6eb92d"
-    } ],
-    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/copyin.c",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206090",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "21f7bbf2365a89cd0011ae736bcff3fd7e285a4525fc0f6e6fb5609954221207"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "a3b455b8526294f5857cbd35de52a41a"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "4ee001ae806f26f10ca85b4c0e305425addbc030"
-    } ],
-    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/Makefile.am",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206091",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "c6e5b9a1eca55cde803e01dd60ac14d39760963506af3c13b33177469db758c5"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "e38bc183b36d3e56560a47d32068ec95"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "a4fa4e5c591f707f41b41f76da2a4aafd7d3b8b9"
-    } ],
-    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/bootstrap",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
     "SPDXID" : "SPDXRef-item10206048",
     "checksums" : [ {
@@ -702,39 +312,251 @@
     "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.\nCopyright (C) 2003, 2004, 2005, 2006, 2007, 2009, 2010, 2014 Free Software Foundation, Inc.",
     "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/NEWS",
     "licenseConcluded" : "LicenseRef-Permission-Notice-77c5f463fb50fd062af2b309560b6298",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-only", "LicenseRef-scancode-other-permissive", "LicenseRef-FSF" ]
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-only", "LicenseRef-FSF", "LicenseRef-scancode-other-permissive" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206071",
+    "SPDXID" : "SPDXRef-item10206050",
     "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "f43087ad826679af7d4d7e2ee4ea4dfb"
+    }, {
       "algorithm" : "SHA256",
-      "checksumValue" : "13f06edd41d8f8a50ed8428b8b70d70266ff3470367a3495b5d99d7c4d1763d2"
+      "checksumValue" : "ed4c6c798697d81a6ebbe8436b75631541d71f3bac9394ef36f9c2bda0d09bb9"
     }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "f808a6aaab892f4a3e61079f8b5cf9665e4ea7af"
+      "checksumValue" : "cf341baaba4e0e518264255030e028679b6fd931"
+    } ],
+    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/configure.ac",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later", "LicenseRef-GPL-2.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206051",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "567d5934f7e80507bf1e9607603745c8"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "94e7cf99c9d77cac0327e707eb40a97baefd04d2f554ecd7cefa475a851b8f04"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eaf1af551062399e6bdba5462eba92364f311ab6"
+    } ],
+    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/README-alpha",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later", "LicenseRef-GPL-2.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206052",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "39babed796512f485eacf3fb267f0d54"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "63e4d1e3e2fcfd6a9ef1ec4fc6c5a91e156d21e2"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c04be53999e668afca58e843c18412d13df4c2b758e591d56d4c1572909a6f32"
+    } ],
+    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/README",
+    "licenseConcluded" : "LicenseRef-Permission-Notice-77c5f463fb50fd062af2b309560b6298",
+    "licenseInfoInFiles" : [ "LicenseRef-FSF", "LicenseRef-scancode-other-permissive" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206053",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e8c57fcaa8c26df5a4624fd482dd748ad91cedf3"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "358590107f502c714dfbf4c048ac4cc925134c17c0584194c372f728a054b050"
     }, {
       "algorithm" : "MD5",
-      "checksumValue" : "591c5c583dbaa47597e9eb1f3e1febc1"
+      "checksumValue" : "bbb3bf220d3bfba23a8abe759cce1374"
     } ],
-    "copyrightText" : "Copyright (C) 2023-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/linktime.at",
+    "copyrightText" : "Copyright (C) 2006-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/bootstrap.conf",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206076",
+    "SPDXID" : "SPDXRef-item10206055",
     "checksums" : [ {
       "algorithm" : "SHA256",
-      "checksumValue" : "1a8aa2f4802bc45890743073d7826a88713c51b12097f0943749c554483231fd"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "0508df71e028e7a33a8e74d104eff94df741843c"
+      "checksumValue" : "084506d10df37f31b414d389acc8eb27e827275c152d722fd58ed2f6500c8088"
     }, {
       "algorithm" : "MD5",
-      "checksumValue" : "a5510a0e69ffa9fbf7991b50e43c6df6"
+      "checksumValue" : "06f30bf867a8aa20384baf431577aa14"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a607bd4922a044c562c0afa1fb32329e775bb0cc"
     } ],
-    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat01.at",
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/THANKS",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206057",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b1518f0a7c55c68a413d995dab636a1e9419d468"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "48e43f358d6824e4be2fac7874f7d1116c853530a5f37c0d815b030192426beb"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "badb3ce7833dee25e8c1362e4c2816cd"
+    } ],
+    "copyrightText" : "Copyright (C) 1994-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/lib/Makefile.am",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later", "LicenseRef-GPL-2.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206058",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "092e4a979efb51ec524f9f3012bacd4c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c77bf2b6495767275699579f7ab9b521d3b4d5b1"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e518b54d4ac3b1e5522204f19fc6a5ff8efc8832551ecef3f7976a1edfbf56c2"
+    } ],
+    "copyrightText" : "Copyright (C) 2007-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/README-hacking",
+    "licenseConcluded" : "LicenseRef-Permission-Notice-77c5f463fb50fd062af2b309560b6298",
+    "licenseInfoInFiles" : [ "LicenseRef-FSF", "LicenseRef-scancode-other-permissive" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206061",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "8de9e07bd8b240901892a6b804611772"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "00690f5f44f1fdf3406999bebfa073b8b6b93166"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a2253b196b75e0483e88245aa3d81034a345580177bf28d8b08c1241e920d9ab"
+    } ],
+    "copyrightText" : "Copyright 1995--2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/cpio.texi",
+    "licenseComments" : "The information in the file is:\n\nPermission is granted to copy, distribute and/or modify this document\nunder the terms of the GNU Free Documentation License, Version 1.2 or\nany later version published by the Free Software Foundation; with no\nInvariant Sections, with the Front-Cover texts being ``A GNU Manual'',\nand with the Back-Cover Texts as in (a) below. A copy of the license\nis included in the section entitled ``GNU Free Documentation License''.\n\n(a) The FSF's Back-Cover Text is: ``You have freedom to copy and modify\nthis GNU Manual, like GNU software. Copies published by the Free\nSoftware Foundation raise funds for GNU development.''\n\nThus there are Front and Back Cover Texts specified. According to https://spdx.org/licenses/GFDL-1.2-invariants-or-later.html we concluded GFDL-1.2-invariants+ as license of this file.\nThe information was retrieved on 16th of Dec. 2022",
+    "licenseConcluded" : "LicenseRef-GFDL-1.2-invariants-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GFDL-1.2-or-later", "LicenseRef-GFDL-1.1-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206062",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "c39ae9398d868186de1cd2a1669eba24"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a36cee4a7ffee05697fbc31945e2c80cb20752e5"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "56f2126bbc1856e64420f732dd7582b9f786af11450763b15bdab11f06381459"
+    } ],
+    "copyrightText" : "Copyright 2014-2024 Free Software Foundation, Inc.\nCopyright 2014--2023 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/cpio.1",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206063",
+    "attributionTexts" : [ "This software contains material copyrighted by the Free Software Foundation, Inc. and licensed under Creative Commons Attribution-NoDerivs 3.0 United States License The license text can be found in this document and/or at https://creativecommons.org/licenses/by-nd/3.0/us/legalcode\n\nDisclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You." ],
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4b86931662dcb00b92dc4f10c3d1f7a45cf45bc7"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "de0c5897f00bb8be07ca343d7bf4a989d045e533cfbc81799871d67c392642d6"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "0ecb3ffd49f7d6d16bad5d0d0d5e24c6"
+    } ],
+    "copyrightText" : "Copyright (C) 2006-2024 Free Software Foundation, Inc.\nCopyright 2020 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/gendocs_template",
+    "licenseComments" : "Besides the FSFAP notice there is the following information in the file:\nThis page is licensed under a <a rel=\"license\"\nhref=\"https://creativecommons.org/licenses/by-nd/3.0/us/\">Creative\nCommons Attribution-NoDerivs 3.0 United States License\nThus we cocnluded additionally CC-BY-ND-3.0-US as license of this file",
+    "licenseConcluded" : "(LicenseRef-CC-BY-ND-3.0-US AND LicenseRef-FSFAP-1de59ea2af4c99a14cf5d5a27e9e2b3d)",
+    "licenseInfoInFiles" : [ "LicenseRef-FSFAP", "LicenseRef-CC-BY-ND-3.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206064",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "410ca25757e2d7155025e4b58042598f77aa8224"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "7ec2807f96aa0c824be426a6ea6870da"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1786556057d5f4d2f3e96aba2f4bb48d12d4b245308c52b9d1e8406236e29eca"
+    } ],
+    "copyrightText" : "Copyright 2003-2024 Free Software Foundation, Inc.\nCopyright 2021 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/gendocs.sh",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later", "LicenseRef-GPL-1.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206065",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "51b2a875786af38e2f95b5a25d5e5f58ad06314a"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "bab3dc08f9ca4f590e55fd6a06071c06"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "491f96ba71030562ae78db35f0d8bda17469a3c5b84ed98b5461f2acc3b1f35a"
+    } ],
+    "copyrightText" : "Copyright 2014-2024 Free Software Foundation, Inc.\nCopyright 2014 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/mt.1",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206066",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "e27de816d9a95a0bc1c2051824a13180"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6d6f62de2b6134dddaab4d12f7852b4f71083ef0"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0c6066044c0c89462ad6c741d59f6608fa78475fbe926f17a4ac3e1820dff33e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/.gitignore",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206067",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b7747e6a0a1e8c260595593e4026eaaa04981d49"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "5510a5c8e0c080c76f9612e2c43e7f8542611444d929fb7ced5591099f6f1851"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "2da04bae3ac33b2999f3207acdd0b829"
+    } ],
+    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/Makefile.am",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206068",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "f27defe1e96c2e1ecd4e0c9be8967949"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "842745cb706f8f2126506f544492f7a80dbe29b3"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "fc82ca8b6fdb18d4e3e85cfd8ab58d1bcd3f1b29abe782895abd91d64763f8e7"
+    } ],
+    "copyrightText" : "Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/COPYING",
+    "licenseComments" : "The file contains the text of the GPL. The text is licensed under:\n\nEveryone is permitted to copy and distribute verbatim copies\nof this license document, but changing it is not allowed.\n\n\nThus we concluded License-of-GNU-Licenses",
+    "licenseConcluded" : "LicenseRef-License-of-GNU-Licenses",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-only" ]
   }, {
     "SPDXID" : "SPDXRef-item10206070",
     "checksums" : [ {
@@ -752,51 +574,99 @@
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206078",
+    "SPDXID" : "SPDXRef-item10206071",
     "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "df4e2036a8c2b00f936d2b3d10327877"
-    }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "52c426f8aa923e755818358780ed3a80b8f08e97"
+      "checksumValue" : "f808a6aaab892f4a3e61079f8b5cf9665e4ea7af"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "591c5c583dbaa47597e9eb1f3e1febc1"
     }, {
       "algorithm" : "SHA256",
-      "checksumValue" : "a39e9a5470783144c4bfce2a896c2a6138fc0cdbaed57047443d92c52d01c1cf"
+      "checksumValue" : "13f06edd41d8f8a50ed8428b8b70d70266ff3470367a3495b5d99d7c4d1763d2"
+    } ],
+    "copyrightText" : "Copyright (C) 2023-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/linktime.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206072",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c6460f2e74da6660087804d12179c80457394f34b01b951802b0f8a52b74f6a4"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "28014f456b9647f0ae4c6edb06dd8026"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e234cf5db0b9ce80556354ee48d9c0214f588ff6"
     } ],
     "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/CVE-2019-14866.at",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat05.at",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206111",
+    "SPDXID" : "SPDXRef-item10206073",
     "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1a507a035785a6dc7af023adaf9052c493061b1a347b153143615208ca09566a"
+    }, {
       "algorithm" : "MD5",
-      "checksumValue" : "49d537ce5cc9bd6043d0cc636f5ca9ff"
+      "checksumValue" : "98a6cae03a61a5b0d7ee4da10b1b3065"
     }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "f95413e83cf19982296e77ad30e3d8baabc78d26"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "8aec6196e63b99f84d5ca4f5dbae197d5f81b7c4e33fd194526d8b879e178d8e"
+      "checksumValue" : "9edebab5f21da99be490458ad5504d92c5d42dcc"
     } ],
-    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/global.c",
+    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat03.at",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206110",
+    "SPDXID" : "SPDXRef-item10206074",
     "checksums" : [ {
       "algorithm" : "MD5",
-      "checksumValue" : "b487fb8c987ffaa746628bd431a2e07b"
+      "checksumValue" : "0b86077f6931e409e6440be1f7af57c7"
     }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "9275aadc90edc862ac3d0de4887a5e85abef475d"
+      "checksumValue" : "660a9e647daf93a816ce5b5ef9d27751f34abb1a"
     }, {
       "algorithm" : "SHA256",
-      "checksumValue" : "0d5cd9a0845d885584aef854b0cac9d3da561044c392a69361573e728fca00ec"
+      "checksumValue" : "56a9bb7eb8db2e2a935c6579310922b926ecb1d944d675ebf2786514243b98f7"
     } ],
-    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/tar.c",
+    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/testsuite.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206075",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8d876b2ab4d5333a363c450d05eb1ce1ada2b30f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b1f4dd7cf2328c5b5df3f8285f0f840b"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "40bed0475b9f27ad8509a8a028e92b3eed61881d799161a297f3482983e97097"
+    } ],
+    "copyrightText" : "Copyright (C) 2006-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/symlink.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206076",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1a8aa2f4802bc45890743073d7826a88713c51b12097f0943749c554483231fd"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a5510a0e69ffa9fbf7991b50e43c6df6"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0508df71e028e7a33a8e74d104eff94df741843c"
+    } ],
+    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat01.at",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
@@ -813,6 +683,230 @@
     } ],
     "copyrightText" : "Copyright (C) 2014-2024 Free Software Foundation, Inc.",
     "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/symlink-bad-length.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206078",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "52c426f8aa923e755818358780ed3a80b8f08e97"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "a39e9a5470783144c4bfce2a896c2a6138fc0cdbaed57047443d92c52d01c1cf"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "df4e2036a8c2b00f936d2b3d10327877"
+    } ],
+    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/CVE-2019-14866.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206079",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "b19673665d225cdc11f6171023e84caa"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "af67e8d09d30c767acc63454eb179e9a1dba3554"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "e61a967bfe4f637546bcdefaea6bb2b1acda2418a6bd3849bfca2b68be62f6e0"
+    } ],
+    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/inout.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206080",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "0c814e260bf22c5abe66280bec8f9b5c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c000c1b6374d01056360f0b77b2539114cfed2bc"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0fcffa696d7ff136802074786b503d3df3893db9602a84ba0d6f9911f2fc1b2f"
+    } ],
+    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat02.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206081",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "850e49808f2e1d78608b29270058e5e96c6ce2f3819543c7062e429e09e12e3c"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "2db73975ee062d3db5be437d087efa33"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "29129cfa76db62866a2918062af85533a8e5e885"
+    } ],
+    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat04.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206082",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "217b22bed58880eda1206676c9c549199bb48ca581513d7e7c5c0184857ec26f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "7b75dd04b4a22892749353cb76bb38d5"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ee3232deeef7b7a78360c5be543c62c13e516cdd"
+    } ],
+    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/big-block-size.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206083",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "88903d4b0e357dc9c0eda4b8443eaa88"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9f59901ea1a9103a7ec55b0c5976f7133475491d"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "6f1018658aa107dd5f5fb6b41ac96cbe0411a08e93250522c2cbc7938734e93d"
+    } ],
+    "copyrightText" : "Copyright (C) 2006-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/symlink-to-stdout.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206084",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "0f6adf37724c27b9889d4fc5deeadfd9"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0213579e20d57fa8bd5c3c708b39b8c024da4ee7"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f49e4a0ad137d3ac0bfb95652e6c15c7a35acd612c3a115001542f3100bd056e"
+    } ],
+    "copyrightText" : "Copyright (C) 2007-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/interdir.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206085",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "76ab274ccb2b5ecdde8096b174c88085"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d4300403e4e60cb6aa382675a5fa5f3535dc523b"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c1e65430067cee694a1026014ebc4e7a9ee99eff24edcb0205611ec110e78f18"
+    } ],
+    "copyrightText" : "Copyright (C) 2014-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/symlink-long.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206086",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5d74b84b4f2076dc078ed06e281b9480d9ddd433"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f69930d3e2167e3122f40529476440877f46382ef811b7016fd479452e873838"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "41c3368a37f6ff452fd4566b01d6dd0b"
+    } ],
+    "copyrightText" : "Copyright (C) 2023-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/linktime01.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206087",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "e80eb0ecfd248480eb0fb53cf5a0eda3"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b970ee099a6cd5332559a682167213e144cf751e"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "467ed6874d072462504774eda10c81dbfb38cd56590d24e6e6df55698a81c601"
+    } ],
+    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/version.at",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206088",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3292434d9f4a1011a831e41823ce5a1b865c880c"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "41832bfe77a77839dffb103c4bb63f5fc96b3186d8645948fef2a0a2694a9147"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "7fd1eb0ba2b310114653b87dfe429757"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/.gitignore",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206089",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "eb83aeae54e6dc3be9a18e5e42de3becb04dcce4"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "bcb07b27bcd7356d3080288ca5d64fb3b848efc1b54904ba86e2d4e9e91f0ed7"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "aa8ab0db8ad6ca8f489c39eb66c0ab6f"
+    } ],
+    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/atlocal.in",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206090",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4ee001ae806f26f10ca85b4c0e305425addbc030"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "21f7bbf2365a89cd0011ae736bcff3fd7e285a4525fc0f6e6fb5609954221207"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a3b455b8526294f5857cbd35de52a41a"
+    } ],
+    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/Makefile.am",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206091",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a4fa4e5c591f707f41b41f76da2a4aafd7d3b8b9"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "e38bc183b36d3e56560a47d32068ec95"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "c6e5b9a1eca55cde803e01dd60ac14d39760963506af3c13b33177469db758c5"
+    } ],
+    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/bootstrap",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
@@ -834,139 +928,43 @@
   }, {
     "SPDXID" : "SPDXRef-item10206093",
     "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8639fb670a91ae03fc39a329b97268ceb716a96f"
+    }, {
       "algorithm" : "SHA256",
       "checksumValue" : "4133cd944cbee12388110197eedcf9503fc5ec37980935e5a22f5472b0fb7025"
     }, {
       "algorithm" : "MD5",
       "checksumValue" : "2acdcec371f415a186daf85237ea02b7"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "8639fb670a91ae03fc39a329b97268ceb716a96f"
     } ],
     "copyrightText" : "Copyright (C) 2007-2024 Free Software Foundation, Inc.",
     "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/mingw.m4",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206057",
+    "SPDXID" : "SPDXRef-item10206095",
     "checksums" : [ {
       "algorithm" : "SHA1",
-      "checksumValue" : "b1518f0a7c55c68a413d995dab636a1e9419d468"
+      "checksumValue" : "0d89eaae79d72f148c12955d32dc56446706870b"
     }, {
       "algorithm" : "SHA256",
-      "checksumValue" : "48e43f358d6824e4be2fac7874f7d1116c853530a5f37c0d815b030192426beb"
+      "checksumValue" : "2bdb2f1399d55180cba85a7d0367c906323ffceb47f245a14fcc2d882d677f88"
     }, {
       "algorithm" : "MD5",
-      "checksumValue" : "badb3ce7833dee25e8c1362e4c2816cd"
+      "checksumValue" : "0583746edc79f2f953cd584ed8f8c0ad"
     } ],
-    "copyrightText" : "Copyright (C) 1994-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/lib/Makefile.am",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-2.0-or-later", "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206050",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "cf341baaba4e0e518264255030e028679b6fd931"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "f43087ad826679af7d4d7e2ee4ea4dfb"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "ed4c6c798697d81a6ebbe8436b75631541d71f3bac9394ef36f9c2bda0d09bb9"
-    } ],
-    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/configure.ac",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-2.0-or-later", "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206073",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "1a507a035785a6dc7af023adaf9052c493061b1a347b153143615208ca09566a"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "98a6cae03a61a5b0d7ee4da10b1b3065"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "9edebab5f21da99be490458ad5504d92c5d42dcc"
-    } ],
-    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat03.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206055",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "084506d10df37f31b414d389acc8eb27e827275c152d722fd58ed2f6500c8088"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "06f30bf867a8aa20384baf431577aa14"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "a607bd4922a044c562c0afa1fb32329e775bb0cc"
-    } ],
-    "copyrightText" : "NOASSERTION",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/THANKS",
-    "licenseConcluded" : "NOASSERTION",
-    "licenseInfoInFiles" : [ "NOASSERTION" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206099",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "4d0380e3e1a3e5bcd3d28204997a30a0af76175b"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "62cec69e8635ba5fffdf392f611abcd2f92a564d74ef7137afcbd1572db2e50f"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "a3a6e520bd190e598775252ee9f008c7"
-    } ],
-    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/util.c",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206052",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "63e4d1e3e2fcfd6a9ef1ec4fc6c5a91e156d21e2"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "c04be53999e668afca58e843c18412d13df4c2b758e591d56d4c1572909a6f32"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "39babed796512f485eacf3fb267f0d54"
-    } ],
-    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/README",
-    "licenseConcluded" : "LicenseRef-Permission-Notice-77c5f463fb50fd062af2b309560b6298",
-    "licenseInfoInFiles" : [ "LicenseRef-scancode-other-permissive", "LicenseRef-FSF" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206117",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "df10b177b8daf124fd521ca9a7faa5c381479b4f"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "50c91b3936043be9d39dfb1fa2a609b5a456a9a3b34303af505ebcd923e1cbcd"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "07f3b36eb303e0c8c8595076b306a104"
-    } ],
-    "copyrightText" : "Copyright (C) 1991-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/filetypes.h",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc. Written by David J. MacKenzie.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/tar.h",
+    "licenseConcluded" : "LicenseRef-LGPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-LGPL-2.0-or-later", "LicenseRef-LGPL-3.0-or-later", "LicenseRef-scancode-other-copyleft" ]
   }, {
     "SPDXID" : "SPDXRef-item10206096",
     "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "cff62bad94d84274ecb4cb138e781afcf74237057c0fd9d5fed244de52df73a9"
-    }, {
       "algorithm" : "SHA1",
       "checksumValue" : "a097ec9f02ce9b1e3ea7ceddd2f83335b0265320"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "cff62bad94d84274ecb4cb138e781afcf74237057c0fd9d5fed244de52df73a9"
     }, {
       "algorithm" : "MD5",
       "checksumValue" : "667e116d930cf151b95c98a0ca2733e8"
@@ -976,211 +974,307 @@
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206118",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "6cd95046a50864c224e6896e9ad8d11d"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "3825e44e2cd81c4b5d9291e89333826f4a76ce0e"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "457acb0c28d7c411f2e180d2c0b1bd0a3cce7d7e3d330b3d4f96e7aa02594ed1"
-    } ],
-    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/copyout.c",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206095",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "0583746edc79f2f953cd584ed8f8c0ad"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "0d89eaae79d72f148c12955d32dc56446706870b"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "2bdb2f1399d55180cba85a7d0367c906323ffceb47f245a14fcc2d882d677f88"
-    } ],
-    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc. Written by David J. MacKenzie.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/tar.h",
-    "licenseConcluded" : "LicenseRef-LGPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-LGPL-3.0-or-later", "LicenseRef-scancode-other-copyleft", "LicenseRef-LGPL-2.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206074",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "56a9bb7eb8db2e2a935c6579310922b926ecb1d944d675ebf2786514243b98f7"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "0b86077f6931e409e6440be1f7af57c7"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "660a9e647daf93a816ce5b5ef9d27751f34abb1a"
-    } ],
-    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/testsuite.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206051",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "94e7cf99c9d77cac0327e707eb40a97baefd04d2f554ecd7cefa475a851b8f04"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "567d5934f7e80507bf1e9607603745c8"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "eaf1af551062399e6bdba5462eba92364f311ab6"
-    } ],
-    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/README-alpha",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-2.0-or-later", "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206075",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "40bed0475b9f27ad8509a8a028e92b3eed61881d799161a297f3482983e97097"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "b1f4dd7cf2328c5b5df3f8285f0f840b"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "8d876b2ab4d5333a363c450d05eb1ce1ada2b30f"
-    } ],
-    "copyrightText" : "Copyright (C) 2006-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/symlink.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206098",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "d391499cdd62254a9d49b1c8b0d90c8e4e6dd021cadc96379f971e0a67c539c0"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "293e733541fef05ce29a8c97b19a5d35"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "cb6910c1ed4a73b9d213796aaf97758d8110b57f"
-    } ],
-    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/dstring.c",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206114",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "e14031a892a95cd3f54e39ed26372235"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "b9d3ce23d53cc2d131b03d59872118ad8936ccaa"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "561c5f2841d6d4247a86a0fffc4cbf6a2b33f0f6f8c9f39d95bc74c0f2e2f4c8"
-    } ],
-    "copyrightText" : "NOASSERTION",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/safe-stat.h",
-    "licenseConcluded" : "NOASSERTION",
-    "licenseInfoInFiles" : [ "NOASSERTION" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206037",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "2cd75790c2f597069a97bae8639a30619538a619"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "c2de468f1af2884741c087ca1ab8d9b60c9a82dfb1cd179f63177d6c8446d896"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "1b640d276d2032d329ca6b15bc53550e"
-    } ],
-    "copyrightText" : "NOASSERTION",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/AUTHORS",
-    "licenseConcluded" : "NOASSERTION",
-    "licenseInfoInFiles" : [ "NOASSERTION" ]
-  }, {
     "SPDXID" : "SPDXRef-item10206097",
     "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2bb0630d2653da6e36acf2660817f3190be1ae1d"
+    }, {
       "algorithm" : "SHA256",
       "checksumValue" : "ee65d708f22790659b0eb6040479c6394876202804c7e8af7acd918b7d621821"
     }, {
       "algorithm" : "MD5",
       "checksumValue" : "ec5d2584136e5e76b852f024cb6f0ab8"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "2bb0630d2653da6e36acf2660817f3190be1ae1d"
     } ],
     "copyrightText" : "Copyright (C) 1985-2024 Free Software Foundation, Inc.",
     "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/filemode.c",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206119",
+    "SPDXID" : "SPDXRef-item10206098",
     "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "c763cfdf4e9cfab1bf7b81fcbea5ba7e"
-    }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "a28e5c8b7502e187147744a1bb5f7ad6921dcefa"
+      "checksumValue" : "cb6910c1ed4a73b9d213796aaf97758d8110b57f"
     }, {
       "algorithm" : "SHA256",
-      "checksumValue" : "320559c9c50c77bbb7c2ce17eac25855076d5adc44426108971d6c974ba7655b"
+      "checksumValue" : "d391499cdd62254a9d49b1c8b0d90c8e4e6dd021cadc96379f971e0a67c539c0"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "293e733541fef05ce29a8c97b19a5d35"
     } ],
     "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/makepath.c",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/dstring.c",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206099",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "62cec69e8635ba5fffdf392f611abcd2f92a564d74ef7137afcbd1572db2e50f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a3a6e520bd190e598775252ee9f008c7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4d0380e3e1a3e5bcd3d28204997a30a0af76175b"
+    } ],
+    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/util.c",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206100",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "60cc1295f4ada7a2adb3c8f08dd4e333"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b9f89da699991f2063ac9ad9ebe146c16b9fcbe3"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "b2ddc926435a50841fe3bc225e9ecb0be06a5c80f6772eccf2f43c7e4a2d96b1"
+    } ],
+    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/copypass.c",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206101",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "596e2cf8f2838742a481408244399f152351ad67"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "9d9847426e45a8fb1d7a098e9f220db488e9624cf8b069fbe7498e508d492ad7"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "10c71ea264ed7cfe1d3e8fe46e436d18"
+    } ],
+    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/cpio.h",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206102",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "06bd6849111ec0fe36bea9e54d2b7175bce91509"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "d5f18852c30da812a4af809d1d1382debe3b8a055a6d99de4063da24c012e652"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "cc01cbc2985dd1f80ed869a0f82656af"
+    } ],
+    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/main.c",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206103",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b5494a35e2faf288777c0c8cdc8b88987fa8b693"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2b9ab0b5f0df1ea5531694cb5238e71759b6f5b95be9a5df01e98c22e33973fb"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "cf25b3acd9e7a84880e75b9d6bbffc3d"
+    } ],
+    "copyrightText" : "Copyright (C) 1985-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/idcache.c",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206104",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "af6b1eb01fb8b8c3ebc66d6bbac7ecee3bad9aab"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "947df8105c712acc897bc4a300e9f0f1c44427c501da2e77f3915ffe2f06ae3f"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "fa607219344b1a3d27b8e51d3860fa40"
+    } ],
+    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/extern.h",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206105",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "2d7a8bfac7372a538de799a4e6b74db7"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "476a65c42d3b96ae20cff0985f0afe9925f6e0d1"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "db27936ead6879b9c4f517f25814d7270ff0ecb1b5e65638fc429b4a08d89f68"
+    } ],
+    "copyrightText" : "Copyright (C) 1989-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/userspec.c",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206106",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "d907b714df0b6b9606d83b2ef0abf24c"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "218eb9a11abd27e99c6d9b8e7d81bce5c5762105"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "f2a911bcfb281da11ac1faaacf7254c636e49277db9ce36145653124bab1ad41"
+    } ],
+    "copyrightText" : "Copyright (C) 1993-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/defer.h",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206107",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6379995e5bd6dda21e233727121288252085355c"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "1e64af9b7c1eb943dc2976b6743f81ef90b0dc68f4e1c7db66e96aa4053fa665"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "5bbe8ae7375b296b6b4b9d2d68dd49e6"
+    } ],
+    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/dstring.h",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206108",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9db426f4b614d6a83d7e72e06f4de69dcddd9b91"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "996b3361c1ad48d81f7fffcf7cf54e31f8edc17133d156c5d893feb629cb97d9"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "a9d351b1c1a929c52a34fc314c5c5d02"
+    } ],
+    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/cpiohdr.h",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206109",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "2385824f6ac848f65f0ccba847062c32"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "61931cbcadd5bc720179102d6d5e97729a58c895"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "dbf2fba8c29074bcc60e17321b06cb2aed18ae57fb4f8cd678a88f2621c52a66"
+    } ],
+    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/tarhdr.h",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206110",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "0d5cd9a0845d885584aef854b0cac9d3da561044c392a69361573e728fca00ec"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "b487fb8c987ffaa746628bd431a2e07b"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9275aadc90edc862ac3d0de4887a5e85abef475d"
+    } ],
+    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/tar.c",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206111",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "8aec6196e63b99f84d5ca4f5dbae197d5f81b7c4e33fd194526d8b879e178d8e"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "49d537ce5cc9bd6043d0cc636f5ca9ff"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f95413e83cf19982296e77ad30e3d8baabc78d26"
+    } ],
+    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/global.c",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206112",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "633866f1b3f8d83c5e83c9206591d46a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "0fd159eab9c2fe193884086d2472abfbbb953430"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "2cac8803418226c3f4969eb932211be5a0a1bbf9ebfca431e232bc67ab6eb92d"
+    } ],
+    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/copyin.c",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
     "SPDXID" : "SPDXRef-item10206113",
     "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "64fa5c3a2f541fb81d6eef3f3b4a1138c2104c70"
+      "algorithm" : "MD5",
+      "checksumValue" : "e40d0c714ece05c09decde4d91ef6189"
     }, {
       "algorithm" : "SHA256",
       "checksumValue" : "43959ab7a6601a4d55a96f94a30da3847b866e5a53af87e9ad355f2363b5e663"
     }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "e40d0c714ece05c09decde4d91ef6189"
+      "algorithm" : "SHA1",
+      "checksumValue" : "64fa5c3a2f541fb81d6eef3f3b4a1138c2104c70"
     } ],
     "copyrightText" : "Copyright (C) 1991-2024 Free Software Foundation, Inc.",
     "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/mt.c",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
+    "SPDXID" : "SPDXRef-item10206114",
+    "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "561c5f2841d6d4247a86a0fffc4cbf6a2b33f0f6f8c9f39d95bc74c0f2e2f4c8"
+    }, {
+      "algorithm" : "MD5",
+      "checksumValue" : "e14031a892a95cd3f54e39ed26372235"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "b9d3ce23d53cc2d131b03d59872118ad8936ccaa"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/safe-stat.h",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
     "SPDXID" : "SPDXRef-item10206115",
     "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "ae750a2947ed4d95e5fc6561e3d42e5afdc92fb9ddc35b05038fd011e2641bfa"
+    }, {
       "algorithm" : "MD5",
       "checksumValue" : "4af13c07cef4c51a377c43e83ce14ab4"
     }, {
       "algorithm" : "SHA1",
       "checksumValue" : "77bcbe99137c6cf32c3b60e2f4a3a8694cf1d76a"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "ae750a2947ed4d95e5fc6561e3d42e5afdc92fb9ddc35b05038fd011e2641bfa"
     } ],
     "copyrightText" : "Copyright (C) 2005-2024 Free Software Foundation, Inc.",
     "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/fatal.c",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206100",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "b2ddc926435a50841fe3bc225e9ecb0be06a5c80f6772eccf2f43c7e4a2d96b1"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "60cc1295f4ada7a2adb3c8f08dd4e333"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "b9f89da699991f2063ac9ad9ebe146c16b9fcbe3"
-    } ],
-    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/copypass.c",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
@@ -1200,440 +1294,138 @@
     "licenseConcluded" : "NOASSERTION",
     "licenseInfoInFiles" : [ "NOASSERTION" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206067",
+    "SPDXID" : "SPDXRef-item10206117",
     "checksums" : [ {
+      "algorithm" : "SHA256",
+      "checksumValue" : "50c91b3936043be9d39dfb1fa2a609b5a456a9a3b34303af505ebcd923e1cbcd"
+    }, {
       "algorithm" : "MD5",
-      "checksumValue" : "2da04bae3ac33b2999f3207acdd0b829"
+      "checksumValue" : "07f3b36eb303e0c8c8595076b306a104"
     }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "b7747e6a0a1e8c260595593e4026eaaa04981d49"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "5510a5c8e0c080c76f9612e2c43e7f8542611444d929fb7ced5591099f6f1851"
+      "checksumValue" : "df10b177b8daf124fd521ca9a7faa5c381479b4f"
     } ],
-    "copyrightText" : "Copyright (C) 2004-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/Makefile.am",
+    "copyrightText" : "Copyright (C) 1991-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/filetypes.h",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206039",
+    "SPDXID" : "SPDXRef-item10206118",
     "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "6cd95046a50864c224e6896e9ad8d11d"
+    }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "289c930b656824a78db4cfd31877de3f71bd6a87"
+      "checksumValue" : "3825e44e2cd81c4b5d9291e89333826f4a76ce0e"
     }, {
       "algorithm" : "SHA256",
-      "checksumValue" : "d8e34fd2cdcf104b34a5914f999d3824cf0b9525f7e603ae274c3d70040780ad"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "a7c3e6fd118f7229f97aa254445ad50a"
+      "checksumValue" : "457acb0c28d7c411f2e180d2c0b1bd0a3cce7d7e3d330b3d4f96e7aa02594ed1"
     } ],
-    "copyrightText" : "Copyright (C) 2016 Free Software Foundation",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/quoting.m4",
+    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/copyout.c",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206065",
+    "SPDXID" : "SPDXRef-item10206119",
     "checksums" : [ {
       "algorithm" : "SHA256",
-      "checksumValue" : "491f96ba71030562ae78db35f0d8bda17469a3c5b84ed98b5461f2acc3b1f35a"
+      "checksumValue" : "320559c9c50c77bbb7c2ce17eac25855076d5adc44426108971d6c974ba7655b"
     }, {
       "algorithm" : "MD5",
-      "checksumValue" : "bab3dc08f9ca4f590e55fd6a06071c06"
+      "checksumValue" : "c763cfdf4e9cfab1bf7b81fcbea5ba7e"
     }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "51b2a875786af38e2f95b5a25d5e5f58ad06314a"
+      "checksumValue" : "a28e5c8b7502e187147744a1bb5f7ad6921dcefa"
     } ],
-    "copyrightText" : "Copyright 2014-2024 Free Software Foundation, Inc.\nCopyright 2014 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/mt.1",
+    "copyrightText" : "Copyright (C) 1990-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/makepath.c",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206066",
+    "SPDXID" : "SPDXRef-item10206120",
     "checksums" : [ {
       "algorithm" : "SHA256",
-      "checksumValue" : "0c6066044c0c89462ad6c741d59f6608fa78475fbe926f17a4ac3e1820dff33e"
+      "checksumValue" : "95ee67d9c869f3756f8191643df2659be9a2ecd2da9a6c6bb206aebbf13e0a95"
     }, {
       "algorithm" : "MD5",
-      "checksumValue" : "e27de816d9a95a0bc1c2051824a13180"
+      "checksumValue" : "d1fc17309c83709aad1eb59faf3d1c6d"
     }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "6d6f62de2b6134dddaab4d12f7852b4f71083ef0"
+      "checksumValue" : "8673aec8eae81f6817d0a2ea08fb501b76bff8da"
+    } ],
+    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/Makefile.am",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
+  }, {
+    "SPDXID" : "SPDXRef-item10206121",
+    "checksums" : [ {
+      "algorithm" : "MD5",
+      "checksumValue" : "32ff8666db47ccdc708bae469710dc8a"
+    }, {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e123f7938891c820bfc49a98a61c9405e040a252"
+    }, {
+      "algorithm" : "SHA256",
+      "checksumValue" : "84f6d4dc6ef40cde83509c54a6f8e058690c3a38562d09e16448a0a14b286b73"
     } ],
     "copyrightText" : "NOASSERTION",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/.gitignore",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/.gitignore",
     "licenseConcluded" : "NOASSERTION",
     "licenseInfoInFiles" : [ "NOASSERTION" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206061",
+    "SPDXID" : "SPDXRef-item10206122",
     "checksums" : [ {
       "algorithm" : "SHA1",
-      "checksumValue" : "00690f5f44f1fdf3406999bebfa073b8b6b93166"
+      "checksumValue" : "c60717205902e68077acba3262733f1374f19098"
     }, {
       "algorithm" : "SHA256",
-      "checksumValue" : "a2253b196b75e0483e88245aa3d81034a345580177bf28d8b08c1241e920d9ab"
+      "checksumValue" : "0c1e2db0815019760dde0c457d7ddc5e0fef0bf50988b792f403544a9d9d3aed"
     }, {
       "algorithm" : "MD5",
-      "checksumValue" : "8de9e07bd8b240901892a6b804611772"
+      "checksumValue" : "3d57e78da8490a8aab9afb32c35dd39f"
     } ],
-    "copyrightText" : "Copyright 1995--2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/cpio.texi",
-    "licenseComments" : "The information in the file is:\n\nPermission is granted to copy, distribute and/or modify this document\nunder the terms of the GNU Free Documentation License, Version 1.2 or\nany later version published by the Free Software Foundation; with no\nInvariant Sections, with the Front-Cover texts being ``A GNU Manual'',\nand with the Back-Cover Texts as in (a) below. A copy of the license\nis included in the section entitled ``GNU Free Documentation License''.\n\n(a) The FSF's Back-Cover Text is: ``You have freedom to copy and modify\nthis GNU Manual, like GNU software. Copies published by the Free\nSoftware Foundation raise funds for GNU development.''\n\nThus there are Front and Back Cover Texts specified. According to https://spdx.org/licenses/GFDL-1.2-invariants-or-later.html we concluded GFDL-1.2-invariants+ as license of this file.\nThe information was retrieved on 16th of Dec. 2022",
-    "licenseConcluded" : "LicenseRef-GFDL-1.2-invariants-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GFDL-1.1-or-later", "LicenseRef-GFDL-1.2-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206082",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "217b22bed58880eda1206676c9c549199bb48ca581513d7e7c5c0184857ec26f"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "7b75dd04b4a22892749353cb76bb38d5"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "ee3232deeef7b7a78360c5be543c62c13e516cdd"
-    } ],
-    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/big-block-size.at",
+    "copyrightText" : "Copyright (C) 2003-2024 Free Software Foundation, Inc.",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/Makefile.am",
     "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
     "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206062",
+    "SPDXID" : "SPDXRef-item10206123",
     "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "56f2126bbc1856e64420f732dd7582b9f786af11450763b15bdab11f06381459"
-    }, {
       "algorithm" : "MD5",
-      "checksumValue" : "c39ae9398d868186de1cd2a1669eba24"
+      "checksumValue" : "214732266cad8ca9568804fc7c2a9af1"
     }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "a36cee4a7ffee05697fbc31945e2c80cb20752e5"
-    } ],
-    "copyrightText" : "Copyright 2014-2024 Free Software Foundation, Inc.\nCopyright 2014--2023 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/doc/cpio.1",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206043",
-    "checksums" : [ {
+      "checksumValue" : "2f2e41a47006e4ae7ce36bf2cdd32b949a5ccf3f"
+    }, {
       "algorithm" : "SHA256",
-      "checksumValue" : "5966fd3b985dbbd1e026423bc508b568e74f84219b6709e84c049fc0bdd90266"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "498be33a1b674e62206acb437d112b4d"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "aa232d648ed63e06791c2286becda42fe338a0c4"
+      "checksumValue" : "45e5794f8b293df234dd1dbf1c2c88747e832fb554192750cf1c1e6fd336946a"
     } ],
     "copyrightText" : "NOASSERTION",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/am/.gitignore",
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/ChangeLog.cvs",
     "licenseConcluded" : "NOASSERTION",
-    "licenseInfoInFiles" : [ "NOASSERTION" ]
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-2.0-only", "LicenseRef-GPL-1.0-or-later", "LicenseRef-GPL-3.0-only" ]
   }, {
-    "SPDXID" : "SPDXRef-item10206101",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "596e2cf8f2838742a481408244399f152351ad67"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "10c71ea264ed7cfe1d3e8fe46e436d18"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "9d9847426e45a8fb1d7a098e9f220db488e9624cf8b069fbe7498e508d492ad7"
-    } ],
-    "copyrightText" : "Copyright (C) 1992-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/src/cpio.h",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206080",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "c000c1b6374d01056360f0b77b2539114cfed2bc"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "0fcffa696d7ff136802074786b503d3df3893db9602a84ba0d6f9911f2fc1b2f"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "0c814e260bf22c5abe66280bec8f9b5c"
-    } ],
-    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat02.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206068",
+    "SPDXID" : "SPDXRef-item10206124",
     "checksums" : [ {
       "algorithm" : "SHA256",
-      "checksumValue" : "fc82ca8b6fdb18d4e3e85cfd8ab58d1bcd3f1b29abe782895abd91d64763f8e7"
+      "checksumValue" : "a97be7764688a17bfdd5527fac8f42b81a117c27c4cef28301fbf09f80cc2853"
     }, {
       "algorithm" : "MD5",
-      "checksumValue" : "f27defe1e96c2e1ecd4e0c9be8967949"
+      "checksumValue" : "3d538ca4651c6c452a0fc229fb2c22b3"
     }, {
       "algorithm" : "SHA1",
-      "checksumValue" : "842745cb706f8f2126506f544492f7a80dbe29b3"
-    } ],
-    "copyrightText" : "Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/COPYING",
-    "licenseComments" : "The file contains the text of the GPL. The text is licensed under:\n\nEveryone is permitted to copy and distribute verbatim copies\nof this license document, but changing it is not allowed.\n\n\nThus we concluded License-of-GNU-Licenses",
-    "licenseConcluded" : "LicenseRef-License-of-GNU-Licenses",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-only" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206081",
-    "checksums" : [ {
-      "algorithm" : "MD5",
-      "checksumValue" : "2db73975ee062d3db5be437d087efa33"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "29129cfa76db62866a2918062af85533a8e5e885"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "850e49808f2e1d78608b29270058e5e96c6ce2f3819543c7062e429e09e12e3c"
-    } ],
-    "copyrightText" : "Copyright (C) 2009-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/tests/setstat04.at",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206053",
-    "checksums" : [ {
-      "algorithm" : "SHA1",
-      "checksumValue" : "e8c57fcaa8c26df5a4624fd482dd748ad91cedf3"
-    }, {
-      "algorithm" : "SHA256",
-      "checksumValue" : "358590107f502c714dfbf4c048ac4cc925134c17c0584194c372f728a054b050"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "bbb3bf220d3bfba23a8abe759cce1374"
-    } ],
-    "copyrightText" : "Copyright (C) 2006-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/bootstrap.conf",
-    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
-    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
-  }, {
-    "SPDXID" : "SPDXRef-item10206058",
-    "checksums" : [ {
-      "algorithm" : "SHA256",
-      "checksumValue" : "e518b54d4ac3b1e5522204f19fc6a5ff8efc8832551ecef3f7976a1edfbf56c2"
-    }, {
-      "algorithm" : "MD5",
-      "checksumValue" : "092e4a979efb51ec524f9f3012bacd4c"
-    }, {
-      "algorithm" : "SHA1",
-      "checksumValue" : "c77bf2b6495767275699579f7ab9b521d3b4d5b1"
+      "checksumValue" : "7cdab391d1e01a14133f166e7e81a25970841f94"
     } ],
     "copyrightText" : "Copyright (C) 2007-2024 Free Software Foundation, Inc.",
-    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/README-hacking",
-    "licenseConcluded" : "LicenseRef-Permission-Notice-77c5f463fb50fd062af2b309560b6298",
-    "licenseInfoInFiles" : [ "LicenseRef-scancode-other-permissive", "LicenseRef-FSF" ]
+    "fileName" : "cpio-2.15.tar.gz/cpio-2.15.tar/cpio-2.15/sysdep.m4",
+    "licenseConcluded" : "LicenseRef-GPL-3.0-or-later",
+    "licenseInfoInFiles" : [ "LicenseRef-GPL-3.0-or-later" ]
   } ],
   "relationships" : [ {
-    "spdxElementId" : "SPDXRef-DOCUMENT",
-    "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-upload2362"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206107"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206122"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206064"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206115"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206048"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206057"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206093"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206091"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206096"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206113"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206090"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206092"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206119"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206062"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206102"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206046"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206104"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206118"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206045"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206109"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206123"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206077"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206082"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206086"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206110"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206052"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206097"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206058"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206079"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206111"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206099"
-  }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
     "relatedSpdxElement" : "SPDXRef-item10206037"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206061"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206053"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206103"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206112"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206117"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206120"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206087"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206084"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206078"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206114"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206066"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206065"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206121"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206068"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206042"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206098"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206124"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206070"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206075"
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
@@ -1645,51 +1437,11 @@
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206088"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206083"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206081"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
     "relatedSpdxElement" : "SPDXRef-item10206041"
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206105"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206089"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206076"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206055"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206067"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206073"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206074"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206116"
+    "relatedSpdxElement" : "SPDXRef-item10206042"
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
@@ -1697,23 +1449,19 @@
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206045"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206046"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
     "relatedSpdxElement" : "SPDXRef-item10206047"
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206071"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206095"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206100"
-  }, {
-    "spdxElementId" : "SPDXRef-upload2362",
-    "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206085"
+    "relatedSpdxElement" : "SPDXRef-item10206048"
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
@@ -1725,11 +1473,35 @@
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206080"
+    "relatedSpdxElement" : "SPDXRef-item10206051"
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206108"
+    "relatedSpdxElement" : "SPDXRef-item10206052"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206053"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206055"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206057"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206058"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206061"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206062"
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
@@ -1737,7 +1509,143 @@
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206051"
+    "relatedSpdxElement" : "SPDXRef-item10206064"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206065"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206066"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206067"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206068"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206070"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206071"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206072"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206073"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206074"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206075"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206076"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206077"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206078"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206079"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206080"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206081"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206082"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206083"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206084"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206085"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206086"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206087"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206088"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206089"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206090"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206091"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206092"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206093"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206095"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206096"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206097"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206098"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206099"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206100"
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
@@ -1745,10 +1653,98 @@
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206102"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206103"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206104"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206105"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
     "relatedSpdxElement" : "SPDXRef-item10206106"
   }, {
     "spdxElementId" : "SPDXRef-upload2362",
     "relationshipType" : "CONTAINS",
-    "relatedSpdxElement" : "SPDXRef-item10206072"
+    "relatedSpdxElement" : "SPDXRef-item10206107"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206108"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206109"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206110"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206111"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206112"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206113"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206114"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206115"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206116"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206117"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206118"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206119"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206120"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206121"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206122"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206123"
+  }, {
+    "spdxElementId" : "SPDXRef-upload2362",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-item10206124"
+  }, {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-upload2362"
   } ]
 }
