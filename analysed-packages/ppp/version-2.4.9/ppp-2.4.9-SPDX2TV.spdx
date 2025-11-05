@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_ppp-2.4.9.tar.gz_1761842334.spdx
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_ppp-2.4.9.tar.gz_1762338651.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -37,12 +37,25 @@ PackageChecksum: SHA1: 56ba143f331f6436efa3a1d41c75691c828833ba
 PackageChecksum: SHA256: f938b35eccde533ea800b15a7445b2f1137da7f88e32a16898d02dee8adc058d
 PackageChecksum: MD5: c88153ae3d16ae114152cd3c15c7301d
 PackageLicenseConcluded: NOASSERTION
-PackageLicenseDeclared: LicenseRef-PPP-Copyright
+PackageLicenseDeclared: NOASSERTION
 PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
  - nomos ("4.4.0.51".1e52cb)
  - monk ("4.4.0.51".1e52cb)
  - ojo ("4.4.0.51".1e52cb)
- - scancode ("4.4.0.51".1e52cb) </text>
+ - scancode ("4.4.0.51".1e52cb) 
+Additional information found in: README
+******************************************************************************************
+
+Copyrights:
+***********
+
+All of the code can be freely used and redistributed. The individual
+source files each have their own copyright and permission notice.
+Pppd, pppstats and pppdump are under BSD-style notices. Some of the
+pppd plugins are GPL'd. Chat is public domain.
+
+******************************************************************************************
+</text>
 PackageLicenseInfoFromFiles: NOASSERTION
 PackageCopyrightText: NOASSERTION
 
@@ -55,18 +68,52 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload3512
 
 ##File
 
-FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/README
-SPDXID: SPDXRef-item16155440
-FileChecksum: SHA1: 1c47206c94a4c8eb728de349666a5b2332f79c55
-FileChecksum: SHA256: c5591c60b8cd1f1250dbea691fbb1ed162b754134a8cfd462930626e5f13a72b
-FileChecksum: MD5: 6f64175fd49641c4ca231238b341eeef
-LicenseConcluded: LicenseRef-PPP-Copyright
-LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/pppd/md5.h
+SPDXID: SPDXRef-item16155491
+FileChecksum: SHA1: 7c008601faa7d5e5af27eea011a1439c990a16f9
+FileChecksum: SHA256: abd3c39b23119924bdd1b29f9e95959868a67f652a11f691ee5033b9c31c5425
+FileChecksum: MD5: b83cfbd4161a239539200a84ff062385
+LicenseConcluded: LicenseRef-RSA-MD-f351336692a3613a12b45b03db5c347f
+LicenseInfoInFile: LicenseRef-RSA-MD
+FileCopyrightText: <text> Copyright (C) 1990, RSA Data Security, Inc. All rights reserved. </text>
+FileAttributionText: <text> This software includes software derived from the RSA Data Security, Inc. MD5 Message-Digest Algorithm. </text>
+
+##File
+
+FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/pppd/md5.c
+SPDXID: SPDXRef-item16155499
+FileChecksum: SHA1: f592b31aa79e2290a73163b93723767bb1cb6908
+FileChecksum: SHA256: 53e42a0c520f219461542c28de004cdad4b91f961a836110ee00bd4a97aedd42
+FileChecksum: MD5: b34bd3dd67943d604903ca2844a1c15e
+LicenseConcluded: LicenseRef-RSA-MD-f351336692a3613a12b45b03db5c347f
+LicenseInfoInFile: LicenseRef-RSA-MD
+FileCopyrightText: <text> Copyright (C) 1990, RSA Data Security, Inc. All rights reserved. </text>
+FileAttributionText: <text> This software includes software derived from the RSA Data Security, Inc. MD5 Message-Digest Algorithm. </text>
+
+##File
+
+FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/pppdump/bsd-comp.c
+SPDXID: SPDXRef-item16155667
+FileChecksum: SHA1: ecc3dd189f594e84546c265ae69591efc21e575f
+FileChecksum: SHA256: d759ec16875a69c2d5529f8cb3c040fef8fe38d26f70457aadb73c91b72746c8
+FileChecksum: MD5: 7a8edd58b76f02567c8b0706559604db
+LicenseConcluded: LicenseRef-BSD-4-Clause-UC-b4ab7b68ca132d66538459955e97bba5
+LicenseComments: <text> This is the original Berkeley University 4-clause license, which is now referred to as BSD-4-Clause-UC. Since the acknowledgement clause has been withdrawn by Berkeley University and no additional copyright holder is mentioned, no acknowledgement is provided. </text>
+LicenseInfoInFile: LicenseRef-BSD-4-Clause-UC
+FileCopyrightText: <text> Copyright (c) 1985, 1986 The Regents of the University of California. All rights reserved. </text>
+
+##File
+
+FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/modules/bsd-comp.c
+SPDXID: SPDXRef-item16155679
+FileChecksum: SHA1: d55634ab13f3af45e66abcbd201962d6c0b71317
+FileChecksum: SHA256: 14853ca5e0b47a8cf5ccdf47b5e5747f591ecc2725dbc6c2fa95534d9da512df
+FileChecksum: MD5: 8007edd314ba2ffa083f4c2a53759b98
+LicenseConcluded: LicenseRef-BSD-4-Clause-UC-2cee008e4657a41b73e27d6e9c852246
+LicenseComments: <text> This is the original Berkeley University 4-clause license, which is now referred to as BSD-4-Clause-UC. Since the acknowledgement clause has been withdrawn by Berkeley University and no additional copyright holder is mentioned, no acknowledgement is provided. </text>
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-GPL
-LicenseInfoInFile: LicenseRef-Public-domain
-LicenseInfoInFile: LicenseRef-scancode-public-domain
-FileCopyrightText: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-4-Clause-UC
+FileCopyrightText: <text> Copyright (c) 1985, 1986 The Regents of the University of California. All rights reserved. </text>
 
 ##File
 
@@ -563,7 +610,7 @@ SPDXID: SPDXRef-item16155513
 FileChecksum: SHA1: 027d54254f573cb45f7efbb817fba528b8117153
 FileChecksum: SHA256: b98dc547e12f539e13681a8faf675e4676841c48f2398e7afbe2c0e001dde612
 FileChecksum: MD5: afbe86ffbfaf3fbf4e2e07d540be9f4c
-LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaime
+LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaimer
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras-new
 FileCopyrightText: <text> Copyright (c) 1995 Eric Rosenquist. All rights reserved.
@@ -576,7 +623,7 @@ SPDXID: SPDXRef-item16155524
 FileChecksum: SHA1: 91c544d9f4a6bad8649e35bd59a57e51ca72edfb
 FileChecksum: SHA256: db70d4f2b0e46732fd3ba326f37b2709e1e010e047c454e8640db87e08e3d232
 FileChecksum: MD5: caec1f4f1485f41ee7800e3530311521
-LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaime
+LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaimer
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras-new
 FileCopyrightText: <text> Copyright (c) 1995 Eric Rosenquist. All rights reserved. </text>
@@ -588,7 +635,7 @@ SPDXID: SPDXRef-item16155519
 FileChecksum: SHA1: 7e64eee5df5fb2656b0b07837fb38c15153ab425
 FileChecksum: SHA256: a56af40e9310d4bf593e7ec1c7f481fb62b679cc7a997bc95cb36b24ef7bbe08
 FileChecksum: MD5: 2953e2447985515e6a5a7a21a5d6f28a
-LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaime AND LicenseRef-BSD-Source-Code-Attribution-HPND-disclaime
+LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaimer AND LicenseRef-BSD-Source-Code-Attribution-HPND-disclaimer
 LicenseInfoInFile: LicenseRef-BSD-3-Clause-Attribution
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras-new
@@ -604,7 +651,7 @@ SPDXID: SPDXRef-item16155520
 FileChecksum: SHA1: 83a59793ec252679da320e6fb398ecae030546d4
 FileChecksum: SHA256: 66aeacbd52c29a12d25983b1b8b21c422fc78926f0d6a56c77f0f793b85ad64f
 FileChecksum: MD5: 6e3021ef4784f618e5283f383ccd1dbd
-LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaime
+LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaimer
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras-new
 FileCopyrightText: <text> Copyright (c) 1995 Eric Rosenquist. All rights reserved. </text>
@@ -616,7 +663,7 @@ SPDXID: SPDXRef-item16155498
 FileChecksum: SHA1: 74895c8a04d01f8a1f2528c58991f2ada864e649
 FileChecksum: SHA256: 106d67ccb03d9635806d0548536995ef56586c2df2f7b3b2ff136fe71e8641eb
 FileChecksum: MD5: 3286c9b92485568c3b825410b5327b4a
-LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaime
+LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaimer
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras-new
 FileCopyrightText: <text> Copyright (c) Beniamino Galvani 2005 All rights reserved. Jan Just Keijser 2006-2019 All rights reserved. </text>
@@ -628,7 +675,7 @@ SPDXID: SPDXRef-item16155502
 FileChecksum: SHA1: 67f5b634f990e922a71a6cd3704b5a0b26d7937f
 FileChecksum: SHA256: 3bac0fa9583ec506d28ca4da7f1c04d725b89184d2ff09c82c5f877848b7c733
 FileChecksum: MD5: d9ba75c779a74a9d6fb459a93cb1fcfd
-LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaime
+LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaimer
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras-new
 FileCopyrightText: <text> Copyright (c) 2002 Google, Inc. All rights reserved. </text>
@@ -640,7 +687,7 @@ SPDXID: SPDXRef-item16155490
 FileChecksum: SHA1: 95357f133103e258e2206d1ad112e42acfdffea5
 FileChecksum: SHA256: 4b6306b639b9c32c1412abaed754f76c589203c5eaccf94876451f596811aa62
 FileChecksum: MD5: 75a059fbefc26f10c91eaada5c9cc99d
-LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaime
+LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaimer
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras-new
 FileCopyrightText: <text> Copyright (c) 1995 Eric Rosenquist. All rights reserved. </text>
@@ -652,7 +699,7 @@ SPDXID: SPDXRef-item16155483
 FileChecksum: SHA1: 33a694e14df528352d6ace198178f26ec2e62545
 FileChecksum: SHA256: 24648cfa9cc1ead952e6b2fd9053604ced9a9ca9dbdc78bf4a2c178f5e695e5d
 FileChecksum: MD5: ac4f4c3f17b79b1cc208b746e7ba9c60
-LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaime
+LicenseConcluded: LicenseRef-BSD-3-Clause-HPND-disclaimer
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras-new
 FileCopyrightText: <text> Copyright (c) Beniamino Galvani 2005 All rights reserved. Jan Just Keijser 2006-2019 All rights reserved. </text>
@@ -705,19 +752,6 @@ FileCopyrightText: <text> Copyright (C) 2002 Roaring Penguin Software Inc.
 Copyright (C) 1995,1996,1997 Lars Fenneberg
 Copyright 1992 Livingston Enterprises, Inc.
 Copyright 1992,1993, 1994,1995 The Regents of the University of Michigan and Merit Network, Inc. All Rights Reserved </text>
-
-##File
-
-FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/modules/bsd-comp.c
-SPDXID: SPDXRef-item16155679
-FileChecksum: SHA1: d55634ab13f3af45e66abcbd201962d6c0b71317
-FileChecksum: SHA256: 14853ca5e0b47a8cf5ccdf47b5e5747f591ecc2725dbc6c2fa95534d9da512df
-FileChecksum: MD5: 8007edd314ba2ffa083f4c2a53759b98
-LicenseConcluded: LicenseRef-BSD-4-Clause-UC-2cee008e4657a41b73e27d6e9c852246
-LicenseComments: <text> This is the original Berkeley University 4-clause license, which is now referred to as BSD-4-Clause-UC. Since the acknowledgement clause has been withdrawn by Berkeley University, no acknowledgement is provided. </text>
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-BSD-4-Clause-UC
-FileCopyrightText: <text> Copyright (c) 1985, 1986 The Regents of the University of California. All rights reserved. </text>
 
 ##File
 
@@ -782,28 +816,6 @@ FileAttributionText: <text> This software was developed by the University of Cal
 
 ##File
 
-FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/pppd/md5.h
-SPDXID: SPDXRef-item16155491
-FileChecksum: SHA1: 7c008601faa7d5e5af27eea011a1439c990a16f9
-FileChecksum: SHA256: abd3c39b23119924bdd1b29f9e95959868a67f652a11f691ee5033b9c31c5425
-FileChecksum: MD5: b83cfbd4161a239539200a84ff062385
-LicenseConcluded: LicenseRef-RSA-MD-f351336692a3613a12b45b03db5c347f
-LicenseInfoInFile: LicenseRef-RSA-MD
-FileCopyrightText: <text> Copyright (C) 1990, RSA Data Security, Inc. All rights reserved. </text>
-
-##File
-
-FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/pppd/md5.c
-SPDXID: SPDXRef-item16155499
-FileChecksum: SHA1: f592b31aa79e2290a73163b93723767bb1cb6908
-FileChecksum: SHA256: 53e42a0c520f219461542c28de004cdad4b91f961a836110ee00bd4a97aedd42
-FileChecksum: MD5: b34bd3dd67943d604903ca2844a1c15e
-LicenseConcluded: LicenseRef-RSA-MD-f351336692a3613a12b45b03db5c347f
-LicenseInfoInFile: LicenseRef-RSA-MD
-FileCopyrightText: <text> Copyright (C) 1990, RSA Data Security, Inc. All rights reserved. </text>
-
-##File
-
 FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/pppd/eui64.h
 SPDXID: SPDXRef-item16155481
 FileChecksum: SHA1: f886deba6c8bfe4d99d588be13d116275fe4910f
@@ -829,18 +841,6 @@ LicenseInfoInFile: LicenseRef-scancode-paul-mackerras-binary
 LicenseInfoInFile: LicenseRef-BSD-Attribution-HPND-disclaimer
 FileCopyrightText: <text> Copyright (c) 1999 Tommi Komulainen. All rights reserved. </text>
 FileAttributionText: <text> "This product includes software developed by Tommi Komulainen <Tommi.Komulainen@iki.fi>". </text>
-
-##File
-
-FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/pppdump/bsd-comp.c
-SPDXID: SPDXRef-item16155667
-FileChecksum: SHA1: ecc3dd189f594e84546c265ae69591efc21e575f
-FileChecksum: SHA256: d759ec16875a69c2d5529f8cb3c040fef8fe38d26f70457aadb73c91b72746c8
-FileChecksum: MD5: 7a8edd58b76f02567c8b0706559604db
-LicenseConcluded: LicenseRef-BSD-4-Clause-UC-b4ab7b68ca132d66538459955e97bba5
-LicenseComments: <text> This is the original Berkeley University 4-clause license, which is now referred to as BSD-4-Clause-UC. Since the acknowledgement clause has been withdrawn by Berkeley University, no acknowledgement is provided. </text>
-LicenseInfoInFile: LicenseRef-BSD-4-Clause-UC
-FileCopyrightText: <text> Copyright (c) 1985, 1986 The Regents of the University of California. All rights reserved. </text>
 
 ##File
 
@@ -1264,7 +1264,7 @@ SPDXID: SPDXRef-item16155527
 FileChecksum: SHA1: 9dd86623423f94aa8614b980ee57e96bc037b72d
 FileChecksum: SHA256: 09a9bb189e5188621463262c9476dc8d5d125194e34fc4c711ae57b7e618c6fe
 FileChecksum: MD5: 174b14e64dd5e84d178ef9b5742da142
-LicenseConcluded: LicenseRef-BSD-Attribution-HPND-disclaimer-282cc1a57e7aa058dc18c4540ca9e09a AND LicenseRef-BSD-Source-Code-Attribution-HPND-disclaime
+LicenseConcluded: LicenseRef-BSD-Attribution-HPND-disclaimer-282cc1a57e7aa058dc18c4540ca9e09a AND LicenseRef-BSD-Source-Code-Attribution-HPND-disclaimer
 LicenseInfoInFile: LicenseRef-BSD-3-Clause-Attribution
 LicenseInfoInFile: LicenseRef-scancode-cmu-computing-services
 LicenseInfoInFile: LicenseRef-scancode-paul-mackerras
@@ -2037,6 +2037,21 @@ FileChecksum: SHA256: af294f9d920bfc977036eefd708aa9f55d4e8fad65dbe810be2bf17668
 FileChecksum: MD5: 67a18b72336202c0ad5e68efb48be31c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: ppp-2.4.9.tar.gz/ppp-2.4.9.tar/ppp-2.4.9/README
+SPDXID: SPDXRef-item16155440
+FileChecksum: SHA1: 1c47206c94a4c8eb728de349666a5b2332f79c55
+FileChecksum: SHA256: c5591c60b8cd1f1250dbea691fbb1ed162b754134a8cfd462930626e5f13a72b
+FileChecksum: MD5: 6f64175fd49641c4ca231238b341eeef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-GPL
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
 FileCopyrightText: NOASSERTION
 
 ##File
@@ -3337,14 +3352,95 @@ express Statement of Purpose.
     this CC0 or use of the Work.
  </text>
 
+  
 
+LicenseID: LicenseRef-RSA-MD-f351336692a3613a12b45b03db5c347f
+LicenseName: RSA Message-Digest License
+ExtractedText: <text> License to copy and use this software is granted provided that  
+it is identified as the "RSA Data Security, Inc. MD5 Message-  
+Digest Algorithm" in all material mentioning or referencing this  
+software or this function.  
 
-LicenseID: LicenseRef-PPP-Copyright
-LicenseName: PPP Copyright
-ExtractedText: <text> All of the code can be freely used and redistributed. The individual
-source files each have their own copyright and permission notice.
-Pppd, pppstats and pppdump are under BSD-style notices. Some of the
-pppd plugins are GPL'd. Chat is public domain. </text>
+License is also granted to make and use derivative works  
+provided that such works are identified as "derived from the RSA  
+Data Security, Inc. MD5 Message-Digest Algorithm" in all  
+material mentioning or referencing the derived work.  
+
+RSA Data Security, Inc. makes no representations concerning  
+either the merchantability of this software or the suitability  
+of this software for any particular purpose. It is provided "as  
+is" without express or implied warranty of any kind.  
+
+These notices must be retained in any copies of any part of this  
+documentation and/or software.   </text>
+
+  
+
+LicenseID: LicenseRef-BSD-4-Clause-UC-b4ab7b68ca132d66538459955e97bba5
+LicenseName: BSD-4-Clause (University of California-Specific)
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this software
+must display the following acknowledgement:
+This product includes software developed by the University of
+California, Berkeley and its contributors.
+4. Neither the name of the University nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-4-Clause-UC-2cee008e4657a41b73e27d6e9c852246
+LicenseName: BSD-4-Clause (University of California-Specific)
+ExtractedText: <text> This code is derived from software contributed to Berkeley by
+James A. Woods, derived from original work by Spencer Thomas
+and Joseph Orost.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this software
+must display the following acknowledgement:
+This product includes software developed by the University of
+California, Berkeley and its contributors.
+4. Neither the name of the University nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE. </text>
 
   
 
@@ -3945,8 +4041,8 @@ OR MODIFICATIONS. </text>
 
 
 
-LicenseID: LicenseRef-BSD-3-Clause-HPND-disclaime
-LicenseName: BSD-3-Clause WITH HPND-disclaimer
+LicenseID: LicenseRef-BSD-3-Clause-HPND-disclaimer
+LicenseName: BSD-3-Clause with HPND-disclaimer
 ExtractedText: <text> Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
 are met:
@@ -3973,7 +4069,7 @@ OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. </text>
 
 
 
-LicenseID: LicenseRef-BSD-Source-Code-Attribution-HPND-disclaime
+LicenseID: LicenseRef-BSD-Source-Code-Attribution-HPND-disclaimer
 LicenseName: BSD Source Code with Attribution and HPND disclaimer
 ExtractedText: <text> Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -4015,42 +4111,6 @@ Roaring Penguin Software Inc..
 Roaring Penguin Software Inc. makes no representations about the
 suitability of this software for any purpose. It is provided "as is"
 without express or implied warranty. </text>
-
-  
-
-LicenseID: LicenseRef-BSD-4-Clause-UC-2cee008e4657a41b73e27d6e9c852246
-LicenseName: BSD-4-Clause (University of California-Specific)
-ExtractedText: <text> This code is derived from software contributed to Berkeley by
-James A. Woods, derived from original work by Spencer Thomas
-and Joseph Orost.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-1. Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-3. All advertising materials mentioning features or use of this software
-must display the following acknowledgement:
-This product includes software developed by the University of
-California, Berkeley and its contributors.
-4. Neither the name of the University nor the names of its contributors
-may be used to endorse or promote products derived from this software
-without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE. </text>
 
 
   
@@ -4164,28 +4224,6 @@ That's all there is to it!
 
   
 
-LicenseID: LicenseRef-RSA-MD-f351336692a3613a12b45b03db5c347f
-LicenseName: RSA Message-Digest License
-ExtractedText: <text> License to copy and use this software is granted provided that  
-it is identified as the "RSA Data Security, Inc. MD5 Message-  
-Digest Algorithm" in all material mentioning or referencing this  
-software or this function.  
-
-License is also granted to make and use derivative works  
-provided that such works are identified as "derived from the RSA  
-Data Security, Inc. MD5 Message-Digest Algorithm" in all  
-material mentioning or referencing the derived work.  
-
-RSA Data Security, Inc. makes no representations concerning  
-either the merchantability of this software or the suitability  
-of this software for any particular purpose. It is provided "as  
-is" without express or implied warranty of any kind.  
-
-These notices must be retained in any copies of any part of this  
-documentation and/or software.   </text>
-
-  
-
 LicenseID: LicenseRef-BSD-Attribution-HPND-disclaimer-2cb46117e1cc90a258efb4168052c9e6
 LicenseName: BSD with Attribution and HPND disclaimer
 ExtractedText: <text> Redistribution and use in source and binary forms, with or without
@@ -4216,38 +4254,6 @@ SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
 AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
 OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. </text>
-
-  
-
-LicenseID: LicenseRef-BSD-4-Clause-UC-b4ab7b68ca132d66538459955e97bba5
-LicenseName: BSD-4-Clause (University of California-Specific)
-ExtractedText: <text> Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-1. Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-3. All advertising materials mentioning features or use of this software
-must display the following acknowledgement:
-This product includes software developed by the University of
-California, Berkeley and its contributors.
-4. Neither the name of the University nor the names of its contributors
-may be used to endorse or promote products derived from this software
-without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE. </text>
 
 
 
