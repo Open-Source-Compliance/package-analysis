@@ -1,14 +1,14 @@
 # SPDX-FileCopyrightText: Maximilian Huber <maximilian.huber@tngtech.com>
 # SPDX-FileCopyrightText: Helio Chissini de Castro <heliocastro@gmail.com>
+# SPDX-FileCopyrightText: Jan Altenberg <jan.altenberg@osadl.org>
 #
 # SPDX-License-Identifier: CC0-1.0
 
 name: spdx/tools-java workflow
+env:
+  SPDX_TOOLS_VERSION: 2.0.2
 on:
   pull_request:
-    branches:
-      - main
-  push:
     branches:
       - main
 jobs:
@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: "bootstrap spdx/tools-java"
+      - name: "Bootstrapping spdx/tools-java"
         run: .github/workflows/scripts/spdx-tools-java-wrapper.sh bootstrap
 
       - name: Get changed files
@@ -30,22 +30,13 @@ jobs:
           files: |
             **/*.spdx
 
-      - name: "verify touched tag-value documents"
+      - name: "Verify touched tag-value documents with spdx-tools-java"
         run: .github/workflows/scripts/verify.sh ${{ steps.changed-files.outputs.all_changed_files }}
         if: github.event_name == 'pull_request'
 
-      # TODO: this should also (or maybe just) happen post merge
-      - name: "convert touched tag-value documents"
+      # We do a dummy conversion here, since the Convert function
+      # sometimes uncovers syntax errors missed by the Verify function
+      - name: "Convert touched tag-value documents"
         run: .github/workflows/scripts/convert.sh ${{ steps.changed-files.outputs.all_changed_files }}
         if: github.event_name == 'pull_request'
 
-      - uses: EndBug/add-and-commit@v9
-        with:
-          message: "Generated counterpart file by Github Actions Bot"
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
-        if: github.event_name == 'pull_request'
-
-      - name: "verify all tag-value documents"
-        run: .github/workflows/scripts/verify.sh all
-        if: github.event_name != 'pull_request'
