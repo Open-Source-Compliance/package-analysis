@@ -1,10 +1,10 @@
 ## Download Location
 
-https://infraroot.at/pub/mtd/mtd-utils-2.2.1.tar.bz2
+https://github.com/sigma-star/mtd-utils/archive/refs/tags/v2.2.1.tar.gz
 
 ## Package URL (purl)
 
-pkg:generic/mtd-utils@2.2.1?download_url=https://infraroot.at/pub/mtd/mtd-utils-2.2.1.tar.bz2
+pkg:github/sigma-star/mtd-utils@v2.2.1
 
 ## Creator
 
