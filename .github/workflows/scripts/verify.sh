@@ -13,11 +13,19 @@ GITHUB_STEP_SUMMARY="${GITHUB_STEP_SUMMARY:-/dev/stdout}"
 
 verify_one() {
     local spdx="$1"
+    local temporary_spdx=""
 
     local verificationCacheFile=".verifications/${spdx}.verified"
 
     if sha1sum -c "$verificationCacheFile" &>/dev/null; then
         return
+    fi
+
+    if [[ "$spdx" == *.gz ]]; then
+        >&2 echo "Unzipping $spdx"
+        gunzip -fk $spdx
+        spdx=${spdx%.*}
+        temporary_spdx=${spdx}
     fi
 
     >&2 echo "Verify $spdx"
@@ -32,6 +40,11 @@ verify_one() {
         GITHUB_SHA="${GITHUB_SHA:-..}"
 
         echo "* [$spdx]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/$spdx)"
+    fi
+
+    if [ -f "${temporary_spdx}" ]; then
+        >&2 echo "Deleting temporary file ${temporary_spdx}"
+	rm ${temporary_spdx}
     fi
 }
 

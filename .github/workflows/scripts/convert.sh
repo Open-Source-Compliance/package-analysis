@@ -3,6 +3,7 @@
 # SPDX-FileCopyrightText: Maximilian Huber <maximilian.huber@tngtech.com>
 # SPDX-FileCopyrightText: Sebastian Schuberth <sschuberth@gmail.com>
 # SPDX-FileCopyrightText: Helio Chissini de Castro <heliocastro@gmail.com>
+# SPDX-FileCopyrightText: Jan Altenberg <jan.altenberg@osadl.org>
 #
 # SPDX-License-Identifier: CC0-1.0
 
@@ -13,11 +14,19 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 convert_one() {
     local spdx="$1"
     local spdx_timestamp="$(git log -1 --pretty="format:%ci" "$spdx")"
+    local temporary_spdx=""
 
     local json yaml rdf
     json="${spdx/-SPDX2TV/}.json"
     yaml="${spdx/-SPDX2TV/}.yaml"
     rdf="${spdx/-SPDX2TV/}.rdf.xml"
+
+    if [[ "$spdx" == *.gz ]]; then
+        >&2 echo "Unzipping $spdx"
+        gunzip -fk $spdx
+        spdx=${spdx%.*}
+        temporary_spdx=$spdx
+    fi
 
     for out in $json $yaml $rdf; do
         if [[ -f "$out" ]]; then
@@ -34,8 +43,20 @@ convert_one() {
         fi
         >&2 echo "Convert '$spdx' to '$out'"
         "${SCRIPT_DIR}/spdx-tools-java-wrapper.sh" Convert "$spdx" "$out" 1>&2;
-        git add "$out"
+        if test -n "$(find "$out" -size +50M)"
+        then
+            >&2 echo "$out exceeds threshold (50MB), compressing it..."
+            gzip -f "$out"
+            git add "${out}.gz"
+        else
+            git add "$out"
+        fi
     done
+
+    if [ -f "$temporary_spdx" ]; then
+        >&2 echo "Deleting temporary file $temporary_spdx"
+        rm $temporary_spdx
+    fi
 }
 
 convert_many() {
