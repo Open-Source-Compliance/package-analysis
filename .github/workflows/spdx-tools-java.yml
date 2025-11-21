@@ -29,6 +29,11 @@ jobs:
         with:
           files: |
             **/*.spdx
+            **/*.spdx.gz
+
+      - name: "Check if file size is below 50MB"
+        run: .github/workflows/scripts/check_file_size.sh ${{ steps.changed-files.outputs.all_changed_files }}
+        if: github.event_name == 'pull_request'
 
       - name: "Verify touched tag-value documents with spdx-tools-java"
         run: .github/workflows/scripts/verify.sh ${{ steps.changed-files.outputs.all_changed_files }}
