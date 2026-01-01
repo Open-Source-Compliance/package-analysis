@@ -1,10 +1,10 @@
 ## Download Location
 
-https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/v2.28.9.tar.gz
+https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/v3.2.1.tar.gz
 
 ## Package URL (purl)
 
-pkg:github/Mbed-TLS/mbedtls@v2.28.9
+pkg:github/Mbed-TLS/mbedtls@v3.2.1
 
 ## Creator
 
