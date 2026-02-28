@@ -1,10 +1,10 @@
 ## Download Location
 
-https://github.com/boostorg/boost/archive/refs/tags/boost-1.83.0.tar.gz
+https://sourceforge.net/projects/boost/files/boost/1.83.0/boost_1_83_0.tar.gz/download
 
 ## Package URL (purl)
 
-pkg:github.com/boostorg/boost@1.83.0
+pkg:generic/boost@1_83_0?download_url=https://sourceforge.net/projects/boost/files/boost/1.83.0/boost_1_83_0.tar.gz/download
 
 ## Creator
 
