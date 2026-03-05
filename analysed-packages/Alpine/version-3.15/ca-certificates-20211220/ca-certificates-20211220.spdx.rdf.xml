@@ -2,12 +2,46 @@
     xmlns:spdx="http://spdx.org/rdf/terms#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:SpdxDocument rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-DOCUMENT">
+    <spdx:creationInfo>
+      <spdx:CreationInfo>
+        <spdx:created>2022-04-12T15:25:23Z</spdx:created>
+        <spdx:licenseListVersion>2.6</spdx:licenseListVersion>
+        <rdfs:comment>This document was created using license information and a generator from Fossology.
+It is the license and copyright analysis of ca-certificates 20211220 as it is used in the Alpine base image.
+It is not the original package since it contains patches</rdfs:comment>
+        <spdx:creator>Person: Oliver Fendt</spdx:creator>
+        <spdx:creator>Tool: spdx2</spdx:creator>
+      </spdx:CreationInfo>
+    </spdx:creationInfo>
     <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl">
-        <spdx:licenseId>LicenseRef-curl</spdx:licenseId>
-        <spdx:extractedText>COPYRIGHT AND PERMISSION NOTICE
+      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT">
+        <spdx:licenseId>LicenseRef-MIT</spdx:licenseId>
+        <spdx:name>MIT License</spdx:name>
+        <spdx:extractedText>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</spdx:extractedText>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:hasExtractedLicensingInfo>
+    <spdx:relationship>
+      <spdx:Relationship>
+        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
+        <spdx:relatedSpdxElement>
+          <spdx:Package rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-upload29">
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720161">
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl">
+                        <spdx:licenseId>LicenseRef-curl</spdx:licenseId>
+                        <spdx:name>curl License</spdx:name>
+                        <spdx:extractedText>COPYRIGHT AND PERMISSION NOTICE
 
 Copyright (c) 1996 - 2015, Daniel Stenberg, &lt;daniel@haxx.se&gt;.
 All rights reserved.
@@ -17,43 +51,92 @@ Permission to use, copy, modify, and distribute this software for any purpose wi
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder.</spdx:extractedText>
-        <spdx:name>curl License</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT-style">
-        <spdx:licenseId>LicenseRef-MIT-style</spdx:licenseId>
-        <spdx:extractedText>According to MIT license, add some modifications</spdx:extractedText>
-        <spdx:name>MIT-style</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef">
-        <spdx:licenseId>LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef</spdx:licenseId>
-        <spdx:extractedText>Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/mk-ca-bundle.pl</spdx:fileName>
+                    <spdx:licenseConcluded>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef">
+                        <spdx:licenseId>LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef</spdx:licenseId>
+                        <spdx:name>curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef</spdx:name>
+                        <spdx:extractedText>Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder.</spdx:extractedText>
-        <spdx:name>curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:creationInfo>
-      <spdx:CreationInfo>
-        <rdfs:comment>This document was created using license information and a generator from Fossology.
-It is the license and copyright analysis of ca-certificates 20211220 as it is used in the Alpine base image.
-It is not the original package since it contains patches</rdfs:comment>
-        <spdx:created>2022-04-12T15:25:23Z</spdx:created>
-        <spdx:creator>Person: Oliver Fendt</spdx:creator>
-        <spdx:creator>Tool: spdx2</spdx:creator>
-        <spdx:licenseListVersion>2.6</spdx:licenseListVersion>
-      </spdx:CreationInfo>
-    </spdx:creationInfo>
-    <spdx:specVersion>SPDX-2.2</spdx:specVersion>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0">
-        <spdx:licenseId>LicenseRef-MPL-2.0</spdx:licenseId>
-        <spdx:extractedText>Mozilla Public License Version 2.0
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseConcluded>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>7d64840e35ee8db47bcd2813032f0d56ebf071c5</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9d828d97053868907ce6229d132132f0f26772393405dadd037b6f85a5c5b219</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>907cf5cc15b9408fcea6d80d0b690cb6</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright (C) 1998 - 2020, Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.</spdx:copyrightText>
+                    <spdx:licenseComments>This is a patch file, which adds curl licensed source code and removes GPL-2.0 licensed source code. Due to the mimic of patch files the GPL-2.0 boilerplate is contained in this file but for the produced executable the GPL-2.0 parts are not relevant</spdx:licenseComments>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720163">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/split-ca-bundle.sh</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>973dbde5636a8c7900704b536a526156ead98acf358f6e7b9869067c4fa8b41c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>bf5ffd8412645b7eaf6b1276a08c1b00</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>545b44c4170d55a2354b21df7c893dc49efa026c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720166">
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>0cfdabdf804da64244d958489a903f94</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0">
+                        <spdx:licenseId>LicenseRef-MPL-2.0</spdx:licenseId>
+                        <spdx:name>Mozilla Public License 2.0</spdx:name>
+                        <spdx:extractedText>Mozilla Public License Version 2.0
 
 1. Definitions
 
@@ -197,388 +280,20 @@ You may add additional accurate notices of copyright ownership.
 Exhibit B - "Incompatible With Secondary Licenses" Notice
 
 This Source Code Form is "Incompatible With Secondary Licenses", as defined by the Mozilla Public License, v. 2.0.</spdx:extractedText>
-        <spdx:name>Mozilla Public License 2.0</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-No_license_found">
-        <spdx:licenseId>LicenseRef-No_license_found</spdx:licenseId>
-        <spdx:extractedText>Not find any license in the scanned file</spdx:extractedText>
-        <spdx:name>No_license_found</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:dataLicense>
-      <spdx:ListedLicense rdf:about="http://spdx.org/licenses/CC0-1.0">
-        <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isOsiApproved>
-        <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isFsfLibre>
-        <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt;Creative Commons&lt;&lt;beginOptional&gt;&gt; Legal Code&lt;&lt;endOptional&gt;&gt;
-
-&lt;&lt;endOptional&gt;&gt;
-
-CC0 1.0 Universal
-
-&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.
-
-&lt;&lt;endOptional&gt;&gt;
-
-Statement of Purpose
-
-The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work").
-
-Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others.
-
-For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.
-
-   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following:
-
-      &lt;&lt;var;name="bullet";original="i.";match=".{0,20}"&gt;&gt; the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
-
-      &lt;&lt;var;name="bullet";original="ii.";match=".{0,20}"&gt;&gt; moral rights retained by the original author(s) and/or performer(s);
-
-      &lt;&lt;var;name="bullet";original="iii.";match=".{0,20}"&gt;&gt; publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
-
-      &lt;&lt;var;name="bullet";original="iv.";match=".{0,20}"&gt;&gt; rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;
-
-      &lt;&lt;var;name="bullet";original="v.";match=".{0,20}"&gt;&gt; rights protecting the extraction, dissemination, use and reuse of data in a Work;
-
-      &lt;&lt;var;name="bullet";original="vi.";match=".{0,20}"&gt;&gt; database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
-
-      &lt;&lt;var;name="bullet";original="vii.";match=".{0,20}"&gt;&gt; other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
-
-   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose.
-
-   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
-
-   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; Limitations and Disclaimers.
-
-      &lt;&lt;var;name="bullet";original="a.";match=".{0,20}"&gt;&gt; No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
-
-      &lt;&lt;var;name="bullet";original="b.";match=".{0,20}"&gt;&gt; Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
-
-      &lt;&lt;var;name="bullet";original="c.";match=".{0,20}"&gt;&gt; Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
-
-      &lt;&lt;var;name="bullet";original="d.";match=".{0,20}"&gt;&gt; Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.&lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name="upstreamLink";original="";match="For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt;&gt;&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-        <spdx:licenseTextHtml>
-      &lt;div class="optional-license-text"&gt; 
-         &lt;div class="optional-license-text"&gt; 
-            &lt;p&gt;Creative Commons&lt;var class="optional-license-text"&gt;  Legal Code&lt;/var&gt;&lt;/p&gt;
-
-         &lt;/div&gt;
-         &lt;p&gt;CC0 1.0 Universal&lt;/p&gt;
-
-      &lt;/div&gt;
-      &lt;div class="optional-license-text"&gt; 
-         &lt;p&gt;CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS
-         DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION
-         ON AN &amp;quot;AS-IS&amp;quot; BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT
-         OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE
-         USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.&lt;/p&gt;
-
-      &lt;/div&gt;
-
-      &lt;p&gt;Statement of Purpose&lt;/p&gt;
-
-      &lt;p&gt;The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related
-         Rights (defined below) upon the creator and subsequent owner(s) (each and all, an &amp;quot;owner&amp;quot;)
-         of an original work of authorship and/or a database (each, a &amp;quot;Work&amp;quot;).&lt;/p&gt;
-
-      &lt;p&gt;Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a
-         commons of creative, cultural and scientific works (&amp;quot;Commons&amp;quot;) that the public can reliably
-         and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse
-         and redistribute as freely as possible in any form whatsoever and for any purposes, including without
-         limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a
-         free culture and the further production of creative, cultural and scientific works, or to gain
-         reputation or greater distribution for their Work in part through the use and efforts of others.&lt;/p&gt;
-
-      &lt;p&gt;For these and/or other purposes and motivations, and without any expectation of additional consideration
-         or compensation, the person associating CC0 with a Work (the &amp;quot;Affirmer&amp;quot;), to the extent that
-         he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to
-         the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and
-         Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.&lt;/p&gt;
-
-&lt;ul style="list-style:none"&gt;
-        
-&lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 1.&lt;/var&gt;
-          Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and
-             related or neighboring rights (&amp;quot;Copyright and Related Rights&amp;quot;). Copyright and
-             Related Rights include, but are not limited to, the following:
-          
-&lt;ul style="list-style:none"&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; i.&lt;/var&gt;
-              the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; ii.&lt;/var&gt;
-              moral rights retained by the original author(s) and/or performer(s);
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; iii.&lt;/var&gt;
-              publicity and privacy rights pertaining to a person&amp;apos;s image or likeness depicted in a Work;
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; iv.&lt;/var&gt;
-              rights protecting against unfair competition in regards to a Work, subject to the limitations
-                 in paragraph 4(a), below;
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; v.&lt;/var&gt;
-              rights protecting the extraction, dissemination, use and reuse of data in a Work;
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; vi.&lt;/var&gt;
-              database rights (such as those arising under Directive 96/9/EC of the European Parliament and
-                 of the Council of 11 March 1996 on the legal protection of databases, and under any
-                 national implementation thereof, including any amended or successor version of such
-                 directive); and
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; vii.&lt;/var&gt;
-              other similar, equivalent or corresponding rights throughout the world based on applicable
-                 law or treaty, and any national implementations thereof.
-            &lt;/li&gt;
-            
-&lt;/ul&gt;
-        &lt;/li&gt;
-        
-&lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 2.&lt;/var&gt;
-          Waiver. To the greatest extent permitted by, but not in contravention of, applicable law,
-             Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons,
-             and surrenders all of Affirmer&amp;apos;s Copyright and Related Rights and associated claims and
-             causes of action, whether now known or unknown (including existing as well as future claims
-             and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum
-             duration provided by applicable law or treaty (including future time extensions), (iii) in any
-             current or future medium and for any number of copies, and (iv) for any purpose whatsoever,
-             including without limitation commercial, advertising or promotional purposes (the
-             &amp;quot;Waiver&amp;quot;). Affirmer makes the Waiver for the benefit of each member of the public at
-             large and to the detriment of Affirmer&amp;apos;s heirs and successors, fully intending that such
-             Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other
-             legal or equitable action to disrupt the quiet enjoyment of the Work by the public as
-             contemplated by Affirmer&amp;apos;s express Statement of Purpose.
-        &lt;/li&gt;
-        
-&lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 3.&lt;/var&gt;
-          Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid
-             or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent
-             permitted taking into account Affirmer&amp;apos;s express Statement of Purpose. In addition, to
-             the extent the Waiver is so judged Affirmer hereby grants to each affected person a
-             royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and
-             unconditional license to exercise Affirmer&amp;apos;s Copyright and Related Rights in the Work (i)
-             in all territories worldwide, (ii) for the maximum duration provided by applicable law or
-             treaty (including future time extensions), (iii) in any current or future medium and for any
-             number of copies, and (iv) for any purpose whatsoever, including without limitation
-             commercial, advertising or promotional purposes (the &amp;quot;License&amp;quot;). The License shall
-             be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of
-             the License for any reason be judged legally invalid or ineffective under applicable law, such
-             partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and
-             in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her
-             remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and
-             causes of action with respect to the Work, in either case contrary to Affirmer&amp;apos;s express
-             Statement of Purpose.
-        &lt;/li&gt;
-        
-&lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 4.&lt;/var&gt;
-          Limitations and Disclaimers.
-          
-&lt;ul style="list-style:none"&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; a.&lt;/var&gt;
-              No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed
-                 or otherwise affected by this document.
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; b.&lt;/var&gt;
-              Affirmer offers the Work as-is and makes no representations or warranties of any kind
-                 concerning the Work, express, implied, statutory or otherwise, including without
-                 limitation warranties of title, merchantability, fitness for a particular purpose, non
-                 infringement, or the absence of latent or other defects, accuracy, or the present or
-                 absence of errors, whether or not discoverable, all to the greatest extent permissible
-                 under applicable law.
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; c.&lt;/var&gt;
-              Affirmer disclaims responsibility for clearing rights of other persons that may apply to the
-                 Work or any use thereof, including without limitation any person&amp;apos;s Copyright and
-                 Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any
-                 necessary consents, permissions or other rights required for any use of the Work.
-            &lt;/li&gt;
-               
-&lt;li&gt;
-                  &lt;var class="replaceable-license-text"&gt; d.&lt;/var&gt;
-              Affirmer understands and acknowledges that Creative Commons is not a party to this document
-                 and has no duty or obligation with respect to this CC0 or use of the Work.
-            &lt;/li&gt;
-            
-&lt;/ul&gt;
-        &lt;/li&gt;
-      
-&lt;/ul&gt;
-      &lt;var class="optional-license-text"&gt; &lt;var class="replaceable-license-text"&gt; &lt;/var&gt;&lt;/var&gt;
-    </spdx:licenseTextHtml>
-        <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isDeprecatedLicenseId>
-        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
-        <spdx:licenseId>CC0-1.0</spdx:licenseId>
-        <spdx:licenseText>Creative Commons Legal Code
-
-CC0 1.0 Universal
-
-    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
-    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
-    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
-    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
-    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
-    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
-    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
-    HEREUNDER.
-
-Statement of Purpose
-
-The laws of most jurisdictions throughout the world automatically confer
-exclusive Copyright and Related Rights (defined below) upon the creator
-and subsequent owner(s) (each and all, an "owner") of an original work of
-authorship and/or a database (each, a "Work").
-
-Certain owners wish to permanently relinquish those rights to a Work for
-the purpose of contributing to a commons of creative, cultural and
-scientific works ("Commons") that the public can reliably and without fear
-of later claims of infringement build upon, modify, incorporate in other
-works, reuse and redistribute as freely as possible in any form whatsoever
-and for any purposes, including without limitation commercial purposes.
-These owners may contribute to the Commons to promote the ideal of a free
-culture and the further production of creative, cultural and scientific
-works, or to gain reputation or greater distribution for their Work in
-part through the use and efforts of others.
-
-For these and/or other purposes and motivations, and without any
-expectation of additional consideration or compensation, the person
-associating CC0 with a Work (the "Affirmer"), to the extent that he or she
-is an owner of Copyright and Related Rights in the Work, voluntarily
-elects to apply CC0 to the Work and publicly distribute the Work under its
-terms, with knowledge of his or her Copyright and Related Rights in the
-Work and the meaning and intended legal effect of CC0 on those rights.
-
-1. Copyright and Related Rights. A Work made available under CC0 may be
-protected by copyright and related or neighboring rights ("Copyright and
-Related Rights"). Copyright and Related Rights include, but are not
-limited to, the following:
-
-  i. the right to reproduce, adapt, distribute, perform, display,
-     communicate, and translate a Work;
- ii. moral rights retained by the original author(s) and/or performer(s);
-iii. publicity and privacy rights pertaining to a person's image or
-     likeness depicted in a Work;
- iv. rights protecting against unfair competition in regards to a Work,
-     subject to the limitations in paragraph 4(a), below;
-  v. rights protecting the extraction, dissemination, use and reuse of data
-     in a Work;
- vi. database rights (such as those arising under Directive 96/9/EC of the
-     European Parliament and of the Council of 11 March 1996 on the legal
-     protection of databases, and under any national implementation
-     thereof, including any amended or successor version of such
-     directive); and
-vii. other similar, equivalent or corresponding rights throughout the
-     world based on applicable law or treaty, and any national
-     implementations thereof.
-
-2. Waiver. To the greatest extent permitted by, but not in contravention
-of, applicable law, Affirmer hereby overtly, fully, permanently,
-irrevocably and unconditionally waives, abandons, and surrenders all of
-Affirmer's Copyright and Related Rights and associated claims and causes
-of action, whether now known or unknown (including existing as well as
-future claims and causes of action), in the Work (i) in all territories
-worldwide, (ii) for the maximum duration provided by applicable law or
-treaty (including future time extensions), (iii) in any current or future
-medium and for any number of copies, and (iv) for any purpose whatsoever,
-including without limitation commercial, advertising or promotional
-purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
-member of the public at large and to the detriment of Affirmer's heirs and
-successors, fully intending that such Waiver shall not be subject to
-revocation, rescission, cancellation, termination, or any other legal or
-equitable action to disrupt the quiet enjoyment of the Work by the public
-as contemplated by Affirmer's express Statement of Purpose.
-
-3. Public License Fallback. Should any part of the Waiver for any reason
-be judged legally invalid or ineffective under applicable law, then the
-Waiver shall be preserved to the maximum extent permitted taking into
-account Affirmer's express Statement of Purpose. In addition, to the
-extent the Waiver is so judged Affirmer hereby grants to each affected
-person a royalty-free, non transferable, non sublicensable, non exclusive,
-irrevocable and unconditional license to exercise Affirmer's Copyright and
-Related Rights in the Work (i) in all territories worldwide, (ii) for the
-maximum duration provided by applicable law or treaty (including future
-time extensions), (iii) in any current or future medium and for any number
-of copies, and (iv) for any purpose whatsoever, including without
-limitation commercial, advertising or promotional purposes (the
-"License"). The License shall be deemed effective as of the date CC0 was
-applied by Affirmer to the Work. Should any part of the License for any
-reason be judged legally invalid or ineffective under applicable law, such
-partial invalidity or ineffectiveness shall not invalidate the remainder
-of the License, and in such case Affirmer hereby affirms that he or she
-will not (i) exercise any of his or her remaining Copyright and Related
-Rights in the Work or (ii) assert any associated claims and causes of
-action with respect to the Work, in either case contrary to Affirmer's
-express Statement of Purpose.
-
-4. Limitations and Disclaimers.
-
- a. No trademark or patent rights held by Affirmer are waived, abandoned,
-    surrendered, licensed or otherwise affected by this document.
- b. Affirmer offers the Work as-is and makes no representations or
-    warranties of any kind concerning the Work, express, implied,
-    statutory or otherwise, including without limitation warranties of
-    title, merchantability, fitness for a particular purpose, non
-    infringement, or the absence of latent or other defects, accuracy, or
-    the present or absence of errors, whether or not discoverable, all to
-    the greatest extent permissible under applicable law.
- c. Affirmer disclaims responsibility for clearing rights of other persons
-    that may apply to the Work or any use thereof, including without
-    limitation any person's Copyright and Related Rights in the Work.
-    Further, Affirmer disclaims responsibility for obtaining any necessary
-    consents, permissions or other rights required for any use of the
-    Work.
- d. Affirmer understands and acknowledges that Creative Commons is not a
-    party to this document and has no duty or obligation with respect to
-    this CC0 or use of the Work.
-</spdx:licenseText>
-        <rdfs:seeAlso>https://creativecommons.org/publicdomain/zero/1.0/legalcode</rdfs:seeAlso>
-        <spdx:crossRef>
-          <spdx:CrossRef>
-            <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-            >0</spdx:order>
-            <spdx:timestamp>2023-06-18T16:40:19Z</spdx:timestamp>
-            <spdx:url>https://creativecommons.org/publicdomain/zero/1.0/legalcode</spdx:url>
-            <spdx:match>false</spdx:match>
-            <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-            >false</spdx:isWayBackLink>
-            <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-            >true</spdx:isValid>
-            <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-            >true</spdx:isLive>
-          </spdx:CrossRef>
-        </spdx:crossRef>
-      </spdx:ListedLicense>
-    </spdx:dataLicense>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-GPL-2.0-or-later">
-        <spdx:licenseId>LicenseRef-GPL-2.0-or-later</spdx:licenseId>
-        <spdx:extractedText>GNU GENERAL PUBLIC LICENSE
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>36f08b1ce5af2d557bbdcd645a87d62cad2cee4decba4a643ab2cf2b6fe77bf6</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseComments>NOASSERTION AND NOASSERTION</spdx:licenseComments>
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-GPL-2.0-or-later">
+                        <spdx:licenseId>LicenseRef-GPL-2.0-or-later</spdx:licenseId>
+                        <spdx:name>GNU General Public License v2.0 or later</spdx:name>
+                        <spdx:extractedText>GNU GENERAL PUBLIC LICENSE
 
 Version 2, June 1991
 
@@ -708,164 +423,242 @@ by James Hacker.
 signature of Ty Coon, 1 April 1989
 Ty Coon, President of Vice
 This General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License.</spdx:extractedText>
-        <spdx:name>GNU General Public License v2.0 or later</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:hasExtractedLicensingInfo>
-      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT">
-        <spdx:licenseId>LicenseRef-MIT</spdx:licenseId>
-        <spdx:extractedText>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</spdx:extractedText>
-        <spdx:name>MIT License</spdx:name>
-      </spdx:ExtractedLicensingInfo>
-    </spdx:hasExtractedLicensingInfo>
-    <spdx:relationship>
-      <spdx:Relationship>
-        <spdx:relatedSpdxElement>
-          <spdx:Package rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-upload29">
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>55c134b2cf620b11baa45857c1582378ba9a3c99</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseConcluded>
+                      <spdx:ConjunctiveLicenseSet>
+                        <spdx:member rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT"/>
+                        <spdx:member rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0"/>
+                      </spdx:ConjunctiveLicenseSet>
+                    </spdx:licenseConcluded>
+                    <spdx:licenseInfoInFile>
+                      <spdx:ExtractedLicensingInfo rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT-style">
+                        <spdx:licenseId>LicenseRef-MIT-style</spdx:licenseId>
+                        <spdx:name>MIT-style</spdx:name>
+                        <spdx:extractedText>According to MIT license, add some modifications</spdx:extractedText>
+                      </spdx:ExtractedLicensingInfo>
+                    </spdx:licenseInfoInFile>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/APKBUILD</spdx:fileName>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:licenseComments>licenseInfoInFile determined by Scanners:
+ - nomos ("unknown".ea9184)
+ - monk ("unknown".ea9184)
+- ojo ("unknown".ea9184)</spdx:licenseComments>
             <spdx:relationship>
               <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720147">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/ca-certificates.post-deinstall</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9523860edc396093bd41270c6e33a569a30657e2ffd729829514ee6b6d54d652</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>91b6b4f97f6f1b1357da3fa70663a6a7</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>c1f5ac0b3adacf1fdf5827560164eec7c344de16</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720157">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/blacklist.txt</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>5662c4ab6b7e7f81c41e7c47408cfc632df0b4b5</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>1579256f981ffce497eb6ea3f359721ffa04156cdd16664140e5adb5b661d8b2</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4e781ed406b7edcffe91d97a0080682a</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720148">
+                    <spdx:licenseConcluded>
+                      <spdx:ConjunctiveLicenseSet>
+                        <spdx:member rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef"/>
+                        <spdx:member rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-GPL-2.0-or-later"/>
+                      </spdx:ConjunctiveLicenseSet>
+                    </spdx:licenseConcluded>
+                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>2829be6e14ffabec89a18a86233393c19e14204fbaa601169bd0a7cd95597a71</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:licenseComments>NOASSERTION AND This is a patch file, which adds curl licensed source code and removes GPL-2.0 licensed source code. Due to the mimic of patch files the GPL-2.0 boilerplate is contained in this file but for the produced executable the GPL-2.0 parts are not relevant</spdx:licenseComments>
+                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-GPL-2.0-or-later"/>
+                    <spdx:copyrightText>Copyright (C) 2009 Philipp Kern &lt;pkern@debian.org&gt;
+Copyright (C) 1998 - 2020, Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.</spdx:copyrightText>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/0002-replace-python-script-with-perl-script.patch</spdx:fileName>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>8ee25a1a926f798b426e066bcd2eac19</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>916269bd8398eed9826337253284402ac576e30e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:downloadLocation>NOASSERTION</spdx:downloadLocation>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720167">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/0003-update-ca-insert-newline-between-certs.patch</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f80a9ea2d975119b4a802b5e6a819ce30530a339fc2f660bce8027335f97b51d</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>e0fb33a8abc2fb2cd5dd8db657f3724e</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9bf5cf61257de19d9615cbb70d80750702814dd9</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:name>ca-certificates.zip</spdx:name>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>a71902deb3c359f11f2a7c45f9d34e32935a695e9115239cc4697b704749ab03</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
                 <spdx:relatedSpdxElement>
                   <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720164">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>3e01a21daf116f15b8199c3e445056a254e3686b</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>60268dcf4dffc889a19cc5fd00930148298cbb6caa163ecb5e1862bfc2625cfa</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>2f600b5ce705556ede3ed6e9d0125db6</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                     <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                     <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/update-ca-certificates.8</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720160">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>a4bd942c295a666902e18a4a9314244520fc26ff</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>00da31e623fda2c3ab27d87d3adacdc613b0d96b7561530359292ef7219cde8d</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>75a6d07cab33a3511c551e77e4efc513</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
                     <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/Makefile</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720146">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
                     <spdx:checksum>
                       <spdx:Checksum>
+                        <spdx:checksumValue>2f600b5ce705556ede3ed6e9d0125db6</spdx:checksumValue>
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>022feea26f65284180b2e2b3e403ee75</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
                     <spdx:checksum>
                       <spdx:Checksum>
+                        <spdx:checksumValue>3e01a21daf116f15b8199c3e445056a254e3686b</spdx:checksumValue>
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>9644c92fb8173f497ab8dce1712d384b742b2953</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
                     <spdx:checksum>
                       <spdx:Checksum>
+                        <spdx:checksumValue>60268dcf4dffc889a19cc5fd00930148298cbb6caa163ecb5e1862bfc2625cfa</spdx:checksumValue>
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>53ff72d253cf5cc1323cc6e3953b6a27ef037d9a8e059530e00768bf28bdd674</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/0001-update-ca-fix-compiler-warning.patch</spdx:fileName>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
                   </spdx:File>
                 </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
               </spdx:Relationship>
             </spdx:relationship>
             <spdx:checksum>
               <spdx:Checksum>
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                <spdx:checksumValue>a71902deb3c359f11f2a7c45f9d34e32935a695e9115239cc4697b704749ab03</spdx:checksumValue>
+                <spdx:checksumValue>f7352c1f5ad2709a6dce19d39fc167d0</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
               </spdx:Checksum>
             </spdx:checksum>
-            <spdx:checksum>
-              <spdx:Checksum>
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                <spdx:checksumValue>fe2bf9f6a7c12c73d50e1e1dae8889c782ca3ba2</spdx:checksumValue>
-              </spdx:Checksum>
-            </spdx:checksum>
+            <spdx:packageFileName>ca-certificates.zip</spdx:packageFileName>
             <spdx:relationship>
               <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720156">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>2616fc3316a83945434df90ee3d22700</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>69dd17f42c510fff5a1c74f527c1dedfdef86365</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>4f4e8cc1aff1ca3f892d1833ab317d65fee3d03950945bed28ddde811604168b</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/.gitignore</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
                 <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
                 <spdx:relatedSpdxElement>
                   <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720155">
+                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/certdata.txt</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9e9498ebe87ab3dc3dcc8e782c20cc34281a1df8</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>187ef9dc231135324fe78830cf4462f1ecdeab3e6c9d5e38d623391e88dc5d3c</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4413ec934541e821eac1303909571056</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
                     <spdx:copyrightText>(c) 1999 VeriSign, Inc.
 (c) 1999 VeriSign, Inc.
 (c) 1999 VeriSign, Inc.
@@ -895,419 +688,604 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 (c) 2015 Entrust, Inc.
 (c) 2015 Entrust, Inc.</spdx:copyrightText>
                     <spdx:licenseComments>NOASSERTION</spdx:licenseComments>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>9e9498ebe87ab3dc3dcc8e782c20cc34281a1df8</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>187ef9dc231135324fe78830cf4462f1ecdeab3e6c9d5e38d623391e88dc5d3c</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>4413ec934541e821eac1303909571056</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/certdata.txt</spdx:fileName>
                   </spdx:File>
                 </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
               </spdx:Relationship>
             </spdx:relationship>
-            <spdx:name>ca-certificates.zip</spdx:name>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720162">
+                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/c_rehash.c</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>68f70afada0cd8fc2289102145c11d5d8b6d2421ed4b7624094bcf5dfce7d2f5</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>2b64084b5d8e01f5b745c4e1f053a899</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>05e5fe120557e73f87d1b5039e3c5147ebc45726</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>Copyright (c) 2013-2014 Timo Teräs &lt;timo.teras@iki.fi&gt; All rights reserved.</spdx:copyrightText>
+                    <spdx:licenseComments>NOASSERTION</spdx:licenseComments>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720165">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/ca-certificates.trigger</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>6f16ac8e44157d23e4639767ed360b12276360e6</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>dd39cbb4b7e465537051fef3f01c12f74bd75956a55d804f45441b0223a1c133</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>236fbeddf713f82b2830340ddcee3746</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>fe2bf9f6a7c12c73d50e1e1dae8889c782ca3ba2</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+              </spdx:Checksum>
+            </spdx:checksum>
             <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
             <spdx:relationship>
               <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720161">
-                    <spdx:copyrightText>Copyright (C) 1998 - 2020, Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.</spdx:copyrightText>
-                    <spdx:licenseComments>This is a patch file, which adds curl licensed source code and removes GPL-2.0 licensed source code. Due to the mimic of patch files the GPL-2.0 boilerplate is contained in this file but for the produced executable the GPL-2.0 parts are not relevant</spdx:licenseComments>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>907cf5cc15b9408fcea6d80d0b690cb6</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>7d64840e35ee8db47bcd2813032f0d56ebf071c5</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>9d828d97053868907ce6229d132132f0f26772393405dadd037b6f85a5c5b219</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/mk-ca-bundle.pl</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
                 <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
                 <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720163">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>bf5ffd8412645b7eaf6b1276a08c1b00</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>545b44c4170d55a2354b21df7c893dc49efa026c</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>973dbde5636a8c7900704b536a526156ead98acf358f6e7b9869067c4fa8b41c</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720156">
                     <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/split-ca-bundle.sh</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720158">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>0962f568c4647bc3f77e53756a642c472921afbcae909bbfc7f6ecdc00ad8322</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>352e98d63b15ae64125ab492e13bb0f8</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>20f32364172bf63af921afbaed07a187808191c9</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/.gitignore</spdx:fileName>
                     <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/VERSION</spdx:fileName>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>2616fc3316a83945434df90ee3d22700</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>69dd17f42c510fff5a1c74f527c1dedfdef86365</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>4f4e8cc1aff1ca3f892d1833ab317d65fee3d03950945bed28ddde811604168b</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
                   </spdx:File>
                 </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
               </spdx:Relationship>
             </spdx:relationship>
             <spdx:relationship>
               <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
                 <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720157">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>1579256f981ffce497eb6ea3f359721ffa04156cdd16664140e5adb5b661d8b2</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>4e781ed406b7edcffe91d97a0080682a</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>5662c4ab6b7e7f81c41e7c47408cfc632df0b4b5</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720160">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/Makefile</spdx:fileName>
                     <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/blacklist.txt</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720162">
-                    <spdx:copyrightText>Copyright (c) 2013-2014 Timo Teräs &lt;timo.teras@iki.fi&gt; All rights reserved.</spdx:copyrightText>
-                    <spdx:licenseComments>NOASSERTION</spdx:licenseComments>
                     <spdx:checksum>
                       <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>05e5fe120557e73f87d1b5039e3c5147ebc45726</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
+                        <spdx:checksumValue>00da31e623fda2c3ab27d87d3adacdc613b0d96b7561530359292ef7219cde8d</spdx:checksumValue>
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>68f70afada0cd8fc2289102145c11d5d8b6d2421ed4b7624094bcf5dfce7d2f5</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
                     <spdx:checksum>
                       <spdx:Checksum>
+                        <spdx:checksumValue>75a6d07cab33a3511c551e77e4efc513</spdx:checksumValue>
                         <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>2b64084b5d8e01f5b745c4e1f053a899</spdx:checksumValue>
                       </spdx:Checksum>
                     </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/c_rehash.c</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720166">
-                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-GPL-2.0-or-later"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/APKBUILD</spdx:fileName>
                     <spdx:checksum>
                       <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>0cfdabdf804da64244d958489a903f94</spdx:checksumValue>
+                        <spdx:checksumValue>a4bd942c295a666902e18a4a9314244520fc26ff</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
                       </spdx:Checksum>
                     </spdx:checksum>
                     <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>55c134b2cf620b11baa45857c1582378ba9a3c99</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0"/>
-                    <spdx:licenseConcluded>
-                      <spdx:ConjunctiveLicenseSet>
-                        <spdx:member rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT"/>
-                        <spdx:member rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0"/>
-                      </spdx:ConjunctiveLicenseSet>
-                    </spdx:licenseConcluded>
-                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT-style"/>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>36f08b1ce5af2d557bbdcd645a87d62cad2cee4decba4a643ab2cf2b6fe77bf6</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseComments>NOASSERTION AND NOASSERTION</spdx:licenseComments>
                   </spdx:File>
                 </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
               </spdx:Relationship>
             </spdx:relationship>
-            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720147">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>91b6b4f97f6f1b1357da3fa70663a6a7</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>c1f5ac0b3adacf1fdf5827560164eec7c344de16</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>9523860edc396093bd41270c6e33a569a30657e2ffd729829514ee6b6d54d652</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/ca-certificates.post-deinstall</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720159">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>f80b3405f5e29c0fc317741fe442ffa32b0e9e38</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>fff6ee69a2f5705e0ae5a0214f0e1fff029b14adef49359160cf9a5c867d5df4</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>d7f9069572976f9f2e76faa12e79d7ab</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/update-ca.c</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720167">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>e0fb33a8abc2fb2cd5dd8db657f3724e</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>9bf5cf61257de19d9615cbb70d80750702814dd9</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>f80a9ea2d975119b4a802b5e6a819ce30530a339fc2f660bce8027335f97b51d</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/0003-update-ca-insert-newline-between-certs.patch</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:licenseComments>licenseInfoInFile determined by Scanners:
- - nomos ("unknown".ea9184)
- - monk ("unknown".ea9184)
-- ojo ("unknown".ea9184)</spdx:licenseComments>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720165">
-                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>6f16ac8e44157d23e4639767ed360b12276360e6</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>dd39cbb4b7e465537051fef3f01c12f74bd75956a55d804f45441b0223a1c133</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>236fbeddf713f82b2830340ddcee3746</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/ca-certificates.trigger</spdx:fileName>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relatedSpdxElement>
-                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720148">
-                    <spdx:copyrightText>Copyright (C) 2009 Philipp Kern &lt;pkern@debian.org&gt;
-Copyright (C) 1998 - 2020, Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.</spdx:copyrightText>
-                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl"/>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                        <spdx:checksumValue>8ee25a1a926f798b426e066bcd2eac19</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
-                        <spdx:checksumValue>2829be6e14ffabec89a18a86233393c19e14204fbaa601169bd0a7cd95597a71</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                    <spdx:licenseInfoInFile rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-GPL-2.0-or-later"/>
-                    <spdx:licenseComments>NOASSERTION AND This is a patch file, which adds curl licensed source code and removes GPL-2.0 licensed source code. Due to the mimic of patch files the GPL-2.0 boilerplate is contained in this file but for the produced executable the GPL-2.0 parts are not relevant</spdx:licenseComments>
-                    <spdx:fileName>ca-certificates.zip/ca-certificates/0002-replace-python-script-with-perl-script.patch</spdx:fileName>
-                    <spdx:licenseConcluded>
-                      <spdx:ConjunctiveLicenseSet>
-                        <spdx:member rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef"/>
-                        <spdx:member rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-GPL-2.0-or-later"/>
-                      </spdx:ConjunctiveLicenseSet>
-                    </spdx:licenseConcluded>
-                    <spdx:checksum>
-                      <spdx:Checksum>
-                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                        <spdx:checksumValue>916269bd8398eed9826337253284402ac576e30e</spdx:checksumValue>
-                      </spdx:Checksum>
-                    </spdx:checksum>
-                  </spdx:File>
-                </spdx:relatedSpdxElement>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
-            <spdx:checksum>
-              <spdx:Checksum>
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
-                <spdx:checksumValue>f7352c1f5ad2709a6dce19d39fc167d0</spdx:checksumValue>
-              </spdx:Checksum>
-            </spdx:checksum>
             <spdx:packageVerificationCode>
               <spdx:PackageVerificationCode>
                 <spdx:packageVerificationCodeValue>5e92fc7e15c94a4149812242245a2bff3f474177</spdx:packageVerificationCodeValue>
               </spdx:PackageVerificationCode>
             </spdx:packageVerificationCode>
-            <spdx:packageFileName>ca-certificates.zip</spdx:packageFileName>
-            <spdx:downloadLocation>NOASSERTION</spdx:downloadLocation>
+            <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720146">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/0001-update-ca-fix-compiler-warning.patch</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>9644c92fb8173f497ab8dce1712d384b742b2953</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>53ff72d253cf5cc1323cc6e3953b6a27ef037d9a8e059530e00768bf28bdd674</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>022feea26f65284180b2e2b3e403ee75</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720159">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/update-ca.c</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>d7f9069572976f9f2e76faa12e79d7ab</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>f80b3405f5e29c0fc317741fe442ffa32b0e9e38</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>fff6ee69a2f5705e0ae5a0214f0e1fff029b14adef49359160cf9a5c867d5df4</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_contains"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:File rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#SPDXRef-item148720158">
+                    <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:fileName>ca-certificates.zip/ca-certificates/src/ca-certificates-20211220.tar.bz2/ca-certificates-20211220.tar/ca-certificates-20211220/VERSION</spdx:fileName>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>0962f568c4647bc3f77e53756a642c472921afbcae909bbfc7f6ecdc00ad8322</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>352e98d63b15ae64125ab492e13bb0f8</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:checksum>
+                      <spdx:Checksum>
+                        <spdx:checksumValue>20f32364172bf63af921afbaed07a187808191c9</spdx:checksumValue>
+                        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                      </spdx:Checksum>
+                    </spdx:checksum>
+                    <spdx:copyrightText>NOASSERTION</spdx:copyrightText>
+                  </spdx:File>
+                </spdx:relatedSpdxElement>
+              </spdx:Relationship>
+            </spdx:relationship>
           </spdx:Package>
         </spdx:relatedSpdxElement>
-        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
       </spdx:Relationship>
     </spdx:relationship>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl-b0ac01e1bed68dc9d6bb9c29db8bb8ef"/>
+    <spdx:dataLicense>
+      <spdx:ListedLicense rdf:about="http://spdx.org/licenses/CC0-1.0">
+        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
+        <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isFsfLibre>
+        <rdfs:seeAlso>https://creativecommons.org/publicdomain/zero/1.0/legalcode</rdfs:seeAlso>
+        <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isOsiApproved>
+        <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isDeprecatedLicenseId>
+        <spdx:licenseName>Creative Commons Zero v1.0 Universal</spdx:licenseName>
+        <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt;Creative Commons&lt;&lt;beginOptional&gt;&gt; Legal Code&lt;&lt;endOptional&gt;&gt;
+
+&lt;&lt;endOptional&gt;&gt;
+CC0 1.0 Universal
+
+&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.
+
+&lt;&lt;endOptional&gt;&gt;
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.
+
+   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following:
+      &lt;&lt;var;name="bullet";original="i.";match=".{0,20}"&gt;&gt; the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+      &lt;&lt;var;name="bullet";original="ii.";match=".{0,20}"&gt;&gt; moral rights retained by the original author(s) and/or performer(s);
+      &lt;&lt;var;name="bullet";original="iii.";match=".{0,20}"&gt;&gt; publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
+      &lt;&lt;var;name="bullet";original="iv.";match=".{0,20}"&gt;&gt; rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;
+      &lt;&lt;var;name="bullet";original="v.";match=".{0,20}"&gt;&gt; rights protecting the extraction, dissemination, use and reuse of data in a Work;
+      &lt;&lt;var;name="bullet";original="vi.";match=".{0,20}"&gt;&gt; database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
+      &lt;&lt;var;name="bullet";original="vii.";match=".{0,20}"&gt;&gt; other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
+   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose.
+   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
+   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; Limitations and Disclaimers.
+      &lt;&lt;var;name="bullet";original="a.";match=".{0,20}"&gt;&gt; No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
+      &lt;&lt;var;name="bullet";original="b.";match=".{0,20}"&gt;&gt; Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
+      &lt;&lt;var;name="bullet";original="c.";match=".{0,20}"&gt;&gt; Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
+      &lt;&lt;var;name="bullet";original="d.";match=".{0,20}"&gt;&gt; Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.&lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name="upstreamLink";original="";match="For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt;&gt;&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+        <spdx:licenseId>CC0-1.0</spdx:licenseId>
+        <spdx:licenseTextHtml>
+      &lt;div class="optional-license-text"&gt; 
+         &lt;div class="optional-license-text"&gt; 
+            &lt;p&gt;Creative Commons&lt;var class="optional-license-text"&gt;  Legal Code&lt;/var&gt;&lt;/p&gt;
+
+         &lt;/div&gt;
+         &lt;p&gt;CC0 1.0 Universal&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;div class="optional-license-text"&gt; 
+         &lt;p&gt;CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS
+         DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION
+         ON AN &amp;quot;AS-IS&amp;quot; BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT
+         OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE
+         USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.&lt;/p&gt;
+
+      &lt;/div&gt;
+
+      &lt;p&gt;Statement of Purpose&lt;/p&gt;
+
+      &lt;p&gt;The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related
+         Rights (defined below) upon the creator and subsequent owner(s) (each and all, an &amp;quot;owner&amp;quot;)
+         of an original work of authorship and/or a database (each, a &amp;quot;Work&amp;quot;).&lt;/p&gt;
+
+      &lt;p&gt;Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a
+         commons of creative, cultural and scientific works (&amp;quot;Commons&amp;quot;) that the public can reliably
+         and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse
+         and redistribute as freely as possible in any form whatsoever and for any purposes, including without
+         limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a
+         free culture and the further production of creative, cultural and scientific works, or to gain
+         reputation or greater distribution for their Work in part through the use and efforts of others.&lt;/p&gt;
+
+      &lt;p&gt;For these and/or other purposes and motivations, and without any expectation of additional consideration
+         or compensation, the person associating CC0 with a Work (the &amp;quot;Affirmer&amp;quot;), to the extent that
+         he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to
+         the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and
+         Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.&lt;/p&gt;
+
+&lt;ul style="list-style:none"&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 1.&lt;/span&gt;&lt;/var&gt;
+          Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and
+             related or neighboring rights (&amp;quot;Copyright and Related Rights&amp;quot;). Copyright and
+             Related Rights include, but are not limited to, the following:
+          
+&lt;ul style="list-style:none"&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; i.&lt;/span&gt;&lt;/var&gt;
+              the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; ii.&lt;/span&gt;&lt;/var&gt;
+              moral rights retained by the original author(s) and/or performer(s);
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; iii.&lt;/span&gt;&lt;/var&gt;
+              publicity and privacy rights pertaining to a person&amp;apos;s image or likeness depicted in a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; iv.&lt;/span&gt;&lt;/var&gt;
+              rights protecting against unfair competition in regards to a Work, subject to the limitations
+                 in paragraph 4(a), below;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; v.&lt;/span&gt;&lt;/var&gt;
+              rights protecting the extraction, dissemination, use and reuse of data in a Work;
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; vi.&lt;/span&gt;&lt;/var&gt;
+              database rights (such as those arising under Directive 96/9/EC of the European Parliament and
+                 of the Council of 11 March 1996 on the legal protection of databases, and under any
+                 national implementation thereof, including any amended or successor version of such
+                 directive); and
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; vii.&lt;/span&gt;&lt;/var&gt;
+              other similar, equivalent or corresponding rights throughout the world based on applicable
+                 law or treaty, and any national implementations thereof.
+            &lt;/li&gt;
+            
+&lt;/ul&gt;
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 2.&lt;/span&gt;&lt;/var&gt;
+          Waiver. To the greatest extent permitted by, but not in contravention of, applicable law,
+             Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons,
+             and surrenders all of Affirmer&amp;apos;s Copyright and Related Rights and associated claims and
+             causes of action, whether now known or unknown (including existing as well as future claims
+             and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum
+             duration provided by applicable law or treaty (including future time extensions), (iii) in any
+             current or future medium and for any number of copies, and (iv) for any purpose whatsoever,
+             including without limitation commercial, advertising or promotional purposes (the
+             &amp;quot;Waiver&amp;quot;). Affirmer makes the Waiver for the benefit of each member of the public at
+             large and to the detriment of Affirmer&amp;apos;s heirs and successors, fully intending that such
+             Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other
+             legal or equitable action to disrupt the quiet enjoyment of the Work by the public as
+             contemplated by Affirmer&amp;apos;s express Statement of Purpose.
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 3.&lt;/span&gt;&lt;/var&gt;
+          Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid
+             or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent
+             permitted taking into account Affirmer&amp;apos;s express Statement of Purpose. In addition, to
+             the extent the Waiver is so judged Affirmer hereby grants to each affected person a
+             royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and
+             unconditional license to exercise Affirmer&amp;apos;s Copyright and Related Rights in the Work (i)
+             in all territories worldwide, (ii) for the maximum duration provided by applicable law or
+             treaty (including future time extensions), (iii) in any current or future medium and for any
+             number of copies, and (iv) for any purpose whatsoever, including without limitation
+             commercial, advertising or promotional purposes (the &amp;quot;License&amp;quot;). The License shall
+             be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of
+             the License for any reason be judged legally invalid or ineffective under applicable law, such
+             partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and
+             in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her
+             remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and
+             causes of action with respect to the Work, in either case contrary to Affirmer&amp;apos;s express
+             Statement of Purpose.
+        &lt;/li&gt;
+        
+&lt;li&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 4.&lt;/span&gt;&lt;/var&gt;
+          Limitations and Disclaimers.
+          
+&lt;ul style="list-style:none"&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; a.&lt;/span&gt;&lt;/var&gt;
+              No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed
+                 or otherwise affected by this document.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; b.&lt;/span&gt;&lt;/var&gt;
+              Affirmer offers the Work as-is and makes no representations or warranties of any kind
+                 concerning the Work, express, implied, statutory or otherwise, including without
+                 limitation warranties of title, merchantability, fitness for a particular purpose, non
+                 infringement, or the absence of latent or other defects, accuracy, or the present or
+                 absence of errors, whether or not discoverable, all to the greatest extent permissible
+                 under applicable law.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; c.&lt;/span&gt;&lt;/var&gt;
+              Affirmer disclaims responsibility for clearing rights of other persons that may apply to the
+                 Work or any use thereof, including without limitation any person&amp;apos;s Copyright and
+                 Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any
+                 necessary consents, permissions or other rights required for any use of the Work.
+            &lt;/li&gt;
+               
+&lt;li&gt;
+                  &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; d.&lt;/span&gt;&lt;/var&gt;
+              Affirmer understands and acknowledges that Creative Commons is not a party to this document
+                 and has no duty or obligation with respect to this CC0 or use of the Work.
+            &lt;/li&gt;
+            
+&lt;/ul&gt;
+        &lt;/li&gt;
+      
+&lt;/ul&gt;
+      &lt;var class="optional-license-text"&gt; &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern For more information, please see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;"&gt; &lt;/span&gt;&lt;/var&gt;&lt;/var&gt;
+    </spdx:licenseTextHtml>
+        <spdx:licenseText>Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+</spdx:licenseText>
+        <spdx:crossRef>
+          <spdx:CrossRef>
+            <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >false</spdx:isWayBackLink>
+            <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:isValid>
+            <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+            >true</spdx:isLive>
+            <spdx:url>https://creativecommons.org/publicdomain/zero/1.0/legalcode</spdx:url>
+            <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >0</spdx:order>
+            <spdx:timestamp>2026-02-20T20:55:36Z</spdx:timestamp>
+            <spdx:match>true</spdx:match>
+          </spdx:CrossRef>
+        </spdx:crossRef>
+      </spdx:ListedLicense>
+    </spdx:dataLicense>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-curl"/>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MIT-style"/>
     <spdx:name>/srv/fossology/repository/report</spdx:name>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-GPL-2.0-or-later"/>
+    <spdx:hasExtractedLicensingInfo rdf:resource="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#LicenseRef-MPL-2.0"/>
+    <spdx:specVersion>SPDX-2.2</spdx:specVersion>
   </spdx:SpdxDocument>
-  <spdx:SpdxNoAssertionLicense rdf:about="http://a4dfaa476d35/repo/SPDX2TV_ca-certificates.zip_1649777123.spdx#NOASSERTION_LICENSE_ID"/>
 </rdf:RDF>
