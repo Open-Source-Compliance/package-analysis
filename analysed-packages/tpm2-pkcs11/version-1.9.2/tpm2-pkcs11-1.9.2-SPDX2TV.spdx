@@ -1,0 +1,2995 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_tpm2-pkcs11-1.9.2.tar.gz_1773338225.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of tpm2-pkcs11 1.9.2
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2026-03-12T17:57:05Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: tpm2-pkcs11-1.9.2.tar.gz
+PackageFileName: tpm2-pkcs11-1.9.2.tar.gz
+SPDXID: SPDXRef-upload4172
+PackageDownloadLocation: https://github.com/tpm2-software/tpm2-pkcs11/archive/refs/tags/1.9.2.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/tpm2-software/tpm2-pkcs11@1.9.2
+FilesAnalyzed: true
+PackageVerificationCode: 393a0be8f1bf616bf85cd655b588e391db3ba224
+PackageChecksum: SHA1: 18ddd5eafbeec990341ada57e16afd83424ac92a
+PackageChecksum: SHA256: c3910d20a31d7388986a0fe404232efc17dc9dbefac9a9f05d5c5689e812efea
+PackageChecksum: MD5: 0de3a112cb79b636053e69c9812b061a
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload4172
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/LICENSE
+SPDXID: SPDXRef-item18108491
+FileChecksum: SHA1: d4f9e582f0f759915374080dd73f6aa6180cf786
+FileChecksum: SHA256: 793aa007f793458434d7cc60b1c827053a399308658b32fcaa6023802adc22e1
+FileChecksum: MD5: 0fc19f620a102768d6dbd1e7166e78ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-Apache-2.0
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: <text> copyright by William Roberts </text>
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/pkcs11.h
+SPDXID: SPDXRef-item18108632
+FileChecksum: SHA1: a73e145c8059fbc612d6035a26601473835aeba7
+FileChecksum: SHA256: 6ebf520120ae98e7ebe3f148718e03944462b74009d8704e836ac5364cfb0f4d
+FileChecksum: MD5: 919fb3fc0941c42766ea6533b06c5d83
+LicenseConcluded: LicenseRef-Permission-Notice-92b99f9c17799ea51f05884b6a8c8675
+LicenseInfoInFile: LicenseRef-FSFULLR
+LicenseInfoInFile: LicenseRef-scancode-fsf-unlimited-no-warranty
+FileCopyrightText: <text> Copyright 2006, 2007 g10 Code GmbH
+Copyright 2006 Andreas Jellinghaus
+Copyright 2017 Red Hat, Inc. </text>
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/.gitignore
+SPDXID: SPDXRef-item18108695
+FileChecksum: SHA1: b6898d64b4a08a2aac677b76c12ad35114a9b405
+FileChecksum: SHA256: 628fb8d745aca2dfabc03d0c13a976e1e0d1d1cb9d717ec331f5930a89781d7a
+FileChecksum: MD5: aa3c0d4a7345d894af02cbc511248f61
+LicenseConcluded: LicenseRef-CC0-1.0
+LicenseInfoInFile: LicenseRef-CC0-1.0
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/m4/ld-version-script.m4
+SPDXID: SPDXRef-item18108576
+FileChecksum: SHA1: 1feb52e6ecfa96a1e055a9c7bda85d21b26c6837
+FileChecksum: SHA256: 8536921188a0b034bd2dc16cc7488dc1fef7e4e642ee17ae01323e1256f3fe84
+FileChecksum: MD5: 8f903c38f82ed01622f96d963f0cfcac
+LicenseConcluded: LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b
+LicenseInfoInFile: LicenseRef-FSFULLR
+FileCopyrightText: <text> Copyright (C) 2008-2019 Free Software Foundation, Inc. </text>
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/setup.py
+SPDXID: SPDXRef-item18108579
+FileChecksum: SHA1: 1e70d7538daa35392213a5ce4a44084ea1f35257
+FileChecksum: SHA256: 43328d393493395c0f5cf89821934ac85399d2f969477e9a9c826b25c28d4c2a
+FileChecksum: MD5: 777b5f4f9ec00da6a9519c70ba656a54
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/checks.h
+SPDXID: SPDXRef-item18108681
+FileChecksum: SHA1: 4c7dc4051ecd12b402be7bcfc8412985bfc1ed6c
+FileChecksum: SHA256: 1bc7f6afceabc50439457d619d1ee894f9a42854bd8c5803df62921fd649ab77
+FileChecksum: MD5: 5261a4f8fef62a47697ce226399e7756
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/pkcs11t.py
+SPDXID: SPDXRef-item18108584
+FileChecksum: SHA1: bd1a702486d749d1dc603cf19531b4a5169c1d2d
+FileChecksum: SHA256: 8a1eef2585af38e21bfc123a2bc51a65c3816e345a4c6371c5f6c5bde091af00
+FileChecksum: MD5: 914793d2b92cd32f74197fe310a35f44
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/parser.c
+SPDXID: SPDXRef-item18108682
+FileChecksum: SHA1: 090246c46db706e75c8c89747cce24b81cb5c35f
+FileChecksum: SHA256: fccb2c1f5290f2e70f45bd8c094fdfd89df77ec457c62378504cec4cc3f63116
+FileChecksum: MD5: 9cc9f5c614cb27cfbb065f6da4afc5f4
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/__init__.py
+SPDXID: SPDXRef-item18108587
+FileChecksum: SHA1: 0c05a7ab6b1c1014b30980a7e8829eec18f82f6a
+FileChecksum: SHA256: b2f0e53167c5d390fb7bbc3ae91f01e15ee3be451245bd52149415b11c8fac45
+FileChecksum: MD5: 44ed33f16eaa336e1fbb1f833d002085
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/backend_esysdb.h
+SPDXID: SPDXRef-item18108690
+FileChecksum: SHA1: db5ec28d4bfd88775d19bd9ae8d34f6daa3e146c
+FileChecksum: SHA256: 3674096edf59ecdaee64df0a5fb55044634f24c06ba957f7e3869aa984869b3d
+FileChecksum: MD5: f2e985554e402c64645031db14dc5953
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/object.c
+SPDXID: SPDXRef-item18108642
+FileChecksum: SHA1: e4b74e708fcc589094adc20d0489d03c2772961e
+FileChecksum: SHA256: a32927b0c3193b7daf88221b13c499b9e56d62ee6c0f2965d3ff2bc2d54a32e8
+FileChecksum: MD5: 777d8c6737e273abe6d54a144f1311e5
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/Makefile.am
+SPDXID: SPDXRef-item18108702
+FileChecksum: SHA1: 4626a983a64012c57ed54b51ab44ee78c3e814af
+FileChecksum: SHA256: 355ccfb971ddaecba440f9e50466c98b3aaa9e02659b45b235676f59c16b299c
+FileChecksum: MD5: 46997816214147890382cd5ca57c71fe
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/mech.h
+SPDXID: SPDXRef-item18108645
+FileChecksum: SHA1: 57f820bff8cbbf0fb171a7d0e6149b0b63103f62
+FileChecksum: SHA256: 7cdc1edea4a193f9952b8a02f919dc924797f6e5e54a81921697573f44b65243
+FileChecksum: MD5: fcfdcafb795addbe2847e427c2a9159c
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/digest.c
+SPDXID: SPDXRef-item18108689
+FileChecksum: SHA1: 50d1acb1e9a3a21be355ea1795b78f3b9da29a39
+FileChecksum: SHA256: 9a68214f59f3fef9d1587a6f0efeed1beaca7bc1d64b873169d54f9a0344035f
+FileChecksum: MD5: 645294f0a67cce2666943144c7caaf69
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/backend_esysdb.c
+SPDXID: SPDXRef-item18108647
+FileChecksum: SHA1: d2f60305c6a047a7dc779c12ef5471cf3d13a255
+FileChecksum: SHA256: 7e22f826115e566178e28335a9113d6463cf7da2aaebe2eb7623382e9054afca
+FileChecksum: MD5: d1151a5248fda2b6ec540526d910aa6f
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/attrs.h
+SPDXID: SPDXRef-item18108688
+FileChecksum: SHA1: 93e2c8823d460432abccf69b4553f08f08bd5737
+FileChecksum: SHA256: 687b28c28f5f590cb0b4982b8cf6f74913e3ecab4332f9bd584638d27c2e9845
+FileChecksum: MD5: 307c5a8cf97f53fd4b1265580c76eaba
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/sign.h
+SPDXID: SPDXRef-item18108646
+FileChecksum: SHA1: 02f38bebc953640537584dececdc4abb34dc7753
+FileChecksum: SHA256: 3971924e3bb81a5e26a778614d1e90b7c5bd23889c6d57c2d2b54b41e2c291d4
+FileChecksum: MD5: e9ecab04e260503baba7436cfe5b67e7
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/list.h
+SPDXID: SPDXRef-item18108686
+FileChecksum: SHA1: 066f7f74501ca1a6ce071143630cd38db59bf61f
+FileChecksum: SHA256: d9fc4b7c7f8c61798f3ce5d8372fdd454238e69f2ce714db31e054ad3c3f33f1
+FileChecksum: MD5: 647b3d8973a9f284e0ce8aa7aece847c
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/.gitignore
+SPDXID: SPDXRef-item18108594
+FileChecksum: SHA1: 8571b72d431b7a7731e4f2dc64a688bcd4f7d8d1
+FileChecksum: SHA256: f8a947eff1542f76c56c3298ae2e3800b31f51143c1ecffbbdf5c145f36c1cfb
+FileChecksum: MD5: 49c8713e0aaadbf3ae9369852966fc08
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/.gitignore
+SPDXID: SPDXRef-item18108687
+FileChecksum: SHA1: f56bb22d538196b0ff303a4782710c4a362f3d49
+FileChecksum: SHA256: 4c256b59db8337fb80b8ed6a03282ec047dbe5054a834f35c81581a57453d680
+FileChecksum: MD5: e4548508d081a73773b4a4fdd00639e9
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/.gitignore
+SPDXID: SPDXRef-item18108567
+FileChecksum: SHA1: dfe7547d4c051c53bc417f2fef5b3c1ac7169bd8
+FileChecksum: SHA256: 6d50f63036f5acd8c3d0e1e42bb1cf6fcc740ac410f2a9d3c489bb61b51db3e5
+FileChecksum: MD5: ec78b83d52e617373dfd76c9af1980b0
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/emitter.h
+SPDXID: SPDXRef-item18108685
+FileChecksum: SHA1: a35a638a733966a2802a9fc11a70804c2ca55032
+FileChecksum: SHA256: bee893c1d2f19d73e9797a9ba04e743a920119c26f466242622ae2aefd1aad99
+FileChecksum: MD5: 39265c02cc4beb2bcb20fd0ecef366f3
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/debug.h
+SPDXID: SPDXRef-item18108648
+FileChecksum: SHA1: 8e7975d2bd6a44aaf7a21388f8a737e00d50c9cc
+FileChecksum: SHA256: ec1d208adbfd1dce3ba2a96ca8af61ec216fd989efc5b569379df1c0d6da7120
+FileChecksum: MD5: 58d3fe0cfc59a66a7f2ebfb945e4455c
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/typed_memory.h
+SPDXID: SPDXRef-item18108684
+FileChecksum: SHA1: c2ae61c833fda302fe9a4974bf64915d5b52679b
+FileChecksum: SHA256: 0d8630c8600a2867d3f9cd0cd515e1ae93dfc11a5acc8bfb7b0f91fb65f4ce6f
+FileChecksum: MD5: 3532a3c157976ed2eed5b81def2e32bb
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/random.c
+SPDXID: SPDXRef-item18108650
+FileChecksum: SHA1: 8df162cc2129c3eece28c9c5fbb4bda452c50066
+FileChecksum: SHA256: 28c69a5caa12e816dac998bdbd13fefc1bc7e3c82f99e9223cfc5a825df79f4c
+FileChecksum: MD5: 04d8e82f2b8fed30df76971402f7a988
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/digest.h
+SPDXID: SPDXRef-item18108679
+FileChecksum: SHA1: 24e433bcaee47e2d9475c207bb717c8cd427e48e
+FileChecksum: SHA256: 2fcc03400c83ea6caddc5657fb373ac748c07f2b8c05126c22f054edd8769fff
+FileChecksum: MD5: 5f412fd4989affdbba4f81bfb343ef49
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/utils.c
+SPDXID: SPDXRef-item18108641
+FileChecksum: SHA1: bf04fdcc2c4c727b2f0a0fffee1381f77720824f
+FileChecksum: SHA256: 3a0fd752e651ee0fb75f5a23614c3572d54efc58eb2db3e83ee297aeb558af33
+FileChecksum: MD5: e74b4c39cfd672dccfb5bc8d16b7b5d9
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/encrypt.c
+SPDXID: SPDXRef-item18108678
+FileChecksum: SHA1: 1b9f695324c020321ad26814cb7d6fa4bc990c92
+FileChecksum: SHA256: 89b48ff6b399dfde5cf4733e8a552356a9a95755d1fdaacdbc955ddbfc18b914
+FileChecksum: MD5: 7736a01f77ea31b9347fb0d12750205a
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/slot.h
+SPDXID: SPDXRef-item18108649
+FileChecksum: SHA1: bddd82e25c5f012b403b5eb3934a22fd47f71d34
+FileChecksum: SHA256: b8867f064533d03983f887db0657e3b44f2b353b8f107be1f172d62c24423bfc
+FileChecksum: MD5: 12c70ae8833526bce8b1f4ee180bbd09
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/slot.c
+SPDXID: SPDXRef-item18108674
+FileChecksum: SHA1: 9cf4fd1a74a5afa886a5db5e2d9b287909b48335
+FileChecksum: SHA256: 58edd4b8ea89b1f860460ba3f31e818c1674acfea3fd19146e002a0f513b05d0
+FileChecksum: MD5: 961894123fb3e95b63c23d461cb1624a
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/commandlets_keys.py
+SPDXID: SPDXRef-item18108585
+FileChecksum: SHA1: 7667f7e6f276063b1ca5314b83536b13c7249c0b
+FileChecksum: SHA256: e8daa162e714e88131612b88b46fa08e78311c76c8e0f2059acda75ba508d30f
+FileChecksum: MD5: 32e6b877d278523a2ae9e506c65913ff
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/mech.c
+SPDXID: SPDXRef-item18108673
+FileChecksum: SHA1: a5ba101bf86fd28f304773ab2a4325a2d1a2d6a5
+FileChecksum: SHA256: f182c6c098d2e9d179d0a4aff8a87effe4a88dcb3ea7ce74fbd73cc975293994
+FileChecksum: MD5: def601d98ca51e71abd9566d88865aa3
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/.gitignore
+SPDXID: SPDXRef-item18108562
+FileChecksum: SHA1: dc470b6cef7b9e74d8f0f249245e8b50e96970c4
+FileChecksum: SHA256: 41af43e78763d807da3fe7ca04d72c5ccabcb2a5dd43fd1272d0808c14d90c29
+FileChecksum: MD5: 26331aea6b05a7b5118d1eb8125fd139
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/sign.c
+SPDXID: SPDXRef-item18108672
+FileChecksum: SHA1: 505aad93e6e89a5d77fa65c04c7dfac2a7106328
+FileChecksum: SHA256: 7c72f4251a004686a3ea9fc575511a872636900f47a6f155a59f1d06cd7e329e
+FileChecksum: MD5: 1fb32e4a6672e5307252b17255a7cf09
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/session_table.c
+SPDXID: SPDXRef-item18108643
+FileChecksum: SHA1: 8c8b1763b3cd103d6d4e0a6d3871cb36eacd3fdf
+FileChecksum: SHA256: 103b43f37414d7b5e2eece127f81daa72399006398c66a41ca5cb511f0c18212
+FileChecksum: MD5: 48d16cd25cba9de1bcd63d814d9243f3
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/tpm.h
+SPDXID: SPDXRef-item18108671
+FileChecksum: SHA1: 138601bbd1623773f9fc36cbac2b6bbb69bc3022
+FileChecksum: SHA256: 5de563b8489b4fb55a33c253e8e144710a9b98b2086ff218747f0a3575c4021e
+FileChecksum: MD5: 472bf59edb0693e278d4ce2376c4b7d2
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/derive.c
+SPDXID: SPDXRef-item18108644
+FileChecksum: SHA1: d201ce42b93140171d01b47859df955e8e5470cc
+FileChecksum: SHA256: bf0fc7bff32937382c6c4b0105d6f015c625dfa669c0b3bf29602e2e73914901
+FileChecksum: MD5: 61830fa37dd6f636f87cf4c5c941d05a
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/general.h
+SPDXID: SPDXRef-item18108670
+FileChecksum: SHA1: 6a8e5e28e82d9f3c0c76421dcea545099b15ec5a
+FileChecksum: SHA256: 43d96fd24df94892ab10e5ac8a93a2c0cdbd0751cd5fdfe581cc0c9f82183fdc
+FileChecksum: MD5: 513caed8bd4b3d64b4cdf264d71e0b89
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/object.h
+SPDXID: SPDXRef-item18108640
+FileChecksum: SHA1: 60153b94e78fc5849b50fa29a801071c245115ed
+FileChecksum: SHA256: d6dff64dc03bec0551b809477ba3e4f50e4a64681ad0601204518dc6d0d95f60
+FileChecksum: MD5: 023b5f18045ae5c0a9ef309d651c8b3b
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/attrs.c
+SPDXID: SPDXRef-item18108667
+FileChecksum: SHA1: 825a4534fb0917a7306dd4a5a97998d707c68efb
+FileChecksum: SHA256: b96109c6b35080bf2f9688ca6559025c86ac7f7d5e976ce5e8c2b319d0143a34
+FileChecksum: MD5: 1d58742fecbf083a3c86813106120880
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/session.c
+SPDXID: SPDXRef-item18108639
+FileChecksum: SHA1: d6ed9a2c8b62a7114cf8d92e2c38db6fcc845bb4
+FileChecksum: SHA256: 5557e5c2e9209b4fa8e906700c0ef5b7372fe407cb7352e94100ffd41fdaf1d0
+FileChecksum: MD5: a71bf449b0afaa80706538ee95b8f0c9
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/twist.c
+SPDXID: SPDXRef-item18108666
+FileChecksum: SHA1: c153dda32606f2ed192a724d4c69ed4b9da98d3e
+FileChecksum: SHA256: eab0524eb22e6e31f57687e4b81d3bb911d00e8b63ec2f50f61cf539adc8c733
+FileChecksum: MD5: 0a87212e7ab2b6a6a152c15baca3a4b3
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/utils.py
+SPDXID: SPDXRef-item18108588
+FileChecksum: SHA1: 5beb9797023dfb448904924013e0e448f869d269
+FileChecksum: SHA256: 582cfddbae96cd825b76b21992a6ee6615627a02e3cc555058c0d4f400689b1c
+FileChecksum: MD5: ef3fd8d294d9fe8bc4739c07c12f79e9
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/codecov.yml
+SPDXID: SPDXRef-item18108694
+FileChecksum: SHA1: 54ef08bdd5cb3028f57ee07800f1ef33c19121a5
+FileChecksum: SHA256: 3d9cfe16502cb4948e65fe4aa01b8671c25925fad20de127700b55bb125fb846
+FileChecksum: MD5: 4b78015991a3eae4a1b12c1ed8458f51
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/mutex.c
+SPDXID: SPDXRef-item18108665
+FileChecksum: SHA1: d376a125000157086d10f98eb73f32ceaf1cae92
+FileChecksum: SHA256: 82beb08545d37d0c8d91a15c2987ab8cdc9c257a33ea6c3bf349a63dc5a9c846
+FileChecksum: MD5: 8faa2fd7bda611717b460bdb3ef38ac2
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fake-tpm/wrap_tpm.h
+SPDXID: SPDXRef-item18108566
+FileChecksum: SHA1: 1243ff4e113df55eb422ca33220f1efd3dbf61a4
+FileChecksum: SHA256: 920572c4029f0fe40fa5113080c32247bca040f876e99dfeb09910191dcec9ae
+FileChecksum: MD5: be6c7d3625fce4cd0c343917fc698ed0
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/pkcs11.c
+SPDXID: SPDXRef-item18108693
+FileChecksum: SHA1: 64fd19a7663cb131f5507c24084133aeba92f365
+FileChecksum: SHA256: 637a1368032530539fa3858b584d2f4c89ea0df866b7c002364461f8df4867c2
+FileChecksum: MD5: 690161ee3f77ae92b42320d2c07ad87f
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/backend_fapi.h
+SPDXID: SPDXRef-item18108664
+FileChecksum: SHA1: 8339e0e3f128882e71ab81193bc5199d672fac81
+FileChecksum: SHA256: 9c0bf315fb39cb79e085a0f068a996eda960f9ca19a88308a6c982ee635e62f5
+FileChecksum: MD5: 4f9f6c7ae7cc1a6f274d9c10e16a7f61
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/random.h
+SPDXID: SPDXRef-item18108637
+FileChecksum: SHA1: 265b948243f44ff86a5850c2f5aa3ef45e5e8e3a
+FileChecksum: SHA256: 3293f75c6af0c57c87c1dc3dc18bd9188749c41368cf22a97c53cd6aa135ec50
+FileChecksum: MD5: eb5bce0d5ebe740a174df7a7ba2728c6
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/session_ctx.h
+SPDXID: SPDXRef-item18108675
+FileChecksum: SHA1: 06fb5cb67c45cdb9719532a9e19e297440d1d796
+FileChecksum: SHA256: 0ced39e21b65c16a768674682acb7a74ef326bb700a441187eec6b0aa7223065
+FileChecksum: MD5: d8fa62091b28b81c31697a9a108fa617
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/session_ctx.c
+SPDXID: SPDXRef-item18108663
+FileChecksum: SHA1: e1eaffa6aedd8bbd85446aeec2238fa917a4a125
+FileChecksum: SHA256: 7c63f475761dbaecd32c299a7e5e443dabc53c56ae247aed13c64b5b1fa6209a
+FileChecksum: MD5: fecfd553077e6b1c7febe0421cc98e8e
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-sign-verify.int.c
+SPDXID: SPDXRef-item18108564
+FileChecksum: SHA1: 9e0496d683a9b35c38a5baa21dd2e0375c37a38a
+FileChecksum: SHA256: 2d41bfa31c09313dc5e57c194dcb650fdbf66e397c144128f927cccbcc93513c
+FileChecksum: MD5: b5b7ccdbac583b8f8633f5cd4d52845c
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/derive.h
+SPDXID: SPDXRef-item18108668
+FileChecksum: SHA1: 15f0f39e4e99949d4fb69b181a45e913414bb580
+FileChecksum: SHA256: f6a97e5f590e6c9b418dd615227cc01b432b4d39dcd06daf51c5e7f0c522a307
+FileChecksum: MD5: 47dde0be50154b9f00f6b5b49f00ecf1
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/backend.c
+SPDXID: SPDXRef-item18108662
+FileChecksum: SHA1: 73bcb7744343168586993512a0ccff22a98f15b4
+FileChecksum: SHA256: 2b67f6dcdf665af688375364a9facb0ef1a84439047f9072b5628a37e5490063
+FileChecksum: MD5: 0cdefec5a98668403add649b2c59cc29
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/token.h
+SPDXID: SPDXRef-item18108636
+FileChecksum: SHA1: 233dfade8fc485f848ea743202382f0f1398ec7b
+FileChecksum: SHA256: 85774cefbf9a21bc03fc7bfbb3d130046ba99fd1a2a40d2d3bc196c612ccca9b
+FileChecksum: MD5: 7f4a25ff0fc16e16cc9a9fef3f076330
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/backend_fapi.c
+SPDXID: SPDXRef-item18108692
+FileChecksum: SHA1: 264d1f3370678b23609203dce3ba89e04dd04fc1
+FileChecksum: SHA256: ace7690a1cdbccf6deb800255c273d800b042a2051d79ca4eb91fe8049ca4a5b
+FileChecksum: MD5: f570afb56abaa2535f0c7475e94ae70e
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/utils.h
+SPDXID: SPDXRef-item18108661
+FileChecksum: SHA1: a787e8eeaab8dc00392ae0c1dc18b9e5bd8bb80b
+FileChecksum: SHA256: 931eda35f41ac3ea4c12f4353aca7cafd5b08e8280c58ecf576cfb2cfbc31811
+FileChecksum: MD5: 90190e7486cd80c7075b27a8dbe6f5dd
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_ptool.py
+SPDXID: SPDXRef-item18108580
+FileChecksum: SHA1: a4a07df3f96c4ac9ce4e36134dadd088c037d826
+FileChecksum: SHA256: c4c8821d0fa6ea96bd50a4894b13c69fa289c0b9f3a751ff345aa6825e37f39e
+FileChecksum: MD5: 10eb755450cf125e7a27dc31141fbd31
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/twist.h
+SPDXID: SPDXRef-item18108660
+FileChecksum: SHA1: 353294d35e64a431a327d6f8fa90ee77feb835b1
+FileChecksum: SHA256: ff2c0e5e5d58451996a9284e509e288958bfdbd80d12b8a1bbe80b3fac455252
+FileChecksum: MD5: 80cc633044c53cc23f0082095a9baa2b
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/session.h
+SPDXID: SPDXRef-item18108635
+FileChecksum: SHA1: d9514bbfb6093cece7a5deba0fec5065cf26f17f
+FileChecksum: SHA256: 9f359324adccc2e2625b539f540ff6572f51ada241689a7a6c4cb0a63097953e
+FileChecksum: MD5: 105cc4d3203fdd35e68fdab7cde8bc2c
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/parser.h
+SPDXID: SPDXRef-item18108677
+FileChecksum: SHA1: 76e167078a31a01f7a8f64f2e84dcb4046cffc76
+FileChecksum: SHA256: ccad9b81af289b4eb7e9da33db3905e23d17e03a1989922271c4013007a40a46
+FileChecksum: MD5: 148c1b19fd8212edf125616326ef1b85
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/emitter.c
+SPDXID: SPDXRef-item18108658
+FileChecksum: SHA1: 5501205927a45d040fcc7a07edf451e7aa208cfd
+FileChecksum: SHA256: 7b6db595a0a52ff53e0f08286eb49a72172a617edc7992505cb917cf828b2d42
+FileChecksum: MD5: 7e2df007ad5f1fc2dff6fa1a24f2ef5b
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/encrypt.h
+SPDXID: SPDXRef-item18108659
+FileChecksum: SHA1: cc0cb354857fea1296eb34a1f841e4ad811d07f4
+FileChecksum: SHA256: 9a99164a5d131c8db0ddeea0dc081464b12c28169b8bfc0609e63fc82fed7221
+FileChecksum: MD5: f146377f3adaae153e83bca84de06ccf
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-get-attribute-value.int.c
+SPDXID: SPDXRef-item18108561
+FileChecksum: SHA1: 8eb921c312b21323364206415e5927fa9101e5a5
+FileChecksum: SHA256: cb45569c70965793153ecc22c2d44de75b71da21f8630c83955692ed16af91b0
+FileChecksum: MD5: d2667a7f6724bff8bc76218f20aa757c
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/command.py
+SPDXID: SPDXRef-item18108590
+FileChecksum: SHA1: 51c7ed9f6cac74282c63cebd25d8c8dc81be48f3
+FileChecksum: SHA256: d3634e344ba026d10c6a88c490db0080d99320d53dba3a27bc3ac4169d2e6fd0
+FileChecksum: MD5: 2b3800099cc47c95d1eb3dffe8cd6b45
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/key.h
+SPDXID: SPDXRef-item18108683
+FileChecksum: SHA1: 59dda8c359235689e3421cf6bf63c97f156d9e7f
+FileChecksum: SHA256: 98eb9e57456948e381a7acfc398d68845392ec513550eaa6e4752be5ea9d5a72
+FileChecksum: MD5: 81b1cf29772d2e0d7631a49d88873f00
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/key.c
+SPDXID: SPDXRef-item18108657
+FileChecksum: SHA1: 094dcc27b33800cc279aa3487442dd7582d41b44
+FileChecksum: SHA256: a9324271e893a7b5d4b7769f6f24eb7766196d6bab72c7b4ba98377520148a1a
+FileChecksum: MD5: d6d5f933bfda37b4c50a285b751f8aff
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/objects.py
+SPDXID: SPDXRef-item18108589
+FileChecksum: SHA1: 7e4c7a10beac2d1ad890914e993ab7693ca6bf47
+FileChecksum: SHA256: 60a3dce747a2ca473e0f2303023fd0ca18cd50af92fa078a27bcda886dffab39
+FileChecksum: MD5: 4ac75179c35f48e2a91746647ac385c8
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/db.c
+SPDXID: SPDXRef-item18108655
+FileChecksum: SHA1: e00f97a28eef2977b7343a27412fd60e7e6a1d89
+FileChecksum: SHA256: 84c8ab93ff597eda15f5e571e21b507cac14f307d58587724e2e8c8a01409cd9
+FileChecksum: MD5: 1fde3df8f96a2911145c8dff159b9f5e
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/bootstrap
+SPDXID: SPDXRef-item18108597
+FileChecksum: SHA1: 839e4edb31cd527b74b70786ceab908df2aed120
+FileChecksum: SHA256: 2981052fd9452cf388b8532bf34c0659e6f7c67bf918732da365605aab7c3c77
+FileChecksum: MD5: 9b292159504ce01a5e0c48c0959a946a
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/backend.h
+SPDXID: SPDXRef-item18108691
+FileChecksum: SHA1: 133ecb840ddeb6db661d278a9192ae110c938ff3
+FileChecksum: SHA256: 9125467440554b7741324c49d6ac281823e5ee432fe0edcd84a48b5dae8129e2
+FileChecksum: MD5: b8147ad7bf6b33cd2d5321c227cec69a
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/ssl_util.h
+SPDXID: SPDXRef-item18108656
+FileChecksum: SHA1: ff8b132672aab2c5992f80b13b2a4d93c2d0ed22
+FileChecksum: SHA256: 9ce77b3a302951069a892a779b158fc135fcb4a7c3574a053be922e2e8e791e5
+FileChecksum: MD5: b8739f3d1473ba7ace33b5a062367e98
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/commandlets_token.py
+SPDXID: SPDXRef-item18108583
+FileChecksum: SHA1: ab58af71df632ce50a338758f66909b30da5c739
+FileChecksum: SHA256: 02e12d1840720a27417664ec45c874f04ae6d06164b583cf5f45267802972aa7
+FileChecksum: MD5: 58a850390d4193a1ffaefc84d1050436
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/general.c
+SPDXID: SPDXRef-item18108676
+FileChecksum: SHA1: bae90f40ffba11f7bc80af65c56a33c836731476
+FileChecksum: SHA256: 44979cbff9f049b7ff9aebd648b5d3fda6a46a8e588bd10b9013ba00b9fa8c61
+FileChecksum: MD5: 95885af5e5cf4471fd8d1e6e0c036cbc
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/typed_memory.c
+SPDXID: SPDXRef-item18108654
+FileChecksum: SHA1: 37d50f1df3c9ace9d817912bd3470e9bb9642ff1
+FileChecksum: SHA256: fc74d871cb704f24abf6d60f82f5e8188d7d2b50eb3f8d88895f61737e6523d5
+FileChecksum: MD5: c4f163ddcb1ab6b9ff373f1cbf9dd431
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/tpm.c
+SPDXID: SPDXRef-item18108669
+FileChecksum: SHA1: dcf61576f5a40d719fdab385d46b3687e77ceb0e
+FileChecksum: SHA256: c2819ededcf290264d11c81629415921c9261c27223a2bd66af845f1ae7eb9b1
+FileChecksum: MD5: 7c6653cbd71492fb869d082fe5d077fb
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/ssl_util.c
+SPDXID: SPDXRef-item18108652
+FileChecksum: SHA1: 640a1329661ce88372cf3bf4a2e313f402d4427b
+FileChecksum: SHA256: 4ae57b5a77d1dbc749b42a5e7ed25836381f9d88a0f950fb2e25cd258279e8f8
+FileChecksum: MD5: 4df486ba213e2bc5be81f447817590cd
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/scripts/create_pkcs_store.sh
+SPDXID: SPDXRef-item18108554
+FileChecksum: SHA1: 7e6201dbf77238779170f8b5924c6132a1572150
+FileChecksum: SHA256: 4410cdb4756a3c7e7e08ad40ff2ef1f8a5cd833af64d0ea966d176ee1cfbbd5b
+FileChecksum: MD5: 3efede1fe033d5f9211678d280b19dc0
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/log.h
+SPDXID: SPDXRef-item18108680
+FileChecksum: SHA1: e3f3eb47ad38a44902a89ad223ae864c16b2339b
+FileChecksum: SHA256: a81b0bb7ec018651a6a2167a05230f6963f614ae4dc8f8c6991b5e34c320f0a1
+FileChecksum: MD5: 40dfc9529fd0ecf2ee06f49230e844ab
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/db.h
+SPDXID: SPDXRef-item18108651
+FileChecksum: SHA1: 005df26f1957b4e547037ca8930910c3e19a47d3
+FileChecksum: SHA256: a025d32b4b6fd693f782ab8139163545b501a8570ad69abffc7f40baab6c20b0
+FileChecksum: MD5: 6bd61d8a5c60583dfd61514f83be5bc8
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/mutex.h
+SPDXID: SPDXRef-item18108653
+FileChecksum: SHA1: 49a653e4ac589d04cbea0bbdf66762fb0b6d6adf
+FileChecksum: SHA256: 6fdd9297c575cd478169fc8b9390f357b9ecc4188a69fc331efdf021003512c7
+FileChecksum: MD5: d76487ac2f39bcd61b1e0165939c390b
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/test.c
+SPDXID: SPDXRef-item18108559
+FileChecksum: SHA1: 21a8909d4429665673695a1c6db2f3c76bd3c381
+FileChecksum: SHA256: 91f9c84c3ee0cf2cf642fe1396b0a0fd0c9a36279debfe36150c556cc1b2d791
+FileChecksum: MD5: cf71db83353649bad0d3ccc589b8ad50
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/token.c
+SPDXID: SPDXRef-item18108638
+FileChecksum: SHA1: 85d0b4ec66c9869e1df397896d8b27133aecfdc5
+FileChecksum: SHA256: 3f6bea7c07ddffb1d9982a59fc16b1c6fa98f1bcb627415f07bc8ab9034b0e5e
+FileChecksum: MD5: 25d6c50b547040952e40f2ebcb3aff9d
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-ecdh.int.c
+SPDXID: SPDXRef-item18108560
+FileChecksum: SHA1: ca6c78755725f0c6458b0125f91e66cb81760aae
+FileChecksum: SHA256: 0ce671c607ad2a802d93658756098df07dfc2fbedccd8044057b5530bda1c7ed
+FileChecksum: MD5: 5e322e866921996f1f39758fa4d3ee35
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-misc.int.c
+SPDXID: SPDXRef-item18108542
+FileChecksum: SHA1: 895225c36f64ee06f06201c52da6c0ac9b18e26a
+FileChecksum: SHA256: 800528f07494c23768bdb0dec86fbd3f624a4b553ea7aa346a27f93afe3ece13
+FileChecksum: MD5: 64f33edc3ef935f331edb31b869758a0
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/scripts/int-test-setup.sh
+SPDXID: SPDXRef-item18108552
+FileChecksum: SHA1: 7787356bd3fe9f46f72b710a2751b8c4ecb15406
+FileChecksum: SHA256: 4b2ec0d7eb8b7c1add11a52b9162968ded5a5c128071ff79a4262b90630d2cb5
+FileChecksum: MD5: 79c5f8d429f8117db7c82f8147237b23
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/configure.ac
+SPDXID: SPDXRef-item18108499
+FileChecksum: SHA1: 8f81f7347f572f77f67caf249e93f33f0b112f93
+FileChecksum: SHA256: 8a692092e3f93498bff1fe66e691ec3893f8f7df279889421af8cabf024a4793
+FileChecksum: MD5: 20f19e18c1234b78142c370c12efed60
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/src/lib/session_table.h
+SPDXID: SPDXRef-item18108634
+FileChecksum: SHA1: 66490b6fea7cf389f5840eac618f4dd7cfd68300
+FileChecksum: SHA256: ffc6e196f57755431d9eafbe2e1e9006699ad885f053510e3ac90a7d755faee6
+FileChecksum: MD5: 5516a1c94650b8c2fd01e20b22510802
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/commandlets_store.py
+SPDXID: SPDXRef-item18108593
+FileChecksum: SHA1: dbe609593bced1f30f4ae27e99357cdd2621061e
+FileChecksum: SHA256: 35e3f4dcda2f502c19b5e8bf1f9d6db64d2897653ed61158fb7de5e337a10b87
+FileChecksum: MD5: a06c63ee4296ba27aab909faa81d98ac
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fuzz/init-pin.fuzz.c
+SPDXID: SPDXRef-item18108510
+FileChecksum: SHA1: 994244e11eb27ec26258377398ef618b87eae7e2
+FileChecksum: SHA256: 7027be1b1bc58d2811b6ae24f5401392089a835946d3656273f0a3e75e0d82d3
+FileChecksum: MD5: 3bc04a4330e9c813fa44ef00e683741e
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/unit/test_utils.c
+SPDXID: SPDXRef-item18108506
+FileChecksum: SHA1: ffa030f33b563eb961942493104351740c2d7dd9
+FileChecksum: SHA256: 8b79605039335e97120e07ff0d0fe0e41caf8894b6251f03646c879e53c01de7
+FileChecksum: MD5: d9e55bbee28e2215cbfcb5efca5763a2
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_ptool
+SPDXID: SPDXRef-item18108581
+FileChecksum: SHA1: 97cbb503b596af995316f3b6cc3536809452b36c
+FileChecksum: SHA256: 02f697e3f4d3ad3236aa516059771236fe7c2ffa3350529aa970771844285bdc
+FileChecksum: MD5: 068f77180078260dc2b7c358ecefaccd
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs11-dbup.sh.nosetup
+SPDXID: SPDXRef-item18108549
+FileChecksum: SHA1: 366fb178add8f836ea0c60202feae3d9a3d4d30a
+FileChecksum: SHA256: e53fcae57aceb8eeb266f28a9d874f5318849463c6f4eececdb3f88f6a813c5e
+FileChecksum: MD5: 8054223205ce80d1326c83475ddd8e44
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/scripts/int-test-funcs.sh
+SPDXID: SPDXRef-item18108555
+FileChecksum: SHA1: f0ab5cb57a70cdb0fd491de6f9d81c5a6aa91474
+FileChecksum: SHA256: 97a9759cc3329cb6b07c6d3070c5c2af59a439dbe34b4c2607ae4f512602b7a8
+FileChecksum: MD5: 35fe726b55dc36221cd5892ec172e4d2
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/unit/test_log.c
+SPDXID: SPDXRef-item18108504
+FileChecksum: SHA1: 8ff124cca81e67314c25b2e77e12d5e00215a5db
+FileChecksum: SHA256: 82334750315717a02329ad74980c277607ba8728e5a14b5c24fb6c1786a073b9
+FileChecksum: MD5: 8f4fd4ae4921c3190db983ac26685621
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-session-state.c
+SPDXID: SPDXRef-item18108546
+FileChecksum: SHA1: 4c80b4d1e80889a18c69dd8b7807e628c2f100ac
+FileChecksum: SHA256: 0049bfbee6f50030a4d50012f5eef56255cd646024a72712898c7489b929776d
+FileChecksum: MD5: 85170d6fa1d290c3827cb0d0b418501c
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/openssl.sh
+SPDXID: SPDXRef-item18108536
+FileChecksum: SHA1: deb8afcb48dbf634177ac81cfa4532a2fc538b97
+FileChecksum: SHA256: 9761b6fb60edeff7f71fa08f4c50a79abaec75998d9562ddaba1c9e8259cb089
+FileChecksum: MD5: 27bce640fb951962f07e5aa26b55833a
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/unit/test_attr.c
+SPDXID: SPDXRef-item18108503
+FileChecksum: SHA1: 739234e46b49f2e85378499c3e03ceb84977e57d
+FileChecksum: SHA256: 6337fbeb1a8ddd9aa244ec176443ed514844e98b4bae91cf2098e3197b13c676
+FileChecksum: MD5: 5784c0ca788c00800928532896369516
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs11-tool.sh
+SPDXID: SPDXRef-item18108557
+FileChecksum: SHA1: 08fbff0bcb2ae6bfdcf8f0d27e609fac3c704347
+FileChecksum: SHA256: 70d5f0c9cd344ea03150f55e51ad4355904313b425755332740c5cad91f2df0a
+FileChecksum: MD5: 138f1e69d928e730c7279fd62d4d8ffd
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fuzz/db-take-lock.fuzz.c
+SPDXID: SPDXRef-item18108512
+FileChecksum: SHA1: bcb526f6c676d625e26bdefa52c21ff073e4ebb8
+FileChecksum: SHA256: 7a86ed8204df60fb13e7898e32cb0a330c0d5e67b0308492b3a91742e6195954
+FileChecksum: MD5: 426d7e4103ef27af9c17ce75db884e46
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-find-objects.int.c
+SPDXID: SPDXRef-item18108548
+FileChecksum: SHA1: ea7f6f1e5238a2c2fe9968ce35df2fc0ac52de59
+FileChecksum: SHA256: 21a79f6ce4ae13a0cd65b2817f28b3cd698050fda1545ac0d4280391b9c73c25
+FileChecksum: MD5: 5795955a313c4e174ff484fe13d51039
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-crypt.int.c
+SPDXID: SPDXRef-item18108538
+FileChecksum: SHA1: 10e24de8d144644c01b438474269993aeb13985d
+FileChecksum: SHA256: a2e3e4395993cdcc40a3bd76b17e759ca88243be9d2a6271238049ea94bed9af
+FileChecksum: MD5: c42b1ffb15fd142f2d1119629a0287a3
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/.ci/docker.env
+SPDXID: SPDXRef-item18108494
+FileChecksum: SHA1: a30bdd8967352bd286df9edf3284499f606a0471
+FileChecksum: SHA256: 6279d9baa237dc5a1b8add4554221cb4be14794b51f78d9c029bde07174df674
+FileChecksum: MD5: 2444ca715e5da59cd12c0574cbedfd22
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/ptool-link.sh.nosetup
+SPDXID: SPDXRef-item18108533
+FileChecksum: SHA1: 51ba146c0d774276047c115dc75d214cfb476807
+FileChecksum: SHA256: 39bf3085877962b8691bd43467a11825dc3be01439072acfce5c41ebcfd6ae7c
+FileChecksum: MD5: a77f0bfbb924e157319eb0904644a2c5
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs11-tool-init.sh.nosetup
+SPDXID: SPDXRef-item18108547
+FileChecksum: SHA1: ed3c7d653809e663a01488f5e9195eec6822b541
+FileChecksum: SHA256: 5952c4ac6cb6c833669a1318c42938779c7865adf761351d890e0b1f5f8ad42c
+FileChecksum: MD5: ddf7a2cce369af28784147f12246a70a
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fuzz/yaml-parser.fuzz.c
+SPDXID: SPDXRef-item18108518
+FileChecksum: SHA1: 0c79710396e33eca523939837b9a463fe5d985f1
+FileChecksum: SHA256: a242814867ed77ee4a89aa4a7743fb852b2e5c302d4cb57180fd689569fb6606
+FileChecksum: MD5: 0715f04fbe7380c991de39833177c368
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/.ci/download-deps.sh
+SPDXID: SPDXRef-item18108493
+FileChecksum: SHA1: b26ec3fbc62403f7144b30132f95713fce06fbd3
+FileChecksum: SHA256: d6a15877d3d33184b79223104ed6b518822983592314daae567773c84ffa2e27
+FileChecksum: MD5: b1538c31818f6e9aa80671e8a3eb1b24
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/p11-tool.sh.nosetup
+SPDXID: SPDXRef-item18108544
+FileChecksum: SHA1: 19216bd65d0014ac94fc40520c847a838843e440
+FileChecksum: SHA256: 3907475055d8278821aa69705fa01f7cfd1eba4ac515d31c337d79158aa23e77
+FileChecksum: MD5: 2d55b0b71b3c0122b1d99be1dfbb7000
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/nss-tests.sh
+SPDXID: SPDXRef-item18108535
+FileChecksum: SHA1: 1df724f330929eee7cc7f4ccd5b869b6d4414b22
+FileChecksum: SHA256: ff85ee376767697f092e2c76c57abb7dc6ca66b627eb0eaa3bb383fc47d2206a
+FileChecksum: MD5: 0f16b8b0bb66a0312047e341c59ceb7c
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/.ci/docker-prelude.sh
+SPDXID: SPDXRef-item18108497
+FileChecksum: SHA1: a4bfc4a920efefd1265fe3192eb1e2124c69bef2
+FileChecksum: SHA256: 2268447497e8c8cab23157323ff4d74389c5646a07ac0aef50338f16612841b9
+FileChecksum: MD5: 027a6282056e6fa78a7ec2d0f7baef92
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/tls-tests.sh
+SPDXID: SPDXRef-item18108534
+FileChecksum: SHA1: d2f796331a90657eb50701584f23a6b013b1ee66
+FileChecksum: SHA256: bd13bd5b9c4864a94b02ab731efa2bf62bcdb3210ca9f7dca9ca3e301882f0b9
+FileChecksum: MD5: f3ccd480c17ccf06d24fdf972fc84848
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-get-mechanism.int.c
+SPDXID: SPDXRef-item18108531
+FileChecksum: SHA1: 00d3721831f961d482808742513e33dd5549c866
+FileChecksum: SHA256: a04084a8d52fcf0a79b507db67b49289ce34049cf31860819cde5de915534e88
+FileChecksum: MD5: 42fa0ab5cb8162e4923dcfaddcc15136
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/unit/test_twist.c
+SPDXID: SPDXRef-item18108508
+FileChecksum: SHA1: 0ab38c2892bd7367ad323da0343b4b8767918bc6
+FileChecksum: SHA256: 702a59ea409846e91e3c394971652cbcd785e88eb42daa47595edd23c28bc797
+FileChecksum: MD5: fd286efbbd9077536f45c29e266aa1f0
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/.ci/coverity.run
+SPDXID: SPDXRef-item18108496
+FileChecksum: SHA1: 461d4884aa4879932fed1dc5ebfd5e7524abf03e
+FileChecksum: SHA256: 0043773cfb0146a07f74413d4663f5d2dc58e8095e41122d9743e3605a8165b1
+FileChecksum: MD5: f95028101a96d75b3946530784665580
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-initialize-finalize.int.c
+SPDXID: SPDXRef-item18108541
+FileChecksum: SHA1: 56a7cdbbed6bd8325b2008d41bc7168c3447dd04
+FileChecksum: SHA256: 3aedd6a112bc975c6b6f45a31f60e4ab63101e6a702416eb8a50cb97af614cab
+FileChecksum: MD5: 808842d13de1c4e139bf8bf9c84a181b
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fuzz/utils-ctx-unwrap-objauth.c
+SPDXID: SPDXRef-item18108514
+FileChecksum: SHA1: 895df464dd23c80847d6502063dde8fc31e142f2
+FileChecksum: SHA256: f8fad4d15f02e1d12e0d49a7e9183ffe7cd003ffc866abc3dd5c6c6d208cb765
+FileChecksum: MD5: 827dede5713f408d909a5c7e6fca1968
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/python-pkcs11.sh
+SPDXID: SPDXRef-item18108537
+FileChecksum: SHA1: c8066fa235fc8f9144ae19eef46ccdf308f6599a
+FileChecksum: SHA256: 16dd23ffa76f955e3f5976b600faaaaf8e2746e26c1419a5c66f5f5625f59c6e
+FileChecksum: MD5: 23f27256b6bde86847232844c52d8565
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/.ci/docker.run
+SPDXID: SPDXRef-item18108495
+FileChecksum: SHA1: 6997bbb2b62b0c3da9fd9f6a0dbd1a24e2fe43ca
+FileChecksum: SHA256: aee1e02a02a91c280c15777e798efc2702afdcd2215138de4cbb4e864822b513
+FileChecksum: MD5: 2bee40bbf9e8ae542c55c501062eff3f
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs11-javarunner.sh.java
+SPDXID: SPDXRef-item18108563
+FileChecksum: SHA1: 64c8c3750a9f0e51345e8a42c340fdede035d4a2
+FileChecksum: SHA256: ffa4d96854813dfb05a24a7da35d37682edbf2283243843cc5781e2433756efa
+FileChecksum: MD5: f0c702cb649dcfa4fb9a63e419cd2c9e
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/tpm2_ptool.py
+SPDXID: SPDXRef-item18108586
+FileChecksum: SHA1: eca5c464aca167302b95848cb447200034612521
+FileChecksum: SHA256: eb49e2097b3683c6a74bd0dd085fda7a861b002ce243409dbf3d72bdc0357fd5
+FileChecksum: MD5: f89d839420c145cb1906e454afe0f70c
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fuzz/init-token-label.fuzz32.c
+SPDXID: SPDXRef-item18108513
+FileChecksum: SHA1: 05dc76505a46ccbd74d525d590308228ff4e5717
+FileChecksum: SHA256: ed950e6456f0a8cb050cb51e1296ec4127dded46ec28fbd758f9dfe6e5804a6f
+FileChecksum: MD5: 299211fb715e169096649c2baed7ee1f
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/test.h
+SPDXID: SPDXRef-item18108540
+FileChecksum: SHA1: c4f37505824a8f314b05a60d7e7ba7483c533241
+FileChecksum: SHA256: d85e1c3530149d16d1de136fb03a5a2d8cb2047309168429891c66a0f4898848
+FileChecksum: MD5: 28d656f27a6fdca7cd8f75e699935ab5
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-login-logout.int.c
+SPDXID: SPDXRef-item18108550
+FileChecksum: SHA1: 7c7c6b9e563ea57a3ac053edfa1d0b57257e83cc
+FileChecksum: SHA256: 35561f67884e6812b6fe21eff8b1f022a6a2d091f9fad1ebd2605400da210808
+FileChecksum: MD5: 654ef2704726e8d9bb24c8163b17237d
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/tpm2.py
+SPDXID: SPDXRef-item18108591
+FileChecksum: SHA1: b69994d259ff6ea97130262df0b17ec7b0f153db
+FileChecksum: SHA256: 54bce179ec894b36eef603baed8966a802245b45e50668b3a5f11110dec64e1f
+FileChecksum: MD5: 20e81b56caa7b0ac823f1827496c2804
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/unit/test_parser.c
+SPDXID: SPDXRef-item18108507
+FileChecksum: SHA1: 117db994dfd25cc70b1136b74354acdb0c76216b
+FileChecksum: SHA256: 40b9557e87a28a6ea99b704d5e66080357617cd38fe9f356880b535144c0e12e
+FileChecksum: MD5: b6d5689516a70273735d8b1e87187740
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fuzz/init-token-sopin.fuzz.c
+SPDXID: SPDXRef-item18108519
+FileChecksum: SHA1: b70e0719376615afc629e919fd3167a44f945095
+FileChecksum: SHA256: f8610fb8939c612bafe2ba33d5e5bf4ac5554cee76d056c8466e5ad540c820e2
+FileChecksum: MD5: 1bc77290513014746ac91941642afeea
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/tools/tpm2_pkcs11/db.py
+SPDXID: SPDXRef-item18108592
+FileChecksum: SHA1: ebbecff63cfb42d6957b2bebd4ffed7b848e24a2
+FileChecksum: SHA256: f6d3f12429539fa2f54bab6199f0de499ebcda06434d2315d0a80566da5aa9d5
+FileChecksum: MD5: 8b0bd175f23d1b17cdb96ced6a69256d
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fuzz/db-token-label.fuzz32.c
+SPDXID: SPDXRef-item18108515
+FileChecksum: SHA1: d0400cedad70f3344d89db46ae15931ee2a1acf0
+FileChecksum: SHA256: 5e4f9c66dfd9c20c5243a4d15e06e585544372b49cff7578501bd554418d760a
+FileChecksum: MD5: 8303311076b7b43751db3d9063d4d3f8
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fuzz/set-pin.fuzz.c
+SPDXID: SPDXRef-item18108511
+FileChecksum: SHA1: 25212b8c143e78d2b4298a233ec521e0f9ff5acf
+FileChecksum: SHA256: 0b547d31c59fd6045fb359abd434c6d4c70ba1e1434a6dd6d45edad1bfeca9ef
+FileChecksum: MD5: 21cdc3a2d438a903ef69e2d3eae6e96b
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/fuzz/scripts/fuzz-runner.sh
+SPDXID: SPDXRef-item18108517
+FileChecksum: SHA1: f2cf21c08b387c2c1e648e6dc2cfcc8d2871504f
+FileChecksum: SHA256: 1527ca812b7dfbfc0dc206b29522cffcb209833d134edfd84cbab593c861566d
+FileChecksum: MD5: 9915ead943b6003d6c6e9512e2405446
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/ptool-link-persistent.sh.nosetup
+SPDXID: SPDXRef-item18108558
+FileChecksum: SHA1: 80b058d04487edeaa2d2d4000f09cd42b7b8f93d
+FileChecksum: SHA256: 80823bc6bec17638321f140b3e08f4558b5ccdbe47592501ac0a92d14c2e4b7d
+FileChecksum: MD5: c70cf8b9db836a2e005ff2f615323d33
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-lockout.int.c
+SPDXID: SPDXRef-item18108543
+FileChecksum: SHA1: 07d717ca9706436c41aabc1d9239bb15eca0fd94
+FileChecksum: SHA256: 4f7d8c64ff484ec9cf7f1b5928a160c8fb5ded75e7ddb11d5024de8790c4e948
+FileChecksum: MD5: 32c1f8bd30de5788ee6985bed4502733
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/largebin.h
+SPDXID: SPDXRef-item18108545
+FileChecksum: SHA1: 6f6bd68167cf49b78d6543eea96d032ebfe01e3f
+FileChecksum: SHA256: ea903ff73778fe797c158ce85c41b92593bbdf603d217e63ea98ed38619fafb2
+FileChecksum: MD5: 5abf7c9e7901d1f4ad37c2398390112b
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/unit/test_db.c
+SPDXID: SPDXRef-item18108505
+FileChecksum: SHA1: 3f20fd7d95b43c343b45a7ebf06b56cae3fe8603
+FileChecksum: SHA256: 1c05d63295fd008ab576325d09cd9d8c189a864a09e8d4596bcfbeb9b14d764d
+FileChecksum: MD5: e717b80920438ed49a2d1f42291d0c81
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/Makefile-fuzz.am
+SPDXID: SPDXRef-item18108490
+FileChecksum: SHA1: 32f78a9f635ff7ecd03e1badc5f44dc520184898
+FileChecksum: SHA256: 0a537a6c4f26c93aae25b3e93758f20cf84e2081b798c932c647be4f6ac152fa
+FileChecksum: MD5: ba72a3560b104d5898452138fe258688
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/pkcs-keygen.int.c
+SPDXID: SPDXRef-item18108556
+FileChecksum: SHA1: b3bf27f597e6128885be9bb54fe2ea1e42552343
+FileChecksum: SHA256: 12ea8fcc4eb6f4a8a40d8cf72a7fb841da03070336f00d96796958f2ba273aca
+FileChecksum: MD5: dda60405be9736e8b948f8e2dc68cf67
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/scripts/helpers.sh
+SPDXID: SPDXRef-item18108553
+FileChecksum: SHA1: 01a0bb6b77ecbd5fb06f2203c89ef440851f43ff
+FileChecksum: SHA256: f5a242f7569fc26020783b68c062d8ed91633c9f713cdfc1bb0a6695973a68d7
+FileChecksum: MD5: a19212173feeac0a95f05fdb9e4aee27
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/.lgtm.yml
+SPDXID: SPDXRef-item18108500
+FileChecksum: SHA1: 837318d0ec0fe4f45cbad73c79f938e5a8fb13ae
+FileChecksum: SHA256: e67ae66357a8f78ccb681956bcc9ef4417b5812d1196826ed9e3e5d0e2b64c5e
+FileChecksum: MD5: 9625df49dece5e8c00f6d54204c171ab
+LicenseConcluded: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseComments: <text> The information in the file is:
+SPDX-License-Identifier: BSD-2-Clause
+WE took the text of the license from the LICENSE file in the root directory and concluded BSD-2-Clause as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/PKCS11JavaTests.java
+SPDXID: SPDXRef-item18108521
+FileChecksum: SHA1: 59d493cf8dfcb023efcb2b74c5a82adbd17abe41
+FileChecksum: SHA256: 92540f200041fb9fdfd636e2dba6b0625f077c55595e723353385d0bc226e482
+FileChecksum: MD5: 030f709767779a754e471a89117e0fd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/fixtures/xpextensions
+SPDXID: SPDXRef-item18108523
+FileChecksum: SHA1: ec907e9b183de94548c1a614f04554289166dfbf
+FileChecksum: SHA256: 85d06867be39357264b7193d87eaadd3a030d2da731c1ee20ba2b85769956c9e
+FileChecksum: MD5: 7894617ac060b50aa228fd72dea44e07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/fixtures/ossl-req-cert.cnf
+SPDXID: SPDXRef-item18108524
+FileChecksum: SHA1: 54c74eaeeb8cffa1afd03322664e31fee1714eff
+FileChecksum: SHA256: 42472f9e45c10b8c9f62257844c7501095c5f991f4f531fe1e8b789f2c79725c
+FileChecksum: MD5: 46f6bdf11cb8ed97db4115b1a25f2826
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/fixtures/ossl.cnf
+SPDXID: SPDXRef-item18108525
+FileChecksum: SHA1: 976ad29aebf1f21833ffb9509792fa74a4e5a4a7
+FileChecksum: SHA256: d6f6418575eff140b395f6598e8889e5de924ab6be74ba0c7312c9017eaee917
+FileChecksum: MD5: 762a7261bec91d18691bcbfc79453ce0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/fixtures/tss2engine.cnf
+SPDXID: SPDXRef-item18108526
+FileChecksum: SHA1: 0bf9934729e9af6e38e5637f71b58d5fc241e64e
+FileChecksum: SHA256: 9ce9ea177777d0e83c93202601bbc4e43a69ae89679028b4185462fc54c5081e
+FileChecksum: MD5: 471bf88234367c45d58c18a6466bf2f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/fixtures/client.cnf
+SPDXID: SPDXRef-item18108527
+FileChecksum: SHA1: a8a3d43a8c0990e51c613ed7a0600d5e835495b9
+FileChecksum: SHA256: 62567a7cd239a10f172f0e52f8818430b88ef1fa2725412a5695096e2d8ba32f
+FileChecksum: MD5: c24c17ca083c451c6bf646ae362b8a20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/fixtures/ossl-req-ca.cnf
+SPDXID: SPDXRef-item18108528
+FileChecksum: SHA1: 6080aee936f6af1f24a6fef9bd9113a752e0e27b
+FileChecksum: SHA256: f2425ccce9d2bc7fafc294411e300104258674fbdcbbd5daafa99e1b73856c1c
+FileChecksum: MD5: cf440d8e08c3edecbeee2809f64dabd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/fixtures/smimeextensions
+SPDXID: SPDXRef-item18108529
+FileChecksum: SHA1: 977668983a170f333eaa49a55d845fa61bcd5f08
+FileChecksum: SHA256: 81716042b834f6b101a8300a3c927a0e3d4c9d7a9c259ff74185b383d91f937a
+FileChecksum: MD5: f5ec1b7891559b2913ebbd74192acc5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/test/integration/fixtures/hmac.hex.key
+SPDXID: SPDXRef-item18108530
+FileChecksum: SHA1: 75f6cbdf0f48ac9937b72b4064d5b96c5e113d3e
+FileChecksum: SHA256: 9f5a71bec672b244dbda45fe465906f3beb4f13cc06f47f7c7f92d4ba1465c51
+FileChecksum: MD5: a0eb7a4f5289803838bdf503820694e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/lib/tpm2-pkcs11.def
+SPDXID: SPDXRef-item18108569
+FileChecksum: SHA1: 27491175ef3031b4321d8d910c7059d18db069f0
+FileChecksum: SHA256: 38e4f903d7a22b7ffc74a5d7b37812e6a462a945d8e73f0786166fa674dea600
+FileChecksum: MD5: fec63d82e4de92bdc0e92de078f2f5fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/lib/tpm2-pkcs11.map
+SPDXID: SPDXRef-item18108570
+FileChecksum: SHA1: 3d4937ea767d20911e8cce0eb386a4094106b9a6
+FileChecksum: SHA256: 2509d8c2bc535314d86b42884dc35dbe8df003ee142a745058af7204cb385fed
+FileChecksum: MD5: bfe21347b925479ada2b5e0cdbb1f3f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/lib/tpm2-pkcs11.pc.in
+SPDXID: SPDXRef-item18108571
+FileChecksum: SHA1: 17196d12c25187986bf1cd23433d1611d182cbe8
+FileChecksum: SHA256: c92372068d51fc7a8b76242a7f6d22563521167be2341f34598dd793328634cb
+FileChecksum: MD5: 77276b330db9fb48d1296d0c3f79de88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/.github/workflows/main.yml
+SPDXID: SPDXRef-item18108574
+FileChecksum: SHA1: 4244bb261ee2ff3e1fe56839e0f9f3944d53fd48
+FileChecksum: SHA256: ac79a09415634ed7eb2f6e408645cd4866e1c81dbc3bfdda54811760595390a8
+FileChecksum: MD5: 93c90b63faf3616996d5704caf3e15e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/Makefile-unit.am
+SPDXID: SPDXRef-item18108577
+FileChecksum: SHA1: 6bf6f08a4f76147ef643c2434dc94a349d42430f
+FileChecksum: SHA256: 8088443f472234213f4b78b374fca58349446fab90adb2bb31cd3ebf6c835132
+FileChecksum: MD5: f5e16a42913929a051c450ce41c65224
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/Makefile-integration.am
+SPDXID: SPDXRef-item18108595
+FileChecksum: SHA1: 8657462d69820376da6e0853bd0a3d1061039e93
+FileChecksum: SHA256: d27b76fe4a4661f31015adc9c59d370413a1e3637f2a07e956f989249686babe
+FileChecksum: MD5: 36cde8d8098f1f20be632eaa47d0a2ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/CHANGELOG.md
+SPDXID: SPDXRef-item18108596
+FileChecksum: SHA1: e6d8444599bb6972e1b9fb3bfa3e81027f0b6384
+FileChecksum: SHA256: 950a85de089cdc7dfb221d99364d779b7b28e069b23c0faa47ae6cde66418051
+FileChecksum: MD5: 0503d56967e0d9feaf281d774f5a95cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-FSFUL
+LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
+LicenseInfoInFile: LicenseRef-FSF-possibility
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/PKCS11_TOOL.md
+SPDXID: SPDXRef-item18108599
+FileChecksum: SHA1: d89d31c86f1c240bcb1b6449ea13600cad1c7253
+FileChecksum: SHA256: 2061ccc02d47e1ad033d72114ad53fce7475a6752839111cc604987a24d7d0c3
+FileChecksum: MD5: 6c56527c2868ad042e59d6f9bbd522af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/ARCHITECTURE.md
+SPDXID: SPDXRef-item18108600
+FileChecksum: SHA1: 961f46337caaee8c7341f71d94f175d42d7227ba
+FileChecksum: SHA256: 71456ca5557b986189dda844a6f7e66019bf9a949d5809730a3db1ad07da05d6
+FileChecksum: MD5: 7ea696332bb1aa8b8518c5be9d621699
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/CODE_OF_CONDUCT.md
+SPDXID: SPDXRef-item18108601
+FileChecksum: SHA1: 56f6f17363b471f3ab292194740bba8ef682c8cf
+FileChecksum: SHA256: 5ddf6fb6683ab2601e35dfa4e3964c528f9eac8092c6b6d8a4ceb2e73cc41a37
+FileChecksum: MD5: f7cb29cdbec549727be294a795bd5441
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/tpm2-pkcs11_object_auth_model.md
+SPDXID: SPDXRef-item18108602
+FileChecksum: SHA1: 204ce3a2723f594bc51a0a6fae5c671b0ffa0799
+FileChecksum: SHA256: e963d4aeccf7a9fa1c39cf6538d39fa3c4e29d4219f071f8d58da596137aa28e
+FileChecksum: MD5: 46cd8d3578e4f984be11197eba737c16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/DB_UPGRADE.md
+SPDXID: SPDXRef-item18108603
+FileChecksum: SHA1: 91bd52c7f6fbca6b2e20e6f08fd59e3d44dee613
+FileChecksum: SHA256: 3b25829b07862b6a732a3b24d951146d6feb5500a4202d2d23350783afc40e2e
+FileChecksum: MD5: 6f0e8dd3086eb6790aa2b90b5b68c6e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/MAINTAINERS.md
+SPDXID: SPDXRef-item18108604
+FileChecksum: SHA1: 529c2999aa754be400f53f02ad39065695c450eb
+FileChecksum: SHA256: 3b8625b6e092a6487f671c88ce56827b0ec993a26ca5cf7a9cbf06c265389baa
+FileChecksum: MD5: 37243c9ca46d68b99c590ebf15abaf81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/INTEROPERABILITY.md
+SPDXID: SPDXRef-item18108605
+FileChecksum: SHA1: a5cc593f9f8c93bdb2b060904585ade8f5554ac0
+FileChecksum: SHA256: 7968f6b7954aa4407031a22fc511e44219e23f20da2d51786247b16bdf74ae77
+FileChecksum: MD5: 62e86ee620bca1c85766fd9c92d2d10c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/OPENVPN.md
+SPDXID: SPDXRef-item18108606
+FileChecksum: SHA1: dcfae34fdc2153e1cfd388f7ba2e54a91e8aaec8
+FileChecksum: SHA256: 98d46f7410172767696da7d608b922677c1b23036a53c645940034d94e92399b
+FileChecksum: MD5: c7a3da12cc2b693806d032ed7d942c45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/README.md
+SPDXID: SPDXRef-item18108607
+FileChecksum: SHA1: 51757f56950423c0660ccdc32a1ff2b5bdb144df
+FileChecksum: SHA256: c73f9603ebc413442c465721ba87197eb806c76720b01d40655133a151fa9f89
+FileChecksum: MD5: b1085308594a7f2c282f5f5bf107b8c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/INSTALL.md
+SPDXID: SPDXRef-item18108608
+FileChecksum: SHA1: 095c6055f83c076226a8ea6f9d620611d853870d
+FileChecksum: SHA256: 630e41b9fe673acf92360cd3914ccee9fdbb0ed2efc1f78aa13a2d5219fc6d25
+FileChecksum: MD5: 4d944ae6ba0d1db6fc3e4ef37bc6e1c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/SSH.md
+SPDXID: SPDXRef-item18108609
+FileChecksum: SHA1: e7d145567e70289f6db91e64db88b88852d67a3e
+FileChecksum: SHA256: 3b046ce792ee229f5e1881c01aae7d6b9b1f681522982d34c7b1c23bbb27d54d
+FileChecksum: MD5: fb890d68e6c3bb61b849ebb062f54c2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/BUILDING.md
+SPDXID: SPDXRef-item18108610
+FileChecksum: SHA1: 39495091f578b158d85588e4cb875f2f0d8b5059
+FileChecksum: SHA256: a4d1d36abdde2512e205b43ce69def6f0af75e1f0b76de222332ac4092068709
+FileChecksum: MD5: 25e52f3c90264d7dc4ceb7593b7542a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/FAPI.md
+SPDXID: SPDXRef-item18108611
+FileChecksum: SHA1: ddb832fe9ea67292b22a3cb791ddd937ab4aacc7
+FileChecksum: SHA256: 0812810cef1461911458d0bfd9f91ae2a3e4a2fddb8d23de07ab0c6d7c877f18
+FileChecksum: MD5: 111fb6c3487c80add1adf074c503577e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/P11.md
+SPDXID: SPDXRef-item18108612
+FileChecksum: SHA1: 9e06a278636c13ef6356eb4df784f87f2855c0f2
+FileChecksum: SHA256: 8ddd262e7b798bdbcda850f7f77934514f4e1efb363ba4314b4bce06fd3b4829
+FileChecksum: MD5: bb22bcb5f3b5f531b6c8a7b8e2a8efa3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/CONTRIBUTING.md
+SPDXID: SPDXRef-item18108613
+FileChecksum: SHA1: be3a3408db0b0c00cbd7bae4ff86cdb5367b1d31
+FileChecksum: SHA256: fab3684d127bebe27409d4190ce40498143f3482ccfe31c8de5d95d6b1089d15
+FileChecksum: MD5: dc7c9d048568b166183bef347a6d323e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/INITIALIZING.md
+SPDXID: SPDXRef-item18108614
+FileChecksum: SHA1: 96130fca6ac13f837e7924bab859818a905463fe
+FileChecksum: SHA256: d45e3eae969242deb4db2251e4f73515501599a1f3dbf5c455130bd7e473c455
+FileChecksum: MD5: bb77c55c66683de37088309e65d1e325
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/FUZZING.md
+SPDXID: SPDXRef-item18108615
+FileChecksum: SHA1: a5ab0d31b38939baf54d2c8d519a8a6da74d9618
+FileChecksum: SHA256: d83cf766fd57e8d8a2e98d6f62cd74ed52a857bfa53d0e7a98b8753435aace23
+FileChecksum: MD5: 3e4562c298eef8b84da32e1ad6e6309f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/RELEASE.md
+SPDXID: SPDXRef-item18108616
+FileChecksum: SHA1: 3adb7e2ad9fb1f445aae3d1232239a2d38dc718c
+FileChecksum: SHA256: f97f8cbf896b3be460bbfe2c61e1fe674551f91045bbf2528f8d5197b926648e
+FileChecksum: MD5: 15ba4525546f2fad6fec1c024e44309b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/OPENSSL.md
+SPDXID: SPDXRef-item18108617
+FileChecksum: SHA1: ff811e24f8e5f2b37d35d9484dc0de40085dbd3c
+FileChecksum: SHA256: 9762f19feac6e70cb873bf8e761411eb2234b779583b644b0a7116f08a70d747
+FileChecksum: MD5: a5e8c64558c5d2d74d9dd927d40e8858
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/EAP-TLS.md
+SPDXID: SPDXRef-item18108618
+FileChecksum: SHA1: a617d767f2ffa62b0013ed49c4bc456fc82aaebb
+FileChecksum: SHA256: 52b428ec441e3b87e74b9b8f27399b0a39a561ad590b2b27b1dab332e22228ab
+FileChecksum: MD5: 661d71e8da3c4ef9db3e26dbf9c04f23
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/SECURITY.md
+SPDXID: SPDXRef-item18108619
+FileChecksum: SHA1: cc747e49692d55cb87b14cbfd254766ca095defb
+FileChecksum: SHA256: cf4515861ba5047ab9d3c3e5bbcf50fdff094f3ef5ad604f97e877036be9bab5
+FileChecksum: MD5: 9c6ce5b80d8029bab4e3a6a0bec9db7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/coding_standard_c.txt
+SPDXID: SPDXRef-item18108620
+FileChecksum: SHA1: 948ed61f18cf610314e03fd20808f217065fc5ad
+FileChecksum: SHA256: e64ac7cffe633e5f6b3675f33dabd9a4d52e70e769656d1776cfb78c2ade69ea
+FileChecksum: MD5: d21cb5daee8a6779d5767205c0900944
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/illustrations/policy_model_nv_objects.png
+SPDXID: SPDXRef-item18108622
+FileChecksum: SHA1: 7bc5d466c097c83f42c1922949354e401b32ea8a
+FileChecksum: SHA256: 965f08393b414cd6457ef8a3ac4f39f67dfe2d889381fbb62a66c5f33e0ebd1d
+FileChecksum: MD5: 20607fb77e0cff5bd219a93557628e22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/illustrations/object_diagram_nv_objects.png
+SPDXID: SPDXRef-item18108623
+FileChecksum: SHA1: 213acdd9a3394b6bf6f82db4ea66459662497355
+FileChecksum: SHA256: 4196477e81bc385599ea9693948474e7070c1c288ec360735c881c03d5b5a4ee
+FileChecksum: MD5: db835b8eb2b611db06d2d245ca2e5683
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/illustrations/object_diagram_transient_objects.png
+SPDXID: SPDXRef-item18108624
+FileChecksum: SHA1: f6510a42793229219c6a0e621e8c13632cbc3404
+FileChecksum: SHA256: bbab1ff6a7383c999639220380bfbb2c44408182d42298ee4f9881ed3d457795
+FileChecksum: MD5: 86f19327078d300f240fcf7c32a358a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/illustrations/reader-slot-token-obj.png
+SPDXID: SPDXRef-item18108625
+FileChecksum: SHA1: 1459b1958fb790ffd08cbc23c571aadab287bab3
+FileChecksum: SHA256: 500d3dff30e24a9e24696d4df232273668b41d7155f4e8be0ecdabc390ca0784
+FileChecksum: MD5: d30abc9f4c981174ae50e7c828eea3b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/illustrations/policy_model_transient_objects.png
+SPDXID: SPDXRef-item18108626
+FileChecksum: SHA1: b1b858d5365a34a51ec69874e911aaba44c26717
+FileChecksum: SHA256: f125796cea97e3cf1db08717fcc541c41b38a87f0917df42bd3dcc36ebc3f7af
+FileChecksum: MD5: a4da92ee9725f635ee9df2bb409bc155
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/illustrations/pkcs11_api_classification.png
+SPDXID: SPDXRef-item18108627
+FileChecksum: SHA1: 3186869403bddb88fd6fbc576f89428140f9333f
+FileChecksum: SHA256: 5dc13c2e4ee8f6fc5d4ae3444151edbbab9de0482c7ee75c057f070285fa7218
+FileChecksum: MD5: e9e0d42dc0b368eec537f2f30e659e58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/illustrations/cisco_e1500_wireless_config.jpg
+SPDXID: SPDXRef-item18108628
+FileChecksum: SHA1: a8accc3dc085f8db53aeda6794a7721ced159a43
+FileChecksum: SHA256: 506925c3340104c5b0ff56b051281e324978a01c9ec0a2e4727d21eb9e36d2af
+FileChecksum: MD5: 5c59c4706344cefdd983c3088be821e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/CHANGELOG.md
+SPDXID: SPDXRef-item18108629
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/docs/SSH_HOSTKEYS.md
+SPDXID: SPDXRef-item18108630
+FileChecksum: SHA1: 55e20b87f152996e006fa41e968e2fad1d700cbf
+FileChecksum: SHA256: 6a16d4169571498dcf2ced08ed3f33570d4fda4093112e7d325dff0bb5a2d9a7
+FileChecksum: MD5: f98f7633b6c421b8d152c4c94dd53d1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/misc/formatters/tpm2.0-eclipse-cdt-formatter.xml
+SPDXID: SPDXRef-item18108698
+FileChecksum: SHA1: b36031fe2f5512391eb73f3e1d20344756b58ff7
+FileChecksum: SHA256: d0bd83c088fc365b1fb5586bc49762b42f23caf3da4dced9d00534af48f79bba
+FileChecksum: MD5: 047b596a379d09bb8ceee8675e34413b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/misc/tpm2-pkcs11.openssl.sample.conf
+SPDXID: SPDXRef-item18108699
+FileChecksum: SHA1: 25a89c3deb01001ea7681869d247b3750b5cda7f
+FileChecksum: SHA256: 9349a9015c2b06e1c510ece8933b60e39d006acd6e292db22af38b54ef40d018
+FileChecksum: MD5: 94f7326eeccd16cbf1cd9a1e1a3c276b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: tpm2-pkcs11-1.9.2.tar.gz/tpm2-pkcs11-1.9.2.tar/tpm2-pkcs11-1.9.2/misc/p11-kit/tpm2_pkcs11.module
+SPDXID: SPDXRef-item18108701
+FileChecksum: SHA1: 0ddcea62459aad7b11d471c30642e120d228388c
+FileChecksum: SHA256: 44ee735bdf666532db6c139f4360fc78636b493b3e6ac2c1ac63d84bf6653505
+FileChecksum: MD5: 421bb539c19d37973883ef9d441ad49d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-2-Clause-3c6d2adbf248956b382a4b9555c975e7
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> 
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-Permission-Notice-92b99f9c17799ea51f05884b6a8c8675
+LicenseName: Permission Notice from Adam Costello and Cosim Truta
+ExtractedText: <text> This file is free software; as a special exception the author gives
+unlimited permission to copy and/or distribute it, with or without
+modifications, as long as this notice is preserved.
+
+This file is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY, to the extent permitted by law; without even
+the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE. </text>
+
+  
+
+LicenseID: LicenseRef-FSFULLR-564001a1604da16622c52d713e5f360b
+LicenseName: FSF Unlimited License (with License Retention)
+ExtractedText: <text> This file is free software; the Free Software Foundation
+gives unlimited permission to copy and/or distribute it,
+with or without modifications, as long as this notice is preserved. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-2-Clause
+LicenseName: BSD 2-Clause "Simplified" License
+ExtractedText: <text> Copyright (c) <year> <owner> 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+  
+LicenseID: LicenseRef-Apache-2.0
+LicenseName: Apache License 2.0
+ExtractedText: <text> Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright {yyyy} {name of copyright owner}
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       https://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License. </text>
+
+
+  
+LicenseID: LicenseRef-FSFULLR
+LicenseName: FSF Unlimited License (with License Retention)
+ExtractedText: <text> Copyright 1996-2006 Free Software Foundation, Inc.
+
+This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.
+ </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+  
+LicenseID: LicenseRef-FSFUL
+LicenseName: FSF Unlimited License
+ExtractedText: <text> Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+
+This configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.
+ </text>
+
+  
+
+LicenseID: LicenseRef-scancode-warranty-disclaimer
+LicenseName: Generic Bare Warranty Disclaimer
+ExtractedText: <text> License by Scancode. </text>
+
+
+
+LicenseID: LicenseRef-FSF-possibility
+LicenseName: FSF-possibility
+ExtractedText: <text> License by Nomos. </text>
+
+
+
+LicenseID: LicenseRef-GPL
+LicenseName: GNU General Public License
+ExtractedText: <text> GPL is referenced without a version number. Please look up GPL in the License Admin to view the different versions. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-fsf-unlimited-no-warranty
+LicenseName: FSF Unlimited License No Warranty
+ExtractedText: <text> License by Scancode. </text>
+
