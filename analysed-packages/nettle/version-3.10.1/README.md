@@ -1,10 +1,10 @@
 ## Download Location
 
-https://ftp.gnu.org/gnu/nettle/nettle-4.0.tar.gz
+https://ftp.gnu.org/gnu/nettle/nettle-3.10.1.tar.gz
 
 ## Package URL (purl)
 
-pkg:generic/nettle@4.0?download_url=https://ftp.gnu.org/gnu/nettle/nettle-4.0.tar.gz
+pkg:generic/nettle@4.0?download_url=https://ftp.gnu.org/gnu/nettle/nettle-3.10.1.tar.gz
 
 ## Creator
 
