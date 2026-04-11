@@ -1,0 +1,2711 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_net-tools-2.10.tar.gz_1775761308.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of net-tools v2.10
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2026-04-09T19:01:49Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: net-tools-2.10.tar.gz
+PackageFileName: net-tools-2.10.tar.gz
+SPDXID: SPDXRef-upload4235
+PackageDownloadLocation: https://github.com/ecki/net-tools/archive/refs/tags/v2.10.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ecki/net-tools@v2.10
+FilesAnalyzed: true
+PackageVerificationCode: 014aecaf8f97638cede0b41e1f27ff57146e0303
+PackageChecksum: SHA1: a640373c4347dda1b90822d15dd176411ef47445
+PackageChecksum: SHA256: 8e186f65f0ff304989b3dc8b0067c3a07d36ae777da60667bdd6ccb2730908d2
+PackageChecksum: MD5: d3ae9e1ec7ce802f2e799b2696d917ed
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-GPL-2.0-or-later
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload4235
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/COPYING
+SPDXID: SPDXRef-item18473368
+FileChecksum: SHA1: 4cc77b90af91e615a64ae04893fdffa7939db84c
+FileChecksum: SHA256: 8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643
+FileChecksum: MD5: b234ee4d69f5fce4486a80fdaf4a4263
+LicenseConcluded: LicenseRef-License-of-GNU-Licenses
+LicenseComments: <text> The file contains the text of the GPL. The text of the license is licensed under:
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+Thus we concluded License-of-GNU-Licenses as license of this file </text>
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-only
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+FileCopyrightText: <text> Copyright (C) 1989, 1991 Free Software Foundation, Inc. </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/po/net-tools.pot
+SPDXID: SPDXRef-item18473262
+FileChecksum: SHA1: 25f35533212f10190ea0c795d74d69e18e93c9cf
+FileChecksum: SHA256: 7a1c6b76c82863262058ced4750a95c1f09f83f0bd373b26dcf0db4a141aeda1
+FileChecksum: MD5: a97bc53e18790141739b0be3b154ba3b
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseComments: <text> The information in the file is:
+This file is distributed under the same license as the PACKAGE package.
+The LICENSE file in the root directory contains the text of the GPL-2.0 license, most of the files are licensed under GPL-2.0-or-later, thus  we concluded GPL-2.0-or-later as license of this file </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Same-license-as
+LicenseInfoInFile: LicenseRef-scancode-free-unknown
+FileCopyrightText: <text> Copyright (C) THE PACKAGE'S COPYRIGHT HOLDER </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/netrom_sr.c
+SPDXID: SPDXRef-item18473355
+FileChecksum: SHA1: b27ba1b81f74a6e5667c3e1ab016862a12f9334a
+FileChecksum: SHA256: 0e0c131d8d4521d77bb2e2fefab53a724bbff9591037d1b56c48e221688bc38c
+FileChecksum: MD5: ae6d59fb10d79a71520f10fae7855102
+LicenseConcluded: LicenseRef-GPL-2.0-only
+LicenseInfoInFile: LicenseRef-GPL-2.0-only
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ipx_sr.c
+SPDXID: SPDXRef-item18473324
+FileChecksum: SHA1: c2ba92878ae1ed8fb883705deab9df3d43ef7292
+FileChecksum: SHA256: 0870846ad8bb31beec37e4bfb3631bb67bcc1edb6a289708c6a7ef7319e15c78
+FileChecksum: MD5: 7c2d8f69186933a0275e006513b39e24
+LicenseConcluded: LicenseRef-GPL-2.0-only
+LicenseInfoInFile: LicenseRef-GPL-2.0-only
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/inet_sr.c
+SPDXID: SPDXRef-item18473328
+FileChecksum: SHA1: d5445dd2dfb928f4253b6aca652970ad1c43f73c
+FileChecksum: SHA256: cd1c5865b08a2978ea51b9b50e50af5d02ea912050e92982e3edbaf1321c4ac9
+FileChecksum: MD5: ea2f647005939563d36d8804a1c49db9
+LicenseConcluded: LicenseRef-GPL-2.0-only
+LicenseInfoInFile: LicenseRef-GPL-2.0-only
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/inet6_sr.c
+SPDXID: SPDXRef-item18473358
+FileChecksum: SHA1: cb66a41528250e702fd8b8de77f3a3d99448575a
+FileChecksum: SHA256: 7c583de8d508a7f057bd8615ed19a0f06d95cc127a1295d4c9d96b4c88d4f5a6
+FileChecksum: MD5: ded6b946ba487ab46ba39ff1558ab6c6
+LicenseConcluded: LicenseRef-GPL-2.0-only
+LicenseInfoInFile: LicenseRef-GPL-2.0-only
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/arp.c
+SPDXID: SPDXRef-item18473367
+FileChecksum: SHA1: 315216bb692d2408b31c9135dc29edff18e65219
+FileChecksum: SHA256: 74cf028161d441597a4d7e6dd86de94c5a55283b0df57a223136d25315c281f1
+FileChecksum: MD5: 81fedea3108fec40068bef67ad9d8515
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/util.c
+SPDXID: SPDXRef-item18473309
+FileChecksum: SHA1: f4761710666e55bbe4311f0b2a871fa32d16531a
+FileChecksum: SHA256: 3ef85b59b78aafbb7c760250250a198480e224ba24c8a196f8fd7feb123d039f
+FileChecksum: MD5: 92e100c1e3cd4a364b089b2e10fb2356
+LicenseConcluded: LicenseRef-GPL-1.0-or-later
+LicenseComments: <text> The information in the file is:
+Subject to the GPL.
+Since no version number of GPL is given we concluded GPL-1.0-or-later as license of this file </text>
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: <text> Copyright 1998 by Andi Kleen </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/nstrcmp.c
+SPDXID: SPDXRef-item18473344
+FileChecksum: SHA1: a5dbe9e9c1440d1d41fafe10e019dbd8aa0ddaa6
+FileChecksum: SHA256: bc47633a44c6c2cbe631046203f43811b1aad66f32a90e46d87d4e48519a10e7
+FileChecksum: MD5: f96874234c890b7b6a898db38d64b9fc
+LicenseConcluded: LicenseRef-GPL-1.0-or-later
+LicenseComments: <text> The information in the file is:
+Subject to the GPL.
+Since no version number of GPL is given we concluded GPL-1.0-or-later as license of this file </text>
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: <text> Copyright 1998 by Andi Kleen </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/statistics.c
+SPDXID: SPDXRef-item18473272
+FileChecksum: SHA1: a2cb437beaef513413c73ceb14a492098dc50221
+FileChecksum: SHA256: 044fe535ef02b15ae0d72564dcd315aaf224d3e2667de7734e208069a6911269
+FileChecksum: MD5: ed679acb0557e6c41a375db3741e1af0
+LicenseConcluded: LicenseRef-GPL-1.0-or-later
+LicenseComments: <text> The information in the file is:
+Subject to the GPL.
+Since no version number of GPL is given we concluded GPL-1.0-or-later as license of this file </text>
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: <text> Copyright 1997,1999,2000 Andi Kleen. Arnaldo Carvalho de Melo <acme@conectiva.com.br> </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/sockets.c
+SPDXID: SPDXRef-item18473353
+FileChecksum: SHA1: 7b099d181c2204a43ae36e7d254b652cfccd73be
+FileChecksum: SHA256: 68f09d00f5c56a6d6c83861819bace33693d38a9d6836885265d537f4bc35d70
+FileChecksum: MD5: acc7c5d6f297a9473cd20fa492695c75
+LicenseConcluded: LicenseRef-GPL-1.0-or-later
+LicenseComments: <text> The information in the file is:
+Subject to the GPL.
+Since no version number of GPL is given we concluded GPL-1.0-or-later as license of this file </text>
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/plipconfig.c
+SPDXID: SPDXRef-item18473275
+FileChecksum: SHA1: 27aaa56bcfa2ca2d35001551fb3f8e446aae521c
+FileChecksum: SHA256: 357ecc691ace5f9e90e964131285e49ed307d599cc58cc04c958cc48aa3dda41
+FileChecksum: MD5: be33a3f702b5328827de84d49392d8f1
+LicenseConcluded: LicenseRef-GPL-2.0-only
+LicenseInfoInFile: LicenseRef-GPL-2.0-only
+FileCopyrightText: <text> Copyright (c) 1994 John Paul Morrison (VE7JPM). </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/nameif.c
+SPDXID: SPDXRef-item18473377
+FileChecksum: SHA1: c847f4ad2dedf7dfdd643cd732ce52049a5b08ed
+FileChecksum: SHA256: 1bcb826084ac61583739e317ce04e43aa6bebec8ef4cd16dec74fdd4f150a338
+FileChecksum: MD5: 94901f5ca42058fef0ef65ab7d6a7d51
+LicenseConcluded: LicenseRef-GPL-2.0-only
+LicenseInfoInFile: LicenseRef-GPL-2.0-only
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/mii-tool.c
+SPDXID: SPDXRef-item18473376
+FileChecksum: SHA1: 5ac52d1147c030006575b47178b1923f163dd61d
+FileChecksum: SHA256: ea756b1877deb6db4659a061bbccf6087c5ac940e83720ceb13f288890dca0ed
+FileChecksum: MD5: ca061f36defeb063cc60132269b59c3e
+LicenseConcluded: LicenseRef-GPL-1.0-or-later
+LicenseComments: <text> The information in the file is:
+This program is free software; you can redistribute it
+and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation.
+Since no version number of GPL is given we concluded GPL-1.0-or-later as license of this file </text>
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: <text> Copyright (C) 2000 David A. Hinds -- dhinds@pcmcia.sourceforge.org
+copyright 1997-2000 by Donald Becker becker@scyld.com> </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/netstat.c
+SPDXID: SPDXRef-item18473457
+FileChecksum: SHA1: 1dfc58beb0911723a5353730b5658ee4ecdfc3c2
+FileChecksum: SHA256: 55d5b8a73db097042464e8e33160e097adc1a5551ddc63f2dbd745bcf12fb2e7
+FileChecksum: MD5: 176c455aadb9cfe8ac4608d020fdc000
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright (c) 1993 Fred Baumgarten </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/util-ank.c
+SPDXID: SPDXRef-item18473350
+FileChecksum: SHA1: 9c95187beb779087dc7172131e687d01f9f521f7
+FileChecksum: SHA256: 18dfc1922d5734ad53fcb3db96bef6a384b875e9419bc72553898dd6dc3bfe42
+FileChecksum: MD5: 0e4b6a6cb6b6bf6781d5a746a7281dad
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ax25.c
+SPDXID: SPDXRef-item18473330
+FileChecksum: SHA1: 63b9ac2045bb184c5feba0e024089cf90b3474cf
+FileChecksum: SHA256: 16c469429969ace89d306ea39aeb6e01d1f8b7c85fc6cd566efae654c10be0a1
+FileChecksum: MD5: e37f0b25c9975b7effcd2d3f0afef7be
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/irda.c
+SPDXID: SPDXRef-item18473291
+FileChecksum: SHA1: caa701a5a490c845d63222ad80af3cec94d93651
+FileChecksum: SHA256: 2c85dfed49c43e16573f2d2b490d2b4b3e78a12de8d85a5d3dba37e96438ab51
+FileChecksum: MD5: 18c5ac7236cf70c01f8d9b7578fc846c
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/configure.sh
+SPDXID: SPDXRef-item18473458
+FileChecksum: SHA1: 4299128cee786132d6d5be8c39e0c508ef4cc995
+FileChecksum: SHA256: de26245d72c28362e2371b0095bbeb2022b1e984c5bb19eb5884f18a0e595016
+FileChecksum: MD5: 9b6cafafb8374652b2a95986a880fc38
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1988-1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/fddi.c
+SPDXID: SPDXRef-item18473325
+FileChecksum: SHA1: 9df54a9cd6c44a26e86e7cb4336c7872409c9dc5
+FileChecksum: SHA256: edd2bc0912ba8c63d7d333800830405ddd86c62125a6291ea8d42642af446cb9
+FileChecksum: MD5: 2c5962395adc698a50f7acaca2bbc1e4
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/econet.c
+SPDXID: SPDXRef-item18473288
+FileChecksum: SHA1: 828ac7321b3a954b4da313ffcec62952fa60d6ab
+FileChecksum: SHA256: 6bc428c1ca8e3c78f1829ddd09afcfba9ee6339fb4ece4fabd864c1a1e3ae7b1
+FileChecksum: MD5: 42cef0540a14035c989ea16e52b800b7
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ddp.c
+SPDXID: SPDXRef-item18473359
+FileChecksum: SHA1: 225b2b2c34dc432fb26bc9b03ac5698bff65e419
+FileChecksum: SHA256: 6d73d5bb3b15baad0763db087d2942839d9f40ad4e71340712b95f9f96832212
+FileChecksum: MD5: a5b77210d425a3165abfca6369544b8e
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/tr.c
+SPDXID: SPDXRef-item18473346
+FileChecksum: SHA1: 63d3dea463895a58b9df0c0259c3f0fdde8fd7fc
+FileChecksum: SHA256: 5105977efc7618f73c452ccf9eafb8bcfbc5798641898afdf6738be1b2914e4d
+FileChecksum: MD5: 6b1e39ca75c927717f3cdb865060adfa
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/inet.c
+SPDXID: SPDXRef-item18473296
+FileChecksum: SHA1: 80ba91531150829dd25b27b47197ff4771e10a0b
+FileChecksum: SHA256: 2d01e53486567d789df4801c5cca3d718d415e7ebdcef772241f7f473236bf85
+FileChecksum: MD5: 8824cbf9a6126fca792233eaca41709a
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/slattach.c
+SPDXID: SPDXRef-item18473271
+FileChecksum: SHA1: 3f4e443fef66b552740cc0e98f59c5315909a8c1
+FileChecksum: SHA256: afa3f9a38c4b7224552255d13f002b32e5a160135a851a0680c928d4dba1659f
+FileChecksum: MD5: f0400213c471781cac3d08fa384d9e74
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1988-1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/net-features.h
+SPDXID: SPDXRef-item18473361
+FileChecksum: SHA1: 7866f50b995b8c8207d9361871f71fe16d3d2a5e
+FileChecksum: SHA256: 044273a03353ab8cb528a2ff4092bbb4b1f22a94c81cdd71c609ec3dc4375465
+FileChecksum: MD5: 7979e36050d69dc05067ffcc20e41707
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1996 Bernd Eckenfels, Germany </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/slip_ac.c
+SPDXID: SPDXRef-item18473342
+FileChecksum: SHA1: 3a6c4ca4c249951cbe7e3ab2ab7cc948f048cc1f
+FileChecksum: SHA256: 44206bc3eac3b2218ea84437b8463e59a359625c8c80099c5595edc82b91c46c
+FileChecksum: MD5: b5c5bf942206d9c9de1f18187654cecd
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ax25_gr.c
+SPDXID: SPDXRef-item18473301
+FileChecksum: SHA1: 4d56acf97ddd3297c5a6d9ed0fe5daf1ed3b0b0c
+FileChecksum: SHA256: 2ed2b33c5268eb44286eb481f2c2147a8de01fc00ae7ee31719019724eb51432
+FileChecksum: MD5: 047da2273fd6db601a74a7027ba844d8
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1999 Bernd Eckenfels, Germany base on Code from Jonathan Naylor <jsn@Cs.Nott.AC.UK> </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/rose_gr.c
+SPDXID: SPDXRef-item18473292
+FileChecksum: SHA1: 9c11ecfd60856216ad6210b4342ce420d729ef05
+FileChecksum: SHA256: 55892cb0d4ac89d99ffceadc0b69c759cb81441b6fe4486a835120ea68762394
+FileChecksum: MD5: 0ca82a39c40985535941ed05522326eb
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1999 Bernd Eckenfels, Germany base on Code from Jonathan Naylor <jsn@Cs.Nott.AC.UK> </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/Makefile
+SPDXID: SPDXRef-item18473396
+FileChecksum: SHA1: 19eb01cb18fb48c39d994313cb97fb47818cfa3f
+FileChecksum: SHA256: 6fed21ff9abdcc7f7843309de2f2dd34a04aefa2e9849f5a370b2f1cf9bf4f1c
+FileChecksum: MD5: 9412b2b4caa622485361c5be28096f44
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1995-1996 Bernd Eckebnfels, Germany 1998 Arnaldo Carvalho de Melo, Brazil </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/x25.c
+SPDXID: SPDXRef-item18473349
+FileChecksum: SHA1: 02166c72bc3b46434b29b923e1a5677989cdc155
+FileChecksum: SHA256: 689b7f3a31b7ae9dbd5bac04664de356fbaad1c1b0a43d3b216784149f2e9785
+FileChecksum: MD5: fee8f0d47090024c90261ea1d273b50e
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/frame.c
+SPDXID: SPDXRef-item18473334
+FileChecksum: SHA1: 0fc1884736dea52df1b3e27c9ab3391bd22cf92e
+FileChecksum: SHA256: 3e8f1a8a455e968ce61eb072631d7c1ae417c47bc4b384621c9d9fe562785640
+FileChecksum: MD5: 6d95f1c195a3c3be2ebecc0abee009bd
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/iptunnel.c
+SPDXID: SPDXRef-item18473278
+FileChecksum: SHA1: 216921ef082568039427a56800fc2b4853ae10d9
+FileChecksum: SHA256: 2ed849617ae07fdb5d28bf1bf0be34208b7756503871c42b253b7de1ad10921e
+FileChecksum: MD5: 8413808403ba6215dde0bb33462f625b
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/hostname.c
+SPDXID: SPDXRef-item18473363
+FileChecksum: SHA1: 112230430376de0a09d5ee1e22e39986f5629c68
+FileChecksum: SHA256: 0b5f61978d246d5c42d5d657faf894460ed4d988bccb4c1da63ecb79658ca715
+FileChecksum: MD5: 15d947b871b8c36897adb279487090ba
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/getroute.c
+SPDXID: SPDXRef-item18473341
+FileChecksum: SHA1: 4db85740c60bcc934d009b5b88286ee551470b89
+FileChecksum: SHA256: f0ba0e7bfb785e1554ae0d74061733a955f038a2ecf57719ae323c3e575ac93d
+FileChecksum: MD5: 45c1e84727cb8a0fffe711120b93a6c7
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1999 Bernd Eckenfels, Germany </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ether.c
+SPDXID: SPDXRef-item18473321
+FileChecksum: SHA1: 8b99d3c1c817b9f5d8a18dcc7ef0d236660f6ce9
+FileChecksum: SHA256: e7263fdaf323fbdb88d8e27e2c8666751d4d9d4c946034460a51d7edfcd76fac
+FileChecksum: MD5: 7ab471a4dc7c5c2bc9aecf78d85e33e1
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/ipmaddr.c
+SPDXID: SPDXRef-item18473259
+FileChecksum: SHA1: f00b2b809f6a1ad5c0c1950818b236c4da2b08df
+FileChecksum: SHA256: fd892c931c960a9608f5bd8eac7032300979c7b6a1096bdbe3fb450cd56efb65
+FileChecksum: MD5: 7d909e416204fe862c7f9ab70c270a41
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/eui64.c
+SPDXID: SPDXRef-item18473316
+FileChecksum: SHA1: 152459d02cdd77599a1f285ef54692ca5b0a2ed4
+FileChecksum: SHA256: 36e45b1091e07cdca3a8ea0dbc0819b07b1724266938626352abbc36943de3ca
+FileChecksum: MD5: aae26ed5ac94d3734ca7bebd14590cef
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 2001 Daniel Stodden
+Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/x25_gr.c
+SPDXID: SPDXRef-item18473347
+FileChecksum: SHA1: 75d7d26b535a1cd6b8ffbe19e6fdb7e30f0a06e8
+FileChecksum: SHA256: 5ef699ea9cbce53684f38bb3621a5336f93e3cb5913c1ba16365db3d9e4131b9
+FileChecksum: MD5: 52bf87a206e6e9431a471c9b6208e209
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1999 Bernd Eckenfels, Germany base on Code from Jonathan Naylor <jsn@Cs.Nott.AC.UK> </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/inet6.c
+SPDXID: SPDXRef-item18473315
+FileChecksum: SHA1: 0a0d1792f7b0097562a2aa9da2cabe23b60a518d
+FileChecksum: SHA256: b926d372bf5e9eaebe690be050e61dd85fbe32feeb9fc077005f2858dc7f11cb
+FileChecksum: MD5: 2d9445641fb24cd01d1aa2df0597ac95
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/sit.c
+SPDXID: SPDXRef-item18473354
+FileChecksum: SHA1: 27a33653f89d32fc6869e48aac7754beaabf9852
+FileChecksum: SHA256: 2437f06e67423a4a7b0795f20e55e1faf179efb16837d74513254e35507c235e
+FileChecksum: MD5: 618f05fbf8261e9fb6c2c596849e3b62
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/x25_sr.c
+SPDXID: SPDXRef-item18473362
+FileChecksum: SHA1: 5a4379d7ed8dfe119c252d31a1ffc751608c4cf5
+FileChecksum: SHA256: 9ac3fd920f75b7ee1839b014756bb9faeee27b7ac559753976a756c0fa5bfaae
+FileChecksum: MD5: 0c0900ac054a6b826cba815e8c7f84ec
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/netrom_gr.c
+SPDXID: SPDXRef-item18473340
+FileChecksum: SHA1: dc9ba229f5a39a0ab3f3535c44d130c8c7af134d
+FileChecksum: SHA256: 9ca42a2342650e580dfef0fc63df8d583ed37833ca6351c13277c5216ec12bfa
+FileChecksum: MD5: 3ee2db5ad6a6d1c4d681bf55637d2dd2
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1999 Bernd Eckenfels, Germany base on Code from Jonathan Naylor <jsn@Cs.Nott.AC.UK> </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/arcnet.c
+SPDXID: SPDXRef-item18473287
+FileChecksum: SHA1: 862151d7d12e903a4d94dab5081e4bdcd1f260e6
+FileChecksum: SHA256: e2e0526e1580fb4d05dbe7bfa5bfc48886229470cd1ad29c2ee4f860fa4da710
+FileChecksum: MD5: 632d60d76757ca73e45fdfb8a21c3322
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/loopback.c
+SPDXID: SPDXRef-item18473338
+FileChecksum: SHA1: a980d4698069eb391a3a1ee46902c6371afa139b
+FileChecksum: SHA256: 58eecede184251694682adfac42e83be4d2aaf242767514519ce7f0ae7796c73
+FileChecksum: MD5: 9b2a0c958d83601b54059fda27686446
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/masq_info.c
+SPDXID: SPDXRef-item18473312
+FileChecksum: SHA1: 3bc5b1653b7613b14ca5eaf7b9cc8b504b0c7c30
+FileChecksum: SHA256: 3733295a25fd93a9c2852227a1148ccdca50fbc7f733f54d8c36d8a732422891
+FileChecksum: MD5: 23aa9f6c9a720c064973ef039cb75691
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1999 Bernd Eckenfels, Germany </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/hw.c
+SPDXID: SPDXRef-item18473339
+FileChecksum: SHA1: 4c8ad01fda50a93eb9c046663a0fffb2e9487756
+FileChecksum: SHA256: f92f5eef38be8777e1ef7d07dc911db2c5b14a97060378cb537ae68c52a737ca
+FileChecksum: MD5: f1803e131ef44a0dcbfd5e2db0bc6784
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/slip.c
+SPDXID: SPDXRef-item18473306
+FileChecksum: SHA1: acfe24951a8b16835a024cfea7161dac2ccd5dbf
+FileChecksum: SHA256: e77523acbc0003e5349a48bc20092bdaa88dc4d2cbb50056af12b7f3a5baab3f
+FileChecksum: MD5: cf68d6eeb0248813a2bb49127474b56b
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/ifconfig.c
+SPDXID: SPDXRef-item18473365
+FileChecksum: SHA1: c8bbd101ff820e86ea93824c45ae490f4def3184
+FileChecksum: SHA256: f300b8b0d5510595984a764bf928afb405bbed19bf571eecbd4921a26a134fdf
+FileChecksum: MD5: 9790ddc44be24d5815ed19ffc49d0904
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/hippi.c
+SPDXID: SPDXRef-item18473336
+FileChecksum: SHA1: 1e2c64c3c9094d415687153f89c269fa74ed0f0a
+FileChecksum: SHA256: 277f9555e3c7f3abe9fd9789e76a060d9b731d90a5c17e3f07f5e3c58eda57f1
+FileChecksum: MD5: 60de7ed226bb605c74595b9d1dd79875
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/net-support.h
+SPDXID: SPDXRef-item18473308
+FileChecksum: SHA1: 2a3816e68e99425341787f578ee4b90b5919b5a2
+FileChecksum: SHA256: 8c59c64c429d978b48e939f6d646725b86ad46ea11df7eedd52e5ba95acd6176
+FileChecksum: MD5: 9afd026ae46034c7eca43becc7dbac07
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/af.c
+SPDXID: SPDXRef-item18473356
+FileChecksum: SHA1: 81fe1de8cfce914923a8455034dcf7eb4a0bcdb8
+FileChecksum: SHA256: 9b9301e58a7b3718359add9267a91b54da73bd39cc241a6992973a04b60da934
+FileChecksum: MD5: 801a3c7979021dc5f47ceb87bbc4d5f2
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/Makefile
+SPDXID: SPDXRef-item18473322
+FileChecksum: SHA1: 748c10e21d2161c438c7b30b010f7690315c6e00
+FileChecksum: SHA256: d332c460a31b3091d2ad6931d2a875080397b4aa9a7ad1ab55a1b0c071abbfd0
+FileChecksum: MD5: 0a9efa5c7ea691f09fcd0ad2e697cf54
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ec_hw.c
+SPDXID: SPDXRef-item18473326
+FileChecksum: SHA1: 6c2d6255c0e809fc532a7ea2f1577f7e65418784
+FileChecksum: SHA256: 24ae80c004a0a11ab193dbc10035304c6a499a6f4705e5cf11e82017584cbaae
+FileChecksum: MD5: 772e317dedf803220f65ff7a6736e98b
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/rose.c
+SPDXID: SPDXRef-item18473317
+FileChecksum: SHA1: b14d673599f1e424d53bfb60f587b543a662c0a4
+FileChecksum: SHA256: 662741aa659cb607262360379424cc06989644920df8a667391907e1c718ef31
+FileChecksum: MD5: ac4fc2cdd63e9de473c44e3b0071d84d
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/getargs.c
+SPDXID: SPDXRef-item18473300
+FileChecksum: SHA1: 047748b0a0dcc3ea65ac09c326ff2abf1656a0c6
+FileChecksum: SHA256: 09cf830ab94fdfe2145411254ff7285ca8aa83d560a62466ab02021ed89ef3e5
+FileChecksum: MD5: b2b2c555a7d4fac92eec488129d37541
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993,1994 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/netrom.c
+SPDXID: SPDXRef-item18473343
+FileChecksum: SHA1: 61dcd05977d918fe9f5f0b02a6970a295deff39b
+FileChecksum: SHA256: 537f6df27f5295c649fb536565573e73c998200c70bc96cd2dcda50b2edd6980
+FileChecksum: MD5: c279c82ef56bb9b5c320276ba0b62064
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ipx.c
+SPDXID: SPDXRef-item18473302
+FileChecksum: SHA1: 91447ad36553f648171a80886af3f2eba608d2ee
+FileChecksum: SHA256: 4f249b32b6f17c02c83eaab016648776bd22cf4b4af621244c73a1e530938741
+FileChecksum: MD5: 9c577176e660a34c29fe409eec79171d
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/activate.c
+SPDXID: SPDXRef-item18473327
+FileChecksum: SHA1: fbf44a7ef971e6c4c0084ec4baa08a6bd458a69a
+FileChecksum: SHA256: 39ad8aba4d5b1be98c94faa9092ee703a2b3b6b17b34e72386cdede758429445
+FileChecksum: MD5: 16aedd2f41cab2465e22455a72d0f39e
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1996 Bernd Eckenfels, Germany </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ppp.c
+SPDXID: SPDXRef-item18473335
+FileChecksum: SHA1: 129685689311f22b0fac6774ca76b815fee147c7
+FileChecksum: SHA256: 61d758ead01fd63acb63563892959394c1b4c97750947767a746c01933cf4703
+FileChecksum: MD5: 88ce0be3aab644541ddfbf23b6ee77bc
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ppp_ac.c
+SPDXID: SPDXRef-item18473297
+FileChecksum: SHA1: f608b3b19a38f89522b0babb4a52cf282f1f15fe
+FileChecksum: SHA256: 06c09aea2c34fc949ed05aa29bf554d402598c1e0c5910e7b6c9c69821dc4bf5
+FileChecksum: MD5: b752e1ce01cfab5660a0c10c5d70a265
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/unix.c
+SPDXID: SPDXRef-item18473303
+FileChecksum: SHA1: f12ab801d50727df8821c1563fa6cb2ce20337e0
+FileChecksum: SHA256: 939d04df6ecdc25ff8d2ff7a8cd8c7cd3b884905cce8e8ab1adbc656145668f1
+FileChecksum: MD5: 7745d750d5f3427568fbc6eaf08e0794
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/setroute.c
+SPDXID: SPDXRef-item18473293
+FileChecksum: SHA1: 61b530aa1f0f7990a151ead8dc82bb0ac86c75bd
+FileChecksum: SHA256: 177a6ae57a88f10041ffddab7c59fee32b1d108ae41f773b51d2bd8e91b38749
+FileChecksum: MD5: c321aa0127c15d6461b0c213011ffe04
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1999 Bernd Eckenfels, Germany </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/hdlclapb.c
+SPDXID: SPDXRef-item18473319
+FileChecksum: SHA1: 48f38de49744af0b908b1c03f03d62a08c342c5a
+FileChecksum: SHA256: 48882805749601e6f176909bedfc39976e45a700caf08fbd1caf196663c2035c
+FileChecksum: MD5: c78db252e4f60514c2f75a10c6079336
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/config.in
+SPDXID: SPDXRef-item18473256
+FileChecksum: SHA1: f923b90ea500ddf99b2059d3748c5f9960f3d433
+FileChecksum: SHA256: a3f1291abc2a508828e25ecc7f1afbd01f56d7d1e7b0879835b1e0c84eb897bf
+FileChecksum: MD5: 39e94022acafbcc387b835477b63853c
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1988-1993 MicroWalt Corporation </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ib.c
+SPDXID: SPDXRef-item18473357
+FileChecksum: SHA1: f1718d8b2e0a2a699165ae7bddcfbdc456060641
+FileChecksum: SHA256: 0ee2023c7f2f02004326eeed54766b1b51dd07370d2417043853454236bc0651
+FileChecksum: MD5: 71e26b4c83154837a759afe0c5dd6044
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: <text> Copyright 1993 MicroWalt Corporation Tom Duffy <tduffy@sun.com> </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/strip.c
+SPDXID: SPDXRef-item18473295
+FileChecksum: SHA1: a062dd723f9cb25ca17a067df7ca04f5d023d031
+FileChecksum: SHA256: 0c89dc0a01515ed6b7892714bdcc1d9a7e06bad7a712e0c7b9fa67d180dac1bd
+FileChecksum: MD5: ad5aaeff2a3af7ef5693bcdadec2ec7f
+LicenseConcluded: LicenseRef-GPL-2.0-or-later
+LicenseInfoInFile: LicenseRef-GPL-2.0-or-later
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/intl.h
+SPDXID: SPDXRef-item18473258
+FileChecksum: SHA1: 271e3d65bf31198c61764aedb812425cc2ae663d
+FileChecksum: SHA256: 518f6277c410d8f042eef8afcd0a2b41890d5c5084f5efd02e657edb4ec02701
+FileChecksum: MD5: c13feec77a72a1d35c861255bd70c552
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/po/cs.po
+SPDXID: SPDXRef-item18473261
+FileChecksum: SHA1: 9f0b022e53696a526d36c40109bd439d02545cbf
+FileChecksum: SHA256: 8a00499d9fdbb6523fcab94bbb1033701af015746ef7ecc6ffdce0a2d196e946
+FileChecksum: MD5: eaee601ba8276cafa4a074d5c23a1b61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (C) 1999 Free Software Foundation, Inc. Jiří Pavlovský <pavlovsk@ffcuni.cz>, 1999. Petr Pisar <petr.pisar@atlas.cz>, 2009. </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/po/pt_BR.po
+SPDXID: SPDXRef-item18473263
+FileChecksum: SHA1: ef2304b92c0b23e24b4024fcac1fdc7be9221937
+FileChecksum: SHA256: 991af09b2631ff1b3a6b83e0b9396a88c57d8284c2fd3db7582cdd7e819dcded
+FileChecksum: MD5: c8038790458447b07c42b7ee116c3916
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (C) 2000 Free Software Foundation, Inc. Arnaldo Carvalho de Melo <acme@conectiva.com.br>, 2000.
+Copyright (C) 1998, 1999 Free Software Foundation, Inc. Arnaldo Carvalho de Melo <acme@conectiva.com.br>, 1998-2000 Ralf Baechle <ralf@linux-mips.org>, 1999 </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/po/Makefile
+SPDXID: SPDXRef-item18473265
+FileChecksum: SHA1: 86cb579071b31cf0c883abdcc1d3e49cd1d26920
+FileChecksum: SHA256: b38c78e58c3ec7f3362b8b7250bb034190a7d5de1511c25dcedeb8d47c40e863
+FileChecksum: MD5: e73d7c49965d0d5e5ae69bba2b06dd7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/po/et.po
+SPDXID: SPDXRef-item18473266
+FileChecksum: SHA1: 3d52a0a69f08db66944cab16c06b3a1153161b68
+FileChecksum: SHA256: 0396a95dc8f3d129bbf335a7880c99def4667069cc06bfda3ffab4b6a09c8d54
+FileChecksum: MD5: 6834e3e49dc97a89d28107946ec63fe5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (C) 1999-2001 Free Software Foundation, Inc. Meelis Roos <mroos@linux.ee>, 1999-2001. </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/po/de.po
+SPDXID: SPDXRef-item18473267
+FileChecksum: SHA1: 580b72b1babff0798425902cac0db655c13b01d9
+FileChecksum: SHA256: 8f916ac61e7056816e0a97f3cf821a67cf81b5b62ad657ca63fa8ac0a46e7df0
+FileChecksum: MD5: de8273238b1927bd17e9b1fb49a5c9ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (C) 1999 Ralf Bächle <ralf@linux-mips.org> </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/po/.cvsignore
+SPDXID: SPDXRef-item18473268
+FileChecksum: SHA1: d78d49562efa2e806d6668a4b302016b4e247b95
+FileChecksum: SHA256: 733055a2b26c3131ce05e0729a57ae9730d05d96f0e77594b427668d11815135
+FileChecksum: MD5: 97347c18abed35151bd106fb7660ed1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/po/fr.po
+SPDXID: SPDXRef-item18473269
+FileChecksum: SHA1: 1510b87e678e1c21b0d5e0577e9b16a68c02e3a2
+FileChecksum: SHA256: 509b27576aafd7ab0b499dd2bf9cc806dd478d756e017b4785a5483f265fe051
+FileChecksum: MD5: 02f801bfeeb668e88d94bdba8b1d4f7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (C) 1999 J.M.Vansteene <vanstee@worldnet.fr> </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/TODO
+SPDXID: SPDXRef-item18473273
+FileChecksum: SHA1: 2d37d5647401c012b3a941a3db4106ea2c552fff
+FileChecksum: SHA256: 4e669c2b57e3a08362019097671eb4c3d68b825f51efdfb84a3efec631d95c76
+FileChecksum: MD5: dd083ff9a8df1d65849624a5a6e3fb31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/README
+SPDXID: SPDXRef-item18473274
+FileChecksum: SHA1: b7020d422ada90b3be843fde2d6df8a9b2867392
+FileChecksum: SHA256: e445ac3541285d7ac01c1344d602427a2db6dfc903197264f7ade1d00bce381c
+FileChecksum: MD5: 3ff01534c39d55d78fa6081a7c47ebb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/INSTALLING
+SPDXID: SPDXRef-item18473277
+FileChecksum: SHA1: 3a4e37836efc81b7cbdf1ec7e461a3c27005d4a4
+FileChecksum: SHA256: c93d787c8b3f10a5989d7f6949f8a23fcc71012b54ba74cda3b31bdf7e067a32
+FileChecksum: MD5: 8107fe678ee2b043c99ba506abaa4713
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/THANKS
+SPDXID: SPDXRef-item18473279
+FileChecksum: SHA1: 410dd249898cb458c5e540f3f199ccf7b3c1f319
+FileChecksum: SHA256: 3bb77f1c0213b14009f1fd09d306a7ea4ebef8c59629d83a307f19c520631eef
+FileChecksum: MD5: a1ab7047285c78668c63def3756f1dbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/Makefile
+SPDXID: SPDXRef-item18473280
+FileChecksum: SHA1: ef343e971481a9181ba5725bfe776b6b9ffb2c55
+FileChecksum: SHA256: 0c001b39cf23ad23bf7e88291977ba23f80d83e950ff72b75b2f1c5f33c05c0e
+FileChecksum: MD5: da2223bce8c786290f9bbc61b64a6305
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 1995-1996 Bernd Eckenfels, Germany
+Copyright 1988-1993 MicroWalt Corporation
+Copyright 1993-1994 Swansea University Computer Society </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/RPM/README
+SPDXID: SPDXRef-item18473283
+FileChecksum: SHA1: ce62ebc50d1076bf1cfc9e6bbc4f08f1758dd850
+FileChecksum: SHA256: 73c548e616ddb80b3687dc15a446238e165cd68bb5205cd9c9fa1650a034d74d
+FileChecksum: MD5: 9044357c148386bd45cb4f0fc63de9b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/RPM/net-tools-1.45-config.patch
+SPDXID: SPDXRef-item18473284
+FileChecksum: SHA1: 9e811e06e22bd3313e6e0ebf96e237cdfc87db13
+FileChecksum: SHA256: f2b8143a42536982813bc52626e2fa86e5e4b3ef908e4d7ca8d07fc8cb0c0bc0
+FileChecksum: MD5: 00c6cdc0095ee0c025a6dea0eeeac045
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/RPM/net-tools.spec
+SPDXID: SPDXRef-item18473285
+FileChecksum: SHA1: 787d5ae3ff813115e08dd76642a42a970574828e
+FileChecksum: SHA256: 42dddb82f19d615b1f2f36e2c8c700c36b4f74b344f02c1243088efb1897d0a5
+FileChecksum: MD5: 65ca82c3670c5a967f6699424c0650fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-GPL-1.0-or-later
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ddp_gr.c
+SPDXID: SPDXRef-item18473290
+FileChecksum: SHA1: d21d8946f49927c1dd36d8c9c46eb91358845752
+FileChecksum: SHA256: 36a160e6a3eec2b22a94b91608ac10b13c64d0f359246c709030c8a7695effa2
+FileChecksum: MD5: 9eb8e1b36ed5fad73c1342fe52f800a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/util.h
+SPDXID: SPDXRef-item18473298
+FileChecksum: SHA1: 31d556878cd51f4143e3c47552d3586143758f51
+FileChecksum: SHA256: ed366ee12b06b065ab41cd0740caff5efba6342b7d4a141f483d65a9c8e72121
+FileChecksum: MD5: baad703aba1b88b59ba647ea3bec7993
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/proc.h
+SPDXID: SPDXRef-item18473305
+FileChecksum: SHA1: 7d58d7816a58e78b4b35f146f8f79f48b1c77802
+FileChecksum: SHA256: be23d37d1107689e99bf3ce520aebe0046c57aa03672aeb929b49244d176a29b
+FileChecksum: MD5: cb7ebec99d87ac1d797b0e85c565e684
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ipx_gr.c
+SPDXID: SPDXRef-item18473307
+FileChecksum: SHA1: 8f68aa107dbde1555b703bfe63f27ab924893f1a
+FileChecksum: SHA256: 062b9ca6f29bc72047a9f7beb216166279876edbebcd2a4be560cb6515bc46ee
+FileChecksum: MD5: 5d0e04522183a309b8e2b1c16ce4294c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/pathnames.h
+SPDXID: SPDXRef-item18473311
+FileChecksum: SHA1: 09bb53b4d644c2ea6fbff5b71f7c495b9fa7b814
+FileChecksum: SHA256: bd1b3501a3d7dfe07f9997fa07e584038aec22c8a84bbece9e444850d4bed80c
+FileChecksum: MD5: 6bd8dba98567346daaefbd31eae4f6d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/inet6_gr.c
+SPDXID: SPDXRef-item18473314
+FileChecksum: SHA1: 57cf74777c49f605de5cdb86e4666e28683fb48c
+FileChecksum: SHA256: 38b0283d67a3442a0883ca1fce9d8809882a9044a5bb10fc3ec16244b47514c6
+FileChecksum: MD5: 7371f20e70e190edd43bcadf9e5f4358
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/ash.c
+SPDXID: SPDXRef-item18473320
+FileChecksum: SHA1: f25b8becb1e5d17f903e33062077055bb13918e5
+FileChecksum: SHA256: a4771672df420aed227c70e06552f1610085697af6469767e33dd8228aef70d0
+FileChecksum: MD5: 7a64414ef215ebc3e0b526d319f403dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/inet_gr.c
+SPDXID: SPDXRef-item18473331
+FileChecksum: SHA1: 2103995b80962eab11e81018fd8519e66bc99dea
+FileChecksum: SHA256: e8d70d70241c055a082bb18b426f62db3df3142b0ec13c0ae11e0ab7a5c5676f
+FileChecksum: MD5: 9e1b50277736dd0e5bebac7cdba2e837
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/interface.c
+SPDXID: SPDXRef-item18473333
+FileChecksum: SHA1: bb61caca604ac907ce14c54ca19641bf9f2db196
+FileChecksum: SHA256: ad4e5a7b36c772e892c30ac8b8371c66eee2027a8ccced6ca358a140aa107dd8
+FileChecksum: MD5: ceed6b7485779655ed75c16c222aeaa9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/proc.c
+SPDXID: SPDXRef-item18473348
+FileChecksum: SHA1: 48c8a3c2be3eff9dfdacb9d288368f68ed12ce02
+FileChecksum: SHA256: 1484a04163665421a7c11dc8b28f2a12b8b3da28ff311e6e9f521d8e803f38c4
+FileChecksum: MD5: 004e1f74794089d0a2a8d564102d10e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 1998 Andi Kleen </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/lib/tunnel.c
+SPDXID: SPDXRef-item18473351
+FileChecksum: SHA1: 232a389494edbd955f2b75e3d7b20ff19717d96e
+FileChecksum: SHA256: bf92dad46ac9bd0b4bcf7ee093635fc5a31751ac310b1901d71b98027b9a6438
+FileChecksum: MD5: b3d60c778651b65d60a2b120b28833d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/.cvsignore
+SPDXID: SPDXRef-item18473366
+FileChecksum: SHA1: f4c546ffb7d1c124701432c3b48bff596d4a54f3
+FileChecksum: SHA256: a27b13d5daaf197c6c5f1d2e3d7c7ae763207812581368b0d8381ff89ecc321f
+FileChecksum: MD5: e31a9c64c398a3dce4f860be4ae203b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/include/util-ank.h
+SPDXID: SPDXRef-item18473371
+FileChecksum: SHA1: 8880c9342d92d53bfad3046ed60a15010670da3f
+FileChecksum: SHA256: c7409a5c9b6cd2dc42a15c95d8a5b6628ea28b965c27f92987d4dafd6eab6335
+FileChecksum: MD5: 1e78958dc2628fc2963173ee2e0b5c38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/include/ipx.h
+SPDXID: SPDXRef-item18473372
+FileChecksum: SHA1: 176ebd44319535d39928fcc2ee0d6e06bdd26b53
+FileChecksum: SHA256: ab7ec3e8d36eea5d03104ed5cc3aa7e2328d52a0909499bf10bc0df56bfa1146
+FileChecksum: MD5: 506c26fd4b397c07beaaae0a3d16287f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/include/sockets.h
+SPDXID: SPDXRef-item18473373
+FileChecksum: SHA1: 23f1c81d50fea831aad63d32c3647be5977a132c
+FileChecksum: SHA256: 8c1b3f261734941fb4b619dd4f09b168098114ccca7a638bbe7f7cc9d1ec4e6f
+FileChecksum: MD5: 4523dd5678730ef4f5eaae9ced91a6c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/include/interface.h
+SPDXID: SPDXRef-item18473374
+FileChecksum: SHA1: f25d757baec6b73a368d289795672c547d38e60f
+FileChecksum: SHA256: ccaa6f2f00aa3a20f62258271abff2b0d5fb33c9780e608684961f3e534b9add
+FileChecksum: MD5: 53008cf7c6adccd48ca265970c8c3a50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/slattach.8
+SPDXID: SPDXRef-item18473380
+FileChecksum: SHA1: 200c784a8c95459297c1d7aa1052f133d065ea18
+FileChecksum: SHA256: a66aadd1fc542924f3313edb7e6af37029e00c22cb2324ee03a0525c27bbeb81
+FileChecksum: MD5: 8d48d7e39117fd9d006324cab0aa7f19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/route.8
+SPDXID: SPDXRef-item18473382
+FileChecksum: SHA1: 00516a121f416f3b4d24b9631066022d3511e0ec
+FileChecksum: SHA256: 56c531248bcf317aa635dbd6051d2c6ae222ab506bb960ad55500fab7f7bf7a9
+FileChecksum: MD5: c31d62a64d62f55660daddc17a9ec358
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/netstat.8
+SPDXID: SPDXRef-item18473383
+FileChecksum: SHA1: a7aec3683c0b1003e523f6fd535dc3722fd6d4a0
+FileChecksum: SHA256: ba3c7fcc0bd05955df77692fb230c4e9a825fea92215173486083a3bc0045b7b
+FileChecksum: MD5: 0799cd9449f3382867345d09cfd1fe8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/nisdomainname.1
+SPDXID: SPDXRef-item18473384
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/plipconfig.8
+SPDXID: SPDXRef-item18473386
+FileChecksum: SHA1: 7d31f40e3a1a9a62f66675366324e1e201350885
+FileChecksum: SHA256: b0b4253b519a11a06a1c982cb2254362b7312b914fbc6f94d460bed36df8bb53
+FileChecksum: MD5: ddecb5aa8312344706939b9b8b4dad41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/dnsdomainname.1
+SPDXID: SPDXRef-item18473387
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/domainname.1
+SPDXID: SPDXRef-item18473388
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/arp.8
+SPDXID: SPDXRef-item18473389
+FileChecksum: SHA1: 818882cd4ca8bba68ffd28d00572a699dc753712
+FileChecksum: SHA256: a43ed8806b424fccb388370ec04cd43de6d91021f2143b36464a10663fac12d0
+FileChecksum: MD5: 2c9f834a065a5e2cef731c44a0cb8c48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/ethers.5
+SPDXID: SPDXRef-item18473390
+FileChecksum: SHA1: e3b264d0bd461e269aa72c0ebdbdfac294e6ac42
+FileChecksum: SHA256: 47050606b2420a638e4521145e15c8120e7798438c46f104c89742f072a79ce0
+FileChecksum: MD5: 2778c7ca7521dcef9866536ec72b4096
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/rarp.8
+SPDXID: SPDXRef-item18473391
+FileChecksum: SHA1: 6d42196e2eb281c694cc45cb743a82bffb7ae29b
+FileChecksum: SHA256: 1ad14fb3615686b8dede5cdf3069af9b35235b51895fbf9ef8bc21d3bf5e6f41
+FileChecksum: MD5: 64c80a56d7023133b6322a345d7e1f2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/ypdomainname.1
+SPDXID: SPDXRef-item18473393
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/ifconfig.8
+SPDXID: SPDXRef-item18473394
+FileChecksum: SHA1: 494774743bc2984d13de83039657582f12e1d9aa
+FileChecksum: SHA256: 9cc13828d757a46987b906b0b9120ce82b05b90c6ae52f4ed1e62b24f2bf6a78
+FileChecksum: MD5: 4fd211752900a3439f2c395ff909aa1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/de_DE/hostname.1
+SPDXID: SPDXRef-item18473395
+FileChecksum: SHA1: faa2e6519e14202bed3bd5e913958634d6c24896
+FileChecksum: SHA256: ca5070831a02400a752f06e2769875ffcdeebae89ec69e5a0ecbf9f010d72b6d
+FileChecksum: MD5: 01289ac4f8550094e48d662bf8f3505b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/route.8
+SPDXID: SPDXRef-item18473399
+FileChecksum: SHA1: d69f30cb4c003cfae67dbaca8011e1803dac93c4
+FileChecksum: SHA256: 29fd8817e4b7e3735b32ae03751fcbf6cd89570428df49aab30deb6e196b403a
+FileChecksum: MD5: 494ab02768f16afc6965636d3e29509b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/netstat.8
+SPDXID: SPDXRef-item18473400
+FileChecksum: SHA1: af7992c83bdeaadc96fde8477868e8e37d33ea27
+FileChecksum: SHA256: c5cad16c08fd1373c472e12aa288ad39734445b849afe36fca487b237889b9a6
+FileChecksum: MD5: 4f080125fcd00a3cf404ca5425b92a5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/nisdomainname.1
+SPDXID: SPDXRef-item18473401
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/dnsdomainname.1
+SPDXID: SPDXRef-item18473402
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/domainname.1
+SPDXID: SPDXRef-item18473403
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/arp.8
+SPDXID: SPDXRef-item18473404
+FileChecksum: SHA1: 06cfaf91c5387b3740cba7b3ab87628f101c40cc
+FileChecksum: SHA256: 21bb7110f17edbf82b0a613f6d43e8d9426aba4bc138b92afcc41313f868bf72
+FileChecksum: MD5: 4a0db38b320ddba26ec5bec12be375d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/rarp.8
+SPDXID: SPDXRef-item18473406
+FileChecksum: SHA1: 55af8204773d5dd2fc7498c8f317a166510495ca
+FileChecksum: SHA256: 282d7db992866025cb41da3a67d0354462a7cd81b80ff97d650f971519bf429a
+FileChecksum: MD5: c8b538378ad160ad1d065ad43169c617
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/ypdomainname.1
+SPDXID: SPDXRef-item18473407
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/ifconfig.8
+SPDXID: SPDXRef-item18473408
+FileChecksum: SHA1: 3c4a3645448afeb011fc57995f26e5fbf3819141
+FileChecksum: SHA256: 094d55d7039f35b98fded7d5de3b94414f78220d8dd4fd3096ec03a7daa7f13c
+FileChecksum: MD5: 718e0e7ed52a8f9d17a61066bbb9bb16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/pt_BR/hostname.1
+SPDXID: SPDXRef-item18473409
+FileChecksum: SHA1: 72f60bc485e412cafb594daa7e749b5b63c9bca4
+FileChecksum: SHA256: 2771161872acbec3727f3e67e766990a36181fff4753146586c609ded014c5e1
+FileChecksum: MD5: 69db88cf2edcb73d712c757f3f37b116
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/mii-tool.8
+SPDXID: SPDXRef-item18473412
+FileChecksum: SHA1: ae391241bb72844cbca6091fd3c797aaacedbaa5
+FileChecksum: SHA256: 5d925c123ec6e1e6708381070bf306d43dd27e9e9c46a7b416de8f3b1bc174a1
+FileChecksum: MD5: 358145d3bfdf40b03e60dd950226bad8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (C) 2000 David A. Hinds -- dhinds@pcmcia.sourceforge.org </text>
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/slattach.8
+SPDXID: SPDXRef-item18473413
+FileChecksum: SHA1: 845bebba17376e7961ae404c09dfee0260db07b8
+FileChecksum: SHA256: 6577ac9b4e4c4667829a9daab63edd03fffc4347d00236c642d4b01a2dd632be
+FileChecksum: MD5: f74f21a4626ed89a87cc67a91ae27aa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/route.8
+SPDXID: SPDXRef-item18473414
+FileChecksum: SHA1: 2c1bcf4f078c9bdb8b3d654226d148d07b6b29db
+FileChecksum: SHA256: 7ed901cfa4902576a041189b8a400856a09a689bb78c12d643a340f2c3b066ef
+FileChecksum: MD5: 8c3018998fac9da7d0e84696284c0985
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/netstat.8
+SPDXID: SPDXRef-item18473416
+FileChecksum: SHA1: 9c679ca3c683e160aece5f08de8116d5f5913ed4
+FileChecksum: SHA256: 6ed8f26e25c9391e16310f86311a651bcc8706be2856a12985deb8cbd548dcef
+FileChecksum: MD5: 393b0c57cdadd47910a3fabe4c77d04e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/ipmaddr.8
+SPDXID: SPDXRef-item18473417
+FileChecksum: SHA1: 359bcb14bb8f75fc4b4528884b7d079beab1538e
+FileChecksum: SHA256: 2998573a8ea3f3a6221e9baeab06f75e796f64b69ee899a58fdbb954ab087136
+FileChecksum: MD5: 5c9eef7df29a8f8700676a07496e6988
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/nisdomainname.1
+SPDXID: SPDXRef-item18473418
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/plipconfig.8
+SPDXID: SPDXRef-item18473419
+FileChecksum: SHA1: e95c120217ccf731c049f26d67c21db01b13d74b
+FileChecksum: SHA256: a2995223b687b68891b2a6315d43b530bb31469d627c893b3bbe62659ebbaac1
+FileChecksum: MD5: 63437473ef6c87ef91a2f1d83ceaf03a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/dnsdomainname.1
+SPDXID: SPDXRef-item18473420
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/domainname.1
+SPDXID: SPDXRef-item18473421
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/arp.8
+SPDXID: SPDXRef-item18473423
+FileChecksum: SHA1: 9de98e261b65c6b316931b53667a7b85f64518bf
+FileChecksum: SHA256: 5795ce3e809e0087682d840851142c948acc9af295c27f3516c55f1f123c9fa2
+FileChecksum: MD5: 98386222f1383d3a6bcf132ca2b6be7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/iptunnel.8
+SPDXID: SPDXRef-item18473424
+FileChecksum: SHA1: ee9ff9440664e8b393e71a049c685eb5e518bebb
+FileChecksum: SHA256: 9121053563dc0307d68c25f6f7a18992b8bd058bfc4c8f1c74bbf24629359d19
+FileChecksum: MD5: 755e7142591983168143f3da8436cb91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/ethers.5
+SPDXID: SPDXRef-item18473425
+FileChecksum: SHA1: 0b854e74e23095259f284789a68bd1aa6646d665
+FileChecksum: SHA256: 736fb1da2d18e9ee65470963fcdb6a504f2e72fe6ceabce039a3ca10aab2d61c
+FileChecksum: MD5: 515e1d372216d4ea04116751b3d2db20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/rarp.8
+SPDXID: SPDXRef-item18473426
+FileChecksum: SHA1: 8d7d42dda3ada4c22aa028a39eb6e372696ebb75
+FileChecksum: SHA256: 013aaf6186793fff4c438fc3816a3946025fd2230e5a4eeb623e6155d29dae98
+FileChecksum: MD5: 7b9b93cd1fdbe889449866e54f09d4bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/nameif.8
+SPDXID: SPDXRef-item18473428
+FileChecksum: SHA1: 01620220e428e16532090a162d8db56ed493639d
+FileChecksum: SHA256: 982ec44d3e567503e6e6df32105884a3cd894414c21dac410c87bd4b1a2508e5
+FileChecksum: MD5: fc198f6d4857db63fa4ce13c5c22f39b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/ypdomainname.1
+SPDXID: SPDXRef-item18473429
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/ifconfig.8
+SPDXID: SPDXRef-item18473430
+FileChecksum: SHA1: bbebcaccfa1c2915bf34840fae1c08378d340f69
+FileChecksum: SHA256: d338734aa258370b24e1291ebbdb6256ced8e3a6369de967d60bf50f261dd788
+FileChecksum: MD5: 3c180325f98d5fbd6ddc43128b4ca68f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/en_US/hostname.1
+SPDXID: SPDXRef-item18473431
+FileChecksum: SHA1: a82db902b9e48e8163c46f3ab044025f262ef6a0
+FileChecksum: SHA256: 0dc23db4cd65bc131fda7b4e42e568b2a8cc86ef4bbccda3fecde7a00c37a657
+FileChecksum: MD5: 6e4eff01ce4e941afbf7bd8b82e8d354
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/slattach.8
+SPDXID: SPDXRef-item18473434
+FileChecksum: SHA1: a517f0b9497e194ea0c1aa0766ce59387ea7289e
+FileChecksum: SHA256: a73a9ce2761181be2db97d110a5a8b5a117eae84523fe0b79554ff90e2792ef7
+FileChecksum: MD5: 3981eea9e688fffb9b68b0e4f7134eb8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/route.8
+SPDXID: SPDXRef-item18473435
+FileChecksum: SHA1: 87ddc029463a3c87f1c34189c1cf9aa87a9214ed
+FileChecksum: SHA256: ec916593c019864d95f57bc3c7c706d3b0d4cf3298a840d65f4697f155ea087c
+FileChecksum: MD5: 3590531c51b5b5ee7f225cd4bb639812
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/netstat.8
+SPDXID: SPDXRef-item18473437
+FileChecksum: SHA1: d025befb4be52408394e8f64fab18e17b6b222d5
+FileChecksum: SHA256: c1b0abfca7f713caac60f1a885c6826a14bb6e8a68f72c334c24e23a66613902
+FileChecksum: MD5: cc6ef55a7adc05cd841e5e4542cbe8a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/nisdomainname.1
+SPDXID: SPDXRef-item18473438
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/plipconfig.8
+SPDXID: SPDXRef-item18473439
+FileChecksum: SHA1: ba163d01cbf858ce65293c1da533ab93723cb8b9
+FileChecksum: SHA256: 7749973131922ff633ca3f7c32a6bd6c211ececab30e41cb74d3cacbf73f1a37
+FileChecksum: MD5: e23c4655ecafbc5abd566317745048a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/dnsdomainname.1
+SPDXID: SPDXRef-item18473441
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/domainname.1
+SPDXID: SPDXRef-item18473442
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/arp.8
+SPDXID: SPDXRef-item18473443
+FileChecksum: SHA1: a8a9923be43516ce196ab5de015f9d264f0e454a
+FileChecksum: SHA256: b0f68d165a1e36b4450b462e852c9e8c8e22283068dea52dbb9e3ad0937403dd
+FileChecksum: MD5: 90bacd231532c34477c2e31c75dc3c44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/ethers.5
+SPDXID: SPDXRef-item18473445
+FileChecksum: SHA1: e99a79ab02663ba7f4f62fd806f341734a29eef4
+FileChecksum: SHA256: d2df36f5cba17c69f1253339110fc2190d7464527b00bb0200ae5b4b48f0e499
+FileChecksum: MD5: 60269a4bcea88ace2dce07e57b4933f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/rarp.8
+SPDXID: SPDXRef-item18473446
+FileChecksum: SHA1: df06aca56e19e2b29e015246f1302eb485d317fb
+FileChecksum: SHA256: 5435455fdbbc4ff69f0f7cf6ceed1453e0daaed28ce442104b99fc7adcb53a29
+FileChecksum: MD5: b44172d103c64460d2585d27ad0771db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/ypdomainname.1
+SPDXID: SPDXRef-item18473447
+FileChecksum: SHA1: 0de4d72f5b2f4837aaaaad04e394d65b7acf7835
+FileChecksum: SHA256: 89992776bdf0b42593d9b677f44752a67211d58f909bebfc74bc72e9be59a0ba
+FileChecksum: MD5: 5cdb124540d178ea21f212b96af44b3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/ifconfig.8
+SPDXID: SPDXRef-item18473449
+FileChecksum: SHA1: 59be30e44374376372cb6411fda3edc785250c7c
+FileChecksum: SHA256: f18caebeed0fcd18fa1a3a4b85a77f227d6b2775141669ee01bd86f9141a1fac
+FileChecksum: MD5: e34303ccd4ff7fa8da778405fe9a29ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/man/fr_FR/hostname.1
+SPDXID: SPDXRef-item18473451
+FileChecksum: SHA1: fa2fa8cedb530fac5032d82e793a243a23325bc4
+FileChecksum: SHA256: 51c56f196ca523debdafc4ea4031486a09ce138a82ba811a1190a8967a9851fb
+FileChecksum: MD5: e7343a2c1ff2dd212ba8b155dac7f97d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/rarp.c
+SPDXID: SPDXRef-item18473452
+FileChecksum: SHA1: a0f996c58dc5064d0ab816ba38b02c2de8ebb616
+FileChecksum: SHA256: 4e986f44870c519da8b419dce01a9518ba3fe30570e1f92a496a7cded6d1f5bc
+FileChecksum: MD5: 5f7a4c5163e440bd32ef969b0372134a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/ABOUT-NLS
+SPDXID: SPDXRef-item18473454
+FileChecksum: SHA1: 0c15b473af89d405060a167e64b82a32a6f7d48e
+FileChecksum: SHA256: 0d0d5e1012b38b63486c442a85104491701b96614a1d375fd1d073a464b528c0
+FileChecksum: MD5: e0bd9942ff181567d6d94d2384261f59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/.gitignore
+SPDXID: SPDXRef-item18473456
+FileChecksum: SHA1: af2d96d2ce17a3aaab3364ddfc9bc0bd9393a79e
+FileChecksum: SHA256: bdd33c3de2f3e669efab97d14d15cac58cd9a82699029a78fc4b2be9066a404f
+FileChecksum: MD5: 959441950f9049efb3f92d8635688bdb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-tools-2.10.tar.gz/net-tools-2.10.tar/net-tools-2.10/route.c
+SPDXID: SPDXRef-item18473459
+FileChecksum: SHA1: 7d058dafed122b0c974b36ce7d34a0a5230e8f21
+FileChecksum: SHA256: d86f6ba73cbba470b52453f239fc4cb5c6d6f08072dfae46850f33502057cd07
+FileChecksum: MD5: e1604b4981fcd172483ee649d40fbe7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+
+
+LicenseID: LicenseRef-License-of-GNU-Licenses
+LicenseName: License-of-GNU-Licenses
+ExtractedText: <text> Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed. </text>
+
+
+  
+LicenseID: LicenseRef-GPL-2.0-or-later
+LicenseName: GNU General Public License v2.0 or later
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+
+Version 2, June 1991
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Lesser General Public License instead.) You can apply it to your programs, too.
+
+When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.
+
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+
+Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+   0. This License applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language. (Hereinafter, translation is included without limitation in the term "modification".) Each licensee is addressed as "you".
+
+   Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). Whether that is true depends on what the Program does.
+
+   1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program.
+
+   You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+
+   2. You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:
+
+      a) You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
+
+      b) You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License.
+
+      c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this License. (Exception: if the Program itself is interactive but does not normally print such an announcement, your work based on the Program is not required to print an announcement.)
+
+   These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Program, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Program, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.
+
+   Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Program.
+
+   In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.
+
+   3. You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following:
+
+      a) Accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+      b) Accompany it with a written offer, valid for at least three years, to give any third party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+      c) Accompany it with the information you received as to the offer to distribute corresponding source code. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form with such an offer, in accord with Subsection b above.)
+
+   The source code for a work means the preferred form of the work for making modifications to it. For an executable work, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the executable. However, as a special exception, the source code distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.
+
+   If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code.
+
+   4. You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.
+
+   5. You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Program or works based on it.
+
+   6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.
+
+   7. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.
+
+   If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply and the section as a whole is intended to apply in other circumstances.
+
+   It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system, which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.
+
+   This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.
+
+   8. If the distribution and/or use of the Program is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Program under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License.
+
+   9. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+   Each version is given a distinguishing version number. If the Program specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation.
+
+   10. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+
+   NO WARRANTY
+
+   11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+   12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS
+
+How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+<one line to give the program's name and an idea of what it does.>
+
+Copyright (C) <yyyy> <name of author>
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+Gnomovision version 69, Copyright (C) year name of author Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the program, if necessary. Here is a sample; alter the names:
+
+Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+< signature of Ty Coon > , 1 April 1989 Ty Coon, President of Vice
+
+ </text>
+
+
+  
+LicenseID: LicenseRef-GPL-2.0-only
+LicenseName: GNU General Public License v2.0 only
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Lesser General Public License instead.) You can apply it to your programs, too.
+
+When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.
+
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+
+Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+0. This License applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language. (Hereinafter, translation is included without limitation in the term "modification".) Each licensee is addressed as "you".
+
+Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). Whether that is true depends on what the Program does.
+
+1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program.
+
+You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+
+2. You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:
+
+     a) You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
+
+     b) You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License.
+
+     c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this License. (Exception: if the Program itself is interactive but does not normally print such an announcement, your work based on the Program is not required to print an announcement.)
+
+These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Program, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Program, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.
+
+Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Program.
+
+In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.
+
+3. You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following:
+
+     a) Accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+     b) Accompany it with a written offer, valid for at least three years, to give any third party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
+
+     c) Accompany it with the information you received as to the offer to distribute corresponding source code. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form with such an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for making modifications to it. For an executable work, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the executable. However, as a special exception, the source code distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.
+
+If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code.
+
+4. You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.
+
+5. You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Program or works based on it.
+
+6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.
+
+7. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.
+
+If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply and the section as a whole is intended to apply in other circumstances.
+
+It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system, which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.
+
+This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.
+
+8. If the distribution and/or use of the Program is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Program under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License.
+
+9. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+Each version is given a distinguishing version number. If the Program specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation.
+
+10. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+
+NO WARRANTY
+
+11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+END OF TERMS AND CONDITIONS
+
+How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+     one line to give the program's name and an idea of what it does. Copyright (C) yyyy name of author
+
+     This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA. Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+     Gnomovision version 69, Copyright (C) year name of author Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the program, if necessary. Here is a sample; alter the names:
+
+     Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+signature of Ty Coon, 1 April 1989 Ty Coon, President of Vice
+ </text>
+
+
+  
+LicenseID: LicenseRef-GPL-1.0-or-later
+LicenseName: GNU General Public License v1.0 or later
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+
+Version 1, February 1989
+
+Copyright (C) 1989 Free Software Foundation, Inc. 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The license agreements of most software companies try to keep users at the mercy of those companies. By contrast, our General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. The General Public License applies to the Free Software Foundation's software and to any other program whose authors commit to using it. You can use it for your programs, too.
+
+When we speak of free software, we are referring to freedom, not price. Specifically, the General Public License is designed to make sure that you have the freedom to give away or sell copies of free software, that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of a such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must tell them their rights.
+
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+
+The precise terms and conditions for copying, distribution and modification follow.
+
+GNU GENERAL PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+   0. This License Agreement applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any work containing the Program or a portion of it, either verbatim or with modifications. Each licensee is addressed as "you".
+
+   1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this General Public License and to the absence of any warranty; and give any other recipients of the Program a copy of this General Public License along with the Program. You may charge a fee for the physical act of transferring a copy.
+
+   2. You may modify your copy or copies of the Program or any portion of it, and copy and distribute such modifications under the terms of Paragraph 1 above, provided that you also do the following:
+
+      a) cause the modified files to carry prominent notices stating that you changed the files and the date of any change; and
+
+      b) cause the whole of any work that you distribute or publish, that in whole or in part contains the Program or any part thereof, either with or without modifications, to be licensed at no charge to all third parties under the terms of this General Public License (except that you may choose to grant warranty protection to some or all third parties, at your option).
+
+      c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the simplest and most usual way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this General Public License.
+
+      d) You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+
+   Mere aggregation of another independent work with the Program (or its derivative) on a volume of a storage or distribution medium does not bring the other work under the scope of these terms.
+
+   3. You may copy and distribute the Program (or a portion or derivative of it, under Paragraph 2) in object code or executable form under the terms of Paragraphs 1 and 2 above provided that you also do one of the following:
+
+      a) accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Paragraphs 1 and 2 above; or,
+
+      b) accompany it with a written offer, valid for at least three years, to give any third party free (except for a nominal charge for the cost of distribution) a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Paragraphs 1 and 2 above; or,
+
+      c) accompany it with the information you received as to where the corresponding source code may be obtained. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form alone.)
+
+   Source code for a work means the preferred form of the work for making modifications to it. For an executable file, complete source code means all the source code for all modules it contains; but, as a special exception, it need not include source code for modules which are standard libraries that accompany the operating system on which the executable file runs, or for standard header files or definitions files that accompany that operating system.
+
+   4. You may not copy, modify, sublicense, distribute or transfer the Program except as expressly provided under this General Public License. Any attempt otherwise to copy, modify, sublicense, distribute or transfer the Program is void, and will automatically terminate your rights to use the Program under this License. However, parties who have received copies, or rights to use copies, from you under this General Public License will not have their licenses terminated so long as such parties remain in full compliance.
+
+   5. By copying, distributing or modifying the Program (or any work based on the Program) you indicate your acceptance of this license to do so, and all its terms and conditions.
+
+   6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein.
+
+   7. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+   Each version is given a distinguishing version number. If the Program specifies a version number of the license which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the license, you may choose any version ever published by the Free Software Foundation.
+
+   8. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+
+   NO WARRANTY
+
+   9.
+
+   BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+   10. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. END OF TERMS AND CONDITIONS
+
+Appendix: How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest possible use to humanity, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
+
+To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
+
+<one line to give the program's name and a brief idea of what it does.>
+
+Copyright (C) 19yy <name of author>
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+Gnomovision version 69, Copyright (C) 19xx name of author Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the program, if necessary. Here a sample; alter the names:
+
+Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (a program to direct compilers to make passes at assemblers) written by James Hacker.
+
+<signature of Ty Coon>, 1 April 1989 Ty Coon, President of Vice
+
+That's all there is to it!
+
+ </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+
+LicenseID: LicenseRef-Same-license-as
+LicenseName: Same-license-as
+ExtractedText: <text> License by Nomos. </text>
+
+  
+
+LicenseID: LicenseRef-scancode-free-unknown
+LicenseName: Free unknown license detected but not recognized
+ExtractedText: <text> License by Scancode. </text>
+
+
+
+LicenseID: LicenseRef-GPL
+LicenseName: GNU General Public License
+ExtractedText: <text> GPL is referenced without a version number. Please look up GPL in the License Admin to view the different versions. </text>
+
+
+
+LicenseID: LicenseRef-GPL-2.0-or-later-WITH-Autoconf-exception
+LicenseName: GPL-2.0-or-later WITH Autoconf-exception
+ExtractedText: <text> GNU GENERAL PUBLIC LICENSE
+                       Version 2, June 1991
+
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The licenses for most software are designed to take away your
+freedom to share and change it.  By contrast, the GNU General Public
+License is intended to guarantee your freedom to share and change free
+software--to make sure the software is free for all its users.  This
+General Public License applies to most of the Free Software
+Foundation's software and to any other program whose authors commit to
+using it.  (Some other Free Software Foundation software is covered by
+the GNU Lesser General Public License instead.)  You can apply it to
+your programs, too.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+this service if you wish), that you receive source code or can get it
+if you want it, that you can change the software or use pieces of it
+in new free programs; and that you know you can do these things.
+
+  To protect your rights, we need to make restrictions that forbid
+anyone to deny you these rights or to ask you to surrender the rights.
+These restrictions translate to certain responsibilities for you if you
+distribute copies of the software, or if you modify it.
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must give the recipients all the rights that
+you have.  You must make sure that they, too, receive or can get the
+source code.  And you must show them these terms so they know their
+rights.
+
+  We protect your rights with two steps: (1) copyright the software, and
+(2) offer you this license which gives you legal permission to copy,
+distribute and/or modify the software.
+
+  Also, for each author's protection and ours, we want to make certain
+that everyone understands that there is no warranty for this free
+software.  If the software is modified by someone else and passed on, we
+want its recipients to know that what they have is not the original, so
+that any problems introduced by others will not reflect on the original
+authors' reputations.
+
+  Finally, any free program is threatened constantly by software
+patents.  We wish to avoid the danger that redistributors of a free
+program will individually obtain patent licenses, in effect making the
+program proprietary.  To prevent this, we have made it clear that any
+patent must be licensed for everyone's free use or not licensed at all.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+                    GNU GENERAL PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. This License applies to any program or other work which contains
+a notice placed by the copyright holder saying it may be distributed
+under the terms of this General Public License.  The "Program", below,
+refers to any such program or work, and a "work based on the Program"
+means either the Program or any derivative work under copyright law:
+that is to say, a work containing the Program or a portion of it,
+either verbatim or with modifications and/or translated into another
+language.  (Hereinafter, translation is included without limitation in
+the term "modification".)  Each licensee is addressed as "you".
+
+Activities other than copying, distribution and modification are not
+covered by this License; they are outside its scope.  The act of
+running the Program is not restricted, and the output from the Program
+is covered only if its contents constitute a work based on the
+Program (independent of having been made by running the Program).
+Whether that is true depends on what the Program does.
+
+  1. You may copy and distribute verbatim copies of the Program's
+source code as you receive it, in any medium, provided that you
+conspicuously and appropriately publish on each copy an appropriate
+copyright notice and disclaimer of warranty; keep intact all the
+notices that refer to this License and to the absence of any warranty;
+and give any other recipients of the Program a copy of this License
+along with the Program.
+
+You may charge a fee for the physical act of transferring a copy, and
+you may at your option offer warranty protection in exchange for a fee.
+
+  2. You may modify your copy or copies of the Program or any portion
+of it, thus forming a work based on the Program, and copy and
+distribute such modifications or work under the terms of Section 1
+above, provided that you also meet all of these conditions:
+
+    a) You must cause the modified files to carry prominent notices
+    stating that you changed the files and the date of any change.
+
+    b) You must cause any work that you distribute or publish, that in
+    whole or in part contains or is derived from the Program or any
+    part thereof, to be licensed as a whole at no charge to all third
+    parties under the terms of this License.
+
+    c) If the modified program normally reads commands interactively
+    when run, you must cause it, when started running for such
+    interactive use in the most ordinary way, to print or display an
+    announcement including an appropriate copyright notice and a
+    notice that there is no warranty (or else, saying that you provide
+    a warranty) and that users may redistribute the program under
+    these conditions, and telling the user how to view a copy of this
+    License.  (Exception: if the Program itself is interactive but
+    does not normally print such an announcement, your work based on
+    the Program is not required to print an announcement.)
+
+These requirements apply to the modified work as a whole.  If
+identifiable sections of that work are not derived from the Program,
+and can be reasonably considered independent and separate works in
+themselves, then this License, and its terms, do not apply to those
+sections when you distribute them as separate works.  But when you
+distribute the same sections as part of a whole which is a work based
+on the Program, the distribution of the whole must be on the terms of
+this License, whose permissions for other licensees extend to the
+entire whole, and thus to each and every part regardless of who wrote it.
+
+Thus, it is not the intent of this section to claim rights or contest
+your rights to work written entirely by you; rather, the intent is to
+exercise the right to control the distribution of derivative or
+collective works based on the Program.
+
+In addition, mere aggregation of another work not based on the Program
+with the Program (or with a work based on the Program) on a volume of
+a storage or distribution medium does not bring the other work under
+the scope of this License.
+
+  3. You may copy and distribute the Program (or a work based on it,
+under Section 2) in object code or executable form under the terms of
+Sections 1 and 2 above provided that you also do one of the following:
+
+    a) Accompany it with the complete corresponding machine-readable
+    source code, which must be distributed under the terms of Sections
+    1 and 2 above on a medium customarily used for software interchange; or,
+
+    b) Accompany it with a written offer, valid for at least three
+    years, to give any third party, for a charge no more than your
+    cost of physically performing source distribution, a complete
+    machine-readable copy of the corresponding source code, to be
+    distributed under the terms of Sections 1 and 2 above on a medium
+    customarily used for software interchange; or,
+
+    c) Accompany it with the information you received as to the offer
+    to distribute corresponding source code.  (This alternative is
+    allowed only for noncommercial distribution and only if you
+    received the program in object code or executable form with such
+    an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for
+making modifications to it.  For an executable work, complete source
+code means all the source code for all modules it contains, plus any
+associated interface definition files, plus the scripts used to
+control compilation and installation of the executable.  However, as a
+special exception, the source code distributed need not include
+anything that is normally distributed (in either source or binary
+form) with the major components (compiler, kernel, and so on) of the
+operating system on which the executable runs, unless that component
+itself accompanies the executable.
+
+If distribution of executable or object code is made by offering
+access to copy from a designated place, then offering equivalent
+access to copy the source code from the same place counts as
+distribution of the source code, even though third parties are not
+compelled to copy the source along with the object code.
+
+  4. You may not copy, modify, sublicense, or distribute the Program
+except as expressly provided under this License.  Any attempt
+otherwise to copy, modify, sublicense or distribute the Program is
+void, and will automatically terminate your rights under this License.
+However, parties who have received copies, or rights, from you under
+this License will not have their licenses terminated so long as such
+parties remain in full compliance.
+
+  5. You are not required to accept this License, since you have not
+signed it.  However, nothing else grants you permission to modify or
+distribute the Program or its derivative works.  These actions are
+prohibited by law if you do not accept this License.  Therefore, by
+modifying or distributing the Program (or any work based on the
+Program), you indicate your acceptance of this License to do so, and
+all its terms and conditions for copying, distributing or modifying
+the Program or works based on it.
+
+  6. Each time you redistribute the Program (or any work based on the
+Program), the recipient automatically receives a license from the
+original licensor to copy, distribute or modify the Program subject to
+these terms and conditions.  You may not impose any further
+restrictions on the recipients' exercise of the rights granted herein.
+You are not responsible for enforcing compliance by third parties to
+this License.
+
+  7. If, as a consequence of a court judgment or allegation of patent
+infringement or for any other reason (not limited to patent issues),
+conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot
+distribute so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you
+may not distribute the Program at all.  For example, if a patent
+license would not permit royalty-free redistribution of the Program by
+all those who receive copies directly or indirectly through you, then
+the only way you could satisfy both it and this License would be to
+refrain entirely from distribution of the Program.
+
+If any portion of this section is held invalid or unenforceable under
+any particular circumstance, the balance of the section is intended to
+apply and the section as a whole is intended to apply in other
+circumstances.
+
+It is not the purpose of this section to induce you to infringe any
+patents or other property right claims or to contest validity of any
+such claims; this section has the sole purpose of protecting the
+integrity of the free software distribution system, which is
+implemented by public license practices.  Many people have made
+generous contributions to the wide range of software distributed
+through that system in reliance on consistent application of that
+system; it is up to the author/donor to decide if he or she is willing
+to distribute software through any other system and a licensee cannot
+impose that choice.
+
+This section is intended to make thoroughly clear what is believed to
+be a consequence of the rest of this License.
+
+  8. If the distribution and/or use of the Program is restricted in
+certain countries either by patents or by copyrighted interfaces, the
+original copyright holder who places the Program under this License
+may add an explicit geographical distribution limitation excluding
+those countries, so that distribution is permitted only in or among
+countries not thus excluded.  In such case, this License incorporates
+the limitation as if written in the body of this License.
+
+  9. The Free Software Foundation may publish revised and/or new versions
+of the General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+Each version is given a distinguishing version number.  If the Program
+specifies a version number of this License which applies to it and "any
+later version", you have the option of following the terms and conditions
+either of that version or of any later version published by the Free
+Software Foundation.  If the Program does not specify a version number of
+this License, you may choose any version ever published by the Free Software
+Foundation.
+
+  10. If you wish to incorporate parts of the Program into other free
+programs whose distribution conditions are different, write to the author
+to ask for permission.  For software which is copyrighted by the Free
+Software Foundation, write to the Free Software Foundation; we sometimes
+make exceptions for this.  Our decision will be guided by the two goals
+of preserving the free status of all derivatives of our free software and
+of promoting the sharing and reuse of software generally.
+
+                            NO WARRANTY
+
+  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
+TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
+PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+REPAIR OR CORRECTION.
+
+  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+                     END OF TERMS AND CONDITIONS
+
+            How to Apply These Terms to Your New Programs
+
+  If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these terms.
+
+  To do so, attach the following notices to the program.  It is safest
+to attach them to the start of each source file to most effectively
+convey the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this
+when it starts in an interactive mode:
+
+    Gnomovision version 69, Copyright (C) year name of author
+    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.  Of course, the commands you use may
+be called something other than `show w' and `show c'; they could even be
+mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your
+school, if any, to sign a "copyright disclaimer" for the program, if
+necessary.  Here is a sample; alter the names:
+
+  Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+  `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+  <signature of Ty Coon>, 1 April 1989
+  Ty Coon, President of Vice
+
+This General Public License does not permit incorporating your program into
+proprietary programs.  If your program is a subroutine library, you may
+consider it more useful to permit linking proprietary applications with the
+library.  If this is what you want to do, use the GNU Lesser General
+Public License instead of this License.
+
+As a special exception to the GNU General Public License, if you
+distribute this file as part of a program that contains a
+configuration script generated by Autoconf, you may include it under
+the same distribution terms that you use for the rest of that program. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
