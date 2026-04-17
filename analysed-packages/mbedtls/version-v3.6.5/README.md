@@ -4,7 +4,7 @@ https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/v3.6.5.zip
 
 ## Package URL (purl)
 
-pkg:github/Mbed-TLS/mbedtls@3.6.5
+pkg:github/Mbed-TLS/mbedtls@v3.6.5
 
 ## Creator
 
