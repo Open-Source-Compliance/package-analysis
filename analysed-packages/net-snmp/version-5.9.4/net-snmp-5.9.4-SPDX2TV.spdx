@@ -5,7 +5,7 @@ DataLicense: CC0-1.0
 ## Document Information
 ##-------------------------
 
-DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_net-snmp-5.9.4.tar.gz_1776081872.spdx
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_net-snmp-5.9.4.tar.gz_1776841775.spdx
 DocumentName: /srv/fossology/repository/report
 SPDXID: SPDXRef-DOCUMENT
 
@@ -20,7 +20,7 @@ This document was created using license information and a generator from Fossolo
 It contains the license and copyright analysis of net-snmp 5.9.4.
 Please check "LicenseComments" for explanations of concluded licenses.
 </text>
-Created: 2026-04-13T12:04:36Z
+Created: 2026-04-22T07:09:39Z
 LicenseListVersion: 3.22
 
 ##-------------------------
@@ -39,7 +39,7 @@ PackageChecksum: SHA1: c144409282ca90826af79b50ade1c2d78d330396
 PackageChecksum: SHA256: 8b4de01391e74e3c7014beb43961a2d6d6fa03acc34280b9585f4930745b0544
 PackageChecksum: MD5: 395f7988f1ee4fd9b61eebbbb0961245
 PackageLicenseConcluded: NOASSERTION
-PackageLicenseDeclared: LicenseRef-BSD-3-Clause-25b42d0cdc9d162048c903a3683cc71b AND LicenseRef-MIT-CMU-cbfe4bfa10b43b70fee0216a831ad4f9 AND LicenseRef-MIT
+PackageLicenseDeclared: LicenseRef-BSD-3-Clause AND LicenseRef-MIT AND LicenseRef-MIT-CMU
 PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
  - nomos ("4.4.0.51".1e52cb)
  - monk ("4.4.0.51".1e52cb)
@@ -493,8 +493,8 @@ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-******************************************************************************************
-</text>
+****************************************************************************************** 
+ </text>
 PackageLicenseInfoFromFiles: NOASSERTION
 PackageCopyrightText: NOASSERTION
 
@@ -504,6 +504,243 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload3871
 ##--------------------------
 ## File Information
 ##--------------------------
+
+##File
+
+FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/install-sh
+SPDXID: SPDXRef-item16570172
+FileChecksum: SHA1: 894e0a9de7976233743575c6b84dedc1b37025b6
+FileChecksum: SHA256: 3d7488bebd0cfc9b5c440c55d5b44f1c6e2e3d3e19894821bae4a27f9307f1d2
+FileChecksum: MD5: b090c5891571c820e91d345a9551af44
+LicenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11-5872543441a34866c9e94fa78f93667f
+LicenseComments: <text> The information in the file is:
+"FSF changes to this file are in the public domain."
+Therefore, Public-domain was concluded as license for this file. </text>
+LicenseInfoInFile: LicenseRef-X11
+LicenseInfoInFile: LicenseRef-MIT
+LicenseInfoInFile: LicenseRef-Public-domain
+LicenseInfoInFile: LicenseRef-scancode-public-domain
+FileCopyrightText: <text> Copyright (C) 1994 X Consortium </text>
+
+##File
+
+FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/apps/snmppcap.c
+SPDXID: SPDXRef-item16569744
+FileChecksum: SHA1: e7cfe9afabb9b268121984d4feadaab66ca8a1c5
+FileChecksum: SHA256: 3278e6e1e0db04184d68a4e0889651f84bbbee5b16dad36bf53c7efc04878d7b
+FileChecksum: MD5: 451b73d60dee020cd7c15f662b0b409b
+LicenseConcluded: LicenseRef-BSD-3-Clause-161119b7f8695513d618a6069cd4cf2d
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2015, Arista Networks, inc. All rights reserved. </text>
+
+##File
+
+FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/snmplib/system.c
+SPDXID: SPDXRef-item16570160
+FileChecksum: SHA1: 745d917253cc21b2f6735cb507c2421033ab6ae7
+FileChecksum: SHA256: 4524035c3377ee019123e167c468f5e98f1b5b801fb94c74cdccfec234f4f5c4
+FileChecksum: MD5: 6d1d2f5b714a224d48d6df57c19e883e
+LicenseConcluded: LicenseRef-BSD-3-Clause-7adc0a46625d4db99f1cc212a7e323cc AND LicenseRef-MIT-CMU-b275e0df276fb55edbba5d5ba560f029
+LicenseComments: <text> The information in the file is:
+"Portions of this file are copyrighted by:
+Copyright © 2003 Sun Microsystems, Inc. All rights reserved.
+Use is subject to license terms specified in the COPYING file
+distributed with the Net-SNMP package.
+Portions of this file are copyrighted by:
+Copyright (C) 2007 Apple, Inc. All rights reserved.
+Use is subject to license terms specified in the COPYING file
+distributed with the Net-SNMP package.
+Portions of this file are copyrighted by:
+Copyright (c) 2016 VMware, Inc. All rights reserved.
+Use is subject to license terms specified in the COPYING file
+distributed with the Net-SNMP package."
+The COPYING file in the rootfile directory of this package contains the following notes: 
+"---- Part 4: Sun Microsystems, Inc. copyright notice (BSD) -----
+Copyright (c) 2003 Sun Microsystems, Inc., 4150 Network Circle, Santa Clara, California 95054, U.S.A. All rights reserved.", followed by an individual BSD-3-Clause license text., and
+---- Part 8: Apple Inc. copyright notice (BSD) -----
+Copyright (c) 2007 Apple Inc. All rights reserved.", followed by an individual BSD-3-Clause license text., and
+---- Part 13: VMware, Inc. copyright notice (BSD) -----
+Copyright (c) 2016, VMware, Inc.
+All rights reserved.", followed by an individual BSD-3-Clause license text.
+Therefore, BSD-3-Clause license was concluded as license for this file and the individual texts were copied in the License Text field. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-HPND
+LicenseInfoInFile: LicenseRef-MIT-CMU
+FileCopyrightText: <text> Copyright 1992 by Carnegie Mellon University
+Copyright © 2003 Sun Microsystems, Inc.
+Copyright (C) 2007 Apple, Inc. All rights reserved.
+Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
+
+##File
+
+FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/snmplib/transports/snmpUDPDomain.c
+SPDXID: SPDXRef-item16570136
+FileChecksum: SHA1: 71b69ce22f77585cc1e7ad61d6ddb95053a1d645
+FileChecksum: SHA256: 88abcc30dd7aa7886364037666cdee8c2e6910e30fda35b601bffbc51af51fc7
+FileChecksum: MD5: 8f2254a922a17b4bdb430b3464bebb3a
+LicenseConcluded: LicenseRef-BSD-3-Clause-a92a43d62876e4fbadf2fe442704d402
+LicenseComments: <text> The information in the file is:
+"* Portions of this file are copyrighted by:
+* Copyright Copyright 2003 Sun Microsystems, Inc. All rights reserved.
+* Use is subject to license terms specified in the COPYING file
+* distributed with the Net-SNMP package.
+* Portions of this file are copyrighted by:
+* Copyright (c) 2016 VMware, Inc. All rights reserved.
+* Use is subject to license terms specified in the COPYING file
+* distributed with the Net-SNMP package."
+The COPYING file in the rootfile directory of this package contains the following notes: 
+"---- Part 4: Sun Microsystems, Inc. copyright notice (BSD) -----
+Copyright (c) 2003 Sun Microsystems, Inc., 4150 Network Circle, Santa Clara, California 95054, U.S.A. All rights reserved.", followed by an individual BSD-3-Clause license text., and
+---- Part 13: VMware, Inc. copyright notice (BSD) -----
+Copyright (c) 2016, VMware, Inc.
+All rights reserved.", followed by an individual BSD-3-Clause license text.
+Therefore, BSD-3-Clause license was concluded as license for this file and the individual texts were copied in the License Text field. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-See-file.COPYING
+FileCopyrightText: <text> Copyright Copyright 2003 Sun Microsystems, Inc. All rights reserved.
+Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
+
+##File
+
+FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/snmplib/snprintf.c
+SPDXID: SPDXRef-item16570163
+FileChecksum: SHA1: cbe30287ea954ca43ed0103b7104112cf861b8df
+FileChecksum: SHA256: dd9db120d123db9e88673033840679fcd482814a3b76b941779315aaf0b0ca11
+FileChecksum: MD5: e8625405e00ccd70d454e7c99ec751b0
+LicenseConcluded: LicenseRef-BSD-3-Clause-9171a20e17dd5e6cfe6e74f82dfb9c1a AND LicenseRef-snprintf-8b42b304e2414ac8a3d7f7323acfce16
+LicenseComments: <text> The information in the file is:
+Portions of this file are copyrighted by:
+Copyright (c) 2016 VMware, Inc. All rights reserved.
+Use is subject to license terms specified in the COPYING file"
+The COPYING file in the rootfile directory of this package contains the following note: 
+"---- Part 13: VMware, Inc. copyright notice (BSD) -----
+Copyright (c) 2016, VMware, Inc.
+All rights reserved.",
+followed by an individual BSD-3-Clause license text. 
+Therefore, this individual BSD-3-Clause license was concluded as license for this file and the individual text was copied in the License Text field. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Freeware
+LicenseInfoInFile: LicenseRef-scancode-snprintf
+LicenseInfoInFile: LicenseRef-snprintf
+FileCopyrightText: <text> Copyright Patrick Powell 1995
+Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
+
+##File
+
+FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/python/setup.py
+SPDXID: SPDXRef-item16570025
+FileChecksum: SHA1: b824b5c2e32e93008fc9c7b73f57fa541d321691
+FileChecksum: SHA256: 8ec5c5fbdbc15a42def19c190cb61a4651202675d2f2bd32a98b57ce2d6fbfc8
+FileChecksum: MD5: cca1b9e59042dfc9db207f692d385d84
+LicenseConcluded: LicenseRef-BSD-3-Clause-730a966d43ff84102649a430259dc9ed
+LicenseComments: <text> The information in the file is:
+author_email = 'giovanni.marzot@sparta.com',
+url = 'http://www.net-snmp.org',
+license="BSD""
+There is a README file in the same subfolder that states:
+"License:
+Please see the LICENSE file contained with this package
+Copyright:
+Copyright (c) 2006 G. S. Marzot. All rights reserved.
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Net-SNMP itself.
+Copyright (c) 2006 SPARTA, Inc. All Rights Reserved. This
+program is free software; you can redistribute it and/or modify
+it under the same terms as Net-SNMP itself."
+The mentioned LICENSE file in the same subfolder contains two individual BSD-3-Clause license texts, one refering to the SPARTA copyright notice above.
+Therefore, this BSD-3-Clause license was concluded as license for this file and the individual license text was copied into the License Text field. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/include/net-snmp/library/container.h
+SPDXID: SPDXRef-item16571525
+FileChecksum: SHA1: 5efb359fb6a1500b80619eca5cf3bf6af57e1c4b
+FileChecksum: SHA256: bad699d09082f8aaf7610d19d69873ceda2d971ade242b5205b583680690d763
+FileChecksum: MD5: 94f4089b119f3dd47ada4b5498c79839
+LicenseConcluded: LicenseRef-BSD-3-Clause-3b2f0966ca7e46efe6fa5c3bf2ea06ca
+LicenseComments: <text> The information in the file is:
+"Portions of this file are copyrighted by:
+Copyright (C) 2007 Apple, Inc. All rights reserved.
+Use is subject to license terms specified in the COPYING file
+distributed with the Net-SNMP package.
+Portions of this file are copyrighted by:
+Copyright (c) 2016 VMware, Inc. All rights reserved.
+Use is subject to license terms specified in the COPYING file
+distributed with the Net-SNMP package.
+The COPYING file in the rootfile directory of this package contains the following notes: 
+"---- Part 8: Apple Inc. copyright notice (BSD) -----
+Copyright (c) 2007 Apple Inc. All rights reserved.",
+followed by an individual BSD-3-Clause license text, and
+"---- Part 13: VMware, Inc. copyright notice (BSD) -----
+Copyright (c) 2016, VMware, Inc.
+All rights reserved.",
+followed by an individual BSD-3-Clause license text. 
+Therefore, BSD-3-Clause license was concluded as license for this file and the individual texts were copied in the License Text field. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-See-file.COPYING
+FileCopyrightText: <text> Copyright (C) 2007 Apple, Inc. All rights reserved.
+Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
+
+##File
+
+FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/snmplib/container.c
+SPDXID: SPDXRef-item16570118
+FileChecksum: SHA1: 31fb3325ccfa2c634a11994046aaa0714743aa0f
+FileChecksum: SHA256: f95b029963e9e9e52e38e8fd860be4128848791f056d7777ab70f66f740dfa42
+FileChecksum: MD5: e26c8ef0e59715b0e0fb3c0c5254e872
+LicenseConcluded: LicenseRef-BSD-3-Clause-3b2f0966ca7e46efe6fa5c3bf2ea06ca
+LicenseComments: <text> The information in the file is:
+"Portions of this file are copyrighted by:
+Copyright (C) 2007 Apple, Inc. All rights reserved.
+Use is subject to license terms specified in the COPYING file
+distributed with the Net-SNMP package.
+Portions of this file are copyrighted by:
+Copyright (c) 2016 VMware, Inc. All rights reserved.
+Use is subject to license terms specified in the COPYING file
+distributed with the Net-SNMP package.
+The COPYING file in the rootfile directory of this package contains the following notes: 
+"---- Part 8: Apple Inc. copyright notice (BSD) -----
+Copyright (c) 2007 Apple Inc. All rights reserved.",
+followed by an individual BSD-3-Clause license text, and
+"---- Part 13: VMware, Inc. copyright notice (BSD) -----
+Copyright (c) 2016, VMware, Inc.
+All rights reserved.",
+followed by an individual BSD-3-Clause license text. 
+Therefore, BSD-3-Clause license was concluded as license for this file and the individual texts were copied in the License Text field. </text>
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-See-file.COPYING
+FileCopyrightText: <text> Copyright (C) 2007 Apple, Inc. All rights reserved.
+Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
+
+##File
+
+FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/README.solaris
+SPDXID: SPDXRef-item16569626
+FileChecksum: SHA1: 7ddcaf0e8486875dbf07b8e04289d25704224936
+FileChecksum: SHA256: 34e8ea5120cd2527d4114aecbf404d46841ec63414100968693c3e3c2a0fc6f0
+FileChecksum: MD5: ef7fd30ee457833a71b1fee6bdb67503
+LicenseConcluded: LicenseRef-BSD-3-Clause-25b42d0cdc9d162048c903a3683cc71b AND LicenseRef-MIT AND LicenseRef-MIT-CMU-cbfe4bfa10b43b70fee0216a831ad4f9
+LicenseComments: <text> "The information in the file is:
+No warranty is implied by this document.
+This document is copyright but usage allowed under the same
+licensing as net-snmp in general. See http://www.net-snmp.org/COPYING.txt."
+The given link was broken, but there is a COPYING.txt file in the root directory of the package which contains - among others - a MIT-CMU license text. Therefore, MIT-CMU was concluded as one license of this file.
+"The information in the file is:
+No warranty is implied by this document.
+This document is copyright but usage allowed under the same
+licensing as net-snmp in general. See http://www.net-snmp.org/COPYING.txt."
+The given link was broken, but there is a COPYING.txt file in the root directory of the package which contains - among others - a MIT license text. Therefore, MIT license was concluded as one license of this file.
+"The information in the file is:
+No warranty is implied by this document.
+This document is copyright but usage allowed under the same
+licensing as net-snmp in general. See http://www.net-snmp.org/COPYING.txt."
+The given link was broken, but there is a COPYING.txt file in the root directory of the package which contains - among others - a number of different BSD-3-Clause license texts. Therefore, BSD-3-Clause license was concluded as one license of this file and the different individualized BSD-3-Clause license texts were copied into the License Text field. </text>
+LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
+LicenseInfoInFile: LicenseRef-Perl-possibility
+FileCopyrightText: NOASSERTION
 
 ##File
 
@@ -1422,28 +1659,6 @@ FileCopyrightText: <text> Copyright (c) 1999 Frank Strauss, Technical University
 
 ##File
 
-FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/README.solaris
-SPDXID: SPDXRef-item16569626
-FileChecksum: SHA1: 7ddcaf0e8486875dbf07b8e04289d25704224936
-FileChecksum: SHA256: 34e8ea5120cd2527d4114aecbf404d46841ec63414100968693c3e3c2a0fc6f0
-FileChecksum: MD5: ef7fd30ee457833a71b1fee6bdb67503
-LicenseConcluded: LicenseRef-BSD-3-Clause-25b42d0cdc9d162048c903a3683cc71b AND LicenseRef-MIT-CMU-cbfe4bfa10b43b70fee0216a831ad4f9 AND LicenseRef-MIT
-LicenseComments: <text> "The information in the file is:
-No warranty is implied by this document.
-This document is copyright but usage allowed under the same
-licensing as net-snmp in general. See http://www.net-snmp.org/COPYING.txt."
-The given link was broken, but there is a COPYING.txt file in the root directory of the package which contains - among others - a MIT-CMU license text. Therefore, MIT-CMU was concluded as one license of this file.
-"The information in the file is:
-No warranty is implied by this document.
-This document is copyright but usage allowed under the same
-licensing as net-snmp in general. See http://www.net-snmp.org/COPYING.txt."
-The given link was broken, but there is a COPYING.txt file in the root directory of the package which contains - among others - a number of different BSD-3-Clause license texts. Therefore, BSD-3-Clause license was concluded as one license of this file and the different individualized BSD-3-Clause license texts were copied into the License Text field. </text>
-LicenseInfoInFile: LicenseRef-scancode-warranty-disclaimer
-LicenseInfoInFile: LicenseRef-Perl-possibility
-FileCopyrightText: NOASSERTION
-
-##File
-
 FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/AGENT.txt
 SPDXID: SPDXRef-item16569628
 FileChecksum: SHA1: 91a8d88d6d3324f160b6998f79af742c158cb713
@@ -1687,51 +1902,6 @@ Therefore, Public-domain was concluded as license for this file. </text>
 LicenseInfoInFile: LicenseRef-Public-domain
 LicenseInfoInFile: LicenseRef-Public-domain-ref
 LicenseInfoInFile: LicenseRef-scancode-public-domain
-FileCopyrightText: NOASSERTION
-
-##File
-
-FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/install-sh
-SPDXID: SPDXRef-item16570172
-FileChecksum: SHA1: 894e0a9de7976233743575c6b84dedc1b37025b6
-FileChecksum: SHA256: 3d7488bebd0cfc9b5c440c55d5b44f1c6e2e3d3e19894821bae4a27f9307f1d2
-FileChecksum: MD5: b090c5891571c820e91d345a9551af44
-LicenseConcluded: LicenseRef-Public-domain AND LicenseRef-X11
-LicenseComments: <text> The information in the file is:
-"FSF changes to this file are in the public domain."
-Therefore, Public-domain was concluded as license for this file. </text>
-LicenseInfoInFile: LicenseRef-X11
-LicenseInfoInFile: LicenseRef-MIT
-LicenseInfoInFile: LicenseRef-Public-domain
-LicenseInfoInFile: LicenseRef-scancode-public-domain
-FileCopyrightText: <text> Copyright (C) 1994 X Consortium </text>
-
-##File
-
-FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/python/setup.py
-SPDXID: SPDXRef-item16570025
-FileChecksum: SHA1: b824b5c2e32e93008fc9c7b73f57fa541d321691
-FileChecksum: SHA256: 8ec5c5fbdbc15a42def19c190cb61a4651202675d2f2bd32a98b57ce2d6fbfc8
-FileChecksum: MD5: cca1b9e59042dfc9db207f692d385d84
-LicenseConcluded: LicenseRef-BSD-3-Clause-730a966d43ff84102649a430259dc9ed
-LicenseComments: <text> The information in the file is:
-author_email = 'giovanni.marzot@sparta.com',
-url = 'http://www.net-snmp.org',
-license="BSD""
-There is a README file in the same subfolder that states:
-"License:
-Please see the LICENSE file contained with this package
-Copyright:
-Copyright (c) 2006 G. S. Marzot. All rights reserved.
-This program is free software; you can redistribute it and/or
-modify it under the same terms as Net-SNMP itself.
-Copyright (c) 2006 SPARTA, Inc. All Rights Reserved. This
-program is free software; you can redistribute it and/or modify
-it under the same terms as Net-SNMP itself."
-The mentioned LICENSE file in the same subfolder containes the an individual BSD-3-Clause license text.
-Therefore, this BSD-3-Clause license was concluded as license for this file. </text>
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-BSD
 FileCopyrightText: NOASSERTION
 
 ##File
@@ -2990,30 +3160,6 @@ FileCopyrightText: <text> Copyright 1998 by Carnegie Mellon University </text>
 
 ##File
 
-FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/snmplib/system.c
-SPDXID: SPDXRef-item16570160
-FileChecksum: SHA1: 745d917253cc21b2f6735cb507c2421033ab6ae7
-FileChecksum: SHA256: 4524035c3377ee019123e167c468f5e98f1b5b801fb94c74cdccfec234f4f5c4
-FileChecksum: MD5: 6d1d2f5b714a224d48d6df57c19e883e
-LicenseConcluded: LicenseRef-BSD-3-Clause-6336c594e2f7999b229bc856f88fb3d7 AND LicenseRef-MIT-CMU-b275e0df276fb55edbba5d5ba560f029
-LicenseComments: <text> The information in the file is:
-"Copyright © 2003 Sun Microsystems, Inc. All rights reserved.
-Use is subject to license terms specified in the COPYING file
-distributed with the Net-SNMP package."
-The COPYING file in the rootfile directory of this package contains the following note: 
-"---- Part 4: Sun Microsystems, Inc. copyright notice (BSD) -----
-Copyright (c) 2003 Sun Microsystems, Inc., 4150 Network Circle, Santa Clara, California 95054, U.S.A. All rights reserved.", followed by an individual BSD-3-Clause license text. 
-Therefore, this individual BSD-3-Clause license was concluded as license for this file and the individual text was copied in the License Text field. </text>
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-HPND
-LicenseInfoInFile: LicenseRef-MIT-CMU
-FileCopyrightText: <text> Copyright 1992 by Carnegie Mellon University
-Copyright © 2003 Sun Microsystems, Inc.
-Copyright (C) 2007 Apple, Inc. All rights reserved.
-Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
-
-##File
-
 FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/snmplib/snmp.c
 SPDXID: SPDXRef-item16570086
 FileChecksum: SHA1: 25d550b4ec4ca854b01c58f219dcc80b47d9ccdd
@@ -3482,31 +3628,6 @@ FileCopyrightText: NOASSERTION
 
 ##File
 
-FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/snmplib/snprintf.c
-SPDXID: SPDXRef-item16570163
-FileChecksum: SHA1: cbe30287ea954ca43ed0103b7104112cf861b8df
-FileChecksum: SHA256: dd9db120d123db9e88673033840679fcd482814a3b76b941779315aaf0b0ca11
-FileChecksum: MD5: e8625405e00ccd70d454e7c99ec751b0
-LicenseConcluded: LicenseRef-BSD-3-Clause-9171a20e17dd5e6cfe6e74f82dfb9c1a AND LicenseRef-snprintf
-LicenseComments: <text> The information in the file is:
-Portions of this file are copyrighted by:
-Copyright (c) 2016 VMware, Inc. All rights reserved.
-Use is subject to license terms specified in the COPYING file"
-The COPYING file in the rootfile directory of this package contains the following note: 
-"---- Part 13: VMware, Inc. copyright notice (BSD) -----
-Copyright (c) 2016, VMware, Inc.
-All rights reserved.",
-followed by an individual BSD-3-Clause license text. 
-Therefore, this individual BSD-3-Clause license was concluded as license for this file and the individual text was copied in the License Text field. </text>
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-Freeware
-LicenseInfoInFile: LicenseRef-scancode-snprintf
-LicenseInfoInFile: LicenseRef-snprintf
-FileCopyrightText: <text> Copyright Patrick Powell 1995
-Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
-
-##File
-
 FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/apps/snmptable.c
 SPDXID: SPDXRef-item16569772
 FileChecksum: SHA1: ba7b974ed945ebd219f321dbc789a3a81b789f7a
@@ -3528,17 +3649,6 @@ LicenseConcluded: LicenseRef-BSD-3-Clause-d43844e37424facdbe69daed32bc3350
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 FileCopyrightText: <text> Copyright (c) 2013, Arista Networks, Inc. All rights reserved. </text>
-
-##File
-
-FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/apps/snmppcap.c
-SPDXID: SPDXRef-item16569744
-FileChecksum: SHA1: e7cfe9afabb9b268121984d4feadaab66ca8a1c5
-FileChecksum: SHA256: 3278e6e1e0db04184d68a4e0889651f84bbbee5b16dad36bf53c7efc04878d7b
-FileChecksum: MD5: 451b73d60dee020cd7c15f662b0b409b
-LicenseConcluded: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-FileCopyrightText: <text> Copyright (c) 2015, Arista Networks, inc. All rights reserved. </text>
 
 ##File
 
@@ -4639,28 +4749,6 @@ SPDXID: SPDXRef-item16571008
 FileChecksum: SHA1: c129be33a9cb7b4f18a3dae2ebce438541959cab
 FileChecksum: SHA256: 7d77a6b5b0147d89247ca7c61225d79e9cd7a0426fdb059eb116bdc3fe4e0ed2
 FileChecksum: MD5: 9b9b56fef37c4e716c3fca1568531641
-LicenseConcluded: LicenseRef-BSD-3-Clause-6336c594e2f7999b229bc856f88fb3d7
-LicenseComments: <text> The information in the file is:
-"Portions of this file are copyrighted by:
-Copyright Copyright 2003 Sun Microsystems, Inc. All rights reserved.
-Use is subject to license terms specified in the COPYING file
-distributed with the Net-SNMP package."
-The COPYING file in the rootfile directory of this package contains the following note: 
-"---- Part 4: Sun Microsystems, Inc. copyright notice (BSD) -----
-Copyright (c) 2003 Sun Microsystems, Inc., 4150 Network Circle, Santa Clara, California 95054, U.S.A. All rights reserved.", followed by an individual BSD-3-Clause license text. 
-Therefore, this individual BSD-3-Clause license was concluded as license for this file and the individual text was copied in the License Text field. </text>
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-See-file.COPYING
-FileCopyrightText: <text> Copyright Copyright 2003 Sun Microsystems, Inc. All rights reserved.
-Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
-
-##File
-
-FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/snmplib/transports/snmpUDPDomain.c
-SPDXID: SPDXRef-item16570136
-FileChecksum: SHA1: 71b69ce22f77585cc1e7ad61d6ddb95053a1d645
-FileChecksum: SHA256: 88abcc30dd7aa7886364037666cdee8c2e6910e30fda35b601bffbc51af51fc7
-FileChecksum: MD5: 8f2254a922a17b4bdb430b3464bebb3a
 LicenseConcluded: LicenseRef-BSD-3-Clause-6336c594e2f7999b229bc856f88fb3d7
 LicenseComments: <text> The information in the file is:
 "Portions of this file are copyrighted by:
@@ -5806,29 +5894,6 @@ FileCopyrightText: <text> Copyright (c) 2016 VMware, Inc. All rights reserved. <
 
 ##File
 
-FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/snmplib/container.c
-SPDXID: SPDXRef-item16570118
-FileChecksum: SHA1: 31fb3325ccfa2c634a11994046aaa0714743aa0f
-FileChecksum: SHA256: f95b029963e9e9e52e38e8fd860be4128848791f056d7777ab70f66f740dfa42
-FileChecksum: MD5: e26c8ef0e59715b0e0fb3c0c5254e872
-LicenseConcluded: LicenseRef-BSD-3-Clause-9171a20e17dd5e6cfe6e74f82dfb9c1a
-LicenseComments: <text> The information in the file is:
-Portions of this file are copyrighted by:
-Copyright (c) 2016 VMware, Inc. All rights reserved.
-Use is subject to license terms specified in the COPYING file"
-The COPYING file in the rootfile directory of this package contains the following note: 
-"---- Part 13: VMware, Inc. copyright notice (BSD) -----
-Copyright (c) 2016, VMware, Inc.
-All rights reserved.",
-followed by an individual BSD-3-Clause license text. 
-Therefore, this individual BSD-3-Clause license was concluded as license for this file and the individual text was copied in the License Text field. </text>
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-See-file.COPYING
-FileCopyrightText: <text> Copyright (C) 2007 Apple, Inc. All rights reserved.
-Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
-
-##File
-
 FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/agent/helpers/cache_handler.c
 SPDXID: SPDXRef-item16571391
 FileChecksum: SHA1: 3d56178acff71b358f9b99d36ef4911e6a035ff6
@@ -6158,29 +6223,6 @@ Therefore, this individual BSD-3-Clause license was concluded as license for thi
 LicenseInfoInFile: LicenseRef-BSD-3-Clause
 LicenseInfoInFile: LicenseRef-See-file.COPYING
 FileCopyrightText: <text> Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
-
-##File
-
-FileName: net-snmp-5.9.4.tar.gz/net-snmp-5.9.4.tar/net-snmp-5.9.4/include/net-snmp/library/container.h
-SPDXID: SPDXRef-item16571525
-FileChecksum: SHA1: 5efb359fb6a1500b80619eca5cf3bf6af57e1c4b
-FileChecksum: SHA256: bad699d09082f8aaf7610d19d69873ceda2d971ade242b5205b583680690d763
-FileChecksum: MD5: 94f4089b119f3dd47ada4b5498c79839
-LicenseConcluded: LicenseRef-BSD-3-Clause-9171a20e17dd5e6cfe6e74f82dfb9c1a
-LicenseComments: <text> The information in the file is:
-Portions of this file are copyrighted by:
-Copyright (c) 2016 VMware, Inc. All rights reserved.
-Use is subject to license terms specified in the COPYING file"
-The COPYING file in the rootfile directory of this package contains the following note: 
-"---- Part 13: VMware, Inc. copyright notice (BSD) -----
-Copyright (c) 2016, VMware, Inc.
-All rights reserved.",
-followed by an individual BSD-3-Clause license text. 
-Therefore, this individual BSD-3-Clause license was concluded as license for this file and the individual text was copied in the License Text field. </text>
-LicenseInfoInFile: LicenseRef-BSD-3-Clause
-LicenseInfoInFile: LicenseRef-See-file.COPYING
-FileCopyrightText: <text> Copyright (C) 2007 Apple, Inc. All rights reserved.
-Copyright (c) 2016 VMware, Inc. All rights reserved. </text>
 
 ##File
 
@@ -7009,7 +7051,7 @@ FileChecksum: SHA256: 16a4e5646aaebec528d5c842fe130dfd8d4d64600a90d4fe83e92840af
 FileChecksum: MD5: 7fbbd74caa65aa93d7ff6f8a461fbedd
 LicenseConcluded: LicenseRef-MIT
 LicenseInfoInFile: LicenseRef-MIT
-FileCopyrightText: <text> Copyright \(co 2009, 2010 IBM Corp., All Rights Reserved </text>
+FileCopyrightText: <text> Copyright \ 2009, 2010 IBM Corp., All Rights Reserved </text>
 
 ##File
 
@@ -28448,6 +28490,763 @@ express Statement of Purpose.
     this CC0 or use of the Work.
  </text>
 
+
+
+LicenseID: LicenseRef-Public-domain
+LicenseName: Public domain software
+ExtractedText: <text> Public domain </text>
+
+  
+
+LicenseID: LicenseRef-X11-5872543441a34866c9e94fa78f93667f
+LicenseName: X11 License
+ExtractedText: <text> Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not
+be used in advertising or otherwise to promote the sale, use or other deal-
+ings in this Software without prior written authorization from the X Consor-
+tium. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-161119b7f8695513d618a6069cd4cf2d
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> 1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-CMU-b275e0df276fb55edbba5d5ba560f029
+LicenseName: CMU License
+ExtractedText: <text> Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of CMU not be
+used in advertising or publicity pertaining to distribution of the
+software without specific, written prior permission.
+
+CMU DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING
+ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL
+CMU BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR
+ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-7adc0a46625d4db99f1cc212a7e323cc
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of the Sun Microsystems, Inc. nor the
+names of its contributors may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+------
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following
+disclaimer in the documentation and/or other materials provided
+with the distribution.
+3. Neither the name of Apple Inc. ("Apple") nor the names of its
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY APPLE AND ITS CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL APPLE OR ITS
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+------
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of VMware, Inc. nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-a92a43d62876e4fbadf2fe442704d402
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of the Sun Microsystems, Inc. nor the
+names of its contributors may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-------
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of VMware, Inc. nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-9171a20e17dd5e6cfe6e74f82dfb9c1a
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of VMware, Inc. nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-snprintf-8b42b304e2414ac8a3d7f7323acfce16
+LicenseName: snprintf License
+ExtractedText: <text> This code is based on code written by Patrick Powell (papowell@astart.com)
+It may be used for any purpose as long as this notice remains intact
+on all source code distributions </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-730a966d43ff84102649a430259dc9ed
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> 
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of Sparta, Inc nor the names of its contributors may
+be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-3b2f0966ca7e46efe6fa5c3bf2ea06ca
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following
+disclaimer in the documentation and/or other materials provided
+with the distribution.
+3. Neither the name of Apple Inc. ("Apple") nor the names of its
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY APPLE AND ITS CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL APPLE OR ITS
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+---------------
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of VMware, Inc. nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+  
+
+LicenseID: LicenseRef-MIT-CMU-cbfe4bfa10b43b70fee0216a831ad4f9
+LicenseName: CMU License
+ExtractedText: <text> Permission to use, copy, modify and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appears in all copies and
+that both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of CMU and The Regents of
+the University of California not be used in advertising or publicity
+pertaining to distribution of the software without specific written
+permission.
+
+CMU AND THE REGENTS OF THE UNIVERSITY OF CALIFORNIA DISCLAIM ALL
+WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL CMU OR
+THE REGENTS OF THE UNIVERSITY OF CALIFORNIA BE LIABLE FOR ANY SPECIAL,
+INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING
+FROM THE LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF
+CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-25b42d0cdc9d162048c903a3683cc71b
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of the Networks Associates Technology, Inc nor the
+names of its contributors may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* The name of Cambridge Broadband Ltd. may not be used to endorse or
+promote products derived from this software without specific prior
+written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER ``AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+----
+
+Use is subject to license terms below.
+
+This distribution may include materials developed by third parties.
+
+Sun, Sun Microsystems, the Sun logo and Solaris are trademarks or registered
+trademarks of Sun Microsystems, Inc. in the U.S. and other countries.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of the Sun Microsystems, Inc. nor the
+names of its contributors may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of Sparta, Inc nor the names of its contributors may
+be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of Cisco, Inc, Beijing University of Posts and
+Telecommunications, nor the names of their contributors may
+be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* The name of Fabasoft R&D Software GmbH & Co KG or any of its subsidiaries,
+brand or product names may not be used to endorse or promote products
+derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER ``AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following
+disclaimer in the documentation and/or other materials provided
+with the distribution.
+3. Neither the name of Apple Inc. ("Apple") nor the names of its
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY APPLE AND ITS CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL APPLE OR ITS
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of ScienceLogic, LLC nor the names of its
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+----
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation files
+(the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of Internet Society, IETF or IETF Trust, nor the
+names of specific contributors, may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of Arista Networks, Inc. nor the names of its
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of VMware, Inc. nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+----
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+* Neither the name of Information Sciences Institue nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
+
+
+  
+LicenseID: LicenseRef-MIT
+LicenseName: MIT License
+ExtractedText: <text> MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
+
   
 
 LicenseID: LicenseRef-Warranty-Disclaimer-2bcfa4b17f3aca6ee70b77d242c4eabd
@@ -28463,12 +29262,6 @@ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
 OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
-
-
-
-LicenseID: LicenseRef-Public-domain
-LicenseName: Public domain software
-ExtractedText: <text> Public domain </text>
 
   
 
@@ -28938,405 +29731,6 @@ MODIFICATIONS. </text>
 
   
 
-LicenseID: LicenseRef-MIT-CMU-cbfe4bfa10b43b70fee0216a831ad4f9
-LicenseName: CMU License
-ExtractedText: <text> Permission to use, copy, modify and distribute this software and its
-documentation for any purpose and without fee is hereby granted,
-provided that the above copyright notice appears in all copies and
-that both that copyright notice and this permission notice appear in
-supporting documentation, and that the name of CMU and The Regents of
-the University of California not be used in advertising or publicity
-pertaining to distribution of the software without specific written
-permission.
-
-CMU AND THE REGENTS OF THE UNIVERSITY OF CALIFORNIA DISCLAIM ALL
-WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL CMU OR
-THE REGENTS OF THE UNIVERSITY OF CALIFORNIA BE LIABLE FOR ANY SPECIAL,
-INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING
-FROM THE LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF
-CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. </text>
-
-  
-
-LicenseID: LicenseRef-BSD-3-Clause-25b42d0cdc9d162048c903a3683cc71b
-LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of the Networks Associates Technology, Inc nor the
-names of its contributors may be used to endorse or promote
-products derived from this software without specific prior written
-permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
-IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* The name of Cambridge Broadband Ltd. may not be used to endorse or
-promote products derived from this software without specific prior
-written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER ``AS IS'' AND ANY
-EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
-BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
-OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
-IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-----
-
-Use is subject to license terms below.
-
-This distribution may include materials developed by third parties.
-
-Sun, Sun Microsystems, the Sun logo and Solaris are trademarks or registered
-trademarks of Sun Microsystems, Inc. in the U.S. and other countries.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of the Sun Microsystems, Inc. nor the
-names of its contributors may be used to endorse or promote
-products derived from this software without specific prior written
-permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
-IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of Sparta, Inc nor the names of its contributors may
-be used to endorse or promote products derived from this software
-without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
-IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of Cisco, Inc, Beijing University of Posts and
-Telecommunications, nor the names of their contributors may
-be used to endorse or promote products derived from this software
-without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
-IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* The name of Fabasoft R&D Software GmbH & Co KG or any of its subsidiaries,
-brand or product names may not be used to endorse or promote products
-derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER ``AS IS'' AND ANY
-EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
-BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
-OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
-IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
-1. Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following
-disclaimer in the documentation and/or other materials provided
-with the distribution.
-3. Neither the name of Apple Inc. ("Apple") nor the names of its
-contributors may be used to endorse or promote products derived
-from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY APPLE AND ITS CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
-PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL APPLE OR ITS
-CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
-USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
-OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of ScienceLogic, LLC nor the names of its
-contributors may be used to endorse or promote products derived
-from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
-OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
-TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
-USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
-DAMAGE.
-
-----
-
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation files
-(the "Software"), to deal in the Software without restriction,
-including without limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of the Software,
-and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
-BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
-ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of Internet Society, IETF or IETF Trust, nor the
-names of specific contributors, may be used to endorse or promote
-products derived from this software without specific prior written
-permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
-IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
-TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
-PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
-OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
-PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
-LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
-NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of Arista Networks, Inc. nor the names of its
-contributors may be used to endorse or promote products derived
-from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
-OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
-TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
-USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
-DAMAGE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of VMware, Inc. nor the names of its contributors
-may be used to endorse or promote products derived from this software
-without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
-IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-----
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of Information Sciences Institue nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
-IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
-
-  
-
 LicenseID: LicenseRef-Permission-Notice-6e333b8067dc489d600b500eb9ccc0cc
 LicenseName: Permission Notice
 ExtractedText: <text> This file may be distributed as part of a source or binary packaging
@@ -29707,68 +30101,6 @@ distribute this file as part of a program or library that is built
 using GNU Libtool, you may include this file under the same
 distribution terms that you use for the rest of that program. </text>
 
-
-  
-LicenseID: LicenseRef-MIT
-LicenseName: MIT License
-ExtractedText: <text> MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </text>
-
-
-  
-LicenseID: LicenseRef-X11
-LicenseName: X11 License
-ExtractedText: <text> X11 License
-
-Copyright (C) 1996 X Consortium
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
-
-X Window System is a trademark of X Consortium, Inc.
- </text>
-
-  
-
-LicenseID: LicenseRef-BSD-3-Clause-730a966d43ff84102649a430259dc9ed
-LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of Sparta, Inc nor the names of its contributors may
-be used to endorse or promote products derived from this software
-without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
-IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
-
   
 
 LicenseID: LicenseRef-MIT-CMU-68f79e1bb1559acb868d4dbbe59e9d84
@@ -30019,56 +30351,6 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
 
   
 
-LicenseID: LicenseRef-MIT-CMU-b275e0df276fb55edbba5d5ba560f029
-LicenseName: CMU License
-ExtractedText: <text> Permission to use, copy, modify, and distribute this software and its
-documentation for any purpose and without fee is hereby granted,
-provided that the above copyright notice appear in all copies and that
-both that copyright notice and this permission notice appear in
-supporting documentation, and that the name of CMU not be
-used in advertising or publicity pertaining to distribution of the
-software without specific, written prior permission.
-
-CMU DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING
-ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL
-CMU BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR
-ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
-WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
-ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
-SOFTWARE. </text>
-
-  
-
-LicenseID: LicenseRef-BSD-3-Clause-9171a20e17dd5e6cfe6e74f82dfb9c1a
-LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.
-
-* Neither the name of VMware, Inc. nor the names of its contributors
-may be used to endorse or promote products derived from this software
-without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
-IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
-
-  
-
 LicenseID: LicenseRef-BSD-3-Clause-e4345635232586a162184fb02f7b7f05
 LicenseName: BSD 3-Clause "New" or "Revised" License
 ExtractedText: <text> Redistribution and use in source and binary forms, with or without
@@ -30202,15 +30484,6 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>
 
-
-  
-LicenseID: LicenseRef-snprintf
-LicenseName: snprintf License
-ExtractedText: <text> Copyright Patrick Powell 1995 
-
-This code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions
- </text>
-
   
 
 LicenseID: LicenseRef-ISC-e2dc951cd24d482a0dbfd6b6634e568a
@@ -30258,23 +30531,6 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
 TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
 USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGE. </text>
-
-
-  
-LicenseID: LicenseRef-BSD-3-Clause
-LicenseName: BSD 3-Clause "New" or "Revised" License
-ExtractedText: <text> Copyright (c) <year> <owner>. 
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- </text>
 
 
   
@@ -32463,6 +32719,23 @@ LicenseName: See-file.COPYING
 ExtractedText: <text> License by Nomos. </text>
 
 
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
 
 LicenseID: LicenseRef-BSD
 LicenseName: BSD
@@ -33077,6 +33350,34 @@ ExtractedText: <text> Software classified as freeware is licensed at no cost and
 LicenseID: LicenseRef-scancode-snprintf
 LicenseName: snprintf License
 ExtractedText: <text> License by Scancode. </text>
+
+
+  
+LicenseID: LicenseRef-snprintf
+LicenseName: snprintf License
+ExtractedText: <text> Copyright Patrick Powell 1995 
+
+This code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions
+ </text>
+
+
+  
+LicenseID: LicenseRef-X11
+LicenseName: X11 License
+ExtractedText: <text> X11 License
+
+Copyright (C) 1996 X Consortium
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
+
+X Window System is a trademark of X Consortium, Inc.
+ </text>
 
 
   
