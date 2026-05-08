@@ -1,0 +1,3004 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://fossy.osadl.org/repo/SPDX2TV_mpmath-1.4.1.tar.gz_1778252560.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-4.4.0.51
+Creator: Person: Oliver Fendt
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+It contains the license and copyright analysis of mpmath 1.4.1
+Please check "LicenseComments" for explanations of concluded licenses
+</text>
+Created: 2026-05-08T15:02:40Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: mpmath-1.4.1.tar.gz
+PackageFileName: mpmath-1.4.1.tar.gz
+SPDXID: SPDXRef-upload4519
+PackageDownloadLocation: https://github.com/mpmath/mpmath/archive/refs/tags/1.4.1.tar.gz
+ExternalRef: PACKAGE-MANAGER purl pkg:github/mpmath/mpmath@1.4.1
+FilesAnalyzed: true
+PackageVerificationCode: c5b1c2b529bfe0e6304b047d1ed7a35b1c70b162
+PackageChecksum: SHA1: 64a2019f5d13d9adcbfb5b6714d4068146fde87b
+PackageChecksum: SHA256: 005e60e2f8c8e295f4e94034da5080ed70e6ed4a9ba1d3fe43b41137a0c54df7
+PackageChecksum: MD5: 8178e31bc1cf4625cf5713f5593239af
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: LicenseRef-BSD-3-Clause-9be75eed59bde368a33ef8173f45579a
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("4.4.0.51".1e52cb)
+ - monk ("4.4.0.51".1e52cb)
+ - ojo ("4.4.0.51".1e52cb)
+ - scancode ("4.4.0.51".1e52cb) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: <text> 
+The following people (among others) have contributed major patches or new features to mpmath:
+Pearu Peterson <pearu.peterson@gmail.com>
+Mario Pernici <mario.pernici@mi.infn.it>
+Ondrej Certik <ondrej@certik.cz>
+Vinzent Steinberg <vinzent.steinberg@gmail.com>
+Nimish Telang <ntelang@gmail.com>
+Mike Taschuk <mtaschuk@ece.ualberta.ca>
+Case Van Horsen <casevh@gmail.com>
+Jorn Baayen <jorn.baayen@gmail.com>
+Chris Smith <smichr@gmail.com>
+Juan Arias de Reyna <arias@us.es>
+Ioannis Tziakos <itziakos@gmail.com>
+Aaron Meurer <asmeurer@gmail.com>
+Stefan Krastanov <krastanov.stefan@gmail.com>
+Ken Allen <ken.allen@sbcglobal.net>
+Timo Hartmann <thartmann15@gmail.com>
+Sergey B Kirpichev <skirpichev@gmail.com>
+Kris Kuhlman <kristopher.kuhlman@gmail.com>
+Paul Masson <paulmasson@analyticphysics.com>
+Michael Kagalenko <michael.kagalenko@gmail.com>
+Jonathan Warner <warnerjon12@gmail.com>
+Max Gaukler <max.gaukler@fau.de>
+Guillermo Navas-Palencia <g.navas.palencia@gmail.com>
+Nike Dattani <nike@hpqc.org>
+Tim Peters <tim.peters@gmail.com>
+Javier Garcia <javier.garcia.tw@hotmail.com> </text>
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload4519
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/LICENSE
+SPDXID: SPDXRef-item20188670
+FileChecksum: SHA1: 80e8f795e23f665e82a9b31de670275c47aa9e8b
+FileChecksum: SHA256: 01cb9dc26c9afd5804c2ebf72f9ef03b5fd48972875ed59a483a45f441971f1e
+FileChecksum: MD5: a6607bd72611b702183473dfb4e6198b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2005-2026 Fredrik Johansson and mpmath contributors </text>
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/CITATION.bib
+SPDXID: SPDXRef-item20188671
+FileChecksum: SHA1: d9c79bd5bac7a2b0f1e0d204c214971fde8abd0b
+FileChecksum: SHA256: 7cb9ef35d6baa5bb5342744029da7eabace420300c8abb07958a6cd0e7468634
+FileChecksum: MD5: e6815f7418ff73c51e2824e056bf5d55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/CHANGES
+SPDXID: SPDXRef-item20188672
+FileChecksum: SHA1: 4a924be8d3968476b749001a9a5f2eedda9637f4
+FileChecksum: SHA256: 557bf80e422a16ee54ad7d526a251cf8b1cd24c1dc9c8805464edaf7ad110164
+FileChecksum: MD5: c333adbb7f1939c7977bc4583bb93404
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD-possibility
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.codecov.yml
+SPDXID: SPDXRef-item20188673
+FileChecksum: SHA1: 08baa5fa6dd4be540caeb87e2984f549c0a361e7
+FileChecksum: SHA256: 6d2eb15b8277f32edf50d5254d19ed11e2834084862f90815c0d6775f39885c7
+FileChecksum: MD5: 3e1df8fcff97110c04e2bce6d4880f04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/demo/pidigits.py
+SPDXID: SPDXRef-item20188675
+FileChecksum: SHA1: bb63236e5c66b7e9dc9b902756c58d33fdbdf020
+FileChecksum: SHA256: 1495ced85a4836c56fe31bffa8b805ef2c12e58e5e39f8e39f4c7b008938e60f
+FileChecksum: MD5: 39b76860d8b6f101f36124a11f4615c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/demo/taylor.py
+SPDXID: SPDXRef-item20188676
+FileChecksum: SHA1: a022ad0632944cd6983e9a19fe1c6e745d688957
+FileChecksum: SHA256: 46ccf0482225f91fc069b5ef9e56ae471a5e22d53671e0be2bdd05fff597d5a9
+FileChecksum: MD5: 5d8134d94a28c5791234e33546e4b234
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/demo/manydigits.py
+SPDXID: SPDXRef-item20188677
+FileChecksum: SHA1: e5c387ae4403575a0a004e5ef802c113a639cab0
+FileChecksum: SHA256: 0129905a7a38eedd08faaf8ebf86f87270ddfca91ce1ac0ee653a7c0c17e49f6
+FileChecksum: MD5: f335510e3fde3f322a3ddbd833b2de42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/demo/mandelbrot.py
+SPDXID: SPDXRef-item20188678
+FileChecksum: SHA1: 7f5c03d21bc1c97b5ea586f9d3ba5cc517d068af
+FileChecksum: SHA256: 28a9239dc9b5b36e22007766eb5cf3090166b0be5adcd73c1d443a66d3a66b0b
+FileChecksum: MD5: 57a2e58a853c6240235b95fff16ad900
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/demo/plotting.py
+SPDXID: SPDXRef-item20188679
+FileChecksum: SHA1: 04b6b1674b84ace324b4be63304e490c4b897f0c
+FileChecksum: SHA256: 68aa150cf919157a96bae4206d66186f9b680734986dde13cea8fbf38223ecf4
+FileChecksum: MD5: a5033a28e7e58890de48889e6c07c738
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/demo/sofa.py
+SPDXID: SPDXRef-item20188680
+FileChecksum: SHA1: 57ad8339a0e2f770304a3e9e8dc9925ee47652fb
+FileChecksum: SHA256: 9b3a3dc5a27470fb294d59b00cc71ea733b2b25d2133a5dfaed0bfb7f7fa832f
+FileChecksum: MD5: d51170688293c4b5f83ead92890a8f17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.github/workflows/test.yml
+SPDXID: SPDXRef-item20188683
+FileChecksum: SHA1: d33e8b7f070ec847f349e65d556e5daddc2c222f
+FileChecksum: SHA256: 02b46dcc604e9cace51c5360b5899536838442487d7d66912024d0c656cd1688
+FileChecksum: MD5: 042b3feddae99b781eb4fc890b747339
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.github/workflows/coverage.yml
+SPDXID: SPDXRef-item20188684
+FileChecksum: SHA1: 6a4479e7a767cf26f7e14c2ae0f8f0488a5c57c7
+FileChecksum: SHA256: becedcc89465a716603931e89c3ace9e7729eef4c3403371c1fd35b2e0621daf
+FileChecksum: MD5: 4961ba7aad6a1dc5c3933e7880085a07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.github/workflows/publish.yml
+SPDXID: SPDXRef-item20188685
+FileChecksum: SHA1: e8aa93442b6163f79a2af39186c23d7bfe04baca
+FileChecksum: SHA256: 38bf6e5c0d5716f39c97e81765e77427b92a67144eb8734710d677d1a0345473
+FileChecksum: MD5: 06b0e16441a4259fd9bc37808c3a9a0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.github/workflows/linter.yml
+SPDXID: SPDXRef-item20188686
+FileChecksum: SHA1: 1a694476460255783f577f2f7f6ba0c3b23d20dd
+FileChecksum: SHA256: a830835b0b88980fce0ce735147d348bbd90b694b46a524d968de1f332278c1d
+FileChecksum: MD5: 179e321e513f2dc14dcfdfb20f0882a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.github/workflows/docs.yml
+SPDXID: SPDXRef-item20188687
+FileChecksum: SHA1: 4a47e375b4b9d04a3fe1576bdc26fb16d14901aa
+FileChecksum: SHA256: 57c370c3a0790301db69368dc491ab2295599345f70071a74b01a748d59faea1
+FileChecksum: MD5: 45dfd5c7d5be9ac49e9dbcb07f502a8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.github/CONTRIBUTING.rst
+SPDXID: SPDXRef-item20188688
+FileChecksum: SHA1: dc5bf67cf8b48a2733789bef615d683e532112f7
+FileChecksum: SHA256: 801c59c257de64bd09cb15828b3b0d4a7df485e939f5efb044d3d12bc520af0b
+FileChecksum: MD5: bab276f19073014849377322a773ca04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.github/dependabot.yml
+SPDXID: SPDXRef-item20188689
+FileChecksum: SHA1: 847fb184d48df4d2cf249b3c52e76c0ec383bdb0
+FileChecksum: SHA256: d0fe94b2279a13d0576b04442e0511bcb12c79f9c24af764266ed2389e2e91d3
+FileChecksum: MD5: b477db4fcd0a29abcf4180225a83a444
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/pyproject.toml
+SPDXID: SPDXRef-item20188690
+FileChecksum: SHA1: c16b981f1c8f0bf7d12963b82bb1796133b33af8
+FileChecksum: SHA256: 8aaa67ddbc45bb9b72650384c09a88e5b3f35b14bc6ed0742936c7098e7baa39
+FileChecksum: MD5: a1422e7ab6caefa23ac0a9be7dacc36d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.gitattributes
+SPDXID: SPDXRef-item20188691
+FileChecksum: SHA1: 9cd706951ad86cd83e093731ce4573b1aa1c99b7
+FileChecksum: SHA256: df399777473d5e225cde9daa98b3e973903d363fbdc7260c21512bedf4ca03cf
+FileChecksum: MD5: 3162bb8eb8542b614acd8776ae043665
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.readthedocs.yaml
+SPDXID: SPDXRef-item20188692
+FileChecksum: SHA1: 5366d982ec82ed1e395c00f05fd3ed86eda28736
+FileChecksum: SHA256: 3c6985b0a1d41ce388a6cfeddd9cae268e5dc63f33163d788350358a29990a43
+FileChecksum: MD5: fd3a69cb96595b3f31054b436ea9c62b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/conftest.py
+SPDXID: SPDXRef-item20188693
+FileChecksum: SHA1: f7d394ea2b82b62d2e61e8c9e7ea677596b40f1c
+FileChecksum: SHA256: 9362afb007e988f38846500577c17d045c2430b20b5f15b3c2764c69774b5797
+FileChecksum: MD5: 30b2ff9698334791d8d361ec41537e7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/README.rst
+SPDXID: SPDXRef-item20188694
+FileChecksum: SHA1: 5eed57326beed14d4272d4ccace21ec7fa3740cf
+FileChecksum: SHA256: 3c9d90eb644741cb3b655144ba0a10bfdfd4a2dd9c5b3c4ccfd08f7e0d626d24
+FileChecksum: MD5: 473d888b329339fb68e8fb8799b3ace1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-BSD-3-Clause
+LicenseInfoInFile: LicenseRef-BSD
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/ctx_fp.py
+SPDXID: SPDXRef-item20188696
+FileChecksum: SHA1: 103f2f99eda6895e17116a561501a7146aa6fd0b
+FileChecksum: SHA256: ddf20becc22019a4ede00cf774b13548599b5c8858ef8a4ab4f284fb921fc498
+FileChecksum: MD5: 162720e42737d71dd78ee0d6df6fe358
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/elliptic.py
+SPDXID: SPDXRef-item20188698
+FileChecksum: SHA1: dbd80e597acddbd6c565080abee683c929c62341
+FileChecksum: SHA256: d7283614d2e43839686766927644a59dfe76fbf4f000dc81dc972b8fdcfd4e49
+FileChecksum: MD5: 045df13d75ad59184222c3c811e2121d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/qfunctions.py
+SPDXID: SPDXRef-item20188699
+FileChecksum: SHA1: 16393b3d9d400882cc31a0086e083d5c51eb94a1
+FileChecksum: SHA256: b567cede522b7e86f0a2ec7d2dce90932062a0118f01b72da7c69af998efec48
+FileChecksum: MD5: 891fc35735bef5806ae3f9d22368b465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/theta.py
+SPDXID: SPDXRef-item20188700
+FileChecksum: SHA1: baa97cab976eb166c56605d4dd485997355e3abd
+FileChecksum: SHA256: 2a080ea1c733a0c1bafc73286a5e2810fee267848a3a8bbd24513e5b3636af73
+FileChecksum: MD5: 4c6b8389cb25f0f5127ef84ca73f067e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/functions.py
+SPDXID: SPDXRef-item20188701
+FileChecksum: SHA1: 937d86f64f3d3d897524c5e283e844c2e79dc925
+FileChecksum: SHA256: c479cd2131075ba5f9d305c0e5a5bc92c88c68b9e05304bd3479b975b8cc9405
+FileChecksum: MD5: 1e60b3d68f030c5c191e46891d2590d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/hypergeometric.py
+SPDXID: SPDXRef-item20188702
+FileChecksum: SHA1: 2c4880dbf45099dc8a56917ab9e03158a2166ab3
+FileChecksum: SHA256: 2cbd2ce6da4b437ec3119cabedbb6bd7f5fe6a5724fe544421a5ac88b56aff0d
+FileChecksum: MD5: 85be758424e489f813facda6ea1e6441
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/expintegrals.py
+SPDXID: SPDXRef-item20188703
+FileChecksum: SHA1: 7671725f8a616d327fac5d077fb9173288fa81a9
+FileChecksum: SHA256: 406ee14f40a5b43ef9fad70b62fd2ae4cb804a36a03a91dd37c5f0e54c4f0bbf
+FileChecksum: MD5: 567751a2d3a4b08b6d8819b519b4cb30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/rszeta.py
+SPDXID: SPDXRef-item20188704
+FileChecksum: SHA1: b0f30eae0dc5d0e7e6f3bd7860738215e4160f5c
+FileChecksum: SHA256: deffd5db22fca8a48317dcaeb7fbc601d25bd351078f7f0e7fb9a6dab8b02fe8
+FileChecksum: MD5: ee0c14cbfd20830a263582c863db3e33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/orthogonal.py
+SPDXID: SPDXRef-item20188705
+FileChecksum: SHA1: 5765cb074978a473449df71bd01d5050b0c122f2
+FileChecksum: SHA256: 70d8288c0741511db04c9f378c04153632c690739028e91687cb9b7d12e61776
+FileChecksum: MD5: d6411b3acc33dccadef0a1f84c55a9b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/__init__.py
+SPDXID: SPDXRef-item20188706
+FileChecksum: SHA1: f8741fca6124be7bae26c4b8401445c9259323fa
+FileChecksum: SHA256: 61755d86abfee8b2a6e9caf9c71b53353b6e0fdcc33ca19097c1a64b4c73db1a
+FileChecksum: MD5: eb6c1dc8e389454e9b010bf1a9bd6ac0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/zetazeros.py
+SPDXID: SPDXRef-item20188707
+FileChecksum: SHA1: 422858ec44ca47004af99729a74399149d2ebc98
+FileChecksum: SHA256: 304549d39669d33e0e46f396034acc84a019a4d7511c4dcd7eda5024869f6a64
+FileChecksum: MD5: d0b522c446fd760ddf3151bbba958158
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/factorials.py
+SPDXID: SPDXRef-item20188708
+FileChecksum: SHA1: b4ab05b67b7ceb1ab03b93f7ba2ce46ca1ba6644
+FileChecksum: SHA256: 80dbf416e59e02563f45d6e76215e9114444c6988b54b51aa2c6e18c1365e2e0
+FileChecksum: MD5: df20d19586a9edefd2f478d6a69d0cbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/zeta.py
+SPDXID: SPDXRef-item20188709
+FileChecksum: SHA1: 4b64e4b1bb59b9277942e89e4570db29a1b684e2
+FileChecksum: SHA256: 7feaf34751e2d5c7d25eef10151180daeb7c81b5f9b5d1d6326e117619ccc7fc
+FileChecksum: MD5: 48055cbc3b16540252e0aacd3d3d9654
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/signals.py
+SPDXID: SPDXRef-item20188710
+FileChecksum: SHA1: 3f842365dae530e0b640acccba338c16df8e7ca1
+FileChecksum: SHA256: 10ba2dc10696d420e9bfe79e273399e5cdb73617da65c8fdfc691bde9b2f4b44
+FileChecksum: MD5: e1e8c2e5d97ac53fb3489bc0913e9b00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/functions/bessel.py
+SPDXID: SPDXRef-item20188711
+FileChecksum: SHA1: 070abcfe3540a0b62bf344c4940c5fa4c6894fbe
+FileChecksum: SHA256: 06d1aa7b500e22c04a09ff9aec4ec1304b8ec54d76d67df914e75045b9db3927
+FileChecksum: MD5: aedf486bfc55d71495bbee5c3b974d21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/odes.py
+SPDXID: SPDXRef-item20188713
+FileChecksum: SHA1: 29bcb384cdb51df298783c8a842031c90c1ff203
+FileChecksum: SHA256: c69a53d1b703241c0935e8252ee5de296412e3b3f9e096adf9ff6485e4440e11
+FileChecksum: MD5: 480e505ef2e97448012c69759603c2a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/extrapolation.py
+SPDXID: SPDXRef-item20188714
+FileChecksum: SHA1: ef243dd3d398fa8706510bd7f80d40b867bdeed3
+FileChecksum: SHA256: 27f480f76d34a1eb1a4caacd2d3554d6b51e6fd4b00601c59b35f0fabf935e80
+FileChecksum: MD5: 38d0b6815725fcbfcdfa93629033ae67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2013 Timo Hartmann (thartmann15 at gmail.com)
+Copyright 2013 Timo Hartmann (thartmann15 at gmail.com) </text>
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/__init__.py
+SPDXID: SPDXRef-item20188715
+FileChecksum: SHA1: 0af3e0253316db293d33bd1546bac31dc3aecb80
+FileChecksum: SHA256: 500802209d5899a7b24eaa4dce306509919e2332ed51930412997df5558d8eeb
+FileChecksum: MD5: 26faf7c0c647cec7be7fa9f1ca9409c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/approximation.py
+SPDXID: SPDXRef-item20188716
+FileChecksum: SHA1: 5f9122969a7b20557ec4c53f14e824e6d7760807
+FileChecksum: SHA256: 9c84f5900613909a8e526df10b564dc6e7a1c6cd656bf9e646738b59cf849346
+FileChecksum: MD5: 940d8286e0ecdeb4591b93b75b585636
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/polynomials.py
+SPDXID: SPDXRef-item20188717
+FileChecksum: SHA1: fb3da34439bcc981c011fc0fcef34479b438f20e
+FileChecksum: SHA256: 492c735aa033430650bba1c90d5e851c22dbe4d948cf6e4569ccce3a70c5b552
+FileChecksum: MD5: e8ef3e216a926acea4e1b69d8ad6decf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/inverselaplace.py
+SPDXID: SPDXRef-item20188718
+FileChecksum: SHA1: 38e22516ab806aa58634a6e76c93541393076d41
+FileChecksum: SHA256: 75da1069f4543ebec7b2748a65a91680947d1317ccd06432de26c571c15d2b7b
+FileChecksum: MD5: a7e3a6bf753cb80f89501161b27a3b80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/differentiation.py
+SPDXID: SPDXRef-item20188719
+FileChecksum: SHA1: dbf3f30b81c8fada0ab31778f169cb0fca7b1bcc
+FileChecksum: SHA256: b228eeca5d6afca33460879d17488f5eac340c8755a8ac5537e307d9ba23aaf6
+FileChecksum: MD5: b5da45b1a8f5da56155adfcf2322e7cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/calculus.py
+SPDXID: SPDXRef-item20188720
+FileChecksum: SHA1: 78fb33f3e65f864c2b7a2c5acb291c829911abd0
+FileChecksum: SHA256: fefe1eb29e05cb5ea06028a2732ae989d27ece4ef642ffa2225fd62ec5997bf4
+FileChecksum: MD5: 7f22a766f4e46d98a1fb165c111ff223
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/quadrature.py
+SPDXID: SPDXRef-item20188721
+FileChecksum: SHA1: 20c10a0b9daa191f12bf76f0c293d3896df9b4cf
+FileChecksum: SHA256: 1c14e14a30003de2420d033d2161eddfa89385bcf158f137ba78001604f05029
+FileChecksum: MD5: fab4f011aac8199f3ab2a8a58bb5128c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/calculus/optimization.py
+SPDXID: SPDXRef-item20188722
+FileChecksum: SHA1: 7c25d46e424eea572cbfeae7b51bc542ad70379c
+FileChecksum: SHA256: 3e2f4b906ae057d25214818bd99e408d8d7ee467012c3fed852025601ae35356
+FileChecksum: MD5: a8c46d74b87f62c0eea64bc14271b9d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/ctx_mp.py
+SPDXID: SPDXRef-item20188723
+FileChecksum: SHA1: 79d6bc800c79c152a619012746cdbe7f93edff40
+FileChecksum: SHA256: e16b0facbe7e4a4120cab9af09629b32f008f199cbd6f98ed3bee6676e2d4d04
+FileChecksum: MD5: 061a1e5b4ae14bc99c475c5f40f9d280
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/rational.py
+SPDXID: SPDXRef-item20188724
+FileChecksum: SHA1: 5260d46aca72af8886438e72f2cf9692ad980907
+FileChecksum: SHA256: 91cb2c603a6057510c46a707f60afb0102f428331b11e2e0f09beb4ef75647b9
+FileChecksum: MD5: 853b87019221575a8fc96d8047c8275f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/__init__.py
+SPDXID: SPDXRef-item20188725
+FileChecksum: SHA1: d3ee36d57222946ae4efc96fdc8aa19d2be195bd
+FileChecksum: SHA256: a7314b1585a129e7aa797300d2d897c43e7ce67c162a0303607019a30ab3d12c
+FileChecksum: MD5: eec843ac6f236b095fc840a45f0d5c97
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/identification.py
+SPDXID: SPDXRef-item20188726
+FileChecksum: SHA1: 0d7509452a0a6226a748c13dcc2ba1c1b262d4b2
+FileChecksum: SHA256: 2bcb34c76aa109db7fb44bd3911a4b0158e37528c9ba3a7bd3921736ba346442
+FileChecksum: MD5: 0b7b892c5eb665ecf15654b9a7cb271b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/matrices/__init__.py
+SPDXID: SPDXRef-item20188728
+FileChecksum: SHA1: 0de2b9d81097f6741f424acbc8bf2cd3e185a7f6
+FileChecksum: SHA256: 113cc60dc8986eaf5fb622b068c6c9d79108f8a3571ebcd16fe6477a186a163b
+FileChecksum: MD5: 2a85a76d104965c38866573ed9eef28d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/matrices/calculus.py
+SPDXID: SPDXRef-item20188729
+FileChecksum: SHA1: 6ee2d84693d4624990e79007ccf9bce8fa2fb472
+FileChecksum: SHA256: bda6200b96e086f2d6fcb263559a086cd2c3ef04bb51c688facd768b3bebf223
+FileChecksum: MD5: a59492842a42ad652fb5dc1aec8cfac4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/matrices/matrices.py
+SPDXID: SPDXRef-item20188730
+FileChecksum: SHA1: fc3dc53b3eaa8091603d38e2a45214f04a8a5216
+FileChecksum: SHA256: 843b6fdc9d1d379b7a09cdbeebe4908bd89727d24a70f4579b0b98dbdfc5a5e8
+FileChecksum: MD5: ebf6229503f62776156205881a0a1661
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/matrices/eigen.py
+SPDXID: SPDXRef-item20188731
+FileChecksum: SHA1: f658885fa611f4c652555a96bf512e99fc11c55d
+FileChecksum: SHA256: 096823d5827fbe2a5702b83c74c657c28806b5c7e3030f8facf91bbbfc7b7998
+FileChecksum: MD5: 63fcb333fcb9c97230d555323367360a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2013 Timo Hartmann (thartmann15 at gmail.com) </text>
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/matrices/linalg.py
+SPDXID: SPDXRef-item20188732
+FileChecksum: SHA1: aa63d1dadb8ff1225f076682b08d156dbba221ca
+FileChecksum: SHA256: 347a3c4e833ea232a71e69debcae78459cfff06fab5fc62171208e9534d33034
+FileChecksum: MD5: 61a2db3dd50d74618e388217fd5c85cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/matrices/eigen_symmetric.py
+SPDXID: SPDXRef-item20188733
+FileChecksum: SHA1: be8052344d9422494b1eede3298da77b3cfbf4f0
+FileChecksum: SHA256: 0825053afa79d8eb005619c2219dc3a58318502c9e13576cc8b086ee888e75b8
+FileChecksum: MD5: a9cdc9b15848137afa0cccd47fa9ead0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright 2013 Timo Hartmann (thartmann15 at gmail.com) </text>
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/_interactive.py
+SPDXID: SPDXRef-item20188734
+FileChecksum: SHA1: 3dae8f03260aef4b8c35a10e9fbeba0c7eb0894d
+FileChecksum: SHA256: 4fccb6027f4f447604befdd887e8d51ba34649a061dac726d83a69dc62421ec8
+FileChecksum: MD5: 37d87459c6a3d2ca14a9ff940a9d4bad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/math2.py
+SPDXID: SPDXRef-item20188735
+FileChecksum: SHA1: d5af3d818371d56e0fcc6c6d270664becd8c2a02
+FileChecksum: SHA256: b196c5695faefb6075d542035040af5b3bcd87e35bc9c3e2dd28aae6fb9b2f1c
+FileChecksum: MD5: 7f638670de77132f9313bfb5805a351f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/ctx_iv.py
+SPDXID: SPDXRef-item20188736
+FileChecksum: SHA1: bd71122d00f096342afbde7fa2570c8b2803de3d
+FileChecksum: SHA256: db802e0ffc8cd8232c66858765b1ec385e2068895f587682bc6a8878b24ec5ba
+FileChecksum: MD5: 262e6fb54dc5884aa77fd90754c91a94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/function_docs.py
+SPDXID: SPDXRef-item20188737
+FileChecksum: SHA1: 7bd325fb5726990fd6f7104f0dfbf3b44f9bb158
+FileChecksum: SHA256: a93c8182de53120cab19bef27376de3bee37a7824b282a6a1d0057bd4bd04c3e
+FileChecksum: MD5: 044f78c9a21fb21972fed0341986226e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/visualization.py
+SPDXID: SPDXRef-item20188738
+FileChecksum: SHA1: 8185c942032dadc1cda9ea12c3a3fbc87796204e
+FileChecksum: SHA256: 16c3e3cc53e21d7455cbdcdad6b3169ffa738434d41f329723c3c8b0056dd65c
+FileChecksum: MD5: ef204ae7e7d3d5c7d85b2add0b1e6f53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/usertools.py
+SPDXID: SPDXRef-item20188739
+FileChecksum: SHA1: 74ebf2ec3e9004db1109a69675ea568ecc9a3201
+FileChecksum: SHA256: 38ca28d7c3862203ae33042c47fa5033bd710ee00106d58fedf352c87794c707
+FileChecksum: MD5: 7c67281372d54040bb5617c27cbce186
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_levin.py
+SPDXID: SPDXRef-item20188741
+FileChecksum: SHA1: 0418723f5125d667eab287fba5998676b13fdfd5
+FileChecksum: SHA256: dff956b681c953052248f1493b33bd7dfa382cca718e027d5a0df67b55f8a4c6
+FileChecksum: MD5: 4b597453e97c266c138d3ddbe5f8791d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_pickle.py
+SPDXID: SPDXRef-item20188742
+FileChecksum: SHA1: d9327166e95cadd360a14b25987bd73cc2ab5509
+FileChecksum: SHA256: 88eef05fe5a104775f8e2afdaf7a162e9644edd2e640cce938d7178816ecb046
+FileChecksum: MD5: a8f21add5d25ed6d1e608b974163bb3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_interval.py
+SPDXID: SPDXRef-item20188743
+FileChecksum: SHA1: 38c7c2ab662b6482e2eeaaaaecffe35882438ac2
+FileChecksum: SHA256: 692ab50fd9e66d8eb866b4f99ef9be411227e118ad967d30941a23c5d252209b
+FileChecksum: MD5: 034a7bd38cd3ab2ca5b9125613c2dfe3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_linalg.py
+SPDXID: SPDXRef-item20188744
+FileChecksum: SHA1: 2051f83479f4520ef93a926bf78edb2fb329690a
+FileChecksum: SHA256: cbca336745af60a7136d271d8fcb917c47e4ec4853c8f2549039742dc3551a9c
+FileChecksum: MD5: 79a6105c7c0c3f8335832402301da481
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_summation.py
+SPDXID: SPDXRef-item20188745
+FileChecksum: SHA1: ecfa4fb24c388b0a1a9b9e67cba8c1b22fac78ef
+FileChecksum: SHA256: 35fd81f6fcead272c68b4ab395cc868796019f3752d196709c94c10f9e241d99
+FileChecksum: MD5: 654ba1f38b01ef21dd71122877e1e564
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_division.py
+SPDXID: SPDXRef-item20188746
+FileChecksum: SHA1: c762b20f8fdad29a8924320ee45ed32d701b9db7
+FileChecksum: SHA256: 8710bb465acd81017a356c4f3184597f825be5bfed620ac714bd61754698b9da
+FileChecksum: MD5: 1000c2cf2f843de051732fa7b0c7c4a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_str.py
+SPDXID: SPDXRef-item20188747
+FileChecksum: SHA1: 68f8849bda35eb20817de0be2ddc3096d4c9a1a4
+FileChecksum: SHA256: 364a743e41352e3630b6d06fef2873c52a09e22eed084331983e635e897e3e53
+FileChecksum: MD5: 76ff03bced393f60af272e262ac507fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_extra_zeta.py
+SPDXID: SPDXRef-item20188748
+FileChecksum: SHA1: 4816ae5f9bd0cce5fb511a162dd1e930fe8a683a
+FileChecksum: SHA256: 9a6df8208f6da5723cf7e73cdaa12f8a0f670f800dda24534a2c15534f8e3274
+FileChecksum: MD5: e68bd32dd212ab00e8cbd819b3bb0c52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_visualization.py
+SPDXID: SPDXRef-item20188749
+FileChecksum: SHA1: c578eab63713a781d1c51ae1dbf5b4b8263570c5
+FileChecksum: SHA256: 17c719262b10fcaf2c48c7b301c3486ff757fa8348f51afc27b37093525a8c52
+FileChecksum: MD5: 46b7dc597eb98b62c295b990f3e66b17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_demos.py
+SPDXID: SPDXRef-item20188750
+FileChecksum: SHA1: be4cc833a1bdf4f814d7f0e154c65132cbf3380a
+FileChecksum: SHA256: de33fd622f017ae277e613b34557042d2b683a87ce9e8419a170d3b68c00c5d3
+FileChecksum: MD5: 1d60dc63012c6a72f04c040e3917a0b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_rootfinding.py
+SPDXID: SPDXRef-item20188751
+FileChecksum: SHA1: 4bab063ad8d5b7bf273b86f9e72a2be10fe1ae38
+FileChecksum: SHA256: 93daefb8022c2b908531143458af892743e8df6312dbdc98e132ac866cf697c1
+FileChecksum: MD5: 79e520a41751dcd7a030da91692535bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_elliptic.py
+SPDXID: SPDXRef-item20188752
+FileChecksum: SHA1: c2b033702f364a1483373373359c631b211dd1fc
+FileChecksum: SHA256: 4b206dda7d5a17c03e971c4c6c48bbdc723e0f56952d81b51ca37ec3d277304f
+FileChecksum: MD5: f71e25d5a044e1e1c161af033cfcc98c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_diff.py
+SPDXID: SPDXRef-item20188753
+FileChecksum: SHA1: 6cd20d56714e0f359c1217bb01c2f780a547c380
+FileChecksum: SHA256: 20f9bb3f2968a6817da1a3030eaa3997bc02f7bb1cc86a062896e4ced4ec471c
+FileChecksum: MD5: b4955bbc15cf9d119237a25166234e88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_module.py
+SPDXID: SPDXRef-item20188754
+FileChecksum: SHA1: 6823ff631d0b58dc88837037b2a9b2219f738748
+FileChecksum: SHA256: 47400d5d9515cc9eed4ea285e00e6c9a414063a9e03f8b5ad8399dd12b7645be
+FileChecksum: MD5: d755cc6e6f167082ad3fa2d1bb974f25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_functions2.py
+SPDXID: SPDXRef-item20188755
+FileChecksum: SHA1: 0c4c98dbd5d0e6e822d8d01dfb42c7303d22e1ba
+FileChecksum: SHA256: 1c702e3c59b763a845af763cc6ac5a2257e465479f287711e5801242c7046cbe
+FileChecksum: MD5: b3d185f92324f638a0e62ac19e713f1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_fp.py
+SPDXID: SPDXRef-item20188756
+FileChecksum: SHA1: 3d77b24c294cf55baec5622b62027e7efeaf0e40
+FileChecksum: SHA256: db148e69bafb970221353d542dcdede08dee3c3abd726a2f0fd764d8e803e8bc
+FileChecksum: MD5: 076cfd157e6e9c13038d65c21620ff89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_extra_gamma.py
+SPDXID: SPDXRef-item20188757
+FileChecksum: SHA1: d0c1cfadc1303147bbad7db9d64cfb6ae00f8415
+FileChecksum: SHA256: beb3bf4967af19017d945b166b8d7073cd1302638dfeb7141f5b6c35ebb4d6ca
+FileChecksum: MD5: febe60c7dcece5922a54a928253b679f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_functions.py
+SPDXID: SPDXRef-item20188758
+FileChecksum: SHA1: 7bbf52b4b5148862dac0a93b76f84e2b73235d9c
+FileChecksum: SHA256: a169ad7ea72125c730c6212b9a420967ac182c8cd4aac77c69991367c0348f04
+FileChecksum: MD5: 040e52139fdcff59c7915a8804faa20b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_ode.py
+SPDXID: SPDXRef-item20188759
+FileChecksum: SHA1: 6b77aa0af7628e79fe4db30ecdf098440006c5b7
+FileChecksum: SHA256: 6b0085cdab0068960e1b5358a69bbb8beaaff78a9c740431dc945e7089a224dd
+FileChecksum: MD5: 13892c667ed7300f695752baae97be27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_matrices.py
+SPDXID: SPDXRef-item20188760
+FileChecksum: SHA1: 1ff8b2024fd800e86a6a959ed470c5e3ffbbafa2
+FileChecksum: SHA256: 949d22a968c7588ce9c6f50062e6b214d9331dbf814d4186de7711e1f4481b74
+FileChecksum: MD5: fdb95efd95f0fc135df7fb13924c0234
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_calculus.py
+SPDXID: SPDXRef-item20188761
+FileChecksum: SHA1: 06ff37231b641cce2dfc6af3d31391e6fa4e243b
+FileChecksum: SHA256: dcdf2a6a42ba40064acb5a6ae9283d2fc10da05940f4149499b02c3e6f31b1eb
+FileChecksum: MD5: 2e742a2fbc1b69812ee7dc41dca00eb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_gammazeta.py
+SPDXID: SPDXRef-item20188762
+FileChecksum: SHA1: 187f4f32f7b6475d7173834a7c796cb9405baf4e
+FileChecksum: SHA256: e04a4487a70548d3562e25bbbddbeb7a7a3430c4ef7459a48f0ac00510cd1cd8
+FileChecksum: MD5: 061658b1f497159966bce4a3ea028867
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_compatibility.py
+SPDXID: SPDXRef-item20188763
+FileChecksum: SHA1: d8748cd03a504d79fd65179f8fb428ae525899e5
+FileChecksum: SHA256: 36a6035053ea7e7008fd47d1721baf06ee00cdf6896521a52876e1386f54790d
+FileChecksum: MD5: 08d7bf49cd593c481a8e4346a02d4da8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_eigen.py
+SPDXID: SPDXRef-item20188764
+FileChecksum: SHA1: c77f26c2d3d15f2de3a04abcd3648fe61c10dfb6
+FileChecksum: SHA256: 62c32926bc4587e0cd2f545d90ab271a0220abbbbd43af2625d4c2131ddb2592
+FileChecksum: MD5: e0a5bffbe5c222de7ad78eea29d730c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_eigen_symmetric.py
+SPDXID: SPDXRef-item20188765
+FileChecksum: SHA1: dfb5e75914f86d0f34b179a4fd61bc0cfe9d3e1b
+FileChecksum: SHA256: 4d8d26f95deb8bba170fe3b7f1c5b4f56f1d6e5c1be7e77b20904486e708f79e
+FileChecksum: MD5: ce61ffffc8df9dcfa2d88a4b0f407692
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_bitwise.py
+SPDXID: SPDXRef-item20188766
+FileChecksum: SHA1: 1e876535fa2d8b8fa917a91b451b439efc176781
+FileChecksum: SHA256: 2df6a3392e2b55f20f23f706dd6a8e0e91072ff50dd812b4b97f62d4a2ed0af5
+FileChecksum: MD5: f8ecdc5c2324448917a0fa294bf3afd9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_special.py
+SPDXID: SPDXRef-item20188767
+FileChecksum: SHA1: 20916f14754a84fd2ef21129f9225dc1d769f2c0
+FileChecksum: SHA256: b8010547e406fdc3ddafa259de043ae7271ddbdfee5e1f8001e3456f4bb8d2d5
+FileChecksum: MD5: 88362ea51b0da3582f8a2d5a83eeaf43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_convert.py
+SPDXID: SPDXRef-item20188768
+FileChecksum: SHA1: 12c9104571e1d4aeac01a65515965a0747594b42
+FileChecksum: SHA256: c4aed7864036395b558208ae824410925c18627eb83c9f5c8ae21480eeac8a93
+FileChecksum: MD5: 6deca9ecfdd204bcd5bfab7da37c902e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_format.py
+SPDXID: SPDXRef-item20188769
+FileChecksum: SHA1: bdf1820c20dfc11aa12805af0ae402c616739728
+FileChecksum: SHA256: 263229022d04d5630cab83e5bbb3ca907adeeafcf7c162f6a74fad40a80a2d35
+FileChecksum: MD5: 126abf005022168b52837ccf686ad0f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_mpmath.py
+SPDXID: SPDXRef-item20188770
+FileChecksum: SHA1: b5550627c70f0baf2fb8c357370cc7d034456eef
+FileChecksum: SHA256: d0046312afe5408e39b2c4a9a55717c0201a2d2e8dfe8bb8badf705c1abea13e
+FileChecksum: MD5: 6afaabeb5b9ec8374b64cccac465df60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_cli.py
+SPDXID: SPDXRef-item20188771
+FileChecksum: SHA1: 27c1bc52baeebb3609f9f0d2f31d808b56299019
+FileChecksum: SHA256: ae491bbb161beed9c237d097cf9d890044c62a3999eaafae958fa04ad3cd95f9
+FileChecksum: MD5: 35fb731110d6b7fd75e7248a64696ecb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_power.py
+SPDXID: SPDXRef-item20188772
+FileChecksum: SHA1: 023ab0379ec9ab5a4e10880b18fa4afdaaa27749
+FileChecksum: SHA256: f4ef3793a75944ee142c78281a8f7a2c7834459890673789331983b6ed65d845
+FileChecksum: MD5: 614491903ac651a7223cc35b2bc83a0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_torture.py
+SPDXID: SPDXRef-item20188773
+FileChecksum: SHA1: 12b7dd020cea09de717d2c481eb3fa3fe43b070a
+FileChecksum: SHA256: d3d73e01c1b60972ab77eb0603b6ebf8d83299485bbc8edb5c75c807515da6fc
+FileChecksum: MD5: f9817748ad1770b9726c097fb6ee8519
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_version_frozen.sh
+SPDXID: SPDXRef-item20188774
+FileChecksum: SHA1: 180d9871fc9fc4ba7497838bb3ff350a5e4c3ece
+FileChecksum: SHA256: 1deaf7b6ac1837151aec8a4cd5e2099a4ad4878cf01b4388b739bd952b19f68e
+FileChecksum: MD5: 7f3f75593922f2c36c01fc4bcddfd3f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_trig.py
+SPDXID: SPDXRef-item20188775
+FileChecksum: SHA1: 5ecfe8af42acaed7de77d179e063eec212867d43
+FileChecksum: SHA256: ada6c1dee32dc8c00462c8df508cf6ac15b553952cc93eea881833389d296803
+FileChecksum: MD5: f598910d565923a04ea926823f47a178
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_hp.py
+SPDXID: SPDXRef-item20188776
+FileChecksum: SHA1: 3a6ee6a73c12e883416a8d566cb8db3fa9e58e5d
+FileChecksum: SHA256: 6965cdf5ffa043eb224f3f6db3e3ddd3ccd3a0a6a070d2fe28136cdd4dc7ba27
+FileChecksum: MD5: f6b0af4982ff5bc29ac1638f7021ee12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_identify.py
+SPDXID: SPDXRef-item20188777
+FileChecksum: SHA1: 7a425cabd364f5bae40558e765a3d33234a97fb0
+FileChecksum: SHA256: 9e3308c63d78136773457f5f9db0abbf3c81701c9c87396114b84a087241c18e
+FileChecksum: MD5: 1417411a269a629a255a24bff7f771ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_basic_ops.py
+SPDXID: SPDXRef-item20188778
+FileChecksum: SHA1: 7be949e49e1886bdf39c1386e8a7e62cd332dc45
+FileChecksum: SHA256: b47deb05f619e5fd76bf86c4f48c0f7af07fec94bd25649217f86f20bd57d2d5
+FileChecksum: MD5: b691661cf40d8dd1cf8cce94b484dcbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/tests/test_quad.py
+SPDXID: SPDXRef-item20188779
+FileChecksum: SHA1: 14bc692532ff8b5fc2372b3610f607f68058f7c0
+FileChecksum: SHA256: f6537a5cdc609851bedbf237d46071f721e0d4ee0db1778ab9bd22ce03895678
+FileChecksum: MD5: 315d536cef32da02f57964255317bc46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libmp/libmpi.py
+SPDXID: SPDXRef-item20188781
+FileChecksum: SHA1: e2814d669f7c6761ea884dd0d81751211d2bf11e
+FileChecksum: SHA256: ff73237bf52f2db9e103ed84ed8c865af14c63693f5129cba00069541f175a3b
+FileChecksum: MD5: 1da64d2a1c92dc9b42e23d7214df7c8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libmp/libhyper.py
+SPDXID: SPDXRef-item20188782
+FileChecksum: SHA1: d3529479164627ee8ed12336da11dd4dc8903a84
+FileChecksum: SHA256: e72459675aff6e4c47e2d80fb58a2b9116f7290bb6bc9cd45946f25f389defb7
+FileChecksum: MD5: bf68d62400259459abf098cf9719aed3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libmp/libmpf.py
+SPDXID: SPDXRef-item20188783
+FileChecksum: SHA1: 3e9ad4fa3a579c58a1b79506d320860f01f3732a
+FileChecksum: SHA256: 0405ed61bf4371f9935a46e4915aadd854c3cc3b25430e1e81d1e6a6d633cb30
+FileChecksum: MD5: 1ca190b564a688cb05d3fbdb72832382
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libmp/libmpc.py
+SPDXID: SPDXRef-item20188784
+FileChecksum: SHA1: 842c187255f3cc4c7cb6fcc2884a051f9b48fa73
+FileChecksum: SHA256: 5691882024939f1e53c82c92306c1416e5a346def9bb7b9eca2a2538a1e98b2a
+FileChecksum: MD5: 51d3992648e03406d9ed15938b5909aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libmp/libintmath.py
+SPDXID: SPDXRef-item20188785
+FileChecksum: SHA1: 5f8caab943d1998750d933c658917ef2fcad1fb4
+FileChecksum: SHA256: 37c7cc6bad99301afc714ee26615f33943564bf5434105bf1a55ea2cbb8a9540
+FileChecksum: MD5: 202932a81ae03a24a9696a4605c03a03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libmp/__init__.py
+SPDXID: SPDXRef-item20188786
+FileChecksum: SHA1: d9e1441752a2a412261daf7f7e8469ca4adb45cc
+FileChecksum: SHA256: afdc56d9cdd382930f595b272e9934c2dbf7b059fa201625ea5bf7907934a268
+FileChecksum: MD5: fa09a0c7e264e533084a8ad0b3ee8906
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libmp/gammazeta.py
+SPDXID: SPDXRef-item20188787
+FileChecksum: SHA1: 9ec9bb01d6ad460e5614dbdb6aa37ce22f5c67af
+FileChecksum: SHA256: a30bdf3cdbb5ccd27708fabbd59eda055b4fa83a4490fb953bc8876aaed29beb
+FileChecksum: MD5: e32f1a2ee7711f1bf698e4d72167f30d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libmp/backend.py
+SPDXID: SPDXRef-item20188788
+FileChecksum: SHA1: 0649694d77cffdc90140959366f1adb84c047c72
+FileChecksum: SHA256: 323e02fc7a4f43920c2d4081520eb953f0248cc2ed269b6e1529913f1ba07c5b
+FileChecksum: MD5: 9089e237b8139f9198bae783f35d998f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libmp/libelefun.py
+SPDXID: SPDXRef-item20188789
+FileChecksum: SHA1: 4a3f8af02387dd255bde51f9a7f95708cffc8113
+FileChecksum: SHA256: a33b9a19dc87f870b534641ce5bb64b35aa7a1cb2b7ef81363486f76b80919d0
+FileChecksum: MD5: fdd9b73f3ff3837b1b191a85d94c2ebd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/ctx_base.py
+SPDXID: SPDXRef-item20188790
+FileChecksum: SHA1: 743876d5d44726d7811ca053b3ff89da38706183
+FileChecksum: SHA256: c5e836a24f3166cfe643aafbbbd3767967bce969f741332d7bd1978a79e5634d
+FileChecksum: MD5: bdc81946f146823e9bbf786bccf1e801
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/__main__.py
+SPDXID: SPDXRef-item20188791
+FileChecksum: SHA1: 8d2c8381c450c6137e4c69bf4dfae1cf3713200e
+FileChecksum: SHA256: 1613050492e94ee87aef257e4cbadc065388eebb40b3fdcdca3b099477ee08aa
+FileChecksum: MD5: 90840b7338f7897e8d9f553821ec0b3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/libfp.py
+SPDXID: SPDXRef-item20188792
+FileChecksum: SHA1: 331d8fec7c4a5cf37f3780db367191e839193e38
+FileChecksum: SHA256: 91531c0b80ab7ad05e5e508393fb8ab71335da6d303f9ad8b345688381e3ac48
+FileChecksum: MD5: 897bbfe63eb78b2557f5dcf929567a5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/mpmath/ctx_mp_python.py
+SPDXID: SPDXRef-item20188793
+FileChecksum: SHA1: 6c2fe310eb14704cff14e2771ccc9a6643e2ba81
+FileChecksum: SHA256: 34835b72ea3226436f836620bbbcaa3b950ae7da9a932f52227ba4769f98a9ce
+FileChecksum: MD5: 29fc94a9328576e058cc183f8986c4e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/bessel.rst
+SPDXID: SPDXRef-item20188796
+FileChecksum: SHA1: 89be780e7cb814f3ef97c1a18b320c78bfc704b8
+FileChecksum: SHA256: d85c86c89cc57740cdf31b390d9d6f6887826d43883fa293106c7150ab6b5ce4
+FileChecksum: MD5: fc2bf3ebdc74c7c46c4dc6c128bc2072
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/trigonometric.rst
+SPDXID: SPDXRef-item20188797
+FileChecksum: SHA1: b558f6be8d85f444bd132c64dccb32e0a6d8e095
+FileChecksum: SHA256: de88c9110d34f835db6d27bb315dad50076dde533a2e07d9d19a16f58b8eaf9a
+FileChecksum: MD5: 55510778b1eb6293f708e908772fc6ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/signals.rst
+SPDXID: SPDXRef-item20188798
+FileChecksum: SHA1: a0ffb06ca6189a2f5c03ba3a13fc6b6f061c4278
+FileChecksum: SHA256: 77e6fc477231e5b2b4d9af8c935b392abe819ab74c1e46f0556a5e8944d221d4
+FileChecksum: MD5: b8e68207d769abbc1570f419c035bf99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/hyperbolic.rst
+SPDXID: SPDXRef-item20188799
+FileChecksum: SHA1: 334bd94faf43c85ecf5c40921a01db7e1b196534
+FileChecksum: SHA256: 5ebe324b9c930d5fd5ee6679f11d8fc859e127fdfe74d5e31ac9c68eeb6586dd
+FileChecksum: MD5: c4ca5026524300d29a55034190d39220
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/expintegrals.rst
+SPDXID: SPDXRef-item20188800
+FileChecksum: SHA1: 81f7cef975f0e5f01a0dc1b7575fb6eccab68295
+FileChecksum: SHA256: f30758323f8327183ed06e634535d627befa3d43e45e9e89800bda25892b7a69
+FileChecksum: MD5: f7a2be36bc92539ad70f1afacaff99f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/constants.rst
+SPDXID: SPDXRef-item20188801
+FileChecksum: SHA1: 4727395a4595e549e348bb5ffee4995f1580faa4
+FileChecksum: SHA256: 9cbf9676bc9463d74907fd5877379eca58d5d3757a065fb7c7edaf20e9d504dd
+FileChecksum: MD5: f47ae6917c8475021eb20ae2b6c2980d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/elliptic.rst
+SPDXID: SPDXRef-item20188802
+FileChecksum: SHA1: d928b931e6c01ee6c8ced65199fc10b60f6fdc2e
+FileChecksum: SHA256: 33fc9767c59af88897a2927f6f2969caed714e3b2f4938a6b1876e433e170493
+FileChecksum: MD5: 96c89c03224b7e6b83100b0f4222f82c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/gamma.rst
+SPDXID: SPDXRef-item20188803
+FileChecksum: SHA1: be952208b6f770effc4d3913db2bad467edece96
+FileChecksum: SHA256: 201d3e6d6ca3a0f4dcc3fe261de69cd5e08e7484a41ecb6b176a6e674003b22e
+FileChecksum: MD5: 6693794a2659749b1db6fb85d3c83473
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/zeta.rst
+SPDXID: SPDXRef-item20188804
+FileChecksum: SHA1: 126fa8e8c32e5ca2f07bd5f82c7db90f44d5717c
+FileChecksum: SHA256: 1d99a037e55aed8eb36ba0be6a4c605421ebfe1a875459ea9984a265cceff686
+FileChecksum: MD5: bb7a603e65fab03e1c0f842b7f6f84b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/hypergeometric.rst
+SPDXID: SPDXRef-item20188805
+FileChecksum: SHA1: 262d52ffb551294b10a3fdd4dd7cfbdd882df08e
+FileChecksum: SHA256: c5e8da3eb58c0ef98bfc9b5079ccb56580a4a4ffb375aadd91af8845e2474886
+FileChecksum: MD5: 047671c088f7f20c33e6b5d2dae0f1c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/numtheory.rst
+SPDXID: SPDXRef-item20188806
+FileChecksum: SHA1: 44af6012b32c8b1e8cfdf4617300cfc9f225d92d
+FileChecksum: SHA256: a09de8a219cd485914aa626793aaf95e6083f3bd5926180f347f517d0c212c6b
+FileChecksum: MD5: 1d87e7a3ebb05b28fb8c0875970ffe4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/qfunctions.rst
+SPDXID: SPDXRef-item20188807
+FileChecksum: SHA1: ef4f3d095a3b1c22e7d3efc693f717b8f18c732b
+FileChecksum: SHA256: e4c10383d6df5ff85925088b6bcf41bdc8cf7d905e90aef0f48399684bc255a3
+FileChecksum: MD5: 9a2cd3611467db0fd89fb1659aafd1c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/index.rst
+SPDXID: SPDXRef-item20188808
+FileChecksum: SHA1: 4f30481239768ae9aa8bbbc051f0f2d11d4d9c60
+FileChecksum: SHA256: 5793d52c84a563ca8f07d9a50a5350efaac79321ad91617268a1fff28324341f
+FileChecksum: MD5: a9ba6e53da2205b831095659a9dc7754
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/orthogonal.rst
+SPDXID: SPDXRef-item20188809
+FileChecksum: SHA1: bb65ca2d4aa0ed7c078fe190246b0dd68bb0dda4
+FileChecksum: SHA256: 5829feef8a6606104e720ed19ba65a0b1a43c477cf29d4f06dd6794d2ba1d420
+FileChecksum: MD5: 13a1e781fe73d7ada31a19c9b1f2136b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/functions/powers.rst
+SPDXID: SPDXRef-item20188810
+FileChecksum: SHA1: 69c5a85e9c9a4352374304dfd0de2e1b7f8e6343
+FileChecksum: SHA256: 646bb422887a1343b0a3e5df52a433dd323984472d0ff06eaeb3caae045c4b27
+FileChecksum: MD5: 7c0d1595ce507cc62ca564051987e52b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/calculus/integration.rst
+SPDXID: SPDXRef-item20188812
+FileChecksum: SHA1: 2375361b7b4fd172a8845d2726ac4f2b43fe6626
+FileChecksum: SHA256: 09bfee5cc2cb18adf5ce760f4e33f54bbadf003be75cfc6bf7267dadc2a6266d
+FileChecksum: MD5: d15124a9075ee26850a327f9f9ee4ef6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/calculus/polynomials.rst
+SPDXID: SPDXRef-item20188813
+FileChecksum: SHA1: 58881b4f2f4d77883f1ba10ac18a1b0bc1c7ad35
+FileChecksum: SHA256: a90a23b3645dd94be287ea926f853543e5015cbdd42e29b2a4d98b0537a98b0a
+FileChecksum: MD5: a3d57103b006056ebea60b28df77508f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/calculus/differentiation.rst
+SPDXID: SPDXRef-item20188814
+FileChecksum: SHA1: 6bca9984ece4d416fad5706109eb5aa24ed8b599
+FileChecksum: SHA256: 51d005388ba738acb09901fba1db9aa8267090e76bd6f6828a32039d6efcaea9
+FileChecksum: MD5: 37bbb5790dcd4a3c0c41de4d2afe9b48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/calculus/approximation.rst
+SPDXID: SPDXRef-item20188815
+FileChecksum: SHA1: a31d1087ba7fe709617a8c2e1ee7422ec589543b
+FileChecksum: SHA256: 6d172aec7796ae7bf6e63ef7d265a29108aec4000f65d3b08fb8c4576e9c516d
+FileChecksum: MD5: 93f8b1636de75de5fea5685782881842
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/calculus/optimization.rst
+SPDXID: SPDXRef-item20188816
+FileChecksum: SHA1: aa4ff54c9901058f9463119039b9d7127608b2be
+FileChecksum: SHA256: 8d7c496d37ddef9e6b9661fca4d698f84f8fa1c9ac7035c1bfffc2cd500d3907
+FileChecksum: MD5: 306a75fdcd2259893cbefb09f2b06058
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/calculus/sums_limits.rst
+SPDXID: SPDXRef-item20188817
+FileChecksum: SHA1: d5fc0c6efae65685278ccad33707ec5cbd21cce1
+FileChecksum: SHA256: d0134db2dc840e02b1660ffd3fb0515c171013a6d91ad6ea68cae94d3cca7e56
+FileChecksum: MD5: 79ba1e39daae4b14baeab9e1b75f8984
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/calculus/inverselaplace.rst
+SPDXID: SPDXRef-item20188818
+FileChecksum: SHA1: 9b4943641e6dfdb4f98a68c5b0b97ca32967f862
+FileChecksum: SHA256: 374ef1c48372502e886b55f5ad7976b0ddeb68029f193233dba8995590fb280c
+FileChecksum: MD5: 52a40fef872b7a55c4f8e35ce1c650d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/calculus/odes.rst
+SPDXID: SPDXRef-item20188819
+FileChecksum: SHA1: e996f53d8133a14dd9b8305ca12725631303ef59
+FileChecksum: SHA256: 017d5851c1c07869649abd79e0ccbe0c4b2e1a59a2dce22b139a069cfe4700da
+FileChecksum: MD5: c115e86a525e582a58ab54802ab14c66
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/calculus/index.rst
+SPDXID: SPDXRef-item20188820
+FileChecksum: SHA1: c32cce24ea5db05b3ca38de7f22a30db31b7db9e
+FileChecksum: SHA256: 916fed442f99f05aec43a54b3d9409a16dd86fd2366512d7d54d153f6ffc9c1d
+FileChecksum: MD5: d7c025f00a32180fbb80fe5ee5e7085a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/general.rst
+SPDXID: SPDXRef-item20188821
+FileChecksum: SHA1: 91ca76d71b2b871d14bd2bf18b951ace54dd26c8
+FileChecksum: SHA256: cbda83d97ffb9693eed0a378eb2baf1282d193671583eaa9c008c26757e9fdad
+FileChecksum: MD5: a550a23ff4d283f6c29ebe86e53a4d6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/matrices.rst
+SPDXID: SPDXRef-item20188822
+FileChecksum: SHA1: ae94be4851a242cc68865e03190ce6a1b9a08752
+FileChecksum: SHA256: 51a53f851499a530c21b2749b106252b66f35cd99e49b56684e1fe0971d2ff0c
+FileChecksum: MD5: c3dc7f8f92f7a180e28ed02bc09a13cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/identification.rst
+SPDXID: SPDXRef-item20188823
+FileChecksum: SHA1: bdba4268d876ff1206756152ae5a67398fbc5dce
+FileChecksum: SHA256: 87da1adac8b8840a57e58a05034923bdbfc06ce55ca84040485edaf6c8e91cd2
+FileChecksum: MD5: fd3208bdd68c0ce1c488557c19f4e7f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/technical.rst
+SPDXID: SPDXRef-item20188824
+FileChecksum: SHA1: 016e34b83c4d49f4d14bad37d1b14f9b9b571017
+FileChecksum: SHA256: 4b85a72fff2c7c3dcd7d87f4a44879abfd8dc7e24fcc957b4dd41f078b721eed
+FileChecksum: MD5: 80ebd117331ff5ace6c6cf139f364559
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/genindex.rst
+SPDXID: SPDXRef-item20188825
+FileChecksum: SHA1: 985e25cfd693135015a6342529284fd63f649457
+FileChecksum: SHA256: 096fa5d5feea0f0920cec258f4613af960cd3f72da6e4577df672505e19e37e9
+FileChecksum: MD5: a0bd581995cdbe548dcc7a32cb52e70d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/conf.py
+SPDXID: SPDXRef-item20188826
+FileChecksum: SHA1: 7c5b1b5928d008ff786d7c2f7b96db44235ed927
+FileChecksum: SHA256: d59e49027bedc3a58fe59b02f9eeb624bb8c15beaa4567f61e45233c658be6bc
+FileChecksum: MD5: 3dbf841b8f41c540419d537882d7ceaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> copyright 2007-2026, Fredrik Johansson and mpmath developers </text>
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/basics.rst
+SPDXID: SPDXRef-item20188827
+FileChecksum: SHA1: 799904f2afec0595673077dd0e5b5cbce3dd3dde
+FileChecksum: SHA256: 0f9bf758d685996015a62d42087ad3684140344833802e4247a9de23fb0b7d94
+FileChecksum: MD5: 70b5301b160142498ba0f2c96721ffeb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/references.rst
+SPDXID: SPDXRef-item20188828
+FileChecksum: SHA1: 39d323d9020918ebca41ddee15e7b0f7700fd0b6
+FileChecksum: SHA256: 5aecaa37141851f341bc94b7e48f1d5c4b40b534789087e0155937e51cbd0ed4
+FileChecksum: MD5: 2bb7c1900fd0b20bd9d599b21d9dbb69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/index.rst
+SPDXID: SPDXRef-item20188829
+FileChecksum: SHA1: 2fff065a8e98a7c5a98bfc4e11c329c2b137d59c
+FileChecksum: SHA256: 0467a998dd06306d369970d06ea9a8072c604037a4155f12cbfeeec17826d657
+FileChecksum: MD5: e6e959a505bf484f40468fb59c8b0be9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plotting.rst
+SPDXID: SPDXRef-item20188830
+FileChecksum: SHA1: ea4f430cfbacea86e1364ebd3ee4860561749f23
+FileChecksum: SHA256: 3e3c6e6f077055324efb10f4ae6dc4cd88d1677fbf80909f83b80f9570ecf0b3
+FileChecksum: MD5: e235b69a79b9b723ea42b756fffb7bbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/setup.rst
+SPDXID: SPDXRef-item20188831
+FileChecksum: SHA1: aa445230156db5728314620141abd8f8e4255ebe
+FileChecksum: SHA256: 978ab767a02bc3060b95e23cd259722170beb884a6217f6689964f862e20137e
+FileChecksum: MD5: b1eaceaf377cb3633594810a92a363f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/lommels2.py
+SPDXID: SPDXRef-item20188833
+FileChecksum: SHA1: 743a8bcd519287e09d39e243e0ce5ad86b44adaf
+FileChecksum: SHA256: e952e4903e9a534f518ea7fb70e6478f318a2286a1630d9df73d70708e10ccef
+FileChecksum: MD5: d225568dec589c59186f79f06ef2bd21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/kleinj.py
+SPDXID: SPDXRef-item20188834
+FileChecksum: SHA1: a0ca64c7c48dd62e31dc3a3bf8e894f1c10ae4c2
+FileChecksum: SHA256: 8334ab9556373d564b4470d258dbfd987d5151e38fab7be65b37f1b1949537b9
+FileChecksum: MD5: e67d011707b4233dd3071b4cbcd6fdbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hankel1_c.py
+SPDXID: SPDXRef-item20188835
+FileChecksum: SHA1: a980c80469816fa63a922e229a03077062c6a4ab
+FileChecksum: SHA256: 53061d40daa1e7b62403eb9327fc10b2123982dce7ff97a60658c01448a10114
+FileChecksum: MD5: fcbdae5db9bfb19eda649faf27d2ebf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besselj_c.py
+SPDXID: SPDXRef-item20188836
+FileChecksum: SHA1: 17717a25ad7a341e531bf1d0280ea6b4b3d117c9
+FileChecksum: SHA256: 5603387d15f1a442a34cec9d48ab34fd81d0300e9b81917182753d135abdfce5
+FileChecksum: MD5: 650eeb696b772119a805224ac40c90be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/bi_c.py
+SPDXID: SPDXRef-item20188837
+FileChecksum: SHA1: 95ddc1cdfac2c53afd9d2d40c44fc5420cb80a5a
+FileChecksum: SHA256: e03154d1a77a2c3c32ed4f4fc39646fcb527750a3aeac6a345c2e9b60bb7e1f6
+FileChecksum: MD5: c7515fe568a3e737a859a4aeb496cec5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/coulombf_c.py
+SPDXID: SPDXRef-item20188838
+FileChecksum: SHA1: a4ca6bec2ada226de12b2baab7df632d2e47457c
+FileChecksum: SHA256: eb4a77de4ea819f38440bffbd3809e6143ff427ed8e0add04b817441e3be0dc5
+FileChecksum: MD5: 17e01b6015424678f4ca00ebd6e26aa0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hankel2.py
+SPDXID: SPDXRef-item20188839
+FileChecksum: SHA1: ea3c01a3cb4e1de2af7be23cf5a64403a7926554
+FileChecksum: SHA256: e078d16a06e58b85e2d357aa3089ff7b992ef55d8455a7b0d7c4160e91f64fb3
+FileChecksum: MD5: aad1f9de9642231659bb0a975225a23c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/coulombg_c.py
+SPDXID: SPDXRef-item20188840
+FileChecksum: SHA1: 3026f5b39beebfddfb1e497b22c1bfd718784789
+FileChecksum: SHA256: 257d19136cc4ea27f44d0d8bc2de1d6f2ddd1b4e6348d7757325c387d184f9b8
+FileChecksum: MD5: 781a22db1516a4c75806ed88c2407341
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/coulombf_c.png
+SPDXID: SPDXRef-item20188841
+FileChecksum: SHA1: c70440ba28a17cb413f2ae14414aa89f5d8b5e83
+FileChecksum: SHA256: 26bbeaa5419504695ee38bd5db6bfc5490e4961edcfd7a94c96cabae64232360
+FileChecksum: MD5: 6e83fe882d58fb0a838f031ddc4121f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/bi.py
+SPDXID: SPDXRef-item20188842
+FileChecksum: SHA1: 0045d972e2e0307962f436c4afb9680888df17d1
+FileChecksum: SHA256: 9ec76b82098353665243e7cf55f42aba43d74ca2a59143236fa031fe7abe2610
+FileChecksum: MD5: 1d91980828fff79314c43d42700ffa71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/pcfd.png
+SPDXID: SPDXRef-item20188843
+FileChecksum: SHA1: b817bb8618defd172dc2d3bc48a8090bcc8cdb78
+FileChecksum: SHA256: cefd508bf10cb594f6f8f6f8ceeff04fdcd4361e103e200a93f6bcccbae572ca
+FileChecksum: MD5: c7d20c0ac96febebe54f377825b430eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hankel1.png
+SPDXID: SPDXRef-item20188844
+FileChecksum: SHA1: cf1d95ce303a99fc9016b552d956a02e8c98fd04
+FileChecksum: SHA256: a55f785363b7e6a6768bccfaf090e5b161ea6516ad4ce6eec87fd47181d4ba6e
+FileChecksum: MD5: 448937503e19abd94a50e90ed77f7ab9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ellipe.png
+SPDXID: SPDXRef-item20188845
+FileChecksum: SHA1: 3f7b16fdf0f0bdefaf165669fcfbf52dd10dbcda
+FileChecksum: SHA256: 86aca30bb730bacee81bb041076c7752867c90390a38e9a983a12ca138b61dbd
+FileChecksum: MD5: 5eedab5a2481f7343314676093f9968d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm41.py
+SPDXID: SPDXRef-item20188846
+FileChecksum: SHA1: 760abbfbd198de136bb210d98df6210a809e5a0e
+FileChecksum: SHA256: c3733eace65cb21a4cfa4355b502508a0dc056b1729435c5243723282fce3a40
+FileChecksum: MD5: cdeb3a86f4238ba13c5a400542f72cff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm43.png
+SPDXID: SPDXRef-item20188847
+FileChecksum: SHA1: 3de628320ac09f6984b03f8d95cee64adc186f54
+FileChecksum: SHA256: 0c389043a5c015e476c330d0ccdb4a7ffa414655eebcd1aabbf37b4e0373e439
+FileChecksum: MD5: 1884670c77834bf7450d1fb241bfb7e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/legendre.png
+SPDXID: SPDXRef-item20188848
+FileChecksum: SHA1: 3686bc76fe1cedb81e5f4d7d3217813771166a16
+FileChecksum: SHA256: cda270b03ff1bc84ed243b0c45b041d6138b30a31d4236d7c20ea00ff4da6119
+FileChecksum: MD5: e7d1319764aa237befa8c129a87c359e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ai_c.png
+SPDXID: SPDXRef-item20188849
+FileChecksum: SHA1: cc1dec5afc772f63b759a2c7e58de005a0cd95af
+FileChecksum: SHA256: 677e2f583695e9aceca35191ae13224a37684af8c9cab24de88ca19fd524586f
+FileChecksum: MD5: 63f4b7e17996b2f7f92491338794bf4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/kleinj2.png
+SPDXID: SPDXRef-item20188850
+FileChecksum: SHA1: dfefa1961f855a619d2218c7d4cdd5dfd60008e7
+FileChecksum: SHA256: 185b336d9fc05ad3718b2d173ddd6f6fee6d43783d4c38b780c1cfda9919d3ec
+FileChecksum: MD5: c0b97eab2929ba74e1da1abd21222a4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/coulombg.py
+SPDXID: SPDXRef-item20188851
+FileChecksum: SHA1: 2d3ab4f155cc84b601cf57b491905f15b6091f28
+FileChecksum: SHA256: 8fbb43fa0c72b562f5571a5eb660852799095e6fcd88a0e6967671d65d032542
+FileChecksum: MD5: cc887bc7e567726e111c73cb6c922b17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ai.py
+SPDXID: SPDXRef-item20188852
+FileChecksum: SHA1: 87ea64955003f36298282cddc2f058ec3c5865e9
+FileChecksum: SHA256: 84cde7e8e623384f0141924afcc7b8698a5600bc1de767410cea8aff8362ff3d
+FileChecksum: MD5: f7df1bccaa2a739ef912699cdbc19e01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm44.png
+SPDXID: SPDXRef-item20188853
+FileChecksum: SHA1: cd045dc9d2445d7f5e0b4f9bbb8a5aa9e0ab94e0
+FileChecksum: SHA256: 55274ad93355a05ad0f611218f172f407eff8278a312ccfdc3e15885d34ce1da
+FileChecksum: MD5: 48dd08f0a79adccd6050028750d2580c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/chebyu.py
+SPDXID: SPDXRef-item20188854
+FileChecksum: SHA1: 4ecb5e8a7f54cc8a5edbc27d13c514bc0356c328
+FileChecksum: SHA256: 194488dea6f23ea700805d48c91d68d112ece184ec55a57a3c903b8ad4e7adc6
+FileChecksum: MD5: ec5779704d28fa317002d813f3a6f20e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/bi.png
+SPDXID: SPDXRef-item20188855
+FileChecksum: SHA1: 86290879abb76e02b4baa047f0188349aac94b5d
+FileChecksum: SHA256: e1723e036e5814b1ac9c56c7fd9b2be69e7ec086c45b6c045e5493deeb5ab9b5
+FileChecksum: MD5: 844e9f23facae16883f0bc2cb90f0d40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besselj.py
+SPDXID: SPDXRef-item20188856
+FileChecksum: SHA1: 479e3e6ec8e0a77025e4bfcdb0ac1bdf85b570c5
+FileChecksum: SHA256: b4f7d9062b86acc7001c473b6d5d1c0a939e7ea6cfa1cf28d2fa64166fa9c4cc
+FileChecksum: MD5: c6e9529435e4f04611e252c4a500e4f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/lambertw_c.png
+SPDXID: SPDXRef-item20188857
+FileChecksum: SHA1: 8065ee663a86d5239c56383c8a262a903cc84142
+FileChecksum: SHA256: e077f9f49eec93d787eb494d09f16826d536b5b16f9c04708a88ad74367b73a5
+FileChecksum: MD5: fbc0fd4c793e3faedf28e1a7e076c57b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besselk.py
+SPDXID: SPDXRef-item20188858
+FileChecksum: SHA1: 58b9ad810a900838f0c3773a7a7ce706dfceb899
+FileChecksum: SHA256: 4d191516a6629a84cc6f8f09f274b8350a3ce3d59c551aa0eb5c9d91952cc480
+FileChecksum: MD5: 7f04a42f6525b9c3b16d9db5d04bea64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besseli_c.py
+SPDXID: SPDXRef-item20188859
+FileChecksum: SHA1: db78ff6491783d486778aa23a1ae34c3268d9e71
+FileChecksum: SHA256: 7006a3730be86cf550b2e747ba45414ac713930ec8b8163c34dcacff71472630
+FileChecksum: MD5: c0f1c4ffe429c3348c11535bb89ddb98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ai_c.py
+SPDXID: SPDXRef-item20188860
+FileChecksum: SHA1: 562ce43b20fb5c06062cb7ed7dc6ed44cf4a5f10
+FileChecksum: SHA256: a1ce7514283b7aa7b041d64212776ff60a1759d1cc7a68bb07880808ebfcb4c9
+FileChecksum: MD5: 46c1c04c1d5f859cf93ecd443ef08a8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ker.py
+SPDXID: SPDXRef-item20188861
+FileChecksum: SHA1: f1fcb536fdbf2693a0eb46cb73ea967471ddb63f
+FileChecksum: SHA256: 478715db5d9f5f21952372470e7797b67b8e573727ac7b273dfd601f1fe39993
+FileChecksum: MD5: 07886ba19a0e502fdfdaea665f6f2f2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besselk_c.png
+SPDXID: SPDXRef-item20188862
+FileChecksum: SHA1: 7cbff757fa76d55b943dadd7d89492e891660edf
+FileChecksum: SHA256: ba9f5f9ccd5f9fbc88b9cb0254e85ed0c7bcd09fc0fcf2b0f70c7f0ef698a732
+FileChecksum: MD5: 0b9ed7b581daddfc5fe954acd25b1a6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hankel2_c.py
+SPDXID: SPDXRef-item20188863
+FileChecksum: SHA1: 97fbb2110987373568dfa35a5d6cb753944cff8c
+FileChecksum: SHA256: e4ef949b2208e4386f9b4ea7f19db8d3cc4d83edaa33cbe5a3e6e9ee65708196
+FileChecksum: MD5: 78fb4150efa062df31549f26109dd8b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besseli_c.png
+SPDXID: SPDXRef-item20188864
+FileChecksum: SHA1: 3e5a01953789768b1e9f7fc295c631d3362792e2
+FileChecksum: SHA256: e3a5c68573653d01614e24f08ff532262f0625d6404f78f489d1f4e131e680db
+FileChecksum: MD5: 4c4a61315cddf85771af5ae38a9bed7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/bi_c.png
+SPDXID: SPDXRef-item20188865
+FileChecksum: SHA1: 8e2aba4dd248776b5151b4a758d82098664badc3
+FileChecksum: SHA256: e1b442d422fddd54df8f7a71e6cfd55a9f8b0d5f9e2261689bc09cd11e66edf9
+FileChecksum: MD5: fc0df3893937b1a09709400cbe4b2308
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/bessely.png
+SPDXID: SPDXRef-item20188866
+FileChecksum: SHA1: d73e74163643e4631ea93040868eb75698f80175
+FileChecksum: SHA256: 448be5029a68127b86d7cf6bab8c8278fcc92a566f2bba088d88786dc83d5714
+FileChecksum: MD5: f3411889f0146be2457f41993ececcc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm40.py
+SPDXID: SPDXRef-item20188867
+FileChecksum: SHA1: f8406f28292d06d3e1728db6806fce020fea13b2
+FileChecksum: SHA256: 8ce110782d3d0f762bd5e9722a4034f2d5d9825ceeaed38cbe56a337d8e23814
+FileChecksum: MD5: 91a9577157df2fc87c870a48bd8c4c36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besselk_c.py
+SPDXID: SPDXRef-item20188868
+FileChecksum: SHA1: f896af584a7ed523807e1f2dfcb616ac9dafa635
+FileChecksum: SHA256: 2e4b2739972689e7549345a2591210ddedf984fba590c22a389e8b1860761371
+FileChecksum: MD5: 4efe75756433d6dc274b3c820b138096
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hankel2_c.png
+SPDXID: SPDXRef-item20188869
+FileChecksum: SHA1: ca905666fecf7b44bc968110a06510ce599c6426
+FileChecksum: SHA256: a523d9f75782a27488ed4afdc64b25f538bee015886a22d42dd29ba8909c4f35
+FileChecksum: MD5: 5dd65747b111a4fe71226168cdd77305
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/chebyt.png
+SPDXID: SPDXRef-item20188870
+FileChecksum: SHA1: ac2f5a17c97a1ed0bab9885be2b937703f40fae1
+FileChecksum: SHA256: c56862906d4bb54d4c124f5a2edbb833fbf48309cd2a8761fdf760c06439928a
+FileChecksum: MD5: 40d2d735a0ec8d54547919f197a8de29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hankel1.py
+SPDXID: SPDXRef-item20188871
+FileChecksum: SHA1: 253ae640c91d7df314d0787e94bed2bc1a8c2190
+FileChecksum: SHA256: d4f3bcb3c3c7609a177a5aac947fcd1475d7ede511602191e08762e1bdb9e46a
+FileChecksum: MD5: c88be7adb545e83362a5dcbf24ac593e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/bessely.py
+SPDXID: SPDXRef-item20188872
+FileChecksum: SHA1: 05036d6cc1cd7ee98eccbf91a669a7211f57a41d
+FileChecksum: SHA256: 4b468eaf2d0fce6f7f0e833411ce102ce9c59cc106734d2621fbed11dc424e9b
+FileChecksum: MD5: d38c04d12f5ba4342f4c83874ee60c75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/kleinj.png
+SPDXID: SPDXRef-item20188873
+FileChecksum: SHA1: a8cd731b7b97766348e776ec14635c1610615054
+FileChecksum: SHA256: 44d364f03a2ca1b078dceebd9a562b864dca36c855c9484fed61d3be3c5d8c3f
+FileChecksum: MD5: 77b2fe884d01d5f052be2c336fe7d66c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hi_c.png
+SPDXID: SPDXRef-item20188874
+FileChecksum: SHA1: 29de429e080a10f438e331bb26a611b94b761dc0
+FileChecksum: SHA256: 81b4fc0db1f01f70daebcbb3a9dedd39085de3213d53e63377b17ab90d32bf75
+FileChecksum: MD5: b86ce6561d3280a56fd4147c6b90f1c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/coulombg.png
+SPDXID: SPDXRef-item20188875
+FileChecksum: SHA1: ffc729e4c482b4dcce2c5101ce18669f661d1731
+FileChecksum: SHA256: c7fc352a2fc68e606bfeff83aa0c10a959a889c043916ed183d544060c991866
+FileChecksum: MD5: 7407a2a6c94cc88f4309ddd06749fe25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/coulombf.py
+SPDXID: SPDXRef-item20188876
+FileChecksum: SHA1: f968e996f013588ba0295898dcf1e38525751a95
+FileChecksum: SHA256: 8d54923ef9330824b6c51f6e5afc9f722138e1d1d582a8f2a100691c6af72344
+FileChecksum: MD5: de437c4f7d79cf826110b91ff2661537
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/lommels1.py
+SPDXID: SPDXRef-item20188877
+FileChecksum: SHA1: 97320966a50cc5329e2d469fd40a713044a08364
+FileChecksum: SHA256: e07e05356772b763e68a59a98a4555b34b90a05b3c4eda1ba63de6b350479752
+FileChecksum: MD5: b048431b16840a2ed8324703e7a4d90a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/chebyt.py
+SPDXID: SPDXRef-item20188878
+FileChecksum: SHA1: 721df3fb7f2298311cdaecf9f76baef498907e41
+FileChecksum: SHA256: 86284dd1bc5d91f4d9d82bcdc985d25c7cdf5ee7490c3dd3790070886e2f909e
+FileChecksum: MD5: cca9cdcb2cf2bea1fe5f2e1d53194760
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/bessely_c.png
+SPDXID: SPDXRef-item20188879
+FileChecksum: SHA1: 643b77c238ca951e1ea6ed06a74351d347c9b7b6
+FileChecksum: SHA256: 95001ea7ad0eb97363ec8d980ffa7a67ad88009287c37b00b961312779a5b722
+FileChecksum: MD5: ac8010cd540d9492e85b02f8e87806da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/legendre.py
+SPDXID: SPDXRef-item20188880
+FileChecksum: SHA1: fbdbded9bd59eec0929da074f5659255cf37c11a
+FileChecksum: SHA256: b5c60907516f6fedc7a6d82c88099abf60c0a53cebaa189d5ace5acf6ddc2aff
+FileChecksum: MD5: a4dc9892c322cf2103a3841778a6d5c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ellippi.py
+SPDXID: SPDXRef-item20188881
+FileChecksum: SHA1: ef48525f4adec7dee17a801cccb09851c7b24466
+FileChecksum: SHA256: c921d2388fd7f5f081bd6f4828bc95c84b466519dd50ea247a1cb25d9df20e8f
+FileChecksum: MD5: f3cd386a5ea1676b89b0d513de589bc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ellippi.png
+SPDXID: SPDXRef-item20188882
+FileChecksum: SHA1: 4cdc0fc36b2dc5464077850cb99d9472bb20e97a
+FileChecksum: SHA256: 793d5bda46271c2d756772900f90a1485823218d948c51bb69e003da281b19c1
+FileChecksum: MD5: 96034d1dd78e5570fd8948307b48ac7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/lambertw.png
+SPDXID: SPDXRef-item20188883
+FileChecksum: SHA1: 84b6750e4f06de691f66796f30bac17fbca979ba
+FileChecksum: SHA256: e7b76fc3a2adbf4ff162f01c005b2ebc7a902d7d9e6522876fd1bb3b8f2a2e6c
+FileChecksum: MD5: 67374c233991e1be65b5d969dea16348
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ellipk.py
+SPDXID: SPDXRef-item20188884
+FileChecksum: SHA1: 9bd6c73af031c7f71adc252bd4de21039d0c331c
+FileChecksum: SHA256: 894f82c32236b46406a159eabe3d8ae883cf9e18cfabb1577c43536ff073f238
+FileChecksum: MD5: 83900b1f2e3851f8f57484b046d951fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm42.png
+SPDXID: SPDXRef-item20188885
+FileChecksum: SHA1: 4e91ed981128319be5a9e3816466462bd504c09c
+FileChecksum: SHA256: 87425bc1ade25c39b87023a0093a86f41ef8aee388241788f33dff8f657a9e7b
+FileChecksum: MD5: a27a9448e855b58c2c6cf0da82cab83f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ai.png
+SPDXID: SPDXRef-item20188886
+FileChecksum: SHA1: 407fbe4060072fadadcab6e399b8d2d433cfdbcc
+FileChecksum: SHA256: 7f1536f7ad8689549fab77a6c631669e2e2a49f1e1a23b7fa90b79b1f01227e7
+FileChecksum: MD5: b14752981ddaf68110366048b6f3131c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besselk.png
+SPDXID: SPDXRef-item20188887
+FileChecksum: SHA1: 20ec676c5370acea6343496ad223ea25e3440d58
+FileChecksum: SHA256: b4b7d51f1fa4d13c5e2c804d8a4f527e064b9037103e197f367d1cef0aafa06b
+FileChecksum: MD5: 17b35f66e5d7f4b6a9ae65bb088f630a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hankel2.png
+SPDXID: SPDXRef-item20188888
+FileChecksum: SHA1: 857a198b3b669fb5d0f297da9dc00b2b121aaeec
+FileChecksum: SHA256: 55ff94eb3765f8c3d47e096c1af4c6e645256de2e654dfc4bca293db7ec46a45
+FileChecksum: MD5: 45eef7ef7dac402ccc731a71eead2881
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/coulombg_c.png
+SPDXID: SPDXRef-item20188889
+FileChecksum: SHA1: 40d179eff399aa13eb49de05dd147b1e2fe4861f
+FileChecksum: SHA256: 5c258a9a4853e6c56c6375aaa885375535d108d5fe50e349cb1b8854b4113496
+FileChecksum: MD5: ae8205b3207c48599c48f74326cc5d57
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/pcfd.py
+SPDXID: SPDXRef-item20188890
+FileChecksum: SHA1: 106e7cbee1df9e76b75d73ba881881f0c5ad27ac
+FileChecksum: SHA256: 569142021e5112365a9569b7eb9a45008ade885a6fd4846a94ede6c96e4cb4a8
+FileChecksum: MD5: 32e873565256867646fbc7f1b3b28235
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/gi.png
+SPDXID: SPDXRef-item20188891
+FileChecksum: SHA1: a4f50beca873b8ba76326c0c71057f00efebdaa4
+FileChecksum: SHA256: ce5282e0fc9de809c33c724f5e2c1417f7344b7bdae34dbc10a87c862da6a2c3
+FileChecksum: MD5: 8c58bebcfb74473b51a58b50511de94f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/lambertw_c.py
+SPDXID: SPDXRef-item20188892
+FileChecksum: SHA1: 678d99bf2809f6054e400cdd6252ddfc557ca4ab
+FileChecksum: SHA256: 6b7d17857872f56982290dd7db5c79a5ba9a06fa2acf066635b5ae2d3ecba2ba
+FileChecksum: MD5: 065e2cc765aa577d3ee2e1200f56a0b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besseli.png
+SPDXID: SPDXRef-item20188893
+FileChecksum: SHA1: f18ceff997fffdb0e6b2fa23b8bd86f93b2be753
+FileChecksum: SHA256: 6543324f0988a8b119a470cd943b7ee8553dcb551964a6ddc77242ee28f6e372
+FileChecksum: MD5: 4d59323386665794a82be4be36f9f78c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hi.png
+SPDXID: SPDXRef-item20188894
+FileChecksum: SHA1: 774af9b57a210af483e0655028588a099b4f05ae
+FileChecksum: SHA256: 3dd5517f973867fdcd2962bd7b4a14791847f47c223291ef694def9cb0116962
+FileChecksum: MD5: 9238f2cbb378b061a5903d8e5f864842
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/laguerre.py
+SPDXID: SPDXRef-item20188895
+FileChecksum: SHA1: 44ec5fff53b5d6fcb827bec311692fec0675c6f8
+FileChecksum: SHA256: e06103670d73d35d053619255d3f9e8114ab24c6d71f65293e84ff191b0f2345
+FileChecksum: MD5: bff5694afa8fcab8f78b20e4160d606f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/buildplots.py
+SPDXID: SPDXRef-item20188896
+FileChecksum: SHA1: 4a725630eed6299d1312ef88a7d22916a92d762f
+FileChecksum: SHA256: 405f5f1090616942debd055f2034f2ecd36f3c1a0e7d0ae87afaf0a45f7e2cf7
+FileChecksum: MD5: 5f71052c279c0ce15f827720cd19b96e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm43.py
+SPDXID: SPDXRef-item20188897
+FileChecksum: SHA1: 7c4c7a1a5c30c7ea9270d97a611bc890605b3b2e
+FileChecksum: SHA256: 48b5fdf784861a9721dee91c956e751920d93ea62da25642645a5ca53408faa4
+FileChecksum: MD5: 2d888454b0deee2ad03b9f1edf2e2cdb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/chebyu.png
+SPDXID: SPDXRef-item20188898
+FileChecksum: SHA1: fa61ec5df6e54528537571ef3fc4d094bc299e53
+FileChecksum: SHA256: 62f621d30441f8f958777e55300668d9892a88341fd6d54a065816b95079e2c2
+FileChecksum: MD5: b6e27e878a1c167c093d20acec8cf45d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/laguerre.png
+SPDXID: SPDXRef-item20188899
+FileChecksum: SHA1: ad3b16bdb2bb2017b8b94a16663d0004f1c95372
+FileChecksum: SHA256: d32c0abe4cc8a31b4b0ff7f369dfd2472715cfca19f94d5b51117787e9e5d84a
+FileChecksum: MD5: 54c5b77bf270ed5273a7a0be6d402da6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm44.py
+SPDXID: SPDXRef-item20188900
+FileChecksum: SHA1: 19249c5df24b9d7839559db1e5662cd593aef383
+FileChecksum: SHA256: d7da0d2b0d9f268699e0983f4b1417f9d66403d1ee50161a0d58cf599bf4e09a
+FileChecksum: MD5: c40b489ce1f93b1333c03aeb1ff39101
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ellipf.py
+SPDXID: SPDXRef-item20188901
+FileChecksum: SHA1: 9949dc23890a4ac361f3315ac02ffa7d0f5c4f77
+FileChecksum: SHA256: c4d896e463f5fb36f9b529ad3611505c17cf7c26f26818c09bee960644878b04
+FileChecksum: MD5: 5ea7c2be5253d44d4a0015399ed92b18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/kleinj2.py
+SPDXID: SPDXRef-item20188902
+FileChecksum: SHA1: 030436f4233fe8ae31bf38ab8e018a8d72377d20
+FileChecksum: SHA256: 744b00762fe4a0d2c1541b509bdc7a26deb573c8f13edde86cdbe31dbcfad811
+FileChecksum: MD5: 1d454efccadf75d027b21529fe60f335
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hi.py
+SPDXID: SPDXRef-item20188903
+FileChecksum: SHA1: 24455cf15e195a78a371ec979cc495eafc7c7cec
+FileChecksum: SHA256: 781891c8cb891b4cb6314ca5ceb78d91bbf61a5e3b7e392b3061975f455032fa
+FileChecksum: MD5: 2f8885377bc527b521a9c184d3cdb937
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/bessely_c.py
+SPDXID: SPDXRef-item20188904
+FileChecksum: SHA1: a8e19799daa9d53b025c312d20c07e1a383d8e9d
+FileChecksum: SHA256: a1eb0f953f1c1c643141cc9687e4eb5c7cef8b72beca69562ccd3689e69a7894
+FileChecksum: MD5: 4bf300a979e77efb715eca956ec77883
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/gi.py
+SPDXID: SPDXRef-item20188905
+FileChecksum: SHA1: 9ff396376f394e26239c1bddce6cc62f87265225
+FileChecksum: SHA256: 9d748a8276177ded77cad5bd255f67b0d7f24825393c2c3ed4d7b9b80cc06527
+FileChecksum: MD5: a4bd6dbe283355118d1ce9b9d2c08d06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/gi_c.py
+SPDXID: SPDXRef-item20188906
+FileChecksum: SHA1: abb93d6d7cac7265500b4f74869e6b650bda6070
+FileChecksum: SHA256: d79101b0104817c836fac4e1747536bad8e771d6023f573ed4b5ccd2b25fa1dc
+FileChecksum: MD5: 6e1eb695e0dc69a78ff1fd43b66b8eb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/coulombf.png
+SPDXID: SPDXRef-item20188907
+FileChecksum: SHA1: 36a307a9760be33d6ae183b10bffa1a31e6de467
+FileChecksum: SHA256: 32fdbffd4945ca3a8d2d5a969ba9de9109efadfd127bbf7e90a992b7a7c6419a
+FileChecksum: MD5: ea6dbbdead2016db9fa06009ffec2ef7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ellipk.png
+SPDXID: SPDXRef-item20188908
+FileChecksum: SHA1: 52233967a8d8d43fdc68ab0f07dbe38d12c18d49
+FileChecksum: SHA256: c3f3334947f527cacd4844f2822930a738b80fdd6d7e690f780bd16d28c7483f
+FileChecksum: MD5: 2cf3be65e03b4949b39a8a6e1e3e5a61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hermite.png
+SPDXID: SPDXRef-item20188909
+FileChecksum: SHA1: c2f130fa8851fc6c579f5531a9a646ed1cd9884e
+FileChecksum: SHA256: 09585cc6c7c7bc785efac5c581c51d20b0d472da06a71c5bb4640ed6d7b57d11
+FileChecksum: MD5: c7ba28ddd3bd0380db03cb4994b5c526
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/gi_c.png
+SPDXID: SPDXRef-item20188910
+FileChecksum: SHA1: 643266cb5795c2732e5778d439ba051e855a18ca
+FileChecksum: SHA256: ad3c232eff27685bfde5d8158a4041fb4d1cac4237ad25872ddf9914b09768c6
+FileChecksum: MD5: 46e1df046cd69512add45f5ef356962c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hi_c.py
+SPDXID: SPDXRef-item20188911
+FileChecksum: SHA1: 1a0e0fbba283d836984d8c5f54a559087f98cb21
+FileChecksum: SHA256: c931a9c74117b4049e4c95c2b46f8c57c4bb943781b984ba37c878ba2bdd2bbd
+FileChecksum: MD5: 7c8b550e445649bf11ffff0edcbc7094
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ellipf.png
+SPDXID: SPDXRef-item20188912
+FileChecksum: SHA1: 4f255743d49c5871537ddff62f70c71eb9be60b0
+FileChecksum: SHA256: 76a8d5db306f4419f19c516c2a73e8fbc5f98e957d94f7d4e6c0e5a32eaa44bb
+FileChecksum: MD5: fd08646f7c7f1638459d62ff9f905d1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ber.png
+SPDXID: SPDXRef-item20188913
+FileChecksum: SHA1: ab1c4069cafb863d3bc02aa64e092bc740c7d52e
+FileChecksum: SHA256: e5f9c5dccaa114381ea2877d6ca24bef767ddb67709e030039394bc42348b79f
+FileChecksum: MD5: deb11d6c7d46535363d066dabf4ccdb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ker.png
+SPDXID: SPDXRef-item20188914
+FileChecksum: SHA1: f9deed1805d49be940058f46578aa9445ecfda93
+FileChecksum: SHA256: 3b74e18c2c43ae53ba27339255d45752c5a312c84cee7dd8fef171ac8b7628f3
+FileChecksum: MD5: cd3a9e910f1ab0b35b086629849f71a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ber.py
+SPDXID: SPDXRef-item20188915
+FileChecksum: SHA1: 2d737c16a0d4d2d87b0609c87700a31566430ec0
+FileChecksum: SHA256: 0293dea77a37fd897fc354bee48a058a0d6f6f47d117424da44f7cd654c55e80
+FileChecksum: MD5: 47b17d2a2ecfce8a659e5baba683c4b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm41.png
+SPDXID: SPDXRef-item20188916
+FileChecksum: SHA1: 546399eba314272ac60cbb7a02ba777097e0d07e
+FileChecksum: SHA256: ded402c60f0da4b178e4b576baada1d510f1f34d2a6e531ddc25731398571916
+FileChecksum: MD5: 6080f0f132ab594ef3fdc0c909d593e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm40.png
+SPDXID: SPDXRef-item20188917
+FileChecksum: SHA1: b51fec8ed3c14f156945f6bff9c0b7a3dfc43a1b
+FileChecksum: SHA256: d98b2204d78b912d90c8d092d2d4d7409e50820ccbd08a05b62de6e75a6857b5
+FileChecksum: MD5: 6409292f84288d2d418dea4ff375a73b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besselj_c.png
+SPDXID: SPDXRef-item20188918
+FileChecksum: SHA1: a3fd9d0c9418a89123e696d7e9c75423e8d45f34
+FileChecksum: SHA256: 4a9eb6a313b60310ff5e6c09a57abd67feda3d28b3f25b262a6f61850cc81de6
+FileChecksum: MD5: 4f17fc144aa392976a927918d93fd037
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/ellipe.py
+SPDXID: SPDXRef-item20188919
+FileChecksum: SHA1: 266b408f5a2e625b6a84bb605cf239f783dc8b00
+FileChecksum: SHA256: 300d7447bdea72ccfdd43aa3d5fa3ab0fd66b0fd336e9ffb6650bffbbd3eaaff
+FileChecksum: MD5: 6f2b3e31b0212b7c6fea36c81ac2eba2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/lambertw.py
+SPDXID: SPDXRef-item20188920
+FileChecksum: SHA1: f24cca00e0df94918aa34629e4a5ef639cb9deab
+FileChecksum: SHA256: bde075923990d2e7cbd2de5a5ae020742ef6f9a82dd03fe6bc1076cbc63c8982
+FileChecksum: MD5: e413f264428416b01aeb8374807a2bcd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/lommels1.png
+SPDXID: SPDXRef-item20188921
+FileChecksum: SHA1: 382a531632e91044d3f1f694b1590b9c0e038d74
+FileChecksum: SHA256: e766898eb22a4500d81f7dd632d64a7b60b2b64ec3f437eafccf4fd29a22478e
+FileChecksum: MD5: f97cd6ae1cd1b6b851e623a00b6d1732
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hankel1_c.png
+SPDXID: SPDXRef-item20188922
+FileChecksum: SHA1: f4d008a76244f3bebd9afc423fba4e6021dcb377
+FileChecksum: SHA256: 9fc5e67138b5113c0c7f7077312a0dc5699139f00f6421346d3d4ee03eca0424
+FileChecksum: MD5: 72af348ad1dcfd626bdaf4429dedb944
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/spherharm42.py
+SPDXID: SPDXRef-item20188923
+FileChecksum: SHA1: dac7ce1e42a0a52772adb7b56e547e00f54ebc08
+FileChecksum: SHA256: 1f50ce899332ff8e60925a22ada46fdab98e623c528fa12a8df8b78ca7c9ab9e
+FileChecksum: MD5: 24f9b4ad078cc8e8cadf0b2061bc97c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besseli.py
+SPDXID: SPDXRef-item20188924
+FileChecksum: SHA1: 4ca6ee03751551ba2a8dd55aad696436f91c462b
+FileChecksum: SHA256: 59d664aa99bd7eada2aefba46a5dc28c578eba631d462bde11b5fb956c168602
+FileChecksum: MD5: 013b45c95b7b8a6713faa670e29cee91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/besselj.png
+SPDXID: SPDXRef-item20188925
+FileChecksum: SHA1: 2affdd8964aa6f8c35246e66c0715b7a43fc2c7c
+FileChecksum: SHA256: 27e6af7d82417333ec0d865062730103f6425a1794da38e84e1c8906cfd6b512
+FileChecksum: MD5: 4e228b15cf7b5ae43256df8f628b4aca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/hermite.py
+SPDXID: SPDXRef-item20188926
+FileChecksum: SHA1: 8edb806629396a80ea915d3b5f710fcf7fbaeb1e
+FileChecksum: SHA256: 34329a9fc56876560908a1a2f0a2103b6c6c4e3062ee490024492cfffe902482
+FileChecksum: MD5: 5dc24f97b3d58d67dafc980f181976ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/plots/lommels2.png
+SPDXID: SPDXRef-item20188927
+FileChecksum: SHA1: 364c8f0fe264db0c3cca7ff88c635ed01b81ebcd
+FileChecksum: SHA256: 5c67366239b844e0e6959815cbe32bf2cc70b0dcdd63b669cf68577a9448d5f2
+FileChecksum: MD5: 5061f8f0ce3288ddccb98616ac89c629
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/contexts.rst
+SPDXID: SPDXRef-item20188928
+FileChecksum: SHA1: 9e5d3a8255d6ab5b4d36d02aeff743a2eb41bc5b
+FileChecksum: SHA256: dfce28f996f523492e7c198e6e38477f97fb4b8bbaf4ff049de8dc3919703287
+FileChecksum: MD5: d8553d33faca3c818518833b428c0d0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/docs/cli.rst
+SPDXID: SPDXRef-item20188929
+FileChecksum: SHA1: 9ecf7a9ba0c9d873293ff61bea8635f4441ead54
+FileChecksum: SHA256: be681f34e2d6bd224e96380c362dc7296b2b0a011e2ce89e7ea2d82d5a38b3d0
+FileChecksum: MD5: 978013753f9d3b5b7e9cbaa0ddf29aae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: mpmath-1.4.1.tar.gz/mpmath-1.4.1.tar/mpmath-1.4.1/.gitignore
+SPDXID: SPDXRef-item20188930
+FileChecksum: SHA1: 0926680000bfbe9b28f32c976857ad1983ba3099
+FileChecksum: SHA256: cd5754908de1e8baf995a5b31ce2cc2167b2b20f88199f146e757be5b244016e
+FileChecksum: MD5: cb589816841ff9e447c41a1cc77d2e32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+  
+LicenseID: LicenseRef-CC0-1.0
+LicenseName: Creative Commons Zero v1.0 Universal
+ExtractedText: <text> Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+ </text>
+
+  
+
+LicenseID: LicenseRef-BSD-3-Clause-9be75eed59bde368a33ef8173f45579a
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+a. Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+b. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+c. Neither the name of the copyright holder nor the names of its
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE. </text>
+
+
+  
+LicenseID: LicenseRef-BSD-3-Clause
+LicenseName: BSD 3-Clause "New" or "Revised" License
+ExtractedText: <text> Copyright (c) <year> <owner>. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ </text>
+
+
+
+LicenseID: LicenseRef-BSD-possibility
+LicenseName: BSD-possibility
+ExtractedText: <text> License by Nomos. </text>
+
+
+
+LicenseID: LicenseRef-BSD
+LicenseName: BSD
+ExtractedText: <text> BSD is referenced without a version number. Please look up BSD in the License Admin to view the different versions. </text>
+
