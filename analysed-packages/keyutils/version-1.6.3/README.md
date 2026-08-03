@@ -18,3 +18,5 @@ The information was reviewed by:
 
 ## Comment
 
+Please note that if you try to download the package via browser you will recieve a 403 Error (forbidden). You need to download the package via: 
+wget https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/snapshot/keyutils-1.6.3.tar.gz
